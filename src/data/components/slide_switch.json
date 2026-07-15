@@ -1,0 +1,91 @@
+{
+    "id": "slide_switch",
+    "name": "Slide Switch",
+    "category": "Miscellaneous",
+    "short_description": "A sliding button switch used to connect or disconnect power or select circuit modes.",
+    "difficulty": "Beginner",
+    "common_uses": "Battery power switches in toys, multi-channel mode selectors, handheld instruments.",
+    "quick_facts": {
+        "symbol": "SW_SLI",
+        "unit": "State (On/Off)",
+        "formula": "Sliding contact latch",
+        "passive_active": "Passive",
+        "polarized": "No",
+        "typical_voltage": "12V to 30V DC",
+        "typical_current": "100mA to 500mA (standard sub-miniature)",
+        "operating_frequency": "DC"
+    },
+    "specifications": [
+        {
+            "parameter": "Configuration",
+            "value": "SPDT",
+            "notes": "Single-Pole Double-Throw (most common)"
+        },
+        {
+            "parameter": "Travel distance",
+            "value": "2.0",
+            "unit": "mm",
+            "notes": "Actuator sliding travel distance"
+        },
+        {
+            "parameter": "Contact Resistance",
+            "value": "<20",
+            "unit": "mΩ",
+            "notes": "Silver-clad copper contact points"
+        },
+        {
+            "parameter": "Insulation Resistance",
+            "value": ">100",
+            "unit": "MΩ",
+            "notes": "Resistance at 500V DC"
+        }
+    ],
+    "definition": "A Slide Switch is a manual electrical switch operated by sliding a protruding plastic actuator knob back and forth. It is commonly used to turn low-power battery devices on and off or to toggle between different operating modes.",
+    "working_principle": "It operates on a sliding wiper contact. The plastic actuator moves an internal metal contact plate, which slides across fixed PCB terminal pins, bridging the center common pin to either the left or right terminal.",
+    "types": "SMD slide switches, vertical through-hole slide switches, and multi-position slide switches.",
+    "construction": "Houses a plastic slider knob, a metal cover bracket, a sliding contact plate, and tin-plated solder terminals inside a miniature plastic housing.",
+    "electrical_characteristics": "Low current capacity, low contact resistance, and positive sliding click retention.",
+    "symbol_description": "Switch symbol showing a slider contact that shifts between output terminals.",
+    "formulas": "Power switching limit: P = V * I.",
+    "applications": "Power switches in small flashlights, mode selectors in handheld multimeters, and battery switches on toy robots.",
+    "advantages": "Extremely low profile fits in thin housings, low cost, simple visual status based on knob position.",
+    "disadvantages": "Low current limits make it unsuitable for high-power loads, vulnerable to dust contamination inside the slider channel.",
+    "example_circuit_operation": "An SPDT slide switch is wired to control a microcontroller's boot pin. Sliding the switch connects the pin to Ground (normal run) or VCC (firmware flash mode).",
+    "practical_tips": "Do not solder slide switches using too much heat or acid flux. The high temperatures can warp the miniature plastic switch body, and flux can enter the open slider channel, contaminating the metal contact contacts.",
+    "interview_questions": [
+        {
+            "question": "How does the internal contact of an SPDT slide switch operate?",
+            "answer": "A metal contact plate inside the slider slides horizontally over three pins, bridging Pin 1 and Pin 2 (common) in one position, and Pin 2 (common) and Pin 3 in the other."
+        },
+        {
+            "question": "Why are slide switches rarely used for high-current power switching?",
+            "answer": "Their internal contact area is very small. High currents would cause arc erosion and local heating, melting the plastic slider housing."
+        },
+        {
+            "question": "How do you protect a slide switch from environmental dust?",
+            "answer": "By selecting sealed slide switches or placing the switch inside a sealed enclosure with a rubber boot cover over the actuator shaft."
+        },
+        {
+            "question": "What is the pitch spacing of standard through-hole slide switch pins?",
+            "answer": "Typically 2.54 mm or 2.0 mm, depending on size classification."
+        },
+        {
+            "question": "Can a slide switch have multiple positions?",
+            "answer": "Yes. Multi-position slide switches can select between 3, 4, or more channels by sliding the knob to successive detent stops."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Voltage Divider",
+            "status": "available"
+        }
+    ],
+    "references": "C&K sub-miniature slide switch series specifications; standard electronics hardware guides.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

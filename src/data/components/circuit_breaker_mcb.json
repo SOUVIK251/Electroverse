@@ -1,0 +1,90 @@
+{
+    "id": "circuit_breaker_mcb",
+    "name": "Circuit Breaker (MCB)",
+    "category": "Protection Devices",
+    "short_description": "An automatically operated electrical switch designed to protect an electrical circuit from damage caused by overload or short circuit.",
+    "difficulty": "Advanced",
+    "common_uses": "Residential consumer units, industrial control panels, motor branch protection.",
+    "quick_facts": {
+        "symbol": "CB",
+        "unit": "Ampere (A)",
+        "formula": "Bimetallic / Magnetic Trip Curves",
+        "passive_active": "Passive",
+        "polarized": "No",
+        "typical_voltage": "230V / 400V AC",
+        "typical_current": "6A to 125A",
+        "operating_frequency": "50 / 60 Hz"
+    },
+    "specifications": [
+        {
+            "parameter": "Rated Current (I_n)",
+            "value": "16",
+            "unit": "A",
+            "notes": "Continuous load current carrying rating"
+        },
+        {
+            "parameter": "Tripping Characteristics",
+            "value": "Type B / C / D",
+            "notes": "Determines magnetic trip threshold multiplier"
+        },
+        {
+            "parameter": "Breaking Capacity",
+            "value": "6000 - 10000",
+            "unit": "A",
+            "notes": "Maximum short-circuit current interrupted safely"
+        },
+        {
+            "parameter": "Number of Poles",
+            "value": "1P / 2P / 3P / 4P",
+            "notes": "Matches system phases configuration"
+        }
+    ],
+    "definition": "A Miniature Circuit Breaker (MCB) is an electromagnetic safety switch designed to automatically interrupt the electrical path during overcurrent events (overloads and short circuits). Unlike a fuse, it is reusable and can be manually reset after the fault is cleared.",
+    "working_principle": "It incorporates two tripping mechanisms: a bimetallic strip for slow thermal overload protection (heat causes the strip to bend, triggering the latch), and an electromagnetic solenoid for instantaneous short-circuit protection (high fault currents create a magnetic pull that immediately trips the breaker).",
+    "types": "Type B (trips at 3-5x rated current), Type C (trips at 5-10x rated current, common for inductive loads), and Type D (trips at 10-20x rated current, for high inrush currents).",
+    "construction": "Houses a bimetallic strip, an electromagnetic solenoid, heavy copper contacts, an arc-chute chamber (to extinguish arcs), and a mechanical toggle lever.",
+    "electrical_characteristics": "Low insertion voltage drop, high breaking capacity, and defined tripping curves that balance load startup currents against circuit protection.",
+    "symbol_description": "Switch symbol containing a square notch representing the automatic trip actuator mechanism.",
+    "formulas": "Thermal deflection: d = c * L^2 * delta_T / t.",
+    "applications": "AC mains distribution boards, industrial machine tool panels, and server rack power strips.",
+    "advantages": "Reusable device that resets easily, dual thermal-magnetic protection, isolates faulty lines completely.",
+    "disadvantages": "Higher initial cost than fuses, mechanical parts can wear out or stick over time, sensitive to ambient temperature shifts.",
+    "example_circuit_operation": "An MCB (Type C, 16A) is placed in series with a kitchen outlet ring. Plugging in too many appliances draws 25A; the bimetallic strip slowly heats and bends, tripping the breaker after 2 minutes to protect the house wiring.",
+    "practical_tips": "Select a Type C breaker for standard office/lab environments to prevent nuisance tripping caused by the inrush currents of computer power supplies or small motors.",
+    "interview_questions": [
+        {
+            "question": "Explain the dual tripping mechanism of an MCB.",
+            "answer": "MCBs use a bimetallic strip for slow thermal tripping during sustained overloads, and an electromagnetic solenoid for instantaneous magnetic tripping during high short-circuit currents."
+        },
+        {
+            "question": "How do Type B, Type C, and Type D MCBs differ?",
+            "answer": "They differ in their magnetic trip thresholds: Type B trips at 3-5x rated current; Type C trips at 5-10x; Type D trips at 10-20x to tolerate high startup inrush currents without tripping."
+        },
+        {
+            "question": "What is the purpose of the arc chute inside an MCB?",
+            "answer": "When the contacts open under load, a high-temperature electric arc forms. The arc chute splits the arc into smaller segments, cooling and extinguishing it to prevent damage to the contacts."
+        },
+        {
+            "question": "Can an AC MCB be used on a DC circuit?",
+            "answer": "Generally no. AC currents naturally pass through zero volts twice per cycle, helping extinguish arcs. DC arcs do not pass through zero and are much harder to extinguish, requiring specialized DC breakers with magnets to blow the arc out."
+        },
+        {
+            "question": "What is the meaning of the breaking capacity rating on an MCB?",
+            "answer": "The maximum short-circuit fault current (e.g. 6kA) the breaker can safely interrupt without mechanical failure or permanent arcing."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "IEC 60898-1 Electrical accessories - Circuit-breakers standard; ABB circuit breaker manuals.",
+    "images": {
+        "real_photo": "assets/components/circuit_breaker_mcb/real_photo.jpg",
+        "symbol": "assets/components/circuit_breaker_mcb/symbol.jpg",
+        "pin_diagram": "",
+        "internal_structure": "assets/components/circuit_breaker_mcb/internal_structure.jpg",
+        "example_circuit": "assets/components/circuit_breaker_mcb/types_of_mcb.jpg"
+    }
+}

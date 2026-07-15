@@ -1,0 +1,107 @@
+{
+    "id": "capacitor",
+    "name": "Capacitor",
+    "category": "Passive Components",
+    "short_description": "A passive component that stores electrical energy in an electrostatic field between two conductive plates.",
+    "difficulty": "Beginner",
+    "common_uses": "Filtering, decoupling, energy storage, coupling, timing.",
+    "quick_facts": {
+        "symbol": "C",
+        "unit": "Farad (F)",
+        "formula": "Q = C × V",
+        "passive_active": "Passive",
+        "polarized": "No (Ceramic) / Yes (Electrolytic)",
+        "typical_voltage": "1.6V to Kilovolts",
+        "typical_current": "Leakage current (nA to uA)",
+        "operating_frequency": "DC to GHz"
+    },
+    "images": {
+        "real_photo": "assets/components/capacitor/real_photo.png",
+        "symbol": "assets/components/capacitor/symbol.png",
+        "internal_structure": "assets/components/capacitor/internal_structure.png",
+        "example_circuit": "assets/components/capacitor/example_circuit.png",
+        "pin_diagram": ""
+    },
+    "specifications": [
+        {
+            "parameter": "Capacitance Range",
+            "value": "1p to 10F",
+            "unit": "F",
+            "notes": "Typically pF, nF, uF, or mF"
+        },
+        {
+            "parameter": "Voltage Rating",
+            "value": "6.3 to 1000",
+            "unit": "V",
+            "notes": "Must exceed maximum circuit voltage"
+        },
+        {
+            "parameter": "ESR",
+            "value": "0.01 to 10",
+            "unit": "Ω",
+            "notes": "Equivalent Series Resistance (lower is better)"
+        },
+        {
+            "parameter": "Tolerance",
+            "value": "5 to 20",
+            "unit": "%",
+            "notes": "Electrolytic has wider tolerance"
+        }
+    ],
+    "definition": "A capacitor is a passive two-terminal electrical component that stores electrical energy in an electric field. The effect of a capacitor is known as capacitance.",
+    "working_principle": "When a voltage is applied across the conductive plates, an electric field develops across the dielectric, causing positive charge to collect on one plate and negative charge on the other. This electrostatic attraction stores energy.",
+    "types": "Ceramic, Electrolytic (polarized), Tantalum, Film, Supercapacitor, Variable.",
+    "construction": "Consists of two parallel conductive plates separated by a non-conductive dielectric material (such as ceramic, mica, paper, or plastic film).",
+    "electrical_characteristics": "Capacitance value, working voltage, leakage current, Equivalent Series Resistance (ESR), dissipation factor, and temperature range.",
+    "formulas": "Charge: Q = C * V\nEnergy Stored: E = 0.5 * C * V^2\nCapacitive Reactance: X_c = 1 / (2 * pi * f * C)\nSeries Capacitance: 1/C_total = 1/C1 + 1/C2 + ...\nParallel Capacitance: C_total = C1 + C2 + ...",
+    "applications": "Power supply decoupling, AC signal coupling, high-frequency filtering, resonant RLC tuning circuits.",
+    "advantages": "Fast charge/discharge times, virtually unlimited cycle life, high power density.",
+    "disadvantages": "Low energy density compared to batteries, voltage limit constraints, electrolytic caps degrade over time.",
+    "example_circuit_operation": "Decoupling Capacitor: Placed close to an IC's power pins to absorb high-frequency voltage fluctuations, stabilizing the power supply rails.",
+    "practical_tips": "Always connect polarized electrolytic capacitors with correct polarity to avoid explosion risk. Use low ESR caps for switching regulator outputs.",
+    "interview_questions": [
+        {
+            "question": "Why does a capacitor block DC?",
+            "answer": "In steady state DC, the dielectric acts as an open circuit, preventing current flow once fully charged (X_c becomes infinite at f=0)."
+        },
+        {
+            "question": "What is the purpose of decoupling capacitors?",
+            "answer": "They act as local energy reservoirs to filter high-frequency noise from the power supply rail near integrated circuits."
+        },
+        {
+            "question": "How does dielectric constant affect capacitance?",
+            "answer": "Higher dielectric constant increases capacitance proportionally for a given plate size and distance."
+        },
+        {
+            "question": "What is ESR and why is it important?",
+            "answer": "Equivalent Series Resistance represents internal losses; high ESR causes heating and poor noise filtering."
+        },
+        {
+            "question": "What is dielectric breakdown?",
+            "answer": "When the voltage across a capacitor exceeds its rating, the dielectric becomes conductive, permanently damaging the capacitor."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "RC Charging",
+            "status": "available"
+        },
+        {
+            "name": "RC Discharging",
+            "status": "available"
+        },
+        {
+            "name": "Low Pass Filter",
+            "status": "available"
+        },
+        {
+            "name": "High Pass Filter",
+            "status": "available"
+        },
+        {
+            "name": "Series RLC Resonance",
+            "status": "available"
+        }
+    ],
+    "references": "Kemet Capacitor Selection Guide; Vishay Ceramic Capacitors Technical Notes."
+}

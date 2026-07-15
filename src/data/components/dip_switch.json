@@ -1,0 +1,91 @@
+{
+    "id": "dip_switch",
+    "name": "DIP Switch",
+    "category": "Miscellaneous",
+    "short_description": "A manual electrical switch packaged in a standard dual in-line package (DIP) housing to configure hardware parameters.",
+    "difficulty": "Beginner",
+    "common_uses": "PCB configuration settings, address selection in DMX controllers, garage door code settings.",
+    "quick_facts": {
+        "symbol": "SW_DIP",
+        "unit": "Positions",
+        "formula": "On / Off mechanical state",
+        "passive_active": "Passive",
+        "polarized": "No",
+        "typical_voltage": "12V to 24V DC",
+        "typical_current": "25mA to 100mA",
+        "operating_frequency": "DC"
+    },
+    "specifications": [
+        {
+            "parameter": "Positions Count",
+            "value": "4 / 8",
+            "notes": "Common positions (available in 2 to 12 poles)"
+        },
+        {
+            "parameter": "Contact Resistance",
+            "value": "<50",
+            "unit": "mΩ",
+            "notes": "Initial contact resistance"
+        },
+        {
+            "parameter": "Insulation Resistance",
+            "value": ">1000",
+            "unit": "MΩ",
+            "notes": "Isolation between open contacts"
+        },
+        {
+            "parameter": "Pitch Spacing",
+            "value": "2.54",
+            "unit": "mm",
+            "notes": "DIP-compatible terminal pins"
+        }
+    ],
+    "definition": "A DIP Switch (Dual In-line Package Switch) is a manual electrical switch assembly configured inside a standard dual in-line package housing. It consists of a series of small slide or rocker switches used to select hardware options on circuit boards.",
+    "working_principle": "It functions via mechanical contact opening or closing. Sliding or toggling an actuator moves a metal wiper contact, bridging or opening the gap between the two opposite pins of that switch pole.",
+    "types": "Slide DIP switches, Rocker DIP switches, Piano-style DIP switches (side actuated), and Rotary DIP switches.",
+    "construction": "Constructed from a thermoplastic housing housing gold-plated phosphor bronze spring contact sliders and dual-in-line metal solder pins.",
+    "electrical_characteristics": "Low voltage rating, low current carrying capacity. Requires external pull-up or pull-down resistors to output clean logic levels.",
+    "symbol_description": "Multi-switch block symbol showing parallel independent Single-Pole Single-Throw (SPST) switches.",
+    "formulas": "Binary Address states: States = 2^N (where N is the number of switch positions).",
+    "applications": "Selecting wireless channels in remotes, configuring DMX-512 receiver addresses, and setting motherboard boot modes.",
+    "advantages": "Low cost, retains settings without power, easily configured by users using a pen or screwdriver.",
+    "disadvantages": "Contacts can oxidize over time in harsh environments, physical configuration is slow compared to digital software menus.",
+    "example_circuit_operation": "An 8-position DIP switch is soldered to a microcontroller board. Each output pin is connected to an MCU input pin with a 10kΩ pull-up resistor. Toggling a switch grounds the pin, setting configuration bits.",
+    "practical_tips": "Always pair DIP switch inputs with internal or external pull-up resistors. Leaving a switch pin unconnected when open creates a floating input that collects noise, causing erratic microcontroller behavior.",
+    "interview_questions": [
+        {
+            "question": "What does 'DIP' stand for in DIP switch?",
+            "answer": "Dual In-line Package, referring to the pin layout structure containing two parallel rows of pins spaced at 2.54mm (0.1 inches)."
+        },
+        {
+            "question": "How do you calculate the number of binary addresses configurable with an 8-position DIP switch?",
+            "answer": "Using $2^N$. For 8 positions, the switch can configure $2^8 = 256$ unique binary addresses (from 0 to 255)."
+        },
+        {
+            "question": "Why are pull-up or pull-down resistors necessary with DIP switches?",
+            "answer": "A switch only makes or breaks a connection. When the switch is open, the microcontroller pin is left floating. A pull-up resistor forces a solid high logic state when the switch is open, preventing noise issues."
+        },
+        {
+            "question": "What is a piano-style DIP switch?",
+            "answer": "A variant where the toggle actuators are mounted on the side of the package, resembling piano keys, making them easier to adjust when the board is mounted inside an enclosure panel."
+        },
+        {
+            "question": "What is the typical pitch of DIP switch pins?",
+            "answer": "2.54 mm (0.1 inches), making them directly compatible with standard IC sockets and breadboards."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Voltage Divider",
+            "status": "available"
+        }
+    ],
+    "references": "C&K Components DIP Switch Datasheet; basic logic inputs design guidelines.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

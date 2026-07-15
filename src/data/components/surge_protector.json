@@ -1,0 +1,92 @@
+{
+    "id": "surge_protector",
+    "name": "Surge Protector (SPD)",
+    "category": "Protection Devices",
+    "short_description": "A heavy-duty surge protective device designed to protect entire electrical systems from high-energy lightning surges.",
+    "difficulty": "Advanced",
+    "common_uses": "Main electrical distribution panels, industrial control cabinets, outdoor telemetry equipment.",
+    "quick_facts": {
+        "symbol": "U_SPD",
+        "unit": "Volt (V) / Ampere (A)",
+        "formula": "Multi-stage Protection",
+        "passive_active": "Passive",
+        "polarized": "No",
+        "typical_voltage": "110V to 480V (AC mains)",
+        "typical_current": "10 kA to 100 kA (Nominal discharge current)",
+        "operating_frequency": "50 / 60 Hz"
+    },
+    "specifications": [
+        {
+            "parameter": "Max Operating Voltage (U_c)",
+            "value": "320",
+            "unit": "V",
+            "notes": "Continuous AC potential rating"
+        },
+        {
+            "parameter": "Nominal Discharge Current (I_n)",
+            "value": "20000",
+            "unit": "A",
+            "notes": "8/20μs surge current rating"
+        },
+        {
+            "parameter": "Voltage Protection Level (U_p)",
+            "value": "1.5",
+            "unit": "kV",
+            "notes": "Maximum output voltage during clamp"
+        },
+        {
+            "parameter": "Response Time",
+            "value": "25",
+            "unit": "ns",
+            "notes": "Time to trigger clamping path"
+        }
+    ],
+    "definition": "A Surge Protective Device (SPD) is a heavy-duty electrical protection system designed to protect electrical installations, consumer appliances, and industrial equipment from transient overvoltage surges caused by lightning strikes or high-power grid switching events.",
+    "working_principle": "It incorporates a combination of Gas Discharge Tubes (GDTs), Metal Oxide Varistors (MOVs), and transient suppression diodes. When a high-energy voltage spike occurs, the components enter low-impedance conduction, diverting the surge current safely to the system earth ground.",
+    "types": "Type 1 (installed at main service entrance panels), Type 2 (installed at sub-distribution boards), and Type 3 (point-of-use surge strips).",
+    "construction": "Housed in a rugged, flame-retardant DIN-rail mountable enclosure, containing heavy copper bus terminals, internal varistor blocks, thermal disconnects, and status window indicators.",
+    "electrical_characteristics": "Handles massive transient currents (up to 100kA). Includes built-in thermal fuses that safely disconnect the varistor if it overheats due to continuous overvoltage faults.",
+    "symbol_description": "Standard protective block schematic showing gas tubes and varistors connected to Line, Neutral, and Ground terminals.",
+    "formulas": "Surge Voltage Attenuation: V_out = V_in * (Z_load / (Z_source + Z_spd)).",
+    "applications": "Industrial control panel inputs, solar inverter AC/DC inputs, telecom base stations, and residential distribution boards.",
+    "advantages": "Protects entire facilities from high-energy lightning damage, DIN-rail modular layout allows easy cartridge replacement, local status windows.",
+    "disadvantages": "Relatively expensive, bulky physical size, does not protect against long-duration overvoltages.",
+    "example_circuit_operation": "An SPD is installed in a DIN-rail panel, wired across the incoming AC Line and Ground. A lightning strike on nearby utility lines drives a 10kV transient down the wire; the SPD clamps it to 1.2kV, shunting the excess current to ground.",
+    "practical_tips": "Keep the connection leads to the SPD as short and straight as possible (under 50cm total). Long, looped ground wires add high inductive impedance, increasing the voltage drop during high-speed surges.",
+    "interview_questions": [
+        {
+            "question": "What is the difference between Type 1, Type 2, and Type 3 SPDs?",
+            "answer": "Type 1 is installed at the main service entrance to protect against direct lightning strikes. Type 2 is at sub-panels for indirect surges. Type 3 is point-of-use (like surge strips) to protect sensitive electronics locally."
+        },
+        {
+            "question": "Why do SPDs incorporate thermal disconnects?",
+            "answer": "If an MOV inside the SPD degrades or experiences sustained overvoltage, it draws leakage current and heats up. The thermal disconnect melts to disconnect the degraded varistor, preventing a fire."
+        },
+        {
+            "question": "What role does a Gas Discharge Tube (GDT) play in an SPD?",
+            "answer": "A GDT provides near-infinite resistance under normal conditions, preventing leakage currents. When tripped by high voltage, the gas ionizes into an arc, conducting massive surge currents to ground."
+        },
+        {
+            "question": "How does lead length affect SPD performance during a lightning surge?",
+            "answer": "A fast-rising surge current ($dI/dt$) experiences high inductive voltage drops ($V_L = L \\cdot dI/dt$) across the wire. Long leads increase inductance, raising the effective clamping voltage at the load terminals."
+        },
+        {
+            "question": "What does a red status window on a modular SPD cartridge indicate?",
+            "answer": "It indicates that the internal varistor has degraded or tripped its thermal disconnect and the protection cartridge must be replaced."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "IEC 61643-11 Low-voltage surge protective devices standard; Schneider Electric installation guidelines.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

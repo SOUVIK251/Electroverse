@@ -1,0 +1,92 @@
+{
+    "id": "quartz_crystal",
+    "name": "Quartz Crystal",
+    "category": "Miscellaneous",
+    "short_description": "A passive frequency-determining component utilizing a slice of quartz crystal to provide high-stability clock signals.",
+    "difficulty": "Intermediate",
+    "common_uses": "Microcontroller oscillators (e.g. 16MHz Arduino clock), real-time clock references (32.768kHz).",
+    "quick_facts": {
+        "symbol": "Y",
+        "unit": "Hertz (Hz)",
+        "formula": "Piezoelectric mechanical resonance",
+        "passive_active": "Passive",
+        "polarized": "No",
+        "typical_voltage": "Low Voltage (typically microwatts drive level)",
+        "typical_current": "Microamps drive level",
+        "operating_frequency": "32.768 kHz (RTC) / 1 MHz to 50+ MHz (Fund)"
+    },
+    "specifications": [
+        {
+            "parameter": "Frequency Tolerance",
+            "value": "±10 - ±30",
+            "unit": "ppm",
+            "notes": "Highly precise frequency reference"
+        },
+        {
+            "parameter": "Load Capacitance (C_l)",
+            "value": "8 - 22",
+            "unit": "pF",
+            "notes": "Requires matched external capacitors for oscillation"
+        },
+        {
+            "parameter": "Equivalent Series Resistance (ESR)",
+            "value": "20 - 80",
+            "unit": "Ω",
+            "notes": "Inherent resistance at resonance"
+        },
+        {
+            "parameter": "Drive Level",
+            "value": "100",
+            "unit": "μW",
+            "notes": "Maximum drive power to avoid crystal damage"
+        }
+    ],
+    "definition": "A Quartz Crystal (also known as a crystal unit or crystal resonator) is a passive electronic component that utilizes a precisely cut wafer of synthetic quartz crystal. It serves as the primary frequency-determining element in clock generator circuits.",
+    "working_principle": "It operates on the piezoelectric effect. Applying an electrical field across the quartz wafer deforms it mechanically. When placed in the feedback loop of an active amplifier (like a Pierce oscillator), the crystal vibrates mechanically at its natural thickness-shear resonant frequency, locking the electrical frequency.",
+    "types": "HC-49/S metal can through-hole crystals, tiny cylinder crystals (32.768 kHz RTCs), and multi-layer SMD ceramic crystals (3225, 2016 packages).",
+    "construction": "Houses a chemically etched quartz wafer suspended between two metal electrodes, hermetically sealed in a nitrogen-filled metal or ceramic casing.",
+    "electrical_characteristics": "Extremely high Quality Factor ($Q \u0007pprox 10^4$ to $10^5$), low temperature coefficient, and requires specific external load capacitors ($C_1$, $C_2$) to match its rated load capacitance ($C_L$).",
+    "symbol_description": "Rectangular quartz block sandwiched between two metal capacitor plates.",
+    "formulas": "Load Capacitance: C_L = (C_1 * C_2) / (C_1 + C_2) + C_stray (where C_stray is PCB stray capacitance, typically 2-5pF).",
+    "applications": "Microcontroller system clocks, USB/UART controllers, real-time clock (RTC) chips, and wireless transceivers.",
+    "advantages": "Exceptional frequency accuracy and stability, low cost, minimal frequency drift over time.",
+    "disadvantages": "Requires external load capacitors and active amplifier, slow startup time due to high Q-factor, vulnerable to mechanical shock.",
+    "example_circuit_operation": "A 16 MHz quartz crystal is connected across the XTAL1/XTAL2 pins of an ATmega328P. Two 22pF ceramic capacitors connect each pin to Ground, establishing the required load loop.",
+    "practical_tips": "Keep the crystal and its load capacitors as close to the microcontroller pins as possible, using short, symmetric traces. Long traces add stray capacitance, which can shift the clock frequency or cause startup failure.",
+    "interview_questions": [
+        {
+            "question": "How do you calculate the values of the load capacitors for a quartz crystal?",
+            "answer": "Using the formula $C_1 = C_2 = 2 \\cdot (C_L - C_{stray})$, where $C_L$ is the crystal's rated load capacitance and $C_{stray}$ is the PCB stray capacitance (usually assumed as 3pF to 5pF)."
+        },
+        {
+            "question": "Why are real-time clock (RTC) crystals specified at exactly 32.768 kHz?",
+            "answer": "32.768 kHz is exactly $2^{15}$ Hz. A simple 15-stage binary ripple counter divides this frequency down to exactly 1 Hz, generating precise 1-second pulses with minimal power consumption."
+        },
+        {
+            "question": "What is the equivalent electrical circuit model of a quartz crystal?",
+            "answer": "It is modeled as a motional series branch (motional inductance $L_m$, motional capacitance $C_m$, motional resistance $R_m$) in parallel with the electrode static shunt capacitance $C_0$ (Butterworth-Van Dyke model)."
+        },
+        {
+            "question": "What happens if a crystal is overdriven beyond its drive level?",
+            "answer": "Excessive drive level can cause mechanical stress that damages or fractures the quartz blank, degrades frequency stability, and accelerates aging drift."
+        },
+        {
+            "question": "What is the Q-factor of a quartz crystal and why is it important?",
+            "answer": "The Q-factor is very high ($10,000$ to $100,000$). This ensures a highly selective, narrow bandwidth resonance, providing exceptional frequency stability and noise immunity."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Series RLC Resonance",
+            "status": "available"
+        }
+    ],
+    "references": "Epson Quartz Crystal application notes; ATmega328P clock design guidelines.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

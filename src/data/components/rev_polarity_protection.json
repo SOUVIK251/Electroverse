@@ -1,0 +1,92 @@
+{
+    "id": "rev_polarity_protection",
+    "name": "Reverse Polarity Protection Circuit",
+    "category": "Protection Devices",
+    "short_description": "A circuit designed to safeguard downstream electronics from damage when power supply polarities are reversed.",
+    "difficulty": "Intermediate",
+    "common_uses": "Battery-powered devices, user-accessible power terminals, automotive accessories.",
+    "quick_facts": {
+        "symbol": "U_REV_PROT",
+        "unit": "Volt (V) / Ampere (A)",
+        "formula": "Diode / MOSFET Switching",
+        "passive_active": "Passive or Active configurations",
+        "polarized": "Yes",
+        "typical_voltage": "3.3V to 48V",
+        "typical_current": "mA to tens of Amperes",
+        "operating_frequency": "DC"
+    },
+    "specifications": [
+        {
+            "parameter": "Max Input Voltage",
+            "value": "40",
+            "unit": "V",
+            "notes": "Limited by diode reverse breakdown or MOSFET V_gs rating"
+        },
+        {
+            "parameter": "Insertion Voltage Drop",
+            "value": "0.01 - 0.7",
+            "unit": "V",
+            "notes": "Lowest drop achieved using PMOS configurations"
+        },
+        {
+            "parameter": "Tripping/Blocking Speed",
+            "value": "<1.0",
+            "unit": "μs",
+            "notes": "Blocks reverse potential instantly"
+        },
+        {
+            "parameter": "Max Continuous Current",
+            "value": "10",
+            "unit": "A",
+            "notes": "Depends on components thermal ratings"
+        }
+    ],
+    "definition": "A Reverse Polarity Protection Circuit is a hardware safety block designed to protect downstream integrated circuits when the input power supply polarities are reversed (e.g., swapping positive and negative battery terminals).",
+    "working_principle": "It can be implemented in three ways: a series Schottky diode (blocks reverse current but incurs a voltage drop), a shunt diode with a fuse (shorts reverse current to blow the fuse), or a series P-channel MOSFET (turns ON only when the correct polarity is applied, offering near-zero voltage drop).",
+    "types": "Series Diode, Shunt Diode (Crowbar-lite), and P-Channel MOSFET protection circuits.",
+    "construction": "Constructed from discrete semiconductors (diodes or MOSFETs) placed directly at the power input node, often paired with bypass capacitors and gate-protection Zener diodes.",
+    "electrical_characteristics": "Characterized by insertion voltage loss and power dissipation. MOSFET designs offer maximum efficiency, maintaining sub-milliohm channel resistance.",
+    "symbol_description": "Schematic block showing positive/negative input terminals connected via a diode or PMOS switch to the output rails.",
+    "formulas": "MOSFET Power Loss: P_loss = I_load^2 * R_ds_on.",
+    "applications": "Battery chargers, handheld consumer devices, automotive electronics, and industrial DC power lines.",
+    "advantages": "Prevents catastrophic circuit destruction caused by user wiring mistakes, simple to implement.",
+    "disadvantages": "Series diodes incur a voltage drop (0.4V-0.7V) and generate heat at high currents. MOSFET designs require gate protection circuitry for high input voltages.",
+    "example_circuit_operation": "A P-channel MOSFET is placed in the positive power rail with its source to the input and drain to the load. Its gate is grounded. When correct positive voltage is applied, $V_{GS}$ is negative, turning the PMOS ON. Reversing the input voltage turns the PMOS OFF, blocking current.",
+    "practical_tips": "For low-voltage battery-powered devices (like 3.7V Li-Po systems), use a P-channel MOSFET instead of a series diode to avoid the diode's 0.7V voltage drop, which would significantly reduce usable battery capacity.",
+    "interview_questions": [
+        {
+            "question": "What are the three common methods for reverse polarity protection?",
+            "answer": "1. A series diode (simple, but has a voltage drop). 2. A shunt diode with a series fuse (sacrifices the fuse to protect the circuit). 3. A series P-channel MOSFET (complex, but has near-zero voltage drop)."
+        },
+        {
+            "question": "Why is a P-channel MOSFET preferred over an N-channel MOSFET in positive rails?",
+            "answer": "A P-channel MOSFET can be controlled by grounding its gate. An N-channel MOSFET in the positive rail requires a gate voltage higher than the input voltage to turn ON, requiring charge pump circuitry."
+        },
+        {
+            "question": "How do you calculate the power dissipated by a series diode protection circuit?",
+            "answer": "Using $P = V_{forward} \\cdot I_{load}$. For a 2A load and a standard Silicon diode (0.7V drop), power dissipation is 1.4W, which requires heat sinking."
+        },
+        {
+            "question": "What is the function of the Zener diode in a PMOS protection circuit?",
+            "answer": "It protects the MOSFET by clamping the gate-to-source voltage ($V_{GS}$) below its maximum rating (typically 20V) when the input supply voltage exceeds 20V."
+        },
+        {
+            "question": "Why is a Schottky diode preferred over a standard Silicon diode for series protection?",
+            "answer": "Schottky diodes have a lower forward voltage drop (0.3V to 0.4V) compared to standard Silicon diodes (0.7V), reducing power loss and heat generation."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Voltage Divider",
+            "status": "available"
+        }
+    ],
+    "references": "Infineon Application Note: Reverse Polarity Protection with MOSFETs; discrete semiconductor datasheets.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

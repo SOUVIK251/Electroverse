@@ -1,0 +1,89 @@
+{
+    "id": "nfc_pn532",
+    "name": "NFC Module (PN532)",
+    "category": "Communication Modules",
+    "short_description": "A highly versatile Near Field Communication (NFC) controller module supporting mobile phone emulation and card reading.",
+    "difficulty": "Advanced",
+    "common_uses": "Contactless payment simulation, smartphone peer-to-peer data transfers, smart card access terminals.",
+    "quick_facts": {
+        "symbol": "U_NFC",
+        "unit": "Hertz (Hz)",
+        "formula": "ISO/IEC 18092 / NFC Forum specs",
+        "passive_active": "Active",
+        "polarized": "Yes",
+        "typical_voltage": "3.3V to 5V (Onboard regulator)",
+        "typical_current": "100 - 120mA active reading, 15mA idle",
+        "operating_frequency": "13.56 MHz"
+    },
+    "specifications": [
+        {
+            "parameter": "NFC Modes",
+            "value": "Reader/Writer, P2P, Card Emulation",
+            "notes": "Highly versatile NFC chip"
+        },
+        {
+            "parameter": "Host Interfaces",
+            "value": "I2C, SPI, HSU (High Speed UART)",
+            "notes": "Configured via onboard DIP switches"
+        },
+        {
+            "parameter": "Max Transmission Rate",
+            "value": "424",
+            "unit": "kbps",
+            "notes": "Fast contactless data exchange"
+        },
+        {
+            "parameter": "RFID Tag Compatibility",
+            "value": "MIFARE, Felica, Jewel",
+            "notes": "Broad industry tag support"
+        }
+    ],
+    "definition": "The NFC PN532 module is a Near Field Communication (NFC) controller board based on the NXP PN532 chip. It supports multiple contactless read/write protocols, peer-to-peer data exchange, and card emulation, allowing it to interface directly with NFC-enabled smartphones.",
+    "working_principle": "It modulates RF carrier waves at 13.56 MHz. In P2P mode, it exchanges active data frames with another NFC controller (such as a smartphone). In card emulation mode, it behaves like a passive tag, responding to external reader fields.",
+    "types": "Red breakout boards with integrated DIP selection switches, USB NFC readers, and integrated phone antennas.",
+    "construction": "Houses the PN532 controller IC, a 27.12 MHz crystal, onboard serial-to-parallel selection DIP switches, logic level translation buffers, and a PCB trace loop antenna.",
+    "electrical_characteristics": "Operating voltage typically 3.3V or 5V. Onboard level shifters support safe connection to both 3.3V and 5V microcontrollers.",
+    "symbol_description": "Controller block displaying power, interface select lines, and SPI/I2C/UART bus pins.",
+    "formulas": "LC Tuning: f = 1 / (2 * pi * sqrt(L * C)) (tuned to 13.56 MHz).",
+    "applications": "Contactless card scanners, mobile phone integration systems, smart lock entry points, and inventory check-ins.",
+    "advantages": "Supports peer-to-peer mode and card emulation, integrated level shifting circuitry, multiple host interface choices.",
+    "disadvantages": "Higher power consumption than RC522, larger code library size, short communication range (under 4cm).",
+    "example_circuit_operation": "A PN532 board is configured for I2C using onboard switches. It connects to an MCU's I2C pins. When a smartphone is tapped near the antenna, the module exchanges NFC Data Exchange Format (NDEF) message packets.",
+    "practical_tips": "Use the onboard DIP switches to select your preferred communication interface (SPI, I2C, or UART) before powering up the module; changes are not parsed dynamically while powered.",
+    "interview_questions": [
+        {
+            "question": "How does NFC differ from standard HF RFID?",
+            "answer": "NFC is a subset of HF RFID (both 13.56MHz) that supports bi-directional communication, allowing Peer-to-Peer data sharing and Card Emulation, whereas standard RFID is usually read-only."
+        },
+        {
+            "question": "What three modes does the PN532 support?",
+            "answer": "1. Reader/Writer mode (reading tags). 2. Peer-to-Peer mode (exchanging data with phones). 3. Card Emulation mode (behaving like a smart card)."
+        },
+        {
+            "question": "How do you select the host interface on the PN532 module?",
+            "answer": "By setting the state of the two onboard slide switches (DIP switches) to configure SPI, I2C, or High-Speed UART (HSU)."
+        },
+        {
+            "question": "What format is typically used to exchange data via NFC?",
+            "answer": "NDEF (NFC Data Exchange Format), which packages URLs, text, or MIME data into standardized records."
+        },
+        {
+            "question": "Can the PN532 read transit smart cards?",
+            "answer": "Yes, it can read the UID and data blocks of cards complying with ISO14443 Type A and B, including MIFARE cards used in transit ticketing systems."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "NXP PN532 User Manual; NFC Forum specifications.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

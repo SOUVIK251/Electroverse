@@ -1,0 +1,89 @@
+{
+    "id": "micro_usb",
+    "name": "Micro USB",
+    "category": "Connectors",
+    "short_description": "The compact 5-pin USB connector widely used in legacy smartphones, tablets, and development boards.",
+    "difficulty": "Beginner",
+    "common_uses": "Arduino board programming ports, lithium charger board power inputs, legacy mobile devices.",
+    "quick_facts": {
+        "symbol": "CON_USB",
+        "unit": "Pins",
+        "formula": "USB 2.0 interface",
+        "passive_active": "Passive",
+        "polarized": "Yes",
+        "typical_voltage": "5V DC",
+        "typical_current": "1.0A to 1.8A",
+        "operating_frequency": "480 Mbps (USB 2.0 High Speed)"
+    },
+    "specifications": [
+        {
+            "parameter": "Pin Count",
+            "value": "5",
+            "notes": "VBUS, D-, D+, ID, and GND"
+        },
+        {
+            "parameter": "ID Pin Function",
+            "value": "OTG Detection",
+            "notes": "Configures Host (grounded) vs Device (floating) mode"
+        },
+        {
+            "parameter": "Mating Life",
+            "value": "10000",
+            "notes": "Stainless steel shell for durability"
+        },
+        {
+            "parameter": "Contact Resistance",
+            "value": "<30",
+            "unit": "mΩ",
+            "notes": "Gold-plated brass terminals"
+        }
+    ],
+    "definition": "The Micro USB connector (specifically Micro-B) is a compact 5-pin USB connector standard. It was the dominant interface for charging and data transfer in mobile devices and development boards before the introduction of USB Type-C.",
+    "working_principle": "It routes 5V power, ground, D+/D- differential data, and an additional ID pin. The ID pin is used to determine USB On-The-Go (OTG) status, allowing mobile devices to act as hosts for peripherals.",
+    "types": "Through-hole shield tab sockets, SMD terminal connectors, and micro-A/micro-B plugs.",
+    "construction": "Constructed from a stainless steel outer shell, a high-temperature LCP core, and 5 gold-plated copper alloy pins.",
+    "electrical_characteristics": "5V nominal voltage rating. Supports currents up to 1.8A for fast charging. The steel shell is grounded to prevent EMI.",
+    "symbol_description": "Slightly trapezoidal connector block displaying 5 pins: VCC, D-, D+, ID, and GND.",
+    "formulas": "Maximum current power transfer: P = V_VBUS * I_max.",
+    "applications": "Arduino Nano/NodeMCU power inputs, TP4056 lithium battery charger inputs, and legacy smartphone docks.",
+    "advantages": "Highly compact footprint, durable metal shield shell rated for 10,000 insertions, universal standard.",
+    "disadvantages": "Non-reversible plug direction, solder tabs are tiny and easily lift off the PCB if mechanical strain is applied.",
+    "example_circuit_operation": "A Micro USB port is soldered to an ESP8266 board. The ID pin is left floating, configuring the board as a USB client device. VBUS (+5V) feeds the onboard 3.3V linear regulator.",
+    "practical_tips": "Micro USB connectors are prone to ripping off the PCB if the cable is yanked. Always choose a connector design with through-hole mechanical shield tabs rather than pure surface-mount tabs to anchor the connector securely to the PCB.",
+    "interview_questions": [
+        {
+            "question": "What are the 5 pins of a Micro USB connector?",
+            "answer": "Pin 1: VBUS (+5V), Pin 2: D- (Data-), Pin 3: D+ (Data+), Pin 4: ID (Identification), Pin 5: GND (Ground)."
+        },
+        {
+            "question": "What is the purpose of the ID pin (Pin 4)?",
+            "answer": "It is used for USB On-The-Go (OTG) detection. If the ID pin is grounded, the device acts as a Host (reads flash drives); if left floating, it acts as a Device (client)."
+        },
+        {
+            "question": "Why do Micro USB connector pads easily rip off the board?",
+            "answer": "The pads are very small. If the connector lacks through-hole metal anchoring tabs soldered into the board, mechanical stress from plugging in the cable will shear the copper pads off the PCB."
+        },
+        {
+            "question": "What is the maximum data rate of a standard Micro-B USB connector?",
+            "answer": "480 Mbps (USB 2.0 High Speed)."
+        },
+        {
+            "question": "Can Micro USB deliver 9V or 12V for fast charging?",
+            "answer": "Yes, by using protocols like Qualcomm Quick Charge (QC), where the charger negotiates higher voltages over the D+/D- data lines within current limits."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "USB 2.0 Micro-Connector specification document; Adafruit PCB library symbols.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "id": "pin_header",
+    "name": "Pin Header",
+    "category": "Connectors",
+    "short_description": "A male pin header connector consisting of one or two rows of square pins molded in a plastic base.",
+    "difficulty": "Beginner",
+    "common_uses": "Board-to-board interconnects, sensor breakout pins, programming interfaces (JTAG/ISP).",
+    "quick_facts": {
+        "symbol": "JP",
+        "unit": "Pins",
+        "formula": "Male Contact Pin",
+        "passive_active": "Passive",
+        "polarized": "No (unless shrouded)",
+        "typical_voltage": "250V AC/DC",
+        "typical_current": "Max 3A per pin",
+        "operating_frequency": "DC to GHz"
+    },
+    "specifications": [
+        {
+            "parameter": "Pin Pitch",
+            "value": "2.54",
+            "unit": "mm",
+            "notes": "0.1 inch standard spacing (also available in 2.0mm / 1.27mm)"
+        },
+        {
+            "parameter": "Pin Shape",
+            "value": "Square",
+            "notes": "0.64mm square post pin design"
+        },
+        {
+            "parameter": "Contact Plating",
+            "value": "Gold / Tin",
+            "notes": "Gold plating prevents contact oxidation"
+        },
+        {
+            "parameter": "Insulator Material",
+            "value": "Polyester (UL94V-0)",
+            "notes": "High temperature plastic for reflow soldering"
+        }
+    ],
+    "definition": "A Pin Header is a male board-to-board connector consisting of one or more rows of square metal pins held together by a plastic strip. It is soldered to a PCB to allow direct plug-in connections of female jumper wires, ribbon cables, or daughterboards.",
+    "working_principle": "It functions as a mechanical plug. The square metal pins slide into the spring clips of mating female headers, creating a stable multi-point frictional contact electrical connection.",
+    "types": "Straight headers, right-angle headers, double-row headers, and shrouded/polarized headers (which prevent incorrect orientation).",
+    "construction": "Brass or phosphor bronze pins pressed into a high-temperature thermoplastic (PPS or Nylon) carrier strip, often gold-plated at the contact zone.",
+    "electrical_characteristics": "Low contact resistance (<20 mΩ), low capacitance, and typical current ratings up to 3A per pin.",
+    "symbol_description": "Row of small open circles or terminal points showing connection channels.",
+    "formulas": "Contact Force: F_c = Coefficient * deflection of female spring.",
+    "applications": "Arduino shield interconnects, sensor breakout modules, UART debugging serial headers, and jumpers.",
+    "advantages": "Extremely inexpensive, easily cut to custom lengths with wire cutters, standard spacing compatible with protoboards.",
+    "disadvantages": "Unshrouded pins can easily bend or short circuit if touched by metal, not keyed (allows incorrect connection orientation).",
+    "example_circuit_operation": "A 4-pin straight pin header is soldered to an I2C sensor board. Jumper cables are plugged onto the pins to route VCC, GND, SDA, and SCL lines to an MCU board.",
+    "practical_tips": "When soldering pin headers, plug them into a breadboard first. This holds the pins perfectly straight and aligned while you solder the pins to the PCB, preventing the plastic housing from tilting when warm.",
+    "interview_questions": [
+        {
+            "question": "What is the standard pitch spacing of a classic breadboard-compatible pin header?",
+            "answer": "2.54 mm (0.1 inches)."
+        },
+        {
+            "question": "Why is gold plating preferred over tin plating on pin headers?",
+            "answer": "Gold does not oxidize, ensuring long-term low contact resistance over multiple mating cycles. Tin plating is cheaper but susceptible to fretting corrosion and oxidation."
+        },
+        {
+            "question": "How do shrouded headers improve connection safety?",
+            "answer": "They feature a plastic wall surrounding the pins with a polarization key slot. This prevents pins from bending, protects against short circuits, and ensures the mating cable can only be inserted in the correct orientation."
+        },
+        {
+            "question": "What is the pin dimension of a standard 2.54mm header?",
+            "answer": "It is a square post measuring 0.64 mm (0.025 inches) on each side."
+        },
+        {
+            "question": "Why are right-angle pin headers used?",
+            "answer": "They allow cables to connect parallel to the PCB surface rather than vertically, reducing the overall vertical profile of the assembly."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "Standard Molex/Samtec pin header catalogs; soldering guidelines for interconnects.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

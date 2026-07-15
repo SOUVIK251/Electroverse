@@ -1,0 +1,89 @@
+{
+    "id": "berg_connector",
+    "name": "Berg Connector",
+    "category": "Connectors",
+    "short_description": "A brand name often referring to early standard 2.54mm pin headers and custom shrouded power connectors.",
+    "difficulty": "Beginner",
+    "common_uses": "PC floppy drive power connectors, internal motherboard jumpers, legacy drive controls.",
+    "quick_facts": {
+        "symbol": "CON",
+        "unit": "Pins",
+        "formula": "Shrouded Mating",
+        "passive_active": "Passive",
+        "polarized": "Yes (shrouded power variants)",
+        "typical_voltage": "250V AC/DC",
+        "typical_current": "Max 2A per pin (floppy power)",
+        "operating_frequency": "DC to low MHz"
+    },
+    "specifications": [
+        {
+            "parameter": "Pin Pitch",
+            "value": "2.54",
+            "unit": "mm",
+            "notes": "Standard 0.1-inch header spacing"
+        },
+        {
+            "parameter": "Pins Count",
+            "value": "4",
+            "notes": "Typical for legacy floppy power (12V, GND, GND, 5V)"
+        },
+        {
+            "parameter": "Terminal Material",
+            "value": "Tin-plated Brass",
+            "notes": "Industrial crimp terminals"
+        },
+        {
+            "parameter": "Housing Material",
+            "value": "Nylon-66",
+            "notes": "Flame retardant connector shell"
+        }
+    ],
+    "definition": "A Berg Connector is a generic term widely used in computing and electronics to describe standard 2.54mm pin headers (originally created by Berg Electronics) or, specifically, the small 4-pin shrouded power connector used to power 3.5-inch floppy disk drives.",
+    "working_principle": "It establishes connection through a friction-fit polarized mating system. The male header housing contains square pins key-slotted to match a female crimped wire connector housing, preventing incorrect insertions of power rails.",
+    "types": "4-pin floppy power connectors, standard Berg pin headers, and jumper block shunts.",
+    "construction": "A molded nylon shell holding tin-plated crimp terminals attached to 18-22 AWG power wires.",
+    "electrical_characteristics": "Low contact resistance, handles typical computer rail voltages (+5V and +12V), with polarized key slots.",
+    "symbol_description": "A 4-pin block diagram showing power, ground, and line terminals.",
+    "formulas": "Power routing efficiency: V_out = V_in - I * R_contact.",
+    "applications": "Legacy PC power supply wiring, motherboard configuration jumpers, and internal diagnostic ports.",
+    "advantages": "Polarized keying prevents crossing power rails, low cost, standardized across desktop PC platforms.",
+    "disadvantages": "Phased out in modern computers, plastic locking tabs can become brittle and break.",
+    "example_circuit_operation": "A 4-pin Berg power connector from an ATX power supply is plugged into an internal floppy drive controller board, delivering +5V and +12V rails.",
+    "practical_tips": "Be careful when inserting Berg power connectors; although they are keyed, it is still possible to force them in backward with excessive pressure, which will instantly destroy the connected board due to reversed polarity.",
+    "interview_questions": [
+        {
+            "question": "What does the term 'Berg Connector' commonly refer to in desktop PCs?",
+            "answer": "It refers to the small 4-pin shrouded female connector used to supply power (+5V and +12V) to floppy disk drives."
+        },
+        {
+            "question": "How are the pins mapped on a floppy drive Berg power connector?",
+            "answer": "Pin 1: +12V (Yellow), Pin 2: Ground (Black), Pin 3: Ground (Black), Pin 4: +5V (Red)."
+        },
+        {
+            "question": "Why did Berg Electronics headers become an industry standard?",
+            "answer": "They popularized the 2.54mm (0.1-inch) square pin header matrix and mating jumper shunts, which were universally adopted for motherboard configuration blocks."
+        },
+        {
+            "question": "What is a jumper shunt?",
+            "answer": "A tiny plastic block housing an internal metal conductive spring clip, used to bridge two adjacent male pins to configure hardware settings."
+        },
+        {
+            "question": "What are the common failure modes of Berg connectors?",
+            "answer": "Loose crimp terminals inside the plastic shell, oxidized pins, or cracked solder joints on the PCB mating header."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "ATX Power Supply Design Guide specs; legacy Berg Electronics catalogs.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

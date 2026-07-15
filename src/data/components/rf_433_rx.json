@@ -1,0 +1,91 @@
+{
+    "id": "rf_433_rx",
+    "name": "433 MHz RF Receiver",
+    "category": "Communication Modules",
+    "short_description": "An Amplitude Shift Keying (ASK) super-regenerative RF receiver module tuned to 433.92 MHz.",
+    "difficulty": "Intermediate",
+    "common_uses": "Decoding wireless doorbells, reading remote weather stations, home automation hubs.",
+    "quick_facts": {
+        "symbol": "U_RF_RX",
+        "unit": "Hertz (Hz)",
+        "formula": "Demodulated data output",
+        "passive_active": "Active",
+        "polarized": "Yes",
+        "typical_voltage": "5V (Strict)",
+        "typical_current": "4.0mA to 5.5mA",
+        "operating_frequency": "433.92 MHz"
+    },
+    "specifications": [
+        {
+            "parameter": "Receiver Sensitivity",
+            "value": "-105",
+            "unit": "dBm",
+            "notes": "Typical sensitivity threshold"
+        },
+        {
+            "parameter": "Tuning Circuit",
+            "value": "Super-heterodyne / Super-regenerative",
+            "notes": "Super-heterodyne offers better stability"
+        },
+        {
+            "parameter": "Output High Level",
+            "value": "3.5 - 5.0",
+            "unit": "V",
+            "notes": "Compatible with standard logic inputs"
+        },
+        {
+            "parameter": "Supply Current",
+            "value": "5.0",
+            "unit": "mA",
+            "notes": "Continuous current draw during listening"
+        }
+    ],
+    "definition": "The 433 MHz RF Receiver is an Amplitude Shift Keying (ASK) receiver module designed to capture and demodulate RF signals transmitted at 433.92 MHz, outputting the recovered digital pulse stream.",
+    "working_principle": "It utilizes a super-regenerative or super-heterodyne receiver circuit. The antenna captures the RF signal, which is amplified and passed through an envelope detector to extract the pulse transitions. An internal comparator converts the envelope back into a clean digital pulse stream.",
+    "types": "Super-regenerative receivers (cheap, sensitive to supply noise), and super-heterodyne receivers (crystal-locked, higher stability and selectivity).",
+    "construction": "Features an inductive coil tuned via a brass screw (regenerative type), a comparator IC (like LM358), local oscillators, and output connection pins.",
+    "electrical_characteristics": "Requires a stable 5.0V supply. When no active transmission is present, the receiver's automatic gain control (AGC) spikes, outputting random high-frequency digital noise.",
+    "symbol_description": "Block symbol showing VCC, GND, and dual DATA output pins (connected internally), along with the antenna node.",
+    "formulas": "Receiver Gain equation: G = P_out / P_in. Carrier frequency wavelength: λ = c / f.",
+    "applications": "Receiving weather station telemetry, wireless remote decoding, home assistant integrations, and security system relays.",
+    "advantages": "Extremely inexpensive, dual data output pins, compatible with most 5V microcontroller boards.",
+    "disadvantages": "High susceptibility to electrical noise, outputs continuous high-frequency static noise when no active transmitter is firing.",
+    "example_circuit_operation": "An RF receiver is connected to an Arduino. A 17.3cm wire antenna is soldered to the ANT pad. A software library (like VirtualWire or RadioHead) parses the noisy digital output to extract validated packet checksums.",
+    "practical_tips": "Keep the receiver module away from switching power supplies, computer monitors, and the host microcontroller's high-speed clock lines, which radiate electromagnetic noise that reduces receiver range.",
+    "interview_questions": [
+        {
+            "question": "Why does the receiver output random digital noise when the transmitter is not sending data?",
+            "answer": "The receiver's Automatic Gain Control (AGC) automatically increases amplification to find a signal. With no transmitter firing, it amplifies background RF noise into a digital square wave output."
+        },
+        {
+            "question": "How do you distinguish valid data from background noise on a 433 MHz receiver?",
+            "answer": "By using software encoding protocols. A packet must begin with a training preamble (e.g. alternating 1s and 0s) and a start-of-frame byte, followed by data length and a CRC checksum to validate the packet."
+        },
+        {
+            "question": "What is the difference between super-regenerative and super-heterodyne receivers?",
+            "answer": "Super-regenerative receivers are cheaper and use a simple tuned LC tank, but drift with temperature. Super-heterodyne receivers use a local crystal oscillator and mixer, offering superior selectivity and range stability."
+        },
+        {
+            "question": "What happens if you turn the brass screw on the tuning coil of a cheap receiver module?",
+            "answer": "It changes the inductance of the tuning tank, detuning the module from the 433.92 MHz carrier frequency, rendering it unable to receive signals. Avoid adjusting it without an RF signal generator."
+        },
+        {
+            "question": "Can multiple 433 MHz transmitters send data simultaneously?",
+            "answer": "No. Since they share the same frequency band, simultaneous transmissions will collide and corrupt the packets, requiring random back-off times before retransmitting."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "MX-05V 433MHz Receiver Module Datasheet; RadioHead library documentation.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "id": "rf_433_tx",
+    "name": "433 MHz RF Transmitter",
+    "category": "Communication Modules",
+    "short_description": "An inexpensive Amplitude Shift Keying (ASK) / OOK wireless transmitter module operating at 433.92 MHz.",
+    "difficulty": "Intermediate",
+    "common_uses": "Wireless doorbells, remote keyless entry, garage door openers, low-cost sensor links.",
+    "quick_facts": {
+        "symbol": "U_RF_TX",
+        "unit": "Hertz (Hz) / Decibel-milliwatts (dBm)",
+        "formula": "ASK / OOK Modulation",
+        "passive_active": "Active",
+        "polarized": "Yes",
+        "typical_voltage": "3V to 12V",
+        "typical_current": "4mA (3V) to 20mA (12V) when transmitting, 0mA idle",
+        "operating_frequency": "433.92 MHz (saw-locked)"
+    },
+    "specifications": [
+        {
+            "parameter": "Modulation Method",
+            "value": "ASK / OOK",
+            "notes": "Amplitude Shift Keying / On-Off Keying"
+        },
+        {
+            "parameter": "Output Power",
+            "value": "10",
+            "unit": "mW",
+            "notes": "Approx. +10dBm at 12V supply"
+        },
+        {
+            "parameter": "Data Rate",
+            "value": "4.0",
+            "unit": "kbps",
+            "notes": "Maximum transmission rate"
+        },
+        {
+            "parameter": "Frequency Tolerance",
+            "value": "±150",
+            "unit": "kHz",
+            "notes": "SAW resonator frequency control"
+        }
+    ],
+    "definition": "The 433 MHz RF Transmitter is a simple, low-cost Amplitude Shift Keying (ASK) wireless transmitter module. It is designed to transmit digital data packets over the license-free 433.92 MHz Industrial, Scientific, and Medical (ISM) band.",
+    "working_principle": "It uses On-Off Keying (OOK), a subset of Amplitude Shift Keying (ASK). When the DATA input pin is high, the internal oscillator turns on, transmitting a 433.92 MHz carrier wave. When the DATA input is low, the carrier wave turns off completely.",
+    "types": "Standard three-pin FS1000A transmitter modules, integrated crystal-locked transmitters, and remote key fobs.",
+    "construction": "Features a SAW (Surface Acoustic Wave) resonator to lock the carrier frequency, an RF transistor oscillator, impedance matching coils, and connection pins (VCC, GND, DATA).",
+    "electrical_characteristics": "Output power scales with input voltage: higher voltages (up to 12V) increase RF output power and range. Draws zero current when the DATA pin is low.",
+    "symbol_description": "Block symbol showing VCC, GND, DATA input pins, and the antenna node.",
+    "formulas": "Antenna quarter-wave length: L (cm) = 7500 / Frequency (MHz) = 7500 / 433.92 ≈ 17.3 cm.",
+    "applications": "Garage door openers, remote-controlled sockets, home weather sensors, and wireless security systems.",
+    "advantages": "Extremely low cost, simple interface, range increases with input supply voltage.",
+    "disadvantages": "No collision detection, prone to interference from other 433 MHz devices, lacks built-in hardware error checking.",
+    "example_circuit_operation": "An FS1000A transmitter is connected to an Arduino. The DATA pin is driven by a software encoder. A 17.3cm straight copper wire antenna is soldered to the ANT pad to transmit data packets.",
+    "practical_tips": "To maximize range, solder a 17.3cm straight copper wire to the antenna terminal, and power the transmitter module from a 9V or 12V supply while maintaining 5V logic lines on the DATA pin.",
+    "interview_questions": [
+        {
+            "question": "What modulation scheme does the 433 MHz FS1000A transmitter use?",
+            "answer": "Amplitude Shift Keying (ASK) / On-Off Keying (OOK), where the RF carrier is toggled on for digital '1' and off for digital '0'."
+        },
+        {
+            "question": "How does input voltage affect the performance of this transmitter?",
+            "answer": "Higher input voltage (up to 12V) increases the amplitude of the carrier wave, increasing transmission range. The DATA pin signal should remain at standard logic levels (3.3V-5V)."
+        },
+        {
+            "question": "How do you calculate the optimal antenna length for a 433 MHz transceiver?",
+            "answer": "Using the quarter-wave formula: L = c / (4 * f). For 433.92 MHz, this yields an optimal wire length of approximately 17.3 cm."
+        },
+        {
+            "question": "Why is direct serial UART communication unreliable with these modules?",
+            "answer": "UART requires stable baseline voltages. Because ASK receivers use automatic gain control (AGC), a lack of transmissions (long strings of 0s) causes the receiver's gain to spike, generating random RF noise. Balanced protocols (like Manchester encoding) must be used."
+        },
+        {
+            "question": "What component determines the carrier frequency in this transmitter?",
+            "answer": "A SAW (Surface Acoustic Wave) resonator, which physically vibrates at 433.92 MHz to stabilize the RF oscillator frequency."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

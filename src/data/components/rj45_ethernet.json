@@ -1,0 +1,88 @@
+{
+    "id": "rj45_ethernet",
+    "name": "RJ45 Ethernet Connector",
+    "category": "Connectors",
+    "short_description": "The standard 8P8C modular connector used to connect devices to Ethernet local area networks.",
+    "difficulty": "Advanced",
+    "common_uses": "Network routers, IP cameras, PC ethernet ports, industrial Modbus TCP connections.",
+    "quick_facts": {
+        "symbol": "CON_ETH",
+        "unit": "Pins (8P8C)",
+        "formula": "T568A / T568B Wiring Standards",
+        "passive_active": "Passive (without magnetics) / Active (with built-in MagJack transformers)",
+        "polarized": "Yes",
+        "typical_voltage": "Low Voltage (typically <= 5V signals)",
+        "typical_current": "350mA (standard) / up to 1A for Power over Ethernet (PoE)",
+        "operating_frequency": "100 MHz (Cat5e) / 250 MHz (Cat6)"
+    },
+    "specifications": [
+        {
+            "parameter": "Configuration",
+            "value": "8P8C",
+            "notes": "8 Positions, 8 Contacts"
+        },
+        {
+            "parameter": "Ethernet Support",
+            "value": "10/100/1000 Base-T",
+            "notes": "Gigabit Ethernet support requires Cat5e/6"
+        },
+        {
+            "parameter": "Built-in Magnetics",
+            "value": "Available (MagJack)",
+            "notes": "Isolates signal lines and reduces EMI noise"
+        },
+        {
+            "parameter": "LED Indicators",
+            "value": "Link / Activity",
+            "notes": "Onboard Green/Yellow LEDs"
+        }
+    ],
+    "definition": "An RJ45 (Registered Jack 45) connector is an 8-position, 8-contact (8P8C) modular connector standard. It is the universal interface used for twisted-pair Ethernet cabling, connecting computers, routers, and switches to local area networks (LAN).",
+    "working_principle": "It routes differential transmit and receive data signals (TX/RX) over twisted-pair copper cables. High-speed digital signals are passed through internal isolation transformers (magnetics) to suppress common-mode noise and prevent ground loop currents.",
+    "types": "Standard RJ45 jacks, MagJacks (with integrated transformers), and shielded metal RJ45 connectors.",
+    "construction": "Houses 8 gold-plated spring wire contacts inside a clear polycarbonate plug casing, mating with a shielded copper-alloy PCB jack housing.",
+    "electrical_characteristics": "Low contact resistance, matched 100Ω differential impedance, and high dielectric isolation. Supports Power over Ethernet (PoE).",
+    "symbol_description": "An 8-pin block showing TX/RX differential pairs, ground shielding, and LED connections.",
+    "formulas": "Ethernet line differential impedance: Z_diff = 100 Ω.",
+    "applications": "Network switches, desktop computers, IP network cameras, and smart home hubs.",
+    "advantages": "Universal global standard, supports high-speed data (up to 10 Gbps), supports Power over Ethernet (PoE).",
+    "disadvantages": "Bulky physical size, requires differential trace routing and isolation transformers, plastic locking clip on plugs breaks easily.",
+    "example_circuit_operation": "An RJ45 MagJack is soldered to a microchip board. The signal pins route through the integrated isolation magnetics to an Ethernet PHY chip, allowing the board to communicate over a local router network.",
+    "practical_tips": "When designing a PCB with an RJ45 port, select a 'MagJack' (an RJ45 connector with integrated magnetics). This saves significant board space and simplifies routing by enclosing the transformers and filter chokes inside the connector shell.",
+    "interview_questions": [
+        {
+            "question": "What does 8P8C stand for?",
+            "answer": "8 Positions, 8 Contacts, describing the physical connector configuration of an RJ45 plug or jack."
+        },
+        {
+            "question": "What is a MagJack and why is it used?",
+            "answer": "An RJ45 jack with integrated isolation transformers and common-mode chokes. It isolates the transceiver chip from high line voltages, suppresses EMI, and saves board space."
+        },
+        {
+            "question": "How do the T568A and T568B wiring standards differ?",
+            "answer": "They differ in the color arrangement of the orange and green twisted wire pairs. T568B is the dominant standard used in modern network patch cables."
+        },
+        {
+            "question": "What is Power over Ethernet (PoE)?",
+            "answer": "A technology that allows DC power to be transmitted along with data over standard Ethernet cables, powering IP cameras or VoIP phones without separate power cords."
+        },
+        {
+            "question": "Why are ethernet signals routed as differential pairs?",
+            "answer": "Differential routing cancels out electromagnetic noise. Noise coupled onto the twisted cable affects both wires equally and is rejected by the receiver's differential amplifier."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "IEEE 802.3 Ethernet Standards; Amphenol RJ45 design specs.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

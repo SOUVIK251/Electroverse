@@ -1,0 +1,90 @@
+{
+    "id": "audio_jack_3_5",
+    "name": "Audio Jack (3.5 mm)",
+    "category": "Connectors",
+    "short_description": "A common 3.5mm miniature phone jack used for routing analog audio signals to headphones and microphones.",
+    "difficulty": "Beginner",
+    "common_uses": "Headphone sockets on smartphones, microphone input jacks, analog audio routing.",
+    "quick_facts": {
+        "symbol": "JK_AUD",
+        "unit": "Pins (TRS / TRRS)",
+        "formula": "Analog Audio routing",
+        "passive_active": "Passive",
+        "polarized": "No (TRS pinout convention applies)",
+        "typical_voltage": "Low Voltage (typically <= 2V AC audio signals)",
+        "typical_current": "mA range (low power)",
+        "operating_frequency": "20 Hz to 20 kHz (Audio band)"
+    },
+    "specifications": [
+        {
+            "parameter": "Pin Configuration",
+            "value": "TRS / TRRS",
+            "notes": "Tip-Ring-Sleeve (stereo) / Tip-Ring-Ring-Sleeve (stereo + mic)"
+        },
+        {
+            "parameter": "Plug Diameter",
+            "value": "3.5",
+            "unit": "mm",
+            "notes": "Standard miniature headphone size"
+        },
+        {
+            "parameter": "Detection Switch",
+            "value": "Available",
+            "notes": "Built-in shunt switches detect plug insertion"
+        },
+        {
+            "parameter": "Insulation Resistance",
+            "value": ">100",
+            "unit": "MΩ",
+            "notes": "Prevents crosstalk between channels"
+        }
+    ],
+    "definition": "An Audio Jack (3.5mm headphone jack) is a miniature cylindrical phone connector standard. It is used to connect analog audio devices, routing stereo speaker channels and microphone feeds over a single plug.",
+    "working_principle": "It establishes a connection using a segmented cylindrical plug. When inserted, the plug's metallic segments (Tip, Ring, Sleeve) compress against internal spring leaf terminals in the jack. Insertion pushes open mechanical switch pins to mute external speakers.",
+    "types": "TS (mono), TRS (stereo), and TRRS (stereo + microphone, CTIA or OMTP standard).",
+    "construction": "Houses a series of phosphor bronze spring contacts inside a plastic or shielded metal barrel casing, with solder terminals for PCB integration.",
+    "electrical_characteristics": "Low contact resistance, isolated channels, and built-in shunt switch contacts.",
+    "symbol_description": "Cylindrical socket symbol showing spring contacts for Tip, Ring, and Sleeve terminals.",
+    "formulas": "Power delivered to headphones: P = V_rms^2 / R_headphone (typically 16Ω or 32Ω).",
+    "applications": "Microcontroller voice output jacks, headphone sockets, microphone preamplifier inputs.",
+    "advantages": "Compact size, robust plug-in mechanic, integrated switch contacts route audio routes dynamically.",
+    "disadvantages": "Inserting the plug causes a brief short circuit between pins as they slide past contacts, susceptible to contact dust crackle noise.",
+    "example_circuit_operation": "A 3.5mm TRS jack is soldered to an MP3 player board. When headphones are plugged in, the internal switch opens, muting the onboard speaker and routing audio to the headphone speakers.",
+    "practical_tips": "When designing audio routing circuits, place a 10Ω resistor and a 100nF capacitor in series as a snubber (Zobel network) on the amplifier output, protecting the amplifier when the audio plug is hot-plugged and briefly shorts the contacts.",
+    "interview_questions": [
+        {
+            "question": "What do the letters TRS stand for on an audio jack?",
+            "answer": "Tip, Ring, Sleeve, representing the three conducting segments of a stereo audio plug."
+        },
+        {
+            "question": "How are stereo audio channels typically mapped on a 3.5mm TRS plug?",
+            "answer": "Tip: Left Channel, Ring: Right Channel, Sleeve: Common Ground."
+        },
+        {
+            "question": "What is the difference between CTIA and OMTP standards on TRRS jacks?",
+            "answer": "They differ in the mapping of the ground and microphone contacts on the sleeve and ring. CTIA places the ground on the sleeve and microphone on the second ring, which is the standard for modern smartphones."
+        },
+        {
+            "question": "How does a headphone jack detect when a plug is inserted?",
+            "answer": "By using internal shunt switches. The metal springs normally touch shunt terminals when empty. Inserting the plug physically lifts the springs, breaking the connection and signaling a plug insertion to the controller."
+        },
+        {
+            "question": "What typical impedance do consumer headphones have?",
+            "answer": "Typically 16 Ω or 32 Ω, which requires low-impedance audio amplifier drivers."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "IEC 60603-11 Connectors for audio equipment; headphone amplifier design guides.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

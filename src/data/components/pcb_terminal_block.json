@@ -1,0 +1,92 @@
+{
+    "id": "pcb_terminal_block",
+    "name": "PCB Terminal Block",
+    "category": "Connectors",
+    "short_description": "A screw-clamp connector soldered directly onto PCBs to allow secure external wire connections.",
+    "difficulty": "Beginner",
+    "common_uses": "Power supply outputs, relay contact connections, industrial controller wiring inputs.",
+    "quick_facts": {
+        "symbol": "CON",
+        "unit": "Pins",
+        "formula": "Screw Clamp Connection",
+        "passive_active": "Passive",
+        "polarized": "No",
+        "typical_voltage": "250V to 600V",
+        "typical_current": "8A to 30A (standard PCB types)",
+        "operating_frequency": "DC / AC"
+    },
+    "specifications": [
+        {
+            "parameter": "Pin Pitch",
+            "value": "5.0 / 5.08",
+            "unit": "mm",
+            "notes": "Common through-hole spacing (also 3.5mm / 7.5mm)"
+        },
+        {
+            "parameter": "Wire Gauge Range",
+            "value": "14 - 26",
+            "unit": "AWG",
+            "notes": "Supports solid or stranded copper wire"
+        },
+        {
+            "parameter": "Rated Voltage",
+            "value": "300",
+            "unit": "V",
+            "notes": "UL standard rating"
+        },
+        {
+            "parameter": "Torque limit",
+            "value": "0.4",
+            "unit": "N·m",
+            "notes": "Tightening limit to avoid stripping threads"
+        }
+    ],
+    "definition": "A PCB Terminal Block is a rugged, board-mounted electrical connector incorporating screw-clamp or spring-clamp terminals. It is designed to provide secure, semi-permanent external wire connections to a printed circuit board.",
+    "working_principle": "It utilizes a rising-cage or screw-clamp mechanism. Stripped wire ends are inserted into the terminal collar. Turning the screw forces the metal clamp upward or downward, compression-locking the wire against the internal busbar terminal.",
+    "types": "Screw terminals (rising cage), spring-clamp terminals (screwless, push-in), and pluggable terminal blocks.",
+    "construction": "A housing molded from high-temperature polyamide (Nylon), containing zinc-plated steel screws, copper-alloy rising clamps, and thick tin-plated solder pins.",
+    "electrical_characteristics": "Low contact resistance (<5 mΩ) and high current carrying capability. Through-hole solder pins anchor the block mechanically to the PCB.",
+    "symbol_description": "Schematic block showing parallel wire ports with screw details, representing high-current connection points.",
+    "formulas": "Clamping force: F = T_torque / (r * tan(theta + phi)).",
+    "applications": "Industrial PLCs, SMPS output rails, relay module connections, and high-power motor drivers.",
+    "advantages": "Provides high-current connections without soldering external cables, reusable screw clamp, vibration-resistant connection.",
+    "disadvantages": "Bulky physical height, screws can loosen over time under severe vibration, risk of stripping threads if over-tightened.",
+    "example_circuit_operation": "A 2-pin PCB terminal block is soldered to a relay board. External 230V AC lines are stripped, inserted into the block collars, and screwed tight to route mains power through the relay.",
+    "practical_tips": "When using stranded wire in screw terminal blocks, crimp a wire ferrule onto the stripped wire end first. This prevents the screw from cutting the individual copper strands and guarantees a solid connection.",
+    "interview_questions": [
+        {
+            "question": "What is the advantage of a rising-cage clamp over a direct-screw terminal block?",
+            "answer": "A rising-cage clamp compresses the wire evenly between flat metal plates, preventing the screw from directly grinding against and cutting the wire strands, which makes it safer for stranded conductors."
+        },
+        {
+            "question": "How do pitch sizes (e.g. 5.08mm vs 3.5mm) affect voltage ratings?",
+            "answer": "Larger pitches provide greater physical separation (clearance and creepage distance) between adjacent terminals, allowing higher voltage ratings (e.g., 300V/600V) without risk of arcing."
+        },
+        {
+            "question": "Why are terminal blocks often modular with interlocking slots on the sides?",
+            "answer": "The interlocking slots allow multiple 2-pin and 3-pin blocks to be slid together, creating custom length terminal strips (e.g., a 5-pin block by joining a 2-pin and a 3-pin)."
+        },
+        {
+            "question": "What is a pluggable terminal block?",
+            "answer": "A two-piece connector system where the wire-clamp terminal plug mates into a header soldered on the PCB, allowing fast board disconnection without unscrewing each wire."
+        },
+        {
+            "question": "What wire gauge range (AWG) is typically supported by a 5.08mm terminal block?",
+            "answer": "Typically 14 AWG (thick power wires) down to 26 AWG (thin signal wires)."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Voltage Divider",
+            "status": "available"
+        }
+    ],
+    "references": "Phoenix Contact Terminal Block Specifications; UL 1059 standard for terminal blocks.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

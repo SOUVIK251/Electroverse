@@ -1,0 +1,89 @@
+{
+    "id": "usb_type_c",
+    "name": "USB Type-C",
+    "category": "Connectors",
+    "short_description": "The modern, reversible 24-pin USB connector supporting high-speed data, video, and high-power delivery.",
+    "difficulty": "Advanced",
+    "common_uses": "Smartphone chargers, modern laptop power ports, high-speed external SSDs, display interfaces.",
+    "quick_facts": {
+        "symbol": "CON_TYPEC",
+        "unit": "Pins",
+        "formula": "USB Power Delivery (PD) / Alternate Modes",
+        "passive_active": "Passive",
+        "polarized": "Yes (Reversible orientation symmetry)",
+        "typical_voltage": "5V to 20V (Up to 48V under Extended Power Range)",
+        "typical_current": "3A to 5A (Power Delivery)",
+        "operating_frequency": "Up to 40 Gbps (USB4 / Thunderbolt)"
+    },
+    "specifications": [
+        {
+            "parameter": "Pin Count",
+            "value": "24",
+            "notes": "12 pins per side in symmetrical layout"
+        },
+        {
+            "parameter": "Configuration Channel (CC)",
+            "value": "2",
+            "notes": "Used to detect plug orientation and negotiate power"
+        },
+        {
+            "parameter": "Max Power Delivery",
+            "value": "240",
+            "unit": "W",
+            "notes": "48V at 5A max (EPR specification)"
+        },
+        {
+            "parameter": "Mating Cycles",
+            "value": "10000",
+            "notes": "Highly durable contact design"
+        }
+    ],
+    "definition": "The USB Type-C connector is the modern, compact 24-pin reversible connection standard. It is designed to replace all previous USB form factors, supporting USB 2.0/3.1/4 speeds, display protocols (DisplayPort, HDMI alternate modes), and high-power battery charging up to 240W.",
+    "working_principle": "It utilizes a symmetrical 24-pin layout. The configuration channel (CC1 and CC2) pins detect plug orientation (normal or flipped) and negotiate power levels with the host using the USB Power Delivery (PD) protocol. Data lines are routed as high-speed differential pairs.",
+    "types": "SMD receptacles (standard 24-pin), hybrid mid-mount receptacles, and 6-pin/16-pin power-only charging modules.",
+    "construction": "Consists of a highly shielded metal housing enclosing a central tongue with 24 gold-plated pins. Designed with double-row contacts to enable reversible mating.",
+    "electrical_characteristics": "Supports high current flow (up to 5A) and high voltage delivery (up to 48V). High-speed lines require strict 90Ω differential impedance control and ESD protection.",
+    "symbol_description": "Detailed 24-pin block displaying VBUS, GND, CC1/CC2, D+/D-, and SuperSpeed TX/RX differential lines.",
+    "formulas": "CC pull-down resistor value for device mode: R_d = 5.1 kΩ.",
+    "applications": "Modern laptop power delivery ports, smartphone chargers, high-speed data hubs, and docking stations.",
+    "advantages": "Fully reversible plug orientation, supports massive power transmission (up to 240W), consolidates power, data, and video into one cable.",
+    "disadvantages": "Extremely difficult to solder by hand due to fine 0.5mm pin pitch, complex PCB routing requirements.",
+    "example_circuit_operation": "A USB-C receptacle is added to a 5V project. Two 5.1kΩ pull-down resistors are soldered to the CC1 and CC2 pins to notify the USB-C source controller to deliver 5V power on the VBUS rail.",
+    "practical_tips": "If you are designing a USB-C board that only needs 5V power (no high-speed data), use a 16-pin or 6-pin USB-C receptacle. They have wider pin spacing and are much easier to hand-solder than full 24-pin versions.",
+    "interview_questions": [
+        {
+            "question": "How does USB Type-C achieve its reversible insertion feature?",
+            "answer": "The connector has a symmetrical 24-pin layout with identical mirror-image pins on the top and bottom rows. The Configuration Channel (CC) pins detect the orientation and route data signals accordingly."
+        },
+        {
+            "question": "What is the purpose of the 5.1kΩ pull-down resistors on the CC pins?",
+            "answer": "They serve as CC pull-down resistors ($R_d$). They notify a USB-C Power Delivery source (like a charger) that a device is connected, prompting the source to turn on the 5V VBUS power rail."
+        },
+        {
+            "question": "What is USB Power Delivery (PD)?",
+            "answer": "A protocol communicated over the CC lines that negotiates higher voltages and currents (up to 20V/5A, or 48V/5A under EPR) to charge laptops and devices rapidly."
+        },
+        {
+            "question": "What are Alternate Modes in USB-C?",
+            "answer": "Features that repurpose the high-speed TX/RX differential pairs to transmit non-USB signals, such as DisplayPort or HDMI video streams, directly through the USB-C port."
+        },
+        {
+            "question": "Why is the pin pitch of a USB-C receptacle challenging for PCB manufacturing?",
+            "answer": "It has a fine 0.5mm pin pitch with pins arranged in two rows (one surface-mount, one through-hole). This requires precision stencil assembly and narrow trace tolerances to avoid solder bridging."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "USB Type-C Specification Document; Texas Instruments USB-C design guides.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

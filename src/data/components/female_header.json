@@ -1,0 +1,92 @@
+{
+    "id": "female_header",
+    "name": "Female Header",
+    "category": "Connectors",
+    "short_description": "A socket strip connector designed to mate with male pin headers, providing board-to-board connections.",
+    "difficulty": "Beginner",
+    "common_uses": "Arduino board sockets, plug-in daughterboard interfaces, serial modules.",
+    "quick_facts": {
+        "symbol": "XS",
+        "unit": "Pins",
+        "formula": "Female Spring Socket",
+        "passive_active": "Passive",
+        "polarized": "No",
+        "typical_voltage": "250V AC/DC",
+        "typical_current": "Max 3A per socket",
+        "operating_frequency": "DC to GHz"
+    },
+    "specifications": [
+        {
+            "parameter": "Pitch",
+            "value": "2.54",
+            "unit": "mm",
+            "notes": "Matches standard 0.1-inch male headers"
+        },
+        {
+            "parameter": "Contact Resistance",
+            "value": "<20",
+            "unit": "mΩ",
+            "notes": "Typical contact point resistance"
+        },
+        {
+            "parameter": "Insulator Height",
+            "value": "8.5",
+            "unit": "mm",
+            "notes": "Standard profile height (also low-profile/stackable)"
+        },
+        {
+            "parameter": "Insertion Force",
+            "value": "1.5",
+            "unit": "N/pin",
+            "notes": "Mating force per pin"
+        }
+    ],
+    "definition": "A Female Header (also called a header socket) is a board-mounted socket strip designed to receive male pin headers. It provides a reliable, pluggable board-to-board or cable-to-board electrical connection.",
+    "working_principle": "It contains internal metal leaf springs. When a male pin enters the socket hole, it pushes the springs apart. The spring tension exerts a continuous clamping force on the male pin, establishing connection via friction.",
+    "types": "Single-row, double-row, straight, right-angle, and stackable headers (which have long pins extending out the bottom, used in Arduino shields).",
+    "construction": "Houses dual-beam or tuning-fork phosphor bronze leaf contacts inside a molded thermoplastic housing strip.",
+    "electrical_characteristics": "Low contact resistance, low capacitance, and mechanical friction holds connections secure against moderate vibration.",
+    "symbol_description": "Row of small solid rectangles or socket symbols showing connection terminals.",
+    "formulas": "Frictional retention force: F_r = u * F_contact * pins.",
+    "applications": "Arduino board sockets, plug-in modules (like ESP8266 or step drivers), and modular sensor interconnects.",
+    "advantages": "Allows modules to be plugged in and replaced easily without soldering, protects female contact clips from external shorts.",
+    "disadvantages": "Harder to cut to custom lengths than male headers (requires breaking and sacrificing one pin socket), contact springs can wear out over many mating cycles.",
+    "example_circuit_operation": "Female headers are soldered to a custom PCB shield. An Arduino Nano is plugged into the sockets, allowing it to be easily swapped out if damaged.",
+    "practical_tips": "To cut a female header strip to a specific pin count, pull out the metal socket pin at the cut point using pliers, then use side cutters to cut through the empty plastic slot. Sand the edge smooth.",
+    "interview_questions": [
+        {
+            "question": "How does a female header establish electrical contact with a male pin?",
+            "answer": "It contains internal spring contact clips (like tuning-fork or dual-beam springs) that flex and exert mechanical pressure against the square sides of the male pin when inserted."
+        },
+        {
+            "question": "What are stackable headers?",
+            "answer": "Sockets that have extra-long solder tails (typically 10-15mm), allowing them to pass through a shield PCB and plug into female headers below while acting as sockets themselves on top."
+        },
+        {
+            "question": "What is the consequence of high contact resistance in worn female headers?",
+            "answer": "Worn spring contacts exert less force, increasing contact resistance. This causes voltage drops, signal noise, and local heating if carrying power currents."
+        },
+        {
+            "question": "Why is phosphor bronze commonly used for the internal contacts?",
+            "answer": "Phosphor bronze offers excellent electrical conductivity combined with high mechanical elasticity, retaining its spring tension over hundreds of insertion cycles."
+        },
+        {
+            "question": "What pitch sizes are common for female headers besides 2.54mm?",
+            "answer": "2.0 mm (used in XBee and compact boards) and 1.27 mm (used in high-density SMD electronics)."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "Samtec female socket series documentation; DIN standard board connectors list.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

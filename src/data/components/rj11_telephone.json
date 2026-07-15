@@ -1,0 +1,90 @@
+{
+    "id": "rj11_telephone",
+    "name": "RJ11 Telephone Connector",
+    "category": "Connectors",
+    "short_description": "The standard 6P4C or 6P2C modular connector used for analog telephone lines and DSL connections.",
+    "difficulty": "Beginner",
+    "common_uses": "Landline telephones, DSL modems, dial-up modems.",
+    "quick_facts": {
+        "symbol": "CON_TEL",
+        "unit": "Pins (6P4C)",
+        "formula": "Analog telephone routing",
+        "passive_active": "Passive",
+        "polarized": "Yes",
+        "typical_voltage": "48V DC idle / 90V AC ring signal",
+        "typical_current": "20mA to 50mA loop current",
+        "operating_frequency": "DC to 4 kHz (voice) / low MHz (DSL)"
+    },
+    "specifications": [
+        {
+            "parameter": "Configuration",
+            "value": "6P4C",
+            "notes": "6 Positions, 4 Contacts"
+        },
+        {
+            "parameter": "Line Voltage (Idle)",
+            "value": "-48",
+            "unit": "V",
+            "notes": "Negative DC voltage relative to ground"
+        },
+        {
+            "parameter": "Ringer Voltage",
+            "value": "90",
+            "unit": "V_rms",
+            "notes": "20Hz AC signal to trigger ringer"
+        },
+        {
+            "parameter": "Contact Plating",
+            "value": "Gold",
+            "notes": "Corrosion-resistant gold contacts"
+        }
+    ],
+    "definition": "An RJ11 (Registered Jack 11) connector is a 6-position modular connector containing 2 or 4 active contacts (6P2C or 6P4C). It is the standard interface used globally for connecting single-line analog telephone sets and DSL modems.",
+    "working_principle": "It routes analog voice signals and high-voltage AC ring signals over a single copper twisted pair (referred to as the Tip and Ring lines). The idle DC voltage is negative (-48V) to reduce galvanic corrosion of the copper wires.",
+    "types": "6P2C (2 wires, standard single phone line), 6P4C (4 wires, supporting two lines), and chassis-mount PCB jacks.",
+    "construction": "Houses 2 or 4 gold-plated spring wire contacts inside a clear plastic plug body, mating with a female PCB receptacle.",
+    "electrical_characteristics": "Low contact resistance, high voltage tolerance to handle the 90V AC ring signals, and positive latch-clip engagement.",
+    "symbol_description": "A 4-pin modular block diagram showing Tip and Ring connections.",
+    "formulas": "Loop Current: I_loop = (V_exchange - V_phone) / R_loop.",
+    "applications": "Landline telephone sockets, dial-up modems, ADSL/VDSL splitters, and POS credit card machines.",
+    "advantages": "Highly robust mechanical design, standardized globally, low cost.",
+    "disadvantages": "Limited to low data speeds (except for DSL), plastic latch clip breaks easily, high ring voltages present mild shock hazards.",
+    "example_circuit_operation": "An RJ11 jack is soldered to a dial-up modem card. The Tip and Ring lines route through a protective surge varistor and isolation transformer to detect the 90V AC ring signal.",
+    "practical_tips": "Do not plug an RJ11 plug into a wider RJ45 jack. The narrow RJ11 plug can bend and permanently deform the outer pins (pins 1 and 8) of the RJ45 jack.",
+    "interview_questions": [
+        {
+            "question": "What does the configuration '6P4C' mean on an RJ11 connector?",
+            "answer": "6 Positions, 4 Contacts, meaning the plug has slot guides for 6 conductors but only contains 4 metal contacts."
+        },
+        {
+            "question": "What are the names of the two main wires in an analog telephone circuit?",
+            "answer": "Tip (positive, green wire) and Ring (negative, red wire)."
+        },
+        {
+            "question": "Why is the telephone line idle voltage negative (-48V)?",
+            "answer": "Using a negative potential relative to the earth ground prevents galvanic migration of copper ions, protecting underground wires from corrosion if water leaks in."
+        },
+        {
+            "question": "What voltage is applied to the RJ11 line to make the telephone ring?",
+            "answer": "A high-voltage AC signal, typically 90V RMS at 20 Hz, superimposed over the -48V DC baseline."
+        },
+        {
+            "question": "Can an RJ11 connector carry digital DSL data?",
+            "answer": "Yes, high-frequency DSL signals are multiplexed over the same copper wire pair and separated at the modem using a low-pass splitter filter."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "FCC Part 68 connector specifications; analog telephony engineering handbooks.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "id": "rfid_rc522",
+    "name": "RFID RC522",
+    "category": "Communication Modules",
+    "short_description": "A high-integration contactless reader module operating on 13.56 MHz for reading and writing RFID cards/tags.",
+    "difficulty": "Intermediate",
+    "common_uses": "Electronic access control gates, public transit smart cards, student attendance loggers, inventory tracking.",
+    "quick_facts": {
+        "symbol": "U_RFID",
+        "unit": "Hertz (Hz)",
+        "formula": "ISO/IEC 14443 A / MIFARE Protocol",
+        "passive_active": "Active",
+        "polarized": "Yes",
+        "typical_voltage": "3.3V (2.5V to 3.6V)",
+        "typical_current": "13 - 26mA active, 10μA hard power down",
+        "operating_frequency": "13.56 MHz (HF band)"
+    },
+    "specifications": [
+        {
+            "parameter": "Max Reading Range",
+            "value": "5.0",
+            "unit": "cm",
+            "notes": "Depends on tag antenna size and geometry"
+        },
+        {
+            "parameter": "Supported Interface",
+            "value": "SPI / I2C / UART",
+            "notes": "SPI is default breakout interface"
+        },
+        {
+            "parameter": "Max SPI speed",
+            "value": "10",
+            "unit": "Mbps",
+            "notes": "High speed communication"
+        },
+        {
+            "parameter": "Operating Temperature",
+            "value": "-20 to +80",
+            "unit": "°C",
+            "notes": "Standard industrial grade"
+        }
+    ],
+    "definition": "The RFID RC522 reader module is a highly integrated, contactless read/write module based on NXP's MFRC522 IC. It communicates with MIFARE Classic RFID cards and key fobs over a high-frequency (13.56 MHz) RF carrier band.",
+    "working_principle": "It generates an electromagnetic field via its PCB loop antenna. When a passive RFID tag enters this field, its internal coil harvests power via magnetic induction, waking the tag to transmit its unique identification serial number (UID) back to the reader.",
+    "types": "Standard RC522 blue breakout boards with SPI headers, integrated serial modems, and USB desktop reader devices.",
+    "construction": "Consists of the MFRC522 controller IC, a 27.12 MHz crystal oscillator, passive impedance-matching coils, and a multi-turn PCB trace loop antenna.",
+    "electrical_characteristics": "Requires 3.3V power and SPI control logic. Inputs are not 5V tolerant, requiring level shifting resistors when connected to 5V microcontrollers.",
+    "symbol_description": "Interface block displaying power inputs, SPI bus lines (MISO, MOSI, SCK, SDA), hardware reset, and interrupt outputs.",
+    "formulas": "Resonant frequency of the LC antenna loop: f = 1 / (2 * pi * sqrt(L * C)).",
+    "applications": "Automated security locks, public transport billing systems, contactless check-in kiosks, asset tracking.",
+    "advantages": "Inexpensive reader hardware, contactless operation increases mechanical life, tags require no internal battery.",
+    "disadvantages": "Extremely short read range (under 5cm), read path blocked by metals or nearby liquids.",
+    "example_circuit_operation": "An RC522 board is connected to the SPI pins of a microcontroller. The program polls the reader. When a MIFARE card is tapped, the module reads the card's UID, comparing it to an authorization database to toggle a lock relay.",
+    "practical_tips": "Do not mount the RC522 module directly onto metal plates, as metal dampens the 13.56 MHz magnetic field, dramatically reducing or completely blocking the reading range.",
+    "interview_questions": [
+        {
+            "question": "How does a passive RFID tag get power to transmit its data?",
+            "answer": "Through electromagnetic induction. The reader's antenna creates a magnetic field that induces a small AC voltage in the tag's antenna coil, which is rectified to power the tag's IC."
+        },
+        {
+            "question": "What communication interfaces are supported by the MFRC522 chip?",
+            "answer": "SPI, I2C, and UART. Most hobbyist modules default to SPI pins."
+        },
+        {
+            "question": "What frequency does the RC522 module operate on?",
+            "answer": "13.56 MHz, which belongs to the High Frequency (HF) RFID classification."
+        },
+        {
+            "question": "What is the typical read range of the RC522?",
+            "answer": "Around 2cm to 5cm, depending on tag size, antenna tuning, and power supply stability."
+        },
+        {
+            "question": "Why is level shifting recommended when connecting RC522 to an Arduino Uno?",
+            "answer": "The RC522 operates strictly at 3.3V logic. The Arduino Uno outputs 5V on its digital pins, which can damage the MFRC522 inputs over time if level shifters or series resistors are not used."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "NXP MFRC522 Contactless Reader IC Datasheet; ISO/IEC 14443 standard specifications.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "id": "vga_connector",
+    "name": "VGA Connector",
+    "category": "Connectors",
+    "short_description": "A legacy 15-pin D-subminiature connector used for transmitting analog video signals between computers and monitors.",
+    "difficulty": "Intermediate",
+    "common_uses": "Legacy computer monitor connections, industrial display outputs, older projectors.",
+    "quick_facts": {
+        "symbol": "CON_VGA",
+        "unit": "Pins (DE-15)",
+        "formula": "Analog Video transmission",
+        "passive_active": "Passive",
+        "polarized": "Yes",
+        "typical_voltage": "0.7V peak-to-peak (RGB color signals) / 5V logic (sync lines)",
+        "typical_current": "mA range",
+        "operating_frequency": "DC to MHz (depends on resolution)"
+    },
+    "specifications": [
+        {
+            "parameter": "Pin Count",
+            "value": "15",
+            "notes": "DE-15 High-Density D-sub connector"
+        },
+        {
+            "parameter": "Signal Type",
+            "value": "Analog RGBHV",
+            "notes": "Red, Green, Blue colors, Horizontal and Vertical syncs"
+        },
+        {
+            "parameter": "RGB Impedance",
+            "value": "75",
+            "unit": "Ω",
+            "notes": "Coaxial cable matched impedance"
+        },
+        {
+            "parameter": "Logic Level (Sync)",
+            "value": "TTL / 5",
+            "unit": "V",
+            "notes": "Horizontal/Vertical sync line voltages"
+        }
+    ],
+    "definition": "A VGA (Video Graphics Array) connector is a legacy 15-pin D-subminiature connector (specifically a high-density DE-15). It was the standard analog interface for transmitting analog video component signals (RGBHV) from computers to CRT and early LCD monitors.",
+    "working_principle": "It routes individual analog voltage signals (0V to 0.7V) representing Red, Green, and Blue color channels, along with separate digital TTL pulses (+5V) for Horizontal and Vertical sync to align the display beam scanning.",
+    "types": "Through-hole female PCB connectors, cable-mount male plugs, and chassis-mount couplers.",
+    "construction": "Houses 15 pins arranged in three rows of five inside a shielded D-shaped metal shell, with screw locks on the sides for secure mating.",
+    "electrical_characteristics": "Requires 75Ω termination on the RGB color lines to prevent ghosting and signal reflections on analog displays.",
+    "symbol_description": "High-density 15-pin block symbol displaying RGB lines, sync pulses, and shield ground contacts.",
+    "formulas": "RGB termination voltage: V_rgb = I * 75 Ω.",
+    "applications": "Older desktop computers, industrial equipment displays, server rack KVM consoles, and projectors.",
+    "advantages": "Highly robust mechanical locking, standardized for decades, simple analog video generation.",
+    "disadvantages": "Analog signals degrade over long cable runs, bulky connector size, obsolete compared to digital HDMI and DisplayPort standards.",
+    "example_circuit_operation": "A VGA port is soldered to an MCU board. The Red, Green, and Blue pins are driven by digital-to-analog resistor ladders (DACs) terminated with 75Ω resistors, producing the color waveforms.",
+    "practical_tips": "Always tighten the side thumb screws on a VGA connector when installing it. Under vibration, a loose VGA plug will slide slightly out, causing intermittent color loss (such as the screen turning completely yellow or blue).",
+    "interview_questions": [
+        {
+            "question": "How many pins are in a high-density VGA connector and what is its standard shell size?",
+            "answer": "It has 15 pins arranged in three rows of five. The connector size is DE-15 (often mistakenly called DB-15)."
+        },
+        {
+            "question": "What does the abbreviation 'RGBHV' mean in VGA signaling?",
+            "answer": "Red, Green, Blue (analog color lines), Horizontal sync, and Vertical sync (digital synchronization pulses)."
+        },
+        {
+            "question": "Why is the impedance of the Red, Green, and Blue lines specified at 75 ohms?",
+            "answer": "To match the characteristic impedance of 75Ω coaxial cables. This matching prevents signal reflections, which cause ghosting or shadow lines on the display screen."
+        },
+        {
+            "question": "What are the sync lines used for?",
+            "answer": "Horizontal Sync (HSYNC) and Vertical Sync (VSYNC) tell the monitor when to start a new horizontal pixel row and when to refresh the screen for a new vertical frame."
+        },
+        {
+            "question": "Does VGA support digital audio signals?",
+            "answer": "No. VGA is strictly a video-only analog connector; audio must be routed through separate cables."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "VESA VGA monitor interface standard definitions; D-sub connector catalogs.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

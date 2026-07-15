@@ -1,0 +1,91 @@
+{
+    "id": "toggle_switch",
+    "name": "Toggle Switch",
+    "category": "Miscellaneous",
+    "short_description": "A manual switch actuated by a mechanical lever to configure or control power rails.",
+    "difficulty": "Beginner",
+    "common_uses": "Power switches in instruments, industrial panels, model control systems.",
+    "quick_facts": {
+        "symbol": "SW_TOG",
+        "unit": "Poles / Throws",
+        "formula": "Mechanical toggle latch",
+        "passive_active": "Passive",
+        "polarized": "No",
+        "typical_voltage": "125V to 250V AC / 12V to 30V DC",
+        "typical_current": "3A to 15A+",
+        "operating_frequency": "DC / AC"
+    },
+    "specifications": [
+        {
+            "parameter": "Configuration",
+            "value": "SPDT / DPDT",
+            "notes": "Single-Pole Double-Throw or Double-Pole Double-Throw"
+        },
+        {
+            "parameter": "Max Current Rating",
+            "value": "6",
+            "unit": "A",
+            "notes": "At 125V AC (standard panel size)"
+        },
+        {
+            "parameter": "Panel Hole Diameter",
+            "value": "6.0",
+            "unit": "mm",
+            "notes": "Sub-miniature size bushing mount"
+        },
+        {
+            "parameter": "Contact Resistance",
+            "value": "<10",
+            "unit": "mΩ",
+            "notes": "Heavy brass-silver contacts"
+        }
+    ],
+    "definition": "A Toggle Switch is a manually actuated electrical switch operated by a mechanical lever. It is designed to switch power or control lines on and off, remaining latched in its set position.",
+    "working_principle": "It operates on a spring-loaded toggle linkage. Flipping the external lever moves an internal sliding contact wedge, which snaps into place to bridge or open connections between the terminal contacts.",
+    "types": "SPST (Single-Pole Single-Throw), SPDT (Single-Pole Double-Throw), DPDT (Double-Pole Double-Throw), and momentary toggle variants.",
+    "construction": "Houses a metal toggle lever, a threaded mounting bushing, silver-plated contacts, and solder lug terminals enclosed in a rugged phenolic body case.",
+    "electrical_characteristics": "Handles high voltages and currents. Offers low contact resistance and solid mechanical latching.",
+    "symbol_description": "Switch symbol showing a diagonal lever line that toggles between terminal dots.",
+    "formulas": "Power switching limit: P_max = V_max * I_max.",
+    "applications": "Main power switches on test instruments, aircraft cockpit controls, and industrial machinery panels.",
+    "advantages": "Rugged construction, clear visual feedback of switch state, handles high currents, secure latching.",
+    "disadvantages": "Bulky physical size for low-power PCBs, exposed terminals on panels require insulation.",
+    "example_circuit_operation": "An SPST toggle switch is wired in series with the positive lead of a 12V battery, serving as the master power switch for a robot controller board.",
+    "practical_tips": "When using toggle switches in DC circuits, check their DC voltage and current ratings. Switches rated for 15A at 250V AC are often only rated for 5A or less at 30V DC due to the difficulty of extinguishing DC arcs.",
+    "interview_questions": [
+        {
+            "question": "What do the terms SPDT and DPDT mean?",
+            "answer": "SPDT: Single-Pole Double-Throw (one input switched between two outputs). DPDT: Double-Pole Double-Throw (two independent inputs switched simultaneously between two outputs each)."
+        },
+        {
+            "question": "Why do AC-rated toggle switches have much lower ratings when used in DC circuits?",
+            "answer": "AC voltage crosses zero volts periodically, which naturally extinguishes any electric arc formed when contacts open. DC voltage is continuous, allowing the arc to persist and damage contacts if not specifically rated for DC."
+        },
+        {
+            "question": "What is a momentary toggle switch?",
+            "answer": "A toggle switch where the lever returns to its center/off position via an internal spring as soon as the user releases it, rather than latching in place."
+        },
+        {
+            "question": "What does a 3-position toggle switch labeled (ON-OFF-ON) do?",
+            "answer": "The center position is OFF. The lever can be flipped left or right to connect the pole to either output terminal, remaining latched in all three states."
+        },
+        {
+            "question": "What is the purpose of the keyway groove on the threaded bushing of a panel-mount toggle switch?",
+            "answer": "It locks the switch into a matching keyed washer, preventing the switch body from rotating in the panel when toggled."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "NKK Switches Toggle Series Catalog; industrial switch safety codes.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

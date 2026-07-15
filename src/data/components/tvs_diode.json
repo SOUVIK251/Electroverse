@@ -1,0 +1,96 @@
+{
+    "id": "tvs_diode",
+    "name": "TVS Diode",
+    "category": "Protection Devices",
+    "short_description": "A transient voltage suppression diode designed to react in picoseconds to clamp overvoltage spikes.",
+    "difficulty": "Intermediate",
+    "common_uses": "Protecting microcontroller input pins, data bus protection (CAN, USB, HDMI), sensor interfaces.",
+    "quick_facts": {
+        "symbol": "D_TVS",
+        "unit": "Volt (V)",
+        "formula": "Avalanche Breakdown",
+        "passive_active": "Active",
+        "polarized": "Available as Unidirectional or Bidirectional",
+        "typical_voltage": "3.3V to 400V+",
+        "typical_current": "Amperes to hundreds of Amperes (Pulsed)",
+        "operating_frequency": "DC to GHz"
+    },
+    "specifications": [
+        {
+            "parameter": "Reverse Standoff Voltage (V_rwm)",
+            "value": "5.0",
+            "unit": "V",
+            "notes": "Max continuous operating voltage without conduction"
+        },
+        {
+            "parameter": "Breakdown Voltage (V_br)",
+            "value": "6.4 - 7.0",
+            "unit": "V",
+            "notes": "Voltage at which diode starts conducting"
+        },
+        {
+            "parameter": "Max Clamping Voltage (V_c)",
+            "value": "9.2",
+            "unit": "V",
+            "notes": "Max voltage across diode during peak pulse current"
+        },
+        {
+            "parameter": "Peak Pulse Power (P_pp)",
+            "value": "400",
+            "unit": "W",
+            "notes": "Tolerates 10/1000μs pulse waveform"
+        }
+    ],
+    "definition": "A Transient Voltage Suppression (TVS) Diode is a semiconductor avalanche junction device designed to protect sensitive downstream integrated circuits from high-voltage transient spikes (such as ESD or inductive switching surges). It reacts in picoseconds to clamp transient voltages to safe levels.",
+    "working_principle": "It operates on silicon p-n junction avalanche breakdown. When the voltage spike exceeds the diode's breakdown threshold ($V_{BR}$), the junction enters avalanche conduction, providing a low-impedance path to divert surge current, clamping the output voltage to a safe level ($V_C$).",
+    "types": "Unidirectional (for DC paths, conducts like a standard diode in forward direction) and Bidirectional (for AC paths, contains back-to-back junctions).",
+    "construction": "Constructed from highly doped, large-area silicon junctions optimized for high transient power handling and low dynamic resistance during clamping.",
+    "electrical_characteristics": "Ultra-fast response time (picoseconds for silicon, nanoseconds for PCB layouts), low leakage current below the standoff voltage ($V_{RWM}$), and low dynamic resistance.",
+    "symbol_description": "Two opposing Zener-like diode symbols facing back-to-back (bidirectional) or a single diode symbol with curved cathode tails (unidirectional).",
+    "formulas": "Dynamic Resistance: R_dyn = (V_clamp - V_breakdown) / I_pulse.",
+    "applications": "Electrostatic discharge (ESD) protection on USB, Ethernet, and HDMI ports, clamping inductive kickback spikes in relays and motors.",
+    "advantages": "Faster response times than MOVs, lower clamping voltages, does not degrade over multiple surge events within ratings.",
+    "disadvantages": "Lower surge energy capacity than MOVs, relatively high cost for high-power models.",
+    "example_circuit_operation": "A bidirectional TVS diode is placed in parallel across the TX/RX lines of a CAN transceiver node. When a static discharge hits the connector pin, the TVS diode breaks down, clamping the pin voltage to 9V and protecting the transceiver.",
+    "practical_tips": "Place the TVS diode as physically close to the input connector port as possible. This minimizes the parasitic loop inductance of the PCB trace, preventing the voltage spike from bypassing the diode.",
+    "interview_questions": [
+        {
+            "question": "How does a TVS diode compare to an MOV?",
+            "answer": "TVS diodes are semiconductor devices with faster response times (picoseconds vs 25ns) and lower clamping voltages. However, they cannot handle the high total energy absorption of heavy-duty MOVs."
+        },
+        {
+            "question": "What is the difference between unidirectional and bidirectional TVS diodes?",
+            "answer": "Unidirectional TVS diodes clamp positive surges and act as standard forward-biased diodes for negative potentials, used in DC circuits. Bidirectional TVS diodes clamp both positive and negative polarities, used in AC or bi-polar signal lines."
+        },
+        {
+            "question": "What is the difference between standoff voltage and clamping voltage?",
+            "answer": "Reverse Standoff Voltage ($V_{RWM}$) is the maximum voltage at which the TVS diode behaves as an open circuit with minimal leakage. Clamping Voltage ($V_C$) is the maximum voltage drop across the diode during a peak pulse current surge."
+        },
+        {
+            "question": "Why is dynamic resistance ($R_{dyn}$) a critical spec for TVS diodes?",
+            "answer": "A lower dynamic resistance means the clamping voltage remains low even as the pulse current spikes, providing superior protection to downstream chips."
+        },
+        {
+            "question": "Why must TVS diodes be placed near the input connector on a PCB?",
+            "answer": "To eliminate the parasitic inductance of the PCB trace. Long traces delay the diode's response, creating a high-voltage overshoot that can damage downstream components."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Positive Clipper",
+            "status": "available"
+        },
+        {
+            "name": "Negative Clipper",
+            "status": "available"
+        }
+    ],
+    "references": "ON Semiconductor TVS Diode selection manual; IEC 61000-4-2 ESD immunity standards.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

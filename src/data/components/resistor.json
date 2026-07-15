@@ -1,0 +1,95 @@
+{
+    "id": "resistor",
+    "name": "Resistor",
+    "category": "Passive Components",
+    "short_description": "A fundamental passive component that restricts the flow of electric current, creating a voltage drop.",
+    "difficulty": "Beginner",
+    "common_uses": "Current limiting, voltage division, pull-up/pull-down resistors, biasing.",
+    "quick_facts": {
+        "symbol": "R",
+        "unit": "Ohm (Ω)",
+        "formula": "V = I × R",
+        "passive_active": "Passive",
+        "polarized": "No",
+        "typical_voltage": "Up to 500V",
+        "typical_current": "Microamps to Amps",
+        "operating_frequency": "DC to GHz"
+    },
+    "images": {
+        "real_photo": "assets/components/resistor/real_photo.jpg",
+        "symbol": "assets/components/resistor/symbol.png",
+        "example_circuit": "assets/components/resistor/example_circuit.png",
+        "pin_diagram": "",
+        "internal_structure": "assets/components/resistor/internal_structure.png"
+    },
+    "specifications": [
+        {
+            "parameter": "Resistance Range",
+            "value": "0.1 to 22M",
+            "unit": "Ω",
+            "notes": "Standard values follow E-series"
+        },
+        {
+            "parameter": "Power Rating",
+            "value": "0.125 to 5",
+            "unit": "W",
+            "notes": "Typical carbon/metal film"
+        },
+        {
+            "parameter": "Tolerance",
+            "value": "0.1 to 10",
+            "unit": "%",
+            "notes": "Gold/Silver bands specify"
+        },
+        {
+            "parameter": "Temp Coefficient",
+            "value": "±50 to ±500",
+            "unit": "ppm/°C",
+            "notes": "Lower is more stable"
+        }
+    ],
+    "definition": "A resistor is a two-terminal electrical component that implements electrical resistance as a circuit element. In electronic circuits, resistors are used to reduce current flow, adjust signal levels, to divide voltages, bias active elements, and terminate transmission lines.",
+    "working_principle": "According to Ohm's Law, the current through a conductor between two points is directly proportional to the voltage across the two points. The resistor introduces collisions between flowing electrons and the lattice structure of the resistive material, dissipating electrical energy as heat.",
+    "types": "Carbon Composition, Carbon Film, Metal Film, Wirewound, Thick Film, Thin Film, Surface Mount Device (SMD), Potentiometer/Rheostat (Variable).",
+    "construction": "Typically constructed by wrapping a resistive wire around a ceramic core, or by depositing a thin carbon or metal film onto a ceramic rod, then spiraling a cut into the film to adjust the resistance value before coating with protective enamel.",
+    "electrical_characteristics": "Ohmic behavior, power dissipation limit, temperature coefficient of resistance (TCR), voltage coefficient, maximum working voltage, noise generation, and high-frequency parasitic inductance.",
+    "formulas": "Ohm's Law: V = I * R\nPower Dissipation: P = I^2 * R = V^2 / R\nSeries Resistance: R_total = R1 + R2 + ... + Rn\nParallel Resistance: 1/R_total = 1/R1 + 1/R2 + ... + 1/Rn",
+    "applications": "Current limiting for LEDs, voltage reference divider networks, impedance matching for RF systems, pull-up resistors for digital logic inputs.",
+    "advantages": "Inexpensive, highly reliable, simple to design, wide range of resistance values and tolerances.",
+    "disadvantages": "Dissipates power as heat (wastes energy), adds thermal noise, has parasitic inductance at high frequencies.",
+    "example_circuit_operation": "Voltage Divider: Two resistors in series split the input voltage. The output voltage across the second resistor is Vout = Vin * (R2 / (R1 + R2)), providing a simple voltage reference.",
+    "practical_tips": "Always derate resistor power ratings by 50% for high temperature environments. Check standard color codes carefully. Use metal film for low-noise audio circuits.",
+    "interview_questions": [
+        {
+            "question": "What is the difference between a carbon film and a metal film resistor?",
+            "answer": "Metal film resistors have lower noise, better temperature stability, and tighter tolerances compared to carbon film resistors."
+        },
+        {
+            "question": "How do you choose a resistor for a current limiting LED circuit?",
+            "answer": "R = (V_source - V_led) / I_led. V_led is typically 1.8V to 3.3V, and I_led is typically 10mA to 20mA."
+        },
+        {
+            "question": "What does a gold fourth band on a resistor represent?",
+            "answer": "It represents a tolerance of ±5%."
+        },
+        {
+            "question": "What are parasitic effects in resistors?",
+            "answer": "At high frequencies, resistors exhibit parasitic capacitance in parallel and parasitic inductance in series, affecting impedance."
+        },
+        {
+            "question": "How does temperature affect resistance?",
+            "answer": "Most resistors have a positive temperature coefficient (PTC), meaning resistance increases slightly as temperature rises."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Voltage Divider",
+            "status": "available"
+        },
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "Standard EIA Resistor Values Reference; Manufacturer datasheets for standard carbon film series."
+}

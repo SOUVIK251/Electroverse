@@ -1,0 +1,92 @@
+{
+    "id": "ir_transmitter",
+    "name": "IR Transmitter",
+    "category": "Communication Modules",
+    "short_description": "An infrared light emitting diode (IR LED) that transmits light signals outside the visible spectrum.",
+    "difficulty": "Beginner",
+    "common_uses": "TV remote controls, optical tripwires, short-range wireless communication links.",
+    "quick_facts": {
+        "symbol": "D_IR",
+        "unit": "Watt/Steradian (W/sr) / nanometers (nm)",
+        "formula": "P = V * I",
+        "passive_active": "Active",
+        "polarized": "Yes",
+        "typical_voltage": "1.2V to 1.5V",
+        "typical_current": "20mA (Continuous) / 1A (Pulsed)",
+        "operating_frequency": "940 nm (typically modulated at 38 kHz)"
+    },
+    "specifications": [
+        {
+            "parameter": "Peak Wavelength",
+            "value": "940",
+            "unit": "nm",
+            "notes": "Infrared band invisible to the human eye"
+        },
+        {
+            "parameter": "Forward Voltage Drop",
+            "value": "1.2 - 1.5",
+            "unit": "V",
+            "notes": "Lower than visible light LEDs"
+        },
+        {
+            "parameter": "Max Pulse Current",
+            "value": "1.0",
+            "unit": "A",
+            "notes": "At 100μs pulse duration, 1% duty cycle"
+        },
+        {
+            "parameter": "Viewing Angle",
+            "value": "15 - 30",
+            "unit": "degrees",
+            "notes": "Narrow beam for directional control"
+        }
+    ],
+    "definition": "An IR Transmitter is a specialized light-emitting diode (LED) manufactured to emit light in the infrared region of the electromagnetic spectrum, typically at a peak wavelength of 940 nm, which is invisible to the human eye.",
+    "working_principle": "It operates on electroluminescence. When forward biased, electrons recombine with holes at the semiconductor junction, releasing energy as infrared photons. For communication, the light is pulsed (modulated) to distinguish it from ambient light.",
+    "types": "Standard 5mm through-hole IR LEDs, high-power SMD emitters, and multi-LED array illuminators.",
+    "construction": "A Gallium Arsenide (GaAs) semiconductor die mounted in a reflective cup, encapsulated in a blue, clear, or dark tinted epoxy lens casing.",
+    "electrical_characteristics": "Low forward voltage drop of 1.2V. Capable of handling high peak currents when pulsed for short durations, extending transmission range.",
+    "symbol_description": "Standard diode schematic symbol with two outbound arrows representing light emission.",
+    "formulas": "Forward current limiting resistor: R = (V_supply - V_forward) / I_forward.",
+    "applications": "Consumer electronic remote controls, proximity sensor beams, night-vision camera illuminators, and optical isolation circuits.",
+    "advantages": "Extremely inexpensive, simple drive circuitry, low power consumption under pulsed modes.",
+    "disadvantages": "Strictly line-of-sight communication, easily blocked by physical obstacles, range drops in bright sunlight due to solar IR noise.",
+    "example_circuit_operation": "An IR LED is wired in series with a limiting resistor and a switching transistor. A microcontroller pin toggles the transistor at 38 kHz to transmit modulated data packets.",
+    "practical_tips": "To achieve maximum range in remote controls, drive the IR LED using a transistor switch connected directly to the battery rail, pulsing it with currents up to 500mA for microsecond durations.",
+    "interview_questions": [
+        {
+            "question": "What is the typical wavelength of a consumer remote control IR LED?",
+            "answer": "940 nanometers (nm). Some industrial sensors use 850nm, which has a slight red visible glow."
+        },
+        {
+            "question": "Why is the IR signal modulated (usually at 38 kHz) instead of constant?",
+            "answer": "To prevent interference from environmental infrared noise sources like sunlight, incandescent bulbs, or heaters. The receiver filters out everything except the 38 kHz modulated signal."
+        },
+        {
+            "question": "Why is the forward voltage of an IR LED lower than a red or blue LED?",
+            "answer": "Forward voltage depends on the bandgap energy of the semiconductor material. IR light has lower energy (longer wavelength) than visible light, requiring a lower forward potential barrier (1.2V-1.5V)."
+        },
+        {
+            "question": "How can you verify if an IR LED is transmitting light since it is invisible?",
+            "answer": "By viewing the transmitting LED through a smartphone digital camera; the camera sensor detects infrared light and displays it as a pale purple/white glow on the screen."
+        },
+        {
+            "question": "What is the purpose of the switching transistor in an IR transmitter circuit?",
+            "answer": "Microcontroller pins cannot output the high peak currents (up to 1A pulsed) required to drive the IR LED for long range. The transistor acts as a current amplifier to switch the high current safely."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "Vishay TSAL6200 IR Emitter Datasheet; modulation protocols for remote control systems.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

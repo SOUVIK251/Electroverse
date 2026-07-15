@@ -1,0 +1,92 @@
+{
+    "id": "push_button_switch",
+    "name": "Push Button Switch",
+    "category": "Miscellaneous",
+    "short_description": "A momentary tactile push button switch that establishes contact when physically pressed.",
+    "difficulty": "Beginner",
+    "common_uses": "Microcontroller reset buttons, user input keys, keyboard keycaps.",
+    "quick_facts": {
+        "symbol": "SW_PB",
+        "unit": "State (On/Off)",
+        "formula": "Momentary mechanical contact",
+        "passive_active": "Passive",
+        "polarized": "No",
+        "typical_voltage": "12V DC",
+        "typical_current": "50mA",
+        "operating_frequency": "DC (with contact bounce)"
+    },
+    "specifications": [
+        {
+            "parameter": "Dimensions",
+            "value": "6.0x6.0",
+            "unit": "mm",
+            "notes": "Standard tactile switch footprint"
+        },
+        {
+            "parameter": "Operating Force",
+            "value": "1.6",
+            "unit": "N",
+            "notes": "Mechanical pressure required to trigger"
+        },
+        {
+            "parameter": "Travel Distance",
+            "value": "0.25",
+            "unit": "mm",
+            "notes": "Actuator travel distance"
+        },
+        {
+            "parameter": "Contact Bounce Time",
+            "value": "<5.0",
+            "unit": "ms",
+            "notes": "Initial contact oscillation time"
+        }
+    ],
+    "definition": "A Push Button Switch (specifically a tactile switch) is a momentary electrical switch designed to establish or interrupt an electrical path only while the button is physically held down.",
+    "working_principle": "It operates on momentary spring contact. Pressing the plunger deforms an internal curved metal dome. The dome clicks down, bridging the gap between the internal contact points. Releasing the plunger allows the dome to snap back, breaking the contact.",
+    "types": "Momentary Normally Open (NO, most common), Normally Closed (NC), and latching push buttons.",
+    "construction": "Houses a metal dome spring, a plastic actuator plunger, and tin-plated solder legs inside a thermoplastic body base.",
+    "electrical_characteristics": "Low voltage/current ratings. Tactile switches exhibit mechanical contact bounce (oscillating ON/OFF states for 1-5ms during transitions).",
+    "symbol_description": "Switch symbol showing a plunger bar suspended over two open terminal dots.",
+    "formulas": "Pull-up input current: I = V_supply / R_pullup.",
+    "applications": "Microcontroller reset keys, user interface control keypads, doorbells, and input buttons.",
+    "advantages": "Low cost, clear tactile feedback, compact board footprint, extremely long mechanical lifespan.",
+    "disadvantages": "Contact bounce requires software or hardware debouncing, low power limits prevent direct switching of high-power loads.",
+    "example_circuit_operation": "A tactile button is connected between a digital pin and Ground, with a 10kΩ pull-up resistor to VCC. Pressing the button pulls the digital pin to 0V (Low), triggering an input event.",
+    "practical_tips": "Always implement a software debounce routine (e.g. ignoring inputs for 20ms after detection) or a hardware RC filter to filter out mechanical contact bounce, preventing single clicks from registering as multiple taps.",
+    "interview_questions": [
+        {
+            "question": "What is contact bounce and how do you resolve it?",
+            "answer": "Contact bounce is the mechanical oscillation of a switch contact when it closes, causing the signal to toggle between high and low multiple times within 1-5ms. It is resolved using software delay debounce routines or hardware RC filters."
+        },
+        {
+            "question": "How does a Normally Open (NO) switch differ from Normally Closed (NC)?",
+            "answer": "Normally Open (NO) contacts remain disconnected (open circuit) until the button is pressed. Normally Closed (NC) contacts remain connected (short circuit) until the button is pressed, which breaks the circuit."
+        },
+        {
+            "question": "What is a latching push button switch?",
+            "answer": "A switch that changes state when pressed (e.g., ON) and remains in that state even after the button is released. It must be pressed again to change state back (e.g., OFF)."
+        },
+        {
+            "question": "Why do standard 6mm tactile switches have 4 pins when it is only a 2-terminal switch?",
+            "answer": "The pins are connected in pairs internally (pins 1-2 and pins 3-4). The 4-pin design provides mechanical stability when soldered to the PCB and allows routing traces across the pins."
+        },
+        {
+            "question": "What is the typical lifecycle rating of a high-quality tactile button?",
+            "answer": "Typically 100,000 to 1,000,000 presses, depending on the thickness and material of the internal metal dome."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Voltage Divider",
+            "status": "available"
+        }
+    ],
+    "references": "Omron Tactile Switch Application Guide; basic digital input programming manuals.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

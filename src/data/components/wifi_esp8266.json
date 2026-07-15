@@ -1,0 +1,90 @@
+{
+    "id": "wifi_esp8266",
+    "name": "Wi-Fi Module (ESP8266)",
+    "category": "Communication Modules",
+    "short_description": "A low-cost, self-contained Wi-Fi microchip with full TCP/IP stack and microcontroller capabilities.",
+    "difficulty": "Intermediate",
+    "common_uses": "Smart home appliances, Wi-Fi smart plugs, internet-connected sensors, Web servers.",
+    "quick_facts": {
+        "symbol": "U_WIFI",
+        "unit": "Hertz (Hz)",
+        "formula": "IEEE 802.11 b/g/n",
+        "passive_active": "Active",
+        "polarized": "Yes",
+        "typical_voltage": "3.3V (Strict)",
+        "typical_current": "80mA average, 170-220mA during Wi-Fi transmission",
+        "operating_frequency": "2.4 GHz"
+    },
+    "specifications": [
+        {
+            "parameter": "Supported Protocols",
+            "value": "802.11 b/g/n",
+            "notes": "Integrated low-power 32-bit MCU core"
+        },
+        {
+            "parameter": "Max Output Power",
+            "value": "+19.5",
+            "unit": "dBm",
+            "notes": "802.11b mode output"
+        },
+        {
+            "parameter": "Flash Memory size",
+            "value": "1M / 4M",
+            "unit": "Bytes",
+            "notes": "Varies by model (ESP-01 vs ESP-12E)"
+        },
+        {
+            "parameter": "Security Type",
+            "value": "WPA / WPA2",
+            "notes": "Supports WPA-PSK and WPA2-PSK"
+        }
+    ],
+    "definition": "The ESP8266 Wi-Fi Module is a highly popular, low-cost system-on-chip (SoC) designed by Espressif Systems. It integrates a Tensilica 32-bit microcontroller core with a built-in 2.4 GHz Wi-Fi radio and a full TCP/IP software stack.",
+    "working_principle": "It establishes wireless connection nodes using IEEE 802.11 networks. It can operate as an Access Point (AP), a Station (STA), or both. External host controllers manage connection states via UART serial ports using AT commands, or the ESP8266 can be programmed directly.",
+    "types": "Minimal ESP-01 breakout modules, SMD ESP-12E/F modules, and fully integrated development boards like NodeMCU and Wemos D1 Mini.",
+    "construction": "Integrates the ESP8266 SoC, a flash memory chip, a 26 MHz reference crystal, impedance-matching inductors, and an onboard PCB trace antenna.",
+    "electrical_characteristics": "Strictly requires 3.3V power (5V inputs will damage the chip). Current peaks can reach 220mA during Wi-Fi transmission bursts.",
+    "symbol_description": "Integrated SoC block displaying power, ground, serial UART TX/RX lines, hardware reset, and general-purpose input/output (GPIO) pins.",
+    "formulas": "Wi-Fi Link Budget: Prx (dBm) = Ptx (dBm) + Gtx (dBi) - PathLoss (dB) + Grx (dBi).",
+    "applications": "Smart home Internet of Things devices, wireless sensor telemetry, remote motor switches, and local web host nodes.",
+    "advantages": "Extremely inexpensive, active community support, can function as a standalone microcontroller without external MCUs.",
+    "disadvantages": "High power consumption limits battery life unless configured in deep sleep mode, restricted to 2.4 GHz band (does not support 5 GHz networks).",
+    "example_circuit_operation": "An ESP-01 module is connected to a 3.3V external regulator. GPIO0 is pulled high for standard execution. A microcontroller sends AT commands to configure the ESP-01 to join a local Wi-Fi router and send sensor data via HTTP POST.",
+    "practical_tips": "Always connect a 0.1μF ceramic capacitor in parallel with a 10μF electrolytic capacitor across the ESP8266's VCC and GND pins to suppress power rail dips during RF transmissions.",
+    "interview_questions": [
+        {
+            "question": "Can ESP8266 be programmed without an external Arduino board?",
+            "answer": "Yes, the ESP8266 contains its own 32-bit Tensilica processor. It can be programmed directly using C/C++ in the Arduino IDE, MicroPython, or LUA firmware."
+        },
+        {
+            "question": "What is the difference between Access Point (AP) mode and Station (STA) mode?",
+            "answer": "In Station (STA) mode, the ESP8266 connects to an existing Wi-Fi router. In Access Point (AP) mode, it creates its own local Wi-Fi hotspot for other devices to connect to directly."
+        },
+        {
+            "question": "How do you place the ESP8266 into firmware flashing mode?",
+            "answer": "By pulling the GPIO0 pin to Ground (0V) while cycling or toggling the Reset (RST) pin, then uploading the binary via serial UART."
+        },
+        {
+            "question": "How much voltage can the ESP8266 input/output pins tolerate?",
+            "answer": "They operate strictly at 3.3V logic levels. Connecting them directly to 5V Arduino lines requires serial resistor voltage dividers or level translators."
+        },
+        {
+            "question": "How do you configure the ESP8266 to operate on batteries for months?",
+            "answer": "By wire-connecting the XPD pin (GPIO16) to the RST pin and calling the deep sleep function. This turns off the CPU and Wi-Fi radio, drawing microamps until the timer triggers a hardware reset."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "Espressif ESP8266 Resource Datasheet; NodeMCU documentation.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

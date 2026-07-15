@@ -1,0 +1,91 @@
+{
+    "id": "buzzer",
+    "name": "Buzzer",
+    "category": "Miscellaneous",
+    "short_description": "An audio signaling device commonly used to generate alarm beeps, clicks, and indicator tones.",
+    "difficulty": "Beginner",
+    "common_uses": "Alarm clocks, system status indicators, error warning beeps.",
+    "quick_facts": {
+        "symbol": "LS",
+        "unit": "Hertz (Hz) / Decibel (dB)",
+        "formula": "Piezoelectric / Magnetic vibration",
+        "passive_active": "Available as Active (built-in oscillator) or Passive (requires external AC/frequency)",
+        "polarized": "Yes",
+        "typical_voltage": "3V to 12V DC",
+        "typical_current": "15mA to 30mA",
+        "operating_frequency": "Resonant peak: 2.0 kHz to 4.0 kHz (standard audio)"
+    },
+    "specifications": [
+        {
+            "parameter": "Sound Pressure Level",
+            "value": "85",
+            "unit": "dB/10cm",
+            "notes": "Loud, clear beep signal"
+        },
+        {
+            "parameter": "Resonant Frequency",
+            "value": "2300",
+            "unit": "Hz",
+            "notes": "Frequency of maximum audio volume output"
+        },
+        {
+            "parameter": "Current Consumption",
+            "value": "30",
+            "unit": "mA",
+            "notes": "Typical active current draw at 5V"
+        },
+        {
+            "parameter": "Buzzer Type",
+            "value": "Active / Passive",
+            "notes": "Active has internal oscillator circuit"
+        }
+    ],
+    "definition": "A Buzzer (specifically a piezo or electromagnetic buzzer) is an audio signaling component. It converts electrical energy into mechanical sound waves to generate status beeps, click sounds, or high-pitch alert tones.",
+    "working_principle": "An Active Buzzer contains an internal oscillator. Applying DC voltage triggers the oscillator, driving an internal piezo ceramic disc or metal diaphragm to vibrate and beep at a set frequency. A Passive Buzzer acts as a speaker, requiring an external AC frequency signal (PWM) to sound.",
+    "types": "Active buzzers (beep automatically on DC), Passive buzzers (require PWM square waves), and magnetic buzzers.",
+    "construction": "Houses a piezoelectric ceramic disc bonded to a brass plate (piezo type), or a coil and metal diaphragm (magnetic type) inside a plastic resonant chamber casing.",
+    "electrical_characteristics": "Low current consumption. Polarized pins (typically marked with a '+' on the casing next to the longer lead).",
+    "symbol_description": "Standard buzzer symbol showing a speaker-like horn or a circle with two input leads.",
+    "formulas": "Piezo displacement: d = d_31 * V * L / t.",
+    "applications": "Kitchen timer beep indicators, digital clock alarms, motherboard POST codes, and device warning alerts.",
+    "advantages": "Low current draw allows direct drive from microcontroller pins (passive type), very low cost, compact profile.",
+    "disadvantages": "Restricted to high-frequency beeps and tones, unable to play high-quality music or speech.",
+    "example_circuit_operation": "An active buzzer is wired to a microcontroller output pin. Setting the pin High triggers the buzzer's internal oscillator to beep at 2.3 kHz. Setting it Low silences the alert.",
+    "practical_tips": "Do not peel off the protective circular sticker covering the sound hole of a new buzzer until after it is soldered and washed; the sticker prevents wash water or soldering residues from entering the resonant chamber and dampening the sound.",
+    "interview_questions": [
+        {
+            "question": "How do you distinguish an active buzzer from a passive buzzer physically and electrically?",
+            "answer": "Physically, active buzzers usually have a sealed black resin backing, while passive buzzers show the exposed green PCB. Electrically, active buzzers beep immediately when connected to DC voltage; passive buzzers only click once and require a frequency signal (PWM) to beep."
+        },
+        {
+            "question": "Why is the longer lead of a buzzer polarized?",
+            "answer": "The longer lead is positive (+). Buzzers are polarized because they contain internal semiconductor oscillators (active type) or directional magnetic coils (magnetic type) that require correct voltage polarities to function."
+        },
+        {
+            "question": "How do you generate different audio tones using a passive buzzer?",
+            "answer": "By feeding the buzzer with a square wave signal (PWM) at different frequencies (e.g. 261Hz for middle C, 440Hz for A4). The microcontroller's timer controls the tone pitch."
+        },
+        {
+            "question": "What is the typical current consumption of a piezo buzzer?",
+            "answer": "Usually very low, around 15mA to 30mA, allowing it to be safely driven directly by a microcontroller GPIO pin."
+        },
+        {
+            "question": "What is the purpose of the plastic housing casing around the piezo disc?",
+            "answer": "It serves as an acoustic Helmholtz resonator cavity, physically amplifying the sound pressure waves at the target resonant frequency."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "TDK Piezoelectric Buzzers technical manual; basic sound generation programming guides.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

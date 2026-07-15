@@ -1,0 +1,91 @@
+{
+    "id": "dc_barrel_jack",
+    "name": "DC Barrel Jack",
+    "category": "Connectors",
+    "short_description": "A common coaxial power connector used for applying external DC power to electronic circuit boards.",
+    "difficulty": "Beginner",
+    "common_uses": "Arduino Uno power inputs, 12V DC router inputs, battery charging adapter ports.",
+    "quick_facts": {
+        "symbol": "JK_DC",
+        "unit": "Volt (V)",
+        "formula": "Coaxial Power connection",
+        "passive_active": "Passive",
+        "polarized": "Yes (Center Positive or Center Negative)",
+        "typical_voltage": "5V to 24V DC",
+        "typical_current": "2A to 5A max",
+        "operating_frequency": "DC"
+    },
+    "specifications": [
+        {
+            "parameter": "Pin Diameter (Center Pin)",
+            "value": "2.1 / 2.5",
+            "unit": "mm",
+            "notes": "2.1mm is standard (compatible with 5.5mm outer sleeve)"
+        },
+        {
+            "parameter": "Outer Sleeve Diameter",
+            "value": "5.5",
+            "unit": "mm",
+            "notes": "Standard outer diameter"
+        },
+        {
+            "parameter": "Switching Contact",
+            "value": "Yes",
+            "notes": "Detects plug insertion, can disconnect internal battery"
+        },
+        {
+            "parameter": "Contact Resistance",
+            "value": "<30",
+            "unit": "mΩ",
+            "notes": "Initial contact resistance"
+        }
+    ],
+    "definition": "A DC Barrel Jack is a coaxial electrical connector designed to deliver low-voltage DC power from an external wall adapter to a device. It features a cylindrical center pin and an outer sleeve contact, often paired with an internal battery-disconnect switch pin.",
+    "working_principle": "It establishes a connection using a cylindrical male plug. When the plug is inserted, its outer barrel connects to the jack sleeve, and the hollow core fits over the center pin. The insertion physically pushes open a spring contact, isolating any internal battery.",
+    "types": "Through-hole PCB mount jacks, panel mount jacks, and screw-terminal DC adapters.",
+    "construction": "Houses a brass center pin, a phosphor bronze shunt spring, and a copper alloy sleeve terminal enclosed in a rugged thermoplastic casing.",
+    "electrical_characteristics": "Supports DC power delivery up to 5A. Polarization depends on the external adapter wiring (typically center-positive).",
+    "symbol_description": "Three-terminal block showing Center Pin, Sleeve, and the Shunt Switch pin.",
+    "formulas": "Power Delivery: P = V_dc * I_load.",
+    "applications": "Arduino Uno external power jacks, DC adapters ports, LED strip power inputs.",
+    "advantages": "Robust mechanical design, simple plug-in connection, automatic battery-disconnect feature.",
+    "disadvantages": "Center-positive vs center-negative polarity varies by adapter, risk of short circuit if a metal object is inserted into the jack.",
+    "example_circuit_operation": "A 2.1mm DC jack is mounted on an Arduino board. Plugging in a 9V center-positive AC-DC adapter routes 9V to the VIN pin and disconnects the onboard battery.",
+    "practical_tips": "Always check the center pin diameter of your barrel plug. A 2.5mm plug will fit into a 2.5mm jack, but a 2.1mm plug will not fit. Conversely, a 2.5mm plug in a 2.1mm jack will make a loose, intermittent connection.",
+    "interview_questions": [
+        {
+            "question": "What do the dimensions 2.1mm and 5.5mm represent on a DC barrel jack?",
+            "answer": "2.1mm represents the diameter of the center metal pin. 5.5mm represents the outer diameter of the mating barrel plug sleeve."
+        },
+        {
+            "question": "How does the internal battery-disconnect switch in a DC jack work?",
+            "answer": "The jack has a third pin connected to a shunt spring. When no plug is inserted, the spring touches the sleeve contact, connecting the internal battery. Inserting the plug pushes the spring away, disconnecting the battery and running the device on DC adapter power."
+        },
+        {
+            "question": "What is center-positive polarity?",
+            "answer": "An electrical configuration where the center pin of the DC plug is positive (+) and the outer sleeve is negative (Ground). This is the standard for most modern electronics."
+        },
+        {
+            "question": "Why can inserting a metal plug into a live DC jack cause a spark?",
+            "answer": "The outer sleeve of the plug can briefly bridge the center pin and ground contacts of the jack during insertion, causing a brief short circuit and spark."
+        },
+        {
+            "question": "What current limit is typical for cheap PCB-mount DC barrel jacks?",
+            "answer": "Typically 2A to 5A. Carrying higher currents requires high-current terminal blocks, as the small contact area of the jack would overheat."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Voltage Divider",
+            "status": "available"
+        }
+    ],
+    "references": "CUI Devices DC Power Jack Guide; Arduino Uno schematic references.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

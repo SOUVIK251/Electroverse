@@ -1,0 +1,90 @@
+{
+    "id": "gsm_sim900a",
+    "name": "GSM SIM900A",
+    "category": "Communication Modules",
+    "short_description": "A dual-band GSM/GPRS module designed primarily for cellular connectivity applications in Asian markets.",
+    "difficulty": "Advanced",
+    "common_uses": "Industrial automation monitoring, wireless remote data logging, smart metering systems.",
+    "quick_facts": {
+        "symbol": "U_GSM",
+        "unit": "Hertz (Hz)",
+        "formula": "GPRS Class 8/10",
+        "passive_active": "Active",
+        "polarized": "Yes",
+        "typical_voltage": "4.5V to 5V (Board level) / 3.4V to 4.4V (Chip level)",
+        "typical_current": "Peak 2A transmission burst, 22mA idle",
+        "operating_frequency": "Dual-band: 900 / 1800 MHz"
+    },
+    "specifications": [
+        {
+            "parameter": "Dual-Band Frequency",
+            "value": "900 / 1800",
+            "unit": "MHz",
+            "notes": "Restricted to regions supporting Dual-Band"
+        },
+        {
+            "parameter": "GPRS Multi-slot",
+            "value": "Class 10 / 8",
+            "notes": "Supports up to 85.6 kbps downlink speed"
+        },
+        {
+            "parameter": "Interface Baud Rate",
+            "value": "9600 - 115200",
+            "unit": "bps",
+            "notes": "Configured via autobauding"
+        },
+        {
+            "parameter": "Protocol Integration",
+            "value": "TCP/IP, UDP, HTTP, FTP",
+            "notes": "Built-in networking protocol stack"
+        }
+    ],
+    "definition": "The GSM SIM900A is a dual-band GSM/GPRS module developed by SIMCom, targeted for markets in Asia and regions retaining 900/1800 MHz 2G cellular network infrastructure.",
+    "working_principle": "It establishes communication links with local dual-band GSM cell towers. An external host controller directs calls, SMS messages, and TCP/IP sockets via serial UART registers using command protocols.",
+    "types": "Through-hole breakout shields (for Arduino Uno), stand-alone industrial modules, and serial RS232 modems.",
+    "construction": "Features the SIM900A chipset, SIM card slot holder, status LEDs, and level translators providing serial communication compatibility with both 3.3V and 5V microcontrollers.",
+    "electrical_characteristics": "Peak current demand up to 2A. Breakout boards typically include a high-current buck regulator to step down 9V/12V adapter feeds to the required 4V chip voltage.",
+    "symbol_description": "Schematic block showing power terminals, serial UART interface, SIM socket pins, and status indicator ports.",
+    "formulas": "Baud Rate Error (%) = |(Calculated Rate - Target Rate) / Target Rate| * 100.",
+    "applications": "Remote smart grids, wireless data terminals, burglar alarm networks, remote weather stations.",
+    "advantages": "Onboard level converters facilitate 5V connection, built-in network protocol stack simplifies socket programming.",
+    "disadvantages": "Limited dual-band support (does not operate in North America), high peak power current draws.",
+    "example_circuit_operation": "The SIM900A board is powered from a 5V 2A external DC power adapter. The serial pins connect to the hardware serial ports of a microcontroller. AT commands are used to initiate TCP socket uploads to a remote web server.",
+    "practical_tips": "Do not attempt to power the SIM900A board directly from an Arduino's 5V pin, as the USB port or onboard 5V regulator cannot supply the 2A transient current spikes, causing resets.",
+    "interview_questions": [
+        {
+            "question": "How does SIM900A differ from SIM900?",
+            "answer": "SIM900A is a Dual-Band module (900/1800MHz) meant for specific regional markets (mainly Asia), whereas the standard SIM900 is Quad-Band for global use."
+        },
+        {
+            "question": "What is the typical voltage required by the SIM900A chip core?",
+            "answer": "The core chip operates between 3.4V and 4.4V (typical 4.0V), though breakout boards usually include regulators allowing 5V or 9V/12V inputs."
+        },
+        {
+            "question": "Why does the module fail to register on the network even with a valid SIM card?",
+            "answer": "Common causes are insufficient power supply current (causing brownouts during search), poor antenna connection, or using the card in a region without 2G network coverage."
+        },
+        {
+            "question": "Can SIM900A be controlled by PC terminal software?",
+            "answer": "Yes, by connecting the module to a PC via a USB-to-UART converter and using serial terminal software (like PuTTY or TeraTerm) to send AT commands manually."
+        },
+        {
+            "question": "How do you send an SMS programmatically?",
+            "answer": "Set text mode using 'AT+CMGF=1', specify recipient phone number using 'AT+CMGS=\"+XXXXXXXXX\"', input message text, and terminate with Ctrl+Z (ASCII character 26)."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "SIMCom SIM900A Hardware Design Manual; AT Command Documentation.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

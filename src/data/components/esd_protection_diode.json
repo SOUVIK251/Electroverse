@@ -1,0 +1,92 @@
+{
+    "id": "esd_protection_diode",
+    "name": "ESD Protection Diode",
+    "category": "Protection Devices",
+    "short_description": "An ultra-low capacitance clamp diode array designed specifically to protect high-speed communication lines from static electricity.",
+    "difficulty": "Advanced",
+    "common_uses": "USB 3.0/Type-C differential pair protection, HDMI 2.0 lines, Ethernet PHY protection.",
+    "quick_facts": {
+        "symbol": "D_ESD",
+        "unit": "Volt (V) / Farad (F)",
+        "formula": "Transient Clamping",
+        "passive_active": "Active",
+        "polarized": "Yes (Unidirectional or Bidirectional arrays)",
+        "typical_voltage": "3.3V to 5.5V",
+        "typical_current": "Milliamps continuous, Amperes (ESD transient)",
+        "operating_frequency": "Up to 10+ GHz"
+    },
+    "specifications": [
+        {
+            "parameter": "Parasitic Capacitance (C_j)",
+            "value": "0.2 - 0.5",
+            "unit": "pF",
+            "notes": "Ultra-low capacitance avoids signal distortion"
+        },
+        {
+            "parameter": "ESD Contact Discharge",
+            "value": "±8.0 to ±15.0",
+            "unit": "kV",
+            "notes": "Complies with IEC 61000-4-2 standard"
+        },
+        {
+            "parameter": "Reverse Standoff Voltage",
+            "value": "3.3 - 5.0",
+            "unit": "V",
+            "notes": "Matches low-voltage CMOS data lines"
+        },
+        {
+            "parameter": "Clamping Voltage",
+            "value": "8.0 - 12.0",
+            "unit": "V",
+            "notes": "At 1A peak pulse current"
+        }
+    ],
+    "definition": "An ESD Protection Diode is a highly specialized, low-capacitance silicon avalanche diode array. It is designed to protect high-speed data transmission lines from electrostatic discharge (ESD) events up to 15kV without distorting the high-frequency signals.",
+    "working_principle": "It operates on fast-response avalanche breakdown. By reducing junction area and incorporating steering diodes, it achieves sub-picofarad parasitic capacitance. When an ESD pulse strikes the data line, the steering diodes route the charge through the internal TVS clamp.",
+    "types": "Single-line packages (SOD-882), multi-channel arrays (SOT-23, DFN), and integrated USB/HDMI ESD filters.",
+    "construction": "Manufactured using advanced silicon lithography to minimize junction areas and parasitic capacitances, housed in sub-millimeter leadless surface-mount packages.",
+    "electrical_characteristics": "Extremely low capacitance (often <0.5 pF), rapid response time (<1 ns), and high ESD robustness (handling up to 15kV air discharge).",
+    "symbol_description": "Diode array showing steering diodes connected to a central TVS clamping diode between the I/O line, ground, and VCC.",
+    "formulas": "Data Line Cutoff Frequency: f_3dB = 1 / (2 * pi * R_source * C_parasitic).",
+    "applications": "Protecting USB 3.0, HDMI, DisplayPort, and Gigabit Ethernet data lines in computers, smartphones, and consumer electronics.",
+    "advantages": "Ultra-low parasitic capacitance does not degrade high-speed signal integrity, miniature package sizes save board space, handles multiple ESD strikes.",
+    "disadvantages": "Low continuous power rating (cannot handle power surges), susceptible to damage from long-duration current faults.",
+    "example_circuit_operation": "An ESD array is placed on a USB 3.0 SuperSpeed differential pair directly behind the Type-C connector. An ESD strike on the shell is shunted to ground, protecting the controller.",
+    "practical_tips": "Do not run high-speed data traces through vias between the ESD diode and the connector; place the diode directly on the top layer signal path to avoid routing-inductance overshoots.",
+    "interview_questions": [
+        {
+            "question": "Why is parasitic capacitance the most critical spec for ESD diodes on USB 3.0 lines?",
+            "answer": "High parasitic capacitance behaves as a low-pass filter. At USB 3.0 speeds (5 Gbps), capacitance above 1pF distorts the signal eye-diagram, causing packet dropouts and connection failures."
+        },
+        {
+            "question": "How does an ESD steering diode array function?",
+            "answer": "It uses low-capacitance steering diodes connected to the data line. A positive spike routes the current to VCC/TVS-clamp, and a negative spike routes it to Ground, isolating the data line."
+        },
+        {
+            "question": "What standard defines ESD testing levels for electronics?",
+            "answer": "IEC 61000-4-2, which specifies testing levels for contact discharge (typically 8kV) and air discharge (typically 15kV)."
+        },
+        {
+            "question": "Can you use a standard Zener diode for ESD protection on an HDMI line?",
+            "answer": "No. Standard Zener diodes have capacitances of 100pF+, which would completely ground the high-frequency HDMI signals, rendering the interface non-functional."
+        },
+        {
+            "question": "Explain the difference between contact discharge and air discharge.",
+            "answer": "Contact discharge applies the ESD generator tip directly to the conductive target. Air discharge approaches the target with the generator tip until a spark bridges the gap, simulating real-world static arcs."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "Texas Instruments ESD Protection Guide; IEC 61000-4-2 standards database.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

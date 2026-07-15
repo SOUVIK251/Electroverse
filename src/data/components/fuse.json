@@ -1,0 +1,91 @@
+{
+    "id": "fuse",
+    "name": "Fuse",
+    "category": "Protection Devices",
+    "short_description": "An overcurrent protection device containing a metal wire or strip that melts when excessive current flows.",
+    "difficulty": "Beginner",
+    "common_uses": "Main power entry protection, automotive wiring harness protection, power supply input protection.",
+    "quick_facts": {
+        "symbol": "F",
+        "unit": "Ampere (A)",
+        "formula": "I^2 * t rating",
+        "passive_active": "Passive",
+        "polarized": "No",
+        "typical_voltage": "125V to 250V (AC) / 12V to 32V (DC)",
+        "typical_current": "100mA to hundreds of Amperes",
+        "operating_frequency": "DC / AC (50-60 Hz)"
+    },
+    "specifications": [
+        {
+            "parameter": "Current Rating",
+            "value": "1.0 - 10.0",
+            "unit": "A",
+            "notes": "Continuous current carrying capacity"
+        },
+        {
+            "parameter": "Interrupt Rating (Breaking Capacity)",
+            "value": "35 - 10000",
+            "unit": "A",
+            "notes": "Max current the fuse can safely interrupt without exploding"
+        },
+        {
+            "parameter": "Voltage Rating",
+            "value": "250",
+            "unit": "V",
+            "notes": "Maximum operating circuit voltage"
+        },
+        {
+            "parameter": "Response Time",
+            "value": "Fast-acting / Slow-blow",
+            "notes": "Determined by overload curve"
+        }
+    ],
+    "definition": "A Fuse is a sacrificial overcurrent protection component designed to break an electrical circuit connection. It contains a thin metal ribbon or wire that heats up and melts when current exceeding the rated limit passes through it, isolating the downstream load.",
+    "working_principle": "It operates on Joule heating ($P = I^2 \\cdot R$). The fuse element is designed with a specific electrical resistance. When excessive current passes through, the rate of heat generation exceeds thermal dissipation limits, raising the wire temperature to its melting point.",
+    "types": "Glass cartridge fuses, ceramic cartridges, automotive blade fuses, high-rupture capacity (HRC) industrial fuses, and SMD fuses.",
+    "construction": "Consists of a fusible wire or strip of tin, lead, or copper suspended inside a non-combustible glass or ceramic tube, terminated at both ends with conductive metal caps.",
+    "electrical_characteristics": "Incur a minor insertion resistance and voltage drop. Classified by response speeds: fast-acting (protects semiconductors) and slow-blow (tolerates motor start-up inrush currents).",
+    "symbol_description": "Standard schematic symbol showing a thin rectangle crossed by a line, or a wavy S-curve indicating a fusible element.",
+    "formulas": "Joule Heat Equation: Q = I^2 * R * t.",
+    "applications": "AC mains power input protection, battery chargers, household appliances, and industrial power distribution boxes.",
+    "advantages": "Highly reliable, low cost, fail-safe operation, clears high fault currents safely.",
+    "disadvantages": "One-time sacrificial use requires manual replacement, slow-blow models may fail to protect fast semiconductor gates.",
+    "example_circuit_operation": "A fuse is wired in series with the AC hot line. A short circuit downstream causes current to spike to 50A. The fuse wire instantly vaporizes, cutting off current and preventing a fire.",
+    "practical_tips": "Never replace a blown fuse with one of a higher current rating or a copper wire bypass, as this defeats the overcurrent safety mechanism and can lead to wiring fire hazards.",
+    "interview_questions": [
+        {
+            "question": "How does a fuse differ from a circuit breaker?",
+            "answer": "A fuse is a sacrificial device that melts and must be replaced after a fault. A circuit breaker is a reusable mechanical switch that trips and can be manually reset."
+        },
+        {
+            "question": "What is the difference between a fast-acting and a slow-blow fuse?",
+            "answer": "Fast-acting fuses blow within milliseconds of exceeding their rating, protecting sensitive semiconductors. Slow-blow fuses tolerate transient current surges (like motor startup inrush) for a short time before melting."
+        },
+        {
+            "question": "What is breaking capacity (interrupt rating)?",
+            "answer": "The maximum fault current the fuse can safely interrupt without physically exploding, cracking its casing, or forming a continuous electric arc."
+        },
+        {
+            "question": "Why is the voltage rating of a fuse important?",
+            "answer": "The voltage rating specifies the maximum circuit voltage the fuse can safely isolate. If exceeded, an electric arc may bridge the gap after the element melts, sustaining current flow."
+        },
+        {
+            "question": "Why are ceramic fuses preferred over glass fuses in high-current applications?",
+            "answer": "Ceramic bodies tolerate higher temperatures and pressures, and are often filled with sand to extinguish electric arcs during high current faults, preventing fire."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "IEC 60127 Miniature Fuses standard definitions; Littelfuse technical handbook.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

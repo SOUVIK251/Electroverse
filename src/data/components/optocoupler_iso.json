@@ -1,0 +1,92 @@
+{
+    "id": "optocoupler_iso",
+    "name": "Optocoupler (Isolation)",
+    "category": "Protection Devices",
+    "short_description": "An optoelectronic device that transfers electrical signals between two isolated circuits using light.",
+    "difficulty": "Intermediate",
+    "common_uses": "Microcontroller to high-voltage relay isolation, switch-mode power supply feedback loop, industrial PLC inputs.",
+    "quick_facts": {
+        "symbol": "U_OPTO",
+        "unit": "Volt (V) (Isolation potential)",
+        "formula": "CTR = I_collector / I_forward",
+        "passive_active": "Active",
+        "polarized": "Yes",
+        "typical_voltage": "Internal LED: 1.2V / Isolation voltage: 2500V to 5000V AC",
+        "typical_current": "LED input: 10mA to 20mA / Output: mA to Amps (photo-triac)",
+        "operating_frequency": "DC to kHz (Standard phototransistor) / MHz (High-speed digital)"
+    },
+    "specifications": [
+        {
+            "parameter": "Isolation Voltage (V_iso)",
+            "value": "5000",
+            "unit": "V_rms",
+            "notes": "Dielectric breakdown limit between input and output"
+        },
+        {
+            "parameter": "Current Transfer Ratio (CTR)",
+            "value": "50 - 600",
+            "unit": "%",
+            "notes": "Ratio of output collector current to input LED current"
+        },
+        {
+            "parameter": "Rise/Fall Time (t_r / t_f)",
+            "value": "2.0 - 18.0",
+            "unit": "μs",
+            "notes": "Determines maximum switching frequency"
+        },
+        {
+            "parameter": "Max Collector Current",
+            "value": "50",
+            "unit": "mA",
+            "notes": "Maximum output current rating (PC817)"
+        }
+    ],
+    "definition": "An Optocoupler (also known as an optoisolator) is an optoelectronic device containing an infrared LED optically coupled to a photodetector (like a phototransistor) inside a light-tight package. It transfers control signals between two circuits while maintaining complete galvanic isolation.",
+    "working_principle": "When a control current flows through the input IR LED, it emits infrared light. This light is captured by the internal phototransistor, causing it to conduct current in the output circuit. Because the coupling medium is light, there is no direct electrical path between input and output.",
+    "types": "Phototransistor optocouplers (PC817), Photo-Darlington optocouplers (high gain), Photo-TRIAC optocouplers (MOC3021, for AC control), and High-speed logic gate optoisolators (6N137).",
+    "construction": "Houses an infrared LED emitter and a silicon photodetector chip aligned face-to-face inside a plastic dual-in-line (DIP) or surface-mount (SMD) package, separated by a transparent dielectric isolation barrier.",
+    "electrical_characteristics": "Characterized by isolation voltage rating (up to 5kV) and Current Transfer Ratio (CTR). The input and output stages have independent ground planes.",
+    "symbol_description": "Schematic showing a diode symbol facing a transistor symbol, with two light-ray arrows pointing from the diode to the transistor base.",
+    "formulas": "CTR (%) = (I_C / I_F) * 100.",
+    "applications": "Isolating microcontroller pins from high-voltage AC mains relays, feedback loop isolation in switch-mode power supplies, and noise suppression in PLC systems.",
+    "advantages": "Prevents high voltage spikes on output loads from damaging sensitive control microcontrollers, eliminates ground loops, and rejects common-mode noise.",
+    "disadvantages": "Limited CTR bandwidth, CTR decays over time as the internal LED ages, and slow switching speeds compared to digital magnetic isolators.",
+    "example_circuit_operation": "An Arduino output pin drives the input LED of a PC817 optocoupler via a 220Ω resistor. The output phototransistor is wired as a low-side switch to trigger a 12V solenoid valve, keeping the 5V and 12V grounds isolated.",
+    "practical_tips": "Always lay out the PCB with a physical isolation gap (creepage and clearance distance of at least 5mm to 8mm) underneath the optocoupler, separating the primary and secondary ground planes completely.",
+    "interview_questions": [
+        {
+            "question": "What is galvanic isolation?",
+            "answer": "A design principle where two functional circuits are separated so that no direct conduction path exists between them, preventing current flow while still allowing signals or power to be transferred."
+        },
+        {
+            "question": "What is Current Transfer Ratio (CTR) and what factors affect it?",
+            "answer": "CTR is the ratio of output collector current ($I_C$) to input forward LED current ($I_F$), expressed as a percentage. It is affected by the input current level, temperature, and device aging."
+        },
+        {
+            "question": "Why is a separate ground plane required for the input and output sides of an optocoupler?",
+            "answer": "If both sides share the same ground plane, galvanic isolation is bypassed. High-voltage transients or ground loops will still pass through, defeating the purpose of the optoisolator."
+        },
+        {
+            "question": "How does a Photo-TRIAC optocoupler differ from a standard Phototransistor optocoupler?",
+            "answer": "A Phototransistor optocoupler controls DC signals on the output side. A Photo-TRIAC optocoupler controls AC signals (such as triggering a high-power TRIAC on AC mains)."
+        },
+        {
+            "question": "What is common-mode transient immunity (CMTI)?",
+            "answer": "The maximum rate of voltage rise ($dV/dt$) the optocoupler can withstand between its input and output terminals without causing a false trigger on the output."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "Sharp PC817 Series Datasheet; Vishay optocoupler application design guide.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

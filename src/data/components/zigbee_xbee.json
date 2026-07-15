@@ -1,0 +1,91 @@
+{
+    "id": "zigbee_xbee",
+    "name": "ZigBee XBee Module",
+    "category": "Communication Modules",
+    "short_description": "A popular wireless RF module utilizing the ZigBee protocol stack for reliable, low-power mesh networking.",
+    "difficulty": "Advanced",
+    "common_uses": "Industrial automation mesh networks, home automation control systems, building monitoring grids.",
+    "quick_facts": {
+        "symbol": "U_XBEE",
+        "unit": "Hertz (Hz)",
+        "formula": "IEEE 802.15.4 / ZigBee Protocol",
+        "passive_active": "Active",
+        "polarized": "Yes",
+        "typical_voltage": "3.3V (2.8V to 3.4V)",
+        "typical_current": "33mA Rx, 45mA Tx (Standard model)",
+        "operating_frequency": "2.4 GHz ISM Band"
+    },
+    "specifications": [
+        {
+            "parameter": "Indoor/Urban Range",
+            "value": "30 - 60",
+            "unit": "m",
+            "notes": "Up to 90m for line-of-sight outdoors"
+        },
+        {
+            "parameter": "Transmit Power",
+            "value": "1.25",
+            "unit": "mW",
+            "notes": "+1 dBm standard models"
+        },
+        {
+            "parameter": "RF Data Rate",
+            "value": "250",
+            "unit": "kbps",
+            "notes": "Optimized for control signals"
+        },
+        {
+            "parameter": "Form Factor",
+            "value": "20-pin DIP",
+            "notes": "Proprietary XBee pin spacing"
+        }
+    ],
+    "definition": "The ZigBee XBee Module is a popular wireless transceiver brand manufactured by Digi International. It utilizes the IEEE 802.15.4 standard and the ZigBee mesh networking protocol to create secure, reliable multi-hop wireless sensor networks.",
+    "working_principle": "It establishes point-to-point, point-to-multipoint, or self-healing mesh communication paths. In mesh mode, intermediate nodes act as routers to forward packets across the network, extending range and routing around path obstructions.",
+    "types": "Series 1 (Standard 802.15.4), Series 2 (ZigBee Mesh), and XBee-PRO (high-power long-range models).",
+    "construction": "Assembled on a distinctive trapezoidal board with 2.0mm pin spacing, housing an RF transceiver, serial interface circuitry, and an integrated wire, chip, or U.FL antenna.",
+    "electrical_characteristics": "Operating voltage of 3.3V. Communicates with microcontrollers via UART serial lines (DIN/DOUT) using transparent 'AT' configuration mode or packet-based 'API' mode.",
+    "symbol_description": "Trapezoidal block showing 20 connection pins, including serial UART, configure modes, and reset controls.",
+    "formulas": "RSSI (dBm) = - (Received Power in dBm). Bandwidth efficiency: Bw_eff = R_data / Bw.",
+    "applications": "Industrial sensor array telemetry, building HVAC controls, street light grids, smart energy grid meters.",
+    "advantages": "Self-healing mesh routing topology, low power consumption, extremely secure encryption keys.",
+    "disadvantages": "Relatively high module cost, proprietary pin pitch layout requires adapter breakout sockets, low transmission data speeds.",
+    "example_circuit_operation": "An XBee node is configured as a Router using Digi XCTU software and connected to an MCU UART. Sensor updates are packed and transmitted. The XBee coordinator node receives the data and forwards it to a master controller.",
+    "practical_tips": "Do not insert XBee modules into standard 2.54mm pitch breadboards directly; the pin pitch is 2.0mm. Always use a dedicated XBee breakout adapter board.",
+    "interview_questions": [
+        {
+            "question": "What is the primary advantage of ZigBee XBee mesh networks?",
+            "answer": "Self-healing routing topology. If a router node drops out, the network automatically redirects traffic through alternative adjacent nodes to maintain connectivity."
+        },
+        {
+            "question": "How do Series 1 and Series 2 XBee modules differ?",
+            "answer": "Series 1 is designed for simple point-to-point links using the basic 802.15.4 protocol. Series 2 is designed specifically for complex ZigBee mesh routing structures and cannot communicate with Series 1 modules."
+        },
+        {
+            "question": "What software is used to configure XBee modules?",
+            "answer": "Digi XCTU software, which connects via a USB-to-serial adapter board to update firmware, set PAN IDs, and configure node types (Coordinator, Router, End Device)."
+        },
+        {
+            "question": "What are AT mode and API mode in XBee?",
+            "answer": "AT (Transparent) mode converts serial data directly to wireless streams. API (Application Programming Interface) mode frames serial data packets with headers, allowing the host MCU to track target addresses and RSSI levels."
+        },
+        {
+            "question": "Why is range shorter indoors than outdoors?",
+            "answer": "High-frequency 2.4 GHz RF signals are attenuated and scattered by indoor walls, concrete floors, metal structures, and interference from Wi-Fi routers."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "Digi XBee / XBee-PRO S2C ZigBee Datasheet; IEEE 802.15.4 standard definitions.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

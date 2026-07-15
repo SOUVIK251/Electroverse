@@ -1,0 +1,91 @@
+{
+    "id": "gps_neo6m",
+    "name": "GPS NEO-6M",
+    "category": "Communication Modules",
+    "short_description": "A high-performance GPS receiver module with an integrated ceramic patch antenna and EEPROM for position configuration storage.",
+    "difficulty": "Intermediate",
+    "common_uses": "Vehicle navigation systems, quadcopter flight controllers, geo-fencing alarms, precision clock sync.",
+    "quick_facts": {
+        "symbol": "U_GPS",
+        "unit": "Hertz (Hz) / Coordinates",
+        "formula": "NMEA-0183 Protocol Output",
+        "passive_active": "Active",
+        "polarized": "Yes",
+        "typical_voltage": "3.3V / 5V (Breakout onboard regulator)",
+        "typical_current": "45mA average, up to 67mA during satellite search",
+        "operating_frequency": "L1 band (1575.42 MHz)"
+    },
+    "specifications": [
+        {
+            "parameter": "Horizontal Position Accuracy",
+            "value": "2.5",
+            "unit": "m",
+            "notes": "Under open sky conditions"
+        },
+        {
+            "parameter": "Time-To-First-Fix (Cold Start)",
+            "value": "27",
+            "unit": "s",
+            "notes": "Typical warm start is 1s"
+        },
+        {
+            "parameter": "Receiver Sensitivity",
+            "value": "-161",
+            "unit": "dBm",
+            "notes": "Extremely high tracking sensitivity"
+        },
+        {
+            "parameter": "Communication Interface",
+            "value": "UART Serial",
+            "notes": "TX/RX serial protocol lines"
+        }
+    ],
+    "definition": "The GPS NEO-6M is a standalone satellite navigation receiver module developed by u-blox, featuring a high-performance 50-channel positioning engine designed to calculate latitude, longitude, altitude, and velocity by tracking GPS satellites.",
+    "working_principle": "It receives L1 frequency signals from orbit satellites, calculating distance (pseudorange) based on time-of-flight. By trilaterating signals from at least four satellites, it computes the user's 3D position and precise atomic-clock-synchronized time.",
+    "types": "Breakout boards with ceramic patch antennas, integrated GPS/compass modules (for flight controllers), and raw SMD modules.",
+    "construction": "Features the NEO-6M-0-001 receiver chip, an active or passive ceramic patch antenna, a rechargeable backup battery (for warm starts), and an EEPROM chip.",
+    "electrical_characteristics": "Low power consumption, 3.3V operating voltage, serial UART communication interface defaulting to a 9600 baud rate outputting NMEA sentences.",
+    "symbol_description": "Block symbol showing supply pins, TX/RX serial UART lines, backup battery, and RF antenna node.",
+    "formulas": "Trilateration Distance formula: d = sqrt((x - xs)^2 + (y - ys)^2 + (z - zs)^2).",
+    "applications": "Drones and RC aircraft flight logging, asset trackers, geographical mapping devices, and NTP network time servers.",
+    "advantages": "Exceptionally high receiver sensitivity, low power current draw, onboard battery maintains GPS Ephemeris data for rapid hot starts.",
+    "disadvantages": "Requires direct line-of-sight to the sky; indoor tracking is unreliable or impossible. Takes time to acquire a satellite lock on initial cold start.",
+    "example_circuit_operation": "The NEO-6M module is connected to a microcontroller. Power and ground are wired, and the module's TX pin is connected to the MCU's software serial RX pin. NMEA sentences are read and parsed to extract coordinates.",
+    "practical_tips": "Mount the ceramic patch antenna facing upward toward the sky, away from electromagnetic noise sources like switching regulators or copper power planes, to achieve a rapid satellite fix.",
+    "interview_questions": [
+        {
+            "question": "What protocol does the NEO-6M GPS module output?",
+            "answer": "NMEA-0183 standard protocol, which outputs comma-separated text sentences (such as $GPRMC, $GPGGA) containing coordinates and time."
+        },
+        {
+            "question": "How many satellites must a GPS module lock onto to get a 3D position fix?",
+            "answer": "A minimum of 4 satellites is required to compute latitude, longitude, altitude, and correct the receiver's local clock bias error."
+        },
+        {
+            "question": "What is the purpose of the backup battery and EEPROM on the module?",
+            "answer": "They store satellite orbit data (Almanac and Ephemeris) and user configurations, reducing Time-To-First-Fix (TTFF) from 27 seconds (cold start) to under 1 second (hot start)."
+        },
+        {
+            "question": "What does the PPS pin indicate?",
+            "answer": "Pulse Per Second (PPS). It outputs a highly accurate 1Hz pulse aligned with GPS time, used for precision time synchronization."
+        },
+        {
+            "question": "Why does the GPS module's indicator LED fail to flash?",
+            "answer": "The onboard LED typically flashes only when the module has successfully established a satellite fix and coordinates lock. If searching, the LED remains solid or off."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "u-blox NEO-6M Datasheet; NMEA-0183 sentence parsing specifications.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

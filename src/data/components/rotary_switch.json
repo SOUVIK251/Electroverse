@@ -1,0 +1,89 @@
+{
+    "id": "rotary_switch",
+    "name": "Rotary Switch",
+    "category": "Miscellaneous",
+    "short_description": "A switch operated by rotation, used to select one of multiple circuit channels or configure parameters.",
+    "difficulty": "Intermediate",
+    "common_uses": "Multimeter range selectors, audio channel selectors, industrial machine mode selectors.",
+    "quick_facts": {
+        "symbol": "SW_ROT",
+        "unit": "Poles / Positions",
+        "formula": "Rotary contact alignment",
+        "passive_active": "Passive",
+        "polarized": "No",
+        "typical_voltage": "125V AC / 28V DC",
+        "typical_current": "150mA to 2A",
+        "operating_frequency": "DC"
+    },
+    "specifications": [
+        {
+            "parameter": "Configuration",
+            "value": "1 Pole 12 Positions",
+            "notes": "Commonly written as 1P12T (adjustable stop)"
+        },
+        {
+            "parameter": "Angle of Throw",
+            "value": "30 / 60",
+            "unit": "degrees",
+            "notes": "Angle between switch detent stops"
+        },
+        {
+            "parameter": "Contact Style",
+            "value": "Shorting (Make-before-break) / Non-shorting",
+            "notes": "Determines state overlap during rotation"
+        },
+        {
+            "parameter": "Stop Mechanism",
+            "value": "Adjustable Stop Washer",
+            "notes": "Limits maximum rotation positions"
+        }
+    ],
+    "definition": "A Rotary Switch is a manually operated multi-position electrical switch controlled by rotating a central shaft. It is designed to select one of multiple circuit channels or adjust device ranges.",
+    "working_principle": "It operates on a rotating central wiper contact. Turning the shaft rotates the wiper disc, which bridges the central common terminal to one of the fixed output terminals located in a circular pattern around the body.",
+    "types": "1-pole 12-position, 2-pole 6-position, 4-pole 3-position, and coded output rotary switches (BCD/Hexadecimal).",
+    "construction": "Houses a central metal or plastic shaft, a detent spring mechanism, a phenolic or ceramic wafer deck, and solder pins arranged in a circle.",
+    "electrical_characteristics": "Capable of routing multiple signals. Offers low contact resistance and distinct mechanical detent clicks.",
+    "symbol_description": "Wiper arm pointing toward a circular ring of output terminals.",
+    "formulas": "Switch positions limit: Positions = 360 / Angle_of_throw.",
+    "applications": "Digital multimeter function selection, audio amplifier input selectors, and industrial equipment control decks.",
+    "advantages": "Controls multiple circuits simultaneously with a single shaft rotation, provides mechanical feedback clicks.",
+    "disadvantages": "Bulky physical volume, mechanical contacts are prone to wear and oxidation over long-term use.",
+    "example_circuit_operation": "A 1P12T rotary switch is wired to select the gain of an operational amplifier by switching different feedback resistors into the loop circuit.",
+    "practical_tips": "Use the adjustable stop washer (located directly under the shaft nut) to limit the switch's rotation to your target number of channels, preventing users from turning the dial to unused positions.",
+    "interview_questions": [
+        {
+            "question": "What is the difference between shorting and non-shorting rotary switches?",
+            "answer": "Shorting (Make-Before-Break) temporarily connects the next position before breaking the current connection, preventing open-circuit glitches. Non-shorting (Break-Make-Before) breaks the contact before joining the next, preventing channels from shorting together."
+        },
+        {
+            "question": "What does a '1P12T' rotary switch mean?",
+            "answer": "1 Pole, 12 Throws. It means the switch has a single common input terminal that can be switched to any one of 12 distinct output terminals."
+        },
+        {
+            "question": "What is the function of the adjustable stop ring on a rotary switch?",
+            "answer": "It is a metal ring with a small tab that inserts into holes around the shaft bushing. It physically blocks the shaft from turning beyond a set position (e.g. limiting a 12-position switch to 4 positions)."
+        },
+        {
+            "question": "Why are ceramic decks preferred over phenolic decks in high-frequency RF rotary switches?",
+            "answer": "Ceramic has superior dielectric insulation, lower high-frequency dielectric losses, and better thermal stability, preventing crosstalk and signal leakage in RF circuits."
+        },
+        {
+            "question": "What is a coded rotary switch?",
+            "answer": "A rotary switch that outputs a binary code (such as Binary Coded Decimal or Hexadecimal) representing the selected position, rather than closing a single direct contact."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "Lorlin Rotary Switches Catalog; alpha range selector design sheets.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

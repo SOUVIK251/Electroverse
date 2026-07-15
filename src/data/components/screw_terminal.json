@@ -1,0 +1,91 @@
+{
+    "id": "screw_terminal",
+    "name": "Screw Terminal",
+    "category": "Connectors",
+    "short_description": "A heavy-duty barrier strip connector with screw terminals designed to connect high-current electrical cables.",
+    "difficulty": "Beginner",
+    "common_uses": "Power distribution systems, electrical panels, high-current transformers.",
+    "quick_facts": {
+        "symbol": "TB",
+        "unit": "Terminals",
+        "formula": "Mechanical Compression",
+        "passive_active": "Passive",
+        "polarized": "No",
+        "typical_voltage": "300V to 600V+",
+        "typical_current": "15A to 60A+",
+        "operating_frequency": "DC / AC"
+    },
+    "specifications": [
+        {
+            "parameter": "Screw Thread Size",
+            "value": "M3 / M4",
+            "notes": "Common steel terminal screws"
+        },
+        {
+            "parameter": "Max Current Rating",
+            "value": "30",
+            "unit": "A",
+            "notes": "Heavy-duty rating"
+        },
+        {
+            "parameter": "Dielectric Strength",
+            "value": "2000",
+            "unit": "V_ac",
+            "notes": "Breakdown voltage between terminals and ground"
+        },
+        {
+            "parameter": "Terminal Pitch",
+            "value": "9.5 - 11.0",
+            "unit": "mm",
+            "notes": "Wide spacing to prevent short circuits"
+        }
+    ],
+    "definition": "A Screw Terminal Barrier Strip is a heavy-duty electrical connector consisting of a row of metal screw contacts separated by high plastic insulating barriers. It is designed to connect high-current power cables using crimped ring or spade terminals.",
+    "working_principle": "It establishes a mechanical connection via screw compression. A wire terminated with a spade or ring lug is placed under the washer head of the screw. Tightening the screw compresses the lug directly against a heavy brass conductive bus link.",
+    "types": "Dual-row barrier strips, single-row feed-through blocks, and chassis-mount screw terminals.",
+    "construction": "Features a heavy phenolic or thermoplastic base with raised insulating barriers, housing nickel-plated steel screws and thick brass conductive links.",
+    "electrical_characteristics": "Extremely low contact resistance, high current capacity, and high dielectric isolation. Often mounted to a chassis for mechanical stability.",
+    "symbol_description": "Schematic representation showing a series of screw nodes placed along line connections.",
+    "formulas": "Contact Resistance: R_contact = rho_contact / Area_contact.",
+    "applications": "Industrial power supplies, marine electrical panels, audio amplifier speaker terminals, and high-power battery links.",
+    "advantages": "Handles massive currents and voltages, accepts pre-crimping spade and ring lugs for secure connections, vibration-proof when paired with lock washers.",
+    "disadvantages": "Bulky and heavy, exposed terminals present electrical shock hazards if not covered, requires crimping tools for lugs.",
+    "example_circuit_operation": "An 8-position barrier strip is mounted in a control panel. Mains AC input wires are crimped with spade lugs and screwed to the strip, distributing power to multiple branch fuses.",
+    "practical_tips": "Always use crimped ring or spade terminals (lugs) on wires connected to barrier screw strips. Wrapping raw stripped wire directly around the screw shaft is unreliable and can cause loose connections or wire damage.",
+    "interview_questions": [
+        {
+            "question": "Why are plastic barriers placed between the screws on a barrier terminal strip?",
+            "answer": "The barriers increase the creepage and clearance distances, preventing adjacent wires or spade lugs from accidentally touching, causing short circuits or arcing under high voltages."
+        },
+        {
+            "question": "Why are ring terminals preferred over spade terminals in high-vibration applications?",
+            "answer": "Ring terminals completely encircle the screw shaft. If a screw loosens slightly under vibration, a ring terminal cannot slide out, maintaining circuit continuity; spade terminals can slip out once loose."
+        },
+        {
+            "question": "What is the purpose of using lock washers with terminal screws?",
+            "answer": "Lock washers (split or star washers) exert continuous spring tension against the screw head, preventing it from turning and backing out under mechanical vibration."
+        },
+        {
+            "question": "How do you calculate the voltage drop across a screw terminal link?",
+            "answer": "Using Ohm's Law: $V_{drop} = I \\cdot R_{contact}$. With a typical contact resistance of 2 mΩ and a 20A current, the drop is 40mV."
+        },
+        {
+            "question": "What material is typically used for the base of high-temperature barrier strips?",
+            "answer": "Phenolic resin or ceramic, which can withstand extreme heat without melting or losing structural strength."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "NEMA standards for industrial terminal blocks; Molex barrier strip catalogs.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

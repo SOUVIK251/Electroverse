@@ -1,0 +1,90 @@
+{
+    "id": "hdmi_connector",
+    "name": "HDMI Connector",
+    "category": "Connectors",
+    "short_description": "A 19-pin high-definition multimedia interface connector used for transmitting uncompressed digital video and audio.",
+    "difficulty": "Advanced",
+    "common_uses": "HDTV inputs, computer monitor connections, single-board computer outputs (Raspberry Pi).",
+    "quick_facts": {
+        "symbol": "CON_HDMI",
+        "unit": "Pins",
+        "formula": "TMDS / HDCP Protocols",
+        "passive_active": "Passive",
+        "polarized": "Yes",
+        "typical_voltage": "5V DC (pin 18) / 3.3V signals",
+        "typical_current": "Max 50mA on 5V pin",
+        "operating_frequency": "Up to 340 MHz carrier (HDMI 1.4) / 600 MHz (HDMI 2.0)"
+    },
+    "specifications": [
+        {
+            "parameter": "Pin Count",
+            "value": "19",
+            "notes": "Type-A standard connector"
+        },
+        {
+            "parameter": "Data Protocol",
+            "value": "TMDS",
+            "notes": "Transition-Minimized Differential Signaling"
+        },
+        {
+            "parameter": "Max Bandwidth",
+            "value": "18",
+            "unit": "Gbps",
+            "notes": "HDMI 2.0 specification"
+        },
+        {
+            "parameter": "Contact Resistance",
+            "value": "<30",
+            "unit": "mΩ",
+            "notes": "Gold-plated copper contacts"
+        }
+    ],
+    "definition": "An HDMI (High-Definition Multimedia Interface) connector is a 19-pin high-density compact digital connector. It is the universal standard for transmitting uncompressed digital video, multi-channel audio, and control data between multimedia devices.",
+    "working_principle": "It routes digital video and audio over three Transition-Minimized Differential Signaling (TMDS) data channels and one clock channel. It includes DDC lines (I2C protocol) for device handshake and a 5V power line to read EDID data from turned-off screens.",
+    "types": "HDMI Type-A (Standard), Mini-HDMI Type-C, and Micro-HDMI Type-D (used in compact cameras and Raspberry Pi 4).",
+    "construction": "Houses 19 gold-plated pins on a thin plastic tongue inside a shielded metal D-shell connector housing.",
+    "electrical_characteristics": "Low contact resistance, matched 100Ω differential impedance high-speed lines, and high EMI shield integrity.",
+    "symbol_description": "Detailed 19-pin block displaying TMDS channels, DDC lines, hot-plug detect, and 5V power terminals.",
+    "formulas": "TMDS differential pair impedance: Z_diff = 100 Ω.",
+    "applications": "Television displays, gaming consoles, desktop computer graphics cards, and media projectors.",
+    "advantages": "Carries uncompressed high-definition video and multi-channel audio in a single cable, standardized globally, supports copy protection (HDCP).",
+    "disadvantages": "Extremely fine pin spacing is difficult to solder by hand, cables have length limits (typically under 10 meters without active boosters).",
+    "example_circuit_operation": "An HDMI port is soldered to an MCU board. The high-speed TMDS lines are routed with exact length-matching as 100Ω differential pairs to the graphics controller, with TVS diodes added for ESD protection.",
+    "practical_tips": "When routing high-speed HDMI TMDS differential traces on a PCB, ensure the traces have no vias and maintain a continuous ground reference plane directly beneath them to prevent signal skew and electromagnetic radiation.",
+    "interview_questions": [
+        {
+            "question": "How many pins does a standard Type-A HDMI connector have?",
+            "answer": "19 pins."
+        },
+        {
+            "question": "What is TMDS and how is it used in HDMI?",
+            "answer": "Transition-Minimized Differential Signaling. It is a signaling standard that reduces copper electromagnetic radiation and uses differential pairs to transmit high-speed digital video data."
+        },
+        {
+            "question": "What is the purpose of the 5V pin (Pin 18) on the HDMI connector?",
+            "answer": "It provides 5V power from the source to the sink device (display), allowing the source to read the display's EDID configuration data even when the display is powered off."
+        },
+        {
+            "question": "What is the function of the Hot Plug Detect (HPD) pin?",
+            "answer": "It allows the source device to detect when an HDMI cable has been connected or disconnected, triggering the initialization handshake."
+        },
+        {
+            "question": "Why is differential trace length matching critical on HDMI PCBs?",
+            "answer": "If the two traces in a differential pair are not length-matched, the signal arrival time differs (skew), causing phase errors and jitter that corrupt high-resolution video data."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "HDMI Specification Document Version 1.4/2.0; high-speed board layout app notes.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "id": "relay_module",
+    "name": "Relay Module",
+    "category": "Miscellaneous",
+    "short_description": "An active electromagnetically operated switch module designed to allow low-power microcontrollers to control high-voltage high-current loads.",
+    "difficulty": "Intermediate",
+    "common_uses": "Microcontroller home automation switches, AC mains appliance controls, solenoid valves controls.",
+    "quick_facts": {
+        "symbol": "K_MOD",
+        "unit": "Volt (V) / Ampere (A)",
+        "formula": "Electromagnetic switching",
+        "passive_active": "Active",
+        "polarized": "Yes (input polarization and coils)",
+        "typical_voltage": "Input: 5V DC (module) / Output: 250V AC, 30V DC (contacts)",
+        "typical_current": "Input trigger: 15-20mA (via optocoupler) / Output: up to 10A (contacts)",
+        "operating_frequency": "Mechanical switching: <= 20 Hz"
+    },
+    "specifications": [
+        {
+            "parameter": "Coil Trigger Voltage",
+            "value": "5",
+            "unit": "V_dc",
+            "notes": "Typical module supply rating (also 12V)"
+        },
+        {
+            "parameter": "Contact Rating (AC)",
+            "value": "10A at 250V",
+            "notes": "Max resistive load current"
+        },
+        {
+            "parameter": "Contact Configuration",
+            "value": "SPDT",
+            "notes": "Common (COM), Normally Open (NO), Normally Closed (NC)"
+        },
+        {
+            "parameter": "Optoisolation",
+            "value": "Yes",
+            "notes": "Input optocoupler protects microcontroller"
+        }
+    ],
+    "definition": "An Active Relay Module is a board-level interface device containing an electromagnetic relay, a driver transistor, and an optocoupler. It allows low-voltage digital signals from microcontrollers (like Arduino) to safely switch high-power AC or DC loads.",
+    "working_principle": "Applying a digital signal (High/Low) activates an internal optocoupler and biases a driver transistor. The transistor allows current to flow through the relay's electromagnetic coil, pulling a spring-loaded armature down. This mechanically switches the Common (COM) contact from Normally Closed (NC) to Normally Open (NO).",
+    "types": "1-channel modules, 2-channel, 4-channel, 8-channel relay boards, and Solid State Relay (SSR) modules (which switch silently using semiconductors).",
+    "construction": "Houses an electromagnetic relay (typically SRD-05VDC-SL-C), a flyback diode, an optocoupler chip, a transistor, status indicator LEDs, and screw terminal blocks.",
+    "electrical_characteristics": "Draws 70mA from the 5V rail during coil activation. Contact isolation provides up to 2500V protection between the low-voltage control and high-voltage load.",
+    "symbol_description": "Schematic block showing input trigger headers and output SPDT switch terminals (COM, NO, NC).",
+    "formulas": "Coil Current: I_coil = V_coil / R_coil.",
+    "applications": "Smart home smart plugs, automated irrigation solenoids, heater controls, and motor direction controls.",
+    "advantages": "Isolates high AC voltages from microcontrollers, switches high current loads safely, includes NC and NO contacts.",
+    "disadvantages": "Mechanical contact wear limits lifetime, switches slowly (5ms - 15ms), generates clicking noise, contacts can arc under inductive loads.",
+    "example_circuit_operation": "An Arduino pin is wired to the IN pin of a 5V relay module. The COM and NO screw terminals are wired in series with a 230V AC lamp. Pulling the IN pin Low fires the coil, closing the relay contacts to light the lamp.",
+    "practical_tips": "Always check the contacts rating for inductive loads. Relays rated for 10A resistive loads (like heaters) must be derated to 2A to 3A when controlling inductive loads (like motors or transformers) to prevent contacts from welding shut due to startup arcing.",
+    "interview_questions": [
+        {
+            "question": "Why does a relay module include a flyback diode in parallel with the coil?",
+            "answer": "When the driving transistor turns off, the magnetic field in the relay coil collapses, generating a high-voltage inductive spike ($V = L \\cdot dI/dt$) that can destroy the transistor. The flyback diode shunts this spike safely."
+        },
+        {
+            "question": "How do Normally Open (NO) and Normally Closed (NC) terminals function?",
+            "answer": "COM is the common contact. When the relay is OFF, COM is connected to Normally Closed (NC). When the relay is energized, COM switches to connect to Normally Open (NO)."
+        },
+        {
+            "question": "What is the purpose of the optocoupler on the relay module?",
+            "answer": "It provides galvanic isolation between the microcontroller's 5V control logic and the relay's 5V power coil, preventing coil noise or voltage spikes from resetting the MCU."
+        },
+        {
+            "question": "What is contact arcing and how do you reduce it?",
+            "answer": "An electrical arc formed between contacts when switching inductive loads. It can be reduced by placing a snubber circuit (a series RC network) or a varistor across the relay contacts to absorb the inductive energy."
+        },
+        {
+            "question": "Why is a Solid State Relay (SSR) preferred over a mechanical relay for rapid switching?",
+            "answer": "SSRs use optocoupled triacs or MOSFETs. They switch silently, have no mechanical contacts to wear out, and can switch in microseconds, making them suitable for PWM control."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "Songle SRD-05VDC-SL-C Relay datasheet; basic home automation wiring safety codes.",
+    "images": {
+        "real_photo": "",
+        "symbol": "assets/components/relay/symbol.png",
+        "pin_diagram": "assets/components/relay/pin_diagram.png",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "id": "crowbar_protection",
+    "name": "Crowbar Protection Circuit",
+    "category": "Protection Devices",
+    "short_description": "An overvoltage protection circuit that shorts the power supply rails to trip a fuse or circuit breaker when a threshold is exceeded.",
+    "difficulty": "Advanced",
+    "common_uses": "Linear power supplies, transceiver protection, high-reliability military circuits.",
+    "quick_facts": {
+        "symbol": "U_CROWBAR",
+        "unit": "Volt (V) / Ampere (A)",
+        "formula": "SCR Trigger Threshold",
+        "passive_active": "Active trigger circuit",
+        "polarized": "Yes",
+        "typical_voltage": "5V to 24V (common sensitive rails)",
+        "typical_current": "Amperes to hundreds of Amperes (short circuit path)",
+        "operating_frequency": "DC"
+    },
+    "specifications": [
+        {
+            "parameter": "Trigger Voltage Threshold",
+            "value": "5.6",
+            "unit": "V",
+            "notes": "Voltage at which crowbar fires (for 5V rail)"
+        },
+        {
+            "parameter": "Response Time",
+            "value": "1.0 - 5.0",
+            "unit": "μs",
+            "notes": "Rapid short-circuit triggering"
+        },
+        {
+            "parameter": "Peak SCR current",
+            "value": "50 - 500",
+            "unit": "A",
+            "notes": "Maximum surge current the SCR can handle"
+        },
+        {
+            "parameter": "Standby Current",
+            "value": "<10",
+            "unit": "μA",
+            "notes": "Negligible idle power consumption"
+        }
+    ],
+    "definition": "A Crowbar Protection Circuit is an overvoltage safety circuit that clamps the power rails by placing a low-impedance short circuit directly across the supply line. This action quickly drops the rail voltage and blows a series fuse, protecting downstream circuits from power supply regulator failures.",
+    "working_principle": "It typically consists of a Silicon Controlled Rectifier (SCR) placed across the supply rails, controlled by a Zener diode trigger circuit. If the rail voltage exceeds the Zener voltage plus the SCR gate trigger voltage ($V_{GT}$), the SCR fires, shorting the supply rail to ground and blowing the fuse.",
+    "types": "SCR-based Crowbars (most common), Triac-based Crowbars (for AC lines), and active comparator-driven crowbar networks.",
+    "construction": "Constructed from an SCR, a Zener diode, gate current-limiting resistors, noise-filtering capacitors, and a series input fuse.",
+    "electrical_characteristics": "Draws near-zero current under normal operation. Once triggered, the SCR remains latched in its low-resistance state until current falls below its holding current threshold.",
+    "symbol_description": "Schematic block showing a parallel SCR across the output rails, triggered by an internal Zener diode reference.",
+    "formulas": "Trigger Voltage: V_trigger = V_Z + V_GT (where V_GT is the SCR gate-emitter turn-on voltage).",
+    "applications": "Overvoltage protection in linear DC power supplies, protecting RF power amplifiers, and laboratory bench power supply rails.",
+    "advantages": "Extremely fast overvoltage protection, clamps voltage near 0V rather than just limiting it, prevents damage even if the regulator fails short circuit.",
+    "disadvantages": "Blows a sacrificial fuse, requiring manual replacement. Incurring false triggers can occur due to high-frequency line noise.",
+    "example_circuit_operation": "A 5.6V Zener is connected to the gate of an SCR across a 5V rail. If the regulator fails and outputs 12V, the Zener conducts, triggering the SCR. The SCR shorts the 12V line to ground, drawing 50A and blowing the series fuse within microseconds.",
+    "practical_tips": "Connect a small capacitor (e.g. 0.1μF) between the SCR gate and ground to filter out high-frequency transients, preventing false crowbar triggers during startup or high load switching.",
+    "interview_questions": [
+        {
+            "question": "How does a crowbar circuit protect a load?",
+            "answer": "By intentionally short-circuiting the power supply rails when an overvoltage occurs. This drops the rail voltage to near 0V and draws high current to blow a series input fuse, isolating the load."
+        },
+        {
+            "question": "What semiconductor device is typically used as the main switch in a crowbar circuit?",
+            "answer": "A Silicon Controlled Rectifier (SCR), chosen for its ability to handle high peak surge currents and remain latched ON until the fuse blows."
+        },
+        {
+            "question": "Why is a crowbar circuit preferred over a Zener shunt clamp for high-current power supplies?",
+            "answer": "A Zener clamp must dissipate the continuous overvoltage power as heat, risking failure. A crowbar shorts the line completely, forcing the series fuse to blow and cut off power entirely."
+        },
+        {
+            "question": "What causes false triggering in crowbar circuits and how is it resolved?",
+            "answer": "High-frequency noise or startup voltage spikes can trigger the SCR gate. Adding a small ceramic capacitor in parallel with the gate-cathode junction filters out these fast transients, preventing false trips."
+        },
+        {
+            "question": "How does the SCR turn OFF after the crowbar triggers?",
+            "answer": "The SCR remains latched ON as long as current exceeds its holding current ($I_H$). Once the fuse blows or the power supply is turned off, current falls to zero, turning the SCR OFF."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Voltage Divider",
+            "status": "available"
+        }
+    ],
+    "references": "ON Semiconductor Application Note: Thyristor Overvoltage Protection; linear regulator safety manuals.",
+    "images": {
+        "real_photo": "assets/components/crowbar_protection/real_photo.jpg",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": "assets/components/crowbar_protection/example_circuit.jpg"
+    }
+}

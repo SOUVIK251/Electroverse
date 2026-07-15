@@ -1,0 +1,91 @@
+{
+    "id": "jst_connector",
+    "name": "JST Connector",
+    "category": "Connectors",
+    "short_description": "A family of wire-to-board crimp connectors widely used for battery connections and compact signal buses.",
+    "difficulty": "Beginner",
+    "common_uses": "Lithium battery connections (JST-PH), stepper motor connections (JST-XH), internal wiring harnesses.",
+    "quick_facts": {
+        "symbol": "CON",
+        "unit": "Pins",
+        "formula": "Crimp Contact Mating",
+        "passive_active": "Passive",
+        "polarized": "Yes",
+        "typical_voltage": "100V to 250V AC/DC",
+        "typical_current": "1A (JST-SH) to 3A (JST-XH) per pin",
+        "operating_frequency": "DC"
+    },
+    "specifications": [
+        {
+            "parameter": "JST-XH Pitch",
+            "value": "2.5",
+            "unit": "mm",
+            "notes": "Commonly used for LiPo balance chargers"
+        },
+        {
+            "parameter": "JST-PH Pitch",
+            "value": "2.0",
+            "unit": "mm",
+            "notes": "Standard for rechargeable battery packs"
+        },
+        {
+            "parameter": "Contact Resistance",
+            "value": "<10",
+            "unit": "mΩ",
+            "notes": "Phosphor bronze crimped contact"
+        },
+        {
+            "parameter": "Housing Material",
+            "value": "Nylon 66 (UL94V-0)",
+            "notes": "Highly durable polarized shell"
+        }
+    ],
+    "definition": "A JST Connector is a polarized wire-to-board connector family manufactured by Japan Solderless Terminals. They are characterized by different pin pitches (XH, PH, ZH, SH series) and incorporate positive friction-locking tabs, making them ideal for battery and signal wire harnesses.",
+    "working_principle": "It establishes a connection using female terminals crimped onto wire ends, which slide into a polarized nylon housing shell. This mates with a male shroud header soldered to the PCB, ensuring correct pin alignment.",
+    "types": "JST-XH (2.5mm pitch, stepper motors), JST-PH (2.0mm pitch, battery packs), JST-ZH (1.5mm pitch), and JST-SH (1.0mm pitch, ultra-compact sensors).",
+    "construction": "Nylon plug housings, phosphor bronze female crimp terminals, and tin-plated male PCB pins enclosed in a protective shroud.",
+    "electrical_characteristics": "Low contact resistance, keyed polarized entry, and moderate pull-out friction resistance.",
+    "symbol_description": "Keyed socket block symbol showing pin assignments and alignment rails.",
+    "formulas": "Wire tensile pull limit: F_tensile ≈ constant * Wire Cross Section.",
+    "applications": "Rechargeable LiPo batteries, stepper motor wiring harnesses, RC hobby servo leads, and internal signal buses.",
+    "advantages": "Polarized keying prevents short circuits, compact size, positive lock prevents accidental disconnections.",
+    "disadvantages": "Requires specialized crimping tool for assembly, pins are hard to extract from housing without damage.",
+    "example_circuit_operation": "A 2-pin JST-PH connector is soldered to a battery charger. A Li-Po battery pack with a JST-PH plug is inserted, automatically connecting the positive and negative terminals without risk of shorting.",
+    "practical_tips": "Do not pull directly on the wires to disconnect a JST connector; this can pull the crimped terminals out of the plastic housing. Grip the plastic plug body using your fingernails or small pliers to release the lock.",
+    "interview_questions": [
+        {
+            "question": "What does 'JST' stand for?",
+            "answer": "Japan Solderless Terminals, the manufacturing company that designed the connector series."
+        },
+        {
+            "question": "How do JST-XH and JST-PH connectors differ?",
+            "answer": "JST-XH has a 2.5 mm pin pitch and is rated for higher currents (up to 3A), common in stepper motors. JST-PH has a 2.0 mm pitch and is more compact, rated for 2A, common in battery packs."
+        },
+        {
+            "question": "Why are JST connectors popular for lithium-polymer battery packs?",
+            "answer": "Their polarized key design ensures the battery cannot be plugged in backward, which would cause short circuits or fires."
+        },
+        {
+            "question": "What tool is required to assemble a JST wire connector?",
+            "answer": "A precision crimping tool designed for micro terminals, which bends the metal wings of the JST terminal around the stripped wire and insulation."
+        },
+        {
+            "question": "Can JST connectors be used for high-frequency signal lines?",
+            "answer": "They are designed for DC power and low-frequency control signals. They lack shielding and impedance control, making them unsuitable for high-speed digital buses."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "JST Connector Specifications Catalog; battery pack manufacturing standards.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

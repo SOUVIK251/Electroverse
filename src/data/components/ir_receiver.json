@@ -1,0 +1,91 @@
+{
+    "id": "ir_receiver",
+    "name": "IR Receiver",
+    "category": "Communication Modules",
+    "short_description": "An integrated infrared receiver module containing a photodiode, bandpass filter, and preamplifier.",
+    "difficulty": "Beginner",
+    "common_uses": "TV remote control receivers, wireless alarm inputs, pulse counters.",
+    "quick_facts": {
+        "symbol": "U_IR_RX",
+        "unit": "Hertz (Hz)",
+        "formula": "Demodulated active-low output",
+        "passive_active": "Active",
+        "polarized": "Yes",
+        "typical_voltage": "3V to 5V",
+        "typical_current": "0.7mA to 1.5mA",
+        "operating_frequency": "Carrier: 38 kHz (most common) / 36 kHz / 56 kHz"
+    },
+    "specifications": [
+        {
+            "parameter": "Carrier Frequency",
+            "value": "38",
+            "unit": "kHz",
+            "notes": "Internal bandpass filter center frequency"
+        },
+        {
+            "parameter": "Max Range",
+            "value": "15 - 30",
+            "unit": "m",
+            "notes": "Depending on transmitter power and alignment"
+        },
+        {
+            "parameter": "Output Logic Level",
+            "value": "Active Low",
+            "notes": "Pins drop to 0V when carrier is detected"
+        },
+        {
+            "parameter": "Bandpass Bandwidth",
+            "value": "±2",
+            "unit": "kHz",
+            "notes": "Rejects out-of-band IR noise"
+        }
+    ],
+    "definition": "An IR Receiver (such as the TSOP38238) is an integrated three-terminal optical receiver component that detects modulated infrared light signals, filters out ambient optical noise, and outputs a demodulated digital signal.",
+    "working_principle": "It integrates an internal PIN photodiode that converts IR light to electric current. The signal is passed through a preamplifier, an automatic gain control (AGC), and a bandpass filter centered at 38 kHz. When the modulated carrier is detected, the open-collector output transistor pulls the data line low.",
+    "types": "Through-hole sensor components (TSOP series), breakout boards with status LEDs, and metal-shielded receiver modules.",
+    "construction": "Houses a photodiode chip and a receiver IC bonded onto a leadframe, encapsulated inside an epoxy package that acts as a daylight-blocking optical filter.",
+    "electrical_characteristics": "Three pins: VCC, GND, and OUT. Draws minimal current. The output is active-low, meaning it rests high at VCC and pulses low when a 38 kHz IR carrier is detected.",
+    "symbol_description": "Three-terminal block showing supply power, ground, and the active-low output data terminal.",
+    "formulas": "Demodulation duty cycle: Duty = T_low / T_period.",
+    "applications": "TV and appliance remote control decoders, optical safety fences, counting sensors, and optical speed tachometers.",
+    "advantages": "Built-in filter rejects ambient room light, output connects directly to microcontroller input pins without external amplification.",
+    "disadvantages": "Limited to the pre-configured carrier frequency band, sensitive to direct bright sun exposure and high-frequency fluorescent ballast light flicker.",
+    "example_circuit_operation": "An IR receiver is connected to a microcontroller. Power and ground are wired. The OUT pin is routed to a digital input. Pressing a remote button pulses the OUT pin, which is decoded using a timer interrupt.",
+    "practical_tips": "Place a 100Ω resistor in series with the VCC pin, and a 4.7μF decoupling capacitor between VCC and GND, to protect the sensitive internal AGC circuit from power supply ripple noise.",
+    "interview_questions": [
+        {
+            "question": "What is the function of the internal bandpass filter in an IR receiver?",
+            "answer": "It restricts the receiver's sensitivity to a narrow band around the carrier frequency (e.g. 38 kHz ± 2 kHz), blocking optical noise from daylight, incandescent lamps, or DC IR sources."
+        },
+        {
+            "question": "Explain the output state of an active-low IR receiver.",
+            "answer": "In its idle state (no IR carrier detected), the output pin rests high (at VCC). When a modulated 38 kHz IR beam hits the sensor, the internal transistor conducts, pulling the output down to 0V (Low)."
+        },
+        {
+            "question": "How do you choose between 38 kHz and 56 kHz receivers?",
+            "answer": "Based on the transmitter's modulation frequency. A 38 kHz receiver will attenuate or ignore 56 kHz modulated signals, preventing communication."
+        },
+        {
+            "question": "What is the purpose of the dark epoxy casing on the receiver?",
+            "answer": "It acts as a physical optical filter, blocking visible light wavelengths while allowing infrared wavelengths (above 850nm) to pass through to the photodiode."
+        },
+        {
+            "question": "Why is a decoupling RC filter recommended on the power pins of the TSOP sensor?",
+            "answer": "The internal Automatic Gain Control (AGC) amplifier is highly sensitive. Power supply ripples or digital noise from the microcontroller can cause false trigger outputs."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "Vishay TSOP382.. Series IR Receiver Datasheet; infrared remote control coding protocols.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

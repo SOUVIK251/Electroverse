@@ -1,0 +1,92 @@
+{
+    "id": "mov",
+    "name": "MOV (Metal Oxide Varistor)",
+    "category": "Protection Devices",
+    "short_description": "A voltage-dependent resistor commonly used to clamp high-voltage transient spikes in AC power lines.",
+    "difficulty": "Intermediate",
+    "common_uses": "AC surge protectors, power strip inputs, mains-connected SMPS input protection.",
+    "quick_facts": {
+        "symbol": "MOV",
+        "unit": "Volt (V) / Joule (J)",
+        "formula": "Non-linear V-I curve",
+        "passive_active": "Passive",
+        "polarized": "No",
+        "typical_voltage": "18V to 1000V+",
+        "typical_current": "Hundreds to thousands of Amperes (Surge)",
+        "operating_frequency": "DC / AC"
+    },
+    "specifications": [
+        {
+            "parameter": "Continuous AC Voltage (V_rms)",
+            "value": "275",
+            "unit": "V",
+            "notes": "Max continuous operating voltage"
+        },
+        {
+            "parameter": "Clamping Voltage",
+            "value": "710",
+            "unit": "V",
+            "notes": "Voltage across varistor during surge current"
+        },
+        {
+            "parameter": "Peak Surge Current (8/20μs)",
+            "value": "4500",
+            "unit": "A",
+            "notes": "Max transient surge current"
+        },
+        {
+            "parameter": "Energy Absorption",
+            "value": "140",
+            "unit": "J",
+            "notes": "Max transient energy the device can absorb"
+        }
+    ],
+    "definition": "A Metal Oxide Varistor (MOV) is a voltage-dependent resistor that exhibits a non-linear resistance profile. It provides bi-directional overvoltage protection by maintaining near-infinite resistance under normal working voltages and dropping to a near-zero resistance state when high-voltage surges occur, clamping the line voltage.",
+    "working_principle": "It consists of a matrix of zinc oxide grains separated by microscopic intergranular bismuth oxide boundary layers. Under low voltages, the boundary junctions act as reverse-biased Schottky diodes, blocking current. High voltage breaks down these junctions, creating low-resistance channels.",
+    "types": "Through-hole radial disc varistors, SMD varistors, and industrial heavy-duty block varistors.",
+    "construction": "Constructed from a sintered pellet of metal oxides (primarily zinc oxide) sandwiched between two metal contact plates with radial wire leads, coated in flame-retardant epoxy.",
+    "electrical_characteristics": "Acts as an open circuit with high input impedance under normal voltages. It has a high peak current rating for transient pulses (e.g. 8/20μs pulse curves) and possesses parasitic capacitance.",
+    "symbol_description": "Resistor schematic box crossed by a diagonal line with a flat vertical tab, labeled with a 'V' or 'MOV' to denote voltage dependency.",
+    "formulas": "Varistor V-I Relation: I = k * V^alpha (where alpha is the non-linear exponent, typically 30-50).",
+    "applications": "AC power strip surge suppressors, switch-mode power supplies input protection, lightning protection arrestors, and motor noise snubber loops.",
+    "advantages": "Fast response times (under 25ns), high surge current handling, bi-directional operation clamps both AC phases.",
+    "disadvantages": "Degrades gradually with each surge event, high parasitic capacitance limits use on high-speed data lines, fails catastrophically (short circuit) if overstressed.",
+    "example_circuit_operation": "An MOV is wired in parallel across the AC Line and Neutral terminals, downstream of a series fuse. When a lightning surge occurs, the MOV resistance drops, shorting the surge current and blowing the fuse to isolate the circuit.",
+    "practical_tips": "Always pair an MOV with a series thermal fuse or circuit breaker, as standard MOVs fail short-circuit and can overheat, melt, or cause a fire if exposed to continuous overvoltages.",
+    "interview_questions": [
+        {
+            "question": "How does an MOV protect a circuit from overvoltage?",
+            "answer": "It is connected in parallel with the load. Under normal voltages, it has high resistance. During a high-voltage spike, its resistance drops instantly, diverting the surge current away from the load."
+        },
+        {
+            "question": "What is the typical failure mode of an MOV?",
+            "answer": "Fails short-circuit. If exposed to sustained overvoltage, it conducts continuously, overheating and potentially catching fire if not isolated by a series thermal fuse."
+        },
+        {
+            "question": "What material is the primary constituent of an MOV?",
+            "answer": "Zinc Oxide (ZnO), with small additions of other metal oxides (like bismuth, cobalt, or manganese)."
+        },
+        {
+            "question": "Why are MOVs unsuitable for protecting high-speed data communication lines?",
+            "answer": "They possess high parasitic capacitance (hundreds of pF). At high frequencies, this capacitance shunts the data signal to ground, causing signal attenuation and data corruption."
+        },
+        {
+            "question": "What does the 8/20μs surge current rating mean?",
+            "answer": "It is a standard test pulse waveform: the current rises to its peak value in 8 microseconds and decays to 50% of the peak value in 20 microseconds."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "Littelfuse Varistor Products Catalog; IEC 61643-331 surge protective components standards.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

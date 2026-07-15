@@ -1,0 +1,91 @@
+{
+    "id": "lora_sx1278",
+    "name": "LoRa SX1278 Module",
+    "category": "Communication Modules",
+    "short_description": "A long-range, low-power sub-GHz RF transceiver module operating on the chirp spread spectrum (CSS) modulation.",
+    "difficulty": "Advanced",
+    "common_uses": "Long-range IoT telemetry, smart agriculture sensor nodes, remote metering, mesh networking.",
+    "quick_facts": {
+        "symbol": "U_RF",
+        "unit": "Hertz (Hz) / Decibel-milliwatts (dBm)",
+        "formula": "FSK/GFSK/CSS Modulation",
+        "passive_active": "Active",
+        "polarized": "Yes",
+        "typical_voltage": "3.3V (2.4V to 3.7V)",
+        "typical_current": "10.3mA Rx, 120mA Tx (at +20dBm)",
+        "operating_frequency": "433 MHz (SX1278) / 868-915 MHz (SX1276)"
+    },
+    "specifications": [
+        {
+            "parameter": "Frequency Range",
+            "value": "410 - 525",
+            "unit": "MHz",
+            "notes": "Optimized for 433 MHz ISM band"
+        },
+        {
+            "parameter": "Max Power output",
+            "value": "+20",
+            "unit": "dBm",
+            "notes": "100mW RF output power"
+        },
+        {
+            "parameter": "Receiver Sensitivity",
+            "value": "-148",
+            "unit": "dBm",
+            "notes": "Highly sensitive long-range link"
+        },
+        {
+            "parameter": "Interface Protocol",
+            "value": "SPI",
+            "notes": "Requires SPI pins (MISO, MOSI, SCK, NSS, DIO0)"
+        }
+    ],
+    "definition": "The LoRa SX1278 Module is an advanced wireless communication transceiver that utilizes Semtech's patented chirp spread spectrum (CSS) modulation technique to achieve extremely long transmission distances (up to 10+ km line-of-sight) at exceptionally low power consumption rates.",
+    "working_principle": "It modulates RF carrier waves using linear frequency sweeps (chirps) whose frequency increases or decreases over time. This spread spectrum modulation increases immunity against multi-path distortion and interference, allowing reliable decoding below the channel noise floor.",
+    "types": "Through-hole breakout boards (RFM95W equivalents), SMD stamp-hole modules (Ra-02), and integrated MCU hybrid boards (ESP32-LoRa).",
+    "construction": "Assembled on a multi-layer FR-4 printed circuit board housing the Semtech SX1278 transceiver chip, a high-stability TCXO reference crystal, matching impedance inductors, and a micro-coaxial antenna connector (IPEX or spring whip).",
+    "electrical_characteristics": "Low receive current of 10.3 mA, programmable transmitter power up to +20 dBm, 3.3V logic level SPI bus lines, and multiple configurable digital input/output (DIO) pins for interrupt signals.",
+    "symbol_description": "Standard multi-pin schematic block showing RF antenna output, power, ground, and SPI communication control lines.",
+    "formulas": "Link Budget Equation: Link Budget (dB) = Transmit Power (dBm) - Receiver Sensitivity (dBm).",
+    "applications": "Smart water and gas metering networks, remote environment monitoring sensors, tracking wildlife telemetry, and satellite receiver interfaces.",
+    "advantages": "Incredible communication range, high immunity against co-channel interference, low average current draw for years of battery runtime.",
+    "disadvantages": "Extremely limited bandwidth and low data rates (typically 292 bps to 37.5 kbps), not suitable for audio or video streams.",
+    "example_circuit_operation": "An SX1278 transceiver is wired to an Arduino microcontroller via SPI. A wire antenna is soldered to the RF pad. DIO0 triggers an active interrupt to wake the MCU when an RF packet is received.",
+    "practical_tips": "Never power up or transmit through the module without a suitable 433 MHz antenna connected to avoid destroying the output RF power amplifier due to high signal reflection (VSWR).",
+    "interview_questions": [
+        {
+            "question": "What modulation technique is used by LoRa SX1278?",
+            "answer": "Chirp Spread Spectrum (CSS), which spreads data across frequencies using linear frequency sweeps."
+        },
+        {
+            "question": "Why is the SX1278 module preferred over standard FSK modules?",
+            "answer": "CSS provides significantly higher receiver sensitivity (-148dBm) allowing signals to be successfully decoded even when buried below noise."
+        },
+        {
+            "question": "Can you use 5V logic lines directly with the SX1278 module?",
+            "answer": "No, it requires 3.3V logic. Connecting 5V logic signals directly to the SPI pins will damage the silicon gate oxide."
+        },
+        {
+            "question": "What is the purpose of the DIO0 pin?",
+            "answer": "It serves as a configurable digital interrupt output indicating packet-received (RxDone) or packet-transmitted (TxDone) statuses."
+        },
+        {
+            "question": "How does spreading factor (SF) affect transmission range and speed?",
+            "answer": "A higher Spreading Factor (SF12 vs SF7) increases receiver sensitivity and range, but decreases the data rate and increases time-on-air."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "Semtech SX1276/77/78 Datasheet; LoRaWAN Alliance regional channel layout specifications.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

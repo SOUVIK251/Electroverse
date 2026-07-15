@@ -1,0 +1,90 @@
+{
+    "id": "gsm_sim800l",
+    "name": "GSM SIM800L",
+    "category": "Communication Modules",
+    "short_description": "A miniature cellular module supporting quad-band GSM/GPRS network connectivity for voice calls, SMS, and data transfer.",
+    "difficulty": "Advanced",
+    "common_uses": "Remote alarm security systems, SMS-controlled relays, vehicle tracking trackers, data logging telemetry.",
+    "quick_facts": {
+        "symbol": "U_GSM",
+        "unit": "Hertz (Hz)",
+        "formula": "GSM / GPRS Protocol Stack",
+        "passive_active": "Active",
+        "polarized": "Yes",
+        "typical_voltage": "3.7V to 4.2V (Strict)",
+        "typical_current": "Peak 2A (during transmission bursts), 80mA idle",
+        "operating_frequency": "Quad-band: 850 / 900 / 1800 / 1900 MHz"
+    },
+    "specifications": [
+        {
+            "parameter": "Supply Voltage",
+            "value": "3.4 - 4.4",
+            "unit": "V",
+            "notes": "Lithium battery or 4V high-current regulator required"
+        },
+        {
+            "parameter": "Transmission Burst Current",
+            "value": "2.0",
+            "unit": "A",
+            "notes": "Requires low ESR bypass capacitors"
+        },
+        {
+            "parameter": "GPRS Class",
+            "value": "Class 12",
+            "notes": "Maximum downstream transfer speed of 85.6 kbps"
+        },
+        {
+            "parameter": "SIM Card Slot",
+            "value": "Micro SIM",
+            "notes": "Supports 1.8V and 3.0V SIM cards"
+        }
+    ],
+    "definition": "The GSM SIM800L is a highly integrated, quad-band GSM/GPRS cellular modem module in a tiny LGA package, designed to provide microcontrollers with direct access to local cellular networks for sending SMS, placing voice calls, and connecting to the internet via GPRS.",
+    "working_principle": "It communicates with a base transceiver station (BTS) using Time Division Multiple Access (TDMA) over radio frequencies. Commands are sent to the module from an external host MCU using Serial UART AT commands.",
+    "types": "Miniature breakout boards with IPEX antenna connector, larger shield boards with onboard switching regulators, and industrial modems.",
+    "construction": "Features a SIM800L chipset under an EMI shielding metal can, a micro-SIM tray, power regulation inputs, level shifting diodes, and serial UART connection pins.",
+    "electrical_characteristics": "Requires a highly stable power supply capable of supplying 2A current spikes without dropping below 3.4V. Logic lines operate at 2.8V, requiring series resistors or logic level shifters when connected to 5V MCUs.",
+    "symbol_description": "Modem block representing power inputs, micro-SIM connector pins, UART TX/RX serial lines, and reset control inputs.",
+    "formulas": "Baud Rate formula: Serial Clock / (16 * Divisor).",
+    "applications": "Automated security alarms, vehicle GPS/GSM trackers, remote irrigation controllers, smart billing smart grids.",
+    "advantages": "Worldwide quad-band coverage, extremely small footprint, low standby current under sleep mode.",
+    "disadvantages": "Requires high-current power sources, 2G GSM networks are being phased out in many countries, sensitive to electromagnetic noise.",
+    "example_circuit_operation": "SIM800L is powered from a Li-Po battery or LM2596 regulator set to 4V. The TX/RX serial lines connect to Arduino RX/TX via level shifting resistors. AT commands set SMS or GPRS data packet transmissions.",
+    "practical_tips": "Ensure the bypass power capacitor is a low-ESR electrolytic capacitor (at least 470μF to 1000μF) placed as close as possible to the module's VCC pin to absorb the 2A RF transmission current bursts.",
+    "interview_questions": [
+        {
+            "question": "What is the primary power supply challenge when using SIM800L?",
+            "answer": "The module draws up to 2A current bursts during RF packet transmission. If the supply cannot deliver this, voltage drops, causing the module to reset continually."
+        },
+        {
+            "question": "How do you communicate with the SIM800L module?",
+            "answer": "Using serial UART communications and standard Hayes AT (Attention) commands."
+        },
+        {
+            "question": "What logic voltage level does SIM800L use?",
+            "answer": "2.8V logic. Series resistors (like 10k) or logic shifters must be used when interfacing with 5V microcontrollers like Arduino Uno."
+        },
+        {
+            "question": "How do you detect if the module is registered on the cellular network?",
+            "answer": "By monitoring the onboard NET light LED flash interval: slow blinking (every 3 seconds) indicates successful registration; fast blinking (every 800ms) indicates searching."
+        },
+        {
+            "question": "Does SIM800L support 4G or 5G bands?",
+            "answer": "No, it is strictly a 2G GSM/GPRS module."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "SIMCom SIM800L Hardware Design Guide; AT Command Manual.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}

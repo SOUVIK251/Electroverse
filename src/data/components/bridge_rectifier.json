@@ -1,0 +1,103 @@
+{
+    "id": "bridge_rectifier",
+    "name": "Bridge Rectifier",
+    "category": "Power Electronics",
+    "short_description": "An arrangement of four diodes in a bridge configuration to perform full-wave rectification.",
+    "difficulty": "Beginner",
+    "common_uses": "Basic circuit blocks, filtering, power control.",
+    "quick_facts": {
+        "symbol": "BR",
+        "unit": "None",
+        "formula": "Z = R",
+        "passive_active": "Active",
+        "polarized": "No",
+        "typical_voltage": "5V to 240V",
+        "typical_current": "Microamps to Amps",
+        "operating_frequency": "DC to MHz"
+    },
+    "specifications": [
+        {
+            "parameter": "Operating Range",
+            "value": "Standard Industry Limits",
+            "unit": "None",
+            "notes": "Refer to manufacturer datasheets"
+        },
+        {
+            "parameter": "Max Voltage",
+            "value": "Varies by Package",
+            "unit": "V",
+            "notes": "Absolute maximum rating"
+        },
+        {
+            "parameter": "Temperature Range",
+            "value": "-40 to +85",
+            "unit": "°C",
+            "notes": "Industrial standard tolerance"
+        },
+        {
+            "parameter": "Package type",
+            "value": "DIP / SMD / Through-hole",
+            "unit": "N/A",
+            "notes": "Available in various form factors"
+        }
+    ],
+    "definition": "The Bridge Rectifier is a fundamental electronic component categorized under Power Electronics. It is widely used in modern electrical engineering and electronics applications.",
+    "working_principle": "Operates based on standard solid-state semiconductor physics, electromagnetic induction, or materials science constraints depending on component class.",
+    "types": "Through-hole packages, Surface Mount (SMD) packages, High-reliability military grade, General purpose commercial grade.",
+    "construction": "Manufactured using clean-room silicon lithography, copper winding over magnetic cores, or advanced metal film deposition techniques.",
+    "electrical_characteristics": "Absolute maximum voltage, maximum forward/reverse current, thermal resistance junction-to-case, operating temperature range.",
+    "formulas": "Refer to the specific equations in the engineering facts library. E.g., for RLC circuits: f = 1 / (2*pi*sqrt(L*C))",
+    "applications": "Industrial automation control, smart home consumer electronics, communications infrastructure, automotive engine control units.",
+    "advantages": "Compact size, highly cost-effective, standard sizes globally, high reliability under proper operating conditions.",
+    "disadvantages": "Limited power dissipation limits, sensitive to static electricity, thermal derating required.",
+    "example_circuit_operation": "A typical implementation combines the Bridge Rectifier with auxiliary resistors and capacitors to provide signal filtering or voltage reference control.",
+    "practical_tips": "Always keep connections short to minimize parasitic impedance. Double check pinouts prior to powering up to prevent damage.",
+    "interview_questions": [
+        {
+            "question": "What is the key parameter of a Bridge Rectifier?",
+            "answer": "It is the None value, representing its primary physical electrical property."
+        },
+        {
+            "question": "How do you select the correct package?",
+            "answer": "Based on space constraints, thermal dissipation requirements, and manufacturing capabilities (SMD vs through-hole)."
+        },
+        {
+            "question": "What is thermal runaway?",
+            "answer": "A process where increasing temperature leads to changes in electrical properties that further increase temperature, leading to destruction."
+        },
+        {
+            "question": "What is the difference between active and passive components?",
+            "answer": "Active components can inject power or control current/voltage using another electrical signal; passive components can only dissipate or store energy."
+        },
+        {
+            "question": "Why is static discharge protection important?",
+            "answer": "High electrostatic discharge (ESD) voltages can puncture thin oxide layers or semiconductor junctions, causing latent failures."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Half Wave Rectifier",
+            "status": "available"
+        },
+        {
+            "name": "Full Wave Rectifier",
+            "status": "available"
+        },
+        {
+            "name": "Positive Clipper",
+            "status": "available"
+        },
+        {
+            "name": "Negative Clipper",
+            "status": "available"
+        }
+    ],
+    "references": "IEEE Standard Symbols Reference; Manufacturer specifications for Bridge Rectifier families.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "example_circuit": "assets/components/bridge_rectifier/example_circuit.png",
+        "pin_diagram": "",
+        "internal_structure": ""
+    }
+}

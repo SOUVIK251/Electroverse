@@ -1,0 +1,110 @@
+{
+    "id": "pn_junction_diode",
+    "name": "PN Junction Diode",
+    "category": "Semiconductors",
+    "short_description": "A semiconductor device that allows current to flow in one direction only (forward bias).",
+    "difficulty": "Beginner",
+    "common_uses": "Rectification, clipping, clamping, reverse polarity protection.",
+    "quick_facts": {
+        "symbol": "D",
+        "unit": "None",
+        "formula": "I = Is × (e^(Vd/nVt) - 1)",
+        "passive_active": "Semiconductor",
+        "polarized": "Yes",
+        "typical_voltage": "0.7V forward drop (Silicon)",
+        "typical_current": "Milliamps to Amps",
+        "operating_frequency": "DC to MHz"
+    },
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "example_circuit": "",
+        "pin_diagram": "",
+        "internal_structure": ""
+    },
+    "specifications": [
+        {
+            "parameter": "Forward Voltage Drop",
+            "value": "0.6 to 0.7",
+            "unit": "V",
+            "notes": "Silicon typical drop"
+        },
+        {
+            "parameter": "Max Reverse Voltage (PIV)",
+            "value": "50 to 1000",
+            "unit": "V",
+            "notes": "Peak Inverse Voltage"
+        },
+        {
+            "parameter": "Max Forward Current",
+            "value": "1 to 10",
+            "unit": "A",
+            "notes": "Continuous forward conduction"
+        },
+        {
+            "parameter": "Reverse Recovery Time",
+            "value": "4 to 100",
+            "unit": "ns",
+            "notes": "Time to turn off"
+        }
+    ],
+    "definition": "A PN junction diode is a two-terminal semiconductor device that allows electrical current to pass easily in one direction (forward bias) while blocking current in the opposite direction (reverse bias).",
+    "working_principle": "Formed by joining p-type and n-type semiconductors, creating a depletion region. Forward bias collapses this region, permitting electron/hole recombination and current flow. Reverse bias expands this region, blocking flow.",
+    "types": "Signal Diode (1N4148), Rectifier Diode (1N4007), Schottky Diode, Zener Diode, Varactor Diode, Tunnel Diode.",
+    "construction": "Constructed by doping a single crystal of silicon or germanium with acceptor impurities (p-region) and donor impurities (n-region).",
+    "electrical_characteristics": "Forward threshold voltage (typically 0.7V for Silicon, 0.3V for Germanium), reverse breakdown voltage, reverse saturation current, and dynamic resistance.",
+    "formulas": "Diode Equation: I = Is * (exp(Vd / (n * Vt)) - 1)\nPower dissipation: P = Vd * Id",
+    "applications": "Half-wave and full-wave AC rectification, logic gates, free-wheeling inductive surge protection, signal clipping.",
+    "advantages": "High rectification efficiency, compact size, high reliability.",
+    "disadvantages": "Forward voltage drop (leads to power loss), finite reverse breakdown voltage, temperature dependency.",
+    "example_circuit_operation": "Reverse Polarity Protection: Connected in series with power supply line. If battery is connected backward, the diode is reverse biased, blocking current and protecting the circuit.",
+    "practical_tips": "Ensure reverse peak voltage rating is at least 1.5x the peak AC voltage in rectifiers. Use Schottky diodes for lower forward drop in high efficiency paths.",
+    "interview_questions": [
+        {
+            "question": "What is reverse recovery time in a diode?",
+            "answer": "The time it takes for current flow to cease when switching from forward-conducting to reverse-blocking state."
+        },
+        {
+            "question": "Why is Silicon preferred over Germanium for diodes?",
+            "answer": "Silicon has lower reverse leakage current, higher temperature handling, and higher breakdown voltages."
+        },
+        {
+            "question": "What is the depletion region?",
+            "answer": "A region at the interface of p and n regions devoid of mobile charge carriers, creating an internal potential barrier."
+        },
+        {
+            "question": "What is avalanche breakdown?",
+            "answer": "Under high reverse voltage, free carriers gain high kinetic energy, collide with atoms, generate more carriers, resulting in high reverse current."
+        },
+        {
+            "question": "How does temperature affect the forward drop of a diode?",
+            "answer": "The forward voltage drop decreases by approximately -2mV/°C rise in temperature."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Half Wave Rectifier",
+            "status": "available"
+        },
+        {
+            "name": "Full Wave Rectifier",
+            "status": "available"
+        },
+        {
+            "name": "Positive Clipper",
+            "status": "available"
+        },
+        {
+            "name": "Negative Clipper",
+            "status": "available"
+        }
+    ],
+    "references": "1N4007 Datasheet (Diodes Inc.); Semiconductor Device Fundamentals, Robert Pierret.",
+    "images": {
+        "real_photo": "assets/components/pn_junction_diode/real_photo.png",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "assets/components/pn_junction_diode/internal_structure.png",
+        "example_circuit": "assets/components/pn_junction_diode/example_circuit.png"
+    }
+}

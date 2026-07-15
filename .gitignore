@@ -1,0 +1,38 @@
+# Python Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Application Log Files
+*.log
+electroverse.log
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
+
+# Temporary Data & Reports
+assets_download_report.json
+library_capacitor_view.png
+library_resistor_view.png
+
+# Artifacts
+COMPONENT_IMAGE_GUIDE.md
+walkthrough.md

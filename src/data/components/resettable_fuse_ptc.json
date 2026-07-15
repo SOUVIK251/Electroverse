@@ -1,0 +1,92 @@
+{
+    "id": "resettable_fuse_ptc",
+    "name": "Resettable Fuse (PTC)",
+    "category": "Protection Devices",
+    "short_description": "A polymeric positive temperature coefficient (PPTC) device that limits current under fault conditions and resets after power cycle.",
+    "difficulty": "Intermediate",
+    "common_uses": "USB port protection, battery pack safety circuits, telecom line protection, automotive electronics.",
+    "quick_facts": {
+        "symbol": "F_PTC",
+        "unit": "Ampere (A)",
+        "formula": "R = R0 * (1 + alpha * T)",
+        "passive_active": "Passive",
+        "polarized": "No",
+        "typical_voltage": "6V to 60V (standard models)",
+        "typical_current": "50mA to 15A",
+        "operating_frequency": "DC / AC"
+    },
+    "specifications": [
+        {
+            "parameter": "Holding Current (I_hold)",
+            "value": "0.5",
+            "unit": "A",
+            "notes": "Max current device will carry without tripping"
+        },
+        {
+            "parameter": "Tripping Current (I_trip)",
+            "value": "1.0",
+            "unit": "A",
+            "notes": "Min current required to force device to trip"
+        },
+        {
+            "parameter": "Max Voltage (V_max)",
+            "value": "30",
+            "unit": "V",
+            "notes": "Max voltage device can withstand safely"
+        },
+        {
+            "parameter": "Typical Resistance",
+            "value": "0.15",
+            "unit": "Ω",
+            "notes": "Internal resistance in cold state"
+        }
+    ],
+    "definition": "A Resettable Fuse (also known as a PolySwitch or PPTC) is an overcurrent protection device constructed from a positive temperature coefficient polymer. It exhibits a non-linear resistance spike during overcurrent faults, limiting current without melting, and resets after power is removed.",
+    "working_principle": "It consists of a polymer matrix filled with conductive carbon black particles. Under normal currents, the polymer is cold and particles form a low-resistance path. Overcurrent causes self-heating, making the polymer expand and separate the carbon chains, raising resistance exponentially.",
+    "types": "Through-hole radial disc packages, SMD chip packages (0805, 1206, 2920), and strap-type battery pack connectors.",
+    "construction": "Made from sheets of conductive polymer material sandwiched between two metal electrode contact layers, coated in epoxy.",
+    "electrical_characteristics": "Features a holding current ($I_{hold}$), tripping current ($I_{trip}$), and a high tripped resistance state that allows a tiny leakage current to maintain the hot, tripped state.",
+    "symbol_description": "Resistor schematic box crossed by a diagonal line with a flat horizontal tab, indicating PTC behavior.",
+    "formulas": "Thermal Dissipation: P = V^2 / R = H * (T_device - T_ambient).",
+    "applications": "USB port power rail protection, lithium-ion battery management systems, computer motherboard inputs, and toy motors.",
+    "advantages": "Resets automatically after fault clearance and power cycle, eliminates fuse replacement, tiny surface-mount footprints.",
+    "disadvantages": "Has a higher series resistance than standard fuses, slow response times (can take seconds to trip), performance derates with high ambient temperatures.",
+    "example_circuit_operation": "A PTC is placed in series with a 5V USB port. If a short circuit occurs, current spikes, heating the PTC. It trips into high-resistance mode, reducing loop current to milliamps. Disconnecting the load lets it cool and reset.",
+    "practical_tips": "Always check the ambient temperature derating curves in the datasheet, as high ambient temperatures lower the holding current, causing the PTC to trip under normal operating conditions.",
+    "interview_questions": [
+        {
+            "question": "How does a PPTC resettable fuse reset?",
+            "answer": "By removing power from the circuit. Once power is cut, current stops, allowing the device to cool back down. The polymer contracts, re-establishing the conductive carbon paths."
+        },
+        {
+            "question": "What is the difference between holding current and tripping current?",
+            "answer": "Holding current ($I_{hold}$) is the maximum current the device can continuously conduct without tripping. Tripping current ($I_{trip}$) is the minimum current at which the device is guaranteed to transition to high-resistance mode."
+        },
+        {
+            "question": "Why does a PPTC remain in its high-resistance state while the circuit remains powered?",
+            "answer": "The small leakage current flowing through the tripped high-resistance PPTC generates enough $I^2 R$ heat to maintain the polymer's expanded, hot state."
+        },
+        {
+            "question": "What are the drawbacks of using a PPTC instead of a traditional fuse?",
+            "answer": "PPTCs have higher initial resistance, slower response times, leakage current in the tripped state, and are highly sensitive to ambient temperature shifts."
+        },
+        {
+            "question": "What happens if you exceed the V_max rating of a PPTC?",
+            "answer": "The device may experience dielectric breakdown or voltage arcing, destroying the polymer matrix and causing permanent failure."
+        }
+    ],
+    "related_experiments": [
+        {
+            "name": "Signal Attenuation",
+            "status": "available"
+        }
+    ],
+    "references": "Littelfuse PolySwitch PPTC selection guide; Bourns Multifuse series datasheets.",
+    "images": {
+        "real_photo": "",
+        "symbol": "",
+        "pin_diagram": "",
+        "internal_structure": "",
+        "example_circuit": ""
+    }
+}
