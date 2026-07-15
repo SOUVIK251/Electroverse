@@ -36,3 +36,8 @@ library_resistor_view.png
 # Artifacts
 COMPONENT_IMAGE_GUIDE.md
 walkthrough.md
+
+# PyInstaller Builds
+build/
+dist/
+*.spec
