@@ -15,33 +15,30 @@
 
 ## 🌟 Key Modules & Features
 
-### 1. ⚡ Digital System Design Hub
+### 1. 🌊 Analog Electronics Circuit Hub
+A unified master workspace integrating all analog electronics tools into a single environment:
+- **🎓 Theory & Lessons**: Structured academic curriculum covering passive elements, PN junction diodes, Zener regulators, BJTs, MOSFETs, and Op-Amps with LaTeX formula rendering.
+- **🛠 Engineering Toolkit**: Interactive design calculators for Ohm's Law, Voltage/Current Dividers, LED Resistor Sizing, Reactance, RC/RL Time Constants, and RLC Resonance.
+- **🧪 Interactive Simulation Lab & Oscilloscope**: Real-time differential equation solvers for RC/RL transients, RLC sweeps, rectifiers, clippers, clampers, and a dual-channel Digital Storage Oscilloscope (DSO).
+
+### 2. ⚡ Digital System Design Hub
 A comprehensive digital electronics hub structured for maximum learning retention:
 - **📖 Learn (Textbook Reader)**: 25% / 75% screen split layout. Features a sticky header bar, sequential 16-topic learning path, 320×220px diagram gallery with Zoom/Pan modal inspection, centered 22px Boolean equation banners, full-width truth tables, and **"🧠 Easy Memory Trick (How to Remember Instantly)"** cards.
 - **🧪 Practice (Breadboard Trainer Kit)**: A full-screen 2D virtual solderless breadboard trainer (`DSDLabView`) supporting fundamental 74-Series TTL ICs (`7400, 7402, 7404, 7408, 7411, 7432, 7486, 74266`), DIP switches, LEDs, and logic timing graphs.
 - **📝 Test (Assessment Suite)**: MCQ Quiz Bank, Viva Voce flashcards, technical interview prep, and printable Certificate of Mastery generator.
 - **📚 Reference (IC & Formula Matrix)**: 74-Series TTL IC pinout matrix, DeMorgan's rule (*"Break the bar, change the sign!"*), and formula memorization shortcuts.
 
-### 2. 🎓 Grand Viva & Core Technical Interview Prep
+### 3. 🎓 Grand Viva & Core Technical Interview Prep
 An extensive oral board examination simulator:
 - **2,200+ Conceptual Questions**: Spanning 22 core ECE/CSE engineering subjects (Digital Electronics, Basic Electronics, Analog Circuits, Signals & Systems, Network Theory, Control Systems, Microprocessors, VLSI, DSP, IoT, Operating Systems, etc.).
 - **Governing Equations & Variables**: Every question renders LaTeX math equations with exact variable definitions.
 - **🧠 Instant Memorization Trick**: A dedicated gold-bordered card on every question explaining how to recognize, understand, and remember the concept instantly during interviews.
 
-### 3. 🏠 Engineering Control Center (Dashboard)
+### 4. 🏠 Engineering Control Center (Dashboard)
 Features workspace launch shortcuts, system status metrics, daily engineering challenges, recommended topics, scientific vector scope animations, and recent activity logs.
 
-### 4. 📚 Component Library
+### 5. 📚 Component Library
 An interactive electronic component database with deep physical insights, schematic symbols, pinout diagrams, real photos, formulas, SI units, and cross-module links.
-
-### 5. 🎓 Learning Mode
-Structured academic curriculum covering passive components, PN junction diodes, Zener voltage regulators, BJTs, MOSFETs, and operational amplifiers.
-
-### 6. 🛠 Engineering Toolkit
-Interactive calculators for Ohm's Law, Voltage/Current Dividers, LED Resistor Sizing, Capacitive/Inductive Reactance, RC/RL Time Constants, and RLC Resonance.
-
-### 7. 🧪 Simulation Lab & Oscilloscope
-Real-time physical solvers for RC/RL transients, RLC resonance sweeps, rectifiers, clippers, and clampers paired with a dual-channel virtual Digital Storage Oscilloscope (DSO).
 
 ---
 

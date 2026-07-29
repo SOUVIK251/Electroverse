@@ -15,11 +15,9 @@ from src.core.theme import switch_theme
 
 # Import Views
 from src.ui.dashboard import DashboardView
-from src.ui.toolkit import ToolkitView
-from src.ui.simulation import SimulationView
-from src.ui.learning_hub import LearningHubView
 from src.ui.library import LibraryView
-from src.ui.learning import LearningView
+from src.ui.analog_hub import AnalogElectronicsHubView
+from src.ui.learning_hub import LearningHubView
 from src.ui.grand_viva import GrandVivaView
 from src.ui.settings import SettingsView
 
@@ -139,12 +137,10 @@ class MainWindow(QMainWindow):
         nav_items = [
             ("Dashboard", "fa5s.th-large", 0),
             ("Component Library", "fa5s.book", 1),
-            ("Learning Mode", "fa5s.graduation-cap", 2),
-            ("Engineering Toolkit", "fa5s.tools", 3),
-            ("Simulation Lab", "fa5s.flask", 4),
-            ("Digital System Design Hub", "fa5s.microchip", 5),
-            ("Grand Viva & Core Interview", "fa5s.user-graduate", 6),
-            ("Settings", "fa5s.cog", 7)
+            ("Analog Electronics Circuit Hub", "fa5s.wave-square", 2),
+            ("Digital System Design Hub", "fa5s.microchip", 3),
+            ("Grand Viva & Core Interview", "fa5s.user-graduate", 4),
+            ("Settings", "fa5s.cog", 5)
         ]
 
         for text, icon_str, idx in nav_items:
@@ -234,14 +230,12 @@ class MainWindow(QMainWindow):
         
         # Instantiate views
         self.views = [
-            DashboardView(self),   # 0
-            LibraryView(self),      # 1
-            LearningView(self),     # 2
-            ToolkitView(self),     # 3
-            SimulationView(self),   # 4
-            LearningHubView(self),  # 5
-            GrandVivaView(self),    # 6
-            SettingsView(self)      # 7
+            DashboardView(self),              # 0: Dashboard
+            LibraryView(self),                # 1: Component Library
+            AnalogElectronicsHubView(self),   # 2: Analog Electronics Circuit Hub
+            LearningHubView(self),            # 3: Digital System Design Hub
+            GrandVivaView(self),              # 4: Grand Viva & Core Interview
+            SettingsView(self)                # 5: Settings
         ]
 
         for view in self.views:
@@ -591,23 +585,22 @@ class MainWindow(QMainWindow):
             library_view.select_component_by_id(comp_id)
 
     def navigate_to_lesson(self, lesson_id: str):
-        """Helper to switch to Learning Mode and load a lesson by ID."""
+        """Helper to switch to Analog Hub (Theory sub-tab) and load a lesson by ID."""
         self.switch_view(2)
-        learning_view = self.views[2]
-        if hasattr(learning_view, "load_lesson"):
-            learning_view.load_lesson(lesson_id)
+        analog_hub = self.views[2]
+        if hasattr(analog_hub, "load_lesson"):
+            analog_hub.load_lesson(lesson_id)
 
     def navigate_to_calculator(self, calc_index: int):
-        """Helper to switch to Toolkit and load a calculator by index."""
-        self.switch_view(3)
-        toolkit_view = self.views[3]
-        if hasattr(toolkit_view, "list_widget"):
-            toolkit_view.list_widget.setCurrentRow(calc_index)
+        """Helper to switch to Analog Hub (Toolkit sub-tab) and load a calculator by index."""
+        self.switch_view(2)
+        analog_hub = self.views[2]
+        if hasattr(analog_hub, "select_calculator"):
+            analog_hub.select_calculator(calc_index)
 
     def navigate_to_simulation(self, sim_index: int):
-        """Helper to switch to Simulation Lab and load a simulation by index."""
-        self.switch_view(4)
-        simulation_view = self.views[4]
-        if hasattr(simulation_view, "list_widget"):
-            simulation_view.list_widget.setCurrentRow(sim_index)
-
+        """Helper to switch to Analog Hub (Simulation Lab sub-tab) and load a simulation by index."""
+        self.switch_view(2)
+        analog_hub = self.views[2]
+        if hasattr(analog_hub, "select_simulation"):
+            analog_hub.select_simulation(sim_index)
