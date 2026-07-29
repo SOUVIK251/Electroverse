@@ -1,0 +1,56 @@
+{
+    "id": "bcd_7segment",
+    "name": "BCD to 7-Segment Display Driver",
+    "title": "BCD to 7-Segment Display Driver",
+    "category": "Combinational Circuits",
+    "difficulty": "★★★★☆",
+    "est_time": "25 Mins",
+    "prerequisites": ["2-to-4 Line Decoder"],
+    "summary": "A BCD to 7-Segment Decoder translates 4-bit Binary Coded Decimal inputs (0000 to 1001) into signals that drive 7 LED segments (a, b, c, d, e, f, g) to display numbers 0-9.",
+    "images": [
+        {"type": "symbol", "title": "7-Segment Layout", "caption": "Segment labelling (a, b, c, d, e, f, g) on a 7-segment display.", "path": "assets/components/display/7seg_layout.png"}
+    ],
+    "working_principle": "Each segment is driven by a Boolean function derived using Karnaugh Maps for BCD values 0 to 9. Inputs above 9 (1010 to 1111) are 'Don't Care' conditions.",
+    "truth_table": {
+        "inputs": ["D", "C", "B", "A"],
+        "outputs": ["a", "b", "c", "d", "e", "f", "g"],
+        "rows": [
+            {"inputs": [0, 0, 0, 0], "outputs": [1, 1, 1, 1, 1, 1, 0]},
+            {"inputs": [0, 0, 0, 1], "outputs": [0, 1, 1, 0, 0, 0, 0]},
+            {"inputs": [0, 0, 1, 0], "outputs": [1, 1, 0, 1, 1, 0, 1]},
+            {"inputs": [0, 0, 1, 1], "outputs": [1, 1, 1, 1, 0, 0, 1]}
+        ]
+    },
+    "boolean_equation": "Segment a = A + C + BD + B'D'",
+    "applications": [
+        "Digital Clocks, Timers, and Calculators",
+        "Panel Meters and Digital Multimeters",
+        "Elevator Floor Position Displays"
+    ],
+    "advantages": [
+        "Direct decimal visual readout from binary/BCD counters"
+    ],
+    "disadvantages": [
+        "Requires 7 separate output driver lines per digit"
+    ],
+    "common_mistakes": [
+        "Confusing Common-Anode (+5V common) with Common-Cathode (GND common) displays."
+    ],
+    "quick_notes": [
+        "Common Anode requires active-LOW segment outputs (0 turns LED ON).",
+        "Common Cathode requires active-HIGH segment outputs (1 turns LED ON).",
+        "Derived using 4-variable K-maps."
+    ],
+    "viva_questions": [
+        {"q": "What is the difference between Common Anode and Common Cathode 7-segment displays?", "a": "Common Anode connects all LED anodes to +5V (active-low drive). Common Cathode connects all LED cathodes to GND (active-high drive)."}
+    ],
+    "interview_questions": [
+        {"q": "What segments are lit to display the decimal digit '7'?", "a": "Segments a, b, and c."}
+    ],
+    "cross_links": [
+        {"id": "decoder_2_4", "name": "2-to-4 Line Decoder"},
+        {"id": "gate_and", "name": "AND Gate (IC 7408)"}
+    ],
+    "knowledge_graph": ["Decoders", "BCD Code", "7-Segment Display", "Digital Counters"],
+    "experiment_id": "bcd_7seg"
+}

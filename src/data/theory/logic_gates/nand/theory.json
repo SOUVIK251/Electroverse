@@ -1,0 +1,59 @@
+{
+    "id": "gate_nand",
+    "title": "NAND Universal Logic Gate (IC 7400)",
+    "category": "Logic Gates",
+    "difficulty": "★★☆☆☆",
+    "est_time": "12 Mins",
+    "prerequisites": ["NOT Gate"],
+    "summary": "A NAND gate (NOT-AND) is a universal logic gate that produces a LOW (0) output IF AND ONLY IF all inputs are HIGH (1). It can synthesize any Boolean function without requiring other gate types.",
+    "images": [
+        {"type": "symbol", "title": "ANSI NAND Symbol", "caption": "AND gate symbol with output inversion bubble.", "path": "assets/components/logic_gates/nand_symbol.png"},
+        {"type": "breadboard", "title": "Breadboard Placement (IC 7400)", "caption": "IC 7400 Quad 2-Input NAND Gate on breadboard.", "path": "assets/components/logic_gates/nand_breadboard.png"}
+    ],
+    "working_principle": "The NAND gate combines an AND gate followed by an Inverter. When inputs A and B are both +5V, the output is 0V. For all other input combinations (00, 01, 10), the output is +5V.",
+    "truth_table": {
+        "inputs": ["A", "B"],
+        "outputs": ["Y (A · B)'"],
+        "rows": [
+            {"inputs": [0, 0], "outputs": [1]},
+            {"inputs": [0, 1], "outputs": [1]},
+            {"inputs": [1, 0], "outputs": [1]},
+            {"inputs": [1, 1], "outputs": [0]}
+        ]
+    },
+    "boolean_equation": "Y = (A · B)'",
+    "applications": [
+        "Universal Logic Synthesis in Digital IC Design",
+        "SR Flip-Flop Latches and Memory Registers",
+        "Active-Low Decoding and Bus Line Control"
+    ],
+    "advantages": [
+        "Universal Gate: Can implement NOT, AND, OR, XOR, Adders, and MUXes",
+        "Standardized low-cost production in 7400 TTL family"
+    ],
+    "disadvantages": [
+        "Requires multiple gates to form basic OR/AND functions"
+    ],
+    "common_mistakes": [
+        "Assuming NAND output is 0 when any input is 0 (That is AND logic).",
+        "Leaving unneeded NAND gate inputs un-terminated."
+    ],
+    "quick_notes": [
+        "IC 7400 contains 4 independent 2-input NAND gates.",
+        "Pin 14 is VCC (+5V), Pin 7 is GND.",
+        "Tying both inputs of a NAND gate together creates a NOT Inverter."
+    ],
+    "viva_questions": [
+        {"q": "Why is NAND called a Universal Gate?", "a": "Because any basic or complex digital circuit (NOT, AND, OR, XOR, Adders) can be built using only NAND gates."},
+        {"q": "How do you make an Inverter from a NAND gate?", "a": "Tie both input pins (A and B) together to form a single input."}
+    ],
+    "interview_questions": [
+        {"q": "How many 7400 NAND gates are needed to build a 2-input OR gate?", "a": "3 NAND gates (Invert A, Invert B, then pass into third NAND gate: A'+B' = (A·B)' = A+B)."}
+    ],
+    "cross_links": [
+        {"id": "universal_nand", "name": "Universal NAND Gate Synthesis"},
+        {"id": "gate_nor", "name": "NOR Gate (IC 7402)"}
+    ],
+    "knowledge_graph": ["Boolean Algebra", "Logic Gates", "NAND Gate (7400)", "Universal Gates"],
+    "experiment_id": "half_adder"
+}

@@ -1,0 +1,82 @@
+{
+    "version": "1.0",
+    "last_updated": "2026",
+    "source": "Tinkercad Circuits 2D Component Visual & Pin Specification",
+    "components": {
+        "breadboard": {
+            "name": "Full Solderless Breadboard",
+            "width": 520,
+            "height": 300,
+            "color": "#f8fafc",
+            "border_color": "#cbd5e1"
+        },
+        "7408": {
+            "name": "IC 7408 Quad 2-Input AND Gate",
+            "package": "DIP-14",
+            "width": 112,
+            "height": 48,
+            "pins": 14,
+            "vcc_pin": 14,
+            "gnd_pin": 7,
+            "pin_spacing_px": 14
+        },
+        "7432": {
+            "name": "IC 7432 Quad 2-Input OR Gate",
+            "package": "DIP-14",
+            "width": 112,
+            "height": 48,
+            "pins": 14,
+            "vcc_pin": 14,
+            "gnd_pin": 7,
+            "pin_spacing_px": 14
+        },
+        "7400": {
+            "name": "IC 7400 Quad 2-Input NAND Gate",
+            "package": "DIP-14",
+            "width": 112,
+            "height": 48,
+            "pins": 14,
+            "vcc_pin": 14,
+            "gnd_pin": 7,
+            "pin_spacing_px": 14
+        },
+        "7404": {
+            "name": "IC 7404 Hex Inverter (NOT)",
+            "package": "DIP-14",
+            "width": 112,
+            "height": 48,
+            "pins": 14,
+            "vcc_pin": 14,
+            "gnd_pin": 7,
+            "pin_spacing_px": 14
+        },
+        "dip_switch": {
+            "name": "4-Switch DIP Switch Bank",
+            "width": 64,
+            "height": 40,
+            "switches": 4,
+            "color": "#0284c7"
+        },
+        "led": {
+            "name": "Output LED Indicator",
+            "width": 24,
+            "height": 24,
+            "anode_color": "#ef4444",
+            "cathode_color": "#1e293b"
+        },
+        "resistor": {
+            "name": "330Ω Current Limiting Resistor",
+            "width": 42,
+            "height": 14,
+            "resistance_ohms": 330,
+            "color_bands": ["Orange", "Orange", "Brown", "Gold"]
+        },
+        "power_supply": {
+            "name": "+5V DC Benchtop Power Supply",
+            "width": 120,
+            "height": 80,
+            "voltage": 5.0,
+            "color": "#1e293b"
+        }
+    }
+}

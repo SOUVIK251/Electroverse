@@ -1,0 +1,14 @@
+{
+    "inputs": ["S", "I0", "I1"],
+    "outputs": ["Y"],
+    "rows": [
+        {"inputs": {"S": 0, "I0": 0, "I1": 0}, "outputs": {"Y": 0}},
+        {"inputs": {"S": 0, "I0": 1, "I1": 0}, "outputs": {"Y": 1}},
+        {"inputs": {"S": 0, "I0": 0, "I1": 1}, "outputs": {"Y": 0}},
+        {"inputs": {"S": 0, "I0": 1, "I1": 1}, "outputs": {"Y": 1}},
+        {"inputs": {"S": 1, "I0": 0, "I1": 0}, "outputs": {"Y": 0}},
+        {"inputs": {"S": 1, "I0": 1, "I1": 0}, "outputs": {"Y": 0}},
+        {"inputs": {"S": 1, "I0": 0, "I1": 1}, "outputs": {"Y": 1}},
+        {"inputs": {"S": 1, "I0": 1, "I1": 1}, "outputs": {"Y": 1}}
+    ]
+}

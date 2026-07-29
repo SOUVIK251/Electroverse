@@ -1,0 +1,36 @@
+{
+    "id": "half_adder",
+    "name": "Half Adder Circuit",
+    "category": "Adders",
+    "difficulty": 2,
+    "estimated_time_mins": 6,
+    "objectives": [
+        "Understand binary addition of two 1-bit numbers (A and B).",
+        "Construct Sum and Carry logic using basic gates (XOR 7486 + AND 7408).",
+        "Optimize the design using Universal NAND gates (IC 7400)."
+    ],
+    "theory": "A Half Adder adds two single binary digits A and B. It produces two outputs: Sum (S = A ⊕ B) and Carry (C = A · B).",
+    "boolean_equations": {
+        "Sum": "S = A ⊕ B",
+        "Carry": "C = A · B"
+    },
+    "stages": {
+        "foundation": {
+            "title": "Foundation (Basic Gates)",
+            "required_components": ["7486", "7408"],
+            "description": "Construct the Half Adder using 1 XOR gate (IC 7486) for Sum and 1 AND gate (IC 7408) for Carry."
+        },
+        "optimization": {
+            "title": "Universal NAND Gate Synthesis",
+            "required_components": ["7400"],
+            "target_gate_count": 5,
+            "description": "Rebuild the Half Adder using ONLY Universal NAND gates (IC 7400)."
+        },
+        "industrial": {
+            "title": "Universal NOR Gate Synthesis",
+            "required_components": ["7402"],
+            "target_gate_count": 5,
+            "description": "Rebuild the Half Adder using ONLY Universal NOR gates (IC 7402)."
+        }
+    }
+}

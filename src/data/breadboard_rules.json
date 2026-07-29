@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "last_updated": "2026",
+    "source": "Solderless Breadboard Internal Bus Specification",
+    "terminal_strips": {
+        "top_half": {"rows": 30, "columns": ["A", "B", "C", "D", "E"], "internally_connected": true},
+        "bottom_half": {"rows": 30, "columns": ["F", "G", "H", "I", "J"], "internally_connected": true},
+        "center_dip_gap": {"separates": ["E", "F"], "prevents_ic_pin_shorting": true}
+    },
+    "power_rails": {
+        "top_vcc": {"rail_type": "+5V", "color": "#ef4444"},
+        "top_gnd": {"rail_type": "GND", "color": "#1e293b"},
+        "bottom_vcc": {"rail_type": "+5V", "color": "#ef4444"},
+        "bottom_gnd": {"rail_type": "GND", "color": "#1e293b"}
+    }
+}

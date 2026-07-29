@@ -65,42 +65,47 @@ class MathPlotCanvas(FigureCanvas):
         theme = config_manager.get("theme")
         
         if theme == "dark":
-            bg_color = "#1e293b"       # Card panel background
-            fg_color = "#f8fafc"       # Light gray text
-            grid_color = "#334155"     # Darker gray grid lines
-            axis_bg = "#0f172a"        # Deep background for plot area
-            bbox_color = "#0f172a"
+            bg_color = "#141B2D"       # Card panel background
+            fg_color = "#C9D1E3"       # Secondary text / labels
+            grid_color = "#4A5675"     # Major grid lines
+            minor_grid = "#2B3245"     # Minor grid lines
+            axis_bg = "#0B1020"        # Premium Oscilloscope background
+            bbox_color = "#111827"
         else:
-            bg_color = "#ffffff"       # White background
-            fg_color = "#0f172a"       # Slate text
-            grid_color = "#e2e8f0"     # Soft gray grid lines
-            axis_bg = "#f8fafc"        # Soft off-white plot area
-            bbox_color = "#e2e8f0"
+            bg_color = "#FFFFFF"       # White background
+            fg_color = "#0F172A"       # Slate text
+            grid_color = "#CBD5E1"     # Soft gray grid lines
+            minor_grid = "#E2E8F0"
+            axis_bg = "#F8FAFC"        # Soft off-white plot area
+            bbox_color = "#F1F5F9"
 
         self.fig.patch.set_facecolor(bg_color)
         self.ax.set_facecolor(axis_bg)
         
-        self.ax.grid(True, color=grid_color, linestyle="--", linewidth=0.5)
+        self.ax.grid(True, which='major', color=grid_color, linestyle="-", linewidth=0.6, alpha=0.7)
+        self.ax.grid(True, which='minor', color=minor_grid, linestyle=":", linewidth=0.4, alpha=0.5)
+        self.ax.minorticks_on()
         
         for spine in self.ax.spines.values():
-            spine.set_color(grid_color)
+            spine.set_color("#26334D" if theme == "dark" else "#CBD5E1")
 
         self.ax.xaxis.label.set_color(fg_color)
         self.ax.yaxis.label.set_color(fg_color)
-        self.ax.title.set_color(fg_color)
+        self.ax.title.set_color("#FFFFFF" if theme == "dark" else "#0F172A")
         self.ax.tick_params(colors=fg_color, which='both')
         
         # Style guide crosshairs & coordinate overlay dynamically
-        self.cross_h.set_color(fg_color)
-        self.cross_v.set_color(fg_color)
-        self.coord_text.set_color(fg_color)
+        self.cross_h.set_color("#FFFFFF" if theme == "dark" else "#0F172A")
+        self.cross_v.set_color("#FFFFFF" if theme == "dark" else "#0F172A")
+        self.coord_text.set_color("#06B6D4" if theme == "dark" else "#2563EB")
         self.coord_text.get_bbox_patch().set_facecolor(bbox_color)
-        self.coord_text.get_bbox_patch().set_alpha(0.85)
+        self.coord_text.get_bbox_patch().set_edgecolor("#26334D" if theme == "dark" else "#CBD5E1")
+        self.coord_text.get_bbox_patch().set_alpha(0.9)
 
         legend = self.ax.get_legend()
         if legend:
             legend.get_frame().set_facecolor(bg_color)
-            legend.get_frame().set_edgecolor(grid_color)
+            legend.get_frame().set_edgecolor("#26334D" if theme == "dark" else "#CBD5E1")
             for text in legend.get_texts():
                 text.set_color(fg_color)
                 

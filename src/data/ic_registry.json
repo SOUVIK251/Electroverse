@@ -1,0 +1,210 @@
+{
+    "7400": {
+        "ic_number": "7400",
+        "name": "7400 Quad 2-Input NAND Gate",
+        "description": "Contains four independent 2-input NAND gates.",
+        "pins": 14,
+        "vcc_pin": 14,
+        "gnd_pin": 7,
+        "package_type": "DIP-14",
+        "logic_type": "NAND",
+        "pin_functions": {
+            "1": "1A (Input)", "2": "1B (Input)", "3": "1Y (Output)",
+            "4": "2A (Input)", "5": "2B (Input)", "6": "2Y (Output)",
+            "7": "GND (Ground)", "8": "3Y (Output)", "9": "3A (Input)", "10": "3B (Input)",
+            "11": "4Y (Output)", "12": "4A (Input)", "13": "4B (Input)", "14": "VCC (+5V Power)"
+        }
+    },
+    "7402": {
+        "ic_number": "7402",
+        "name": "7402 Quad 2-Input NOR Gate",
+        "description": "Contains four independent 2-input NOR gates.",
+        "pins": 14,
+        "vcc_pin": 14,
+        "gnd_pin": 7,
+        "package_type": "DIP-14",
+        "logic_type": "NOR",
+        "pin_functions": {
+            "1": "1Y (Output)", "2": "1A (Input)", "3": "1B (Input)",
+            "4": "2Y (Output)", "5": "2A (Input)", "6": "2B (Input)",
+            "7": "GND (Ground)", "8": "3A (Input)", "9": "3B (Input)", "10": "3Y (Output)",
+            "11": "4A (Input)", "12": "4B (Input)", "13": "4Y (Output)", "14": "VCC (+5V Power)"
+        }
+    },
+    "7404": {
+        "ic_number": "7404",
+        "name": "7404 Hex Inverter (NOT)",
+        "description": "Contains six independent NOT logic inverters.",
+        "pins": 14,
+        "vcc_pin": 14,
+        "gnd_pin": 7,
+        "package_type": "DIP-14",
+        "logic_type": "NOT",
+        "pin_functions": {
+            "1": "1A (Input)", "2": "1Y (Output)", "3": "2A (Input)", "4": "2Y (Output)",
+            "5": "3A (Input)", "6": "3Y (Output)", "7": "GND (Ground)", "8": "4Y (Output)",
+            "9": "4A (Input)", "10": "5Y (Output)", "11": "5A (Input)", "12": "6Y (Output)",
+            "13": "6A (Input)", "14": "VCC (+5V Power)"
+        }
+    },
+    "7408": {
+        "ic_number": "7408",
+        "name": "7408 Quad 2-Input AND Gate",
+        "description": "Contains four independent 2-input AND gates.",
+        "pins": 14,
+        "vcc_pin": 14,
+        "gnd_pin": 7,
+        "package_type": "DIP-14",
+        "logic_type": "AND",
+        "pin_functions": {
+            "1": "1A (Input)", "2": "1B (Input)", "3": "1Y (Output)",
+            "4": "2A (Input)", "5": "2B (Input)", "6": "2Y (Output)",
+            "7": "GND (Ground)", "8": "3Y (Output)", "9": "3A (Input)", "10": "3B (Input)",
+            "11": "4Y (Output)", "12": "4A (Input)", "13": "4B (Input)", "14": "VCC (+5V Power)"
+        }
+    },
+    "7411": {
+        "ic_number": "7411",
+        "name": "7411 Triple 3-Input AND Gate",
+        "description": "Contains three independent 3-input AND gates.",
+        "pins": 14,
+        "vcc_pin": 14,
+        "gnd_pin": 7,
+        "package_type": "DIP-14",
+        "logic_type": "AND3",
+        "pin_functions": {
+            "1": "1A (Input)", "2": "1B (Input)", "3": "2A (Input)", "4": "2B (Input)",
+            "5": "2C (Input)", "6": "2Y (Output)", "7": "GND (Ground)", "8": "3Y (Output)",
+            "9": "3A (Input)", "10": "3B (Input)", "11": "3C (Input)", "12": "1Y (Output)",
+            "13": "1C (Input)", "14": "VCC (+5V Power)"
+        }
+    },
+    "7432": {
+        "ic_number": "7432",
+        "name": "7432 Quad 2-Input OR Gate",
+        "description": "Contains four independent 2-input OR gates.",
+        "pins": 14,
+        "vcc_pin": 14,
+        "gnd_pin": 7,
+        "package_type": "DIP-14",
+        "logic_type": "OR",
+        "pin_functions": {
+            "1": "1A (Input)", "2": "1B (Input)", "3": "1Y (Output)",
+            "4": "2A (Input)", "5": "2B (Input)", "6": "2Y (Output)",
+            "7": "GND (Ground)", "8": "3Y (Output)", "9": "3A (Input)", "10": "3B (Input)",
+            "11": "4Y (Output)", "12": "4A (Input)", "13": "4B (Input)", "14": "VCC (+5V Power)"
+        }
+    },
+    "7486": {
+        "ic_number": "7486",
+        "name": "7486 Quad 2-Input XOR Gate",
+        "description": "Contains four independent 2-input Exclusive-OR gates.",
+        "pins": 14,
+        "vcc_pin": 14,
+        "gnd_pin": 7,
+        "package_type": "DIP-14",
+        "logic_type": "XOR",
+        "pin_functions": {
+            "1": "1A (Input)", "2": "1B (Input)", "3": "1Y (Output)",
+            "4": "2A (Input)", "5": "2B (Input)", "6": "2Y (Output)",
+            "7": "GND (Ground)", "8": "3Y (Output)", "9": "3A (Input)", "10": "3B (Input)",
+            "11": "4Y (Output)", "12": "4A (Input)", "13": "4B (Input)", "14": "VCC (+5V Power)"
+        }
+    },
+    "74266": {
+        "ic_number": "74266",
+        "name": "74266 Quad 2-Input XNOR Gate",
+        "description": "Contains four independent 2-input Exclusive-NOR gates.",
+        "pins": 14,
+        "vcc_pin": 14,
+        "gnd_pin": 7,
+        "package_type": "DIP-14",
+        "logic_type": "XNOR",
+        "pin_functions": {
+            "1": "1A (Input)", "2": "1B (Input)", "3": "1Y (Output)",
+            "4": "2A (Input)", "5": "2B (Input)", "6": "2Y (Output)",
+            "7": "GND (Ground)", "8": "3Y (Output)", "9": "3A (Input)", "10": "3B (Input)",
+            "11": "4Y (Output)", "12": "4A (Input)", "13": "4B (Input)", "14": "VCC (+5V Power)"
+        }
+    },
+    "7447": {
+        "ic_number": "7447",
+        "name": "7447 BCD to 7-Segment Decoder Driver",
+        "description": "Drives active-low common-anode 7-segment LED display segments.",
+        "pins": 16,
+        "vcc_pin": 16,
+        "gnd_pin": 8,
+        "package_type": "DIP-16",
+        "logic_type": "BCD_DECODER",
+        "pin_functions": {
+            "1": "B (Input)", "2": "C (Input)", "3": "LT (Input)", "4": "BI/RBO",
+            "5": "RBI (Input)", "6": "D (Input)", "7": "A (Input)", "8": "GND (Ground)",
+            "9": "e (Output)", "10": "d (Output)", "11": "c (Output)", "12": "b (Output)",
+            "13": "a (Output)", "14": "g (Output)", "15": "f (Output)", "16": "VCC (+5V Power)"
+        }
+    },
+    "7483": {
+        "ic_number": "7483",
+        "name": "7483 4-Bit Binary Full Adder",
+        "description": "Performs fast 4-bit binary addition with carry lookahead.",
+        "pins": 16,
+        "vcc_pin": 5,
+        "gnd_pin": 12,
+        "package_type": "DIP-16",
+        "logic_type": "ADDER",
+        "pin_functions": {
+            "1": "A4 (Input)", "2": "S3 (Sum)", "3": "A3 (Input)", "4": "B3 (Input)",
+            "5": "VCC (+5V Power)", "6": "S2 (Sum)", "7": "B2 (Input)", "8": "A2 (Input)",
+            "9": "S1 (Sum)", "10": "A1 (Input)", "11": "B1 (Input)", "12": "GND (Ground)",
+            "13": "C0 (Carry In)", "14": "C4 (Carry Out)", "15": "S4 (Sum)", "16": "B4 (Input)"
+        }
+    },
+    "74138": {
+        "ic_number": "74138",
+        "name": "74138 3-to-8 Line Decoder/Demultiplexer",
+        "description": "Decodes a 3-bit binary input into 8 active-low outputs.",
+        "pins": 16,
+        "vcc_pin": 16,
+        "gnd_pin": 8,
+        "package_type": "DIP-16",
+        "logic_type": "DECODER",
+        "pin_functions": {
+            "1": "A (Select)", "2": "B (Select)", "3": "C (Select)", "4": "G2A (Enable)",
+            "5": "G2B (Enable)", "6": "G1 (Enable)", "7": "Y7 (Output)", "8": "GND (Ground)",
+            "9": "Y6 (Output)", "10": "Y5 (Output)", "11": "Y4 (Output)", "12": "Y3 (Output)",
+            "13": "Y2 (Output)", "14": "Y1 (Output)", "15": "Y0 (Output)", "16": "VCC (+5V Power)"
+        }
+    },
+    "74151": {
+        "ic_number": "74151",
+        "name": "74151 8-to-1 Line Multiplexer",
+        "description": "Selects 1-of-8 data sources and routes to complementary outputs.",
+        "pins": 16,
+        "vcc_pin": 16,
+        "gnd_pin": 8,
+        "package_type": "DIP-16",
+        "logic_type": "MUX",
+        "pin_functions": {
+            "1": "I3 (Data)", "2": "I2 (Data)", "3": "I1 (Data)", "4": "I0 (Data)",
+            "5": "Y (Output)", "6": "W (Inverted)", "7": "G (Enable)", "8": "GND (Ground)",
+            "9": "C (Select)", "10": "B (Select)", "11": "A (Select)", "12": "I7 (Data)",
+            "13": "I6 (Data)", "14": "I5 (Data)", "15": "I4 (Data)", "16": "VCC (+5V Power)"
+        }
+    },
+    "74153": {
+        "ic_number": "74153",
+        "name": "74153 Dual 4-to-1 Line Multiplexer",
+        "description": "Contains two independent 4-to-1 data selectors/multiplexers.",
+        "pins": 16,
+        "vcc_pin": 16,
+        "gnd_pin": 8,
+        "package_type": "DIP-16",
+        "logic_type": "MUX",
+        "pin_functions": {
+            "1": "1G (Enable)", "2": "B (Select)", "3": "1I3 (Data)", "4": "1I2 (Data)",
+            "5": "1I1 (Data)", "6": "1I0 (Data)", "7": "1Y (Output)", "8": "GND (Ground)",
+            "9": "2Y (Output)", "10": "2I0 (Data)", "11": "2I1 (Data)", "12": "2I2 (Data)",
+            "13": "2I3 (Data)", "14": "A (Select)", "15": "2G (Enable)", "16": "VCC (+5V Power)"
+        }
+    }
+}

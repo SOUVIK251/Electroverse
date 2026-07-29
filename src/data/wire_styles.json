@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "last_updated": "2026",
+    "source": "Standard Industry Wire Color Code Specification",
+    "styles": {
+        "Power": {"color": "#ef4444", "name": "Red (+5V VCC Power Wire)"},
+        "Ground": {"color": "#1e293b", "name": "Black (GND Ground Wire)"},
+        "Signal": {"color": "#06b6d4", "name": "Cyan (Signal Line Wire)"},
+        "Clock": {"color": "#eab308", "name": "Yellow (Clock Signal Wire)"},
+        "High": {"color": "#10b981", "name": "Green (Active Logic HIGH Wire)"},
+        "Low": {"color": "#3b82f6", "name": "Blue (Active Logic LOW Wire)"},
+        "User": {"color": "#f97316", "name": "Orange (User Custom Wire)"},
+        "Optional": {"color": "#a855f7", "name": "Purple (Optional Wire)"},
+        "General": {"color": "#f8fafc", "name": "White (General Wire)"}
+    }
+}

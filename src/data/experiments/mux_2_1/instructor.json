@@ -1,0 +1,5 @@
+{
+    "foundation": "A Multiplexer acts like a digital rotary switch. When S=0, input I0 connects to Output Y. When S=1, input I1 connects to Output Y. Use NOT (7404), AND (7408), and OR (7432) gates.",
+    "optimization": "In Stage 2, notice how 4 NAND gates (IC 7400) replace NOT + 2 AND + OR logic seamlessly.",
+    "industrial": "In Stage 3, build the 2:1 Multiplexer using 4 NOR gates (IC 7402) to understand dual universal gate design."
+}

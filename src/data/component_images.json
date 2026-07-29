@@ -1,0 +1,289 @@
+{
+    "555_timer": {
+        "real_photo": "assets/components/555_timer/real_photo.png",
+        "symbol": "assets/components/555_timer/symbol.png",
+        "internal_structure": "assets/components/555_timer/internal_structure.png",
+        "pin_diagram": "assets/components/555_timer/pin_diagram.png"
+    },
+    "7805": {
+        "real_photo": "assets/components/7805/real_photo.png",
+        "example_circuit": "assets/components/7805/example_circuit.png",
+        "pin_diagram": "assets/components/7805/pin_diagram.png"
+    },
+    "7812": {
+        "real_photo": "assets/components/7812/real_photo.png",
+        "internal_structure": "assets/components/7812/internal_structure.png",
+        "pin_diagram": "assets/components/7812/pin_diagram.png"
+    },
+    "arduino_uno": {
+        "real_photo": "assets/components/arduino_uno/real_photo.png",
+        "internal_structure": "assets/components/arduino_uno/internal_structure.png",
+        "pin_diagram": "assets/components/arduino_uno/pin_diagram.png"
+    },
+    "audio_jack_3_5": {},
+    "berg_connector": {},
+    "bjt": {
+        "real_photo": "assets/components/bjt/real_photo.jpg",
+        "internal_structure": "assets/components/bjt/internal_structure.jpg",
+        "example_circuit": "assets/components/bjt/example_circuit.png",
+        "symbol": "assets/components/bjt/symbol.jpg"
+    },
+    "breadboard": {
+        "real_photo": "assets/components/breadboard/real_photo.jpg"
+    },
+    "bridge_rectifier": {
+        "real_photo": "assets/components/bridge_rectifier/real_photo.jpg",
+        "symbol": "assets/components/bridge_rectifier/symbol.jpg",
+        "internal_structure": "assets/components/bridge_rectifier/internal_structure.jpg",
+        "example_circuit": "assets/components/bridge_rectifier/example_circuit.png",
+        "pin_diagram": "assets/components/bridge_rectifier/pin_diagram.jpg"
+    },
+    "buzzer": {
+        "real_photo": "assets/components/buzzer/real_photo.jpg"
+    },
+    "capacitor": {
+        "real_photo": "assets/components/capacitor/real_photo.png",
+        "symbol": "assets/components/capacitor/symbol.png",
+        "internal_structure": "assets/components/capacitor/internal_structure.png",
+        "example_circuit": "assets/components/capacitor/example_circuit.png"
+    },
+    "ceramic_capacitor": {
+        "real_photo": "assets/components/ceramic_capacitor/real_photo.png",
+        "symbol": "assets/components/ceramic_capacitor/symbol.png",
+        "internal_structure": "assets/components/ceramic_capacitor/internal_structure.png"
+    },
+    "ceramic_resonator": {},
+    "circuit_breaker_mcb": {
+        "real_photo": "assets/components/circuit_breaker_mcb/real_photo.jpg",
+        "symbol": "assets/components/circuit_breaker_mcb/symbol.jpg",
+        "internal_structure": "assets/components/circuit_breaker_mcb/internal_structure.jpg",
+        "example_circuit": "assets/components/circuit_breaker_mcb/types_of_mcb.jpg"
+    },
+    "crowbar_protection": {
+        "real_photo": "assets/components/crowbar_protection/real_photo.jpg",
+        "example_circuit": "assets/components/crowbar_protection/example_circuit.jpg"
+    },
+    "crystal_oscillator": {},
+    "dc_barrel_jack": {},
+    "diac": {
+        "real_photo": "assets/components/diac/real_photo.png",
+        "example_circuit": "assets/components/diac/example_circuit.png",
+        "pin_diagram": "assets/components/diac/pin_diagram.png"
+    },
+    "dip_switch": {},
+    "electrolytic_capacitor": {
+        "real_photo": "assets/components/electrolytic_capacitor/real_photo.png",
+        "symbol": "assets/components/electrolytic_capacitor/symbol.png",
+        "internal_structure": "assets/components/electrolytic_capacitor/internal_structure.png"
+    },
+    "esd_protection_diode": {},
+    "esp32": {
+        "real_photo": "assets/components/esp32/real_photo.png",
+        "internal_structure": "assets/components/esp32/internal_structure.png",
+        "pin_diagram": "assets/components/esp32/pin_diagram.png"
+    },
+    "female_header": {},
+    "fuse": {
+        "real_photo": "assets/components/fuse/real_photo.jpg"
+    },
+    "gas_sensor": {
+        "real_photo": "assets/components/gas_sensor/real_photo.png",
+        "internal_structure": "assets/components/gas_sensor/internal_structure.png",
+        "pin_diagram": "assets/components/gas_sensor/pin_diagram.png"
+    },
+    "gps_neo6m": {},
+    "gsm_sim800l": {},
+    "gsm_sim900a": {},
+    "hall_sensor": {
+        "real_photo": "assets/components/hall_sensor/real_photo.png",
+        "pin_diagram": "assets/components/hall_sensor/pin_diagram.jpg"
+    },
+    "hdmi_connector": {},
+    "igbt": {
+        "real_photo": "assets/components/igbt/real_photo.png",
+        "internal_structure": "assets/components/igbt/internal_structure.png",
+        "symbol": "assets/components/igbt/symbol.jpg"
+    },
+    "inductor": {
+        "real_photo": "assets/components/inductor/real_photo.png",
+        "symbol": "assets/components/inductor/symbol.png",
+        "internal_structure": "assets/components/inductor/internal_structure.png",
+        "example_circuit": "assets/components/inductor/example_circuit.png"
+    },
+    "ir_receiver": {},
+    "ir_sensor": {
+        "real_photo": "assets/components/ir_sensor/real_photo.png",
+        "example_circuit": "assets/components/ir_sensor/example_circuit.png",
+        "pin_diagram": "assets/components/ir_sensor/pin_diagram.png"
+    },
+    "ir_transmitter": {},
+    "jfet": {
+        "real_photo": "assets/components/jfet/real_photo.png",
+        "internal_structure": "assets/components/jfet/internal_structure.png",
+        "example_circuit": "assets/components/jfet/example_circuit.png",
+        "pin_diagram": "assets/components/jfet/pin_diagram.png"
+    },
+    "jst_connector": {},
+    "lcd": {
+        "real_photo": "assets/components/lcd/real_photo.png",
+        "internal_structure": "assets/components/lcd/internal_structure.png",
+        "example_circuit": "assets/components/lcd/example_circuit.png",
+        "pin_diagram": "assets/components/lcd/pin_diagram.png"
+    },
+    "ldr": {
+        "real_photo": "assets/components/ldr/real_photo.png",
+        "symbol": "assets/components/ldr/symbol.png",
+        "internal_structure": "assets/components/ldr/internal_structure.png",
+        "example_circuit": "assets/components/ldr/example_circuit.png"
+    },
+    "led": {
+        "real_photo": "assets/components/led/real_photo.png",
+        "symbol": "assets/components/led/symbol.png",
+        "internal_structure": "assets/components/led/internal_structure.png",
+        "example_circuit": "assets/components/led/example_circuit.png",
+        "pin_diagram": "assets/components/led/pin_diagram.png"
+    },
+    "lm358": {
+        "real_photo": "assets/components/lm358/real_photo.png",
+        "pin_diagram": "assets/components/lm358/pin_diagram.png"
+    },
+    "lm741": {
+        "real_photo": "assets/components/lm741/real_photo.png"
+    },
+    "lora_sx1278": {},
+    "micro_usb": {},
+    "mosfet": {
+        "real_photo": "assets/components/mosfet/real_photo.png",
+        "symbol": "assets/components/mosfet/symbol.png",
+        "internal_structure": "assets/components/mosfet/internal_structure.png",
+        "pin_diagram": "assets/components/mosfet/pin_diagram.png",
+        "example_circuit": "assets/components/mosfet/example_circuit.png"
+    },
+    "mov": {},
+    "nfc_pn532": {},
+    "optocoupler_iso": {},
+    "pcb_terminal_block": {},
+    "photodiode": {
+        "real_photo": "assets/components/photodiode/real_photo.png",
+        "internal_structure": "assets/components/photodiode/internal_structure.png",
+        "example_circuit": "assets/components/photodiode/example_circuit.png"
+    },
+    "pin_header": {},
+    "pn_junction_diode": {
+        "real_photo": "assets/components/pn_junction_diode/real_photo.png",
+        "internal_structure": "assets/components/pn_junction_diode/internal_structure.png",
+        "example_circuit": "assets/components/pn_junction_diode/example_circuit.png"
+    },
+    "potentiometer": {
+        "real_photo": "assets/components/potentiometer/real_photo.png",
+        "internal_structure": "assets/components/potentiometer/internal_structure.png"
+    },
+    "push_button_switch": {},
+    "quartz_crystal": {},
+    "raspberry_pi_pico": {
+        "real_photo": "assets/components/raspberry_pi_pico/real_photo.png",
+        "internal_structure": "assets/components/raspberry_pi_pico/internal_structure.png",
+        "pin_diagram": "assets/components/raspberry_pi_pico/pin_diagram.png"
+    },
+    "relay": {
+        "real_photo": "assets/components/relay/real_photo.png",
+        "symbol": "assets/components/relay/symbol.png",
+        "internal_structure": "assets/components/relay/internal_structure.png",
+        "pin_diagram": "assets/components/relay/pin_diagram.png"
+    },
+    "relay_module": {
+        "symbol": "assets/components/relay/symbol.png",
+        "pin_diagram": "assets/components/relay/pin_diagram.png"
+    },
+    "resettable_fuse_ptc": {},
+    "resistor": {
+        "real_photo": "assets/components/resistor/real_photo.jpg",
+        "symbol": "assets/components/resistor/symbol.png",
+        "internal_structure": "assets/components/resistor/internal_structure.png",
+        "example_circuit": "assets/components/resistor/example_circuit.png"
+    },
+    "rev_polarity_protection": {},
+    "rf_433_rx": {},
+    "rf_433_tx": {},
+    "rfid_rc522": {},
+    "rj11_telephone": {},
+    "rj45_ethernet": {},
+    "rotary_switch": {},
+    "schottky_diode": {
+        "real_photo": "assets/components/schottky_diode/real_photo.png",
+        "symbol": "assets/components/schottky_diode/symbol.png",
+        "internal_structure": "assets/components/schottky_diode/internal_structure.png"
+    },
+    "scr": {
+        "real_photo": "assets/components/scr/real_photo.png",
+        "example_circuit": "assets/components/scr/example_circuit.png",
+        "pin_diagram": "assets/components/scr/pin_diagram.png"
+    },
+    "screw_terminal": {},
+    "seven_segment_display": {
+        "real_photo": "assets/components/seven_segment_display/real_photo.png",
+        "internal_structure": "assets/components/seven_segment_display/internal_structure.png",
+        "example_circuit": "assets/components/seven_segment_display/example_circuit.png",
+        "pin_diagram": "assets/components/seven_segment_display/pin_diagram.png"
+    },
+    "slide_switch": {},
+    "surge_protector": {},
+    "temperature_sensor": {
+        "real_photo": "assets/components/temperature_sensor/real_photo.png",
+        "example_circuit": "assets/components/temperature_sensor/example_circuit.png",
+        "pin_diagram": "assets/components/temperature_sensor/pin_diagram.png"
+    },
+    "thermal_fuse": {},
+    "thermistor": {
+        "real_photo": "assets/components/thermistor/real_photo.png",
+        "internal_structure": "assets/components/thermistor/internal_structure.png",
+        "example_circuit": "assets/components/thermistor/example_circuit.png"
+    },
+    "toggle_switch": {},
+    "transformer": {
+        "real_photo": "assets/components/transformer/real_photo.png",
+        "symbol": "assets/components/transformer/symbol.png",
+        "internal_structure": "assets/components/transformer/internal_structure.png",
+        "example_circuit": "assets/components/transformer/example_circuit.png"
+    },
+    "triac": {
+        "real_photo": "assets/components/triac/real_photo.png",
+        "symbol": "assets/components/triac/symbol.png",
+        "internal_structure": "assets/components/triac/internal_structure.png"
+    },
+    "tunnel_diode": {
+        "real_photo": "assets/components/tunnel_diode/real_photo.png",
+        "internal_structure": "assets/components/tunnel_diode/internal_structure.png",
+        "example_circuit": "assets/components/tunnel_diode/example_circuit.png"
+    },
+    "tvs_diode": {},
+    "ultrasonic_sensor": {
+        "real_photo": "assets/components/ultrasonic_sensor/real_photo.png",
+        "symbol": "assets/components/ultrasonic_sensor/symbol.png",
+        "example_circuit": "assets/components/ultrasonic_sensor/example_circuit.png",
+        "pin_diagram": "assets/components/ultrasonic_sensor/pin_diagram.png"
+    },
+    "usb_type_a": {},
+    "usb_type_c": {},
+    "varactor_diode": {
+        "real_photo": "assets/components/varactor_diode/real_photo.png",
+        "symbol": "assets/components/varactor_diode/symbol.png",
+        "internal_structure": "assets/components/varactor_diode/internal_structure.png",
+        "pin_diagram": "assets/components/varactor_diode/pin_diagram.png"
+    },
+    "variable_capacitor": {
+        "real_photo": "assets/components/variable_capacitor/real_photo.png",
+        "symbol": "assets/components/variable_capacitor/symbol.png",
+        "internal_structure": "assets/components/variable_capacitor/internal_structure.png"
+    },
+    "vga_connector": {},
+    "wifi_esp8266": {},
+    "zener_diode": {
+        "real_photo": "assets/components/zener_diode/real_photo.jpg",
+        "symbol": "assets/components/zener_diode/symbol.png",
+        "internal_structure": "assets/components/zener_diode/internal_structure.png",
+        "example_circuit": "assets/components/zener_diode/example_circuit.png"
+    },
+    "zener_diode_prot": {},
+    "zigbee_xbee": {}
+}

@@ -1,0 +1,36 @@
+{
+    "id": "full_adder",
+    "name": "Full Adder Circuit",
+    "category": "Adders",
+    "difficulty": 3,
+    "estimated_time_mins": 10,
+    "objectives": [
+        "Perform addition of three 1-bit binary numbers (A, B, and Carry-In Cin).",
+        "Construct Sum and Carry-Out logic using 2 XOR (7486), 2 AND (7408), and 1 OR (7432) gates.",
+        "Synthesize Full Adder using Universal NAND (7400) or NOR (7402) gate ICs."
+    ],
+    "theory": "A Full Adder adds three 1-bit binary inputs: A, B, and Cin. Outputs: Sum (S = A ⊕ B ⊕ Cin) and Carry Out (Cout = (A·B) + (Cin·(A⊕B))).",
+    "boolean_equations": {
+        "Sum": "S = A ⊕ B ⊕ Cin",
+        "CarryOut": "Cout = (A·B) + (Cin·(A⊕B))"
+    },
+    "stages": {
+        "foundation": {
+            "title": "Foundation (Basic Gates)",
+            "required_components": ["7486", "7408", "7432"],
+            "description": "Construct Full Adder using 2 XOR (IC 7486), 2 AND (IC 7408), and 1 OR (IC 7432) gate packages."
+        },
+        "optimization": {
+            "title": "Universal NAND Gate Synthesis",
+            "required_components": ["7400"],
+            "target_gate_count": 9,
+            "description": "Rebuild the Full Adder using ONLY Universal NAND gates (IC 7400)."
+        },
+        "industrial": {
+            "title": "Universal NOR Gate Synthesis",
+            "required_components": ["7402"],
+            "target_gate_count": 9,
+            "description": "Rebuild the Full Adder using ONLY Universal NOR gates (IC 7402)."
+        }
+    }
+}

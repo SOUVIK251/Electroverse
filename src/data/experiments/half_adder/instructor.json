@@ -1,0 +1,5 @@
+{
+    "foundation": "Welcome to the Half Adder experiment! In Stage 1, connect Input A and B to the XOR gate (IC 7486) for Sum, and to the AND gate (IC 7408) for Carry.",
+    "optimization": "Great work on Foundation! In Stage 2, convert XOR and AND logic into 5 NAND gates (IC 7400). This proves how NAND gates construct any digital circuit.",
+    "industrial": "In Stage 3, implement the Half Adder using 5 NOR gates (IC 7402). Compare NAND vs NOR synthesis to master universal gate transformations."
+}

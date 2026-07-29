@@ -1,0 +1,42 @@
+{
+    "version": "1.0",
+    "last_updated": "2026",
+    "source": "Texas Instruments Logic Guide",
+    "records": {
+        "AND": {
+            "inputs": 2,
+            "expression": "Y = A AND B",
+            "truth_table": "AND"
+        },
+        "OR": {
+            "inputs": 2,
+            "expression": "Y = A OR B",
+            "truth_table": "OR"
+        },
+        "NOT": {
+            "inputs": 1,
+            "expression": "Y = NOT A",
+            "truth_table": "NOT"
+        },
+        "NAND": {
+            "inputs": 2,
+            "expression": "Y = NOT (A AND B)",
+            "truth_table": "NAND"
+        },
+        "NOR": {
+            "inputs": 2,
+            "expression": "Y = NOT (A OR B)",
+            "truth_table": "NOR"
+        },
+        "XOR": {
+            "inputs": 2,
+            "expression": "Y = A XOR B",
+            "truth_table": "XOR"
+        },
+        "XNOR": {
+            "inputs": 2,
+            "expression": "Y = NOT (A XOR B)",
+            "truth_table": "XNOR"
+        }
+    }
+}

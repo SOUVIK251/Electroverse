@@ -1,0 +1,18 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which logic gate produces the Sum output of a Half Adder?",
+            "options": ["AND Gate", "OR Gate", "XOR Gate", "NAND Gate"],
+            "answer_idx": 2,
+            "explanation": "The XOR gate outputs 1 when inputs are different (0+1=1, 1+0=1) and 0 when same (1+1=0 with carry)."
+        },
+        {
+            "id": 2,
+            "question": "How many NAND gates are required to implement a 1-bit Half Adder?",
+            "options": ["3", "4", "5", "6"],
+            "answer_idx": 2,
+            "explanation": "4 NAND gates form the XOR (Sum) and 1 additional NAND acts as inverter for AND (Carry), totaling 5 NAND gates."
+        }
+    ]
+}

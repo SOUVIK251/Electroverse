@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "last_updated": "2026",
+    "source": "Digital Logic Engine Specification",
+    "rules": {
+        "vcc_required": true,
+        "gnd_required": true,
+        "output_to_output_illegal": true,
+        "floating_inputs_produce_warning": true,
+        "led_resistor_required": true,
+        "recommended_led_resistor_ohms": 330,
+        "max_fanout": 10,
+        "supply_voltage_volts": 5.0,
+        "propagation_delay_ns": 10
+    }
+}

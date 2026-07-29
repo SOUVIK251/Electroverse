@@ -94,10 +94,10 @@
     ],
     "references": "IEEE Standard Symbols Reference; Manufacturer specifications for Bridge Rectifier families.",
     "images": {
-        "real_photo": "",
-        "symbol": "",
+        "real_photo": "assets/components/bridge_rectifier/real_photo.jpg",
+        "symbol": "assets/components/bridge_rectifier/symbol.jpg",
         "example_circuit": "assets/components/bridge_rectifier/example_circuit.png",
-        "pin_diagram": "",
-        "internal_structure": ""
+        "pin_diagram": "assets/components/bridge_rectifier/pin_diagram.jpg",
+        "internal_structure": "assets/components/bridge_rectifier/internal_structure.jpg"
     }
 }

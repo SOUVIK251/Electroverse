@@ -1,0 +1,62 @@
+{
+    "id": "half_adder",
+    "title": "1-Bit Half Adder Circuit",
+    "category": "Combinational Circuits",
+    "difficulty": "★★☆☆☆",
+    "est_time": "15 Mins",
+    "prerequisites": ["AND Gate", "XOR Gate"],
+    "summary": "A Half Adder is a combinational logic circuit that adds two 1-bit binary digits (A and B). It produces two outputs: Sum (S) and Carry (C).",
+    "images": [
+        {"type": "symbol", "title": "Block Diagram", "caption": "1-Bit Half Adder Functional Block Diagram with Inputs A, B and Outputs Sum, Carry.", "path": "assets/components/adders/half_adder_block.png"},
+        {"type": "circuit", "title": "Gate-Level Schematic", "caption": "Half Adder constructed using 1 XOR gate (IC 7486) and 1 AND gate (IC 7408).", "path": "assets/components/adders/half_adder_schematic.png"},
+        {"type": "breadboard", "title": "Breadboard Wiring Diagram", "caption": "Wiring IC 7486 and IC 7408 on breadboard to form Half Adder.", "path": "assets/components/adders/half_adder_breadboard.png"}
+    ],
+    "working_principle": "Binary addition operates as follows: 0+0=0, 0+1=1, 1+0=1, and 1+1=10 (Sum=0, Carry=1). The Sum output matches an XOR operation (A ⊕ B), while the Carry output matches an AND operation (A · B).",
+    "truth_table": {
+        "inputs": ["A", "B"],
+        "outputs": ["Sum (S)", "Carry (C)"],
+        "rows": [
+            {"inputs": [0, 0], "outputs": [0, 0]},
+            {"inputs": [0, 1], "outputs": [1, 0]},
+            {"inputs": [1, 0], "outputs": [1, 0]},
+            {"inputs": [1, 1], "outputs": [0, 1]}
+        ]
+    },
+    "boolean_equation": "Sum = A ⊕ B,  Carry = A · B",
+    "applications": [
+        "ALU (Arithmetic Logic Unit) LSB addition stage",
+        "Digital Calculators and Processors",
+        "Address Generation Units in Memory Controllers"
+    ],
+    "advantages": [
+        "Simple 2-gate construction (1 XOR + 1 AND)",
+        "Can be synthesized using 5 NAND gates (IC 7400) or 5 NOR gates (IC 7402)"
+    ],
+    "disadvantages": [
+        "Does NOT accept a Carry-In from a previous stage (Requires a Full Adder for multi-bit addition)"
+    ],
+    "common_mistakes": [
+        "Attempting to cascade Half Adders for multi-bit addition without Carry-In logic.",
+        "Connecting Sum output to Carry pin by mistake."
+    ],
+    "quick_notes": [
+        "Sum = A ⊕ B (XOR Gate)",
+        "Carry = A · B (AND Gate)",
+        "Requires 5 NAND gates to build using Universal Gates."
+    ],
+    "viva_questions": [
+        {"q": "What are the Boolean equations for Sum and Carry in a Half Adder?", "a": "Sum = A ⊕ B, Carry = A · B."},
+        {"q": "Why is it called a 'Half' Adder?", "a": "Because it only adds two 1-bit inputs and cannot accept a Carry-In bit from a lower order stage."}
+    ],
+    "interview_questions": [
+        {"q": "How many NAND gates are required to construct a Half Adder?", "a": "5 NAND gates (IC 7400)."},
+        {"q": "How do you form a Full Adder using two Half Adders?", "a": "Connect the Sum output of the first Half Adder to the input of the second Half Adder along with Cin, and OR the Carry outputs of both Half Adders."}
+    ],
+    "cross_links": [
+        {"id": "gate_xor", "name": "XOR Gate (IC 7486)"},
+        {"id": "gate_and", "name": "AND Gate (IC 7408)"},
+        {"id": "full_adder", "name": "1-Bit Full Adder"}
+    ],
+    "knowledge_graph": ["Boolean Algebra", "Logic Gates", "Half Adder", "Full Adder", "Ripple Carry Adder"],
+    "experiment_id": "half_adder"
+}

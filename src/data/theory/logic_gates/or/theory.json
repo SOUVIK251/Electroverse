@@ -1,0 +1,59 @@
+{
+    "id": "gate_or",
+    "title": "OR Logic Gate (IC 7432)",
+    "category": "Logic Gates",
+    "difficulty": "★☆☆☆☆",
+    "est_time": "10 Mins",
+    "prerequisites": ["AND Gate"],
+    "summary": "An OR gate is a fundamental digital logic gate that implements logical disjunction (Y = A + B). The output is HIGH (1) if AT LEAST ONE of its inputs is HIGH (1).",
+    "images": [
+        {"type": "symbol", "title": "ANSI Logic Symbol", "caption": "ANSI/IEEE Standard Curved Symbol for 2-Input OR Gate.", "path": "assets/components/logic_gates/or_symbol.png"},
+        {"type": "circuit", "title": "Internal Transistor Circuit", "caption": "TTL DTL internal transistor schematic for IC 7432 OR gate.", "path": "assets/components/logic_gates/or_internal.png"},
+        {"type": "breadboard", "title": "Breadboard Wiring Diagram", "caption": "IC 7432 inserted across DIP center trench on breadboard.", "path": "assets/components/logic_gates/or_breadboard.png"}
+    ],
+    "working_principle": "When either input A or input B (or both) receives +5V (Logic 1), the internal transistor collector voltage rises, driving the output pin to +5V (Logic 1). Output is 0V only when both inputs are 0V.",
+    "truth_table": {
+        "inputs": ["Input A", "Input B"],
+        "outputs": ["Output Y (A + B)"],
+        "rows": [
+            {"inputs": [0, 0], "outputs": [0]},
+            {"inputs": [0, 1], "outputs": [1]},
+            {"inputs": [1, 0], "outputs": [1]},
+            {"inputs": [1, 1], "outputs": [1]}
+        ]
+    },
+    "boolean_equation": "Y = A + B",
+    "mnemonic_trick": "OR is ANY! Output is 1 if ANY input is 1. Output is ZERO ONLY when ALL inputs are 0!",
+    "applications": [
+        "Alarm Systems (Triggered by Motion Sensor OR Door Sensor)",
+        "Combining Interrupt Signal Lines in Microcontrollers",
+        "Control Logic for Parallel Data Paths"
+    ],
+    "advantages": [
+        "Allows multiple event triggers to activate a single line"
+    ],
+    "disadvantages": [
+        "Cannot invert signals without additional NOT gates"
+    ],
+    "common_mistakes": [
+        "Expecting output 0 when both inputs are 1 (That is XOR, OR outputs 1 when both inputs are 1!)."
+    ],
+    "quick_notes": [
+        "IC 7432 contains 4 independent 2-input OR gates.",
+        "Pin 14 is VCC (+5V), Pin 7 is GND.",
+        "Gate 1: Pins 1 (1A), 2 (1B) -> Pin 3 (1Y)."
+    ],
+    "viva_questions": [
+        {"q": "What is the IC number for a Quad 2-input OR gate?", "a": "IC 7432."},
+        {"q": "What is the output of an OR gate if A=1 and B=0?", "a": "Logic 1 (+5V)."}
+    ],
+    "interview_questions": [
+        {"q": "How can you make an OR gate using only NOR gates?", "a": "Connect a 2-input NOR gate (7402) followed by a NOR gate configured as a NOT inverter."}
+    ],
+    "cross_links": [
+        {"id": "gate_and", "name": "AND Gate (IC 7408)"},
+        {"id": "gate_nor", "name": "NOR Gate (IC 7402)"}
+    ],
+    "knowledge_graph": ["Boolean Algebra", "Logic Gates", "OR Gate (7432)", "Universal Gates"],
+    "experiment_id": "half_adder"
+}

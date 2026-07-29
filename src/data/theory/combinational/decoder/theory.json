@@ -1,0 +1,56 @@
+{
+    "id": "decoder_2_4",
+    "name": "2-to-4 Line Decoder",
+    "title": "2-to-4 Line Decoder",
+    "category": "Combinational Circuits",
+    "difficulty": "★★☆☆☆",
+    "est_time": "15 Mins",
+    "prerequisites": ["2:1 Multiplexer"],
+    "summary": "A Decoder converts N binary address input lines into 2^N unique active output lines. A 2-to-4 decoder decodes address inputs A1 A0 into outputs Y0, Y1, Y2, Y3.",
+    "images": [
+        {"type": "symbol", "title": "2-to-4 Decoder Symbol", "caption": "Inputs A1, A0 and Outputs Y0, Y1, Y2, Y3.", "path": "assets/components/decoder/decoder24_symbol.png"}
+    ],
+    "working_principle": "Outputs: Y0 = A1'·A0', Y1 = A1'·A0, Y2 = A1·A0', Y3 = A1·A0. Exactly one output line is HIGH (1) for each binary input combination.",
+    "truth_table": {
+        "inputs": ["A1", "A0"],
+        "outputs": ["Y0", "Y1", "Y2", "Y3"],
+        "rows": [
+            {"inputs": [0, 0], "outputs": [1, 0, 0, 0]},
+            {"inputs": [0, 1], "outputs": [0, 1, 0, 0]},
+            {"inputs": [1, 0], "outputs": [0, 0, 1, 0]},
+            {"inputs": [1, 1], "outputs": [0, 0, 0, 1]}
+        ]
+    },
+    "boolean_equation": "Y0 = A1'·A0', Y1 = A1'·A0, Y2 = A1·A0', Y3 = A1·A0",
+    "applications": [
+        "RAM/ROM Memory Address Decoding & Chip Select Lines",
+        "Microprocessor Instruction Decoding",
+        "7-Segment Display Drivers"
+    ],
+    "advantages": [
+        "Enables address selection among multiple peripheral devices"
+    ],
+    "disadvantages": [
+        "Requires large gate networks for wide address buses (3-to-8, 4-to-16)"
+    ],
+    "common_mistakes": [
+        "Confusing active-high outputs (1 active) with active-low outputs (0 active)."
+    ],
+    "quick_notes": [
+        "N inputs decode into 2^N output lines.",
+        "Built using 2 NOT (7404) and 4 AND (7408) gates.",
+        "Active-low decoders use NAND gates."
+    ],
+    "viva_questions": [
+        {"q": "How many outputs does a 3-to-8 Line Decoder have?", "a": "8 unique output lines (Y0 through Y7)."}
+    ],
+    "interview_questions": [
+        {"q": "How can a 3-to-8 Decoder be constructed using two 2-to-4 Decoders?", "a": "Connect the lower 2 address bits to both decoders and use the MSB address bit to enable/disable each decoder via an Enable pin."}
+    ],
+    "cross_links": [
+        {"id": "mux_2_1", "name": "2:1 Multiplexer"},
+        {"id": "bcd_7segment", "name": "BCD to 7-Segment Display Driver"}
+    ],
+    "knowledge_graph": ["Combinational Circuits", "Decoders", "2-to-4 Decoder", "Memory Decoding"],
+    "experiment_id": "decoder_2_4"
+}

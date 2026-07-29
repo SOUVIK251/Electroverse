@@ -1,0 +1,164 @@
+{
+    "path": [
+        {
+            "id": "intro_digital",
+            "name": "Introduction to Digital Electronics",
+            "category": "introduction",
+            "difficulty": "★☆☆☆☆",
+            "est_time": "15 Mins",
+            "unlocked": true,
+            "prerequisites": [],
+            "path_to_data": "introduction/intro.json"
+        },
+        {
+            "id": "number_systems",
+            "name": "Number Systems & Binary Conversion",
+            "category": "number_systems",
+            "difficulty": "★☆☆☆☆",
+            "est_time": "20 Mins",
+            "unlocked": true,
+            "prerequisites": ["intro_digital"],
+            "path_to_data": "number_systems/number_systems.json"
+        },
+        {
+            "id": "boolean_algebra",
+            "name": "Boolean Algebra & K-Maps",
+            "category": "boolean_algebra",
+            "difficulty": "★★☆☆☆",
+            "est_time": "25 Mins",
+            "unlocked": true,
+            "prerequisites": ["number_systems"],
+            "path_to_data": "boolean_algebra/boolean_algebra.json"
+        },
+        {
+            "id": "gate_and",
+            "name": "AND Logic Gate (IC 7408)",
+            "category": "logic_gates",
+            "difficulty": "★☆☆☆☆",
+            "est_time": "10 Mins",
+            "unlocked": true,
+            "prerequisites": ["boolean_algebra"],
+            "path_to_data": "logic_gates/and/theory.json"
+        },
+        {
+            "id": "gate_or",
+            "name": "OR Logic Gate (IC 7432)",
+            "category": "logic_gates",
+            "difficulty": "★☆☆☆☆",
+            "est_time": "10 Mins",
+            "unlocked": true,
+            "prerequisites": ["gate_and"],
+            "path_to_data": "logic_gates/or/theory.json"
+        },
+        {
+            "id": "gate_not",
+            "name": "NOT Inverter Gate (IC 7404)",
+            "category": "logic_gates",
+            "difficulty": "★☆☆☆☆",
+            "est_time": "10 Mins",
+            "unlocked": true,
+            "prerequisites": ["gate_or"],
+            "path_to_data": "logic_gates/not/theory.json"
+        },
+        {
+            "id": "gate_nand",
+            "name": "NAND Gate (IC 7400)",
+            "category": "logic_gates",
+            "difficulty": "★★☆☆☆",
+            "est_time": "12 Mins",
+            "unlocked": true,
+            "prerequisites": ["gate_not"],
+            "path_to_data": "logic_gates/nand/theory.json"
+        },
+        {
+            "id": "gate_nor",
+            "name": "NOR Gate (IC 7402)",
+            "category": "logic_gates",
+            "difficulty": "★★☆☆☆",
+            "est_time": "12 Mins",
+            "unlocked": true,
+            "prerequisites": ["gate_nand"],
+            "path_to_data": "logic_gates/nor/theory.json"
+        },
+        {
+            "id": "gate_xor",
+            "name": "XOR Exclusive-OR Gate (IC 7486)",
+            "category": "logic_gates",
+            "difficulty": "★★☆☆☆",
+            "est_time": "12 Mins",
+            "unlocked": true,
+            "prerequisites": ["gate_nor"],
+            "path_to_data": "logic_gates/xor/theory.json"
+        },
+        {
+            "id": "gate_xnor",
+            "name": "XNOR Exclusive-NOR Gate (IC 74266)",
+            "category": "logic_gates",
+            "difficulty": "★★☆☆☆",
+            "est_time": "12 Mins",
+            "unlocked": true,
+            "prerequisites": ["gate_xor"],
+            "path_to_data": "logic_gates/xnor/theory.json"
+        },
+        {
+            "id": "universal_nand",
+            "name": "Universal NAND Gate Synthesis",
+            "category": "universal_gates",
+            "difficulty": "★★★☆☆",
+            "est_time": "20 Mins",
+            "unlocked": true,
+            "prerequisites": ["gate_xnor"],
+            "path_to_data": "universal_gates/nand/theory.json"
+        },
+        {
+            "id": "half_adder",
+            "name": "1-Bit Half Adder Circuit",
+            "category": "combinational",
+            "difficulty": "★★☆☆☆",
+            "est_time": "15 Mins",
+            "unlocked": true,
+            "prerequisites": ["universal_nand"],
+            "path_to_data": "combinational/half_adder/theory.json"
+        },
+        {
+            "id": "full_adder",
+            "name": "1-Bit Full Adder Circuit",
+            "category": "combinational",
+            "difficulty": "★★★☆☆",
+            "est_time": "20 Mins",
+            "unlocked": true,
+            "prerequisites": ["half_adder"],
+            "path_to_data": "combinational/full_adder/theory.json"
+        },
+        {
+            "id": "mux_2_1",
+            "name": "2:1 Multiplexer (Data Selector)",
+            "category": "combinational",
+            "difficulty": "★★☆☆☆",
+            "est_time": "15 Mins",
+            "unlocked": true,
+            "prerequisites": ["full_adder"],
+            "path_to_data": "combinational/mux/theory.json"
+        },
+        {
+            "id": "decoder_2_4",
+            "name": "2-to-4 Line Decoder",
+            "category": "combinational",
+            "difficulty": "★★☆☆☆",
+            "est_time": "15 Mins",
+            "unlocked": true,
+            "prerequisites": ["mux_2_1"],
+            "path_to_data": "combinational/decoder/theory.json"
+        },
+        {
+            "id": "bcd_7segment",
+            "name": "BCD to 7-Segment Display Driver",
+            "category": "combinational",
+            "difficulty": "★★★★☆",
+            "est_time": "25 Mins",
+            "unlocked": true,
+            "prerequisites": ["decoder_2_4"],
+            "path_to_data": "combinational/bcd_7segment/theory.json"
+        }
+    ]
+}

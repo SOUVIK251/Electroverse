@@ -1,0 +1,62 @@
+{
+    "id": "mux_2_1",
+    "title": "2:1 Multiplexer (Data Selector)",
+    "category": "Combinational Circuits",
+    "difficulty": "★★☆☆☆",
+    "est_time": "15 Mins",
+    "prerequisites": ["Full Adder"],
+    "summary": "A Multiplexer (MUX) is a combinational circuit that selects one of several data input lines and routes it to a single output line based on Select line signals.",
+    "images": [
+        {"type": "symbol", "title": "2:1 MUX Symbol", "caption": "Data inputs I0, I1, Select line S, and Output Y.", "path": "assets/components/mux/mux21_symbol.png"},
+        {"type": "circuit", "title": "Gate Schematic", "caption": "2:1 MUX using 1 NOT (7404), 2 AND (7408), and 1 OR (7432).", "path": "assets/components/mux/mux21_schematic.png"}
+    ],
+    "working_principle": "Equation: Y = S'·I0 + S·I1. When S=0, input I0 is routed to Y. When S=1, input I1 is routed to Y.",
+    "truth_table": {
+        "inputs": ["Select S", "I0", "I1"],
+        "outputs": ["Output Y"],
+        "rows": [
+            {"inputs": [0, 0, 0], "outputs": [0]},
+            {"inputs": [0, 1, 0], "outputs": [1]},
+            {"inputs": [0, 0, 1], "outputs": [0]},
+            {"inputs": [0, 1, 1], "outputs": [1]},
+            {"inputs": [1, 0, 0], "outputs": [0]},
+            {"inputs": [1, 1, 0], "outputs": [0]},
+            {"inputs": [1, 0, 1], "outputs": [1]},
+            {"inputs": [1, 1, 1], "outputs": [1]}
+        ]
+    },
+    "boolean_equation": "Y = (S' · I0) + (S · I1)",
+    "applications": [
+        "Data Bus Steering and Routing in CPUs",
+        "Parallel-to-Serial Data Conversion",
+        "Universal Boolean Logic Function Generator"
+    ],
+    "advantages": [
+        "Acts as a universal logic generator for N-variable functions",
+        "Reduces board wiring complexity"
+    ],
+    "disadvantages": [
+        "Adds propagation delay to data signal paths"
+    ],
+    "common_mistakes": [
+        "Confusing Select line S with Data input lines I0 and I1."
+    ],
+    "quick_notes": [
+        "2:1 MUX has 2 data inputs, 1 select line, 1 output.",
+        "N select lines can route 2^N data inputs.",
+        "Synthesized using 4 NAND gates (7400)."
+    ],
+    "viva_questions": [
+        {"q": "What is the relation between number of data inputs and select lines in a MUX?", "a": "If there are N select lines, the MUX can select from 2^N data inputs."},
+        {"q": "How can a MUX be used as a universal logic generator?", "a": "By connecting Boolean variables to select lines and tieing data inputs to 0, 1, or remaining variables."}
+    ],
+    "interview_questions": [
+        {"q": "How many 2:1 MUXes are required to build a 4:1 MUX?", "a": "3 2:1 MUXes (2 in first stage, 1 in second stage)."}
+    ],
+    "cross_links": [
+        {"id": "decoder_2_4", "name": "2-to-4 Line Decoder"},
+        {"id": "gate_and", "name": "AND Gate (IC 7408)"}
+    ],
+    "knowledge_graph": ["Combinational Circuits", "Multiplexers", "2:1 MUX", "Demultiplexers"],
+    "experiment_id": "mux_2_1"
+}

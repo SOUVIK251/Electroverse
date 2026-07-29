@@ -1,6 +1,7 @@
 from PySide6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QLabel, QFrame, 
-    QPushButton, QSlider, QCheckBox, QRadioButton, QButtonGroup, QApplication
+    QPushButton, QSlider, QCheckBox, QRadioButton, QButtonGroup, QApplication,
+    QScrollArea, QGridLayout
 )
 from PySide6.QtCore import Qt, QSize
 import qtawesome as qta
@@ -10,45 +11,64 @@ from src.core.config import config_manager
 from src.core.theme import ThemeManager
 
 class SettingsView(QWidget):
-    """Redesigned app settings panel providing full IDE customization controls."""
+    """Redesigned app settings & platform About section panel."""
 
     def __init__(self, parent=None):
         super().__init__(parent)
         log.info("Initializing SettingsView")
         
-        layout = QVBoxLayout(self)
-        layout.setContentsMargins(20, 20, 20, 20)
+        main_layout = QVBoxLayout(self)
+        main_layout.setContentsMargins(0, 0, 0, 0)
+        
+        # Scroll Area Wrapper
+        self.scroll = QScrollArea(self)
+        self.scroll.setWidgetResizable(True)
+        self.scroll.setStyleSheet("QScrollArea { border: none; background: transparent; }")
+        
+        container = QWidget()
+        container.setStyleSheet("background-color: #0b0f19;")
+        layout = QVBoxLayout(container)
+        layout.setContentsMargins(25, 25, 25, 25)
         layout.setSpacing(20)
 
-        # Card container
+        # -------------------------------------------------------------
+        # 1. Preferences Card
+        # -------------------------------------------------------------
         self.card = QFrame()
         self.card.setObjectName("card-panel")
+        self.card.setStyleSheet("""
+            QFrame#card-panel {
+                background-color: #0f172a;
+                border: 1px solid #1e293b;
+                border-radius: 8px;
+            }
+        """)
         
         card_layout = QVBoxLayout(self.card)
-        card_layout.setContentsMargins(30, 30, 30, 30)
+        card_layout.setContentsMargins(25, 25, 25, 25)
         card_layout.setSpacing(20)
 
         # Title
         title_layout = QHBoxLayout()
         icon = QLabel()
         icon.setPixmap(qta.icon("fa5s.cog", color="#06b6d4").pixmap(24, 24))
-        title = QLabel("Application Settings")
-        title.setStyleSheet("font-size: 18pt; font-weight: bold; color: #06b6d4;")
+        title = QLabel("Application Settings & Preferences")
+        title.setStyleSheet("font-size: 16pt; font-weight: bold; color: #06b6d4;")
         title_layout.addWidget(icon)
         title_layout.addWidget(title)
         title_layout.addStretch()
         card_layout.addLayout(title_layout)
 
-        # -------------------------------------------------------------
-        # 1. Theme Configuration
-        # -------------------------------------------------------------
+        # Theme Configuration
         theme_layout = QHBoxLayout()
         theme_lbl = QLabel("App Color Scheme:")
-        theme_lbl.setStyleSheet("font-weight: 500;")
+        theme_lbl.setStyleSheet("font-weight: 500; color: #e2e8f0;")
         
         self.theme_group = QButtonGroup(self)
         self.dark_radio = QRadioButton("Midnight Dark")
         self.light_radio = QRadioButton("Clean Light")
+        self.dark_radio.setStyleSheet("color: #f8fafc;")
+        self.light_radio.setStyleSheet("color: #f8fafc;")
         self.theme_group.addButton(self.dark_radio)
         self.theme_group.addButton(self.light_radio)
         
@@ -58,12 +78,10 @@ class SettingsView(QWidget):
         theme_layout.addStretch()
         card_layout.addLayout(theme_layout)
 
-        # -------------------------------------------------------------
-        # 2. Font Size Scaling
-        # -------------------------------------------------------------
+        # Font Size Scaling
         font_layout = QHBoxLayout()
         font_lbl = QLabel("Global Text Size:")
-        font_lbl.setStyleSheet("font-weight: 500;")
+        font_lbl.setStyleSheet("font-weight: 500; color: #e2e8f0;")
         
         self.font_slider = QSlider(Qt.Orientation.Horizontal)
         self.font_slider.setRange(9, 16)
@@ -78,26 +96,23 @@ class SettingsView(QWidget):
         font_layout.addStretch()
         card_layout.addLayout(font_layout)
 
-        # -------------------------------------------------------------
-        # 3. Transitions & Animations
-        # -------------------------------------------------------------
+        # Transitions & Animations
         anim_layout = QHBoxLayout()
         anim_lbl = QLabel("Interface Transitions:")
-        anim_lbl.setStyleSheet("font-weight: 500;")
+        anim_lbl.setStyleSheet("font-weight: 500; color: #e2e8f0;")
         
         self.anim_cb = QCheckBox("Enable page fade & sliding sidebar animations")
+        self.anim_cb.setStyleSheet("color: #f8fafc;")
         
         anim_layout.addWidget(anim_lbl)
         anim_layout.addWidget(self.anim_cb)
         anim_layout.addStretch()
         card_layout.addLayout(anim_layout)
 
-        # -------------------------------------------------------------
-        # 4. Graph Line Width
-        # -------------------------------------------------------------
+        # Graph Line Width
         graph_layout = QHBoxLayout()
         graph_lbl = QLabel("Chart Line Thickness:")
-        graph_lbl.setStyleSheet("font-weight: 500;")
+        graph_lbl.setStyleSheet("font-weight: 500; color: #e2e8f0;")
         
         self.graph_slider = QSlider(Qt.Orientation.Horizontal)
         self.graph_slider.setRange(1, 5)
@@ -112,18 +127,15 @@ class SettingsView(QWidget):
         graph_layout.addStretch()
         card_layout.addLayout(graph_layout)
 
-        card_layout.addSpacing(15)
-
-        # -------------------------------------------------------------
         # Action Buttons
-        # -------------------------------------------------------------
         actions_layout = QHBoxLayout()
         
         self.save_btn = QPushButton("Save & Apply")
-        self.save_btn.setProperty("primary", "true")
+        self.save_btn.setStyleSheet("background-color: #06b6d4; color: white; font-weight: bold; padding: 8px 16px; border-radius: 4px;")
         self.save_btn.clicked.connect(self.save_settings)
         
         self.reset_btn = QPushButton("Reset Defaults")
+        self.reset_btn.setStyleSheet("background-color: #1e293b; color: white; padding: 8px 16px; border-radius: 4px;")
         self.reset_btn.clicked.connect(self.reset_defaults)
         
         actions_layout.addWidget(self.save_btn)
@@ -131,8 +143,104 @@ class SettingsView(QWidget):
         actions_layout.addStretch()
         card_layout.addLayout(actions_layout)
 
-        card_layout.addStretch()
         layout.addWidget(self.card)
+
+        # -------------------------------------------------------------
+        # 2. About Section Card
+        # -------------------------------------------------------------
+        self.about_card = QFrame()
+        self.about_card.setObjectName("card-panel")
+        self.about_card.setStyleSheet("""
+            QFrame#card-panel {
+                background-color: #0f172a;
+                border: 1px solid #1e293b;
+                border-left: 5px solid #06b6d4;
+                border-radius: 8px;
+            }
+        """)
+        about_layout = QVBoxLayout(self.about_card)
+        about_layout.setContentsMargins(25, 25, 25, 25)
+        about_layout.setSpacing(15)
+
+        # Header
+        a_title_layout = QHBoxLayout()
+        a_icon = QLabel()
+        a_icon.setPixmap(qta.icon("fa5s.info-circle", color="#06b6d4").pixmap(24, 24))
+        a_title = QLabel("About ElectroVerse Platform")
+        a_title.setStyleSheet("font-size: 16pt; font-weight: bold; color: #f8fafc;")
+        a_title_layout.addWidget(a_icon)
+        a_title_layout.addWidget(a_title)
+        a_title_layout.addStretch()
+        about_layout.addLayout(a_title_layout)
+
+        # Description
+        a_desc = QLabel(
+            "ElectroVerse is an offline interactive engineering learning platform and simulation environment designed for electronics engineering students, educators, and researchers. It combines digital logic design, breadboard circuit simulation, structured ECE/CSE textbook lessons, formula shortcuts, and oral board viva preparation into a unified desktop application."
+        )
+        a_desc.setWordWrap(True)
+        a_desc.setStyleSheet("color: #94a3b8; font-size: 10pt; line-height: 1.5;")
+        about_layout.addWidget(a_desc)
+
+        # Feature Highlights Grid
+        f_grid = QGridLayout()
+        f_grid.setSpacing(12)
+        features = [
+            ("⚡ Digital System Design Hub", "Textbook reader, 280px sidebar, 320x220 diagram gallery, and formula memory shortcuts."),
+            ("🧪 Virtual Breadboard Lab", "2D solderless breadboard simulator supporting 74-Series TTL ICs (7400, 7402, 7404, 7408, 7411, 7432, 7486, 74266)."),
+            ("🎓 Grand Viva & Interview Prep", "2,200+ conceptual questions across 22 ECE/CSE subjects with governing equations and instant memory tricks."),
+            ("🛠 Engineering Toolkit", "Real-time transient circuit solvers, 60+ formulas, and comprehensive component library.")
+        ]
+        for idx, (f_title_str, f_desc_str) in enumerate(features):
+            box = QFrame()
+            box.setStyleSheet("background-color: #111827; border: 1px solid #1e293b; border-radius: 6px; padding: 12px;")
+            b_lay = QVBoxLayout(box)
+            b_title = QLabel(f_title_str)
+            b_title.setStyleSheet("color: #06b6d4; font-size: 10pt; font-weight: bold;")
+            b_desc = QLabel(f_desc_str)
+            b_desc.setStyleSheet("color: #94a3b8; font-size: 8.5pt;")
+            b_desc.setWordWrap(True)
+            b_lay.addWidget(b_title)
+            b_lay.addWidget(b_desc)
+            f_grid.addWidget(box, idx // 2, idx % 2)
+        about_layout.addLayout(f_grid)
+
+        # Developer / Creator Credit Banner
+        credit_box = QFrame()
+        credit_box.setStyleSheet("""
+            QFrame {
+                background-color: #1e1b4b;
+                border: 2px solid #6366f1;
+                border-radius: 8px;
+                padding: 15px;
+            }
+        """)
+        c_layout = QHBoxLayout(credit_box)
+        c_icon = QLabel("👨‍💻")
+        c_icon.setStyleSheet("font-size: 26pt;")
+        c_layout.addWidget(c_icon)
+
+        c_text_lay = QVBoxLayout()
+        c_tag = QLabel("PROJECT CREATOR & LEAD DEVELOPER")
+        c_tag.setStyleSheet("color: #818cf8; font-weight: bold; font-size: 8pt; letter-spacing: 1px;")
+        
+        c_name = QLabel("Created & Developed by Souvik Kundu")
+        c_name.setStyleSheet("color: #ffffff; font-size: 14pt; font-weight: bold;")
+        
+        c_sub = QLabel("Designed and engineered with passion by Souvik Kundu to make offline electronics engineering education intuitive, visual, and accessible.")
+        c_sub.setStyleSheet("color: #cbd5e1; font-size: 9pt; font-style: italic;")
+        c_sub.setWordWrap(True)
+
+        c_text_lay.addWidget(c_tag)
+        c_text_lay.addWidget(c_name)
+        c_text_lay.addWidget(c_sub)
+        c_layout.addLayout(c_text_lay)
+        c_layout.addStretch()
+
+        about_layout.addWidget(credit_box)
+        layout.addWidget(self.about_card)
+
+        self.scroll.setWidget(container)
+        main_layout.addWidget(self.scroll)
 
         # Connect value change listeners to update labels live
         self.font_slider.valueChanged.connect(lambda v: self.font_val_lbl.setText(f"{v} pt"))
@@ -183,8 +291,7 @@ class SettingsView(QWidget):
             top_window.central_widget.style().unpolish(top_window.central_widget)
             top_window.central_widget.style().polish(top_window.central_widget)
             
-            # Repaint other views that have dynamic updates
-            for view in top_window.views:
+            for view in getattr(top_window, "views", []):
                 if hasattr(view, "update_theme"):
                     view.update_theme()
                     
@@ -199,10 +306,8 @@ class SettingsView(QWidget):
         config_manager.set("font_size", 11)
         config_manager.set("animations_enabled", True)
         config_manager.set("graph_line_width", 2)
-        
         self.load_settings()
         self.save_settings()
-        
         top_window = self.window()
         if top_window and hasattr(top_window, "show_toast"):
             top_window.show_toast("Restored default preferences.", is_success=True)

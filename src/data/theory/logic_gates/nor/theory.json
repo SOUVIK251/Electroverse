@@ -1,0 +1,59 @@
+{
+    "id": "gate_nor",
+    "title": "NOR Universal Logic Gate (IC 7402)",
+    "category": "Logic Gates",
+    "difficulty": "★★☆☆☆",
+    "est_time": "12 Mins",
+    "prerequisites": ["NAND Gate"],
+    "summary": "A NOR gate (NOT-OR) is a universal logic gate that produces a HIGH (1) output IF AND ONLY IF all inputs are LOW (0). Note that IC 7402 has a different pin layout compared to other 7400-series ICs.",
+    "images": [
+        {"type": "symbol", "title": "ANSI NOR Symbol", "caption": "OR symbol with inversion bubble at output.", "path": "assets/components/logic_gates/nor_symbol.png"},
+        {"type": "breadboard", "title": "Breadboard Placement (IC 7402)", "caption": "IC 7402 Quad 2-Input NOR Gate on breadboard.", "path": "assets/components/logic_gates/nor_breadboard.png"}
+    ],
+    "working_principle": "The NOR gate evaluates (A + B)'. If either input is 1, the output is 0. The output is 1 only when both A and B are 0. Note: In IC 7402, Pin 1 is 1Y (Output), while Pins 2 (1A) and 3 (1B) are Inputs!",
+    "truth_table": {
+        "inputs": ["A", "B"],
+        "outputs": ["Y (A + B)'"],
+        "rows": [
+            {"inputs": [0, 0], "outputs": [1]},
+            {"inputs": [0, 1], "outputs": [0]},
+            {"inputs": [1, 0], "outputs": [0]},
+            {"inputs": [1, 1], "outputs": [0]}
+        ]
+    },
+    "boolean_equation": "Y = (A + B)'",
+    "applications": [
+        "Universal Logic Synthesis",
+        "SR Flip-Flop Active-HIGH Latches",
+        "Buses Control Lines and Memory Decoding"
+    ],
+    "advantages": [
+        "Universal Gate functionality",
+        "High noise immunity in CMOS variants (74HC02)"
+    ],
+    "disadvantages": [
+        "Unique Pinout in IC 7402 (Output on Pin 1, Inputs on Pins 2 and 3) often trips up students!"
+    ],
+    "common_mistakes": [
+        "Wiring IC 7402 assuming Pin 1 and 2 are inputs (In 7402, Pin 1 is OUTPUT, Pins 2 & 3 are INPUTS!).",
+        "Confusing NOR truth table with NAND truth table."
+    ],
+    "quick_notes": [
+        "IC 7402 Pinout Warning: Gate 1 Output is Pin 1, Inputs are Pins 2 & 3!",
+        "Pin 14 is VCC (+5V), Pin 7 is GND.",
+        "Tying both inputs of a NOR gate together forms a NOT Inverter."
+    ],
+    "viva_questions": [
+        {"q": "What is special about the pin layout of IC 7402 compared to IC 7408 or IC 7432?", "a": "In IC 7402, Pin 1 is the Output, while Pins 2 and 3 are the Inputs. In 7408/7432, Pins 1 and 2 are Inputs, Pin 3 is Output."},
+        {"q": "How do you build a NOT gate from a NOR gate?", "a": "Tie both input pins together."}
+    ],
+    "interview_questions": [
+        {"q": "How many NOR gates are required to build an AND gate?", "a": "3 NOR gates (Invert A using NOR, Invert B using NOR, then pass both into third NOR gate: (A'+B')' = A · B)."}
+    ],
+    "cross_links": [
+        {"id": "gate_nand", "name": "NAND Gate (IC 7400)"},
+        {"id": "gate_xor", "name": "XOR Gate (IC 7486)"}
+    ],
+    "knowledge_graph": ["Boolean Algebra", "Logic Gates", "NOR Gate (7402)", "Universal Gates"],
+    "experiment_id": "half_adder"
+}

@@ -1,0 +1,38 @@
+{
+    "id": "decoder_2_4",
+    "name": "2-to-4 Line Decoder",
+    "category": "Decoders",
+    "difficulty": 2,
+    "estimated_time_mins": 6,
+    "objectives": [
+        "Understand binary address decoding.",
+        "Construct 2-to-4 Decoder using 2 NOT (7404) and 4 AND (7408) gates.",
+        "Observe active output line selection."
+    ],
+    "theory": "A 2-to-4 Decoder converts a 2-bit binary address (A1 A0) into 4 unique active output lines (Y0, Y1, Y2, Y3).",
+    "boolean_equations": {
+        "Y0": "Y0 = NOT A1 AND NOT A0",
+        "Y1": "Y1 = NOT A1 AND A0",
+        "Y2": "Y2 = A1 AND NOT A0",
+        "Y3": "Y3 = A1 AND A0"
+    },
+    "stages": {
+        "foundation": {
+            "title": "Foundation (Basic Gates)",
+            "required_components": ["7404", "7408"],
+            "description": "Construct 2-to-4 Decoder using 2 NOT (7404) and 4 AND (7408) gates."
+        },
+        "optimization": {
+            "title": "Universal NAND Gate Synthesis",
+            "required_components": ["7400"],
+            "target_gate_count": 6,
+            "description": "Rebuild 2-to-4 Decoder using ONLY NAND gates (IC 7400)."
+        },
+        "industrial": {
+            "title": "Universal NOR Gate Synthesis",
+            "required_components": ["7402"],
+            "target_gate_count": 6,
+            "description": "Rebuild 2-to-4 Decoder using ONLY NOR gates (IC 7402)."
+        }
+    }
+}

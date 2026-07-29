@@ -1,0 +1,58 @@
+{
+    "id": "number_systems",
+    "title": "Number Systems & Binary Conversion",
+    "category": "Number Systems",
+    "difficulty": "★☆☆☆☆",
+    "est_time": "20 Mins",
+    "prerequisites": ["Introduction to Digital Electronics"],
+    "summary": "Digital computers utilize positional number systems including Binary (Base 2), Octal (Base 8), Decimal (Base 10), and Hexadecimal (Base 16).",
+    "images": [
+        {"type": "symbol", "title": "Base Conversion Chart", "caption": "Positional values for Binary, Octal, Decimal, and Hexadecimal.", "path": "assets/components/numbers/conversion_chart.png"}
+    ],
+    "working_principle": "Any number can be expressed as a summation of digits multiplied by radix powers: N = sum(d_i * r^i). In binary (r=2), each digit is a Bit (0 or 1). 4 bits form a Nibble, and 8 bits form a Byte.",
+    "truth_table": {
+        "inputs": ["Decimal", "Binary (4-Bit)", "Hexadecimal"],
+        "outputs": ["BCD Code"],
+        "rows": [
+            {"inputs": [0, "0000", "0"], "outputs": ["0000"]},
+            {"inputs": [5, "0101", "5"], "outputs": ["0101"]},
+            {"inputs": [10, "1010", "A"], "outputs": ["Invalid BCD"]},
+            {"inputs": [15, "1111", "F"], "outputs": ["Invalid BCD"]}
+        ]
+    },
+    "boolean_equation": "Decimal Value = d3·2³ + d2·2² + d1·2¹ + d0·2⁰",
+    "applications": [
+        "Memory Address Decoding in Hexadecimal (0x00 to 0xFF)",
+        "BCD Drivers for 7-Segment Displays",
+        "Gray Code Encoders in Shaft Angle Optical Sensors"
+    ],
+    "advantages": [
+        "Binary aligns perfectly with ON/OFF transistor states",
+        "Hexadecimal provides compact 4-bit grouped human representation"
+    ],
+    "disadvantages": [
+        "BCD requires extra storage space compared to pure binary"
+    ],
+    "common_mistakes": [
+        "Confusing BCD 10 (0001 0000) with Binary 10 (1010).",
+        "Forgetting to pad leading zeroes when converting binary to hex."
+    ],
+    "quick_notes": [
+        "Hexadecimal uses 0-9 and A-F.",
+        "BCD represents each decimal digit (0-9) using 4 binary bits.",
+        "Gray code changes only ONE bit between consecutive numbers."
+    ],
+    "viva_questions": [
+        {"q": "What is Gray Code and where is it used?", "a": "A non-weighted code where adjacent values differ by only 1 bit. Used in optical encoders to prevent error transitions."},
+        {"q": "Convert Decimal 12 to Binary and Hexadecimal.", "a": "Binary: 1100, Hexadecimal: C."}
+    ],
+    "interview_questions": [
+        {"q": "Why is BCD used in digital displays instead of pure binary?", "a": "Because BCD maps directly decimal digits to 7-segment driver ICs (like 7447) without requiring complex division arithmetic."}
+    ],
+    "cross_links": [
+        {"id": "boolean_algebra", "name": "Boolean Algebra & K-Maps"},
+        {"id": "bcd_7segment", "name": "BCD to 7-Segment Display Driver"}
+    ],
+    "knowledge_graph": ["Digital Electronics", "Number Systems", "BCD Code", "Boolean Algebra"],
+    "experiment_id": "half_adder"
+}

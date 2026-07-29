@@ -1,0 +1,35 @@
+{
+    "version": "1.0",
+    "last_updated": "2026",
+    "source": "Virtual Lab Instructor Diagnostic Rules",
+    "records": [
+        {
+            "fault_id": "ERR_NO_VCC",
+            "name": "Pin 14 (VCC) Disconnected",
+            "effect": "No output logic generated. IC internal gates remain inactive.",
+            "reason": "IC requires +5V power supply to operate internal transistor gates.",
+            "fix": "Connect Pin 14 to +5V VCC power rail using a Red wire."
+        },
+        {
+            "fault_id": "ERR_NO_GND",
+            "name": "Pin 7 (GND) Floating",
+            "effect": "Unstable reference voltage. Output voltage undefined.",
+            "reason": "IC requires ground reference connection for return current path.",
+            "fix": "Connect Pin 7 to GND ground rail using a Black wire."
+        },
+        {
+            "fault_id": "ERR_FLOATING_INPUT",
+            "name": "Input Pin Floating",
+            "effect": "Input pin state is floating (neither HIGH nor LOW).",
+            "reason": "Unconnected CMOS/TTL logic inputs pick up ambient noise.",
+            "fix": "Connect input pin to DIP switch, +5V, or GND rail."
+        },
+        {
+            "fault_id": "ERR_NO_RESISTOR",
+            "name": "LED Connected Without Resistor",
+            "effect": "Excessive current flow through output LED.",
+            "reason": "LED forward voltage is ~2.0V; 5V directly causes thermal breakdown.",
+            "fix": "Insert a 330Ω current limiting resistor in series with LED cathode to GND."
+        }
+    ]
+}

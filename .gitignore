@@ -37,6 +37,9 @@ library_resistor_view.png
 COMPONENT_IMAGE_GUIDE.md
 walkthrough.md
 
+# Backup & Temporary Folders
+backup/
+
 # PyInstaller Builds
 build/
 dist/

@@ -1,0 +1,59 @@
+{
+    "id": "universal_nand",
+    "title": "Universal NAND Gate Synthesis",
+    "category": "Universal Gates",
+    "difficulty": "★★★☆☆",
+    "est_time": "20 Mins",
+    "prerequisites": ["NAND Gate"],
+    "summary": "NAND is a Universal Gate because any Boolean function (NOT, AND, OR, XOR, Adders, MUXes) can be constructed exclusively using NAND gates without any other component.",
+    "images": [
+        {"type": "circuit", "title": "NAND Synthesized Gates", "caption": "Schematic diagrams for NOT, AND, OR, and XOR built from 7400 NAND gates.", "path": "assets/components/universal/nand_synthesis.png"}
+    ],
+    "working_principle": "1) NOT: Tie inputs A=B together -> (A·A)' = A'. 2) AND: NAND followed by Inverter -> ((A·B)')' = A·B. 3) OR: Invert A and B, then NAND -> (A'·B')' = A+B (DeMorgan). 4) XOR: 4 NAND gates.",
+    "truth_table": {
+        "inputs": ["Function", "NAND Gate Count Required"],
+        "outputs": ["NAND Synthesis Formula"],
+        "rows": [
+            {"inputs": ["NOT Inverter", 1], "outputs": ["(A · A)'"]},
+            {"inputs": ["AND Gate", 2], "outputs": ["((A · B)')'"]},
+            {"inputs": ["OR Gate", 3], "outputs": ["(A' · B')'"]},
+            {"inputs": ["XOR Gate", 4], "outputs": ["A(A·B)' + B(A·B)'"]}
+        ]
+    },
+    "boolean_equation": "DeMorgan Dual: (A' · B')' = A + B",
+    "applications": [
+        "Single-IC Type Printed Circuit Board Manufacturing (Cost reduction)",
+        "ASIC Standard Cell Libraries based on NAND cells",
+        "Universal Gate Transformations in Digital Electronics Exams"
+    ],
+    "advantages": [
+        "Standardizes IC inventory to only IC 7400",
+        "Decreases IC sourcing costs"
+    ],
+    "disadvantages": [
+        "Increases total gate count and propagation delay for complex circuits"
+    ],
+    "common_mistakes": [
+        "Wiring DeMorgan OR synthesis with incorrect inverter connections."
+    ],
+    "quick_notes": [
+        "NOT = 1 NAND gate",
+        "AND = 2 NAND gates",
+        "OR = 3 NAND gates",
+        "XOR = 4 NAND gates",
+        "Half Adder = 5 NAND gates"
+    ],
+    "viva_questions": [
+        {"q": "How many NAND gates are required to construct an OR gate?", "a": "3 NAND gates."},
+        {"q": "How many NAND gates form a 1-bit Half Adder?", "a": "5 NAND gates."}
+    ],
+    "interview_questions": [
+        {"q": "Prove that (A' · B')' is equal to A + B.", "a": "By DeMorgan's Law, (X · Y)' = X' + Y'. Substitute X = A' and Y = B': ((A')' + (B')') = A + B."}
+    ],
+    "cross_links": [
+        {"id": "gate_nand", "name": "NAND Gate (IC 7400)"},
+        {"id": "half_adder", "name": "1-Bit Half Adder"}
+    ],
+    "knowledge_graph": ["Logic Gates", "Universal Gates", "NAND Synthesis", "Half Adder"],
+    "experiment_id": "half_adder"
+}

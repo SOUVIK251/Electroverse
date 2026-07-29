@@ -1,0 +1,37 @@
+{
+    "id": "bcd_7seg",
+    "name": "BCD to 7-Segment Display Driver",
+    "category": "Display Drivers",
+    "difficulty": 4,
+    "estimated_time_mins": 12,
+    "objectives": [
+        "Decode 4-bit Binary Coded Decimal (A, B, C, D) to drive 7 LED segments (a, b, c, d, e, f, g).",
+        "Construct segment driver sub-networks using basic gate ICs (7404, 7408, 7411, 7432).",
+        "Understand segment decoding equations derived from K-maps."
+    ],
+    "theory": "A BCD to 7-Segment Decoder translates 4-bit binary inputs (0000 to 1001) into signals that illuminate specific LED segments (a-g) to display numbers 0-9.",
+    "boolean_equations": {
+        "Segment_a": "a = A + C + BD + B'D'",
+        "Segment_b": "b = B' + C'D' + CD",
+        "Segment_c": "c = B + C' + D"
+    },
+    "stages": {
+        "foundation": {
+            "title": "Foundation (Basic Gates)",
+            "required_components": ["7404", "7408", "7411", "7432"],
+            "description": "Construct segment driver networks using 2-input AND (7408), 3-input AND (7411), NOT (7404), and OR (7432) gates."
+        },
+        "optimization": {
+            "title": "Universal NAND Gate Synthesis",
+            "required_components": ["7400"],
+            "target_gate_count": 14,
+            "description": "Rebuild segment drivers using ONLY Universal NAND gates (IC 7400)."
+        },
+        "industrial": {
+            "title": "Universal NOR Gate Synthesis",
+            "required_components": ["7402"],
+            "target_gate_count": 14,
+            "description": "Rebuild segment drivers using ONLY Universal NOR gates (IC 7402)."
+        }
+    }
+}

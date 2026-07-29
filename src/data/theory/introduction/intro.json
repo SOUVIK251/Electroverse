@@ -1,0 +1,60 @@
+{
+    "id": "intro_digital",
+    "title": "Introduction to Digital Electronics",
+    "category": "Introduction",
+    "difficulty": "★☆☆☆☆",
+    "est_time": "15 Mins",
+    "prerequisites": [],
+    "summary": "Digital Electronics processes discrete binary signals (0 and 1) rather than continuous analog signals. It forms the backbone of modern computers, microprocessors, and digital communication systems.",
+    "images": [
+        {"type": "symbol", "title": "Analog vs Digital Signal", "caption": "Comparison of continuous sine wave (Analog) vs discrete pulse train (Digital).", "path": "assets/components/intro/analog_vs_digital.png"},
+        {"type": "circuit", "title": "TTL Logic Levels", "caption": "Voltage thresholds for TTL: LOW (0V - 0.8V) and HIGH (2.0V - 5.0V).", "path": "assets/components/intro/ttl_logic_levels.png"}
+    ],
+    "working_principle": "In digital systems, information is represented by two voltage levels: Logic 0 (Ground / 0V) and Logic 1 (+5V / VCC). The region between VIL(max) and VIH(min) is the noise margin region to prevent signal corruption.",
+    "truth_table": {
+        "inputs": ["Logic Level", "Voltage Range (TTL)", "Binary Value"],
+        "outputs": ["State"],
+        "rows": [
+            {"inputs": ["LOW", "0.0V to 0.8V", 0], "outputs": [0]},
+            {"inputs": ["HIGH", "2.0V to 5.0V", 1], "outputs": [1]}
+        ]
+    },
+    "boolean_equation": "Digital Signal = f(t) ∈ {0, 1}",
+    "applications": [
+        "Microprocessors and CPUs",
+        "Digital Storage (RAM, ROM, SSD)",
+        "Telecommunications and Fiber Optics",
+        "Embedded Robotics and Controllers"
+    ],
+    "advantages": [
+        "High immunity to electrical noise and distortion",
+        "Easy storage and transmission of data",
+        "Programmable logic processing"
+    ],
+    "disadvantages": [
+        "Requires Analog-to-Digital (ADC) conversion for real-world signals",
+        "Higher sampling rate requires greater bandwidth"
+    ],
+    "common_mistakes": [
+        "Operating inputs in the illegal indeterminate voltage zone (0.8V to 2.0V).",
+        "Assuming TTL logic levels match CMOS 3.3V logic levels."
+    ],
+    "quick_notes": [
+        "TTL: Logic 0 <= 0.8V, Logic 1 >= 2.0V",
+        "CMOS: Logic 0 <= 0.3*VCC, Logic 1 >= 0.7*VCC",
+        "Noise Margin protects against voltage fluctuations."
+    ],
+    "viva_questions": [
+        {"q": "What is the main advantage of digital signals over analog signals?", "a": "High noise immunity and ease of processing/storage."},
+        {"q": "Define Noise Margin.", "a": "The maximum noise voltage that can be added to an input signal without altering the output logic state."}
+    ],
+    "interview_questions": [
+        {"q": "What happens if a TTL input receives a voltage of 1.2V?", "a": "It falls into the invalid/undefined region, causing unpredictable behavior or oscillations."}
+    ],
+    "cross_links": [
+        {"id": "number_systems", "name": "Number Systems & Binary Conversion"},
+        {"id": "gate_and", "name": "AND Gate (IC 7408)"}
+    ],
+    "knowledge_graph": ["Digital Electronics", "Logic Levels", "Boolean Algebra", "Logic Gates"],
+    "experiment_id": "half_adder"
+}

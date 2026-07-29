@@ -1,0 +1,17 @@
+{
+    "title": "Digital System Design & Electronics Learning Hub",
+    "version": "2.0.0",
+    "description": "Comprehensive engineering e-learning curriculum integrated with 2D breadboard virtual trainer kit.",
+    "categories": [
+        {"id": "introduction", "name": "1. Introduction to Digital Electronics", "icon": "fa5s.book-open"},
+        {"id": "number_systems", "name": "2. Number Systems & Codes", "icon": "fa5s.calculator"},
+        {"id": "boolean_algebra", "name": "3. Boolean Algebra & K-Maps", "icon": "fa5s.square-root-alt"},
+        {"id": "logic_gates", "name": "4. Fundamental Logic Gates", "icon": "fa5s.microchip"},
+        {"id": "universal_gates", "name": "5. Universal Gate Synthesis", "icon": "fa5s.sync-alt"},
+        {"id": "combinational", "name": "6. Combinational Logic Circuits", "icon": "fa5s.project-diagram"},
+        {"id": "sequential", "name": "7. Sequential Circuits & Flip-Flops", "icon": "fa5s.redo"},
+        {"id": "digital_ics", "name": "8. Digital TTL IC Library", "icon": "fa5s.layer-group"},
+        {"id": "breadboard", "name": "9. Breadboard & Hardware Wiring", "icon": "fa5s.plug"},
+        {"id": "applications", "name": "10. Real-World Engineering Applications", "icon": "fa5s.industry"}
+    ]
+}

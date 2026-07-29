@@ -1,0 +1,49 @@
+{
+    "version": "1.0",
+    "last_updated": "2026",
+    "source": "Guided Learning Mode Lab Procedure Specification",
+    "steps": [
+        {
+            "step_id": 1,
+            "title": "IC Placement",
+            "instruction": "Insert IC package on solderless breadboard across center DIP gap.",
+            "highlight_pins": [14, 7],
+            "pin_colors": {"14": "#ef4444", "7": "#1e293b"}
+        },
+        {
+            "step_id": 2,
+            "title": "Connect VCC Power (+5V)",
+            "instruction": "Draw a Red wire from +5V Rail to Pin 14.",
+            "pulse_arrow": {"source": "+5V Rail", "target": "Pin 14"},
+            "expected_connection": {"pin": 14, "rail": "VCC"}
+        },
+        {
+            "step_id": 3,
+            "title": "Connect GND Ground",
+            "instruction": "Draw a Black wire from GND Rail to Pin 7.",
+            "pulse_arrow": {"source": "GND Rail", "target": "Pin 7"},
+            "expected_connection": {"pin": 7, "rail": "GND"}
+        },
+        {
+            "step_id": 4,
+            "title": "Wire Input Switches",
+            "instruction": "Connect Switch A to Pin 1 and Switch B to Pin 2.",
+            "highlight_pins": [1, 2],
+            "pin_colors": {"1": "#3b82f6", "2": "#3b82f6"}
+        },
+        {
+            "step_id": 5,
+            "title": "Wire Output LED & Resistor",
+            "instruction": "Connect Output Pin 3 to LED Anode and Cathode through 330Ω Resistor to GND.",
+            "highlight_pins": [3],
+            "pin_colors": {"3": "#10b981"},
+            "resistor_check": true
+        },
+        {
+            "step_id": 6,
+            "title": "Run Simulation & Observation",
+            "instruction": "Click ▶ Start Simulation. Toggle switches to verify live observation truth table.",
+            "unlock_simulation": true
+        }
+    ]
+}

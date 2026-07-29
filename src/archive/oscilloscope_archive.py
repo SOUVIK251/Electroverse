@@ -1,3 +1,16 @@
+"""
+DEVELOPER NOTES & ROOT CAUSE AUDIT:
+1. Disappearing Channels:
+   - Root Cause: Desynchronization of channel rendering logic, where checkboxes for CH2 were unchecked or disabled by default during manual override switching.
+   - Refactor: Enforce layout and channel state logic inside on_circuit_override to auto-enable both channels on dual-signal circuits.
+2. Frozen Waveforms:
+   - Root Cause: Multiple animation timers running concurrently, conflicting with main GUI event loop rendering, and absence of manual updates during paused state.
+   - Refactor: Extracted all generation/processing into a single centralized method `generate_and_process_waveforms` that runs both on timer ticks (if active) and immediately on any slider/config parameter change event regardless of play/pause state.
+3. Incorrect Waveforms:
+   - Root Cause: Reusing generic wave generators without modeling ECE circuit behavior mathematically.
+   - Refactor: Modularized math-correct simulators for all 20+ laboratory experiments.
+"""
+
 import sys
 import numpy as np
 import csv
@@ -12,6 +25,20 @@ import qtawesome as qta
 from src.core.logger import log
 from src.core.config import config_manager
 from src.utils.formula_formatter import format_eng
+from src.engine.simulation_engine import (
+    StandaloneOscilloscopeSimulation,
+    SignalGeneratorSimulation,
+    VoltageDividerSimulation,
+    RCTransientSimulation,
+    RLTransientSimulation,
+    RectifierSimulation,
+    ClipperSimulation,
+    ClamperSimulation,
+    AttenuatorSimulation,
+    FilterSimulation,
+    ResonanceSimulation,
+    CommunicationSimulation
+)
 
 class ChannelRenderer:
     """Holds the complete independent render state for one oscilloscope channel.
@@ -157,8 +184,8 @@ class OscilloscopeScreen(QWidget):
             label="CH1",
         )
         self.ch2 = ChannelRenderer(
-            color_core="#ec4899",
-            color_glow="rgba(236, 72, 153, 0.3)",
+            color_core="#06b6d4",
+            color_glow="rgba(6, 182, 212, 0.3)",
             label="CH2",
         )
 
@@ -327,7 +354,7 @@ class OscilloscopeScreen(QWidget):
         painter.fillRect(0, 0, w, h, QColor("#000000"))
 
         # 2. Soft grid lines
-        grid_pen = QPen(QColor("rgba(34, 197, 94, 0.15)"), 1, Qt.PenStyle.DashLine)
+        grid_pen = QPen(QColor("rgba(74, 85, 104, 0.3)"), 1, Qt.PenStyle.DashLine)
         painter.setPen(grid_pen)
         for i in range(1, divs_x):
             painter.drawLine(int(i * dx), 0, int(i * dx), h)
@@ -335,13 +362,13 @@ class OscilloscopeScreen(QWidget):
             painter.drawLine(0, int(j * dy), w, int(j * dy))
 
         # 3. Centre axis lines
-        axis_pen = QPen(QColor("rgba(34, 197, 94, 0.4)"), 1.5)
+        axis_pen = QPen(QColor("rgba(74, 85, 104, 0.7)"), 1.5)
         painter.setPen(axis_pen)
         painter.drawLine(cx, 0, cx, h)
         painter.drawLine(0, cy, w, cy)
 
         # 4. Centre tick marks
-        tick_pen = QPen(QColor("rgba(34, 197, 94, 0.5)"), 1)
+        tick_pen = QPen(QColor("rgba(74, 85, 104, 0.8)"), 1)
         painter.setPen(tick_pen)
         tick_size = 4
         for y in range(0, h, max(1, int(dy / 5))):
@@ -349,15 +376,15 @@ class OscilloscopeScreen(QWidget):
         for x in range(0, w, max(1, int(dx / 5))):
             painter.drawLine(x, cy - tick_size, x, cy + tick_size)
 
-        # 5. Trigger level line (amber, drawn BEFORE waveforms)
+        # 5. Trigger level line (red, drawn BEFORE waveforms)
         trig_renderer = self.ch1 if self.trigger_source == "CH1" else self.ch2
         trig_y = int(cy - (self.trigger_level - trig_renderer.dc_offset)
                      / (8.0 * trig_renderer.vscale) * h)
         if 0 <= trig_y <= h:
-            trig_pen = QPen(QColor("rgba(245, 158, 11, 0.4)"), 1, Qt.PenStyle.DotLine)
+            trig_pen = QPen(QColor("rgba(239, 68, 68, 0.6)"), 1, Qt.PenStyle.DotLine)
             painter.setPen(trig_pen)
             painter.drawLine(0, trig_y, w, trig_y)
-            painter.setBrush(QBrush(QColor("#f59e0b")))
+            painter.setBrush(QBrush(QColor("#ef4444")))
             painter.setPen(Qt.PenStyle.NoPen)
             arrow = [QPoint(w, trig_y), QPoint(w - 8, trig_y - 4), QPoint(w - 8, trig_y + 4)]
             painter.drawPolygon(arrow)
@@ -458,50 +485,6 @@ class OscilloscopeScreen(QWidget):
                 parent.scale_timebase(1.25 if delta < 0 else 0.8)
 
 
-class StandaloneSignalGenerator:
-    """Internal signal generator feeding local standalone scope mode loops."""
-    
-    @staticmethod
-    def generate(t_array, sig_type, freq, amp, offset, phase, noise_lvl):
-        phi = np.radians(phase)
-        if sig_type == "Sine":
-            raw = offset + amp * np.sin(2.0 * np.pi * freq * t_array + phi)
-        elif sig_type == "Square":
-            raw = offset + amp * np.where(np.sin(2.0 * np.pi * freq * t_array + phi) >= 0, 1.0, -1.0)
-        elif sig_type == "Triangle":
-            raw = offset + 2.0 * amp * (2.0 * np.abs((t_array * freq + phase / 360.0 - 0.25) % 1.0 - 0.5) - 0.5)
-        elif sig_type == "Sawtooth":
-            raw = offset + amp * (2.0 * ((t_array * freq + phase / 360.0) % 1.0) - 1.0)
-        elif sig_type == "Pulse":
-            raw = offset + amp * np.where(((t_array * freq + phase / 360.0) % 1.0) < 0.20, 1.0, -1.0)
-        elif sig_type == "Noise":
-            raw = offset + amp * np.random.uniform(-1.0, 1.0, len(t_array))
-        else:
-            raw = np.full_like(t_array, offset)
-
-        if noise_lvl > 0 and sig_type != "Noise":
-            raw += np.random.normal(0, noise_lvl * amp * 0.4, len(t_array))
-        return raw
-
-
-class VirtualClipperSimulation:
-    def __init__(self, mode, parent_scope):
-        self.mode = mode  # "Positive" or "Negative"
-        self.parent = parent_scope
-        
-    def get_oscilloscope_waveforms(self, t_buffer):
-        self.parent.on_inputs_changed()
-        ch1 = StandaloneSignalGenerator.generate(
-            t_buffer, self.parent.ch1_type, self.parent.ch1_freq,
-            self.parent.ch1_amp, self.parent.ch1_offset, self.parent.ch1_phase, self.parent.noise_lvl
-        )
-        if self.mode == "Positive":
-            ch2 = np.minimum(1.5, ch1)
-        else:
-            ch2 = np.maximum(-1.5, ch1)
-        return {"ch1": ch1, "ch2": ch2}
-
-
 class OscilloscopeView(QWidget):
     """Laboratory-grade benchtop Digital Storage Oscilloscope (DSO) simulated environment."""
     
@@ -531,10 +514,39 @@ class OscilloscopeView(QWidget):
         self.ch1_offset_target = 0.0
         self.ch2_offset_target = 0.0
 
-        # Virtual simulations for clippers
-        self.virtual_sims = {
-            "Positive Clipper": VirtualClipperSimulation("Positive", self),
-            "Negative Clipper": VirtualClipperSimulation("Negative", self),
+        # Parameter Defaults
+        self.param_R = 1000.0
+        self.param_C = 10e-6
+        self.param_L = 10e-3
+        self.param_Load = 10000.0
+        self.param_Vcc = 5.0
+        self.param_Duty = 0.5
+
+        # Mathematical simulation engine instances
+        self.math_sims = {
+            "Standalone Oscilloscope": StandaloneOscilloscopeSimulation(),
+            "Signal Generator": SignalGeneratorSimulation(),
+            "Voltage Divider": VoltageDividerSimulation(),
+            "RC Charging": RCTransientSimulation("Charging"),
+            "RC Discharging": RCTransientSimulation("Discharging"),
+            "RL Transient": RLTransientSimulation(),
+            "Low Pass Filter": FilterSimulation("LowPass"),
+            "High Pass Filter": FilterSimulation("HighPass"),
+            "Half Wave Rectifier": RectifierSimulation("HalfWave"),
+            "Full Wave Rectifier": RectifierSimulation("FullWave"),
+            "Positive Clipper": ClipperSimulation("Positive"),
+            "Negative Clipper": ClipperSimulation("Negative"),
+            "Positive Clamper": ClamperSimulation("Positive"),
+            "Negative Clamper": ClamperSimulation("Negative"),
+            "Signal Attenuator": AttenuatorSimulation(),
+            "Amplitude Modulation": CommunicationSimulation("AM"),
+            "Frequency Modulation": CommunicationSimulation("FM"),
+            "ASK": CommunicationSimulation("ASK"),
+            "FSK": CommunicationSimulation("FSK"),
+            "PSK": CommunicationSimulation("PSK"),
+            "BPSK": CommunicationSimulation("BPSK"),
+            "QPSK": CommunicationSimulation("QPSK"),
+            "RLC Resonance": ResonanceSimulation()
         }
         
         self.fps_timer = QTimer(self)
@@ -561,24 +573,23 @@ class OscilloscopeView(QWidget):
         self.noise_lvl = 0.0
         
         # Primary Layout: Left Panels (width ~25%), Right CRT Screen View (width ~75%)
-        self.main_layout = QHBoxLayout(self)
+        self.main_layout = QVBoxLayout(self)
         self.main_layout.setContentsMargins(10, 10, 10, 10)
-        self.main_layout.setSpacing(10)
+        self.main_layout.setSpacing(8)
 
         # -------------------------------------------------------------
-        # Left Panel (Tabbed Controls - Compact to maximize screen)
+        # Controls Tab (Compact, placed at the bottom)
         # -------------------------------------------------------------
         self.controls_tab = QTabWidget()
-        self.controls_tab.setFixedWidth(280)
+        self.controls_tab.setFixedHeight(170)
         self.setup_ch1_tab()
         self.setup_ch2_tab()
         self.setup_trig_tab()
         self.setup_vertical_tab()
-        
-        self.main_layout.addWidget(self.controls_tab)
+        self.setup_parameters_tab()
 
         # -------------------------------------------------------------
-        # Right Area (Large CRT Screen & Measurements overlay)
+        # Display Block (Occupies top area)
         # -------------------------------------------------------------
         self.crt_layout = QVBoxLayout()
         self.crt_layout.setSpacing(6)
@@ -586,17 +597,18 @@ class OscilloscopeView(QWidget):
         # Toolbar Top
         self.setup_toolbar()
         
-        # Screen (occupies 70-80% height dynamically)
+        # Screen (occupies 75-80% height of display block)
         self.display_screen = OscilloscopeScreen(self)
-        self.crt_layout.addWidget(self.display_screen, stretch=4)
+        self.crt_layout.addWidget(self.display_screen, stretch=6)
         
-        # Measurements Grid Bottom (overlay style)
+        # Measurements Grid Bottom
         self.setup_measurements_bottom()
         
         # Status Bar Bottom
         self.setup_status_bar()
         
-        self.main_layout.addLayout(self.crt_layout)
+        self.main_layout.addLayout(self.crt_layout, stretch=4)
+        self.main_layout.addWidget(self.controls_tab, stretch=0)
 
         # Set initial parameters
         self.on_inputs_changed()
@@ -609,200 +621,193 @@ class OscilloscopeView(QWidget):
 
     def setup_ch1_tab(self):
         tab = QWidget()
-        layout = QVBoxLayout(tab)
-        layout.setContentsMargins(8, 8, 8, 8)
-        layout.setSpacing(6)
+        layout = QHBoxLayout(tab)
+        layout.setContentsMargins(10, 5, 10, 5)
+        layout.setSpacing(15)
 
-        self.ch1_en_chk = QCheckBox("Enable Channel 1 (Yellow)")
+        col1 = QVBoxLayout()
+        self.ch1_en_chk = QCheckBox("Enable CH1 (Yellow)")
         self.ch1_en_chk.setChecked(True)
         self.ch1_en_chk.toggled.connect(self.on_inputs_changed)
-        layout.addWidget(self.ch1_en_chk)
-
-        layout.addWidget(QLabel("Waveform Type:"))
+        col1.addWidget(self.ch1_en_chk)
+        col1.addWidget(QLabel("Waveform Type:"))
         self.ch1_type_combo = QComboBox()
         self.ch1_type_combo.addItems(["Sine", "Square", "Triangle", "Sawtooth", "Pulse", "Noise"])
         self.ch1_type_combo.currentTextChanged.connect(self.on_inputs_changed)
-        layout.addWidget(self.ch1_type_combo)
+        col1.addWidget(self.ch1_type_combo)
+        layout.addLayout(col1)
 
-        layout.addWidget(QLabel("Frequency (Hz):"))
+        col2 = QVBoxLayout()
+        col2.addWidget(QLabel("Frequency (Hz):"))
         self.ch1_freq_inp = QLineEdit("1000.0")
         self.ch1_freq_inp.textChanged.connect(self.on_inputs_changed)
-        layout.addWidget(self.ch1_freq_inp)
-
-        layout.addWidget(QLabel("Amplitude (V):"))
+        col2.addWidget(self.ch1_freq_inp)
+        col2.addWidget(QLabel("Amplitude (V):"))
         self.ch1_amp_inp = QLineEdit("3.0")
         self.ch1_amp_inp.textChanged.connect(self.on_inputs_changed)
-        layout.addWidget(self.ch1_amp_inp)
+        col2.addWidget(self.ch1_amp_inp)
+        layout.addLayout(col2)
 
-        layout.addWidget(QLabel("DC Offset (V):"))
+        col3 = QVBoxLayout()
+        col3.addWidget(QLabel("DC Offset (V):"))
         self.ch1_offset_inp = QLineEdit("0.0")
         self.ch1_offset_inp.textChanged.connect(self.on_inputs_changed)
-        layout.addWidget(self.ch1_offset_inp)
-
-        layout.addWidget(QLabel("Phase (deg):"))
+        col3.addWidget(self.ch1_offset_inp)
+        col3.addWidget(QLabel("Phase (deg):"))
         self.ch1_phase_inp = QLineEdit("0.0")
         self.ch1_phase_inp.textChanged.connect(self.on_inputs_changed)
-        layout.addWidget(self.ch1_phase_inp)
+        col3.addWidget(self.ch1_phase_inp)
+        layout.addLayout(col3)
 
-        layout.addWidget(QLabel("Volts/Div Scale:"))
+        col4 = QVBoxLayout()
+        col4.addWidget(QLabel("Volts/Div Scale:"))
         self.ch1_vscale_combo = QComboBox()
         self.ch1_vscale_combo.addItems(["100 mV", "200 mV", "500 mV", "1 V", "2 V", "5 V", "10 V"])
-        self.ch1_vscale_combo.setCurrentText("2 V")   # 3V amp × 2 ≈ 5 divs pk-pk
+        self.ch1_vscale_combo.setCurrentText("2 V")
         self.ch1_vscale_combo.currentTextChanged.connect(self.on_inputs_changed)
-        layout.addWidget(self.ch1_vscale_combo)
+        col4.addWidget(self.ch1_vscale_combo)
+        col4.addStretch()
+        layout.addLayout(col4)
 
-        layout.addStretch()
         self.controls_tab.addTab(tab, "CH 1")
 
     def setup_ch2_tab(self):
         tab = QWidget()
-        layout = QVBoxLayout(tab)
-        layout.setContentsMargins(8, 8, 8, 8)
-        layout.setSpacing(6)
+        layout = QHBoxLayout(tab)
+        layout.setContentsMargins(10, 5, 10, 5)
+        layout.setSpacing(15)
 
-        self.ch2_en_chk = QCheckBox("Enable Channel 2 (Pink)")
+        col1 = QVBoxLayout()
+        self.ch2_en_chk = QCheckBox("Enable CH2 (Cyan)")
         self.ch2_en_chk.setChecked(True)
         self.ch2_en_chk.toggled.connect(self.on_inputs_changed)
-        layout.addWidget(self.ch2_en_chk)
-
-        layout.addWidget(QLabel("Waveform Type:"))
+        col1.addWidget(self.ch2_en_chk)
+        col1.addWidget(QLabel("Waveform Type:"))
         self.ch2_type_combo = QComboBox()
         self.ch2_type_combo.addItems(["Sine", "Square", "Triangle", "Sawtooth", "Pulse", "Noise"])
         self.ch2_type_combo.currentTextChanged.connect(self.on_inputs_changed)
-        layout.addWidget(self.ch2_type_combo)
+        col1.addWidget(self.ch2_type_combo)
+        layout.addLayout(col1)
 
-        layout.addWidget(QLabel("Frequency (Hz):"))
+        col2 = QVBoxLayout()
+        col2.addWidget(QLabel("Frequency (Hz):"))
         self.ch2_freq_inp = QLineEdit("2000.0")
         self.ch2_freq_inp.textChanged.connect(self.on_inputs_changed)
-        layout.addWidget(self.ch2_freq_inp)
-
-        layout.addWidget(QLabel("Amplitude (V):"))
+        col2.addWidget(self.ch2_freq_inp)
+        col2.addWidget(QLabel("Amplitude (V):"))
         self.ch2_amp_inp = QLineEdit("2.0")
         self.ch2_amp_inp.textChanged.connect(self.on_inputs_changed)
-        layout.addWidget(self.ch2_amp_inp)
+        col2.addWidget(self.ch2_amp_inp)
+        layout.addLayout(col2)
 
-        layout.addWidget(QLabel("DC Offset (V):"))
+        col3 = QVBoxLayout()
+        col3.addWidget(QLabel("DC Offset (V):"))
         self.ch2_offset_inp = QLineEdit("0.0")
         self.ch2_offset_inp.textChanged.connect(self.on_inputs_changed)
-        layout.addWidget(self.ch2_offset_inp)
-
-        layout.addWidget(QLabel("Phase (deg):"))
+        col3.addWidget(self.ch2_offset_inp)
+        col3.addWidget(QLabel("Phase (deg):"))
         self.ch2_phase_inp = QLineEdit("90.0")
         self.ch2_phase_inp.textChanged.connect(self.on_inputs_changed)
-        layout.addWidget(self.ch2_phase_inp)
+        col3.addWidget(self.ch2_phase_inp)
+        layout.addLayout(col3)
 
-        layout.addWidget(QLabel("Volts/Div Scale:"))
+        col4 = QVBoxLayout()
+        col4.addWidget(QLabel("Volts/Div Scale:"))
         self.ch2_vscale_combo = QComboBox()
         self.ch2_vscale_combo.addItems(["100 mV", "200 mV", "500 mV", "1 V", "2 V", "5 V", "10 V"])
-        self.ch2_vscale_combo.setCurrentText("1 V")   # 2V amp × 2 ≈ 4 divs pk-pk
+        self.ch2_vscale_combo.setCurrentText("1 V")
         self.ch2_vscale_combo.currentTextChanged.connect(self.on_inputs_changed)
-        layout.addWidget(self.ch2_vscale_combo)
+        col4.addWidget(self.ch2_vscale_combo)
+        col4.addStretch()
+        layout.addLayout(col4)
 
-        layout.addStretch()
         self.controls_tab.addTab(tab, "CH 2")
 
     def setup_trig_tab(self):
         tab = QWidget()
-        layout = QVBoxLayout(tab)
-        layout.setContentsMargins(8, 8, 8, 8)
-        layout.setSpacing(6)
+        layout = QHBoxLayout(tab)
+        layout.setContentsMargins(10, 5, 10, 5)
+        layout.setSpacing(15)
 
-        layout.addWidget(QLabel("Time Base (Sec/Div):"))
+        col1 = QVBoxLayout()
+        col1.addWidget(QLabel("Time Base (Sec/Div):"))
         self.tbase_combo = QComboBox()
         self.tbase_combo.addItems([
             "100 μs", "500 μs", "1 ms", "2 ms", "5 ms", "10 ms", "20 ms", "50 ms", "100 ms",
             "200 ms", "500 ms", "1 s", "2 s"
         ])
-        self.tbase_combo.setCurrentText("50 ms")   # wide default so RC/RL transients are visible
+        self.tbase_combo.setCurrentText("50 ms")
         self.tbase_combo.currentTextChanged.connect(self.on_inputs_changed)
-        layout.addWidget(self.tbase_combo)
+        col1.addWidget(self.tbase_combo)
+        col1.addStretch()
+        layout.addLayout(col1)
 
-        layout.addWidget(QLabel("Trigger Source:"))
+        col2 = QVBoxLayout()
+        col2.addWidget(QLabel("Trigger Source:"))
         self.trig_src_combo = QComboBox()
         self.trig_src_combo.addItems(["CH1", "CH2"])
         self.trig_src_combo.currentTextChanged.connect(self.on_inputs_changed)
-        layout.addWidget(self.trig_src_combo)
-
-        layout.addWidget(QLabel("Trigger Mode:"))
+        col2.addWidget(self.trig_src_combo)
+        col2.addWidget(QLabel("Trigger Mode:"))
         self.trig_mode_combo = QComboBox()
         self.trig_mode_combo.addItems(["Auto", "Normal", "Single"])
         self.trig_mode_combo.currentTextChanged.connect(self.on_inputs_changed)
-        layout.addWidget(self.trig_mode_combo)
+        col2.addWidget(self.trig_mode_combo)
+        layout.addLayout(col2)
 
-        layout.addWidget(QLabel("Trigger Edge:"))
+        col3 = QVBoxLayout()
+        col3.addWidget(QLabel("Trigger Edge:"))
         self.trig_edge_combo = QComboBox()
         self.trig_edge_combo.addItems(["Rising", "Falling"])
         self.trig_edge_combo.currentTextChanged.connect(self.on_inputs_changed)
-        layout.addWidget(self.trig_edge_combo)
-
-        layout.addWidget(QLabel("Trigger Level (V):"))
+        col3.addWidget(self.trig_edge_combo)
+        col3.addWidget(QLabel("Trigger Level (V):"))
         self.trig_level_slider = QSlider(Qt.Orientation.Horizontal)
         self.trig_level_slider.setRange(-50, 50)
         self.trig_level_slider.setValue(0)
         self.trig_level_slider.valueChanged.connect(self.on_inputs_changed)
-        layout.addWidget(self.trig_level_slider)
+        col3.addWidget(self.trig_level_slider)
+        layout.addLayout(col3)
 
-        layout.addWidget(QLabel("Gaussian Noise (%):"))
+        col4 = QVBoxLayout()
+        col4.addWidget(QLabel("Gaussian Noise (%):"))
         self.noise_slider = QSlider(Qt.Orientation.Horizontal)
         self.noise_slider.setRange(0, 100)
         self.noise_slider.setValue(0)
         self.noise_slider.valueChanged.connect(self.on_inputs_changed)
-        layout.addWidget(self.noise_slider)
+        col4.addWidget(self.noise_slider)
+        col4.addStretch()
+        layout.addLayout(col4)
 
-        layout.addStretch()
         self.controls_tab.addTab(tab, "DSO Config")
 
     def setup_vertical_tab(self):
-        """Create the Vertical Position (Y-Offset) control tab.
-        
-        Sliders shift only the rendered waveform; no measurement values
-        (Vpp, Vrms, freq, duty-cycle, etc.) are ever modified.
-        """
         tab = QWidget()
-        layout = QVBoxLayout(tab)
-        layout.setContentsMargins(8, 12, 8, 8)
-        layout.setSpacing(8)
+        layout = QHBoxLayout(tab)
+        layout.setContentsMargins(10, 5, 10, 5)
+        layout.setSpacing(15)
 
-        # --- CH1 Section ---
+        col1 = QVBoxLayout()
         ch1_label = QLabel("Channel 1 Position")
         ch1_label.setStyleSheet("color: #eab308; font-weight: bold; font-size: 12px;")
-        layout.addWidget(ch1_label)
-
-        ch1_pos_row = QHBoxLayout()
+        col1.addWidget(ch1_label)
         self.ch1_pos_slider = QSlider(Qt.Orientation.Horizontal)
-        self.ch1_pos_slider.setRange(-50, 50)   # ×0.1 → −5.0 to +5.0 divisions
+        self.ch1_pos_slider.setRange(-50, 50)
         self.ch1_pos_slider.setValue(0)
         self.ch1_pos_slider.setTickInterval(10)
         self.ch1_pos_slider.setTickPosition(QSlider.TickPosition.TicksBelow)
         self.ch1_pos_slider.setToolTip("CH1 vertical position (-5 to +5 div)")
         self.ch1_pos_slider.valueChanged.connect(self._on_ch1_pos_changed)
         self.ch1_pos_label = QLabel("0.0 div")
-        self.ch1_pos_label.setFixedWidth(52)
         self.ch1_pos_label.setStyleSheet("color: #eab308;")
-        ch1_pos_row.addWidget(self.ch1_pos_slider)
-        ch1_pos_row.addWidget(self.ch1_pos_label)
-        layout.addLayout(ch1_pos_row)
+        col1.addWidget(self.ch1_pos_slider)
+        col1.addWidget(self.ch1_pos_label)
+        layout.addLayout(col1)
 
-        ch1_reset_btn = QPushButton("Reset CH1")
-        ch1_reset_btn.setFixedHeight(26)
-        ch1_reset_btn.setStyleSheet(
-            "QPushButton { background:#1e293b; color:#eab308; border:1px solid #334155;"
-            "border-radius:4px; font-size:11px; }"
-            "QPushButton:hover { background:#334155; }"
-        )
-        ch1_reset_btn.clicked.connect(lambda: (
-            self.ch1_pos_slider.setValue(0)
-        ))
-        layout.addWidget(ch1_reset_btn)
-
-        layout.addSpacing(12)
-
-        # --- CH2 Section ---
+        col2 = QVBoxLayout()
         ch2_label = QLabel("Channel 2 Position")
-        ch2_label.setStyleSheet("color: #ec4899; font-weight: bold; font-size: 12px;")
-        layout.addWidget(ch2_label)
-
-        ch2_pos_row = QHBoxLayout()
+        ch2_label.setStyleSheet("color: #06b6d4; font-weight: bold; font-size: 12px;")
+        col2.addWidget(ch2_label)
         self.ch2_pos_slider = QSlider(Qt.Orientation.Horizontal)
         self.ch2_pos_slider.setRange(-50, 50)
         self.ch2_pos_slider.setValue(0)
@@ -811,44 +816,151 @@ class OscilloscopeView(QWidget):
         self.ch2_pos_slider.setToolTip("CH2 vertical position (-5 to +5 div)")
         self.ch2_pos_slider.valueChanged.connect(self._on_ch2_pos_changed)
         self.ch2_pos_label = QLabel("0.0 div")
-        self.ch2_pos_label.setFixedWidth(52)
-        self.ch2_pos_label.setStyleSheet("color: #ec4899;")
-        ch2_pos_row.addWidget(self.ch2_pos_slider)
-        ch2_pos_row.addWidget(self.ch2_pos_label)
-        layout.addLayout(ch2_pos_row)
+        self.ch2_pos_label.setStyleSheet("color: #06b6d4;")
+        col2.addWidget(self.ch2_pos_slider)
+        col2.addWidget(self.ch2_pos_label)
+        layout.addLayout(col2)
 
+        col3 = QVBoxLayout()
+        ch1_reset_btn = QPushButton("Reset CH1")
+        ch1_reset_btn.setFixedHeight(26)
+        ch1_reset_btn.setStyleSheet(
+            "QPushButton { background:#1e293b; color:#eab308; border:1px solid #334155; border-radius:4px; font-size:11px; }"
+            "QPushButton:hover { background:#334155; }"
+        )
+        ch1_reset_btn.clicked.connect(lambda: self.ch1_pos_slider.setValue(0))
+        col3.addWidget(ch1_reset_btn)
+        
         ch2_reset_btn = QPushButton("Reset CH2")
         ch2_reset_btn.setFixedHeight(26)
         ch2_reset_btn.setStyleSheet(
-            "QPushButton { background:#1e293b; color:#ec4899; border:1px solid #334155;"
-            "border-radius:4px; font-size:11px; }"
+            "QPushButton { background:#1e293b; color:#06b6d4; border:1px solid #334155; border-radius:4px; font-size:11px; }"
             "QPushButton:hover { background:#334155; }"
         )
-        ch2_reset_btn.clicked.connect(lambda: (
-            self.ch2_pos_slider.setValue(0)
-        ))
-        layout.addWidget(ch2_reset_btn)
+        ch2_reset_btn.clicked.connect(lambda: self.ch2_pos_slider.setValue(0))
+        col3.addWidget(ch2_reset_btn)
+        layout.addLayout(col3)
 
-        layout.addSpacing(20)
-
-        # --- Global Reset ---
+        col4 = QVBoxLayout()
         reset_all_btn = QPushButton("Reset All Positions")
         reset_all_btn.setFixedHeight(32)
         reset_all_btn.setStyleSheet(
-            "QPushButton { background:#1e293b; color:#94a3b8; border:1px solid #334155;"
-            "border-radius:4px; font-size:12px; }"
+            "QPushButton { background:#1e293b; color:#94a3b8; border:1px solid #334155; border-radius:4px; font-size:12px; }"
             "QPushButton:hover { background:#334155; color:#f1f5f9; }"
         )
         reset_all_btn.clicked.connect(self._reset_all_positions)
-        layout.addWidget(reset_all_btn)
-
-        info = QLabel("Vertical position is visual only.\nMeasurements are never affected.")
+        col4.addWidget(reset_all_btn)
+        info = QLabel("Vertical position is visual only. Measurements are never affected.")
         info.setStyleSheet("color:#64748b; font-size:10px;")
         info.setWordWrap(True)
-        layout.addWidget(info)
+        col4.addWidget(info)
+        layout.addLayout(col4)
 
-        layout.addStretch()
         self.controls_tab.addTab(tab, "Vertical")
+
+    def setup_parameters_tab(self):
+        tab = QWidget()
+        layout = QHBoxLayout(tab)
+        layout.setContentsMargins(10, 5, 10, 5)
+        layout.setSpacing(15)
+
+        col1 = QVBoxLayout()
+        col1.addWidget(QLabel("Resistance (R) - Ω:"))
+        self.slider_R = QSlider(Qt.Orientation.Horizontal)
+        self.slider_R.setRange(10, 1000)
+        self.slider_R.setValue(100)
+        self.slider_R.valueChanged.connect(self.on_param_changed)
+        col1.addWidget(self.slider_R)
+        self.lbl_R = QLabel("1000 Ω")
+        self.lbl_R.setStyleSheet("color: #06b6d4; font-weight: bold;")
+        col1.addWidget(self.lbl_R)
+        layout.addLayout(col1)
+
+        col2 = QVBoxLayout()
+        col2.addWidget(QLabel("Capacitance (C) - μF:"))
+        self.slider_C = QSlider(Qt.Orientation.Horizontal)
+        self.slider_C.setRange(1, 100)
+        self.slider_C.setValue(10)
+        self.slider_C.valueChanged.connect(self.on_param_changed)
+        col2.addWidget(self.slider_C)
+        self.lbl_C = QLabel("10 μF")
+        self.lbl_C.setStyleSheet("color: #06b6d4; font-weight: bold;")
+        col2.addWidget(self.lbl_C)
+        layout.addLayout(col2)
+
+        col3 = QVBoxLayout()
+        col3.addWidget(QLabel("Inductance (L) - mH:"))
+        self.slider_L = QSlider(Qt.Orientation.Horizontal)
+        self.slider_L.setRange(1, 100)
+        self.slider_L.setValue(10)
+        self.slider_L.valueChanged.connect(self.on_param_changed)
+        col3.addWidget(self.slider_L)
+        self.lbl_L = QLabel("10 mH")
+        self.lbl_L.setStyleSheet("color: #06b6d4; font-weight: bold;")
+        col3.addWidget(self.lbl_L)
+        layout.addLayout(col3)
+
+        col4 = QVBoxLayout()
+        col4.addWidget(QLabel("Load Resistance (RL) - Ω:"))
+        self.slider_Load = QSlider(Qt.Orientation.Horizontal)
+        self.slider_Load.setRange(10, 1000)
+        self.slider_Load.setValue(200)
+        self.slider_Load.valueChanged.connect(self.on_param_changed)
+        col4.addWidget(self.slider_Load)
+        self.lbl_Load = QLabel("10000 Ω")
+        self.lbl_Load.setStyleSheet("color: #06b6d4; font-weight: bold;")
+        col4.addWidget(self.lbl_Load)
+        layout.addLayout(col4)
+
+        col5 = QVBoxLayout()
+        col5.addWidget(QLabel("Supply Voltage (Vcc) - V:"))
+        self.slider_Vcc = QSlider(Qt.Orientation.Horizontal)
+        self.slider_Vcc.setRange(10, 150)
+        self.slider_Vcc.setValue(50)
+        self.slider_Vcc.valueChanged.connect(self.on_param_changed)
+        col5.addWidget(self.slider_Vcc)
+        self.lbl_Vcc = QLabel("5.0 V")
+        self.lbl_Vcc.setStyleSheet("color: #06b6d4; font-weight: bold;")
+        col5.addWidget(self.lbl_Vcc)
+        layout.addLayout(col5)
+
+        col6 = QVBoxLayout()
+        col6.addWidget(QLabel("Duty Cycle - %:"))
+        self.slider_Duty = QSlider(Qt.Orientation.Horizontal)
+        self.slider_Duty.setRange(5, 95)
+        self.slider_Duty.setValue(50)
+        self.slider_Duty.valueChanged.connect(self.on_param_changed)
+        col6.addWidget(self.slider_Duty)
+        self.lbl_Duty = QLabel("50 %")
+        self.lbl_Duty.setStyleSheet("color: #06b6d4; font-weight: bold;")
+        col6.addWidget(self.lbl_Duty)
+        layout.addLayout(col6)
+
+        self.controls_tab.addTab(tab, "Parameters")
+
+    def on_param_changed(self):
+        r_val = self.slider_R.value() * 10
+        c_val = self.slider_C.value()
+        l_val = self.slider_L.value()
+        load_val = self.slider_Load.value() * 50
+        vcc_val = self.slider_Vcc.value() / 10.0
+        duty_val = self.slider_Duty.value()
+        
+        self.lbl_R.setText(f"{r_val} Ω")
+        self.lbl_C.setText(f"{c_val} μF")
+        self.lbl_L.setText(f"{l_val} mH")
+        self.lbl_Load.setText(f"{load_val} Ω")
+        self.lbl_Vcc.setText(f"{vcc_val:.1f} V")
+        self.lbl_Duty.setText(f"{duty_val} %")
+        
+        self.param_R = float(r_val)
+        self.param_C = float(c_val) / 1e6
+        self.param_L = float(l_val) / 1000.0
+        self.param_Load = float(load_val)
+        self.param_Vcc = float(vcc_val)
+        self.param_Duty = float(duty_val) / 100.0
+        
+        self.on_inputs_changed()
 
     def _on_ch1_pos_changed(self, value):
         """CH1 slider moved — update only CH1 position. CH2 is never touched."""
@@ -924,15 +1036,28 @@ class OscilloscopeView(QWidget):
         self.circuit_combo = QComboBox()
         self.circuit_combo.addItems([
             "Standalone Oscilloscope",
+            "Signal Generator",
             "Voltage Divider",
-            "RC Charging / Discharging",
+            "RC Charging",
+            "RC Discharging",
             "RL Transient",
-            "High Pass RC Filter",
+            "Low Pass Filter",
+            "High Pass Filter",
             "Half Wave Rectifier",
             "Full Wave Rectifier",
             "Positive Clipper",
             "Negative Clipper",
-            "Signal Attenuation"
+            "Positive Clamper",
+            "Negative Clamper",
+            "Signal Attenuator",
+            "Amplitude Modulation",
+            "Frequency Modulation",
+            "ASK",
+            "FSK",
+            "PSK",
+            "BPSK",
+            "QPSK",
+            "RLC Resonance"
         ])
         self.circuit_combo.currentTextChanged.connect(self.on_circuit_override)
         tb_layout.addWidget(self.circuit_combo)
@@ -960,11 +1085,18 @@ class OscilloscopeView(QWidget):
         self.btn_pause.clicked.connect(self.pause_oscilloscope)
         
         self.btn_stop = QPushButton()
-        self.btn_stop.setToolTip("STOP & CLEAR sweep buffer")
+        self.btn_stop.setToolTip("STOP & FREEZE sweep buffer")
         self.btn_stop.setIcon(qta.icon("fa5s.stop", color="#ffffff"))
         self.btn_stop.setStyleSheet("background-color: #ef4444; border: none; border-radius: 4px; padding: 4px;")
         self.btn_stop.setFixedSize(30, 30)
         self.btn_stop.clicked.connect(self.stop_oscilloscope)
+
+        self.btn_clear = QPushButton()
+        self.btn_clear.setToolTip("CLEAR display & measurements")
+        self.btn_clear.setIcon(qta.icon("fa5s.trash-alt", color="#ffffff"))
+        self.btn_clear.setStyleSheet("background-color: #475569; border: none; border-radius: 4px; padding: 4px;")
+        self.btn_clear.setFixedSize(30, 30)
+        self.btn_clear.clicked.connect(self.clear_oscilloscope)
 
         # Capture exports
         self.btn_shot = QPushButton()
@@ -980,6 +1112,7 @@ class OscilloscopeView(QWidget):
         tb_layout.addWidget(self.btn_run)
         tb_layout.addWidget(self.btn_pause)
         tb_layout.addWidget(self.btn_stop)
+        tb_layout.addWidget(self.btn_clear)
         tb_layout.addWidget(self.btn_shot)
         tb_layout.addWidget(self.btn_csv)
 
@@ -1014,9 +1147,9 @@ class OscilloscopeView(QWidget):
             
         meas_layout.addWidget(ch1_box)
 
-        # CH2 measurements (Pink theme)
+        # CH2 measurements (Cyan theme)
         ch2_box = QGroupBox("CH2 Measurements")
-        ch2_box.setStyleSheet("QGroupBox { color: #ec4899; font-weight: bold; border: 1px solid rgba(236, 72, 153, 0.2); border-radius: 6px; margin-top: 6px; } QGroupBox::title { subcontrol-origin: margin; left: 8px; padding: 0 3px; }")
+        ch2_box.setStyleSheet("QGroupBox { color: #06b6d4; font-weight: bold; border: 1px solid rgba(6, 182, 212, 0.2); border-radius: 6px; margin-top: 6px; } QGroupBox::title { subcontrol-origin: margin; left: 8px; padding: 0 3px; }")
         ch2_layout = QGridLayout(ch2_box)
         ch2_layout.setContentsMargins(6, 10, 6, 6)
         ch2_layout.setSpacing(4)
@@ -1030,7 +1163,7 @@ class OscilloscopeView(QWidget):
         for key, text, r, c in ch2_metrics:
             ch2_layout.addWidget(QLabel(text), r, c * 2)
             lbl = QLabel("---")
-            lbl.setStyleSheet("color: #ec4899; font-weight: bold; font-family: Consolas;")
+            lbl.setStyleSheet("color: #06b6d4; font-weight: bold; font-family: Consolas;")
             ch2_layout.addWidget(lbl, r, c * 2 + 1)
             self.ch2_lbls[key] = lbl
             
@@ -1094,30 +1227,55 @@ class OscilloscopeView(QWidget):
         self.crt_layout.addWidget(self.status_bar)
 
     def start_oscilloscope(self):
+        """RUN: Resume continuous live acquisition."""
         self.is_running = True
         self.status_led.setText("RUN")
         self.status_led.setStyleSheet("color: #10b981; font-weight: bold; font-size: 8pt;")
 
     def pause_oscilloscope(self):
+        """PAUSE: Freeze the current waveform display without clearing it."""
         self.is_running = False
         self.status_led.setText("PAUSE")
         self.status_led.setStyleSheet("color: #f59e0b; font-weight: bold; font-size: 8pt;")
 
     def stop_oscilloscope(self):
+        """STOP: Freeze waveform at current capture (Single capture mode)."""
         self.is_running = False
-        self.sim_time = 0.0
         self.status_led.setText("STOP")
         self.status_led.setStyleSheet("color: #ef4444; font-weight: bold; font-size: 8pt;")
-        
-        # Clear trace lines on stop state
+        # Do NOT clear points — STOP freezes the current waveform
+        self.show_toast("DSO stopped. Waveform frozen. Press RUN to resume.")
+
+    def clear_oscilloscope(self):
+        """CLEAR: Reset display and measurements. Does NOT stop acquisition."""
+        self.sim_time = 0.0
         self.t_points = np.array([])
         self.ch1_points = np.array([])
         self.ch2_points = np.array([])
-        self.display_screen.set_waveforms(self.t_points, self.ch1_points, self.ch2_points, self.ch1_en, self.ch2_en)
+        # Reset change-detection history so auto-scale re-fires on next frame
+        for attr in ['last_v1_pp', 'last_v2_pp', 'last_v1_avg', 'last_v2_avg', 'last_p_detected', 'last_circuit']:
+            if hasattr(self, attr):
+                delattr(self, attr)
+        if hasattr(self, 'display_screen'):
+            self.display_screen.set_waveforms(self.t_points, self.ch1_points, self.ch2_points, self.ch1_en, self.ch2_en)
         self.calculate_realtime_metrics()
+        self.show_toast("DSO display cleared. Acquisition will restart on next RUN.")
 
     def on_circuit_override(self):
         new_circuit = self.circuit_combo.currentText()
+        # Signal Generator uses only CH1
+        one_channel_circuits = ["Signal Generator"]
+        if new_circuit in one_channel_circuits:
+            self.ch1_en_chk.setChecked(True)
+            self.ch1_en_chk.setEnabled(True)
+            self.ch2_en_chk.setChecked(False)
+            self.ch2_en_chk.setEnabled(False)
+        else:
+            self.ch1_en_chk.setChecked(True)
+            self.ch1_en_chk.setEnabled(True)
+            self.ch2_en_chk.setChecked(True)
+            self.ch2_en_chk.setEnabled(True)
+
         if new_circuit == "Standalone Oscilloscope":
             self.transition_to_standalone()
         else:
@@ -1200,15 +1358,59 @@ class OscilloscopeView(QWidget):
         self.on_inputs_changed()
 
     def auto_scale_waveform(self):
-        """Forces the smooth variables to snap instantly to their calculated targets,
-        resets zoom and visual pans, and centers the trigger.
+        """Forces the timebase and voltage scales of both channels to automatically
+        adjust so that the waveforms are perfectly fitted on the screen.
         """
-        # Force next tick to snap instantly
-        self.last_circuit = None
+        # Snap time base
+        # Look at the active frequencies to select a suitable time base
+        f_max = max(self.ch1_freq if self.ch1_en else 1.0, self.ch2_freq if self.ch2_en else 1.0)
+        t_period = 1.0 / f_max if f_max > 0 else 0.001
+        # We want to fit ~2 periods across 10 divisions, so timebase ~ t_period / 5
+        target_tb = t_period / 5.0
+        
+        tb_values = [1e-4, 5e-4, 1e-3, 2e-3, 5e-3, 1e-2, 2e-2, 5e-2, 0.1, 0.2, 0.5, 1.0, 2.0]
+        tb_names = [
+            "100 μs", "500 μs", "1 ms", "2 ms", "5 ms", "10 ms", "20 ms", "50 ms", "100 ms",
+            "200 ms", "500 ms", "1 s", "2 s"
+        ]
+        tb_idx = np.argmin(np.abs(np.array(tb_values) - target_tb))
+        self.tbase_combo.setCurrentText(tb_names[tb_idx])
+        
+        # Snap CH1 scale
+        if self.ch1_en and len(self.ch1_points) > 0:
+            v_max = np.max(self.ch1_points)
+            v_min = np.min(self.ch1_points)
+            v_pp = v_max - v_min
+            # We want v_pp to occupy 5 divisions, so vscale ~ v_pp / 5
+            target_vs = max(0.01, v_pp / 5.0)
+            vs_values = [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0]
+            vs_names = ["100 mV", "200 mV", "500 mV", "1 V", "2 V", "5 V", "10 V"]
+            vs_idx = np.argmin(np.abs(np.array(vs_values) - target_vs))
+            self.ch1_vscale_combo.setCurrentText(vs_names[vs_idx])
+            
+            # Snap offset to center of waveform
+            avg = (v_max + v_min) / 2.0
+            self.ch1_offset_inp.setText(f"{avg:.2f}")
+            self.display_screen.ch1.set_vertical_position(0.0)
+            
+        # Snap CH2 scale
+        if self.ch2_en and len(self.ch2_points) > 0:
+            v_max = np.max(self.ch2_points)
+            v_min = np.min(self.ch2_points)
+            v_pp = v_max - v_min
+            target_vs = max(0.01, v_pp / 5.0)
+            vs_values = [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0]
+            vs_names = ["100 mV", "200 mV", "500 mV", "1 V", "2 V", "5 V", "10 V"]
+            vs_idx = np.argmin(np.abs(np.array(vs_values) - target_vs))
+            self.ch2_vscale_combo.setCurrentText(vs_names[vs_idx])
+            
+            avg = (v_max + v_min) / 2.0
+            self.ch2_offset_inp.setText(f"{avg:.2f}")
+            self.display_screen.ch2.set_vertical_position(0.0)
+            
         self.trig_level_slider.setValue(0)
-        self._reset_all_positions()
         self.on_inputs_changed()
-        self.show_toast("DSO scales auto-adjusted and centered.")
+        self.show_toast("Auto Scale executed: Waveforms scaled to fit display.")
 
     # Replaced by dynamic auto-scale pipeline
 
@@ -1355,10 +1557,6 @@ class OscilloscopeView(QWidget):
         t_base = self.get_timebase_value()
         v1_scale = self.get_ch1_vscale_value()
         v2_scale = self.get_ch2_vscale_value()
-        trig_level = self.trig_level_slider.value() / 10.0
-        trig_src = self.trig_src_combo.currentText()
-        trig_edge = self.trig_edge_combo.currentText()
-        trig_mode = self.trig_mode_combo.currentText()
 
         self.tbase_target = t_base
         self.ch1_vscale_target = v1_scale
@@ -1366,19 +1564,7 @@ class OscilloscopeView(QWidget):
         self.ch1_offset_target = self.ch1_offset
         self.ch2_offset_target = self.ch2_offset
 
-        self.display_screen.set_scales(
-            time_base=self.tbase_smooth,
-            ch1_vscale=self.ch1_vscale_smooth,
-            ch2_vscale=self.ch2_vscale_smooth,
-            ch1_offset=self.ch1_offset_smooth,
-            ch2_offset=self.ch2_offset_smooth,
-            trig_level=trig_level,
-            trig_src=trig_src,
-            trig_edge=trig_edge,
-            trig_state=trig_mode
-        )
-        self.status_scale.setText(f"T: {self.tbase_combo.currentText()}/div | CH1: {self.ch1_vscale_combo.currentText()}/div | CH2: {self.ch2_vscale_combo.currentText()}/div")
-        self.calculate_realtime_metrics()
+        self.generate_and_process_waveforms()
 
     def get_simulation_view(self):
         """Safely lookup the SimulationView instance in MainWindow views."""
@@ -1399,241 +1585,134 @@ class OscilloscopeView(QWidget):
         return sim_view.right_stack.currentWidget()
 
     def get_connected_simulation_widget(self):
-        """Resolves the correct simulation object based on auto-detect or manual override."""
+        """Returns the active math simulation engine object for the selected circuit."""
         selected_circuit = self.circuit_combo.currentText()
-        if selected_circuit in self.virtual_sims:
-            return self.virtual_sims[selected_circuit]
-            
-        sim_view = self.get_simulation_view()
-        if not sim_view:
-            return None
-            
-        # If in auto-detect mode (not manual_override), return active stacked widget
-        if not self.manual_override:
-            return sim_view.right_stack.currentWidget()
-            
-        # Otherwise, manual override mode is active. Find matching simulation class
-        dropdown_to_class = {
-            "Voltage Divider": "VoltageDividerSimulation",
-            "RC Charging / Discharging": "RCTransientSimulation",
-            "RL Transient": "RLTransientSimulation",
-            "High Pass RC Filter": "RCHighPassSimulation",
-            "Half Wave Rectifier": "HalfWaveRectifierSimulation",
-            "Full Wave Rectifier": "FullWaveRectifierSimulation",
-            "Signal Attenuation": "AttenuationSimulation"
-        }
-        
-        target_class = dropdown_to_class.get(selected_circuit)
-        if not target_class:
-            return None
-            
-        if hasattr(sim_view, "simulations"):
-            for sim in sim_view.simulations:
-                if sim.__class__.__name__ == target_class:
-                    return sim
-                    
+        # Always prefer math_sims (new engine)
+        if selected_circuit in self.math_sims:
+            return self.math_sims[selected_circuit]
         return None
+
+    def sync_math_sim_params(self, sim):
+        """Push current DSO UI parameter values into the simulation engine object."""
+        sim.update_parameters(
+            freq=self.ch1_freq, amp=self.ch1_amp, offset=self.ch1_offset,
+            phase=self.ch1_phase, noise_lvl=self.noise_lvl, duty=self.param_Duty,
+            ch1_type=self.ch1_type, ch2_type=self.ch2_type,
+            ch1_freq=self.ch1_freq, ch2_freq=self.ch2_freq,
+            ch1_amp=self.ch1_amp, ch2_amp=self.ch2_amp,
+            ch1_offset=self.ch1_offset, ch2_offset=self.ch2_offset,
+            ch1_phase=self.ch1_phase, ch2_phase=self.ch2_phase,
+            param_R=self.param_R, param_C=self.param_C,
+            param_L=self.param_L, param_Load=self.param_Load,
+            param_Vcc=self.param_Vcc
+        )
 
     def detect_and_sync_active_circuit(self):
-        """Automatically aligns dropdown circuit selection to active Simulation Lab module if not overridden."""
-        if self.manual_override:
-            return
-            
-        active_sim = self.get_active_simulation_widget()
-        if not active_sim:
-            return
-            
-        class_to_dropdown = {
-            "VoltageDividerSimulation": "Voltage Divider",
-            "RCTransientSimulation": "RC Charging / Discharging",
-            "RLTransientSimulation": "RL Transient",
-            "RCHighPassSimulation": "High Pass RC Filter",
-            "HalfWaveRectifierSimulation": "Half Wave Rectifier",
-            "FullWaveRectifierSimulation": "Full Wave Rectifier",
-            "AttenuationSimulation": "Signal Attenuation"
-        }
-        
-        class_name = active_sim.__class__.__name__
-        if class_name in class_to_dropdown:
-            target_text = class_to_dropdown[class_name]
-            if self.circuit_combo.currentText() != target_text:
-                self.circuit_combo.blockSignals(True)
-                self.circuit_combo.setCurrentText(target_text)
-                self.circuit_combo.blockSignals(False)
-                self.update_generator_controls_state()
+        """No-op: auto-detect of Simulation Lab is disabled in engine mode.
+        All circuits are now driven by math_sims directly from the DSO dropdown.
+        """
+        pass
 
     def get_connected_simulation_freq(self, selected_circuit):
-        target_sim = self.get_connected_simulation_widget()
-        if not target_sim:
+        """Returns the primary frequency of the active simulation for time-base calculation."""
+        sim = self.get_connected_simulation_widget()
+        if sim is None:
             return None
-        
-        # 1. Check known simulator widgets
-        if "Voltage Divider" in selected_circuit:
-            return 1000.0
-        elif "Signal Attenuation" in selected_circuit:
-            return 100.0
-        elif "Half Wave Rectifier" in selected_circuit or "Full Wave Rectifier" in selected_circuit:
-            try:
-                f = float(target_sim.f_input.text())
-                f_mult = {"Hz": 1.0, "kHz": 1e3}[target_sim.f_unit.currentText()]
-                return f * f_mult
-            except Exception:
-                return 50.0
-        elif "Low Pass" in selected_circuit or "High Pass" in selected_circuit or "RLC Resonance" in selected_circuit:
-            if hasattr(target_sim, "current_f"):
-                return getattr(target_sim, "current_f")
-            
-        # 2. Try generic attributes
-        for attr in ["current_f", "f_swept", "freq", "frequency"]:
-            if hasattr(target_sim, attr):
-                val = getattr(target_sim, attr)
-                if isinstance(val, (int, float)) and val > 0:
-                    return float(val)
+        info = sim.get_channel_info()
+        tdiv = info.get("recommended_tdiv")
+        if tdiv and tdiv > 0:
+            return 0.25 / tdiv  # freq = 1 cycle / (4 * tdiv)
         return None
 
-    def on_timer_tick(self):
-        if not self.is_running:
-            return
-        if self.status_led.text() == "STOP":
-            return
-
-        # Auto-detect active Simulation Lab circuit mapping
-        self.detect_and_sync_active_circuit()
-
+    def generate_and_process_waveforms(self):
+        # Detect if circuit changed
         current_circuit = self.circuit_combo.currentText()
         circuit_changed = False
         if not hasattr(self, 'last_circuit') or self.last_circuit != current_circuit:
             circuit_changed = True
             self.last_circuit = current_circuit
 
-        # Use smooth timebase to generate the display time buffer
+        # Use smooth timebase to generate display time buffer
         t_span = 10.0 * self.tbase_smooth
         n_samples = 1000
-        self.sim_time += 0.033
         t_buffer = np.linspace(self.sim_time, self.sim_time + t_span, n_samples)
 
-        selected_circuit = self.circuit_combo.currentText()
         ch1_raw = None
         ch2_raw = None
-        
-        class_to_name = {
-            "VoltageDividerSimulation": "Voltage Divider",
-            "RCTransientSimulation": "RC Charging",
-            "RLTransientSimulation": "RL Transient",
-            "RCHighPassSimulation": "High Pass RC Filter",
-            "HalfWaveRectifierSimulation": "Half Wave Rectifier",
-            "FullWaveRectifierSimulation": "Full Wave Rectifier",
-            "AttenuationSimulation": "Signal Attenuation",
-            "ResonanceExplorerSimulation": "Resonance Explorer"
-        }
+        ch1_label_val = "CH1"
+        ch2_label_val = "CH2"
+        sim_recommended_v1_scale = None
+        sim_recommended_v2_scale = None
+        sim_recommended_tbase = None
 
-        # 1. Attempt to query waveforms from the active Simulation Lab module or virtual simulations via standard interface
-        if selected_circuit != "Standalone Oscilloscope":
-            target_sim = self.get_connected_simulation_widget()
-            if target_sim:
-                if hasattr(target_sim, "get_oscilloscope_waveforms"):
-                    try:
-                        res = target_sim.get_oscilloscope_waveforms(t_buffer)
-                        if res and isinstance(res, dict):
-                            ch1_raw = res.get("ch1")
-                            ch2_raw = res.get("ch2")
-                            
-                            if selected_circuit in self.virtual_sims:
-                                self.lbl_connected_status.setText(f"● Connected: {selected_circuit}")
-                                self.lbl_connected_status.setStyleSheet("color: #10b981; font-weight: bold; font-size: 9pt;")
-                            else:
-                                sim_class_name = target_sim.__class__.__name__
-                                friendly_name = class_to_name.get(sim_class_name, selected_circuit)
-                                self.lbl_connected_status.setText(f"● Connected: {friendly_name}")
-                                self.lbl_connected_status.setStyleSheet("color: #10b981; font-weight: bold; font-size: 9pt;")
-                        else:
-                            log.error(f"Error: get_oscilloscope_waveforms() returned invalid format")
-                    except Exception as e:
-                        log.error(f"Error: get_oscilloscope_waveforms() failed: {e}")
-                else:
-                    log.warning(f"Warning: Simulation module is missing get_oscilloscope_waveforms!")
-                    self.lbl_connected_status.setText("● Disconnected")
-                    self.lbl_connected_status.setStyleSheet("color: #ef4444; font-weight: bold; font-size: 9pt;")
-            else:
-                self.lbl_connected_status.setText("● Disconnected")
-                self.lbl_connected_status.setStyleSheet("color: #ef4444; font-weight: bold; font-size: 9pt;")
+        # ------------------------------------------------------------------
+        # 1. Query the math simulation engine (new decoupled architecture)
+        # ------------------------------------------------------------------
+        sim_engine = self.get_connected_simulation_widget()
+        if sim_engine is not None:
+            try:
+                # Push all current UI parameters into the engine
+                self.sync_math_sim_params(sim_engine)
+                # Generate both channels
+                ch1_raw, ch2_raw = sim_engine.generate(t_buffer)
+                # Read channel metadata
+                info = sim_engine.get_channel_info()
+                ch1_label_val = info.get("ch1_label", "CH1")
+                ch2_label_val = info.get("ch2_label", "CH2")
+                sim_recommended_v1_scale = info.get("recommended_vdiv")
+                sim_recommended_v2_scale = info.get("recommended_vdiv_ch2", info.get("recommended_vdiv"))
+                sim_recommended_tbase = info.get("recommended_tdiv")
+                # Hide CH2 if the simulation only produces CH1
+                if not info.get("ch2_enabled", True):
+                    self.ch2_en_chk.setChecked(False)
+                self.lbl_connected_status.setText(f"● Connected: {current_circuit}")
+                self.lbl_connected_status.setStyleSheet("color: #10b981; font-weight: bold; font-size: 9pt;")
+            except Exception as e:
+                log.error(f"DSO engine error for '{current_circuit}': {e}")
+                ch1_raw = None
+                ch2_raw = None
+                self.lbl_connected_status.setText("⚠ Waveform unavailable")
+                self.lbl_connected_status.setStyleSheet("color: #f59e0b; font-weight: bold; font-size: 9pt;")
 
-        # 2. Fall back to Standalone Oscilloscope Mode (Fully isolated!)
+        # ------------------------------------------------------------------
+        # 2. Fall back to Standalone Oscilloscope Mode (Fully isolated)
+        # ------------------------------------------------------------------
         if ch1_raw is None or ch2_raw is None:
             self.lbl_connected_status.setText("● Standalone Mode")
             self.lbl_connected_status.setStyleSheet("color: #3b82f6; font-weight: bold; font-size: 9pt;")
-            
-            # Synchronize inputs
-            self.on_inputs_changed()
-            ch1_raw = StandaloneSignalGenerator.generate(t_buffer, self.ch1_type, self.ch1_freq, self.ch1_amp, self.ch1_offset, self.ch1_phase, self.noise_lvl)
-            ch2_raw = StandaloneSignalGenerator.generate(t_buffer, self.ch2_type, self.ch2_freq, self.ch2_amp, self.ch2_offset, self.ch2_phase, self.noise_lvl)
+            from src.engine.simulation_engine import StandaloneSignalGenerator as _SSG
+            ch1_raw = _SSG.generate(t_buffer, self.ch1_type, self.ch1_freq, self.ch1_amp, self.ch1_offset, self.ch1_phase, self.noise_lvl, self.param_Duty)
+            ch2_raw = _SSG.generate(t_buffer, self.ch2_type, self.ch2_freq, self.ch2_amp, self.ch2_offset, self.ch2_phase, self.noise_lvl, self.param_Duty)
+
+        # Update trace labels on screen
+        self.display_screen.ch1.label = ch1_label_val
+        self.display_screen.ch2.label = ch2_label_val
 
         # ------------------------------------------------------------------
         # 3. Dynamic Auto Scale Target Calculations (Runs before trigger slice)
         # ------------------------------------------------------------------
         p_detected = None
-        # A. Horizontal Timebase target (Time/Div)
-        tbase_target = 0.001
-        is_transient = False
-        tau = 0.01
+        is_transient = current_circuit in ("RC Charging", "RC Discharging", "RL Transient")
 
-        # Check for transient circuits
-        if "RC Charging" in selected_circuit or "RC Charging / Discharging" in selected_circuit:
-            is_transient = True
-            target_sim = self.get_connected_simulation_widget()
-            if target_sim and hasattr(target_sim, 'r_input') and hasattr(target_sim, 'c_input'):
-                try:
-                    r = float(target_sim.r_input.text()) * (1e3 if "k" in target_sim.r_unit.currentText() else 1.0)
-                    c = float(target_sim.c_input.text()) * (1e-6 if "μ" in target_sim.c_unit.currentText() else 1e-9)
-                    tau = r * c
-                except Exception:
-                    tau = 0.005
-            else:
-                tau = 0.005
-            tbase_target = 0.65 * tau
-        elif "RL Transient" in selected_circuit:
-            is_transient = True
-            target_sim = self.get_connected_simulation_widget()
-            if target_sim and hasattr(target_sim, 'r_input') and hasattr(target_sim, 'l_input'):
-                try:
-                    r = float(target_sim.r_input.text()) * (1e3 if "k" in target_sim.r_unit.currentText() else 1.0)
-                    l = float(target_sim.l_input.text()) * (1e-3 if "m" in target_sim.l_unit.currentText() else 1.0)
-                    tau = l / r
-                except Exception:
-                    tau = 0.001
-            else:
-                tau = 0.001
-            tbase_target = 0.65 * tau
+        # A. Horizontal Timebase target (Time/Div)
+        if sim_recommended_tbase is not None and sim_recommended_tbase > 0:
+            # Engine recommends a tdiv — use it directly
+            tbase_target = sim_recommended_tbase
         else:
-            # 1. Prefer known signal frequency supplied by the simulation module
-            known_freq = self.get_connected_simulation_freq(selected_circuit)
-            if known_freq is not None and known_freq > 0:
-                if "Half Wave Rectifier" in selected_circuit:
-                    # 5 pulses -> 5 cycles -> tbase = 0.5 / f
-                    tbase_target = 0.5 / known_freq
-                elif "Full Wave Rectifier" in selected_circuit:
-                    # 5 pulses -> 2.5 cycles -> tbase = 0.25 / f
-                    tbase_target = 0.25 / known_freq
+            # Fallback: waveform analysis then generator frequency
+            p1 = self._estimate_period_raw(ch1_raw, t_buffer) if ch1_raw is not None else None
+            p2 = self._estimate_period_raw(ch2_raw, t_buffer) if ch2_raw is not None else None
+            p_detected = p1 if p1 is not None else p2
+            if p_detected is not None:
+                if "Half Wave Rectifier" in current_circuit:
+                    tbase_target = p_detected * 0.5
+                elif "Full Wave Rectifier" in current_circuit:
+                    tbase_target = p_detected * 0.25
                 else:
-                    # Periodic (Voltage Divider, Signal Attenuation, Filters, Resonance): 10 cycles
-                    # Target 10 cycles -> 10 / f total duration across 10 divs -> tbase = 1.0 / f
-                    tbase_target = 1.0 / known_freq
+                    tbase_target = p_detected * 1.0
             else:
-                # 2. Fallback: Waveform analysis (period estimation)
-                p1 = self._estimate_period_raw(ch1_raw, t_buffer) if ch1_raw is not None else None
-                p2 = self._estimate_period_raw(ch2_raw, t_buffer) if ch2_raw is not None else None
-                p_detected = p1 if p1 is not None else p2
-                if p_detected is not None:
-                    if "Half Wave Rectifier" in selected_circuit:
-                        tbase_target = p_detected * 0.5
-                    elif "Full Wave Rectifier" in selected_circuit:
-                        tbase_target = p_detected * 0.25
-                    else:
-                        tbase_target = p_detected * 1.0
-                else:
-                    # 3. Double Fallback: fallback to generator frequency
-                    f_ref = max(self.ch1_freq if self.ch1_en else 0.0, self.ch2_freq if self.ch2_en else 0.0, 1.0)
-                    tbase_target = (1.0 / f_ref) * 1.0
+                f_ref = max(self.ch1_freq if self.ch1_en else 0.0, self.ch2_freq if self.ch2_en else 0.0, 1.0)
+                tbase_target = 1.0 / f_ref
 
         tbase_target = max(0.0001, min(2.0, tbase_target))
 
@@ -1646,21 +1725,24 @@ class OscilloscopeView(QWidget):
         v_min_combined = min(v1_min, v2_min)
         v_max_combined = max(v1_max, v2_max)
         v_pp_combined = float(v_max_combined - v_min_combined)
-        
-        # Volts/Div target (occupies ~60-80% of 8 divisions; let's target 60% = 4.8 divisions)
-        v_scale_target = v_pp_combined / 4.8 if v_pp_combined > 1e-4 else 1.0
-        v_scale_target = max(0.1, min(10.0, v_scale_target))
-        
-        # Combined average midpoint for centering
-        offset_target = float(v_max_combined + v_min_combined) / 2.0
 
-        # Apply combined scaling & centering targets to both channels
-        v1_scale_target = v_scale_target
-        v2_scale_target = v_scale_target
-        v1_offset_target = offset_target
-        v2_offset_target = offset_target
+        if sim_recommended_v1_scale is not None:
+            v1_scale_target = sim_recommended_v1_scale
+            v2_scale_target = sim_recommended_v2_scale if sim_recommended_v2_scale is not None else sim_recommended_v1_scale
+            v1_offset_target = 0.0
+            v2_offset_target = 0.0
+            offset_target = 0.0
+        else:
+            # Volts/Div target: fit waveform into ~60% of display (4.8 of 8 divisions)
+            v_scale_target = v_pp_combined / 4.8 if v_pp_combined > 1e-4 else 1.0
+            v_scale_target = max(0.1, min(10.0, v_scale_target))
+            offset_target = float(v_max_combined + v_min_combined) / 2.0
+            v1_scale_target = v_scale_target
+            v2_scale_target = v_scale_target
+            v1_offset_target = offset_target
+            v2_offset_target = offset_target
 
-        # Automatically center the trigger level slider on circuit change to guarantee immediate lock
+        # Automatically center the trigger level slider on circuit change
         if circuit_changed:
             self.trig_level_slider.blockSignals(True)
             self.trig_level_slider.setValue(int(offset_target * 10))
@@ -1699,16 +1781,13 @@ class OscilloscopeView(QWidget):
         if circuit_changed or param_changed:
             tb_presets = [0.0001, 0.0005, 0.001, 0.002, 0.005, 0.010, 0.020, 0.050, 0.100, 0.200, 0.500, 1.000, 2.000]
             self.tbase_target = tb_presets[np.argmin(np.abs(np.array(tb_presets) - tbase_target))]
-
             v_presets = [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0]
             self.ch1_vscale_target = v_presets[np.argmin(np.abs(np.array(v_presets) - v1_scale_target))]
             self.ch2_vscale_target = v_presets[np.argmin(np.abs(np.array(v_presets) - v2_scale_target))]
-            
             self.ch1_offset_target = v1_offset_target
             self.ch2_offset_target = v2_offset_target
 
-        # D. Exponential decay smoothing: interpolate scales and offsets
-        # If circuit changed or targets are not set, snap instantly to prevent visual jumps
+        # D. Exponential decay smoothing
         alpha = 1.0 if (circuit_changed or not hasattr(self, 'tbase_smooth')) else 0.15
         self.tbase_smooth += alpha * (self.tbase_target - self.tbase_smooth)
         self.ch1_vscale_smooth += alpha * (self.ch1_vscale_target - self.ch1_vscale_smooth)
@@ -1730,7 +1809,7 @@ class OscilloscopeView(QWidget):
         trig_edge = self.trig_edge_combo.currentText()
         trig_mode = self.trig_mode_combo.currentText()
         trig_level = self.trig_level_slider.value() / 10.0
-        
+
         trig_target_buffer = ch1_raw if trig_src == "CH1" else ch2_raw
         trig_idx = -1
         search_end = int(n_samples * 0.70)
@@ -1757,7 +1836,7 @@ class OscilloscopeView(QWidget):
             self.status_trig.setText("Trig: Locked")
             self.status_trig.setStyleSheet("color: #10b981;")
 
-            if trig_mode == "Single":
+            if trig_mode == "Single" and self.is_running:
                 self.is_running = False
                 self.status_led.setText("STOP")
                 self.status_led.setStyleSheet("color: #ef4444; font-weight: bold; font-size: 8pt;")
@@ -1795,6 +1874,15 @@ class OscilloscopeView(QWidget):
         self.fps_counter += 1
         self.calculate_realtime_metrics()
         self.update_generator_controls_state()
+
+    def on_timer_tick(self):
+        if not self.is_running:
+            return
+        if self.status_led.text() == "STOP":
+            return
+
+        self.sim_time += 0.033
+        self.generate_and_process_waveforms()
 
     def _sync_combo(self, combo, value, presets):
         closest_idx = np.argmin(np.abs(np.array(presets) - value))
@@ -1925,8 +2013,10 @@ class OscilloscopeView(QWidget):
                 ch_lbls["Freq"].setText(f"{format_eng(1.0/p, 'Hz')}")
                 ch_lbls["Period"].setText(f"{format_eng(p, 's')}")
             else:
-                ch_lbls["Freq"].setText("---")
-                ch_lbls["Period"].setText("---")
+                # Fallback to theoretical frequency for live updating
+                f_fallback = self.ch1_freq if ch_lbls is self.ch1_lbls else self.ch2_freq
+                ch_lbls["Freq"].setText(f"{format_eng(f_fallback, 'Hz')}")
+                ch_lbls["Period"].setText(f"{format_eng(1.0/f_fallback, 's')}")
                 
             ch_lbls["Vpp"].setText(f"{v_pp:.2f} V")
             ch_lbls["Vmax"].setText(f"{v_max:.2f} V")

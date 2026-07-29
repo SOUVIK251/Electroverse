@@ -1,0 +1,43 @@
+{
+    "version": "1.0",
+    "last_updated": "2026",
+    "source": "Trainer Kit Intelligent Wiring Assistant Templates",
+    "records": {
+        "7408": {
+            "ic": "7408",
+            "name": "7408 AND Gate Connection Template",
+            "required_vcc": {"pin": 14, "target": "+5V Rail"},
+            "required_gnd": {"pin": 7, "target": "GND Rail"},
+            "inputs": [{"pin": 1, "source": "Switch A"}, {"pin": 2, "source": "Switch B"}],
+            "output": {"pin": 3, "destination": "LED Anode", "resistor": 330},
+            "expected_logic": "AND"
+        },
+        "7432": {
+            "ic": "7432",
+            "name": "7432 OR Gate Connection Template",
+            "required_vcc": {"pin": 14, "target": "+5V Rail"},
+            "required_gnd": {"pin": 7, "target": "GND Rail"},
+            "inputs": [{"pin": 1, "source": "Switch A"}, {"pin": 2, "source": "Switch B"}],
+            "output": {"pin": 3, "destination": "LED Anode", "resistor": 330},
+            "expected_logic": "OR"
+        },
+        "7400": {
+            "ic": "7400",
+            "name": "7400 NAND Gate Connection Template",
+            "required_vcc": {"pin": 14, "target": "+5V Rail"},
+            "required_gnd": {"pin": 7, "target": "GND Rail"},
+            "inputs": [{"pin": 1, "source": "Switch A"}, {"pin": 2, "source": "Switch B"}],
+            "output": {"pin": 3, "destination": "LED Anode", "resistor": 330},
+            "expected_logic": "NAND"
+        },
+        "7404": {
+            "ic": "7404",
+            "name": "7404 NOT Inverter Connection Template",
+            "required_vcc": {"pin": 14, "target": "+5V Rail"},
+            "required_gnd": {"pin": 7, "target": "GND Rail"},
+            "inputs": [{"pin": 1, "source": "Switch A"}],
+            "output": {"pin": 2, "destination": "LED Anode", "resistor": 330},
+            "expected_logic": "NOT"
+        }
+    }
+}

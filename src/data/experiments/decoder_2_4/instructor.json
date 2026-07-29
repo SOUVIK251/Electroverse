@@ -1,0 +1,5 @@
+{
+    "foundation": "A Decoder activates exactly one output line corresponding to the binary value of the address inputs A1 A0 using NOT (7404) and AND (7408) gates.",
+    "optimization": "In Stage 2, replacing AND/NOT gates with NAND gates (7400) produces active-low output lines (0 active).",
+    "industrial": "In Stage 3, build the 2-to-4 Decoder using NOR gates (7402) for active-high decoding logic."
+}

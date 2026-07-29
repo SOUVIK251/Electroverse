@@ -1,0 +1,62 @@
+{
+    "id": "gate_and",
+    "title": "AND Logic Gate (IC 7408)",
+    "category": "Logic Gates",
+    "difficulty": "★☆☆☆☆",
+    "est_time": "10 Mins",
+    "prerequisites": ["Boolean Algebra"],
+    "summary": "An AND gate is a fundamental digital logic gate that implements logical conjunction (Y = A · B). The output is HIGH (1) IF AND ONLY IF all of its inputs are HIGH (1).",
+    "images": [
+        {"type": "symbol", "title": "ANSI Logic Symbol", "caption": "ANSI/IEEE Standard Symbol for 2-Input AND Gate.", "path": "assets/components/logic_gates/and_symbol.png"},
+        {"type": "circuit", "title": "Internal Transistor Circuit", "caption": "TTL DTL internal transistor schematic for IC 7408 AND gate.", "path": "assets/components/logic_gates/and_internal.png"},
+        {"type": "breadboard", "title": "Breadboard Wiring Diagram", "caption": "IC 7408 inserted across DIP center trench on breadboard.", "path": "assets/components/logic_gates/and_breadboard.png"},
+        {"type": "hardware", "title": "IC 7408 Hardware Photo", "caption": "Real photo of 14-pin DIP IC 7408 Quad 2-Input AND Gate.", "path": "assets/components/logic_gates/and_photo.png"}
+    ],
+    "working_principle": "When inputs A and B are both connected to +5V (Logic 1), the internal TTL multi-emitter transistor drives the output pin to +5V (Logic 1). If either input is grounded (0V), the output is pulled down to 0V (Logic 0).",
+    "truth_table": {
+        "inputs": ["Input A", "Input B"],
+        "outputs": ["Output Y (A · B)"],
+        "rows": [
+            {"inputs": [0, 0], "outputs": [0]},
+            {"inputs": [0, 1], "outputs": [0]},
+            {"inputs": [1, 0], "outputs": [0]},
+            {"inputs": [1, 1], "outputs": [1]}
+        ]
+    },
+    "boolean_equation": "Y = A · B  (or Y = AB)",
+    "mnemonic_trick": "AND is ALL! Output is 1 ONLY when ALL inputs are 1. If any input is 0, the output is ZERO!",
+    "applications": [
+        "Enable/Disable Control Lines in Digital Systems",
+        "Address Decoding in Computer Memory Systems",
+        "Safety Interlock Circuits (Both conditions must be met to trigger action)"
+    ],
+    "advantages": [
+        "Simple implementation using standard TTL IC 7408",
+        "High noise margin in standard 5V logic"
+    ],
+    "disadvantages": [
+        "Cannot be used as a universal gate by itself without inverters"
+    ],
+    "common_mistakes": [
+        "Leaving unused input pins floating (unconnected) which TTL reads as HIGH.",
+        "Confusing AND gate symbol with OR gate symbol."
+    ],
+    "quick_notes": [
+        "IC 7408 contains 4 independent 2-input AND gates.",
+        "Pin 14 is VCC (+5V), Pin 7 is GND.",
+        "Gate 1: Pins 1 (1A), 2 (1B) -> Pin 3 (1Y)."
+    ],
+    "viva_questions": [
+        {"q": "What is the IC number for a Quad 2-input AND gate?", "a": "IC 7408."},
+        {"q": "What happens to the output of an AND gate if one input is 0 and the other is floating in TTL?", "a": "Output remains 0, because floating input is 1 but 0 · 1 = 0."}
+    ],
+    "interview_questions": [
+        {"q": "How can you implement an AND gate using only NAND gates?", "a": "Connect a 2-input NAND gate (7400) followed by a NAND gate configured as a NOT inverter."}
+    ],
+    "cross_links": [
+        {"id": "gate_or", "name": "OR Gate (IC 7432)"},
+        {"id": "gate_nand", "name": "NAND Gate (IC 7400)"}
+    ],
+    "knowledge_graph": ["Boolean Algebra", "Logic Gates", "AND Gate (7408)", "Universal Gates"],
+    "experiment_id": "half_adder"
+}

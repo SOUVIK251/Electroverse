@@ -1,0 +1,57 @@
+{
+    "id": "gate_not",
+    "title": "NOT Inverter Gate (IC 7404)",
+    "category": "Logic Gates",
+    "difficulty": "★☆☆☆☆",
+    "est_time": "10 Mins",
+    "prerequisites": ["OR Gate"],
+    "summary": "A NOT gate (Inverter) is a single-input logic gate that reverses the digital input signal (Y = A'). If the input is HIGH (1), the output is LOW (0), and vice versa.",
+    "images": [
+        {"type": "symbol", "title": "ANSI Inverter Symbol", "caption": "ANSI Symbol for Hex Inverter with inversion bubble at output.", "path": "assets/components/logic_gates/not_symbol.png"},
+        {"type": "breadboard", "title": "Breadboard Placement (IC 7404)", "caption": "IC 7404 Hex Inverter plugged across DIP center trench.", "path": "assets/components/logic_gates/not_breadboard.png"}
+    ],
+    "working_principle": "When input A receives +5V (Logic 1), the internal NPN transistor turns ON hard into saturation, shorting the output pin to Ground (0V). When A is 0V, the transistor turns OFF, pulling the output up to +5V through a collector resistor.",
+    "truth_table": {
+        "inputs": ["Input A"],
+        "outputs": ["Output Y (A')"],
+        "rows": [
+            {"inputs": [0], "outputs": [1]},
+            {"inputs": [1], "outputs": [0]}
+        ]
+    },
+    "boolean_equation": "Y = A'  (or Y = Ā)",
+    "applications": [
+        "Complementary Signal Generation (e.g. Clock and Clock-Bar)",
+        "Active-Low Enable Signal Inversion",
+        "Square Wave Oscillator Circuits (Cascaded odd number of inverters)"
+    ],
+    "advantages": [
+        "Simplest logic function in digital electronics",
+        "Fast response time (approx 8 ns in 74LS04)"
+    ],
+    "disadvantages": [
+        "Inverts signal only (single input)"
+    ],
+    "common_mistakes": [
+        "Confusing inverter bubble placement on inputs vs outputs.",
+        "Connecting output pins of two inverters together (causes short circuit)."
+    ],
+    "quick_notes": [
+        "IC 7404 contains 6 independent NOT inverters.",
+        "Pin 14 is VCC (+5V), Pin 7 is GND.",
+        "Inverter 1: Pin 1 (1A) -> Pin 2 (1Y)."
+    ],
+    "viva_questions": [
+        {"q": "How many inverters are inside an IC 7404 package?", "a": "6 independent inverters (Hex Inverter)."},
+        {"q": "What is the output of a NOT gate if the input is 0.2V?", "a": "Logic 1 (+5V), because 0.2V is within the LOW input range."}
+    ],
+    "interview_questions": [
+        {"q": "What happens when you connect 3 inverters in a closed loop?", "a": "It forms a Ring Oscillator that generates a continuous square wave clock signal."}
+    ],
+    "cross_links": [
+        {"id": "gate_and", "name": "AND Gate (IC 7408)"},
+        {"id": "gate_nand", "name": "NAND Gate (IC 7400)"}
+    ],
+    "knowledge_graph": ["Boolean Algebra", "Logic Gates", "NOT Gate (7404)", "Universal Gates"],
+    "experiment_id": "half_adder"
+}

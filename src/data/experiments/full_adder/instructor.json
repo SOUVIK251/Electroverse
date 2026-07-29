@@ -1,0 +1,5 @@
+{
+    "foundation": "Full Adders build upon Half Adders by accepting a Carry-In (Cin) from a preceding lower bit stage. Connect XOR (7486), AND (7408), and OR (7432) gates.",
+    "optimization": "In Stage 2, notice how 9 NAND gates (IC 7400) implement both Sum and Carry Out without needing dedicated adder ICs.",
+    "industrial": "In Stage 3, reconstruct the Full Adder using only NOR gates (IC 7402) to verify DeMorgan dual circuit synthesis."
+}

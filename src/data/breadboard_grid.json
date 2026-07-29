@@ -1,0 +1,20 @@
+{
+    "version": "1.0",
+    "last_updated": "2026",
+    "source": "Tinkercad Circuits Solderless Breadboard Standard Grid Specification",
+    "grid_spacing_px": 14,
+    "total_rows": 30,
+    "top_power_rails": {
+        "vcc_row": {"y_offset": 20, "color": "#ef4444", "rail_name": "+5V Power Rail"},
+        "gnd_row": {"y_offset": 36, "color": "#1e293b", "rail_name": "GND Ground Rail"}
+    },
+    "terminal_strips": {
+        "top_bank": {"columns": ["A", "B", "C", "D", "E"], "y_offsets": [70, 84, 98, 112, 126]},
+        "dip_center_gap": {"y_offset": 140, "gap_height": 28},
+        "bottom_bank": {"columns": ["F", "G", "H", "I", "J"], "y_offsets": [168, 182, 196, 210, 224]}
+    },
+    "bottom_power_rails": {
+        "vcc_row": {"y_offset": 258, "color": "#ef4444", "rail_name": "+5V Power Rail"},
+        "gnd_row": {"y_offset": 274, "color": "#1e293b", "rail_name": "GND Ground Rail"}
+    }
+}

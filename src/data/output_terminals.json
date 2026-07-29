@@ -1,0 +1,11 @@
+{
+    "version": "1.0",
+    "last_updated": "2026",
+    "source": "Digital Electronics Trainer Kit Output Specification",
+    "terminals": [
+        {"id": "OUT_Y0", "label": "Output Y0", "voltage": 0.0, "logic": 0, "color": "#10b981", "led": "OFF"},
+        {"id": "OUT_Y1", "label": "Output Y1", "voltage": 0.0, "logic": 0, "color": "#10b981", "led": "OFF"},
+        {"id": "OUT_Y2", "label": "Output Y2", "voltage": 0.0, "logic": 0, "color": "#10b981", "led": "OFF"},
+        {"id": "OUT_Y3", "label": "Output Y3", "voltage": 0.0, "logic": 0, "color": "#10b981", "led": "OFF"}
+    ]
+}

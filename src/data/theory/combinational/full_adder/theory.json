@@ -1,0 +1,63 @@
+{
+    "id": "full_adder",
+    "title": "1-Bit Full Adder Circuit",
+    "category": "Combinational Circuits",
+    "difficulty": "★★★☆☆",
+    "est_time": "20 Mins",
+    "prerequisites": ["1-Bit Half Adder"],
+    "summary": "A Full Adder adds three 1-bit binary inputs: A, B, and Carry-In (Cin). It produces two outputs: Sum (S) and Carry-Out (Cout).",
+    "images": [
+        {"type": "symbol", "title": "Full Adder Block Diagram", "caption": "Inputs A, B, Cin and Outputs Sum, Cout.", "path": "assets/components/adders/full_adder_block.png"},
+        {"type": "circuit", "title": "Gate Schematic", "caption": "Full Adder using 2 XOR (7486), 2 AND (7408), and 1 OR (7432).", "path": "assets/components/adders/full_adder_schematic.png"}
+    ],
+    "working_principle": "Full Adder logic: Sum = A ⊕ B ⊕ Cin, Cout = (A·B) + (Cin·(A⊕B)). It cascades to form multi-bit parallel adders.",
+    "truth_table": {
+        "inputs": ["A", "B", "Cin"],
+        "outputs": ["Sum (S)", "Cout"],
+        "rows": [
+            {"inputs": [0, 0, 0], "outputs": [0, 0]},
+            {"inputs": [0, 0, 1], "outputs": [1, 0]},
+            {"inputs": [0, 1, 0], "outputs": [1, 0]},
+            {"inputs": [0, 1, 1], "outputs": [0, 1]},
+            {"inputs": [1, 0, 0], "outputs": [1, 0]},
+            {"inputs": [1, 0, 1], "outputs": [0, 1]},
+            {"inputs": [1, 1, 0], "outputs": [0, 1]},
+            {"inputs": [1, 1, 1], "outputs": [1, 1]}
+        ]
+    },
+    "boolean_equation": "Sum = A ⊕ B ⊕ Cin,  Cout = (A·B) + (Cin·(A⊕B))",
+    "applications": [
+        "N-bit Ripple Carry Adders in Processors",
+        "ALU Addition and Subtraction (using 2's complement)",
+        "Address Incrementers in Program Counters"
+    ],
+    "advantages": [
+        "Supports Carry-In for cascading multi-bit addition",
+        "Can be built from 2 Half Adders and 1 OR gate"
+    ],
+    "disadvantages": [
+        "Ripple carry propagation delay scales linearly with N bits (O(N))"
+    ],
+    "common_mistakes": [
+        "Confusing Carry-In (Cin) with Carry-Out (Cout).",
+        "Miswiring the OR gate combining the two Half Adder carry outputs."
+    ],
+    "quick_notes": [
+        "Sum = A ⊕ B ⊕ Cin",
+        "Cout = (A·B) + (Cin · (A ⊕ B))",
+        "Requires 9 NAND gates to synthesize with Universal Gates."
+    ],
+    "viva_questions": [
+        {"q": "How many gates are required to build a Full Adder using basic gates?", "a": "2 XOR gates, 2 AND gates, and 1 OR gate."},
+        {"q": "What is the difference between a Half Adder and a Full Adder?", "a": "A Half Adder accepts 2 inputs (A, B), while a Full Adder accepts 3 inputs (A, B, Cin)."}
+    ],
+    "interview_questions": [
+        {"q": "How many 2:1 Multiplexers are needed to build a Full Adder?", "a": "2 MUXes for Sum and 2 MUXes for Cout (Total 4 MUXes)."}
+    ],
+    "cross_links": [
+        {"id": "half_adder", "name": "1-Bit Half Adder"},
+        {"id": "gate_xor", "name": "XOR Gate (IC 7486)"}
+    ],
+    "knowledge_graph": ["Half Adder", "Full Adder", "Ripple Carry Adder", "ALU"],
+    "experiment_id": "full_adder"
+}

@@ -1,0 +1,14 @@
+{
+    "version": "1.0",
+    "last_updated": "2026",
+    "source": "ElectroVerse UI Design System",
+    "categories": [
+        {"id": "gates", "name": "Logic Gates", "icon": "fa5s.microchip"},
+        {"id": "ics", "name": "74-Series ICs", "icon": "fa5s.memory"},
+        {"id": "passives", "name": "Passive Components", "icon": "fa5s.wave-square"},
+        {"id": "inputs", "name": "Inputs & Switches", "icon": "fa5s.toggle-on"},
+        {"id": "outputs", "name": "Outputs & Indicators", "icon": "fa5s.lightbulb"},
+        {"id": "power", "name": "Power Supplies", "icon": "fa5s.bolt"},
+        {"id": "displays", "name": "7-Segment Displays", "icon": "fa5s.digital-tachograph"}
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "id": "gate_xor",
+    "title": "XOR Exclusive-OR Gate (IC 7486)",
+    "category": "Logic Gates",
+    "difficulty": "★★☆☆☆",
+    "est_time": "12 Mins",
+    "prerequisites": ["NOR Gate"],
+    "summary": "An XOR gate (Exclusive-OR) produces a HIGH (1) output IF AND ONLY IF the inputs are DIFFERENT (one is 1, the other is 0). It forms the core of binary adders and parity checkers.",
+    "images": [
+        {"type": "symbol", "title": "ANSI XOR Symbol", "caption": "IEEE Symbol for 2-Input XOR Gate.", "path": "assets/components/logic_gates/xor_symbol.png"},
+        {"type": "breadboard", "title": "Breadboard Placement (IC 7486)", "caption": "IC 7486 Quad 2-Input XOR Gate on breadboard.", "path": "assets/components/logic_gates/xor_breadboard.png"}
+    ],
+    "working_principle": "The XOR gate evaluates Y = A ⊕ B = A·B' + A'·B. When inputs are equal (00 or 11), output is 0. When inputs differ (01 or 10), output is 1.",
+    "truth_table": {
+        "inputs": ["A", "B"],
+        "outputs": ["Y (A ⊕ B)"],
+        "rows": [
+            {"inputs": [0, 0], "outputs": [0]},
+            {"inputs": [0, 1], "outputs": [1]},
+            {"inputs": [1, 0], "outputs": [1]},
+            {"inputs": [1, 1], "outputs": [0]}
+        ]
+    },
+    "boolean_equation": "Y = A ⊕ B  (= A·B' + A'·B)",
+    "applications": [
+        "Half Adder and Full Adder Sum Computation",
+        "Parity Generator and Parity Checker Networks",
+        "Controllable Inverter (Tie one input to HIGH to invert the other)"
+    ],
+    "advantages": [
+        "Directly calculates binary sum bit",
+        "Can act as a programmable controlled inverter"
+    ],
+    "disadvantages": [
+        "Requires 4 NAND gates to implement"
+    ],
+    "common_mistakes": [
+        "Expecting output 1 when both inputs are 1 (That is standard OR logic, XOR outputs 0 when inputs match!)."
+    ],
+    "quick_notes": [
+        "IC 7486 contains 4 independent 2-input XOR gates.",
+        "Pin 14 is VCC (+5V), Pin 7 is GND.",
+        "Gate 1: Pins 1 (1A), 2 (1B) -> Pin 3 (1Y)."
+    ],
+    "viva_questions": [
+        {"q": "What is the Boolean expression for an XOR gate?", "a": "Y = A ⊕ B = A·B' + A'·B."},
+        {"q": "How can an XOR gate act as a Controlled Inverter?", "a": "Tie input B to 1 (+5V). Then Y = A ⊕ 1 = A', acting as a NOT gate."}
+    ],
+    "interview_questions": [
+        {"q": "How many NAND gates are required to construct an XOR gate?", "a": "4 NAND gates (IC 7400)."}
+    ],
+    "cross_links": [
+        {"id": "gate_xnor", "name": "XNOR Gate (IC 74266)"},
+        {"id": "half_adder", "name": "1-Bit Half Adder"}
+    ],
+    "knowledge_graph": ["Boolean Algebra", "Logic Gates", "XOR Gate (7486)", "Half Adder"],
+    "experiment_id": "half_adder"
+}

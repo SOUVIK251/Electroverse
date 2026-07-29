@@ -1,0 +1,15 @@
+{
+    "version": "1.0",
+    "last_updated": "2026",
+    "source": "Digital Electronics Trainer Kit Input Specification",
+    "terminals": [
+        {"id": "IN_A", "label": "Input A", "voltage": 0.0, "logic": 0, "color": "#06b6d4"},
+        {"id": "IN_B", "label": "Input B", "voltage": 0.0, "logic": 0, "color": "#06b6d4"},
+        {"id": "IN_C", "label": "Input C", "voltage": 0.0, "logic": 0, "color": "#06b6d4"},
+        {"id": "IN_D", "label": "Input D", "voltage": 0.0, "logic": 0, "color": "#06b6d4"},
+        {"id": "IN_E", "label": "Input E", "voltage": 0.0, "logic": 0, "color": "#06b6d4"},
+        {"id": "IN_F", "label": "Input F", "voltage": 0.0, "logic": 0, "color": "#06b6d4"},
+        {"id": "IN_G", "label": "Input G", "voltage": 0.0, "logic": 0, "color": "#06b6d4"},
+        {"id": "IN_H", "label": "Input H", "voltage": 0.0, "logic": 0, "color": "#06b6d4"}
+    ]
+}

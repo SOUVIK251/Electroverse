@@ -17,10 +17,10 @@ from src.core.theme import switch_theme
 from src.ui.dashboard import DashboardView
 from src.ui.toolkit import ToolkitView
 from src.ui.simulation import SimulationView
-from src.ui.oscilloscope import OscilloscopeView
+from src.ui.learning_hub import LearningHubView
 from src.ui.library import LibraryView
 from src.ui.learning import LearningView
-from src.ui.report_gen import ReportGenView
+from src.ui.grand_viva import GrandVivaView
 from src.ui.settings import SettingsView
 
 class CustomDialog(QDialog):
@@ -31,21 +31,24 @@ class CustomDialog(QDialog):
         self.setMinimumSize(450, 300)
         self.setStyleSheet("""
             QDialog {
-                background-color: #0b0f19;
-                border: 1px solid #1e293b;
+                background-color: #141B2D;
+                border: 1px solid #26334D;
+                border-radius: 12px;
             }
             QLabel {
-                color: #f8fafc;
+                color: #FFFFFF;
             }
             QPushButton {
-                background-color: #1e293b;
-                border: 1px solid #334155;
-                color: #f8fafc;
-                border-radius: 6px;
-                padding: 6px 12px;
+                background-color: #2563EB;
+                border: 1px solid #2563EB;
+                color: #FFFFFF;
+                border-radius: 10px;
+                padding: 8px 16px;
+                font-weight: bold;
             }
             QPushButton:hover {
-                background-color: #334155;
+                background-color: #3B82F6;
+                border-color: #3B82F6;
             }
         """)
 
@@ -58,6 +61,9 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("⚡ ElectroVerse – Virtual Engineering Lab")
         self.resize(1280, 800)
         self.setMinimumSize(1024, 720)
+        
+        # Session activity tracking
+        self.session_activity = []
 
         # Central Widget
         self.central_widget = QWidget()
@@ -112,10 +118,10 @@ class MainWindow(QMainWindow):
         self.sidebar_toggle_btn.clicked.connect(self.toggle_sidebar)
 
         logo_label = QLabel("⚡")
-        logo_label.setStyleSheet("font-size: 20pt; font-weight: bold; color: #10b981;")
+        logo_label.setStyleSheet("font-size: 20pt; font-weight: bold; color: #06B6D4;")
         
         self.title_label = QLabel("ElectroVerse")
-        self.title_label.setStyleSheet("font-size: 14pt; font-weight: bold; letter-spacing: 1px;")
+        self.title_label.setStyleSheet("font-size: 14pt; font-weight: bold; letter-spacing: 1px; color: #FFFFFF;")
 
         brand_layout.addWidget(self.sidebar_toggle_btn)
         brand_layout.addWidget(logo_label)
@@ -136,15 +142,15 @@ class MainWindow(QMainWindow):
             ("Learning Mode", "fa5s.graduation-cap", 2),
             ("Engineering Toolkit", "fa5s.tools", 3),
             ("Simulation Lab", "fa5s.flask", 4),
-            ("Digital Oscilloscope", "fa5s.wave-square", 5),
-            ("PDF Report", "fa5s.file-pdf", 6),
+            ("Digital System Design Hub", "fa5s.microchip", 5),
+            ("Grand Viva & Core Interview", "fa5s.user-graduate", 6),
             ("Settings", "fa5s.cog", 7)
         ]
 
         for text, icon_str, idx in nav_items:
             btn = QToolButton()
             btn.setText(f"  {text}")
-            btn.setIcon(qta.icon(icon_str, color="#94a3b8"))
+            btn.setIcon(qta.icon(icon_str, color="#94A3B8"))
             btn.setIconSize(QSize(18, 18))
             btn.setToolButtonStyle(Qt.ToolButtonStyle.ToolButtonTextBesideIcon)
             btn.setCheckable(True)
@@ -162,13 +168,13 @@ class MainWindow(QMainWindow):
         # Footer Panel (Theme Switcher / Version / Shortcuts)
         footer_panel = QFrame()
         footer_panel.setFixedHeight(60)
-        footer_panel.setStyleSheet("border-top: 1px solid rgba(255, 255, 255, 0.05);")
+        footer_panel.setStyleSheet("border-top: 1px solid #26334D;")
         footer_layout = QHBoxLayout(footer_panel)
         footer_layout.setContentsMargins(15, 0, 15, 0)
         
         self.theme_btn = QPushButton()
         self.theme_btn.setObjectName("secondary")
-        self.theme_btn.setIcon(qta.icon("fa5s.moon", color="#94a3b8"))
+        self.theme_btn.setIcon(qta.icon("fa5s.moon", color="#94A3B8"))
         self.theme_btn.setIconSize(QSize(16, 16))
         self.theme_btn.setToolTip("Switch Light/Dark Theme (Ctrl+T)")
         self.theme_btn.setFixedSize(32, 32)
@@ -176,14 +182,14 @@ class MainWindow(QMainWindow):
 
         self.info_btn = QPushButton()
         self.info_btn.setObjectName("secondary")
-        self.info_btn.setIcon(qta.icon("fa5s.question-circle", color="#94a3b8"))
+        self.info_btn.setIcon(qta.icon("fa5s.question-circle", color="#94A3B8"))
         self.info_btn.setIconSize(QSize(16, 16))
         self.info_btn.setToolTip("Help & Keyboard Shortcuts (Ctrl+H)")
         self.info_btn.setFixedSize(32, 32)
         self.info_btn.clicked.connect(self.show_shortcuts_guide)
 
         self.version_label = QLabel("v1.0.0")
-        self.version_label.setStyleSheet("color: #475569; font-size: 8.5pt;")
+        self.version_label.setStyleSheet("color: #7A869A; font-size: 8.5pt;")
 
         footer_layout.addWidget(self.theme_btn)
         footer_layout.addWidget(self.info_btn)
@@ -202,8 +208,9 @@ class MainWindow(QMainWindow):
 
         # Header bar
         header_bar = QFrame()
+        header_bar.setObjectName("header-bar")
         header_bar.setFixedHeight(70)
-        header_bar.setStyleSheet("border-bottom: 1px solid rgba(255, 255, 255, 0.05);")
+        header_bar.setStyleSheet("QFrame#header-bar { background-color: #101827; border-bottom: 1px solid #26334D; }")
         header_layout = QHBoxLayout(header_bar)
         header_layout.setContentsMargins(25, 0, 25, 0)
 
@@ -217,7 +224,7 @@ class MainWindow(QMainWindow):
 
         # Active state banner/indicator
         self.status_indicator = QLabel("System Status: Online")
-        self.status_indicator.setStyleSheet("color: #10b981; font-size: 9.5pt; font-weight: 500;")
+        self.status_indicator.setStyleSheet("color: #22C55E; font-size: 9.5pt; font-weight: 500;")
         header_layout.addWidget(self.status_indicator)
 
         content_layout.addWidget(header_bar)
@@ -232,8 +239,8 @@ class MainWindow(QMainWindow):
             LearningView(self),     # 2
             ToolkitView(self),     # 3
             SimulationView(self),   # 4
-            OscilloscopeView(self), # 5
-            ReportGenView(self),    # 6
+            LearningHubView(self),  # 5
+            GrandVivaView(self),    # 6
             SettingsView(self)      # 7
         ]
 
@@ -255,7 +262,8 @@ class MainWindow(QMainWindow):
         QShortcut(QKeySequence("Ctrl+T"), self, self.toggle_theme_icon)
         QShortcut(QKeySequence("Ctrl+H"), self, self.show_shortcuts_guide)
         QShortcut(QKeySequence("Ctrl+D"), self, lambda: self.switch_view(0))
-        QShortcut(QKeySequence("Ctrl+K"), self, lambda: self.switch_view(3))
+        QShortcut(QKeySequence("Ctrl+S"), self, lambda: self.switch_view(4))
+        QShortcut(QKeySequence("Ctrl+L"), self, lambda: self.switch_view(1))
         QShortcut(QKeySequence("Ctrl+A"), self, self.show_about_dialog)
 
     def toggle_sidebar(self):
@@ -322,14 +330,14 @@ class MainWindow(QMainWindow):
         for i, path in enumerate(path_list):
             label = QLabel(path)
             if i == len(path_list) - 1:
-                label.setStyleSheet("color: #f8fafc; font-weight: 600; font-size: 14pt;")
+                label.setStyleSheet("color: #FFFFFF; font-weight: 600; font-size: 14pt;")
             else:
-                label.setStyleSheet("color: #64748b; font-weight: 500; font-size: 14pt;")
+                label.setStyleSheet("color: #7A869A; font-weight: 500; font-size: 14pt;")
             self.breadcrumb_layout.addWidget(label)
 
             if i < len(path_list) - 1:
                 sep = QLabel("/")
-                sep.setStyleSheet("color: #475569; font-size: 14pt;")
+                sep.setStyleSheet("color: #26334D; font-size: 14pt;")
                 self.breadcrumb_layout.addWidget(sep)
 
     def switch_view(self, idx: int):
@@ -343,10 +351,11 @@ class MainWindow(QMainWindow):
         titles = [
             "Dashboard", "Component Library", "Learning Mode",
             "Engineering Toolkit", "Simulation Lab", "Digital Oscilloscope",
-            "PDF Report", "Settings"
+            "Grand Viva & Core Interview", "Settings"
         ]
         self.set_breadcrumbs(["Lab", titles[idx]])
         self.status_bar.showMessage(f"Loaded {titles[idx]} environment.")
+        self.log_session_activity(f"Opened {titles[idx]}")
 
         # Update sidebar button checkable highlights
         for i, btn in enumerate(self.nav_buttons):
@@ -465,33 +474,64 @@ class MainWindow(QMainWindow):
         dlg.exec()
 
     def show_about_dialog(self):
-        """Displays ElectroVerse about product information."""
+        """Displays ElectroVerse about product information and creator credits."""
         dlg = CustomDialog("About ElectroVerse", self)
-        dlg.setMinimumSize(400, 280)
+        dlg.setMinimumSize(480, 420)
         
         layout = QVBoxLayout(dlg)
-        layout.setContentsMargins(30, 30, 30, 30)
+        layout.setContentsMargins(25, 25, 25, 25)
         layout.setSpacing(15)
 
         logo = QLabel("⚡")
         logo.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        logo.setStyleSheet("font-size: 32pt; color: #10b981;")
+        logo.setStyleSheet("font-size: 36pt; color: #10b981;")
 
-        title = QLabel("ElectroVerse – Engineering Lab")
+        title = QLabel("ElectroVerse – Virtual Engineering Lab")
         title.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        title.setStyleSheet("font-size: 14pt; font-weight: bold; color: #f8fafc;")
+        title.setStyleSheet("font-size: 15pt; font-weight: bold; color: #f8fafc;")
 
-        desc = QLabel("A premium desktop educational suite designed to teach, simulate, and analyze electronics engineering concepts.")
+        version = QLabel("Version 1.0.0 (Offline Edition)")
+        version.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        version.setStyleSheet("color: #06b6d4; font-weight: bold; font-size: 9pt;")
+
+        desc = QLabel(
+            "An offline, interactive desktop suite for electronics engineering education, digital logic design, virtual breadboard circuit simulation, and core interview viva preparation."
+        )
         desc.setWordWrap(True)
         desc.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        desc.setStyleSheet("color: #94a3b8; font-size: 9.5pt;")
+        desc.setStyleSheet("color: #94a3b8; font-size: 9.5pt; line-height: 1.4;")
+
+        credit_card = QFrame()
+        credit_card.setStyleSheet("""
+            QFrame {
+                background-color: #1e1b4b;
+                border: 2px solid #6366f1;
+                border-radius: 8px;
+                padding: 12px;
+            }
+        """)
+        cc_lay = QVBoxLayout(credit_card)
+        cc_lay.setSpacing(4)
+        cc_tag = QLabel("PROJECT CREATOR & LEAD DEVELOPER")
+        cc_tag.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        cc_tag.setStyleSheet("color: #818cf8; font-weight: bold; font-size: 7.5pt; letter-spacing: 1px;")
+        
+        cc_name = QLabel("Created & Developed by Souvik Kundu")
+        cc_name.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        cc_name.setStyleSheet("color: #ffffff; font-size: 12.5pt; font-weight: bold;")
+        
+        cc_lay.addWidget(cc_tag)
+        cc_lay.addWidget(cc_name)
 
         close_btn = QPushButton("Close")
+        close_btn.setStyleSheet("background-color: #06b6d4; color: white; font-weight: bold; padding: 8px 16px; border-radius: 4px;")
         close_btn.clicked.connect(dlg.accept)
 
         layout.addWidget(logo)
         layout.addWidget(title)
+        layout.addWidget(version)
         layout.addWidget(desc)
+        layout.addWidget(credit_card)
         layout.addWidget(close_btn)
         
         dlg.exec()
@@ -525,3 +565,49 @@ class MainWindow(QMainWindow):
         """Save settings and geometry coordinates on exit."""
         self.save_window_state()
         super().closeEvent(event)
+
+    def log_session_activity(self, action_text: str):
+        """Logs user session action and refreshes Dashboard if displayed."""
+        if not action_text:
+            return
+        # Avoid consecutive duplicates
+        if self.session_activity and self.session_activity[0] == action_text:
+            return
+        self.session_activity.insert(0, action_text)
+        if len(self.session_activity) > 5:
+            self.session_activity = self.session_activity[:5]
+        
+        # If dashboard is visible, refresh it
+        if hasattr(self, "views") and len(self.views) > 0:
+            dashboard = self.views[0]
+            if hasattr(dashboard, "refresh_activity_logs"):
+                dashboard.refresh_activity_logs()
+
+    def navigate_to_component(self, comp_id: str):
+        """Helper to switch to Component Library and select a component by ID."""
+        self.switch_view(1)
+        library_view = self.views[1]
+        if hasattr(library_view, "select_component_by_id"):
+            library_view.select_component_by_id(comp_id)
+
+    def navigate_to_lesson(self, lesson_id: str):
+        """Helper to switch to Learning Mode and load a lesson by ID."""
+        self.switch_view(2)
+        learning_view = self.views[2]
+        if hasattr(learning_view, "load_lesson"):
+            learning_view.load_lesson(lesson_id)
+
+    def navigate_to_calculator(self, calc_index: int):
+        """Helper to switch to Toolkit and load a calculator by index."""
+        self.switch_view(3)
+        toolkit_view = self.views[3]
+        if hasattr(toolkit_view, "list_widget"):
+            toolkit_view.list_widget.setCurrentRow(calc_index)
+
+    def navigate_to_simulation(self, sim_index: int):
+        """Helper to switch to Simulation Lab and load a simulation by index."""
+        self.switch_view(4)
+        simulation_view = self.views[4]
+        if hasattr(simulation_view, "list_widget"):
+            simulation_view.list_widget.setCurrentRow(sim_index)
+

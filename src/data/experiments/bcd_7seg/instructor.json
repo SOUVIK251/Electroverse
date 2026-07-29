@@ -1,0 +1,5 @@
+{
+    "foundation": "Each segment (a through g) of a 7-segment LED display is driven by Boolean expressions combining NOT (7404), 2-input AND (7408), 3-input AND (7411), and OR (7432) gates.",
+    "optimization": "In Stage 2, NAND-NAND logic replaces AND-OR logic directly using IC 7400.",
+    "industrial": "In Stage 3, NOR-NOR logic replaces OR-AND logic directly using IC 7402."
+}

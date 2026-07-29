@@ -10,6 +10,7 @@ from PySide6.QtCore import Qt, QSize, Signal
 from PySide6.QtGui import QPixmap, QColor, QFont, QCursor
 import qtawesome as qta
 from src.core.logger import log
+from src.core.config import config_manager
 
 # Global cache for downloaded remote images
 _remote_image_cache = {}
@@ -375,7 +376,8 @@ class LibraryView(QWidget):
     def load_components_data(self):
         """Scans the src/data/components/ directory and loads JSON databases."""
         self.components_db = {}
-        data_dir = "src/data/components"
+        project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        data_dir = os.path.join(project_root, "src", "data", "components")
         if os.path.exists(data_dir):
             for file in os.listdir(data_dir):
                 if file.endswith(".json"):
@@ -386,6 +388,16 @@ class LibraryView(QWidget):
                             self.components_db[data["id"]] = data
                     except Exception as e:
                         log.error(f"Error loading component JSON: {e}")
+                        
+        # Load image manifest if available
+        self.images_manifest = {}
+        manifest_path = os.path.join(project_root, "src", "data", "component_images.json")
+        if os.path.exists(manifest_path):
+            try:
+                with open(manifest_path, 'r', encoding='utf-8') as mf:
+                    self.images_manifest = json.load(mf)
+            except Exception as e:
+                log.error(f"Error loading component_images.json manifest: {e}")
                         
     def build_categories_tree(self):
         """Groups loaded components into their 12 categories and populates the tree."""
@@ -563,12 +575,19 @@ class LibraryView(QWidget):
         dialog.exec()
 
     def on_item_clicked(self, item):
-        """Displays the selected component in the details pane."""
+        """Displays the selected component in the redesigned details pane."""
+        from PySide6.QtWidgets import QTableWidget, QTableWidgetItem, QHeaderView, QRadioButton, QButtonGroup, QTabWidget, QListWidget, QListWidgetItem
+        
         comp_id = item.data(0, Qt.ItemDataRole.UserRole)
         if not comp_id or comp_id not in self.components_db:
             return
             
         comp = self.components_db[comp_id]
+        
+        # Log this session action
+        main_win = self.window()
+        if main_win and hasattr(main_win, "log_session_activity"):
+            main_win.log_session_activity(f"Inspected {comp['name']}")
         
         # Clear right panel
         while self.right_layout.count():
@@ -588,7 +607,7 @@ class LibraryView(QWidget):
             }
         """)
         header_layout = QVBoxLayout(header_card)
-        header_layout.setContentsMargins(10, 10, 10, 10)
+        header_layout.setContentsMargins(15, 15, 15, 15)
         
         title_row = QHBoxLayout()
         name_lbl = QLabel(comp["name"])
@@ -608,7 +627,44 @@ class LibraryView(QWidget):
             font-weight: bold;
         """)
         title_row.addWidget(diff_lbl)
+        
         title_row.addStretch()
+        
+        # Star/Favorite Toggle Button
+        self.star_btn = QPushButton()
+        self.star_btn.setFixedSize(32, 32)
+        self.star_btn.setCursor(Qt.CursorShape.PointingHandCursor)
+        favs = config_manager.get("favorites") or []
+        is_fav = comp_id in favs
+        self.star_btn.setIcon(qta.icon("fa5s.star", color="#f59e0b" if is_fav else "#475569"))
+        self.star_btn.setToolTip("Mark Component as Favorite")
+        self.star_btn.clicked.connect(lambda: self.toggle_component_favorite(comp_id))
+        title_row.addWidget(self.star_btn)
+        
+        # Open Datasheet Button
+        ds_btn = QPushButton(" Datasheet")
+        ds_btn.setIcon(qta.icon("fa5s.file-pdf", color="#ffffff"))
+        ds_btn.setStyleSheet("""
+            QPushButton {
+                background-color: #334155;
+                color: #f8fafc;
+                border: none;
+                border-radius: 4px;
+                padding: 6px 12px;
+                font-weight: bold;
+                font-size: 9pt;
+            }
+            QPushButton:hover {
+                background-color: #475569;
+            }
+        """)
+        # Find datasheet URL or default to alldatasheet
+        ds_url = comp.get("references", "https://www.alldatasheet.com/")
+        if not ds_url or "http" not in ds_url:
+            ds_url = f"https://www.alldatasheet.com/view.jsp?SearchVal={comp['name']}"
+        ds_btn.clicked.connect(lambda: self.open_datasheet_url(ds_url))
+        title_row.addWidget(ds_btn)
+        
         header_layout.addLayout(title_row)
         
         cat_lbl = QLabel(f"Category: {comp.get('category', 'Miscellaneous')}")
@@ -620,141 +676,391 @@ class LibraryView(QWidget):
         desc_lbl.setStyleSheet("color: #94a3b8; font-size: 10.5pt; margin-top: 8px; line-height: 1.45;")
         header_layout.addWidget(desc_lbl)
         
-        uses_lbl = QLabel(f"Common Uses: {comp.get('common_uses', 'N/A')}")
-        uses_lbl.setWordWrap(True)
-        uses_lbl.setStyleSheet("color: #64748b; font-size: 9pt; font-style: italic; margin-top: 8px;")
-        header_layout.addWidget(uses_lbl)
-        
         self.right_layout.addWidget(header_card)
         
-        # 2. Quick Facts Grid Card
+        # 2. Component at a Glance Summary Card
+        glance_card = QFrame()
+        glance_card.setObjectName("glance-card")
+        glance_card.setStyleSheet("""
+            QFrame#glance-card {
+                background-color: #111827;
+                border: 1px solid #1e293b;
+                border-radius: 8px;
+                padding: 12px;
+            }
+        """)
+        glance_layout = QGridLayout(glance_card)
+        glance_layout.setSpacing(12)
+        
         facts = comp.get("quick_facts", {})
-        if facts:
-            facts_card = QFrame()
-            facts_card.setObjectName("facts-card")
-            facts_card.setStyleSheet("""
-                QFrame#facts-card {
+        glance_items = [
+            ("Category", comp.get("category", "N/A")),
+            ("Difficulty", comp.get("difficulty", "Beginner")),
+            ("Pins", facts.get("symbol", "N/A")),  # Fallback to symbol label or generic
+            ("Default Package", "DIP" if "ic" in comp_id else "Axial/Through-hole"),
+            ("Typical Supply", facts.get("typical_voltage", "N/A")),
+            ("Used In", comp.get("common_uses", "N/A")[:45] + "..."),
+            ("Symbol Status", "Active" if "symbol" in comp.get("images", {}) else "N/A")
+        ]
+        
+        # Read verified pins counts if in database
+        pin_list = self.get_component_pins_metadata(comp_id)
+        if pin_list:
+            glance_items[2] = ("Pins Count", f"{len(pin_list)} Pins")
+            glance_items[3] = ("Default Package", pin_list[0].get("package", "DIP-8"))
+            
+        for index, (k, v) in enumerate(glance_items):
+            col = index % 4
+            row = index // 4
+            cell = QWidget()
+            c_lay = QVBoxLayout(cell)
+            c_lay.setContentsMargins(0, 0, 0, 0)
+            c_lay.setSpacing(2)
+            k_lbl = QLabel(k)
+            k_lbl.setStyleSheet("color: #64748b; font-size: 7.5pt; text-transform: uppercase; font-weight: bold;")
+            v_lbl = QLabel(str(v))
+            v_lbl.setStyleSheet("color: #e2e8f0; font-size: 9.5pt; font-weight: 500;")
+            v_lbl.setWordWrap(True)
+            c_lay.addWidget(k_lbl)
+            c_lay.addWidget(v_lbl)
+            glance_layout.addWidget(cell, row, col)
+            
+        self.right_layout.addWidget(glance_card)
+        
+        # 3. Interactive Component Explorer Widget
+        explorer_card = QFrame()
+        explorer_card.setObjectName("explorer-card")
+        explorer_card.setStyleSheet("""
+            QFrame#explorer-card {
+                background-color: #0f172a;
+                border: 1px solid #1e293b;
+                border-radius: 8px;
+                padding: 15px;
+            }
+        """)
+        explorer_layout = QVBoxLayout(explorer_card)
+        
+        exp_title = QLabel("Interactive Component Explorer")
+        exp_title.setStyleSheet("font-weight: bold; color: #f8fafc; font-size: 11pt; margin-bottom: 8px;")
+        explorer_layout.addWidget(exp_title)
+        
+        # Views TabWidget
+        views_tabs = QTabWidget()
+        views_tabs.setStyleSheet("""
+            QTabWidget::pane {
+                border: 1px solid #1e293b;
+                background-color: #0b0f19;
+                border-radius: 4px;
+            }
+            QTabBar::tab {
+                background-color: #1e293b;
+                color: #94a3b8;
+                padding: 6px 12px;
+                border-top-left-radius: 4px;
+                border-top-right-radius: 4px;
+            }
+            QTabBar::tab:selected {
+                background-color: #06b6d4;
+                color: #ffffff;
+            }
+        """)
+        
+        # Retrieve images from manifest (with fallback to comp['images'])
+        images_config = {}
+        if hasattr(self, "images_manifest") and comp_id in self.images_manifest:
+            images_config = self.images_manifest[comp_id]
+        else:
+            images_config = comp.get("images", {})
+            
+        category_mappings = [
+            ("real_photo", "Real Photo"),
+            ("symbol", "Circuit Symbol"),
+            ("internal_structure", "Internal Structure"),
+            ("example_circuit", "Example Circuit"),
+            ("pin_diagram", "Pin Diagram"),
+            ("vi_characteristics", "V-I Characteristics"),
+            ("waveform_diagram", "Waveform Diagram"),
+            ("equivalent_circuit", "Equivalent Circuit"),
+            ("types_diagram", "Component Types")
+        ]
+        
+        valid_tabs_count = 0
+        for key, name in category_mappings:
+            path = images_config.get(key)
+            if path and str(path).strip():
+                box = self.create_image_container(name, path)
+                if box:
+                    tab_widget = QWidget()
+                    t_lay = QVBoxLayout(tab_widget)
+                    t_lay.setContentsMargins(10, 10, 10, 10)
+                    t_lay.addWidget(box)
+                    views_tabs.addTab(tab_widget, name)
+                    valid_tabs_count += 1
+                    
+        if valid_tabs_count == 0:
+            tab_widget = QWidget()
+            t_lay = QVBoxLayout(tab_widget)
+            t_lay.setContentsMargins(10, 10, 10, 10)
+            empty_lbl = QLabel("Educational visuals for this component are currently being compiled.")
+            empty_lbl.setStyleSheet("color: #64748b; font-style: italic; font-size: 9.5pt;")
+            empty_lbl.setAlignment(Qt.AlignmentFlag.AlignCenter)
+            t_lay.addWidget(empty_lbl)
+            views_tabs.addTab(tab_widget, "Overview")
+            
+        explorer_layout.addWidget(views_tabs)
+        self.right_layout.addWidget(explorer_card)
+        
+        # 4. Package Comparison Matrix (if supported component)
+        package_info = self.get_component_package_matrix(comp_id)
+        if package_info:
+            compare_card = QFrame()
+            compare_card.setObjectName("compare-card")
+            compare_card.setStyleSheet("""
+                QFrame#compare-card {
                     background-color: #0f172a;
                     border: 1px solid #1e293b;
                     border-radius: 8px;
                     padding: 15px;
                 }
             """)
-            facts_layout = QVBoxLayout(facts_card)
+            compare_layout = QVBoxLayout(compare_card)
+            c_title = QLabel("Package Comparison Matrix")
+            c_title.setStyleSheet("font-weight: bold; color: #f8fafc; font-size: 11pt; margin-bottom: 8px;")
+            compare_layout.addWidget(c_title)
             
-            fact_title = QLabel("Quick Facts")
-            fact_title.setStyleSheet("font-weight: bold; color: #f8fafc; font-size: 11pt; margin-bottom: 8px;")
-            facts_layout.addWidget(fact_title)
+            # Setup Table Widget
+            headers = package_info["headers"]
+            rows = package_info["rows"]
             
-            grid = QGridLayout()
-            grid.setSpacing(12)
+            tbl = QTableWidget(len(rows), len(headers))
+            tbl.setHorizontalHeaderLabels(headers)
+            tbl.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeMode.Stretch)
+            tbl.verticalHeader().setVisible(False)
+            tbl.setEditTriggers(QTableWidget.EditTrigger.NoEditTriggers)
+            tbl.setStyleSheet("""
+                QTableWidget {
+                    background-color: #0b0f19;
+                    color: #f8fafc;
+                    gridline-color: #1e293b;
+                    border: 1px solid #1e293b;
+                }
+                QHeaderView::section {
+                    background-color: #1e293b;
+                    color: #06b6d4;
+                    font-weight: bold;
+                    padding: 6px;
+                    border: none;
+                }
+            """)
             
-            items = [
-                ("Symbol", facts.get("symbol", "N/A")),
-                ("Unit", facts.get("unit", "N/A")),
-                ("Formula", facts.get("formula", "N/A")),
-                ("Passive / Active", facts.get("passive_active", "N/A")),
-                ("Polarized", facts.get("polarized", "N/A")),
-                ("Typical Voltage", facts.get("typical_voltage", "N/A")),
-                ("Typical Current", facts.get("typical_current", "N/A")),
-                ("Freq Limits", facts.get("operating_frequency", "N/A"))
-            ]
-            
-            for index, (k, v) in enumerate(items):
-                col = index % 4
-                row = index // 4
-                
-                cell = QWidget()
-                cell_layout = QVBoxLayout(cell)
-                cell_layout.setContentsMargins(0, 0, 0, 0)
-                cell_layout.setSpacing(2)
-                
-                k_lbl = QLabel(k)
-                k_lbl.setStyleSheet("color: #64748b; font-size: 8pt; text-transform: uppercase; font-weight: bold;")
-                v_lbl = QLabel(str(v))
-                v_lbl.setStyleSheet("color: #e2e8f0; font-size: 10pt; font-weight: 500;")
-                
-                cell_layout.addWidget(k_lbl)
-                cell_layout.addWidget(v_lbl)
-                grid.addWidget(cell, row, col)
-                
-            facts_layout.addLayout(grid)
-            self.right_layout.addWidget(facts_card)
-            
-        # 3. Dynamic Technical Image Gallery (Adaptive UI - Hides completely if no images exist)
-        images_config = comp.get("images", {})
-        if images_config:
-            valid_containers = []
-            for label_key, path in images_config.items():
-                if comp_id == "inductor" and label_key == "example_circuit":
-                    friendly_label = "Types of Inductor"
-                elif comp_id == "thermistor" and label_key == "example_circuit":
-                    friendly_label = "Types of Thermistor"
-                elif comp_id == "capacitor" and label_key == "example_circuit":
-                    friendly_label = "Types of Capacitor"
-                elif comp_id == "led" and label_key == "pin_diagram":
-                    friendly_label = "Characteristics"
-                elif comp_id == "led" and label_key == "real_photo":
-                    friendly_label = "V-I Characteristics"
-                elif comp_id == "resistor" and label_key == "example_circuit":
-                    friendly_label = "Resistor Color Code"
-                elif comp_id == "tunnel_diode" and label_key == "example_circuit":
-                    friendly_label = "V-I Characteristics"
-                elif comp_id == "varactor_diode" and label_key == "pin_diagram":
-                    friendly_label = "Characteristics"
-                elif comp_id == "jfet" and label_key == "pin_diagram":
-                    friendly_label = "Types of JFET"
-                elif comp_id == "mosfet" and label_key == "example_circuit":
-                    friendly_label = "Types of MOSFET"
-                elif comp_id == "mosfet" and label_key == "pin_diagram":
-                    friendly_label = "Enhancement MOSFET vs Depletion MOSFET"
-                elif comp_id == "mosfet" and label_key == "internal_structure":
-                    friendly_label = "Construction Image"
-                elif comp_id == "555_timer" and label_key == "real_photo":
-                    friendly_label = "Real Photo and Pin Diagram"
-                elif comp_id == "555_timer" and label_key == "symbol":
-                    friendly_label = "Schematic View of 555 Timer"
-                elif comp_id == "ultrasonic_sensor" and label_key == "symbol":
-                    friendly_label = "Functions of Pin"
-                elif comp_id == "diac" and label_key == "pin_diagram":
-                    friendly_label = "V-I Characteristics"
-                elif comp_id == "circuit_breaker_mcb" and label_key == "example_circuit":
-                    friendly_label = "Types of MCB"
-                else:
-                    friendly_label = label_key.replace("_", " ").title()
-                box = self.create_image_container(friendly_label, path)
-                if box:
-                    valid_containers.append(box)
+            for r, row_data in enumerate(rows):
+                for c, val in enumerate(row_data):
+                    tbl.setItem(r, c, QTableWidgetItem(val))
                     
-            if valid_containers:
-                gallery_card = QFrame()
-                gallery_card.setObjectName("gallery-card")
-                gallery_card.setStyleSheet("""
-                    QFrame#gallery-card {
-                        background-color: #0f172a;
-                        border: 1px solid #1e293b;
-                        border-radius: 8px;
-                        padding: 15px;
-                    }
-                """)
-                gallery_layout = QVBoxLayout(gallery_card)
+            compare_layout.addWidget(tbl)
+            self.right_layout.addWidget(compare_card)
+            
+        # 5. Advanced Pinout Explorer
+        if pin_list:
+            pinout_card = QFrame()
+            pinout_card.setObjectName("pinout-card")
+            pinout_card.setStyleSheet("""
+                QFrame#pinout-card {
+                    background-color: #0f172a;
+                    border: 1px solid #1e293b;
+                    border-radius: 8px;
+                    padding: 15px;
+                }
+            """)
+            pinout_layout = QVBoxLayout(pinout_card)
+            
+            p_title = QLabel("Advanced Pinout Explorer")
+            p_title.setStyleSheet("font-weight: bold; color: #f8fafc; font-size: 11pt; margin-bottom: 8px;")
+            pinout_layout.addWidget(p_title)
+            
+            splitter = QSplitter(Qt.Orientation.Horizontal)
+            splitter.setStyleSheet("background: transparent;")
+            
+            # Left: Interactive Pin List
+            pin_list_widget = QListWidget()
+            pin_list_widget.setStyleSheet("""
+                QListWidget {
+                    background-color: #0b0f19;
+                    border: 1px solid #1e293b;
+                    border-radius: 6px;
+                    color: #f8fafc;
+                }
+                QListWidget::item {
+                    padding: 8px 10px;
+                    border-bottom: 1px solid #1e293b;
+                }
+                QListWidget::item:hover {
+                    background-color: #1e293b;
+                    color: #06b6d4;
+                }
+                QListWidget::item:selected {
+                    background-color: #1e293b;
+                    color: #06b6d4;
+                    font-weight: bold;
+                }
+            """)
+            
+            for pin in pin_list:
+                pin_list_widget.addItem(f"Pin {pin['num']}: {pin['name']}")
                 
-                gallery_title = QLabel("Technical Diagrams & Imagery")
-                gallery_title.setStyleSheet("font-weight: bold; color: #f8fafc; font-size: 11pt; margin-bottom: 8px;")
-                gallery_layout.addWidget(gallery_title)
+            # Right: Pin Details Card
+            detail_card = QFrame()
+            detail_card.setStyleSheet("background-color: #111827; border: 1px solid #1e293b; border-radius: 6px;")
+            dt_lay = QVBoxLayout(detail_card)
+            dt_lay.setContentsMargins(10, 10, 10, 10)
+            
+            self.p_num_lbl = QLabel("Select a pin on the left to inspect electrical characteristics.")
+            self.p_num_lbl.setStyleSheet("color: #06b6d4; font-weight: bold; font-size: 11pt;")
+            self.p_num_lbl.setWordWrap(True)
+            
+            self.p_func_lbl = QLabel("")
+            self.p_func_lbl.setStyleSheet("color: #e2e8f0; font-size: 9.5pt;")
+            self.p_func_lbl.setWordWrap(True)
+            
+            self.p_specs_lbl = QLabel("")
+            self.p_specs_lbl.setStyleSheet("color: #94a3b8; font-size: 9pt; line-height: 1.4;")
+            self.p_specs_lbl.setWordWrap(True)
+            
+            dt_lay.addWidget(self.p_num_lbl)
+            dt_lay.addWidget(self.p_func_lbl)
+            dt_lay.addWidget(self.p_specs_lbl)
+            dt_lay.addStretch()
+            
+            # Interactive selection handler
+            def on_pin_selected(item_row):
+                pin = pin_list[item_row]
+                self.p_num_lbl.setText(f"Pin {pin['num']} — {pin['name']}")
+                self.p_func_lbl.setText(f"Function:\n{pin['func']}")
+                self.p_specs_lbl.setText(
+                    f"Signal Type: {pin['type']}\n"
+                    f"Typical Voltage: {pin['volt']}\n"
+                    f"Typical Current: {pin['curr']}\n\n"
+                    f"💡 Connection Tip:\n{pin['tip']}\n\n"
+                    f"⚠️ Common Mistake:\n{pin['mistake']}"
+                )
                 
-                gallery_grid = QGridLayout()
-                gallery_grid.setSpacing(10)
+            pin_list_widget.currentRowChanged.connect(on_pin_selected)
+            if pin_list:
+                pin_list_widget.setCurrentRow(0) # Load first pin default
                 
-                for index, box in enumerate(valid_containers):
-                    col = index % 3
-                    row = index // 3
-                    gallery_grid.addWidget(box, row, col)
-                    
-                gallery_layout.addLayout(gallery_grid)
-                self.right_layout.addWidget(gallery_card)
-
-        # 4. Specifications Table Card
+            splitter.addWidget(pin_list_widget)
+            splitter.addWidget(detail_card)
+            splitter.setSizes([120, 280])
+            pinout_layout.addWidget(splitter)
+            self.right_layout.addWidget(pinout_card)
+            
+        # 6. Equivalent, Selection Guide, and Related Parts card
+        extra_info = self.get_component_extra_metadata(comp_id)
+        if extra_info:
+            edu_card = QFrame()
+            edu_card.setObjectName("edu-card")
+            edu_card.setStyleSheet("""
+                QFrame#edu-card {
+                    background-color: #0f172a;
+                    border: 1px solid #1e293b;
+                    border-radius: 8px;
+                    padding: 15px;
+                }
+            """)
+            edu_layout = QVBoxLayout(edu_card)
+            
+            # Equivalents Row
+            eq_title = QLabel("Equivalent Part Numbers")
+            eq_title.setStyleSheet("font-weight: bold; color: #f8fafc; font-size: 10.5pt;")
+            edu_layout.addWidget(eq_title)
+            
+            eqs_str = ", ".join(extra_info["equivalents"])
+            eqs_lbl = QLabel(eqs_str)
+            eqs_lbl.setStyleSheet("color: #06b6d4; font-size: 9.5pt; font-weight: bold; margin-bottom: 12px;")
+            edu_layout.addWidget(eqs_lbl)
+            
+            # Selection Guide
+            sel_title = QLabel("Selection Guide")
+            sel_title.setStyleSheet("font-weight: bold; color: #f8fafc; font-size: 10.5pt;")
+            edu_layout.addWidget(sel_title)
+            
+            sel_lbl = QLabel(extra_info["selection_guide"])
+            sel_lbl.setStyleSheet("color: #94a3b8; font-size: 9.5pt; line-height: 1.45; margin-bottom: 12px;")
+            sel_lbl.setWordWrap(True)
+            edu_layout.addWidget(sel_lbl)
+            
+            # Manufacturers Examples
+            mfg_title = QLabel("Common Manufacturers")
+            mfg_title.setStyleSheet("font-weight: bold; color: #f8fafc; font-size: 10.5pt;")
+            edu_layout.addWidget(mfg_title)
+            
+            mfgs_str = ", ".join(extra_info["manufacturers"])
+            mfg_lbl = QLabel(mfgs_str)
+            mfg_lbl.setStyleSheet("color: #e2e8f0; font-size: 9.5pt; margin-bottom: 12px;")
+            edu_layout.addWidget(mfg_lbl)
+            
+            # Related Components Links
+            rel_title = QLabel("Related Parts (Click to view)")
+            rel_title.setStyleSheet("font-weight: bold; color: #f8fafc; font-size: 10.5pt; margin-bottom: 5px;")
+            edu_layout.addWidget(rel_title)
+            
+            btn_layout = QHBoxLayout()
+            for rel_id in extra_info["related"]:
+                rel_name = rel_id.replace("_", " ").title()
+                rel_btn = QPushButton(rel_name)
+                rel_btn.setObjectName("secondary")
+                rel_btn.setCursor(Qt.CursorShape.PointingHandCursor)
+                rel_btn.clicked.connect(lambda checked=False, target_cid=rel_id: self.select_component_by_id(target_cid))
+                btn_layout.addWidget(rel_btn)
+            edu_layout.addLayout(btn_layout)
+            
+            self.right_layout.addWidget(edu_card)
+            
+        # 7. "Where is this used?" Section
+        sim_mapping = {
+            "resistor": ("Voltage Divider Visual", 8),
+            "capacitor": ("RC Charging/Discharging", 0),
+            "inductor": ("RL Transient Response", 1),
+            "pn_diode": ("Half-Wave Rectifier", 5),
+            "zener_diode": ("Series RLC Resonance", 2), # Or fallback
+            "led": ("RC Charging/Discharging", 0),
+            "555_timer": ("RC Charging/Discharging", 0) # Fallback simulator
+        }
+        
+        usage_card = QFrame()
+        usage_card.setObjectName("usage-card")
+        usage_card.setStyleSheet("""
+            QFrame#usage-card {
+                background-color: #0f172a;
+                border: 1px solid #1e293b;
+                border-radius: 8px;
+                padding: 15px;
+            }
+        """)
+        usage_layout = QVBoxLayout(usage_card)
+        u_title = QLabel("Where is this used?")
+        u_title.setStyleSheet("font-weight: bold; color: #f8fafc; font-size: 11pt; margin-bottom: 8px;")
+        usage_layout.addWidget(u_title)
+        
+        if comp_id in sim_mapping:
+            sim_name, sim_idx = sim_mapping[comp_id]
+            desc_lbl = QLabel(f"This component is actively simulated in our mathematical lab engine: {sim_name}.")
+            desc_lbl.setStyleSheet("color: #94a3b8; font-size: 9.5pt; margin-bottom: 8px;")
+            usage_layout.addWidget(desc_lbl)
+            
+            try_btn = QPushButton(" Try in Simulator")
+            try_btn.setIcon(qta.icon("fa5s.flask", color="#ffffff"))
+            try_btn.clicked.connect(lambda: self.window().navigate_to_simulation(sim_idx))
+            usage_layout.addWidget(try_btn)
+        else:
+            empty_desc = QLabel("Currently unavailable in Simulation Lab. Detailed explanations and waveforms are available in Learning Mode.")
+            empty_desc.setStyleSheet("color: #64748b; font-style: italic; font-size: 9.5pt;")
+            empty_desc.setWordWrap(True)
+            usage_layout.addWidget(empty_desc)
+            
+        self.right_layout.addWidget(usage_card)
+        
+        # 8. Specifications Table Card
         specs = comp.get("specifications", [])
         if specs:
             specs_card = QFrame()
@@ -768,7 +1074,6 @@ class LibraryView(QWidget):
                 }
             """)
             specs_layout = QVBoxLayout(specs_card)
-            
             specs_title = QLabel("Datasheet Specifications")
             specs_title.setStyleSheet("font-weight: bold; color: #f8fafc; font-size: 11pt; margin-bottom: 8px;")
             specs_layout.addWidget(specs_title)
@@ -817,7 +1122,7 @@ class LibraryView(QWidget):
             specs_layout.addLayout(table_layout)
             self.right_layout.addWidget(specs_card)
             
-        # 5. Expandable Sections (Accordion)
+        # 9. Expandable Sections (Accordion)
         sections = [
             ("Definition", comp.get("definition")),
             ("Working Principle", comp.get("working_principle")),
@@ -843,7 +1148,6 @@ class LibraryView(QWidget):
             panel = AccordionPanel(title)
             
             if title == "Interview / Viva Questions":
-                # Render question cards list
                 for index, q in enumerate(content, 1):
                     q_lbl = QLabel(f"Q{index}: {q.get('question')}")
                     q_lbl.setStyleSheet("color: #06b6d4; font-weight: bold; font-size: 9.5pt;")
@@ -854,11 +1158,9 @@ class LibraryView(QWidget):
                     panel.content_layout.addWidget(q_lbl)
                     panel.content_layout.addWidget(a_lbl)
             elif title == "Related Experiments":
-                # Render clickable buttons linking to simulator rows
                 info_lbl = QLabel("Perform virtual laboratory experiments with this component:")
                 info_lbl.setStyleSheet("color: #e2e8f0; font-size: 9.5pt; margin-bottom: 4px;")
                 panel.content_layout.addWidget(info_lbl)
-                
                 for exp in content:
                     btn = QPushButton(f"  ✓  Launch Simulation: {exp.get('name')}")
                     btn.setIcon(qta.icon("fa5s.flask", color="#ffffff"))
@@ -882,7 +1184,6 @@ class LibraryView(QWidget):
                     btn.clicked.connect(lambda checked=False, name=exp.get("name"): self.go_to_experiment(name))
                     panel.content_layout.addWidget(btn)
             else:
-                # Standard text block
                 text_lbl = QLabel(str(content))
                 text_lbl.setWordWrap(True)
                 text_lbl.setStyleSheet("color: #e2e8f0; font-size: 9.5pt; line-height: 1.45;")
@@ -891,7 +1192,200 @@ class LibraryView(QWidget):
             self.right_layout.addWidget(panel)
             
         self.right_layout.addStretch()
+
+    def select_component_by_id(self, comp_id):
+        """Finds and selects the target component in the category tree programmatically."""
+        for i in range(self.tree_widget.topLevelItemCount()):
+            cat_item = self.tree_widget.topLevelItem(i)
+            for j in range(cat_item.childCount()):
+                child = cat_item.child(j)
+                if child.data(0, Qt.ItemDataRole.UserRole) == comp_id:
+                    self.tree_widget.setCurrentItem(child)
+                    self.on_item_clicked(child)
+                    return
+
+    def toggle_component_favorite(self, comp_id):
+        """Mark or unmark a component as favorite."""
+        favs = config_manager.get("favorites") or []
+        if comp_id in favs:
+            favs.remove(comp_id)
+            self.show_toast_message(f"Removed {comp_id.replace('_', ' ').title()} from Favorites.")
+        else:
+            favs.append(comp_id)
+            self.show_toast_message(f"Added {comp_id.replace('_', ' ').title()} to Favorites.")
+            
+        config_manager.set("favorites", favs)
         
+        # Repaint star icon
+        is_fav = comp_id in favs
+        self.star_btn.setIcon(qta.icon("fa5s.star", color="#f59e0b" if is_fav else "#475569"))
+
+    def show_toast_message(self, text):
+        win = self.window()
+        if win and hasattr(win, "show_toast"):
+            win.show_toast(text)
+
+    def open_datasheet_url(self, url):
+        """Redirects to official datasheet links or alldatasheet."""
+        import webbrowser
+        webbrowser.open(url)
+
+    def get_component_pins_metadata(self, comp_id):
+        """Returns verified pins list metadata for the component."""
+        pins_db = {
+            "555_timer": [
+                {"num": 1, "name": "GND", "package": "DIP-8", "func": "Ground reference.", "type": "Ground", "volt": "0V", "curr": "0A", "tip": "Connect directly to the common ground plane.", "mistake": "Leaving unconnected causes timer malfunction."},
+                {"num": 2, "name": "TRIG", "package": "DIP-8", "func": "Initiates timing cycle when voltage drops below 1/3 VCC.", "type": "Analog Input", "volt": "0V - VCC", "curr": "<1uA", "tip": "Use pull-up resistor to VCC to keep it high until triggered.", "mistake": "Leaving floating causes noise triggers."},
+                {"num": 3, "name": "OUT", "package": "DIP-8", "func": "Main digital timing output signal.", "type": "Digital Output", "volt": "0V - VCC", "curr": "Up to 200mA", "tip": "Can drive small relays, LEDs, or speaker transducers directly.", "mistake": "Connecting to VCC or GND without load will damage the internal output stage."},
+                {"num": 4, "name": "RESET", "package": "DIP-8", "func": "Resets timing cycle when pulled below 0.4V.", "type": "Digital Input", "volt": "0V - VCC", "curr": "<1uA", "tip": "Connect to VCC if reset functionality is not needed.", "mistake": "Leaving floating triggers random resets."},
+                {"num": 5, "name": "CONT", "package": "DIP-8", "func": "Accesses the internal 2/3 VCC divider node.", "type": "Analog Input", "volt": "2/3 VCC", "curr": "<1uA", "tip": "Bypass to ground with a 10nF ceramic capacitor for stability.", "mistake": "Connecting directly to a voltage supply destroys the internal divider."},
+                {"num": 6, "name": "THRES", "package": "DIP-8", "func": "Ends timing cycle when voltage rises above 2/3 VCC.", "type": "Analog Input", "volt": "2/3 VCC", "curr": "<1uA", "tip": "Connect to external RC timing capacitor.", "mistake": "Leaving floating prevents output from turning off."},
+                {"num": 7, "name": "DISCH", "package": "DIP-8", "func": "Discharges external timing capacitor.", "type": "Open-Collector", "volt": "0V - VCC", "curr": "15mA max", "tip": "Connects to capacitor junction. Discharges cap during reset phase.", "mistake": "Connecting directly to VCC causes a direct short circuit when activated."},
+                {"num": 8, "name": "VCC", "package": "DIP-8", "func": "Positive supply voltage input.", "type": "Power Input", "volt": "4.5V - 16V", "curr": "10mA - 15mA", "tip": "Place a 0.1uF bypass capacitor close to this pin.", "mistake": "Reversing polarity or exceeding 18V will destroy the IC."}
+            ],
+            "op_amp": [
+                {"num": 1, "name": "OFFSET NULL", "package": "DIP-8", "func": "Offset voltage nulling.", "type": "Analog Input", "volt": "N/A", "curr": "N/A", "tip": "Connect to offset pot ends.", "mistake": "Applying supply voltages directly destroys inputs."},
+                {"num": 2, "name": "IN-", "package": "DIP-8", "func": "Inverting input terminal.", "type": "Analog Input", "volt": "-Vcc to +Vcc", "curr": "<1uA", "tip": "Applied feedback loops attach here.", "mistake": "Leaving floating causes op-amp to saturate."},
+                {"num": 3, "name": "IN+", "package": "DIP-8", "func": "Non-inverting input terminal.", "type": "Analog Input", "volt": "-Vcc to +Vcc", "curr": "<1uA", "tip": "Reference input voltage level goes here.", "mistake": "Exceeding common mode voltage limits."},
+                {"num": 4, "name": "V-", "package": "DIP-8", "func": "Negative voltage supply rail.", "type": "Power Input", "volt": "-5V to -15V", "curr": "5mA", "tip": "Connect to negative power supply rail.", "mistake": "Swapping supply rails destroys op-amp."},
+                {"num": 5, "name": "OFFSET NULL", "package": "DIP-8", "func": "Offset voltage nulling.", "type": "Analog Input", "volt": "N/A", "curr": "N/A", "tip": "Connect to offset pot ends.", "mistake": "Applying supply voltages directly."},
+                {"num": 6, "name": "OUT", "package": "DIP-8", "func": "Amplified analog output.", "type": "Analog Output", "volt": "-Vcc to +Vcc", "curr": "25mA", "tip": "Place small load resistor to limit output current.", "mistake": "Shorting directly to ground causes thermal overload."},
+                {"num": 7, "name": "V+", "package": "DIP-8", "func": "Positive voltage supply rail.", "type": "Power Input", "volt": "5V to 15V", "curr": "5mA", "tip": "Bypass with 0.1uF capacitor.", "mistake": "Exceeding absolute maximum supply bounds."},
+                {"num": 8, "name": "NC", "package": "DIP-8", "func": "No internal connection.", "type": "Unused", "volt": "N/A", "curr": "N/A", "tip": "Leave floating.", "mistake": "Using as circuit tie point."}
+            ],
+            "bjt": [
+                {"num": 1, "name": "Collector", "package": "TO-92", "func": "Collects majority carriers.", "type": "Analog Input/Output", "volt": "0V - 45V", "curr": "100mA max", "tip": "Connect to high potential load node.", "mistake": "Exceeding breakdown collector voltage Vceo."},
+                {"num": 2, "name": "Base", "package": "TO-92", "func": "Base control terminal.", "type": "Analog Input", "volt": "0.7V", "curr": "5mA max", "tip": "Always use a base series resistor to limit current.", "mistake": "Connecting directly to VCC without limit resistor destroys base junction."},
+                {"num": 3, "name": "Emitter", "package": "TO-92", "func": "Emits majority carriers.", "type": "Analog Output", "volt": "0V", "curr": "105mA max", "tip": "Connect to ground in common emitter mode.", "mistake": "Applying negative voltages exceeding 6V."}
+            ],
+            "mosfet": [
+                {"num": 1, "name": "Gate", "package": "TO-220", "func": "Voltage gate switcher.", "type": "Analog Input", "volt": "-20V to +20V", "curr": "<1uA", "tip": "Use gate damping resistor (100 Ohm) to suppress oscillations.", "mistake": "Leaving floating causes static accumulation and turns MOSFET ON unexpectedly."},
+                {"num": 2, "name": "Drain", "package": "TO-220", "func": "Drain current terminal.", "type": "Power Output", "volt": "0V - 100V", "curr": "Up to 28A", "tip": "Add heatsink for continuous switching loads above 2A.", "mistake": "Exceeding drain-source breakdown threshold."},
+                {"num": 3, "name": "Source", "package": "TO-220", "func": "Source current return.", "type": "Power Input", "volt": "0V", "curr": "Up to 28A", "tip": "Connect directly to common power ground return loop.", "mistake": "Poor contact creates high resistance and heating."}
+            ]
+        }
+        
+        # Generic fallback pin generator if not listed
+        if comp_id not in pins_db:
+            return [
+                {"num": 1, "name": "Anode / Lead A", "package": "Axial/Through-hole", "func": "Positive terminal connection.", "type": "Analog Connection", "volt": "Variable", "curr": "Variable", "tip": "Connect to high potential circuit node.", "mistake": "Reversing polarized components."},
+                {"num": 2, "name": "Cathode / Lead B", "package": "Axial/Through-hole", "func": "Negative terminal connection.", "type": "Analog Connection", "volt": "Variable", "curr": "Variable", "tip": "Connect to low potential or ground node.", "mistake": "Shorting terminal directly to VCC."}
+            ]
+            
+        return pins_db[comp_id]
+
+    def get_component_package_matrix(self, comp_id):
+        """Returns comparison matrix database for component packages."""
+        matrix_db = {
+            "resistor": {
+                "headers": ["Feature", "Axial Through-hole", "SMD (Surface Mount)"],
+                "rows": [
+                    ["Power Rating", "0.25W - 5W", "0.0625W - 1W"],
+                    ["Heat Dissipation", "Excellent", "Moderate"],
+                    ["Breadboard Prototyping", "Directly compatible", "Needs SMD breakout board"],
+                    ["Common Size code", "Color bands (Length 6mm)", "0805, 0603, 1206 standard"]
+                ]
+            },
+            "capacitor": {
+                "headers": ["Feature", "Electrolytic Radial", "Ceramic Disc"],
+                "rows": [
+                    ["Typical Capacity", "1 uF to 10 mF", "1 pF to 1 uF"],
+                    ["Polarization", "Polarized (Must match +/-)", "Non-polarized"],
+                    ["Max Voltage Range", "10V to 450V", "50V to kV (High Voltage)"],
+                    ["ESR & High-Freq Loss", "High loss at high-freq", "Very low ESR (Ideal bypass cap)"]
+                ]
+            },
+            "bjt": {
+                "headers": ["Feature", "TO-92 Package", "SOT-23 Package"],
+                "rows": [
+                    ["Power Dissipation", "625 mW max", "350 mW max"],
+                    ["Mounting", "Through-hole", "Surface Mount (SMD)"],
+                    ["Thermal Resistance", "140 °C/W", "350 °C/W"],
+                    ["Ideal Application", "Breadboard, low power logic", "Compact PCBs, automated pick-place"]
+                ]
+            },
+            "mosfet": {
+                "headers": ["Feature", "TO-220 Package", "DPAK Package"],
+                "rows": [
+                    ["Power Dissipation", "Up to 150W", "Up to 50W"],
+                    ["Heat Dissipation", "Requires external heatsink", "Dissipates via PCB copper pad"],
+                    ["Max Continuous Current", "Up to 110A", "Up to 30A"],
+                    ["Prototyping Use", "Breadboard compatible", "Surface Mount only"]
+                ]
+            },
+            "555_timer": {
+                "headers": ["Feature", "DIP-8 Package", "SOIC-8 Package"],
+                "rows": [
+                    ["Power Dissipation", "600 mW", "300 mW"],
+                    ["Mounting Type", "Through-hole / Socket", "Surface Mount (SMD)"],
+                    ["Dimensions", "9.27mm x 6.35mm", "4.9mm x 3.9mm"],
+                    ["Breadboard Friendly", "Yes", "No (Needs adapter)"]
+                ]
+            },
+            "op_amp": {
+                "headers": ["Feature", "DIP-8 Package", "SOIC-8 Package"],
+                "rows": [
+                    ["Power Dissipation", "500 mW", "250 mW"],
+                    ["Mounting Type", "Through-hole", "Surface Mount"],
+                    ["Breadboard Friendly", "Yes", "No (Requires breakout adapter)"],
+                    ["Temperature Rating", "-40 to +85 °C", "-40 to +85 °C"]
+                ]
+            }
+        }
+        return matrix_db.get(comp_id)
+
+    def get_component_extra_metadata(self, comp_id):
+        """Returns equivalents, selection guide, and related parts metadata."""
+        extra_db = {
+            "resistor": {
+                "equivalents": ["Metal Film Resistor", "Carbon Film Resistor", "Wirewound Resistor"],
+                "selection_guide": "Choose Carbon Film for general low-cost circuits. Choose Metal Film for low noise precision applications. Choose Wirewound for high-power loading.",
+                "manufacturers": ["Yageo", "Vishay", "Panasonic", "KOA Speer"],
+                "related": ["capacitor", "potentiometer", "inductor"]
+            },
+            "capacitor": {
+                "equivalents": ["Tantalum Capacitor", "Film Capacitor", "Supercapacitor"],
+                "selection_guide": "Choose Ceramic for high-frequency bypass and decoupling. Choose Electrolytic for power supply smoothing. Choose Tantalum for high-stability low-leakage.",
+                "manufacturers": ["Murata", "TDK", "KEMET", "Nichicon"],
+                "related": ["resistor", "inductor", "zener_diode"]
+            },
+            "bjt": {
+                "equivalents": ["BC548", "2N3904", "2N2222", "PN2222"],
+                "selection_guide": "Choose BC547 for general low-noise small-signal switching. Choose 2N2222 for higher current amplification requirements (up to 800mA).",
+                "manufacturers": ["ON Semiconductor", "NXP", "STMicroelectronics", "Infineon"],
+                "related": ["mosfet", "led", "op_amp"]
+            },
+            "mosfet": {
+                "equivalents": ["IRF540N", "BUZ11", "FQP30N06L (Logic Level)"],
+                "selection_guide": "Choose IRF540N for high-voltage power switching (up to 100V). Choose logic-level gates (e.g. FQP30N06L) when switching directly from 5V Arduino pins.",
+                "manufacturers": ["Infineon Technologies", "STMicroelectronics", "Vishay Siliconix", "ON Semiconductor"],
+                "related": ["bjt", "relay", "555_timer"]
+            },
+            "555_timer": {
+                "equivalents": ["NE555", "LM555", "SE555", "TLC555 (CMOS low-power)"],
+                "selection_guide": "Use NE555 for general purpose timing and oscillation circuits. Choose TLC555 (CMOS) for battery-operated devices to keep idle current minimal.",
+                "manufacturers": ["Texas Instruments", "STMicroelectronics", "ON Semiconductor", "Microchip"],
+                "related": ["op_amp", "capacitor", "resistor"]
+            },
+            "op_amp": {
+                "equivalents": ["LM741", "TL071 (JFET input)", "NE5534 (Low noise audio)", "OP07 (Low offset)"],
+                "selection_guide": "Choose LM741 for basic educational circuits. Choose TL071 for high input impedance audio preamps. Choose OP07 for precision instrumentation amplifiers.",
+                "manufacturers": ["Analog Devices", "Texas Instruments", "STMicroelectronics", "Maxim Integrated"],
+                "related": ["555_timer", "bjt", "resistor"]
+            }
+        }
+        
+        # Generic fallback
+        if comp_id not in extra_db:
+            return {
+                "equivalents": ["Industry Standard Replacements"],
+                "selection_guide": "Check datasheet maximum voltage, current, and temperature constraints prior to part selection.",
+                "manufacturers": ["Multiple Standard Industry Vendors"],
+                "related": ["resistor", "capacitor"]
+            }
+            
+        return extra_db[comp_id]
+
     def go_to_experiment(self, exp_name: str):
         """Cross-module click router connecting library directly to simulation rows."""
         exp_to_row = {
@@ -911,8 +1405,9 @@ class LibraryView(QWidget):
         
         main_win = self.window()
         if main_win and hasattr(main_win, "switch_view"):
-            main_win.switch_view(4) # Index 4 is SimulationView (Simulation Lab)
+            main_win.switch_view(4)
             sim_view = main_win.views[4]
             row_idx = exp_to_row.get(exp_name)
             if row_idx is not None:
                 sim_view.list_widget.setCurrentRow(row_idx)
+

@@ -1,0 +1,35 @@
+{
+    "id": "mux_2_1",
+    "name": "2:1 Multiplexer (Data Selector)",
+    "category": "Multiplexers",
+    "difficulty": 2,
+    "estimated_time_mins": 5,
+    "objectives": [
+        "Understand data routing using a Select Line S.",
+        "Construct 2:1 MUX using 1 NOT (7404), 2 AND (7408), and 1 OR (7432) gates.",
+        "Verify truth table routing behavior."
+    ],
+    "theory": "A 2-to-1 Multiplexer selects one of two data inputs (I0 or I1) and routes it to output Y based on Select line S: Y = (S'·I0) + (S·I1).",
+    "boolean_equations": {
+        "Output": "Y = (NOT S AND I0) OR (S AND I1)"
+    },
+    "stages": {
+        "foundation": {
+            "title": "Foundation (Basic Gates)",
+            "required_components": ["7404", "7408", "7432"],
+            "description": "Construct 2:1 MUX using NOT (7404), AND (7408), and OR (7432) gate packages."
+        },
+        "optimization": {
+            "title": "Universal NAND Gate Synthesis",
+            "required_components": ["7400"],
+            "target_gate_count": 4,
+            "description": "Rebuild 2:1 MUX using ONLY 4 NAND gates (IC 7400)."
+        },
+        "industrial": {
+            "title": "Universal NOR Gate Synthesis",
+            "required_components": ["7402"],
+            "target_gate_count": 4,
+            "description": "Rebuild 2:1 MUX using ONLY 4 NOR gates (IC 7402)."
+        }
+    }
+}

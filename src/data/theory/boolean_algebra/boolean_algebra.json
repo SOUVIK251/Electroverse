@@ -1,0 +1,59 @@
+{
+    "id": "boolean_algebra",
+    "title": "Boolean Algebra & K-Maps",
+    "category": "Boolean Algebra",
+    "difficulty": "★★☆☆☆",
+    "est_time": "25 Mins",
+    "prerequisites": ["Number Systems"],
+    "summary": "Boolean Algebra is the mathematical framework for analyzing and simplifying digital logic circuits. Karnaugh Maps (K-Maps) provide a visual method for minimizing Boolean expressions into Sum-Of-Products (SOP).",
+    "images": [
+        {"type": "symbol", "title": "2-Variable K-Map", "caption": "Karnaugh Map grid for 2 variables A and B.", "path": "assets/components/boolean/kmap_2var.png"},
+        {"type": "circuit", "title": "SOP Reduction Circuit", "caption": "Logic schematic before vs after K-Map minimization.", "path": "assets/components/boolean/sop_reduction.png"}
+    ],
+    "working_principle": "Boolean expressions are simplified using fundamental algebraic laws (Identity, Null, Idempotent, Complement, DeMorgan's). K-Maps group adjacent 1s into powers of 2 (1, 2, 4, 8) to eliminate redundant variables.",
+    "truth_table": {
+        "inputs": ["A", "B"],
+        "outputs": ["A · B", "A + B", "(A · B)'"],
+        "rows": [
+            {"inputs": [0, 0], "outputs": [0, 0, 1]},
+            {"inputs": [0, 1], "outputs": [0, 1, 1]},
+            {"inputs": [1, 0], "outputs": [0, 1, 1]},
+            {"inputs": [1, 1], "outputs": [1, 1, 0]}
+        ]
+    },
+    "boolean_equation": "DeMorgan: (A · B)' = A' + B',  (A + B)' = A' · B'",
+    "applications": [
+        "Gate Minimization in FPGA and ASIC Design",
+        "Reducing Total IC Package Count on Printed Circuit Boards",
+        "Optimizing ALU Execution Speed by Reducing Propagation Delay"
+    ],
+    "advantages": [
+        "Reduces gate count and manufacturing cost",
+        "Decreases circuit power consumption and thermal dissipation"
+    ],
+    "disadvantages": [
+        "K-Maps become difficult for expressions exceeding 5-6 variables (Requires Quine-McCluskey algorithm)"
+    ],
+    "common_mistakes": [
+        "Grouping K-Map cells in non-power-of-2 sizes (e.g. grouping 3 or 5 cells).",
+        "Forgetting Gray Code cell ordering on K-Map headers (00, 01, 11, 10)."
+    ],
+    "quick_notes": [
+        "K-Map cells follow Gray code order.",
+        "Group sizes must be 1, 2, 4, 8, 16...",
+        "DeMorgan's Theorem converts AND-OR to NAND-NAND."
+    ],
+    "viva_questions": [
+        {"q": "State DeMorgan's Laws.", "a": "1) The complement of a product is equal to the sum of the complements: (A·B)' = A'+B'. 2) The complement of a sum is equal to the product of the complements: (A+B)' = A'·B'."},
+        {"q": "What is SOP and POS?", "a": "SOP = Sum Of Products (AND terms ORed together). POS = Product Of Sums (OR terms ANDed together)."}
+    ],
+    "interview_questions": [
+        {"q": "Why must K-Map adjacent cells use Gray Code sequence?", "a": "Because Gray Code ensures only 1 variable changes state between adjacent cells, allowing algebraic factoring out of that variable."}
+    ],
+    "cross_links": [
+        {"id": "gate_and", "name": "AND Gate (IC 7408)"},
+        {"id": "universal_nand", "name": "Universal NAND Synthesis"}
+    ],
+    "knowledge_graph": ["Number Systems", "Boolean Algebra", "K-Maps", "Logic Gates"],
+    "experiment_id": "half_adder"
+}

@@ -175,6 +175,10 @@ class FullWaveRectifierSimulation(BaseSimulation):
         return {
             "ch1": ch1,
             "ch2": ch2,
+            "ch1_label": "Vin (AC)",
+            "ch2_label": "Vout (Rectified)",
+            "recommended_vdiv": base_vac / 3.0,
+            "recommended_tdiv": 0.25 / base_f if base_f > 0 else 0.005,
             "sampling_rate": 250000.0,
             "time_axis": time_axis
         }

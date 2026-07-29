@@ -1,0 +1,35 @@
+{
+    "version": "1.0",
+    "last_updated": "2026",
+    "source": "Real-World Industrial Application Circuit Presets",
+    "records": {
+        "door_lock": {
+            "title": "Security Door Lock Interlock System",
+            "ic": "7408",
+            "gate": "AND",
+            "description": "Unlocks door only when Keycard Sensor (A) AND Passcode Keypad (B) are both active (1).",
+            "application_industry": "Industrial Access Control & Building Automation"
+        },
+        "motor_enable": {
+            "title": "Industrial Motor Control Safety Interlock",
+            "ic": "7408",
+            "gate": "AND",
+            "description": "Enables conveyor motor only when Safety Shield Closed (A) AND Emergency Stop Not Pressed (B).",
+            "application_industry": "Factory Automation & Safety Electronics"
+        },
+        "alarm_system": {
+            "title": "Burglar Security Alarm Circuit",
+            "ic": "7432",
+            "gate": "OR",
+            "description": "Triggers siren alarm when Window Sensor (A) OR Door Break Sensor (B) detects intrusion.",
+            "application_industry": "Home & Commercial Security Systems"
+        },
+        "traffic_light": {
+            "title": "Traffic Light Controller Override Interlock",
+            "ic": "7400",
+            "gate": "NAND",
+            "description": "Emergency vehicle override logic preventing simultaneous green light signals.",
+            "application_industry": "Smart City Transportation Electronics"
+        }
+    }
+}

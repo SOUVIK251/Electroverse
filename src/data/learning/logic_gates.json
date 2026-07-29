@@ -1,0 +1,22 @@
+{
+    "version": "1.0",
+    "last_updated": "2026",
+    "source": "Digital Electronics Fundamental Principles",
+    "topic": "Fundamental Logic Gates",
+    "lessons": [
+        {
+            "id": "and_gate_intro",
+            "title": "AND Gate Working Principle",
+            "content": "An AND gate outputs HIGH (1) if and only if all its inputs are HIGH (1). Otherwise, the output is LOW (0).",
+            "boolean_expression": "Y = A · B",
+            "ic_reference": "7408"
+        },
+        {
+            "id": "or_gate_intro",
+            "title": "OR Gate Working Principle",
+            "content": "An OR gate outputs HIGH (1) if at least one of its inputs is HIGH (1).",
+            "boolean_expression": "Y = A + B",
+            "ic_reference": "7432"
+        }
+    ]
+}
