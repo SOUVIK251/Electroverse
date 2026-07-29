@@ -9,17 +9,28 @@
 > **Created & Lead Developed by [Souvik Kundu](https://github.com/SOUVIK251)**  
 > *Designed to make offline electronics engineering education intuitive, visual, interactive, and accessible.*
 
-**ElectroVerse** is a modern, laboratory-grade interactive desktop application designed for students, educators, and electrical engineers. Inspired by professional software suites like **NI Multisim**, **Keysight BenchVue**, and **MATLAB App Designer**, it combines digital logic design, 2D solderless breadboard simulation, 2,200+ viva voce prep questions, ECE/CSE textbook lessons, and real-time circuit transient solvers into a unified offline desktop suite.
+**ElectroVerse** is a modern, laboratory-grade interactive desktop application designed for students, educators, and electrical engineers. Inspired by professional software suites like **NI Multisim**, **Keysight BenchVue**, and **MATLAB App Designer**, it combines digital logic design, 2D solderless breadboard simulation, 2,200+ viva voce prep questions, ECE/CSE textbook lessons, real-time circuit transient solvers, and a dual-channel Digital Storage Oscilloscope (DSO) into a unified offline desktop suite.
 
 ---
 
 ## 🌟 Key Modules & Features
 
 ### 1. 🌊 Analog Electronics Circuit Hub
-A unified master workspace integrating all analog electronics tools into a single environment:
+A unified master workspace integrating all analog electronics tools into a single streamlined environment with a dedicated **3-pane horizontal split-layout**:
+
+```
+---------------------------------------------------------------------------------------------
+| Experiment List (20%)   | Theory & Controls (40%)        | Dedicated Oscilloscope (40%)   |
+| (Min Width: 250 px)     | (Min Width: 450 px)            | (Min Width: 500 px)            |
+---------------------------------------------------------------------------------------------
+```
+
 - **🎓 Theory & Lessons**: Structured academic curriculum covering passive elements, PN junction diodes, Zener regulators, BJTs, MOSFETs, and Op-Amps with LaTeX formula rendering.
 - **🛠 Engineering Toolkit**: Interactive design calculators for Ohm's Law, Voltage/Current Dividers, LED Resistor Sizing, Reactance, RC/RL Time Constants, and RLC Resonance.
-- **🧪 Interactive Simulation Lab & Oscilloscope**: Real-time differential equation solvers for RC/RL transients, RLC sweeps, rectifiers, clippers, clampers, and a dual-channel Digital Storage Oscilloscope (DSO).
+- **🧪 Interactive Simulation Lab & Dedicated Oscilloscope**: Real-time differential equation solvers for RC/RL transients, RLC sweeps, rectifiers, clippers, clampers, and a dual-channel Digital Storage Oscilloscope (DSO).
+- **🔒 Zero-Overlap 3-Pane Splitter Architecture**: Built using a responsive horizontal `QSplitter` with strict minimum widths (`250px` Experiment List | `450px` Theory & Parameters | `500px` Oscilloscope) ensuring the waveform viewer never overlaps or obscures theory notes or parameter controls.
+
+---
 
 ### 2. ⚡ Digital System Design Hub
 A comprehensive digital electronics hub structured for maximum learning retention:
@@ -28,14 +39,20 @@ A comprehensive digital electronics hub structured for maximum learning retentio
 - **📝 Test (Assessment Suite)**: MCQ Quiz Bank, Viva Voce flashcards, technical interview prep, and printable Certificate of Mastery generator.
 - **📚 Reference (IC & Formula Matrix)**: 74-Series TTL IC pinout matrix, DeMorgan's rule (*"Break the bar, change the sign!"*), and formula memorization shortcuts.
 
+---
+
 ### 3. 🎓 Grand Viva & Core Technical Interview Prep
 An extensive oral board examination simulator:
 - **2,200+ Conceptual Questions**: Spanning 22 core ECE/CSE engineering subjects (Digital Electronics, Basic Electronics, Analog Circuits, Signals & Systems, Network Theory, Control Systems, Microprocessors, VLSI, DSP, IoT, Operating Systems, etc.).
 - **Governing Equations & Variables**: Every question renders LaTeX math equations with exact variable definitions.
 - **🧠 Instant Memorization Trick**: A dedicated gold-bordered card on every question explaining how to recognize, understand, and remember the concept instantly during interviews.
 
+---
+
 ### 4. 🏠 Engineering Control Center (Dashboard)
 Features workspace launch shortcuts, system status metrics, daily engineering challenges, recommended topics, scientific vector scope animations, and recent activity logs.
+
+---
 
 ### 5. 📚 Component Library
 An interactive electronic component database with deep physical insights, schematic symbols, pinout diagrams, real photos, formulas, SI units, and cross-module links.
@@ -100,12 +117,12 @@ ElectroVerse features a high-contrast, clean laboratory theme designed for long 
 
 ---
 
-## 👨‍💻 Author & Developer
+## 👨‍💻 About & Author Credit
 
 **Created & Lead Developed by Souvik Kundu**  
 GitHub: [@SOUVIK251](https://github.com/SOUVIK251)
 
-*Designed and engineered with passion by Souvik Kundu to advance offline engineering education.*
+*Designed and engineered with passion by Souvik Kundu to make offline engineering education visual, intuitive, and accessible worldwide.*
 
 ---
 
