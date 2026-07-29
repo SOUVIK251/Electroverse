@@ -37,23 +37,10 @@ class BaseSimulation(QWidget):
         self.timer.setInterval(33)  # ~30ms per tick
         self.timer.timeout.connect(self.on_timer_tick)
         
-        # Central Splitter Layout
-        main_layout = QHBoxLayout(self)
-        main_layout.setContentsMargins(10, 10, 10, 10)
-        main_layout.setSpacing(0)
-        
-        self.splitter = QSplitter(Qt.Orientation.Horizontal)
-        self.splitter.setObjectName("sim-splitter")
-        self.splitter.setStyleSheet("""
-            QSplitter::handle {
-                background-color: #1e293b;
-                width: 4px;
-            }
-            QSplitter::handle:hover {
-                background-color: #06b6d4;
-            }
-        """)
-        main_layout.addWidget(self.splitter)
+        # Central Main Layout
+        self.main_layout = QHBoxLayout(self)
+        self.main_layout.setContentsMargins(10, 10, 10, 10)
+        self.main_layout.setSpacing(12)
 
         # -------------------------------------------------------------
         # Left Panel (Scrollable Details / Formulas / Inputs)
@@ -96,7 +83,7 @@ class BaseSimulation(QWidget):
         self.setup_explanation_card()
         
         self.left_scroll.setWidget(self.left_container)
-        self.splitter.addWidget(self.left_scroll)
+        self.main_layout.addWidget(self.left_scroll, stretch=1)
 
         # -------------------------------------------------------------
         # Right Panel (Interactive Plot, Clock Controls, Animated Visualizer)
@@ -121,9 +108,10 @@ class BaseSimulation(QWidget):
         self.right_layout.addLayout(right_header_layout)
 
         # Math Plot Canvas
-        self.plot_canvas = MathPlotCanvas(self)
+        self.plot_canvas = MathPlotCanvas()
+        self.plot_canvas.setMaximumHeight(260)
         self.plot_canvas.coordinates_updated.connect(self.coord_label.setText)
-        self.right_layout.addWidget(self.plot_canvas, stretch=1)
+        self.right_layout.addWidget(self.plot_canvas, stretch=0)
 
         # Plot Controls Toolbar
         self.setup_chart_controls()
@@ -138,10 +126,7 @@ class BaseSimulation(QWidget):
         self.setup_visualizer(self.visualizer_layout)
         self.right_layout.addWidget(self.visualizer_container)
 
-        self.splitter.addWidget(self.right_container)
-        
-        # Default split sizing
-        self.splitter.setSizes([450, 650])
+        self.main_layout.addWidget(self.right_container, stretch=1)
         
         # Load initialization parameters
         self.init_simulation()

@@ -97,9 +97,10 @@ class BaseCalculator(QWidget):
         self.right_layout.addLayout(right_header_layout)
 
         # Matplotlib Plot
-        self.plot_canvas = MathPlotCanvas(self)
+        self.plot_canvas = MathPlotCanvas()
+        self.plot_canvas.setMaximumHeight(280)
         self.plot_canvas.coordinates_updated.connect(self.coord_label.setText)
-        self.right_layout.addWidget(self.plot_canvas, stretch=1)
+        self.right_layout.addWidget(self.plot_canvas, stretch=0)
 
         # Plot Controls Toolbar
         self.setup_chart_controls()

@@ -174,7 +174,8 @@ class OscilloscopeScreen(QWidget):
 
     def __init__(self, parent=None):
         super().__init__(parent)
-        self.setMinimumSize(500, 360)
+        self.setMinimumSize(500, 260)
+        self.setMaximumHeight(280)
         self.setCursor(Qt.CursorShape.CrossCursor)
 
         # --- Two independent channel renderers ----------------------------

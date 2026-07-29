@@ -108,9 +108,10 @@ class SimulationView(QWidget):
             }
         """)
 
-        # Left Panel (List Shell)
+        # Left Panel (List Shell - Panel 1)
         self.left_panel = QFrame()
         self.left_panel.setObjectName("card-panel")
+        self.left_panel.setMinimumWidth(250)
         
         left_layout = QVBoxLayout(self.left_panel)
         left_layout.setContentsMargins(12, 12, 12, 12)
@@ -161,8 +162,13 @@ class SimulationView(QWidget):
         self.empty_lbl.setVisible(False)
         left_layout.addWidget(self.empty_lbl)
 
-        # Right Panel Stack
-        self.right_stack = QStackedWidget()
+        # Panel 2: Theory & Controls Stack (Minimum Width 450px)
+        self.theory_stack = QStackedWidget()
+        self.theory_stack.setMinimumWidth(450)
+
+        # Panel 3: Oscilloscope & Real-Time Waveforms Stack (Minimum Width 500px)
+        self.oscilloscope_stack = QStackedWidget()
+        self.oscilloscope_stack.setMinimumWidth(500)
 
         # Instantiate all 10 simulations
         self.simulations = [
@@ -191,7 +197,7 @@ class SimulationView(QWidget):
             ("Resonance Explorer", "fa5s.search-plus")
         ]
 
-        # Populate custom row widgets
+        # Populate custom row widgets and fill stacks
         for idx, ((name, icon_str), sim_view) in enumerate(zip(self.sim_definitions, self.simulations)):
             item = QListWidgetItem()
             item.setSizeHint(QSize(0, 42)) # Adjust height of item cell
@@ -200,12 +206,20 @@ class SimulationView(QWidget):
             
             self.list_widget.addItem(item)
             self.list_widget.setItemWidget(item, row_widget)
-            self.right_stack.addWidget(sim_view)
+            
+            # Separate theory/controls and oscilloscope waveform panels into respective stacks
+            self.theory_stack.addWidget(sim_view.left_scroll)
+            self.oscilloscope_stack.addWidget(sim_view.right_container)
 
-        # Add left and right containers to splitter
+        # Add 3 distinct panels to horizontal QSplitter (20% | 40% | 40%)
         self.splitter.addWidget(self.left_panel)
-        self.splitter.addWidget(self.right_stack)
-        self.splitter.setSizes([270, 730]) # Default ratio
+        self.splitter.addWidget(self.theory_stack)
+        self.splitter.addWidget(self.oscilloscope_stack)
+
+        self.splitter.setStretchFactor(0, 1) # ~20%
+        self.splitter.setStretchFactor(1, 2) # ~40%
+        self.splitter.setStretchFactor(2, 2) # ~40%
+        self.splitter.setSizes([260, 520, 520])
         
         self.main_layout.addWidget(self.splitter)
         
@@ -219,14 +233,17 @@ class SimulationView(QWidget):
         log.info(f"Simulation selected at index: {idx}")
         
         # Stop previously running simulation if any
-        current_sim = self.right_stack.currentWidget()
-        if current_sim and hasattr(current_sim, "reset_simulation"):
-            try:
-                current_sim.reset_simulation()
-            except Exception as e:
-                log.error(f"Error resetting current simulation: {e}")
+        current_sim_idx = self.theory_stack.currentIndex()
+        if 0 <= current_sim_idx < len(self.simulations):
+            current_sim = self.simulations[current_sim_idx]
+            if current_sim and hasattr(current_sim, "reset_simulation"):
+                try:
+                    current_sim.reset_simulation()
+                except Exception as e:
+                    log.error(f"Error resetting current simulation: {e}")
 
-        self.right_stack.setCurrentIndex(idx)
+        self.theory_stack.setCurrentIndex(idx)
+        self.oscilloscope_stack.setCurrentIndex(idx)
         
         # Set breadcrumbs
         top_window = self.window()

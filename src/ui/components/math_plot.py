@@ -26,7 +26,6 @@ class MathPlotCanvas(FigureCanvas):
         self.ax = self.fig.add_subplot(111)
         
         super().__init__(self.fig)
-        self.setParent(parent)
         
         self.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
         self.updateGeometry()
@@ -137,7 +136,7 @@ class MathPlotCanvas(FigureCanvas):
             y_str = f"{y:,.2f}" if abs(y) >= 1e-2 else f"{y:g}"
             coord_str = f"X: {x_str}  |  Y: {y_str}"
             
-            self.coord_text.setText(coord_str)
+            self.coord_text.set_text(coord_str)
             self.coord_text.set_visible(True)
             
             self.coordinates_updated.emit(coord_str)
