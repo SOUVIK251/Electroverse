@@ -1,0 +1,108 @@
+{
+  "fourier_transform_table": [
+    {
+      "signal": "delta(t)",
+      "transform": "1",
+      "roc_notes": "All w"
+    },
+    {
+      "signal": "1",
+      "transform": "2 pi delta(w)",
+      "roc_notes": "All w"
+    },
+    {
+      "signal": "u(t)",
+      "transform": "pi delta(w) + 1 / (j w)",
+      "roc_notes": "All w"
+    },
+    {
+      "signal": "e^{-a t} u(t) (a > 0)",
+      "transform": "1 / (a + j w)",
+      "roc_notes": "Re{a} > 0"
+    },
+    {
+      "signal": "rect(t / T)",
+      "transform": "T sinc(w T / 2)",
+      "roc_notes": "All w"
+    },
+    {
+      "signal": "cos(w_0 t)",
+      "transform": "pi [delta(w - w_0) + delta(w + w_0)]",
+      "roc_notes": "All w"
+    },
+    {
+      "signal": "sin(w_0 t)",
+      "transform": "-j pi [delta(w - w_0) - delta(w + w_0)]",
+      "roc_notes": "All w"
+    }
+  ],
+  "laplace_transform_table": [
+    {
+      "signal": "delta(t)",
+      "transform": "1",
+      "roc": "Entire s-plane"
+    },
+    {
+      "signal": "u(t)",
+      "transform": "1 / s",
+      "roc": "Re{s} > 0"
+    },
+    {
+      "signal": "t u(t)",
+      "transform": "1 / s^2",
+      "roc": "Re{s} > 0"
+    },
+    {
+      "signal": "e^{-a t} u(t)",
+      "transform": "1 / (s + a)",
+      "roc": "Re{s} > -a"
+    },
+    {
+      "signal": "t e^{-a t} u(t)",
+      "transform": "1 / (s + a)^2",
+      "roc": "Re{s} > -a"
+    },
+    {
+      "signal": "cos(w_0 t) u(t)",
+      "transform": "s / (s^2 + w_0^2)",
+      "roc": "Re{s} > 0"
+    },
+    {
+      "signal": "sin(w_0 t) u(t)",
+      "transform": "w_0 / (s^2 + w_0^2)",
+      "roc": "Re{s} > 0"
+    }
+  ],
+  "z_transform_table": [
+    {
+      "signal": "delta[n]",
+      "transform": "1",
+      "roc": "Entire z-plane"
+    },
+    {
+      "signal": "u[n]",
+      "transform": "1 / (1 - z^{-1}) = z / (z - 1)",
+      "roc": "|z| > 1"
+    },
+    {
+      "signal": "a^n u[n]",
+      "transform": "1 / (1 - a z^{-1}) = z / (z - a)",
+      "roc": "|z| > |a|"
+    },
+    {
+      "signal": "-a^n u[-n-1]",
+      "transform": "1 / (1 - a z^{-1}) = z / (z - a)",
+      "roc": "|z| < |a|"
+    },
+    {
+      "signal": "n a^n u[n]",
+      "transform": "a z^{-1} / (1 - a z^{-1})^2",
+      "roc": "|z| > |a|"
+    },
+    {
+      "signal": "cos(w_0 n) u[n]",
+      "transform": "(1 - cos(w_0) z^{-1}) / (1 - 2 cos(w_0) z^{-1} + z^{-2})",
+      "roc": "|z| > 1"
+    }
+  ]
+}

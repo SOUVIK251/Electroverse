@@ -1,0 +1,254 @@
+{
+  "modules": [
+    {
+      "id": "mod_wave_shaping",
+      "title": "Module 1: Wave Shaping & Clippers/Clampers",
+      "file": "module_1_wave_shaping.json",
+      "icon": "fa5s.wave-square",
+      "topics": [
+        {
+          "id": "pos_series_clipper",
+          "title": "Positive Series Clipper",
+          "file": "module_1_wave_shaping.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "neg_series_clipper",
+          "title": "Negative Series Clipper",
+          "file": "module_1_wave_shaping.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "pos_shunt_clipper",
+          "title": "Positive Shunt Clipper",
+          "file": "module_1_wave_shaping.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "neg_shunt_clipper",
+          "title": "Negative Shunt Clipper",
+          "file": "module_1_wave_shaping.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "biased_pos_clipper",
+          "title": "Biased Positive Clipper",
+          "file": "module_1_wave_shaping.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "biased_neg_clipper",
+          "title": "Biased Negative Clipper",
+          "file": "module_1_wave_shaping.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "combination_clipper",
+          "title": "Combination Clipper Circuit",
+          "file": "module_1_wave_shaping.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "pos_clamper",
+          "title": "Positive Clamper Circuit",
+          "file": "module_1_wave_shaping.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "neg_clamper",
+          "title": "Negative Clamper Circuit",
+          "file": "module_1_wave_shaping.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "biased_pos_clamper",
+          "title": "Biased Positive Clamper",
+          "file": "module_1_wave_shaping.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "biased_neg_clamper",
+          "title": "Biased Negative Clamper",
+          "file": "module_1_wave_shaping.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        }
+      ]
+    },
+    {
+      "id": "mod_rectifiers",
+      "title": "Module 2: Rectifiers & Power Supplies",
+      "file": "module_2_rectifiers.json",
+      "icon": "fa5s.charging-station",
+      "topics": [
+        {
+          "id": "half_wave_rectifier",
+          "title": "Half Wave Rectifier",
+          "file": "module_2_rectifiers.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "full_wave_rectifier",
+          "title": "Full Wave Center-Tapped Rectifier",
+          "file": "module_2_rectifiers.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "bridge_rectifier",
+          "title": "Bridge Rectifier with Filter",
+          "file": "module_2_rectifiers.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        }
+      ]
+    },
+    {
+      "id": "mod_filters",
+      "title": "Module 3: Analog Active & Passive Filters",
+      "file": "module_3_filters.json",
+      "icon": "fa5s.filter",
+      "topics": [
+        {
+          "id": "rc_low_pass",
+          "title": "RC Low Pass Filter",
+          "file": "module_3_filters.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "rc_high_pass",
+          "title": "RC High Pass Filter",
+          "file": "module_3_filters.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "rl_low_pass",
+          "title": "RL Low Pass Filter",
+          "file": "module_3_filters.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "rl_high_pass",
+          "title": "RL High Pass Filter",
+          "file": "module_3_filters.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "band_pass_filter",
+          "title": "Band Pass Filter",
+          "file": "module_3_filters.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "band_reject_filter",
+          "title": "Band Reject (Band Stop) Filter",
+          "file": "module_3_filters.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "all_pass_filter",
+          "title": "All Pass Filter",
+          "file": "module_3_filters.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        }
+      ]
+    },
+    {
+      "id": "mod_transients_resonance",
+      "title": "Module 4: RC/RL Transients & RLC Resonance",
+      "file": "module_4_transients_resonance.json",
+      "icon": "fa5s.bolt",
+      "topics": [
+        {
+          "id": "rc_transient",
+          "title": "RC Charging & Discharging Transient",
+          "file": "module_4_transients_resonance.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "rl_transient",
+          "title": "RL Transient Response",
+          "file": "module_4_transients_resonance.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "series_rlc_resonance",
+          "title": "Series RLC Resonance",
+          "file": "module_4_transients_resonance.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "parallel_rlc_resonance",
+          "title": "Parallel RLC Resonance",
+          "file": "module_4_transients_resonance.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        }
+      ]
+    },
+    {
+      "id": "mod_multivibrators",
+      "title": "Module 5: Multivibrators & Waveform Generators",
+      "file": "module_5_multivibrators.json",
+      "icon": "fa5s.microchip",
+      "topics": [
+        {
+          "id": "astable_multivibrator",
+          "title": "Astable Multivibrator (555 Timer)",
+          "file": "module_5_multivibrators.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "monostable_multivibrator",
+          "title": "Monostable Multivibrator (One-Shot)",
+          "file": "module_5_multivibrators.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "bistable_multivibrator",
+          "title": "Bistable Multivibrator (Flip-Flop)",
+          "file": "module_5_multivibrators.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "bjt_biasing",
+          "title": "BJT DC Biasing & Small-Signal Amplifiers",
+          "file": "module_5_multivibrators.json",
+          "has_simulation": false,
+          "has_problem_solving": false
+        },
+        {
+          "id": "opamp_basics",
+          "title": "Operational Amplifier Fundamentals & Feedback",
+          "file": "module_5_multivibrators.json",
+          "has_simulation": false,
+          "has_problem_solving": false
+        }
+      ]
+    }
+  ]
+}

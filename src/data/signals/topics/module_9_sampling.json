@@ -1,0 +1,45 @@
+{
+  "id": "module_9",
+  "title": "Module 9: Sampling Theorem",
+  "topics": {
+    "samp_nyquist": {
+      "title": "Nyquist-Shannon Sampling Theorem & Aliasing",
+      "read_time": "10 min read",
+      "difficulty": "Intermediate",
+      "category": "Sampling & DSP",
+      "summary": "Establishes the minimum sampling rate required to convert a continuous signal to discrete samples without loss of information.",
+      "introduction": "The bridge between continuous-time analog signals and discrete digital processing.",
+      "theory": "**Nyquist-Shannon Sampling Theorem**:\nA band-limited continuous-time signal $x(t)$ with maximum frequency component $f_{max} = B$ Hz can be completely reconstructed from its samples if the sampling rate $f_s$ satisfies:\n\n$$f_s \\ge 2 f_{max} = 2 B \\quad (\\text{Nyquist Rate})$$\n\n- **Nyquist Rate**: $f_{Nyquist} = 2 f_{max}$\n- **Nyquist Interval**: $T_{Nyquist} = 1 / (2 f_{max})$\n\n**Aliasing**: When $f_s < 2 f_{max}$, high-frequency components overlap into lower frequencies, distorting the signal.",
+      "derivation": "**Mathematical Derivation**:\nIdeal sampling in time domain: $x_s(t) = x(t) \\cdot p(t)$ where $p(t) = \\sum_{n=-\\infty}^{\\infty} \\delta(t - n T_s)$.\nIn frequency domain:\n$$X_s(\\omega) = \\frac{1}{T_s} \\sum_{k=-\\infty}^{\\infty} X(\\omega - k \\omega_s)$$\nIf $\\omega_s \\ge 2 \\omega_{max}$, spectral replicas $X(\\omega - k \\omega_s)$ do not overlap and can be perfectly isolated using an ideal low-pass filter with cutoff $\\omega_c = \\omega_s / 2$.",
+      "important_formulas": [
+        "f_s \\ge 2 f_{max} \\quad (\\text{Nyquist Criterion})",
+        "f_{Nyquist} = 2 f_{max}",
+        "T_s \\le \\frac{1}{2 f_{max}}",
+        "f_{alias} = |f_s - f_{in}|"
+      ],
+      "examples": [
+        {
+          "problem": "Find the Nyquist rate for x(t) = 3 cos(500 pi t) + 10 sin(1200 pi t) - 4 cos(800 pi t).",
+          "solution": "Frequencies: f1 = 500/2 = 250 Hz, f2 = 1200/2 = 600 Hz, f3 = 800/2 = 400 Hz. Maximum frequency f_max = 600 Hz. Nyquist Rate = 2 * 600 = 1200 Hz (or 1200 samples/sec)."
+        }
+      ],
+      "common_mistakes": [
+        "Calculating Nyquist rate using angular frequency w_max without dividing by 2 pi! f_max = w_max / (2 pi)."
+      ],
+      "interview_questions": [
+        {
+          "question": "How do real-world ADCs prevent aliasing?",
+          "answer": "By placing an Analog Anti-Aliasing Low-Pass Filter before the ADC sampler to attenuate any signal frequencies above f_s / 2."
+        }
+      ],
+      "viva_questions": [
+        {
+          "question": "What is the wagon-wheel effect seen in movies?",
+          "answer": "An optical example of temporal aliasing caused by the camera frame rate (sampling frequency) being lower than the wheel rotation rate."
+        }
+      ],
+      "professor_notes": "Over-sampling (fs >> 2 fmax) makes anti-aliasing filter design much easier and cheaper in real DSP systems!",
+      "memory_trick": "\ud83e\udde0 **Memory Trick**: **Sample at LEAST TWICE as fast as the highest speed component**."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "module_8",
+  "title": "Module 8: Z-Transform",
+  "topics": {
+    "zt_def": {
+      "title": "Z-Transform & z-Plane ROC",
+      "read_time": "11 min read",
+      "difficulty": "Advanced",
+      "category": "z-Domain Analysis",
+      "summary": "The discrete-time counterpart of the Laplace Transform, mapping x[n] to the complex z-plane (z = r e^(j w)).",
+      "introduction": "Z-transform is essential for designing digital FIR/IIR filters, analyzing difference equations, and DSP system stability.",
+      "theory": "**Bilateral Z-Transform**:\n$$X(z) = \\mathcal{Z}\\{x[n]\\} = \\sum_{n=-\\infty}^{\\infty} x[n] z^{-n} \\quad (z = r e^{j \\omega})$$\n\n**ROC in z-Plane**: Concentric ring $|z_{min}| < |z| < |z_{max}|$.\n- **Causal Signal**: ROC is outside circle $|z| > r_{max}$.\n- **Anti-Causal Signal**: ROC is inside circle $|z| < r_{min}$.\n- **Stable LTI System**: ROC includes the unit circle $|z| = 1$.",
+      "derivation": "**LTI System Transfer Function H(z)**:\n$$H(z) = \\frac{Y(z)}{X(z)} = \\frac{\\sum_{k=0}^{M} b_k z^{-k}}{1 + \\sum_{k=1}^{N} a_k z^{-k}}$$",
+      "important_formulas": [
+        "X(z) = \\sum_{n=-\\infty}^{\\infty} x[n] z^{-n}",
+        "\\mathcal{Z}\\{a^n u[n]\\} = \\frac{1}{1 - a z^{-1}} = \\frac{z}{z - a} \\quad (|z| > |a|)",
+        "\\mathcal{Z}\\{x[n - k]\\} = z^{-k} X(z)"
+      ],
+      "examples": [
+        {
+          "problem": "Find Z-transform of x[n] = (0.5)^n u[n].",
+          "solution": "X(z) = sum_{n=0}^inf (0.5 z^{-1})^n = 1 / (1 - 0.5 z^{-1}) = z / (z - 0.5). ROC: |z| > 0.5."
+        }
+      ],
+      "common_mistakes": [
+        "Omitting the Region of Convergence (ROC). Two completely different signals (e.g. a^n u[n] vs -a^n u[-n-1]) have identical X(z) algebraic form, distinguished ONLY by ROC!"
+      ],
+      "interview_questions": [
+        {
+          "question": "What is the relation between s-plane and z-plane?",
+          "answer": "z = e^{s T_s}. Left-half s-plane maps inside unit circle |z| < 1. jw-axis maps onto unit circle |z| = 1."
+        }
+      ],
+      "viva_questions": [
+        {
+          "question": "When is a discrete-time LTI system stable?",
+          "answer": "When all poles of H(z) lie strictly inside the unit circle |z| < 1."
+        }
+      ],
+      "professor_notes": "z-plane unit circle |z|=1 corresponds to s-plane jw-axis!",
+      "memory_trick": "\ud83e\udde0 **Memory Trick**: **Inside Unit Circle = Stable**. **Outside Circle = Causal ROC**."
+    }
+  }
+}

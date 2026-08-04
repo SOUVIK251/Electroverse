@@ -1,0 +1,3602 @@
+{
+  "NET-00001": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "NET-00002": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "NET-00003": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "NET-00004": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "NET-00005": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "NET-00006": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "NET-00007": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "NET-00008": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "NET-00009": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "NET-00010": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "NET-00011": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "NET-00012": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "NET-00013": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "NET-00014": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "NET-00015": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "NET-00016": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "NET-00017": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "NET-00018": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "NET-00019": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "NET-00020": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "NET-00021": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "NET-00022": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "NET-00023": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "NET-00024": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "NET-00025": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "NET-00026": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "NET-00027": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "NET-00028": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "NET-00029": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "NET-00030": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "NET-00031": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "NET-00032": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "NET-00033": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "NET-00034": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "NET-00035": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "NET-00036": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "NET-00037": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "NET-00038": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "NET-00039": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "NET-00040": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "NET-00041": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "NET-00042": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "NET-00043": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "NET-00044": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "NET-00045": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "NET-00046": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "NET-00047": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "NET-00048": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "NET-00049": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "NET-00050": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "NET-00051": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "NET-00052": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "NET-00053": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "NET-00054": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "NET-00055": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "NET-00056": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "NET-00057": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "NET-00058": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "NET-00059": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "NET-00060": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "NET-00061": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "NET-00062": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "NET-00063": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "NET-00064": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "NET-00065": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "NET-00066": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "NET-00067": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "NET-00068": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "NET-00069": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "NET-00070": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "NET-00071": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "NET-00072": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "NET-00073": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "NET-00074": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "NET-00075": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "NET-00076": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "NET-00077": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "NET-00078": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "NET-00079": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "NET-00080": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "NET-00081": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "NET-00082": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "NET-00083": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "NET-00084": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "NET-00085": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "NET-00086": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "NET-00087": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "NET-00088": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "NET-00089": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "NET-00090": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "NET-00091": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "NET-00092": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "NET-00093": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "NET-00094": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "NET-00095": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "NET-00096": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "NET-00097": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "NET-00098": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "NET-00099": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "NET-00100": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "NET-00101": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "NET-00102": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "NET-00103": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "NET-00104": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "NET-00105": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "NET-00106": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "NET-00107": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "NET-00108": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "NET-00109": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "NET-00110": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "NET-00111": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "NET-00112": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "NET-00113": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "NET-00114": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "NET-00115": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "NET-00116": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "NET-00117": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "NET-00118": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "NET-00119": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "NET-00120": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "NET-00121": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "NET-00122": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "NET-00123": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "NET-00124": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "NET-00125": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "NET-00126": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "NET-00127": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "NET-00128": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "NET-00129": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "NET-00130": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "NET-00131": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "NET-00132": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "NET-00133": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "NET-00134": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "NET-00135": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "NET-00136": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "NET-00137": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "NET-00138": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "NET-00139": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "NET-00140": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "NET-00141": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "NET-00142": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "NET-00143": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "NET-00144": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "NET-00145": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "NET-00146": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "NET-00147": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "NET-00148": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "NET-00149": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "NET-00150": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "NET-00151": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "NET-00152": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "NET-00153": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "NET-00154": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "NET-00155": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "NET-00156": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "NET-00157": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "NET-00158": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "NET-00159": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "NET-00160": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "NET-00161": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "NET-00162": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "NET-00163": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "NET-00164": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "NET-00165": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "NET-00166": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "NET-00167": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "NET-00168": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "NET-00169": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "NET-00170": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "NET-00171": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "NET-00172": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "NET-00173": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "NET-00174": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "NET-00175": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "NET-00176": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "NET-00177": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "NET-00178": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "NET-00179": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "NET-00180": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "NET-00181": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "NET-00182": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "NET-00183": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "NET-00184": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "NET-00185": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "NET-00186": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "NET-00187": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "NET-00188": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "NET-00189": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "NET-00190": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "NET-00191": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "NET-00192": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "NET-00193": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "NET-00194": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "NET-00195": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "NET-00196": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "NET-00197": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "NET-00198": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "NET-00199": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "NET-00200": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "NET-00201": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "NET-00202": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "NET-00203": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "NET-00204": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "NET-00205": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "NET-00206": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "NET-00207": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "NET-00208": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "NET-00209": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "NET-00210": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "NET-00211": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "NET-00212": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "NET-00213": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "NET-00214": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "NET-00215": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "NET-00216": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "NET-00217": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "NET-00218": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "NET-00219": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "NET-00220": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "NET-00221": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "NET-00222": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "NET-00223": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "NET-00224": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "NET-00225": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "NET-00226": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "NET-00227": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "NET-00228": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "NET-00229": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "NET-00230": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "NET-00231": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "NET-00232": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "NET-00233": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "NET-00234": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "NET-00235": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "NET-00236": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "NET-00237": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "NET-00238": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "NET-00239": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "NET-00240": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "NET-00241": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "NET-00242": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "NET-00243": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "NET-00244": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "NET-00245": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "NET-00246": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "NET-00247": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "NET-00248": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "NET-00249": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "NET-00250": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "NET-00251": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "NET-00252": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "NET-00253": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "NET-00254": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "NET-00255": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "NET-00256": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "NET-00257": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "NET-00258": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "NET-00259": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "NET-00260": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "NET-00261": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "NET-00262": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "NET-00263": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "NET-00264": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "NET-00265": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "NET-00266": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "NET-00267": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "NET-00268": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "NET-00269": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "NET-00270": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "NET-00271": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "NET-00272": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "NET-00273": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "NET-00274": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "NET-00275": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "NET-00276": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "NET-00277": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "NET-00278": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "NET-00279": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "NET-00280": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "NET-00281": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "NET-00282": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "NET-00283": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "NET-00284": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "NET-00285": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "NET-00286": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "NET-00287": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "NET-00288": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "NET-00289": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "NET-00290": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "NET-00291": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "NET-00292": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "NET-00293": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "NET-00294": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "NET-00295": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "NET-00296": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "NET-00297": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "NET-00298": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "NET-00299": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "NET-00300": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "NET-00301": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "NET-00302": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "NET-00303": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "NET-00304": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "NET-00305": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "NET-00306": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "NET-00307": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "NET-00308": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "NET-00309": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "NET-00310": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "NET-00311": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "NET-00312": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "NET-00313": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "NET-00314": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "NET-00315": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "NET-00316": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "NET-00317": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "NET-00318": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "NET-00319": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "NET-00320": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "NET-00321": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "NET-00322": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "NET-00323": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "NET-00324": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "NET-00325": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "NET-00326": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "NET-00327": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "NET-00328": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "NET-00329": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "NET-00330": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "NET-00331": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "NET-00332": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "NET-00333": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "NET-00334": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "NET-00335": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "NET-00336": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "NET-00337": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "NET-00338": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "NET-00339": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "NET-00340": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "NET-00341": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "NET-00342": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "NET-00343": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "NET-00344": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "NET-00345": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "NET-00346": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "NET-00347": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "NET-00348": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "NET-00349": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "NET-00350": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "NET-00351": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "NET-00352": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "NET-00353": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "NET-00354": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "NET-00355": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "NET-00356": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "NET-00357": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "NET-00358": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "NET-00359": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "NET-00360": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "NET-00361": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "NET-00362": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "NET-00363": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "NET-00364": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "NET-00365": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "NET-00366": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "NET-00367": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "NET-00368": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "NET-00369": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "NET-00370": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "NET-00371": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "NET-00372": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "NET-00373": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "NET-00374": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "NET-00375": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "NET-00376": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "NET-00377": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "NET-00378": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "NET-00379": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "NET-00380": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "NET-00381": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "NET-00382": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "NET-00383": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "NET-00384": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "NET-00385": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "NET-00386": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "NET-00387": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "NET-00388": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "NET-00389": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "NET-00390": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "NET-00391": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "NET-00392": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "NET-00393": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "NET-00394": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "NET-00395": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "NET-00396": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "NET-00397": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "NET-00398": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "NET-00399": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "NET-00400": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "NET-00401": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "NET-00402": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "NET-00403": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "NET-00404": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "NET-00405": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "NET-00406": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "NET-00407": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "NET-00408": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "NET-00409": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "NET-00410": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "NET-00411": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "NET-00412": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "NET-00413": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "NET-00414": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "NET-00415": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "NET-00416": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "NET-00417": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "NET-00418": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "NET-00419": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "NET-00420": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "NET-00421": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "NET-00422": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "NET-00423": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "NET-00424": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "NET-00425": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "NET-00426": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "NET-00427": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "NET-00428": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "NET-00429": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "NET-00430": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "NET-00431": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "NET-00432": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "NET-00433": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "NET-00434": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "NET-00435": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "NET-00436": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "NET-00437": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "NET-00438": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "NET-00439": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "NET-00440": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "NET-00441": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "NET-00442": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "NET-00443": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "NET-00444": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "NET-00445": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "NET-00446": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "NET-00447": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "NET-00448": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "NET-00449": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "NET-00450": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "NET-00451": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "NET-00452": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "NET-00453": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "NET-00454": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "NET-00455": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "NET-00456": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "NET-00457": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "NET-00458": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "NET-00459": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "NET-00460": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "NET-00461": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "NET-00462": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "NET-00463": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "NET-00464": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "NET-00465": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "NET-00466": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "NET-00467": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "NET-00468": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "NET-00469": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "NET-00470": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "NET-00471": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "NET-00472": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "NET-00473": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "NET-00474": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "NET-00475": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "NET-00476": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "NET-00477": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "NET-00478": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "NET-00479": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "NET-00480": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "NET-00481": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "NET-00482": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "NET-00483": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "NET-00484": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "NET-00485": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "NET-00486": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "NET-00487": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "NET-00488": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "NET-00489": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "NET-00490": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "NET-00491": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "NET-00492": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "NET-00493": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "NET-00494": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "NET-00495": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "NET-00496": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "NET-00497": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "NET-00498": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "NET-00499": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "NET-00500": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "NET-00501": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "NET-00502": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "NET-00503": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "NET-00504": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "NET-00505": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "NET-00506": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "NET-00507": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "NET-00508": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "NET-00509": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "NET-00510": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "NET-00511": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "NET-00512": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "NET-00513": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "NET-00514": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "NET-00515": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "NET-00516": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "NET-00517": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "NET-00518": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "NET-00519": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "NET-00520": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "NET-00521": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "NET-00522": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "NET-00523": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "NET-00524": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "NET-00525": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "NET-00526": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "NET-00527": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "NET-00528": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "NET-00529": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "NET-00530": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "NET-00531": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "NET-00532": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "NET-00533": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "NET-00534": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "NET-00535": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "NET-00536": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "NET-00537": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "NET-00538": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "NET-00539": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "NET-00540": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "NET-00541": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "NET-00542": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "NET-00543": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "NET-00544": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "NET-00545": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "NET-00546": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "NET-00547": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "NET-00548": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "NET-00549": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "NET-00550": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "NET-00551": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "NET-00552": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "NET-00553": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "NET-00554": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "NET-00555": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "NET-00556": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "NET-00557": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "NET-00558": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "NET-00559": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "NET-00560": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "NET-00561": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "NET-00562": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "NET-00563": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "NET-00564": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "NET-00565": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "NET-00566": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "NET-00567": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "NET-00568": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "NET-00569": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "NET-00570": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "NET-00571": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "NET-00572": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "NET-00573": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "NET-00574": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "NET-00575": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "NET-00576": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "NET-00577": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "NET-00578": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "NET-00579": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "NET-00580": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "NET-00581": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "NET-00582": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "NET-00583": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "NET-00584": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "NET-00585": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "NET-00586": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "NET-00587": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "NET-00588": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "NET-00589": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "NET-00590": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "NET-00591": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "NET-00592": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "NET-00593": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "NET-00594": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "NET-00595": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "NET-00596": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "NET-00597": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "NET-00598": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "NET-00599": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "NET-00600": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "NET-00601": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "NET-00602": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "NET-00603": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "NET-00604": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00605": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "NET-00606": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "NET-00607": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "NET-00608": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "NET-00609": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "NET-00610": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "NET-00611": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "NET-00612": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "NET-00613": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "NET-00614": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "NET-00615": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "NET-00616": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "NET-00617": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "NET-00618": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "NET-00619": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "NET-00620": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "NET-00621": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "NET-00622": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "NET-00623": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "NET-00624": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "NET-00625": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "NET-00626": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "NET-00627": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "NET-00628": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00629": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "NET-00630": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "NET-00631": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "NET-00632": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00633": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "NET-00634": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "NET-00635": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "NET-00636": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "NET-00637": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00638": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "NET-00639": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "NET-00640": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "NET-00641": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "NET-00642": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "NET-00643": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "NET-00644": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "NET-00645": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "NET-00646": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "NET-00647": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "NET-00648": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "NET-00649": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "NET-00650": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "NET-00651": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00652": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "NET-00653": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "NET-00654": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00655": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "NET-00656": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "NET-00657": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "NET-00658": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "NET-00659": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "NET-00660": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "NET-00661": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "NET-00662": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "NET-00663": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "NET-00664": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "NET-00665": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "NET-00666": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "NET-00667": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "NET-00668": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "NET-00669": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "NET-00670": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "NET-00671": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "NET-00672": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "NET-00673": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "NET-00674": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "NET-00675": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "NET-00676": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "NET-00677": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "NET-00678": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "NET-00679": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "NET-00680": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "NET-00681": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "NET-00682": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "NET-00683": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "NET-00684": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00685": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00686": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "NET-00687": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "NET-00688": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "NET-00689": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "NET-00690": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "NET-00691": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "NET-00692": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "NET-00693": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "NET-00694": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "NET-00695": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "NET-00696": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "NET-00697": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "NET-00698": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "NET-00699": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "NET-00700": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "NET-00701": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "NET-00702": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "NET-00703": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "NET-00704": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "NET-00705": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "NET-00706": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "NET-00707": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "NET-00708": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "NET-00709": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "NET-00710": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "NET-00711": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "NET-00712": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "NET-00713": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "NET-00714": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "NET-00715": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "NET-00716": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "NET-00717": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "NET-00718": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "NET-00719": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "NET-00720": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "NET-00721": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00722": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "NET-00723": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "NET-00724": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "NET-00725": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "NET-00726": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00727": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "NET-00728": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "NET-00729": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "NET-00730": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "NET-00731": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "NET-00732": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "NET-00733": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "NET-00734": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "NET-00735": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "NET-00736": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "NET-00737": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "NET-00738": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "NET-00739": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "NET-00740": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "NET-00741": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "NET-00742": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "NET-00743": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "NET-00744": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "NET-00745": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00746": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "NET-00747": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00748": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "NET-00749": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "NET-00750": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "NET-00751": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "NET-00752": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "NET-00753": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "NET-00754": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "NET-00755": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "NET-00756": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "NET-00757": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "NET-00758": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "NET-00759": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "NET-00760": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "NET-00761": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "NET-00762": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "NET-00763": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "NET-00764": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "NET-00765": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "NET-00766": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00767": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "NET-00768": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "NET-00769": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "NET-00770": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "NET-00771": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "NET-00772": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "NET-00773": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "NET-00774": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "NET-00775": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "NET-00776": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00777": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "NET-00778": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "NET-00779": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "NET-00780": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "NET-00781": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "NET-00782": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "NET-00783": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00784": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "NET-00785": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "NET-00786": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "NET-00787": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "NET-00788": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "NET-00789": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "NET-00790": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "NET-00791": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "NET-00792": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "NET-00793": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "NET-00794": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "NET-00795": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "NET-00796": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "NET-00797": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "NET-00798": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "NET-00799": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "NET-00800": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "NET-00801": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00802": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "NET-00803": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "NET-00804": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "NET-00805": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "NET-00806": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "NET-00807": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00808": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "NET-00809": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "NET-00810": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "NET-00811": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "NET-00812": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00813": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "NET-00814": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "NET-00815": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "NET-00816": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "NET-00817": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "NET-00818": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "NET-00819": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "NET-00820": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "NET-00821": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "NET-00822": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "NET-00823": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "NET-00824": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "NET-00825": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "NET-00826": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "NET-00827": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "NET-00828": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00829": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "NET-00830": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "NET-00831": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "NET-00832": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "NET-00833": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "NET-00834": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "NET-00835": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "NET-00836": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "NET-00837": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "NET-00838": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "NET-00839": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "NET-00840": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "NET-00841": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "NET-00842": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "NET-00843": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "NET-00844": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "NET-00845": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "NET-00846": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "NET-00847": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "NET-00848": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "NET-00849": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00850": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "NET-00851": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "NET-00852": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00853": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "NET-00854": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "NET-00855": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "NET-00856": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "NET-00857": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "NET-00858": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "NET-00859": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "NET-00860": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "NET-00861": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "NET-00862": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "NET-00863": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "NET-00864": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "NET-00865": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "NET-00866": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "NET-00867": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "NET-00868": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "NET-00869": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "NET-00870": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "NET-00871": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "NET-00872": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "NET-00873": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "NET-00874": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "NET-00875": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "NET-00876": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "NET-00877": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "NET-00878": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "NET-00879": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "NET-00880": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "NET-00881": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "NET-00882": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "NET-00883": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "NET-00884": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "NET-00885": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "NET-00886": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "NET-00887": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "NET-00888": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "NET-00889": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "NET-00890": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "NET-00891": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "NET-00892": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "NET-00893": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "NET-00894": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "NET-00895": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "NET-00896": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "NET-00897": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "NET-00898": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "NET-00899": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "NET-00900": {
+    "difficulty": "Hard",
+    "score": 88
+  }
+}

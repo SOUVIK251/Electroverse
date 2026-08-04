@@ -1,0 +1,116 @@
+{
+  "id": "module_3",
+  "title": "Module 3: System Fundamentals",
+  "topics": {
+    "sys_linear": {
+      "title": "Linearity (Superposition & Homogeneity)",
+      "read_time": "10 min read",
+      "difficulty": "Intermediate",
+      "category": "System Properties",
+      "summary": "A system is linear if it satisfies both Superposition (Additivity) and Homogeneity (Scaling).",
+      "introduction": "Linear systems (LTI) allow powerful analysis using transfer functions, impulse responses, and frequency response.",
+      "theory": "A system T is **Linear** if for inputs x_1(t) -> y_1(t) and x_2(t) -> y_2(t):\n\n$$T\\{a x_1(t) + b x_2(t)\\} = a T\\{x_1(t)\\} + b T\\{x_2(t)\\} = a y_1(t) + b y_2(t)$$",
+      "derivation": "**Test Procedure**:\n1. Compute y_combined(t) = T{a x1(t) + b x2(t)}.\n2. Compute a y1(t) + b y2(t) = a T{x1(t)} + b T{x2(t)}.\n3. Check if y_combined(t) = a y1(t) + b y2(t). If YES -> Linear. If NO -> Nonlinear.",
+      "important_formulas": [
+        "T\\{a x_1(t) + b x_2(t)\\} = a y_1(t) + b y_2(t)",
+        "T\\{0\\} = 0 \\quad (\\text{Zero input gives zero output})"
+      ],
+      "examples": [
+        {
+          "problem": "Test if y(t) = 3 x(t) + 2 is linear.",
+          "solution": "Check zero input test: T{0} = 3(0) + 2 = 2 != 0. Since zero input gives non-zero output, it is NONLINEAR (it is incrementally linear / affine)."
+        }
+      ],
+      "common_mistakes": [
+        "Assuming y(t) = m x(t) + c is linear. In system theory, the constant offset c makes it NONLINEAR because T{0} != 0!"
+      ],
+      "interview_questions": [
+        {
+          "question": "What is a quick necessary condition to disprove linearity?",
+          "answer": "If zero input produces a non-zero output (T{0} != 0), the system is guaranteed to be nonlinear."
+        }
+      ],
+      "viva_questions": [
+        {
+          "question": "Is y(t) = x^2(t) linear?",
+          "answer": "No, squaring violates homogeneity: T{a x(t)} = a^2 x^2(t) != a y(t)."
+        }
+      ],
+      "professor_notes": "Any system with powers (x^2), roots, abs(x), sin(x), or constant additions (+C) is NONLINEAR!",
+      "memory_trick": "\ud83e\udde0 **Memory Trick**: **Linear** = Double input -> Double output. Zero input -> Zero output."
+    },
+    "sys_time_inv": {
+      "title": "Time Invariance (TIV vs TV)",
+      "read_time": "9 min read",
+      "difficulty": "Intermediate",
+      "category": "System Properties",
+      "summary": "A system is Time Invariant if a time shift in the input produces an identical time shift in the output.",
+      "introduction": "Time invariance means the system parameters do not change over time.",
+      "theory": "A system y(t) = T{x(t)} is **Time Invariant (TIV)** if:\n\n$$T\\{x(t - t_0)\\} = y(t - t_0)$$",
+      "derivation": "**Test Procedure**:\n1. Shift Input: Replace x(t) with x(t - t0) to get y(t, t0).\n2. Shift Output: Replace t with (t - t0) in expression of y(t) to get y(t - t0).\n3. Compare y(t, t0) and y(t - t0). If equal -> Time Invariant. If not -> Time Variant.",
+      "important_formulas": [
+        "T\\{x(t - t_0)\\} = y(t - t_0)"
+      ],
+      "examples": [
+        {
+          "problem": "Test if y(t) = t x(t) is Time Invariant.",
+          "solution": "1) Shift input: y(t, t0) = t x(t - t0). 2) Shift output: y(t - t0) = (t - t0) x(t - t0). Compare: t x(t - t0) != (t - t0) x(t - t0). Result: TIME VARIANT (because coefficient t varies with time)."
+        }
+      ],
+      "common_mistakes": [
+        "Confusing time scaling x(2t) with time invariance. Systems with time-scaled inputs x(at), x(t^2), or time-varying coefficients t x(t), cos(wt) x(t) are TIME VARIANT!"
+      ],
+      "interview_questions": [
+        {
+          "question": "Is an ideal sampler y[n] = x(n M) time invariant?",
+          "answer": "No, downsampling by M is a time-variant operation."
+        }
+      ],
+      "viva_questions": [
+        {
+          "question": "Why are LTI systems so important in engineering?",
+          "answer": "Because LTI systems can be completely characterized by their impulse response h(t) using convolution."
+        }
+      ],
+      "professor_notes": "Look at coefficients and argument of x! If t appears outside x() or as a multiplier inside x(at), it is Time Variant!",
+      "memory_trick": "\ud83e\udde0 **Memory Trick**: **Time Invariant** = System behavior is the SAME today, tomorrow, or next year."
+    },
+    "sys_stability": {
+      "title": "BIBO Stability & Causality",
+      "read_time": "10 min read",
+      "difficulty": "Intermediate",
+      "category": "System Properties",
+      "summary": "BIBO Stability requires every Bounded Input to produce a Bounded Output. Causality requires output to depend only on present and past inputs.",
+      "introduction": "Real-world physical systems must be stable and causal to operate safely in real time.",
+      "theory": "1. **BIBO Stability**:\nIf |x(t)| <= M_x < inf, then |y(t)| <= M_y < inf.\nFor an LTI system with impulse response h(t):\n$$\\int_{-\\infty}^{\\infty} |h(t)| dt < \\infty \\quad (\\text{Absolutely integrable impulse response})$$\n\n2. **Causality**:\nOutput y(t0) depends ONLY on input x(t) for t <= t0. For an LTI system, h(t) = 0 for t < 0.",
+      "derivation": "**Causality Check**:\n- y(t) = x(t - 2): Causal (depends on past t - 2).\n- y(t) = x(t + 1): Non-causal / Anti-causal (depends on future t + 1).\n- y(t) = x(-t): Non-causal (for t = -2, y(-2) = x(2) which is future).",
+      "important_formulas": [
+        "\\int_{-\\infty}^{\\infty} |h(t)| dt < \\infty \\quad (\\text{LTI BIBO Stability})",
+        "h(t) = 0 \\text{ for } t < 0 \\quad (\\text{LTI Causality})"
+      ],
+      "examples": [
+        {
+          "problem": "Is the integrator y(t) = integral_-inf^t x(tau) dtau BIBO stable?",
+          "solution": "Test with bounded input u(t) (bounded by 1): y(t) = t u(t) which grows to infinity as t -> inf. Result: UNSTABLE (Integrator has a pole at origin s=0)."
+        }
+      ],
+      "common_mistakes": [
+        "Assuming x(-t) is causal for t > 0. At t = -1, y(-1) = x(1) which requires FUTURE input at t = +1!"
+      ],
+      "interview_questions": [
+        {
+          "question": "Can a non-causal system be implemented in real time?",
+          "answer": "No, physical real-time systems cannot predict the future. Non-causal systems can only be processed offline (e.g., recorded signals, image processing)."
+        }
+      ],
+      "viva_questions": [
+        {
+          "question": "What is the condition for stability of an LTI system in terms of its poles?",
+          "answer": "All poles must lie strictly in the left-half of the s-plane (for CT) or inside the unit circle of the z-plane (for DT)."
+        }
+      ],
+      "professor_notes": "Causality = No future vision. Stability = No blow up to infinity!",
+      "memory_trick": "\ud83e\udde0 **Memory Trick**: **Causal** = Memory of past + present only. **BIBO Stable** = Never explodes to infinity."
+    }
+  }
+}

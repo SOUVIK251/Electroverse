@@ -1,0 +1,3602 @@
+{
+  "DIG-00001": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00002": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00003": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00004": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00005": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00006": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00007": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00008": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00009": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00010": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00011": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00012": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00013": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00014": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00015": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00016": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00017": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00018": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00019": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00020": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00021": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00022": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00023": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00024": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00025": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00026": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00027": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00028": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00029": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00030": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00031": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00032": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00033": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00034": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00035": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00036": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00037": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00038": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00039": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00040": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00041": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00042": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00043": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00044": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00045": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00046": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00047": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00048": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00049": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00050": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00051": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00052": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00053": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00054": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00055": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00056": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00057": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00058": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00059": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00060": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00061": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00062": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00063": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00064": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00065": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00066": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00067": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00068": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00069": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00070": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00071": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00072": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00073": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00074": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00075": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00076": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00077": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00078": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00079": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00080": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00081": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00082": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00083": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00084": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00085": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00086": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00087": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00088": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00089": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00090": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00091": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00092": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00093": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00094": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00095": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00096": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00097": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00098": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00099": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00100": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00101": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00102": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00103": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00104": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00105": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00106": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00107": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00108": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00109": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00110": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00111": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00112": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00113": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00114": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00115": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00116": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00117": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00118": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00119": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00120": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00121": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00122": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00123": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00124": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00125": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00126": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00127": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00128": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00129": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00130": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00131": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00132": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00133": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00134": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00135": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00136": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00137": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00138": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00139": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00140": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00141": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00142": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00143": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00144": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00145": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00146": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00147": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00148": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00149": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00150": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00151": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00152": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00153": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00154": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00155": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00156": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00157": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00158": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00159": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00160": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00161": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00162": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00163": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00164": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00165": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00166": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00167": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00168": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00169": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00170": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00171": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00172": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00173": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00174": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00175": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00176": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00177": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00178": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00179": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00180": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00181": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00182": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00183": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00184": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00185": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00186": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00187": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00188": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00189": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00190": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00191": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00192": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00193": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00194": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00195": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00196": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00197": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00198": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00199": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00200": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00201": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00202": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00203": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00204": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00205": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00206": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00207": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00208": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00209": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00210": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00211": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00212": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00213": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00214": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00215": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00216": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00217": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00218": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00219": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00220": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00221": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00222": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00223": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00224": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00225": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00226": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00227": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00228": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00229": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00230": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00231": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00232": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00233": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00234": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00235": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00236": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00237": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00238": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00239": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00240": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00241": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00242": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00243": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00244": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00245": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00246": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00247": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00248": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00249": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00250": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00251": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00252": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00253": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00254": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00255": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00256": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00257": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00258": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00259": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00260": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00261": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00262": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00263": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00264": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00265": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00266": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00267": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00268": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00269": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00270": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00271": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00272": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00273": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00274": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00275": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00276": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00277": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00278": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00279": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00280": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00281": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00282": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00283": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00284": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00285": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00286": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00287": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00288": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00289": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00290": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00291": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00292": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00293": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00294": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00295": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00296": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00297": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00298": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00299": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00300": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00301": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00302": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00303": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00304": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00305": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00306": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00307": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00308": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00309": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00310": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00311": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00312": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00313": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00314": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00315": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00316": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00317": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00318": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00319": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00320": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00321": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00322": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00323": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00324": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00325": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00326": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00327": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00328": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00329": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00330": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00331": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00332": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00333": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00334": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00335": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00336": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00337": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00338": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00339": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00340": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00341": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00342": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00343": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00344": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00345": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00346": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00347": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00348": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00349": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00350": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00351": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00352": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00353": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00354": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00355": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00356": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00357": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00358": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00359": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00360": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00361": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00362": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00363": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00364": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00365": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00366": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00367": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00368": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00369": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00370": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00371": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00372": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00373": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00374": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00375": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00376": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00377": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00378": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00379": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00380": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00381": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00382": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00383": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00384": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00385": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00386": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00387": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00388": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00389": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00390": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00391": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00392": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00393": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00394": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00395": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00396": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00397": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00398": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00399": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00400": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00401": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00402": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00403": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00404": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00405": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00406": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00407": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00408": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00409": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00410": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00411": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00412": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00413": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00414": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00415": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00416": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00417": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00418": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00419": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00420": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00421": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00422": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00423": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00424": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00425": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00426": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00427": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00428": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00429": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00430": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00431": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00432": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00433": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00434": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00435": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00436": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00437": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00438": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00439": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00440": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00441": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00442": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00443": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00444": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00445": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00446": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00447": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00448": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00449": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00450": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00451": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00452": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00453": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00454": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00455": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00456": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00457": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00458": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00459": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00460": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00461": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00462": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00463": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00464": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00465": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00466": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00467": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00468": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00469": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00470": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00471": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00472": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00473": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00474": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00475": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00476": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00477": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00478": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00479": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00480": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00481": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00482": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00483": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00484": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00485": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00486": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00487": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00488": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00489": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00490": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00491": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00492": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00493": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00494": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00495": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00496": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00497": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00498": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00499": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00500": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00501": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00502": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00503": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00504": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00505": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00506": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00507": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00508": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00509": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00510": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00511": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00512": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00513": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00514": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00515": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00516": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00517": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00518": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00519": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00520": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00521": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00522": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00523": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00524": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00525": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00526": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00527": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00528": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00529": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00530": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00531": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00532": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00533": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00534": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00535": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00536": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00537": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00538": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00539": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00540": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00541": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00542": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00543": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00544": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00545": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00546": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00547": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00548": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00549": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00550": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00551": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00552": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00553": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00554": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00555": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00556": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00557": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00558": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00559": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00560": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00561": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00562": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00563": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00564": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00565": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00566": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00567": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00568": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00569": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00570": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00571": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00572": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00573": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00574": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00575": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00576": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00577": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00578": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00579": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00580": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00581": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00582": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00583": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00584": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00585": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00586": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00587": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00588": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00589": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00590": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00591": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00592": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00593": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00594": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00595": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00596": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00597": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00598": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00599": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00600": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00601": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00602": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00603": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00604": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00605": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00606": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00607": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00608": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00609": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00610": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00611": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00612": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00613": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00614": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00615": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00616": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00617": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00618": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00619": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00620": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00621": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00622": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00623": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00624": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00625": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00626": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00627": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00628": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00629": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00630": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00631": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00632": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00633": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00634": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00635": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00636": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00637": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00638": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00639": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00640": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00641": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00642": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00643": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00644": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00645": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00646": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00647": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00648": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00649": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00650": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00651": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00652": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00653": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00654": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00655": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00656": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00657": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00658": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00659": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00660": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00661": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00662": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00663": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00664": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00665": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00666": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00667": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00668": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00669": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00670": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00671": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00672": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00673": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00674": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00675": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00676": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00677": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00678": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00679": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00680": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00681": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00682": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00683": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00684": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00685": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00686": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00687": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00688": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00689": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00690": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00691": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00692": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00693": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00694": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00695": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00696": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00697": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00698": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00699": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00700": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00701": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00702": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00703": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00704": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00705": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00706": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00707": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00708": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00709": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00710": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00711": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00712": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00713": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00714": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00715": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00716": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00717": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00718": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00719": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00720": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00721": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00722": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00723": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00724": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00725": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00726": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00727": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00728": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00729": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00730": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00731": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00732": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00733": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00734": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00735": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00736": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00737": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00738": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00739": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00740": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00741": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00742": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00743": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00744": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00745": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00746": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00747": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00748": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00749": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00750": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00751": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00752": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00753": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00754": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00755": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00756": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00757": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00758": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00759": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00760": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00761": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00762": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00763": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00764": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00765": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00766": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00767": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00768": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00769": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00770": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00771": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00772": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00773": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00774": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00775": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00776": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00777": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00778": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00779": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00780": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00781": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00782": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00783": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00784": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00785": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00786": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00787": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00788": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00789": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00790": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00791": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00792": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00793": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00794": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00795": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00796": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00797": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00798": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00799": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00800": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00801": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00802": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00803": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00804": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00805": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00806": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00807": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00808": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00809": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00810": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00811": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00812": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00813": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00814": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00815": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00816": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00817": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00818": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00819": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00820": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00821": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00822": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00823": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00824": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00825": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00826": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00827": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00828": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00829": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00830": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00831": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00832": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00833": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00834": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00835": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00836": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00837": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00838": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00839": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00840": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00841": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00842": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00843": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00844": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00845": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00846": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00847": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00848": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00849": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00850": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00851": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00852": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00853": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00854": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00855": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00856": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00857": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00858": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00859": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00860": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00861": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00862": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00863": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00864": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00865": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00866": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00867": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00868": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00869": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00870": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00871": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00872": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00873": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00874": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00875": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00876": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00877": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00878": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00879": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00880": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00881": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00882": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "DIG-00883": {
+    "module": "Introduction",
+    "bloom": "Remember"
+  },
+  "DIG-00884": {
+    "module": "Number Systems",
+    "bloom": "Understand"
+  },
+  "DIG-00885": {
+    "module": "Boolean Algebra",
+    "bloom": "Apply"
+  },
+  "DIG-00886": {
+    "module": "Logic Gates",
+    "bloom": "Analyze"
+  },
+  "DIG-00887": {
+    "module": "Universal Gates",
+    "bloom": "Evaluate"
+  },
+  "DIG-00888": {
+    "module": "Combinational Circuits",
+    "bloom": "Create"
+  },
+  "DIG-00889": {
+    "module": "Sequential Circuits",
+    "bloom": "Remember"
+  },
+  "DIG-00890": {
+    "module": "ICs & Breadboard",
+    "bloom": "Understand"
+  },
+  "DIG-00891": {
+    "module": "Applications",
+    "bloom": "Apply"
+  },
+  "DIG-00892": {
+    "module": "Introduction",
+    "bloom": "Analyze"
+  },
+  "DIG-00893": {
+    "module": "Number Systems",
+    "bloom": "Evaluate"
+  },
+  "DIG-00894": {
+    "module": "Boolean Algebra",
+    "bloom": "Create"
+  },
+  "DIG-00895": {
+    "module": "Logic Gates",
+    "bloom": "Remember"
+  },
+  "DIG-00896": {
+    "module": "Universal Gates",
+    "bloom": "Understand"
+  },
+  "DIG-00897": {
+    "module": "Combinational Circuits",
+    "bloom": "Apply"
+  },
+  "DIG-00898": {
+    "module": "Sequential Circuits",
+    "bloom": "Analyze"
+  },
+  "DIG-00899": {
+    "module": "ICs & Breadboard",
+    "bloom": "Evaluate"
+  },
+  "DIG-00900": {
+    "module": "Applications",
+    "bloom": "Create"
+  }
+}

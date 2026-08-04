@@ -1,0 +1,3602 @@
+{
+  "NET-00001": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00002": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00003": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00004": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00005": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00006": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00007": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00008": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00009": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00010": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00011": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00012": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00013": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00014": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00015": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00016": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00017": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00018": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00019": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00020": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00021": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00022": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00023": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00024": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00025": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00026": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00027": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00028": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00029": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00030": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00031": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00032": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00033": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00034": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00035": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00036": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00037": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00038": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00039": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00040": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00041": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00042": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00043": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00044": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00045": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00046": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00047": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00048": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00049": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00050": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00051": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00052": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00053": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00054": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00055": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00056": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00057": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00058": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00059": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00060": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00061": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00062": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00063": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00064": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00065": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00066": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00067": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00068": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00069": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00070": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00071": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00072": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00073": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00074": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00075": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00076": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00077": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00078": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00079": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00080": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00081": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00082": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00083": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00084": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00085": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00086": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00087": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00088": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00089": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00090": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00091": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00092": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00093": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00094": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00095": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00096": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00097": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00098": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00099": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00100": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00101": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00102": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00103": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00104": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00105": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00106": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00107": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00108": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00109": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00110": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00111": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00112": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00113": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00114": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00115": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00116": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00117": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00118": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00119": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00120": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00121": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00122": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00123": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00124": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00125": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00126": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00127": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00128": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00129": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00130": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00131": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00132": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00133": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00134": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00135": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00136": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00137": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00138": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00139": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00140": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00141": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00142": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00143": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00144": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00145": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00146": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00147": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00148": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00149": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00150": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00151": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00152": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00153": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00154": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00155": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00156": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00157": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00158": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00159": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00160": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00161": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00162": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00163": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00164": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00165": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00166": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00167": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00168": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00169": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00170": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00171": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00172": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00173": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00174": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00175": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00176": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00177": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00178": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00179": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00180": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00181": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00182": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00183": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00184": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00185": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00186": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00187": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00188": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00189": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00190": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00191": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00192": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00193": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00194": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00195": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00196": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00197": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00198": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00199": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00200": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00201": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00202": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00203": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00204": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00205": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00206": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00207": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00208": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00209": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00210": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00211": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00212": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00213": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00214": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00215": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00216": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00217": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00218": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00219": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00220": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00221": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00222": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00223": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00224": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00225": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00226": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00227": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00228": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00229": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00230": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00231": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00232": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00233": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00234": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00235": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00236": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00237": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00238": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00239": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00240": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00241": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00242": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00243": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00244": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00245": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00246": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00247": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00248": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00249": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00250": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00251": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00252": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00253": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00254": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00255": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00256": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00257": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00258": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00259": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00260": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00261": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00262": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00263": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00264": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00265": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00266": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00267": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00268": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00269": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00270": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00271": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00272": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00273": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00274": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00275": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00276": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00277": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00278": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00279": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00280": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00281": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00282": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00283": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00284": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00285": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00286": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00287": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00288": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00289": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00290": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00291": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00292": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00293": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Understand"
+  },
+  "NET-00294": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00295": {
+    "module": "Module 7: Filters",
+    "bloom": "Understand"
+  },
+  "NET-00296": {
+    "module": "Module 8: Applications",
+    "bloom": "Understand"
+  },
+  "NET-00297": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Understand"
+  },
+  "NET-00298": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Understand"
+  },
+  "NET-00299": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Understand"
+  },
+  "NET-00300": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Understand"
+  },
+  "NET-00301": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00302": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00303": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00304": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00305": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00306": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00307": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00308": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00309": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00310": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00311": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00312": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00313": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00314": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00315": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00316": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00317": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00318": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00319": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00320": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00321": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00322": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00323": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00324": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00325": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00326": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00327": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00328": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00329": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00330": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00331": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00332": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00333": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00334": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00335": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00336": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00337": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00338": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00339": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00340": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00341": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00342": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00343": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00344": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00345": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00346": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00347": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00348": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00349": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00350": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00351": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00352": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00353": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00354": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00355": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00356": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00357": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00358": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00359": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00360": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00361": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00362": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00363": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00364": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00365": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00366": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00367": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00368": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00369": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00370": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00371": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00372": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00373": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00374": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00375": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00376": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00377": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00378": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00379": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00380": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00381": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00382": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00383": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00384": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00385": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00386": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00387": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00388": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00389": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00390": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00391": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00392": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00393": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00394": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00395": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00396": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00397": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00398": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00399": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00400": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00401": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00402": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00403": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00404": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00405": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00406": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00407": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00408": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00409": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00410": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00411": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00412": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00413": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00414": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00415": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00416": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00417": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00418": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00419": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00420": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00421": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00422": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00423": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00424": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00425": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00426": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00427": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00428": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00429": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00430": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00431": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00432": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00433": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00434": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00435": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00436": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00437": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00438": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00439": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00440": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00441": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00442": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00443": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00444": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00445": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00446": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00447": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00448": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00449": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00450": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00451": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00452": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00453": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00454": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00455": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00456": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00457": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00458": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00459": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00460": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00461": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00462": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00463": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00464": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00465": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00466": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00467": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00468": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00469": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00470": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00471": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00472": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00473": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00474": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00475": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00476": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00477": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00478": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00479": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00480": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00481": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00482": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00483": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00484": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00485": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00486": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00487": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00488": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00489": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00490": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00491": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00492": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00493": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00494": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00495": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00496": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00497": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00498": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00499": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00500": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00501": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00502": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00503": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00504": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00505": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00506": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00507": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00508": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00509": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00510": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00511": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00512": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00513": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00514": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00515": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00516": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00517": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00518": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00519": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00520": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00521": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00522": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00523": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00524": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00525": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00526": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00527": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00528": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00529": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00530": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00531": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00532": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00533": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00534": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00535": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00536": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00537": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00538": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00539": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00540": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00541": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00542": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00543": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00544": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00545": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00546": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00547": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00548": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00549": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00550": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00551": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00552": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00553": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00554": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00555": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00556": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00557": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00558": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00559": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00560": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00561": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00562": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00563": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00564": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00565": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00566": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00567": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00568": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00569": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00570": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00571": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00572": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00573": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00574": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00575": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00576": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00577": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00578": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00579": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00580": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00581": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00582": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00583": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00584": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00585": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00586": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00587": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00588": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00589": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00590": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00591": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00592": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00593": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Apply"
+  },
+  "NET-00594": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Apply"
+  },
+  "NET-00595": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00596": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Apply"
+  },
+  "NET-00597": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Apply"
+  },
+  "NET-00598": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Apply"
+  },
+  "NET-00599": {
+    "module": "Module 7: Filters",
+    "bloom": "Apply"
+  },
+  "NET-00600": {
+    "module": "Module 8: Applications",
+    "bloom": "Apply"
+  },
+  "NET-00601": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00602": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00603": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00604": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00605": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00606": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00607": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00608": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00609": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00610": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00611": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00612": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00613": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00614": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00615": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00616": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00617": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00618": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00619": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00620": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00621": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00622": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00623": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00624": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00625": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00626": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00627": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00628": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00629": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00630": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00631": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00632": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00633": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00634": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00635": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00636": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00637": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00638": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00639": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00640": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00641": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00642": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00643": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00644": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00645": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00646": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00647": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00648": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00649": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00650": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00651": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00652": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00653": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00654": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00655": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00656": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00657": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00658": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00659": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00660": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00661": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00662": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00663": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00664": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00665": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00666": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00667": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00668": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00669": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00670": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00671": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00672": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00673": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00674": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00675": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00676": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00677": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00678": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00679": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00680": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00681": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00682": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00683": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00684": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00685": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00686": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00687": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00688": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00689": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00690": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00691": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00692": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00693": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00694": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00695": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00696": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00697": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00698": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00699": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00700": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00701": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00702": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00703": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00704": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00705": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00706": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00707": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00708": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00709": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00710": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00711": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00712": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00713": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00714": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00715": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00716": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00717": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00718": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00719": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00720": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00721": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00722": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00723": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00724": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00725": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00726": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00727": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00728": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00729": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00730": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00731": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00732": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00733": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00734": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00735": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00736": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00737": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00738": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00739": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00740": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00741": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00742": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00743": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00744": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00745": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00746": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00747": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00748": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00749": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00750": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00751": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00752": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00753": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00754": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00755": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00756": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00757": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00758": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00759": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00760": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00761": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00762": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00763": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00764": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00765": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00766": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00767": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00768": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00769": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00770": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00771": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00772": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00773": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00774": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00775": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00776": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00777": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00778": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00779": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00780": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00781": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00782": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00783": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00784": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00785": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00786": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00787": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00788": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00789": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00790": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00791": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00792": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00793": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00794": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00795": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00796": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00797": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00798": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00799": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00800": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00801": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00802": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00803": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00804": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00805": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00806": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00807": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00808": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00809": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00810": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00811": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00812": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00813": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00814": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00815": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00816": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00817": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00818": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00819": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00820": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00821": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00822": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00823": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00824": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00825": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00826": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00827": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00828": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00829": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00830": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00831": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00832": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00833": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00834": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00835": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00836": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00837": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00838": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00839": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00840": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00841": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00842": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00843": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00844": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00845": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00846": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00847": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00848": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00849": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00850": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00851": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00852": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00853": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00854": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00855": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00856": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00857": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00858": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00859": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00860": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00861": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00862": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00863": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00864": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00865": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00866": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00867": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00868": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00869": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00870": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00871": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00872": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00873": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00874": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00875": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00876": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00877": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00878": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00879": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00880": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00881": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00882": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00883": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00884": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00885": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00886": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00887": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00888": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00889": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00890": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00891": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00892": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  },
+  "NET-00893": {
+    "module": "Module 5: Network Theorems",
+    "bloom": "Analyze"
+  },
+  "NET-00894": {
+    "module": "Module 6: AC Network Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00895": {
+    "module": "Module 7: Filters",
+    "bloom": "Analyze"
+  },
+  "NET-00896": {
+    "module": "Module 8: Applications",
+    "bloom": "Analyze"
+  },
+  "NET-00897": {
+    "module": "Module 1: Fundamentals",
+    "bloom": "Analyze"
+  },
+  "NET-00898": {
+    "module": "Module 2: Basic Laws",
+    "bloom": "Analyze"
+  },
+  "NET-00899": {
+    "module": "Module 3: Circuit Analysis",
+    "bloom": "Analyze"
+  },
+  "NET-00900": {
+    "module": "Module 4: Analysis Techniques",
+    "bloom": "Analyze"
+  }
+}

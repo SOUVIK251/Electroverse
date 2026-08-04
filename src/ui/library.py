@@ -11,9 +11,11 @@ from PySide6.QtGui import QPixmap, QColor, QFont, QCursor
 import qtawesome as qta
 from src.core.logger import log
 from src.core.config import config_manager
+from src.core.image_loader import AsyncImageLoader
 
 # Global cache for downloaded remote images
 _remote_image_cache = {}
+
 
 
 class ImageViewerDialog(QDialog):
@@ -530,12 +532,8 @@ class LibraryView(QWidget):
         return None
 
     def create_image_container(self, label_text, json_path):
-        """Creates a zoomable image widget. Returns None if the image file is missing/unresolvable."""
+        """Creates an async zoomable image widget with skeleton placeholder and instant rendering."""
         if not json_path or str(json_path).strip() == "":
-            return None
-            
-        pixmap = self.load_pixmap_from_path_or_url(json_path)
-        if not pixmap or pixmap.isNull():
             return None
             
         box = QFrame()
@@ -556,26 +554,69 @@ class LibraryView(QWidget):
         lbl = QLabel(label_text)
         lbl.setStyleSheet("color: #06b6d4; font-size: 8.5pt; font-weight: bold; text-transform: uppercase; margin-bottom: 6px;")
         box_layout.addWidget(lbl, 0, Qt.AlignmentFlag.AlignCenter)
-        
-        # Create interactive clickable label
-        clickable_lbl = ClickableLabel(pixmap, label_text)
-        clickable_lbl.clicked.connect(self.open_image_viewer)
-        
-        # Scale preview
-        scaled = pixmap.scaled(QSize(320, 200), Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)
-        clickable_lbl.setPixmap(scaled)
-        clickable_lbl.setToolTip("Click to enlarge and zoom")
-        box_layout.addWidget(clickable_lbl)
-        
+
+        resolved_path = self.resolve_image_path(json_path) or json_path
+
+        # 1. Memory Cache Check (<1ms instant rendering)
+        cached_pixmap = AsyncImageLoader.instance().get_cached_image(resolved_path, (320, 200))
+        if cached_pixmap and not cached_pixmap.isNull():
+            clickable_lbl = ClickableLabel(cached_pixmap, label_text)
+            clickable_lbl.setPixmap(cached_pixmap)
+            clickable_lbl.setToolTip("Click to enlarge and zoom")
+            clickable_lbl.clicked.connect(lambda pm, t, p=resolved_path: self.open_image_viewer_async(p, t))
+            box_layout.addWidget(clickable_lbl)
+            return box
+
+        # 2. Skeleton Loading Placeholder Indicator
+        placeholder = QLabel("⚡ Loading visual...")
+        placeholder.setFixedSize(320, 160)
+        placeholder.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        placeholder.setStyleSheet("background-color: #0f172a; color: #64748b; border: 1px dashed #1e293b; border-radius: 6px; font-size: 9pt; font-weight: 500;")
+        box_layout.addWidget(placeholder)
+
+        def on_image_loaded(scaled_pixmap: QPixmap):
+            if placeholder.parent():
+                box_layout.removeWidget(placeholder)
+                placeholder.deleteLater()
+                
+            clickable_lbl = ClickableLabel(scaled_pixmap, label_text)
+            clickable_lbl.setPixmap(scaled_pixmap)
+            clickable_lbl.setToolTip("Click to enlarge and zoom")
+            clickable_lbl.clicked.connect(lambda pm, t, p=resolved_path: self.open_image_viewer_async(p, t))
+            box_layout.addWidget(clickable_lbl)
+
+        def on_image_failed(err_msg: str):
+            if placeholder.parent():
+                placeholder.setText("Visual unavailable")
+                placeholder.setStyleSheet("background-color: #0f172a; color: #475569; border: 1px solid #1e293b; border-radius: 6px; font-size: 8.5pt;")
+
+        # 3. Launch Parallel Async Background Loader
+        AsyncImageLoader.instance().load_image_async(resolved_path, (320, 200), on_image_loaded, on_image_failed)
+
         return box
 
+    def open_image_viewer_async(self, path_or_url, title):
+        """Asynchronously loads full-resolution image and launches zoom viewer off the GUI thread."""
+        cached_full = AsyncImageLoader.instance().get_cached_image(path_or_url)
+        if cached_full:
+            dialog = ImageViewerDialog(cached_full, title, self)
+            dialog.exec()
+            return
+
+        def on_full_loaded(pixmap):
+            dialog = ImageViewerDialog(pixmap, title, self)
+            dialog.exec()
+
+        AsyncImageLoader.instance().load_image_async(path_or_url, None, on_full_loaded)
+
     def open_image_viewer(self, pixmap, title):
-        """Launches the zoomable image viewer dialog."""
+        """Fallback zoomable image viewer launcher."""
         dialog = ImageViewerDialog(pixmap, title, self)
         dialog.exec()
 
+
     def on_item_clicked(self, item):
-        """Displays the selected component in the redesigned details pane."""
+        """Displays the selected component in the redesigned details pane and preloads neighbors."""
         from PySide6.QtWidgets import QTableWidget, QTableWidgetItem, QHeaderView, QRadioButton, QButtonGroup, QTabWidget, QListWidget, QListWidgetItem
         
         comp_id = item.data(0, Qt.ItemDataRole.UserRole)
@@ -583,6 +624,25 @@ class LibraryView(QWidget):
             return
             
         comp = self.components_db[comp_id]
+
+        # Background preloading for previous and next components in the category tree
+        parent_item = item.parent()
+        if parent_item:
+            idx = parent_item.indexOfChild(item)
+            neighbors = []
+            if idx > 0:
+                neighbors.append(parent_item.child(idx - 1))
+            if idx < parent_item.childCount() - 1:
+                neighbors.append(parent_item.child(idx + 1))
+
+            for n_item in neighbors:
+                n_id = n_item.data(0, Qt.ItemDataRole.UserRole)
+                if n_id and n_id in self.components_db:
+                    n_imgs = self.images_manifest.get(n_id, self.components_db[n_id].get("images", {}))
+                    for img_path in n_imgs.values():
+                        if img_path and str(img_path).strip():
+                            res_p = self.resolve_image_path(img_path) or img_path
+                            AsyncImageLoader.instance().preload_image(res_p, (320, 200))
         
         # Log this session action
         main_win = self.window()
@@ -594,6 +654,7 @@ class LibraryView(QWidget):
             child = self.right_layout.takeAt(0)
             if child.widget():
                 child.widget().deleteLater()
+
                 
         # 1. Component Header Card
         header_card = QFrame()
@@ -640,30 +701,6 @@ class LibraryView(QWidget):
         self.star_btn.setToolTip("Mark Component as Favorite")
         self.star_btn.clicked.connect(lambda: self.toggle_component_favorite(comp_id))
         title_row.addWidget(self.star_btn)
-        
-        # Open Datasheet Button
-        ds_btn = QPushButton(" Datasheet")
-        ds_btn.setIcon(qta.icon("fa5s.file-pdf", color="#ffffff"))
-        ds_btn.setStyleSheet("""
-            QPushButton {
-                background-color: #334155;
-                color: #f8fafc;
-                border: none;
-                border-radius: 4px;
-                padding: 6px 12px;
-                font-weight: bold;
-                font-size: 9pt;
-            }
-            QPushButton:hover {
-                background-color: #475569;
-            }
-        """)
-        # Find datasheet URL or default to alldatasheet
-        ds_url = comp.get("references", "https://www.alldatasheet.com/")
-        if not ds_url or "http" not in ds_url:
-            ds_url = f"https://www.alldatasheet.com/view.jsp?SearchVal={comp['name']}"
-        ds_btn.clicked.connect(lambda: self.open_datasheet_url(ds_url))
-        title_row.addWidget(ds_btn)
         
         header_layout.addLayout(title_row)
         
@@ -777,6 +814,8 @@ class LibraryView(QWidget):
             ("symbol", "Circuit Symbol"),
             ("internal_structure", "Internal Structure"),
             ("example_circuit", "Example Circuit"),
+            ("optocoupler_example", "Optocoupler Example"),
+            ("application_schematic", "Application Schematic"),
             ("pin_diagram", "Pin Diagram"),
             ("vi_characteristics", "V-I Characteristics"),
             ("waveform_diagram", "Waveform Diagram"),

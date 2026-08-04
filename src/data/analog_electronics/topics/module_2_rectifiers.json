@@ -1,0 +1,145 @@
+{
+  "topics": {
+    "half_wave_rectifier": {
+      "title": "Half Wave Rectifier",
+      "category": "Module 2: Rectifiers & Power Supplies",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Half Wave Rectifier in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Half Wave Rectifier: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Half Wave Rectifier is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Half Wave Rectifier.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Half Wave Rectifier is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Half Wave Rectifier yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Half Wave Rectifier.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "full_wave_rectifier": {
+      "title": "Full Wave Center-Tapped Rectifier",
+      "category": "Module 2: Rectifiers & Power Supplies",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Full Wave Center-Tapped Rectifier in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Full Wave Center-Tapped Rectifier: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Full Wave Center-Tapped Rectifier is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Full Wave Center-Tapped Rectifier.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Full Wave Center-Tapped Rectifier is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Full Wave Center-Tapped Rectifier yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Full Wave Center-Tapped Rectifier.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "bridge_rectifier": {
+      "title": "Bridge Rectifier with Filter",
+      "category": "Module 2: Rectifiers & Power Supplies",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Bridge Rectifier with Filter in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Bridge Rectifier with Filter: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Bridge Rectifier with Filter is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Bridge Rectifier with Filter.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Bridge Rectifier with Filter is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Bridge Rectifier with Filter yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Bridge Rectifier with Filter.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    }
+  }
+}

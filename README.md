@@ -16,19 +16,17 @@
 ## 🌟 Key Modules & Features
 
 ### 1. 🌊 Analog Electronics Circuit Hub
-A unified master workspace integrating all analog electronics tools into a single streamlined environment with a dedicated **3-pane horizontal split-layout**:
-
-```
----------------------------------------------------------------------------------------------
-| Experiment List (20%)   | Theory & Controls (40%)        | Dedicated Oscilloscope (40%)   |
-| (Min Width: 250 px)     | (Min Width: 450 px)            | (Min Width: 500 px)            |
----------------------------------------------------------------------------------------------
-```
-
-- **🎓 Theory & Lessons**: Structured academic curriculum covering passive elements, PN junction diodes, Zener regulators, BJTs, MOSFETs, and Op-Amps with LaTeX formula rendering.
-- **🛠 Engineering Toolkit**: Interactive design calculators for Ohm's Law, Voltage/Current Dividers, LED Resistor Sizing, Reactance, RC/RL Time Constants, and RLC Resonance.
-- **🧪 Interactive Simulation Lab & Dedicated Oscilloscope**: Real-time differential equation solvers for RC/RL transients, RLC sweeps, rectifiers, clippers, clampers, and a dual-channel Digital Storage Oscilloscope (DSO).
-- **🔒 Zero-Overlap 3-Pane Splitter Architecture**: Built using a responsive horizontal `QSplitter` with strict minimum widths (`250px` Experiment List | `450px` Theory & Parameters | `500px` Oscilloscope) ensuring the waveform viewer never overlaps or obscures theory notes or parameter controls.
+A master learning and simulation platform for Analog Electronics aligned with ElectroVerse's standardized 5-tab hub architecture:
+- **📖 Learn (Interactive Textbook)**: Course Roadmap progress header, 25% Sidebar | 75% Reader, Step-by-Step Interactive Derivations (`Step 1` ➔ `Next` ➔ `Final Equation`), LaTeX math derivations, memory tricks, professor notes, career applications (*Preamplifiers, SMPS, ECG Medical Monitors, Sensor Interfaces*), and conditional simulation launch buttons.
+- **🧠 Problem Solving Lab**: Decision Tree recognition guides, step-by-step numerical solvers (Clippers, Clampers, Multivibrators), and an **offline rule-based hint engine**.
+- **🧪 Interactive Simulation (Topic-Specific Visualizations — DSO Removed)**: Clean, experiment-tailored Matplotlib visualizers without bulky DSO panels:
+  - *Clippers*: Input vs Output waveform comparison + Clipping threshold line ($V_{\text{clip}}$).
+  - *Clampers*: Input vs Output waveform + DC Shift level ($V_{dc}$).
+  - *Rectifiers*: Rectified output waveform + Ripple curve + DC output level graph.
+  - *Filters*: Bode Magnitude frequency response plot (dB) + Bode Phase response plot.
+  - *Multivibrators*: Square wave output pulse train with adjustable frequency & duty cycle.
+- **📝 Assessment**: Upgraded CBT Examination System with **900 Questions across 30 Exam Sets** (10 Easy, 10 Medium, 10 Hard per set), 30-min timer, auto-submit, topic analytics, and Certificates of Mastery.
+- **📚 Reference**: Formula Explorer (live search), Interactive Calculators (*Clippers, Clampers, Filters*), Unit Converter, Constants.
 
 ---
 
@@ -41,7 +39,43 @@ A comprehensive digital electronics hub structured for maximum learning retentio
 
 ---
 
-### 3. 🎓 Grand Viva & Core Technical Interview Prep
+### 3. 📈 Signal & System Hub
+A world-class interactive learning and analysis platform for Signals & Systems:
+- **📖 Learn (Interactive Textbook)**: 25% / 75% screen split layout covering 10 Modules and 40+ Topics (Signal Classification, Operations, Linear Systems, Convolution, Fourier Series, Fourier Transform, Laplace Transform, Z-Transform, Nyquist Sampling, and Applications). Renders LaTeX math equations, worked numerical examples, professor notes, and **"🧠 Memory Trick"** cards.
+- **🧪 Interactive Simulation**: Real-time Matplotlib interactive engine supporting Signal Generators (Step, Ramp, Sine, Square, Triangular), Signal Operations Transformer (Shift, Scale, Fold), Convolution Animator, Fourier Series Harmonics Synthesizer, Laplace & Z-Transform Pole-Zero & ROC Plotter, and Nyquist Sampling & Aliasing Demonstration.
+- **📝 Assessment**: Interactive MCQ quiz bank, numerical problem sets, technical interview & viva voce Q&A with difficulty filters (Easy, Medium, Hard) and automated score tracking.
+- **📚 Reference (Formula Matrix)**: Formula cheat sheets, lookup tables, and memorization shortcuts.
+
+---
+
+### 4. ⚡ Network Theory Hub (Virtual Engineering Laboratory Suite)
+A world-class interactive learning, simulation, and problem-solving platform for Electrical Network Theory:
+- **🏠 Learning Dashboard (Home Page)**: Metric cards (Modules Completed, Overall Progress %, Simulations Finished, CBT Average, Certificates Earned), Continue Learning quick jump cards, and recent activity logs.
+- **📖 Learn (Interactive Textbook)**: Course Roadmap progress header, 25% Sidebar | 75% Reader, Step-by-Step Interactive Derivation revealer (`Step 1` ➔ `Next` ➔ `Final Equation`), LaTeX math derivations, memory tricks, professor notes, career applications (*Power Systems, Robotics, VLSI, Biomedical*), and related topic cross-links.
+- **🧠 Problem Solving Lab**: 13-step learning loop (*Theory ➔ Recognition Decision Tree ➔ Memory Trick ➔ Flowchart Workflow ➔ Algorithm ➔ Worked Examples ➔ Interactive Solver ➔ Rule-Based Hints ➔ Simulation ➔ Practice ➔ Shortcuts ➔ Viva ➔ Summary*) featuring an **offline rule-based hint engine**.
+- **🧪 Interactive Simulation**: Staged Matplotlib circuit simulators (Phases 1–5: Ohm's Law, KCL, KVL, Dividers, Mesh/Nodal, Source Transform, Superposition, Thevenin/Norton, Max Power, Phasors, Resonance, Filters, Circuit Builder) + **University Standard Engineering Laboratory Manuals**.
+- **📝 Assessment**: Powered by `CBTExamWidget("network_theory")` with 900 questions across 30 Exam Sets (10 Easy, 10 Medium, 10 Hard per set), 30-min countdown timer, auto-submit, topic analytics, and Certificates of Mastery.
+- **📚 Reference**: Formula Explorer (live search), 10 Interactive Calculators (*Resistance, Impedance, Power Triangle, Resonance, Thevenin/Norton, Dividers, Q-Factor, Reactance*), Unit Converter, IC Tables, Constants.
+- **💼 Engineering Workspace**: Save circuits, notes, bookmarks, recent simulations, and export/import sessions.
+
+---
+
+### 5. 📝 Enterprise Computer-Based Testing (CBT) Examination System
+A professional university-grade Computer-Based Test (CBT) examination platform powered by a **3,600-question database across 120 exam sets**:
+- **Cross-Hub Standard**: Operates identically across Digital System Design Hub, Signal & System Hub, Analog Electronics Hub, and Network Theory Hub.
+- **Adaptive Difficulty & 5 Exam Modes**: Easy Mode, Medium Mode, Hard Mode, Mixed Mode, and **Adaptive Mode** (dynamically shifts numeric difficulty 0–100 based on live correctness streaks).
+- **Question Navigator Grid (1–30)**: Color-coded state indicators (Gray=Not Visited, Blue=Visited, Green=Answered, Yellow=Marked for Review).
+- **Bloom's Taxonomy Levels**: Categorized across 6 cognitive levels (*Remember, Understand, Apply, Analyze, Evaluate, Create*).
+- **Analytics Dashboard & Topic Heatmaps**: Matplotlib Pie Charts (Response Breakdown), Bar Graphs (Topic Mastery), and Radar Skill Profiles.
+- **Answer Reviewer with Direct Links**: Reviews every question with explanations, student vs correct answers, and direct **`📖 Launch Theory`** and **`🧪 Launch Simulation`** buttons.
+- **Smart Learning Recommendations**: Identifies weak topics and estimates recovery time (e.g., *"Weak in Fourier Series. Estimated Recovery Time: 38 minutes"*).
+- **Official Certificate of Mastery**: Generates printable/saveable ElectroVerse Certificates (PNG/PDF) with unique Certificate ID and QR verification seal for scores $\ge 80\%$.
+- **Instructor Portal Mode**: Toggle switch to unlock all 90 sets, view answer keys, build custom topic exams, and export batch reports.
+- **100% Offline First**: Operates completely locally without cloud or API dependencies.
+
+---
+
+### 5. 🎓 Grand Viva & Core Technical Interview Prep
 An extensive oral board examination simulator:
 - **2,200+ Conceptual Questions**: Spanning 22 core ECE/CSE engineering subjects (Digital Electronics, Basic Electronics, Analog Circuits, Signals & Systems, Network Theory, Control Systems, Microprocessors, VLSI, DSP, IoT, Operating Systems, etc.).
 - **Governing Equations & Variables**: Every question renders LaTeX math equations with exact variable definitions.
@@ -49,12 +83,12 @@ An extensive oral board examination simulator:
 
 ---
 
-### 4. 🏠 Engineering Control Center (Dashboard)
+### 6. 🏠 Engineering Control Center (Dashboard)
 Features workspace launch shortcuts, system status metrics, daily engineering challenges, recommended topics, scientific vector scope animations, and recent activity logs.
 
 ---
 
-### 5. 📚 Component Library
+### 7. 📚 Component Library
 An interactive electronic component database with deep physical insights, schematic symbols, pinout diagrams, real photos, formulas, SI units, and cross-module links.
 
 ---

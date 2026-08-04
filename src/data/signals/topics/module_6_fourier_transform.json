@@ -1,0 +1,45 @@
+{
+  "id": "module_6",
+  "title": "Module 6: Fourier Transform",
+  "topics": {
+    "ft_ctft": {
+      "title": "Continuous-Time Fourier Transform (CTFT)",
+      "read_time": "12 min read",
+      "difficulty": "Advanced",
+      "category": "Frequency Analysis",
+      "summary": "Extends Fourier Analysis to aperiodic signals, mapping time-domain x(t) to frequency spectrum X(w).",
+      "introduction": "The Fourier Transform decomposes a non-periodic signal into a continuous spectrum of complex sinusoids.",
+      "theory": "**Forward CTFT**:\n$$X(\\omega) = \\mathcal{F}\\{x(t)\\} = \\int_{-\\infty}^{\\infty} x(t) e^{-j \\omega t} dt$$\n\n**Inverse CTFT (IFT)**:\n$$x(t) = \\mathcal{F}^{-1}\\{X(\\omega)\\} = \\frac{1}{2\\pi} \\int_{-\\infty}^{\\infty} X(\\omega) e^{j \\omega t} d\\omega$$",
+      "derivation": "**Parseval's Energy Theorem**:\n$$\\int_{-\\infty}^{\\infty} |x(t)|^2 dt = \\frac{1}{2\\pi} \\int_{-\\infty}^{\\infty} |X(\\omega)|^2 d\\omega$$\nStates that total energy in time domain equals total energy in frequency domain.",
+      "important_formulas": [
+        "X(\\omega) = \\int_{-\\infty}^{\\infty} x(t) e^{-j \\omega t} dt",
+        "x(t) = \\frac{1}{2\\pi} \\int_{-\\infty}^{\\infty} X(\\omega) e^{j \\omega t} d\\omega",
+        "\\mathcal{F}\\{e^{-a t} u(t)\\} = \\frac{1}{a + j \\omega} \\quad (a > 0)",
+        "\\mathcal{F}\\{\\delta(t)\\} = 1"
+      ],
+      "examples": [
+        {
+          "problem": "Find the Fourier Transform of a rectangular pulse x(t) = 1 for -T <= t <= T.",
+          "solution": "X(w) = integral_-T^T 1 * e^(-jwt) dt = [e^(-jwt)/(-jw)]_-T^T = (e^(jwT) - e^(-jwT))/(jw) = 2 sin(wT)/w = 2T sinc(wT)."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting the 1/(2 pi) factor in the Inverse Fourier Transform integral equation!"
+      ],
+      "interview_questions": [
+        {
+          "question": "What is the Fourier Transform of a rectangular pulse in the time domain?",
+          "answer": "A sinc function X(w) = 2T sinc(wT) in the frequency domain."
+        }
+      ],
+      "viva_questions": [
+        {
+          "question": "What is the duality property of the Fourier Transform?",
+          "answer": "If F{x(t)} = X(w), then F{X(t)} = 2 pi x(-w)."
+        }
+      ],
+      "professor_notes": "Rectangular pulse in time <=> Sinc function in frequency! Sinc in time <=> Rectangular pulse in frequency!",
+      "memory_trick": "\ud83e\udde0 **Memory Trick**: **Rect in Time = Sinc in Frequency**. **Narrow in time = Wide in frequency**."
+    }
+  }
+}

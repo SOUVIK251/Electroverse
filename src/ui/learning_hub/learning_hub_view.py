@@ -1,9 +1,10 @@
 """
 Digital Learning Hub Main Container View
-Hosts 4 Integrated Sub-Tabs:
+Hosts 5 Integrated Sub-Tabs:
+0. 🏠 Dashboard (Subject Banner, Progress Analytics & Quick Access)
 1. 📖 Learn (25% Compact Sidebar | 75% Expandable Textbook Lesson Reader)
 2. 🧪 Practice (Pure 2D Breadboard Trainer Kit - Clean Fullscreen Lab)
-3. 📝 Test (MCQs, Viva Flashcards & Certificates)
+3. 📝 Assessment (MCQs, Viva Flashcards & Certificates)
 4. 📚 Reference (IC Pinout Matrix, Formulas & Datasheets)
 """
 
@@ -13,6 +14,7 @@ from PySide6.QtWidgets import (
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QFont, QColor
 
+from .dashboard_view import DSDDashboardView
 from .learning_path_widget import LearningPathWidget
 from .course_tree_widget import CourseTreeWidget
 from .lesson_reader_widget import LessonReaderWidget
@@ -21,6 +23,8 @@ from .reference_matrix_widget import ReferenceMatrixWidget
 from .deep_search_widget import DeepSearchWidget
 
 from src.ui.dsd_lab import DSDLabView
+from src.ui.components.cbt_exam_widget import CBTExamWidget
+
 
 class LearningHubView(QWidget):
     def __init__(self, main_window=None, parent=None):
@@ -42,6 +46,11 @@ class LearningHubView(QWidget):
             QTabBar::tab:hover:!selected { background-color: #1e293b; color: #38bdf8; }
         """)
         
+        # TAB 0: 🏠 Dashboard
+        self.dash_widget = DSDDashboardView(self)
+        self.dash_widget.tab_jump_requested.connect(self.main_tabs.setCurrentIndex)
+        self.main_tabs.addTab(self.dash_widget, "🏠 Dashboard")
+
         # TAB 1: 📖 Learn (Left 25% Compact Navigation Sidebar | Right 75% Textbook Lesson Reader)
         learn_widget = QWidget()
         l_lay = QVBoxLayout(learn_widget)
@@ -67,11 +76,11 @@ class LearningHubView(QWidget):
         
         self.learning_path_widget = LearningPathWidget(self)
         self.learning_path_widget.topic_selected.connect(self.on_topic_selected_from_path)
-        left_nav_tabs.addTab(self.learning_path_widget, "🗺️ Path")
+        left_nav_tabs.addTab(self.learning_path_widget, "MAP Path")
         
         self.course_tree_widget = CourseTreeWidget(self)
         self.course_tree_widget.topic_selected.connect(self.on_topic_selected_from_path)
-        left_nav_tabs.addTab(self.course_tree_widget, "📂 Tree")
+        left_nav_tabs.addTab(self.course_tree_widget, "Tree")
         
         learn_splitter.addWidget(left_nav_tabs)
         
@@ -94,9 +103,9 @@ class LearningHubView(QWidget):
         self.dsd_breadboard_view = DSDLabView(self.main_window)
         self.main_tabs.addTab(self.dsd_breadboard_view, "🧪 Practice")
         
-        # TAB 3: 📝 Test (MCQs, Viva, Certificates)
-        self.test_widget = QuizVivaWidget(self)
-        self.main_tabs.addTab(self.test_widget, "📝 Test")
+        # TAB 3: 📝 Assessment (Enterprise CBT Examination System - 30 Sets)
+        self.cbt_widget = CBTExamWidget(subject_id="digital_system_design")
+        self.main_tabs.addTab(self.cbt_widget, "📝 Assessment")
         
         # TAB 4: 📚 Reference (IC Matrix & Cheat Sheets)
         self.reference_widget = ReferenceMatrixWidget(self)
@@ -141,16 +150,6 @@ class LearningHubView(QWidget):
 
     def launch_practice_experiment(self, exp_or_ic_id):
         # Switch tab to TAB 2: 🧪 Practice (Pure Breadboard View)
-        self.main_tabs.setCurrentIndex(1)
-        if self.dsd_breadboard_view and hasattr(self.dsd_breadboard_view, "ic_selector"):
-            ic_map = {
-                "half_adder": "7486",
-                "full_adder": "7486",
-                "mux_2_1": "7408",
-                "decoder_2_4": "7408",
-                "bcd_7seg": "7408"
-            }
-            target_ic = ic_map.get(exp_or_ic_id, "7408")
-            idx = self.dsd_breadboard_view.ic_selector.findData(target_ic)
-            if idx != -1:
-                self.dsd_breadboard_view.ic_selector.setCurrentIndex(idx)
+        self.main_tabs.setCurrentIndex(2)
+        if self.dsd_breadboard_view and hasattr(self.dsd_breadboard_view, "load_experiment"):
+            self.dsd_breadboard_view.load_experiment(exp_or_ic_id)

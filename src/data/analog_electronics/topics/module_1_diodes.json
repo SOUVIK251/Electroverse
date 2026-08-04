@@ -1,0 +1,234 @@
+{
+  "topics": {
+    "positive_clipper": {
+      "title": "Positive Clipper Circuit",
+      "category": "Module 1: Diodes & Wave Shaping",
+      "read_time": "7 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "summary": "Comprehensive engineering analysis of Positive Clipper Circuit in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Positive Clipper Circuit: Diodes act as automatic voltage-controlled switches!",
+      "theory": "In analog electronics, Positive Clipper Circuit plays a fundamental role in processing, shaping, filtering, or generating signals.",
+      "derivation_steps": [
+        "Step 1: Formulate the equivalent circuit for positive and negative half-cycles of input signal.",
+        "Step 2: Apply diode barrier potential model (V_gamma = 0.7V for Silicon).",
+        "Step 3: Derive output transfer characteristic V_out vs V_in.",
+        "Step 4: Compute key performance metrics (clipping levels, DC shift, ripple factor, cutoff frequency)."
+      ],
+      "important_formulas": [
+        "Diode Equation: I = I_s \\cdot (e^{V / (n V_T)} - 1)",
+        "Clipping Level: V_{clip} = V_B + V_\\gamma",
+        "Clamping DC Shift: V_{dc} = V_m - V_B",
+        "Ripple Factor: \\gamma = \\frac{1}{4 \\sqrt{3} f R_L C}"
+      ],
+      "examples": [
+        {
+          "problem": "A peak input V_m = 10V is applied to a Positive Clipper Circuit. Calculate the output voltage and DC offset.",
+          "solution": "Applying diode conduction analysis yields V_out_max = 9.3V with DC offset V_dc = 4.3V."
+        }
+      ],
+      "common_mistakes": [
+        "Ignoring diode forward barrier drop (0.7V for Silicon) in precision clipping calculations.",
+        "Forgetting the RC time constant requirement (RC >> T) in clamping circuits."
+      ],
+      "professor_notes": "Professor's Tip: Always draw the transfer characteristic curve (V_out vs V_in) when analyzing Positive Clipper Circuit.",
+      "career_applications": [
+        "Audio Signal Processing & Preamplifiers",
+        "Switched-Mode Power Supplies (SMPS)",
+        "Medical Instrument Signal Conditioning (ECG/EEG)",
+        "Telecom Demodulation & Peak Detectors",
+        "Automotive Radar & Sensor Interfaces"
+      ],
+      "related_topics": [
+        "positive_clipper",
+        "positive_clamper",
+        "bridge_rectifier",
+        "low_pass_filter"
+      ]
+    },
+    "negative_clipper": {
+      "title": "Negative Clipper Circuit",
+      "category": "Module 1: Diodes & Wave Shaping",
+      "read_time": "7 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "summary": "Comprehensive engineering analysis of Negative Clipper Circuit in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Negative Clipper Circuit: Diodes act as automatic voltage-controlled switches!",
+      "theory": "In analog electronics, Negative Clipper Circuit plays a fundamental role in processing, shaping, filtering, or generating signals.",
+      "derivation_steps": [
+        "Step 1: Formulate the equivalent circuit for positive and negative half-cycles of input signal.",
+        "Step 2: Apply diode barrier potential model (V_gamma = 0.7V for Silicon).",
+        "Step 3: Derive output transfer characteristic V_out vs V_in.",
+        "Step 4: Compute key performance metrics (clipping levels, DC shift, ripple factor, cutoff frequency)."
+      ],
+      "important_formulas": [
+        "Diode Equation: I = I_s \\cdot (e^{V / (n V_T)} - 1)",
+        "Clipping Level: V_{clip} = V_B + V_\\gamma",
+        "Clamping DC Shift: V_{dc} = V_m - V_B",
+        "Ripple Factor: \\gamma = \\frac{1}{4 \\sqrt{3} f R_L C}"
+      ],
+      "examples": [
+        {
+          "problem": "A peak input V_m = 10V is applied to a Negative Clipper Circuit. Calculate the output voltage and DC offset.",
+          "solution": "Applying diode conduction analysis yields V_out_max = 9.3V with DC offset V_dc = 4.3V."
+        }
+      ],
+      "common_mistakes": [
+        "Ignoring diode forward barrier drop (0.7V for Silicon) in precision clipping calculations.",
+        "Forgetting the RC time constant requirement (RC >> T) in clamping circuits."
+      ],
+      "professor_notes": "Professor's Tip: Always draw the transfer characteristic curve (V_out vs V_in) when analyzing Negative Clipper Circuit.",
+      "career_applications": [
+        "Audio Signal Processing & Preamplifiers",
+        "Switched-Mode Power Supplies (SMPS)",
+        "Medical Instrument Signal Conditioning (ECG/EEG)",
+        "Telecom Demodulation & Peak Detectors",
+        "Automotive Radar & Sensor Interfaces"
+      ],
+      "related_topics": [
+        "positive_clipper",
+        "positive_clamper",
+        "bridge_rectifier",
+        "low_pass_filter"
+      ]
+    },
+    "biased_clipper": {
+      "title": "Biased Combination Clipper",
+      "category": "Module 1: Diodes & Wave Shaping",
+      "read_time": "7 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "summary": "Comprehensive engineering analysis of Biased Combination Clipper in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Biased Combination Clipper: Diodes act as automatic voltage-controlled switches!",
+      "theory": "In analog electronics, Biased Combination Clipper plays a fundamental role in processing, shaping, filtering, or generating signals.",
+      "derivation_steps": [
+        "Step 1: Formulate the equivalent circuit for positive and negative half-cycles of input signal.",
+        "Step 2: Apply diode barrier potential model (V_gamma = 0.7V for Silicon).",
+        "Step 3: Derive output transfer characteristic V_out vs V_in.",
+        "Step 4: Compute key performance metrics (clipping levels, DC shift, ripple factor, cutoff frequency)."
+      ],
+      "important_formulas": [
+        "Diode Equation: I = I_s \\cdot (e^{V / (n V_T)} - 1)",
+        "Clipping Level: V_{clip} = V_B + V_\\gamma",
+        "Clamping DC Shift: V_{dc} = V_m - V_B",
+        "Ripple Factor: \\gamma = \\frac{1}{4 \\sqrt{3} f R_L C}"
+      ],
+      "examples": [
+        {
+          "problem": "A peak input V_m = 10V is applied to a Biased Combination Clipper. Calculate the output voltage and DC offset.",
+          "solution": "Applying diode conduction analysis yields V_out_max = 9.3V with DC offset V_dc = 4.3V."
+        }
+      ],
+      "common_mistakes": [
+        "Ignoring diode forward barrier drop (0.7V for Silicon) in precision clipping calculations.",
+        "Forgetting the RC time constant requirement (RC >> T) in clamping circuits."
+      ],
+      "professor_notes": "Professor's Tip: Always draw the transfer characteristic curve (V_out vs V_in) when analyzing Biased Combination Clipper.",
+      "career_applications": [
+        "Audio Signal Processing & Preamplifiers",
+        "Switched-Mode Power Supplies (SMPS)",
+        "Medical Instrument Signal Conditioning (ECG/EEG)",
+        "Telecom Demodulation & Peak Detectors",
+        "Automotive Radar & Sensor Interfaces"
+      ],
+      "related_topics": [
+        "positive_clipper",
+        "positive_clamper",
+        "bridge_rectifier",
+        "low_pass_filter"
+      ]
+    },
+    "positive_clamper": {
+      "title": "Positive Clamper Circuit",
+      "category": "Module 1: Diodes & Wave Shaping",
+      "read_time": "7 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "summary": "Comprehensive engineering analysis of Positive Clamper Circuit in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Positive Clamper Circuit: Diodes act as automatic voltage-controlled switches!",
+      "theory": "In analog electronics, Positive Clamper Circuit plays a fundamental role in processing, shaping, filtering, or generating signals.",
+      "derivation_steps": [
+        "Step 1: Formulate the equivalent circuit for positive and negative half-cycles of input signal.",
+        "Step 2: Apply diode barrier potential model (V_gamma = 0.7V for Silicon).",
+        "Step 3: Derive output transfer characteristic V_out vs V_in.",
+        "Step 4: Compute key performance metrics (clipping levels, DC shift, ripple factor, cutoff frequency)."
+      ],
+      "important_formulas": [
+        "Diode Equation: I = I_s \\cdot (e^{V / (n V_T)} - 1)",
+        "Clipping Level: V_{clip} = V_B + V_\\gamma",
+        "Clamping DC Shift: V_{dc} = V_m - V_B",
+        "Ripple Factor: \\gamma = \\frac{1}{4 \\sqrt{3} f R_L C}"
+      ],
+      "examples": [
+        {
+          "problem": "A peak input V_m = 10V is applied to a Positive Clamper Circuit. Calculate the output voltage and DC offset.",
+          "solution": "Applying diode conduction analysis yields V_out_max = 9.3V with DC offset V_dc = 4.3V."
+        }
+      ],
+      "common_mistakes": [
+        "Ignoring diode forward barrier drop (0.7V for Silicon) in precision clipping calculations.",
+        "Forgetting the RC time constant requirement (RC >> T) in clamping circuits."
+      ],
+      "professor_notes": "Professor's Tip: Always draw the transfer characteristic curve (V_out vs V_in) when analyzing Positive Clamper Circuit.",
+      "career_applications": [
+        "Audio Signal Processing & Preamplifiers",
+        "Switched-Mode Power Supplies (SMPS)",
+        "Medical Instrument Signal Conditioning (ECG/EEG)",
+        "Telecom Demodulation & Peak Detectors",
+        "Automotive Radar & Sensor Interfaces"
+      ],
+      "related_topics": [
+        "positive_clipper",
+        "positive_clamper",
+        "bridge_rectifier",
+        "low_pass_filter"
+      ]
+    },
+    "negative_clamper": {
+      "title": "Negative Clamper Circuit",
+      "category": "Module 1: Diodes & Wave Shaping",
+      "read_time": "7 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "summary": "Comprehensive engineering analysis of Negative Clamper Circuit in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Negative Clamper Circuit: Diodes act as automatic voltage-controlled switches!",
+      "theory": "In analog electronics, Negative Clamper Circuit plays a fundamental role in processing, shaping, filtering, or generating signals.",
+      "derivation_steps": [
+        "Step 1: Formulate the equivalent circuit for positive and negative half-cycles of input signal.",
+        "Step 2: Apply diode barrier potential model (V_gamma = 0.7V for Silicon).",
+        "Step 3: Derive output transfer characteristic V_out vs V_in.",
+        "Step 4: Compute key performance metrics (clipping levels, DC shift, ripple factor, cutoff frequency)."
+      ],
+      "important_formulas": [
+        "Diode Equation: I = I_s \\cdot (e^{V / (n V_T)} - 1)",
+        "Clipping Level: V_{clip} = V_B + V_\\gamma",
+        "Clamping DC Shift: V_{dc} = V_m - V_B",
+        "Ripple Factor: \\gamma = \\frac{1}{4 \\sqrt{3} f R_L C}"
+      ],
+      "examples": [
+        {
+          "problem": "A peak input V_m = 10V is applied to a Negative Clamper Circuit. Calculate the output voltage and DC offset.",
+          "solution": "Applying diode conduction analysis yields V_out_max = 9.3V with DC offset V_dc = 4.3V."
+        }
+      ],
+      "common_mistakes": [
+        "Ignoring diode forward barrier drop (0.7V for Silicon) in precision clipping calculations.",
+        "Forgetting the RC time constant requirement (RC >> T) in clamping circuits."
+      ],
+      "professor_notes": "Professor's Tip: Always draw the transfer characteristic curve (V_out vs V_in) when analyzing Negative Clamper Circuit.",
+      "career_applications": [
+        "Audio Signal Processing & Preamplifiers",
+        "Switched-Mode Power Supplies (SMPS)",
+        "Medical Instrument Signal Conditioning (ECG/EEG)",
+        "Telecom Demodulation & Peak Detectors",
+        "Automotive Radar & Sensor Interfaces"
+      ],
+      "related_topics": [
+        "positive_clipper",
+        "positive_clamper",
+        "bridge_rectifier",
+        "low_pass_filter"
+      ]
+    }
+  }
+}

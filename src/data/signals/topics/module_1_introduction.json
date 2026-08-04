@@ -1,0 +1,120 @@
+{
+  "id": "module_1",
+  "title": "Module 1: Introduction to Signals",
+  "topics": {
+    "sig_def": {
+      "title": "Signal Definition & Classification",
+      "read_time": "8 min read",
+      "difficulty": "Basic",
+      "category": "Fundamentals",
+      "summary": "A signal is a physical function carrying information about the state or behavior of a physical system.",
+      "introduction": "Signals are foundational to electronics, communications, control systems, and data processing.",
+      "theory": "Mathematically, a signal is represented as a function of one or more independent variables, most commonly time t or spatial coordinate x. For example, a speech voltage signal v(t) varies with time, while an image intensity I(x,y) varies with 2D spatial coordinates.",
+      "derivation": "**Classification Overview**:\n\n1. **Continuous-Time (CT) vs Discrete-Time (DT)**: CT signals x(t) defined for all t in R. DT signals x[n] defined only at integer indices n in Z.\n2. **Analog vs Digital**: Analog has continuous amplitude; Digital has quantized discrete amplitude levels.\n3. **Deterministic vs Random**: Deterministic signals can be modeled by exact mathematical formulas x(t) = A cos(w t). Random signals cannot be predicted deterministically and are modeled statistically (e.g., thermal noise).",
+      "important_formulas": [
+        "x(t) = Continuous-time signal defined for all t",
+        "x[n] = x(n T_s) = Discrete-time signal sampled at interval T_s"
+      ],
+      "examples": [
+        {
+          "problem": "Classify the signal x(t) = 5 cos(200 pi t) + 2 sin(500 pi t).",
+          "solution": "The signal is continuous-time, deterministic, analog, and periodic."
+        }
+      ],
+      "common_mistakes": [
+        "Confusing discrete-time with digital: discrete-time refers to independent variable (time), digital refers to dependent variable (amplitude quantization)."
+      ],
+      "interview_questions": [
+        {
+          "question": "What is the fundamental difference between an analog signal and a digital signal?",
+          "answer": "An analog signal has a continuous range of values for both time and amplitude. A digital signal has discrete quantized values in both time and amplitude."
+        }
+      ],
+      "viva_questions": [
+        {
+          "question": "Give a real-world example of a 2D non-time signal.",
+          "answer": "A digital photograph I(x,y), where light intensity varies across spatial coordinates x and y."
+        }
+      ],
+      "professor_notes": "Always check the domain of independent variable first before analyzing frequency components!",
+      "memory_trick": "\ud83e\udde0 **Memory Trick**: **Analog** = Continuous Everywhere (Time & Height). **Digital** = Staircase Everywhere (Grid & Steps)."
+    },
+    "sig_energy_power": {
+      "title": "Energy & Power Signals",
+      "read_time": "10 min read",
+      "difficulty": "Intermediate",
+      "category": "Signal Metrics",
+      "summary": "Signals are classified as Energy signals or Power signals based on their total energy E and average power P.",
+      "introduction": "Understanding whether a signal is an Energy signal (0 < E < inf, P = 0) or a Power signal (0 < P < inf, E = inf) is essential for spectral analysis.",
+      "theory": "Total Energy E of a continuous-time signal x(t) is defined as:\n\n$$E = \\int_{-\\infty}^{\\infty} |x(t)|^2 dt$$\n\nAverage Power P of a continuous-time signal x(t) is defined as:\n\n$$P = \\lim_{T \\to \\infty} \\frac{1}{2T} \\int_{-T}^{T} |x(t)|^2 dt$$",
+      "derivation": "**Energy vs Power Property Rules**:\n\n- An **Energy Signal** has finite energy 0 < E < inf and zero average power P = 0. (e.g., transient pulses, damped exponentials).\n- A **Power Signal** has finite non-zero average power 0 < P < inf and infinite energy E = inf. (e.g., periodic sinusoids, square waves).\n- Signals with infinite energy and infinite power are **Neither** (e.g., growing exponentials e^(2t)).",
+      "important_formulas": [
+        "E = \\int_{-\\infty}^{\\infty} |x(t)|^2 dt",
+        "P = \\lim_{T \\to \\infty} \\frac{1}{2T} \\int_{-T}^{T} |x(t)|^2 dt",
+        "P_{periodic} = \\frac{1}{T_0} \\int_{0}^{T_0} |x(t)|^2 dt"
+      ],
+      "examples": [
+        {
+          "problem": "Determine if x(t) = A e^(-a t) u(t) (where a > 0) is an Energy or Power signal.",
+          "solution": "Calculate Energy: E = \\int_0^inf A^2 e^(-2at) dt = A^2 / (2a). Since 0 < E < inf, it is an Energy Signal with E = A^2/(2a) Joules and Power P = 0."
+        }
+      ],
+      "common_mistakes": [
+        "A signal CANNOT be both an energy and a power signal simultaneously! If E < inf, then P = 0. If 0 < P < inf, then E = inf."
+      ],
+      "interview_questions": [
+        {
+          "question": "What is the average power of a periodic signal x(t) = A cos(w_0 t + theta)?",
+          "answer": "The average power of a sinusoidal signal with amplitude A is P = A^2 / 2, independent of frequency w_0 or phase theta."
+        }
+      ],
+      "viva_questions": [
+        {
+          "question": "What is the unit of Signal Energy in Signal Theory?",
+          "answer": "Joules (assuming normalized 1-ohm load resistor)."
+        }
+      ],
+      "professor_notes": "For periodic signals with period T0, always use the 1/T0 single period integral shortcut to find Power directly!",
+      "memory_trick": "\ud83e\udde0 **Memory Trick**: **Pulse = Energy** (Flashes & dies). **Periodic = Power** (Keeps going forever)."
+    },
+    "sig_elementary": {
+      "title": "Unit Step, Impulse, Ramp & Signum Function",
+      "read_time": "9 min read",
+      "difficulty": "Basic",
+      "category": "Elementary Signals",
+      "summary": "Elementary signals serve as basic building blocks for constructing complex signals and testing system responses.",
+      "introduction": "Unit Step u(t), Unit Impulse delta(t), Unit Ramp r(t), and Signum sgn(t) are foundational mathematical signals.",
+      "theory": "1. **Unit Step u(t)**:\n$$u(t) = \\begin{cases} 1, & t > 0 \\\\ 0, & t < 0 \\end{cases}$$\n\n2. **Dirac Delta / Unit Impulse delta(t)**:\n$$\\delta(t) = 0 \\text{ for } t \\neq 0, \\quad \\int_{-\\infty}^{\\infty} \\delta(t) dt = 1$$\n\n3. **Unit Ramp r(t)**:\n$$r(t) = t u(t) = \\int_{-\\infty}^{t} u(\\tau) d\\tau$$\n\n4. **Signum Function sgn(t)**:\n$$\\operatorname{sgn}(t) = \\begin{cases} 1, & t > 0 \\\\ -1, & t < 0 \\end{cases} = 2 u(t) - 1$$",
+      "derivation": "**Key Calculus Relationships**:\n\n- Derivative of Ramp is Step: d/dt r(t) = u(t)\n- Derivative of Step is Impulse: d/dt u(t) = delta(t)\n- Sifting Property of Impulse: \\int_-inf^inf x(t) delta(t - t0) dt = x(t0)",
+      "important_formulas": [
+        "d/dt r(t) = u(t)",
+        "d/dt u(t) = \\delta(t)",
+        "\\int_{-\\infty}^{\\infty} x(t) \\delta(t - t_0) dt = x(t_0)",
+        "x(t) \\delta(t - t_0) = x(t_0) \\delta(t - t_0)"
+      ],
+      "examples": [
+        {
+          "problem": "Evaluate the integral \\int_-inf^inf (t^3 + 4t + 2) delta(t - 2) dt.",
+          "solution": "Using the sifting property: Substitute t = 2 into x(t) = t^3 + 4t + 2: Result = 2^3 + 4(2) + 2 = 8 + 8 + 2 = 18."
+        }
+      ],
+      "common_mistakes": [
+        "Thinking delta(0) = 1. The height of delta(t) at t=0 is infinite; its AREA (integral) is 1!"
+      ],
+      "interview_questions": [
+        {
+          "question": "State the sifting property of the Dirac delta function.",
+          "answer": "Integrating the product of a continuous function x(t) and delta(t - t0) over all time extracts the value of x(t) evaluated at t0."
+        }
+      ],
+      "viva_questions": [
+        {
+          "question": "How is signum related to the unit step function?",
+          "answer": "sgn(t) = 2 u(t) - 1."
+        }
+      ],
+      "professor_notes": "The sampling property yields an impulse scaled by x(t0), whereas the sifting integral yields a scalar number x(t0)!",
+      "memory_trick": "\ud83e\udde0 **Memory Trick**: **Ramp -> Step -> Impulse**. Integrate to go backwards!"
+    }
+  }
+}

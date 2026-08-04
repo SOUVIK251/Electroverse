@@ -1,0 +1,148 @@
+{
+  "topics": {
+    "mesh_analysis": {
+      "title": "Mesh Current Analysis",
+      "category": "Module 4: Analysis Techniques",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Mesh Current Analysis in electrical network theory.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Mesh Current Analysis: Remember the governing conservation law: Energy in = Energy out!",
+      "theory": "In electrical network theory, Mesh Current Analysis forms the mathematical foundation for analyzing circuit behavior.",
+      "derivation_steps": [
+        "Step 1: Identify circuit branch parameters and node connections for Mesh Current Analysis.",
+        "Step 2: Apply governing physical laws (KCL/KVL or Theorem definition).",
+        "Step 3: Formulate algebraic loop/node matrix equations.",
+        "Step 4: Solve system equations for branch currents and node voltages."
+      ],
+      "important_formulas": [
+        "Governing Law: V = I \\cdot R",
+        "Power Equation: P = V \\cdot I = I^2 \\cdot R",
+        "KCL: \\sum I_{in} = \\sum I_{out}",
+        "KVL: \\sum V_{loop} = 0"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit under Mesh Current Analysis has V_s = 12V and R_1 = 4 ohms, R_2 = 6 ohms in series. Find total current and power.",
+          "solution": "Total R = R_1 + R_2 = 10 ohms. Current I = 12V / 10 = 1.2A. Total Power P = 12V * 1.2A = 14.4W."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting reference polarities (+/-) when writing KVL mesh equations.",
+        "Not deactivating independent current sources (open circuit) when computing R_th or Superposition."
+      ],
+      "professor_notes": "Professor's Tip: Always double-check node voltage references before formulating nodal matrices for Mesh Current Analysis.",
+      "career_applications": [
+        "Electrical Power Distribution & Smart Grids",
+        "Automotive Battery Management Systems (BMS)",
+        "Robotics Motor Drive Controllers",
+        "VLSI Analog Circuit Design",
+        "Biomedical ECG Signal Conditioning"
+      ],
+      "related_topics": [
+        "kcl",
+        "kvl",
+        "mesh_analysis",
+        "thevenin",
+        "superposition"
+      ]
+    },
+    "nodal_analysis": {
+      "title": "Nodal Voltage Analysis",
+      "category": "Module 4: Analysis Techniques",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Nodal Voltage Analysis in electrical network theory.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Nodal Voltage Analysis: Remember the governing conservation law: Energy in = Energy out!",
+      "theory": "In electrical network theory, Nodal Voltage Analysis forms the mathematical foundation for analyzing circuit behavior.",
+      "derivation_steps": [
+        "Step 1: Identify circuit branch parameters and node connections for Nodal Voltage Analysis.",
+        "Step 2: Apply governing physical laws (KCL/KVL or Theorem definition).",
+        "Step 3: Formulate algebraic loop/node matrix equations.",
+        "Step 4: Solve system equations for branch currents and node voltages."
+      ],
+      "important_formulas": [
+        "Governing Law: V = I \\cdot R",
+        "Power Equation: P = V \\cdot I = I^2 \\cdot R",
+        "KCL: \\sum I_{in} = \\sum I_{out}",
+        "KVL: \\sum V_{loop} = 0"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit under Nodal Voltage Analysis has V_s = 12V and R_1 = 4 ohms, R_2 = 6 ohms in series. Find total current and power.",
+          "solution": "Total R = R_1 + R_2 = 10 ohms. Current I = 12V / 10 = 1.2A. Total Power P = 12V * 1.2A = 14.4W."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting reference polarities (+/-) when writing KVL mesh equations.",
+        "Not deactivating independent current sources (open circuit) when computing R_th or Superposition."
+      ],
+      "professor_notes": "Professor's Tip: Always double-check node voltage references before formulating nodal matrices for Nodal Voltage Analysis.",
+      "career_applications": [
+        "Electrical Power Distribution & Smart Grids",
+        "Automotive Battery Management Systems (BMS)",
+        "Robotics Motor Drive Controllers",
+        "VLSI Analog Circuit Design",
+        "Biomedical ECG Signal Conditioning"
+      ],
+      "related_topics": [
+        "kcl",
+        "kvl",
+        "mesh_analysis",
+        "thevenin",
+        "superposition"
+      ]
+    },
+    "source_transform": {
+      "title": "Source Transformation",
+      "category": "Module 4: Analysis Techniques",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Source Transformation in electrical network theory.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Source Transformation: Remember the governing conservation law: Energy in = Energy out!",
+      "theory": "In electrical network theory, Source Transformation forms the mathematical foundation for analyzing circuit behavior.",
+      "derivation_steps": [
+        "Step 1: Identify circuit branch parameters and node connections for Source Transformation.",
+        "Step 2: Apply governing physical laws (KCL/KVL or Theorem definition).",
+        "Step 3: Formulate algebraic loop/node matrix equations.",
+        "Step 4: Solve system equations for branch currents and node voltages."
+      ],
+      "important_formulas": [
+        "Governing Law: V = I \\cdot R",
+        "Power Equation: P = V \\cdot I = I^2 \\cdot R",
+        "KCL: \\sum I_{in} = \\sum I_{out}",
+        "KVL: \\sum V_{loop} = 0"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit under Source Transformation has V_s = 12V and R_1 = 4 ohms, R_2 = 6 ohms in series. Find total current and power.",
+          "solution": "Total R = R_1 + R_2 = 10 ohms. Current I = 12V / 10 = 1.2A. Total Power P = 12V * 1.2A = 14.4W."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting reference polarities (+/-) when writing KVL mesh equations.",
+        "Not deactivating independent current sources (open circuit) when computing R_th or Superposition."
+      ],
+      "professor_notes": "Professor's Tip: Always double-check node voltage references before formulating nodal matrices for Source Transformation.",
+      "career_applications": [
+        "Electrical Power Distribution & Smart Grids",
+        "Automotive Battery Management Systems (BMS)",
+        "Robotics Motor Drive Controllers",
+        "VLSI Analog Circuit Design",
+        "Biomedical ECG Signal Conditioning"
+      ],
+      "related_topics": [
+        "kcl",
+        "kvl",
+        "mesh_analysis",
+        "thevenin",
+        "superposition"
+      ]
+    }
+  }
+}

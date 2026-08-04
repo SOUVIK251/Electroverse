@@ -76,7 +76,13 @@
         "symbol": "assets/components/electrolytic_capacitor/symbol.png",
         "internal_structure": "assets/components/electrolytic_capacitor/internal_structure.png"
     },
-    "esd_protection_diode": {},
+    "esd_protection_diode": {
+        "real_photo": "assets/components/esd_protection_diode/real_photo.png",
+        "symbol": "assets/components/esd_protection_diode/symbol.png",
+        "internal_structure": "assets/components/esd_protection_diode/internal_structure.png",
+        "example_circuit": "assets/components/esd_protection_diode/example_circuit.png",
+        "application_schematic": "assets/components/esd_protection_diode/application_schematic.png"
+    },
     "esp32": {
         "real_photo": "assets/components/esp32/real_photo.png",
         "internal_structure": "assets/components/esp32/internal_structure.png",
@@ -84,7 +90,9 @@
     },
     "female_header": {},
     "fuse": {
-        "real_photo": "assets/components/fuse/real_photo.jpg"
+        "real_photo": "assets/components/fuse/real_photo.jpg",
+        "symbol": "assets/components/fuse/symbol.png",
+        "internal_structure": "assets/components/fuse/internal_structure.png"
     },
     "gas_sensor": {
         "real_photo": "assets/components/gas_sensor/real_photo.png",
@@ -159,9 +167,17 @@
         "pin_diagram": "assets/components/mosfet/pin_diagram.png",
         "example_circuit": "assets/components/mosfet/example_circuit.png"
     },
-    "mov": {},
+    "mov": {
+        "real_photo": "assets/components/mov/real_photo.png",
+        "symbol": "assets/components/mov/symbol.png",
+        "internal_structure": "assets/components/mov/internal_structure.png"
+    },
     "nfc_pn532": {},
-    "optocoupler_iso": {},
+    "optocoupler_iso": {
+        "real_photo": "assets/components/optocoupler_iso/real_photo.png",
+        "symbol": "assets/components/optocoupler_iso/symbol.png",
+        "optocoupler_example": "assets/components/optocoupler_iso/example_circuit.png"
+    },
     "pcb_terminal_block": {},
     "photodiode": {
         "real_photo": "assets/components/photodiode/real_photo.png",
@@ -195,7 +211,11 @@
         "symbol": "assets/components/relay/symbol.png",
         "pin_diagram": "assets/components/relay/pin_diagram.png"
     },
-    "resettable_fuse_ptc": {},
+    "resettable_fuse_ptc": {
+        "real_photo": "assets/components/resettable_fuse_ptc/real_photo.png",
+        "symbol": "assets/components/resettable_fuse_ptc/symbol.png",
+        "internal_structure": "assets/components/resettable_fuse_ptc/internal_structure.png"
+    },
     "resistor": {
         "real_photo": "assets/components/resistor/real_photo.jpg",
         "symbol": "assets/components/resistor/symbol.png",

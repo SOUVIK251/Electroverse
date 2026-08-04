@@ -1,0 +1,284 @@
+{
+  "modules": [
+    {
+      "id": "mod_1",
+      "title": "Module 1: Introduction to Signals",
+      "description": "Definitions, classifications, elementary signals (Step, Impulse, Ramp, Signum), and continuous vs discrete time signals.",
+      "icon": "fa5s.wave-square",
+      "topics": [
+        {
+          "id": "sig_def",
+          "title": "Signal Definition & Classification",
+          "file": "module_1_introduction.json"
+        },
+        {
+          "id": "sig_energy_power",
+          "title": "Energy & Power Signals",
+          "file": "module_1_introduction.json"
+        },
+        {
+          "id": "sig_ct_dt",
+          "title": "Continuous vs Discrete Signals",
+          "file": "module_1_introduction.json"
+        },
+        {
+          "id": "sig_analog_digital",
+          "title": "Analog vs Digital Signals",
+          "file": "module_1_introduction.json"
+        },
+        {
+          "id": "sig_deterministic_random",
+          "title": "Deterministic vs Random Signals",
+          "file": "module_1_introduction.json"
+        },
+        {
+          "id": "sig_periodic_aperiodic",
+          "title": "Periodic & Aperiodic Signals",
+          "file": "module_1_introduction.json"
+        },
+        {
+          "id": "sig_even_odd",
+          "title": "Even & Odd Signals",
+          "file": "module_1_introduction.json"
+        },
+        {
+          "id": "sig_elementary",
+          "title": "Unit Step, Impulse, Ramp & Signum",
+          "file": "module_1_introduction.json"
+        }
+      ]
+    },
+    {
+      "id": "mod_2",
+      "title": "Module 2: Signal Operations",
+      "description": "Time shifting, scaling, folding, amplitude scaling, addition, multiplication, and even/odd signal decomposition.",
+      "icon": "fa5s.exchange-alt",
+      "topics": [
+        {
+          "id": "op_time_shift",
+          "title": "Time Shifting",
+          "file": "module_2_operations.json"
+        },
+        {
+          "id": "op_time_scale",
+          "title": "Time Scaling",
+          "file": "module_2_operations.json"
+        },
+        {
+          "id": "op_time_fold",
+          "title": "Time Folding / Reversal",
+          "file": "module_2_operations.json"
+        },
+        {
+          "id": "op_amp_scale",
+          "title": "Amplitude Scaling & Arithmetic",
+          "file": "module_2_operations.json"
+        },
+        {
+          "id": "op_decomposition",
+          "title": "Signal Decomposition (Even & Odd Parts)",
+          "file": "module_2_operations.json"
+        }
+      ]
+    },
+    {
+      "id": "mod_3",
+      "title": "Module 3: System Fundamentals",
+      "description": "Linearity, Time Invariance, Memory/Dynamic, Stability (BIBO), Causality, and Invertibility proofs.",
+      "icon": "fa5s.cogs",
+      "topics": [
+        {
+          "id": "sys_def",
+          "title": "System Definition & Classification",
+          "file": "module_3_systems.json"
+        },
+        {
+          "id": "sys_linear",
+          "title": "Linearity (Superposition & Homogeneity)",
+          "file": "module_3_systems.json"
+        },
+        {
+          "id": "sys_time_inv",
+          "title": "Time Invariance (TIV vs TV)",
+          "file": "module_3_systems.json"
+        },
+        {
+          "id": "sys_memory",
+          "title": "Memoryless vs Dynamic Systems",
+          "file": "module_3_systems.json"
+        },
+        {
+          "id": "sys_stability",
+          "title": "BIBO Stability",
+          "file": "module_3_systems.json"
+        },
+        {
+          "id": "sys_causality",
+          "title": "Causality & Invertibility",
+          "file": "module_3_systems.json"
+        }
+      ]
+    },
+    {
+      "id": "mod_4",
+      "title": "Module 4: Convolution",
+      "description": "Continuous-Time Convolution Integral, Discrete-Time Convolution Sum, Graphical & Analytical Methods.",
+      "icon": "fa5s.layer-group",
+      "topics": [
+        {
+          "id": "conv_ct",
+          "title": "Continuous-Time Convolution Integral",
+          "file": "module_4_convolution.json"
+        },
+        {
+          "id": "conv_dt",
+          "title": "Discrete-Time Convolution Sum",
+          "file": "module_4_convolution.json"
+        },
+        {
+          "id": "conv_props",
+          "title": "Properties of Convolution",
+          "file": "module_4_convolution.json"
+        }
+      ]
+    },
+    {
+      "id": "mod_5",
+      "title": "Module 5: Fourier Series",
+      "description": "Trigonometric and Exponential Fourier Series for periodic signals, Fourier coefficients, and symmetry.",
+      "icon": "fa5s.chart-area",
+      "topics": [
+        {
+          "id": "fs_trig",
+          "title": "Trigonometric Fourier Series",
+          "file": "module_5_fourier_series.json"
+        },
+        {
+          "id": "fs_exp",
+          "title": "Exponential Fourier Series",
+          "file": "module_5_fourier_series.json"
+        },
+        {
+          "id": "fs_symmetry",
+          "title": "Half-Wave & Quarter-Wave Symmetry",
+          "file": "module_5_fourier_series.json"
+        }
+      ]
+    },
+    {
+      "id": "mod_6",
+      "title": "Module 6: Fourier Transform",
+      "description": "Continuous-Time Fourier Transform (CTFT), Inverse CTFT, Magnitude & Phase Spectra, Parsevals Theorem.",
+      "icon": "fa5s.project-diagram",
+      "topics": [
+        {
+          "id": "ft_ctft",
+          "title": "Continuous-Time Fourier Transform (CTFT)",
+          "file": "module_6_fourier_transform.json"
+        },
+        {
+          "id": "ft_props",
+          "title": "Fourier Transform Properties",
+          "file": "module_6_fourier_transform.json"
+        },
+        {
+          "id": "ft_parseval",
+          "title": "Magnitude/Phase Spectrum & Parsevals Theorem",
+          "file": "module_6_fourier_transform.json"
+        }
+      ]
+    },
+    {
+      "id": "mod_7",
+      "title": "Module 7: Laplace Transform",
+      "description": "Bilateral & Unilateral Laplace Transform, Region of Convergence (ROC), Initial & Final Value Theorems.",
+      "icon": "fa5s.square-root-alt",
+      "topics": [
+        {
+          "id": "lt_def",
+          "title": "Laplace Transform & ROC",
+          "file": "module_7_laplace_transform.json"
+        },
+        {
+          "id": "lt_props",
+          "title": "Properties & Inverse Laplace",
+          "file": "module_7_laplace_transform.json"
+        },
+        {
+          "id": "lt_theorems",
+          "title": "Initial Value & Final Value Theorems",
+          "file": "module_7_laplace_transform.json"
+        }
+      ]
+    },
+    {
+      "id": "mod_8",
+      "title": "Module 8: Z-Transform",
+      "description": "Z-Transform definition, z-plane ROC, pole-zero plots, inverse Z-transform, difference equations, transfer function H(z).",
+      "icon": "fa5s.infinity",
+      "topics": [
+        {
+          "id": "zt_def",
+          "title": "Z-Transform & z-Plane ROC",
+          "file": "module_8_z_transform.json"
+        },
+        {
+          "id": "zt_props",
+          "title": "Properties & Inverse Z-Transform",
+          "file": "module_8_z_transform.json"
+        },
+        {
+          "id": "zt_systems",
+          "title": "Difference Equations & Transfer Function H(z)",
+          "file": "module_8_z_transform.json"
+        }
+      ]
+    },
+    {
+      "id": "mod_9",
+      "title": "Module 9: Sampling Theorem",
+      "description": "Nyquist-Shannon Sampling Theorem, Nyquist Rate, Aliasing, Anti-Aliasing Filtering, Signal Reconstruction.",
+      "icon": "fa5s.broadcast-tower",
+      "topics": [
+        {
+          "id": "samp_nyquist",
+          "title": "Nyquist-Shannon Sampling Theorem & Nyquist Rate",
+          "file": "module_9_sampling.json"
+        },
+        {
+          "id": "samp_aliasing",
+          "title": "Aliasing Effect & Anti-Aliasing Filters",
+          "file": "module_9_sampling.json"
+        },
+        {
+          "id": "samp_reconstruction",
+          "title": "Ideal & Practical Signal Reconstruction",
+          "file": "module_9_sampling.json"
+        }
+      ]
+    },
+    {
+      "id": "mod_10",
+      "title": "Module 10: Applications of Signals & Systems",
+      "description": "Communication, Image Processing, Biomedical Engineering, Control Systems, Speech, Radar, Audio, Wireless.",
+      "icon": "fa5s.microchip",
+      "topics": [
+        {
+          "id": "app_comm_img",
+          "title": "Communication & Image Processing Applications",
+          "file": "module_10_applications.json"
+        },
+        {
+          "id": "app_bio_control",
+          "title": "Biomedical & Control System Applications",
+          "file": "module_10_applications.json"
+        },
+        {
+          "id": "app_speech_radar",
+          "title": "Speech, Audio, Radar & Wireless Applications",
+          "file": "module_10_applications.json"
+        }
+      ]
+    }
+  ]
+}

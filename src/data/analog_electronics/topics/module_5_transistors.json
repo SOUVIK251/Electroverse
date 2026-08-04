@@ -1,0 +1,96 @@
+{
+  "topics": {
+    "bjt_biasing": {
+      "title": "BJT DC Biasing & Small-Signal Amplifiers",
+      "category": "Module 5: Transistors & Op-Amps",
+      "read_time": "7 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": false,
+      "summary": "Comprehensive engineering analysis of BJT DC Biasing & Small-Signal Amplifiers in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for BJT DC Biasing & Small-Signal Amplifiers: Diodes act as automatic voltage-controlled switches!",
+      "theory": "In analog electronics, BJT DC Biasing & Small-Signal Amplifiers plays a fundamental role in processing, shaping, filtering, or generating signals.",
+      "derivation_steps": [
+        "Step 1: Formulate the equivalent circuit for positive and negative half-cycles of input signal.",
+        "Step 2: Apply diode barrier potential model (V_gamma = 0.7V for Silicon).",
+        "Step 3: Derive output transfer characteristic V_out vs V_in.",
+        "Step 4: Compute key performance metrics (clipping levels, DC shift, ripple factor, cutoff frequency)."
+      ],
+      "important_formulas": [
+        "Diode Equation: I = I_s \\cdot (e^{V / (n V_T)} - 1)",
+        "Clipping Level: V_{clip} = V_B + V_\\gamma",
+        "Clamping DC Shift: V_{dc} = V_m - V_B",
+        "Ripple Factor: \\gamma = \\frac{1}{4 \\sqrt{3} f R_L C}"
+      ],
+      "examples": [
+        {
+          "problem": "A peak input V_m = 10V is applied to a BJT DC Biasing & Small-Signal Amplifiers. Calculate the output voltage and DC offset.",
+          "solution": "Applying diode conduction analysis yields V_out_max = 9.3V with DC offset V_dc = 4.3V."
+        }
+      ],
+      "common_mistakes": [
+        "Ignoring diode forward barrier drop (0.7V for Silicon) in precision clipping calculations.",
+        "Forgetting the RC time constant requirement (RC >> T) in clamping circuits."
+      ],
+      "professor_notes": "Professor's Tip: Always draw the transfer characteristic curve (V_out vs V_in) when analyzing BJT DC Biasing & Small-Signal Amplifiers.",
+      "career_applications": [
+        "Audio Signal Processing & Preamplifiers",
+        "Switched-Mode Power Supplies (SMPS)",
+        "Medical Instrument Signal Conditioning (ECG/EEG)",
+        "Telecom Demodulation & Peak Detectors",
+        "Automotive Radar & Sensor Interfaces"
+      ],
+      "related_topics": [
+        "positive_clipper",
+        "positive_clamper",
+        "bridge_rectifier",
+        "low_pass_filter"
+      ]
+    },
+    "opamp_basics": {
+      "title": "Operational Amplifier Fundamentals & Feedback",
+      "category": "Module 5: Transistors & Op-Amps",
+      "read_time": "7 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": false,
+      "summary": "Comprehensive engineering analysis of Operational Amplifier Fundamentals & Feedback in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Operational Amplifier Fundamentals & Feedback: Diodes act as automatic voltage-controlled switches!",
+      "theory": "In analog electronics, Operational Amplifier Fundamentals & Feedback plays a fundamental role in processing, shaping, filtering, or generating signals.",
+      "derivation_steps": [
+        "Step 1: Formulate the equivalent circuit for positive and negative half-cycles of input signal.",
+        "Step 2: Apply diode barrier potential model (V_gamma = 0.7V for Silicon).",
+        "Step 3: Derive output transfer characteristic V_out vs V_in.",
+        "Step 4: Compute key performance metrics (clipping levels, DC shift, ripple factor, cutoff frequency)."
+      ],
+      "important_formulas": [
+        "Diode Equation: I = I_s \\cdot (e^{V / (n V_T)} - 1)",
+        "Clipping Level: V_{clip} = V_B + V_\\gamma",
+        "Clamping DC Shift: V_{dc} = V_m - V_B",
+        "Ripple Factor: \\gamma = \\frac{1}{4 \\sqrt{3} f R_L C}"
+      ],
+      "examples": [
+        {
+          "problem": "A peak input V_m = 10V is applied to a Operational Amplifier Fundamentals & Feedback. Calculate the output voltage and DC offset.",
+          "solution": "Applying diode conduction analysis yields V_out_max = 9.3V with DC offset V_dc = 4.3V."
+        }
+      ],
+      "common_mistakes": [
+        "Ignoring diode forward barrier drop (0.7V for Silicon) in precision clipping calculations.",
+        "Forgetting the RC time constant requirement (RC >> T) in clamping circuits."
+      ],
+      "professor_notes": "Professor's Tip: Always draw the transfer characteristic curve (V_out vs V_in) when analyzing Operational Amplifier Fundamentals & Feedback.",
+      "career_applications": [
+        "Audio Signal Processing & Preamplifiers",
+        "Switched-Mode Power Supplies (SMPS)",
+        "Medical Instrument Signal Conditioning (ECG/EEG)",
+        "Telecom Demodulation & Peak Detectors",
+        "Automotive Radar & Sensor Interfaces"
+      ],
+      "related_topics": [
+        "positive_clipper",
+        "positive_clamper",
+        "bridge_rectifier",
+        "low_pass_filter"
+      ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "module_7",
+  "title": "Module 7: Laplace Transform",
+  "topics": {
+    "lt_def": {
+      "title": "Laplace Transform & ROC",
+      "read_time": "12 min read",
+      "difficulty": "Advanced",
+      "category": "s-Domain Analysis",
+      "summary": "Generalizes Fourier transform using s = sigma + j w to analyze unstable signals and LTI differential equations.",
+      "introduction": "Laplace transform converts differential equations into algebraic equations in the complex s-plane.",
+      "theory": "**Bilateral Laplace Transform**:\n$$X(s) = \\mathcal{L}\\{x(t)\\} = \\int_{-\\infty}^{\\infty} x(t) e^{-s t} dt \\quad (s = \\sigma + j \\omega)$$\n\n**Unilateral Laplace Transform** (for causal systems $t \\ge 0$):\n$$X(s) = \\int_{0^{-}}^{\\infty} x(t) e^{-s t} dt$$\n\n**Region of Convergence (ROC)**: The range of $\\text{Re}\\{s\\} = \\sigma$ for which the Laplace integral converges.",
+      "derivation": "**Initial & Final Value Theorems**:\n\n- **Initial Value Theorem**: $\\lim_{t \\to 0^+} x(t) = \\lim_{s \\to \\infty} s X(s)$\n- **Final Value Theorem**: $\\lim_{t \\to \\infty} x(t) = \\lim_{s \\to 0} s X(s)$ (valid if all poles of $sX(s)$ lie in LHP).",
+      "important_formulas": [
+        "X(s) = \\int_{0^{-}}^{\\infty} x(t) e^{-s t} dt",
+        "\\mathcal{L}\\{e^{-at} u(t)\\} = \\frac{1}{s + a} \\quad (\\text{ROC: } \\text{Re}\\{s\\} > -a)",
+        "\\lim_{t \\to 0^+} x(t) = \\lim_{s \\to \\infty} s X(s)",
+        "\\lim_{t \\to \\infty} x(t) = \\lim_{s \\to 0} s X(s)"
+      ],
+      "examples": [
+        {
+          "problem": "Find Laplace transform and ROC for x(t) = 3 e^{-2t} u(t) - 2 e^{-3t} u(t).",
+          "solution": "X(s) = 3/(s + 2) - 2/(s + 3). ROC for e^{-2t} is Re{s} > -2, for e^{-3t} is Re{s} > -3. Overall ROC is Re{s} > -2."
+        }
+      ],
+      "common_mistakes": [
+        "Applying Final Value Theorem when poles lie on jw-axis or RHP! FVT is ONLY valid if all poles of sX(s) are strictly in Left Half Plane."
+      ],
+      "interview_questions": [
+        {
+          "question": "How does ROC indicate system stability for a causal LTI system?",
+          "answer": "For a causal system, stability requires the ROC to include the jw-axis (Re{s} = 0), which means all poles must be in the Left Half Plane."
+        }
+      ],
+      "viva_questions": [
+        {
+          "question": "What is the Laplace transform of a unit impulse delta(t)?",
+          "answer": "L{delta(t)} = 1 for all s."
+        }
+      ],
+      "professor_notes": "ROC never contains any poles! For causal signals, ROC is to the right of the rightmost pole.",
+      "memory_trick": "\ud83e\udde0 **Memory Trick**: **Causal = Right-sided ROC**. **Stable = ROC includes jw-axis**."
+    }
+  }
+}

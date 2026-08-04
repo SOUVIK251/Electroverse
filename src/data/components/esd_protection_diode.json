@@ -83,10 +83,10 @@
     ],
     "references": "Texas Instruments ESD Protection Guide; IEC 61000-4-2 standards database.",
     "images": {
-        "real_photo": "",
-        "symbol": "",
-        "pin_diagram": "",
-        "internal_structure": "",
-        "example_circuit": ""
+        "real_photo": "assets/components/esd_protection_diode/real_photo.png",
+        "symbol": "assets/components/esd_protection_diode/symbol.png",
+        "internal_structure": "assets/components/esd_protection_diode/internal_structure.png",
+        "example_circuit": "assets/components/esd_protection_diode/example_circuit.png",
+        "application_schematic": "assets/components/esd_protection_diode/application_schematic.png"
     }
 }

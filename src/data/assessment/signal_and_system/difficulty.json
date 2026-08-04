@@ -1,0 +1,3602 @@
+{
+  "SIG-00001": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "SIG-00002": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "SIG-00003": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "SIG-00004": {
+    "difficulty": "Easy",
+    "score": 13
+  },
+  "SIG-00005": {
+    "difficulty": "Easy",
+    "score": 13
+  },
+  "SIG-00006": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "SIG-00007": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "SIG-00008": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "SIG-00009": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "SIG-00010": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "SIG-00011": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "SIG-00012": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "SIG-00013": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "SIG-00014": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "SIG-00015": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "SIG-00016": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "SIG-00017": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "SIG-00018": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "SIG-00019": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "SIG-00020": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "SIG-00021": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "SIG-00022": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "SIG-00023": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "SIG-00024": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "SIG-00025": {
+    "difficulty": "Easy",
+    "score": 13
+  },
+  "SIG-00026": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "SIG-00027": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "SIG-00028": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "SIG-00029": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "SIG-00030": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "SIG-00031": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "SIG-00032": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "SIG-00033": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "SIG-00034": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "SIG-00035": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "SIG-00036": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "SIG-00037": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "SIG-00038": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "SIG-00039": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "SIG-00040": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "SIG-00041": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "SIG-00042": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "SIG-00043": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "SIG-00044": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "SIG-00045": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "SIG-00046": {
+    "difficulty": "Easy",
+    "score": 11
+  },
+  "SIG-00047": {
+    "difficulty": "Easy",
+    "score": 11
+  },
+  "SIG-00048": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "SIG-00049": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "SIG-00050": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "SIG-00051": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "SIG-00052": {
+    "difficulty": "Easy",
+    "score": 13
+  },
+  "SIG-00053": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "SIG-00054": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "SIG-00055": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "SIG-00056": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "SIG-00057": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "SIG-00058": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "SIG-00059": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "SIG-00060": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "SIG-00061": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "SIG-00062": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "SIG-00063": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "SIG-00064": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "SIG-00065": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "SIG-00066": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "SIG-00067": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "SIG-00068": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "SIG-00069": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "SIG-00070": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "SIG-00071": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "SIG-00072": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "SIG-00073": {
+    "difficulty": "Easy",
+    "score": 11
+  },
+  "SIG-00074": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "SIG-00075": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "SIG-00076": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "SIG-00077": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "SIG-00078": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "SIG-00079": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "SIG-00080": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "SIG-00081": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "SIG-00082": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "SIG-00083": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "SIG-00084": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "SIG-00085": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "SIG-00086": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "SIG-00087": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "SIG-00088": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "SIG-00089": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "SIG-00090": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "SIG-00091": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "SIG-00092": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "SIG-00093": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "SIG-00094": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "SIG-00095": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "SIG-00096": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "SIG-00097": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "SIG-00098": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "SIG-00099": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "SIG-00100": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "SIG-00101": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "SIG-00102": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "SIG-00103": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "SIG-00104": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "SIG-00105": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "SIG-00106": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "SIG-00107": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "SIG-00108": {
+    "difficulty": "Easy",
+    "score": 11
+  },
+  "SIG-00109": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "SIG-00110": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "SIG-00111": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "SIG-00112": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "SIG-00113": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "SIG-00114": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "SIG-00115": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "SIG-00116": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "SIG-00117": {
+    "difficulty": "Easy",
+    "score": 13
+  },
+  "SIG-00118": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "SIG-00119": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "SIG-00120": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "SIG-00121": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "SIG-00122": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "SIG-00123": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "SIG-00124": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "SIG-00125": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "SIG-00126": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "SIG-00127": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "SIG-00128": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "SIG-00129": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "SIG-00130": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "SIG-00131": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "SIG-00132": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "SIG-00133": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "SIG-00134": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "SIG-00135": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "SIG-00136": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "SIG-00137": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "SIG-00138": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "SIG-00139": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "SIG-00140": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "SIG-00141": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "SIG-00142": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "SIG-00143": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "SIG-00144": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "SIG-00145": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "SIG-00146": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "SIG-00147": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "SIG-00148": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "SIG-00149": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "SIG-00150": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "SIG-00151": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "SIG-00152": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "SIG-00153": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "SIG-00154": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "SIG-00155": {
+    "difficulty": "Easy",
+    "score": 13
+  },
+  "SIG-00156": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "SIG-00157": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "SIG-00158": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "SIG-00159": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "SIG-00160": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "SIG-00161": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "SIG-00162": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "SIG-00163": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "SIG-00164": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "SIG-00165": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "SIG-00166": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "SIG-00167": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "SIG-00168": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "SIG-00169": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "SIG-00170": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "SIG-00171": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "SIG-00172": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "SIG-00173": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "SIG-00174": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "SIG-00175": {
+    "difficulty": "Easy",
+    "score": 13
+  },
+  "SIG-00176": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "SIG-00177": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "SIG-00178": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "SIG-00179": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "SIG-00180": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "SIG-00181": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "SIG-00182": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "SIG-00183": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "SIG-00184": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "SIG-00185": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "SIG-00186": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "SIG-00187": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "SIG-00188": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "SIG-00189": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "SIG-00190": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "SIG-00191": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "SIG-00192": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "SIG-00193": {
+    "difficulty": "Easy",
+    "score": 11
+  },
+  "SIG-00194": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "SIG-00195": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "SIG-00196": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "SIG-00197": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "SIG-00198": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "SIG-00199": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "SIG-00200": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "SIG-00201": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "SIG-00202": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "SIG-00203": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "SIG-00204": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "SIG-00205": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "SIG-00206": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "SIG-00207": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "SIG-00208": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "SIG-00209": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "SIG-00210": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "SIG-00211": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "SIG-00212": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "SIG-00213": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "SIG-00214": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "SIG-00215": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "SIG-00216": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "SIG-00217": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "SIG-00218": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "SIG-00219": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "SIG-00220": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "SIG-00221": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "SIG-00222": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "SIG-00223": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "SIG-00224": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "SIG-00225": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "SIG-00226": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "SIG-00227": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "SIG-00228": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "SIG-00229": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "SIG-00230": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "SIG-00231": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "SIG-00232": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "SIG-00233": {
+    "difficulty": "Easy",
+    "score": 13
+  },
+  "SIG-00234": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "SIG-00235": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "SIG-00236": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "SIG-00237": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "SIG-00238": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "SIG-00239": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "SIG-00240": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "SIG-00241": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "SIG-00242": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "SIG-00243": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "SIG-00244": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "SIG-00245": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "SIG-00246": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "SIG-00247": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "SIG-00248": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "SIG-00249": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "SIG-00250": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "SIG-00251": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "SIG-00252": {
+    "difficulty": "Easy",
+    "score": 11
+  },
+  "SIG-00253": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "SIG-00254": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "SIG-00255": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "SIG-00256": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "SIG-00257": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "SIG-00258": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "SIG-00259": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "SIG-00260": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "SIG-00261": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "SIG-00262": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "SIG-00263": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "SIG-00264": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "SIG-00265": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "SIG-00266": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "SIG-00267": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "SIG-00268": {
+    "difficulty": "Easy",
+    "score": 13
+  },
+  "SIG-00269": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "SIG-00270": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "SIG-00271": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "SIG-00272": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "SIG-00273": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "SIG-00274": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "SIG-00275": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "SIG-00276": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "SIG-00277": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "SIG-00278": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "SIG-00279": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "SIG-00280": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "SIG-00281": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "SIG-00282": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "SIG-00283": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "SIG-00284": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "SIG-00285": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "SIG-00286": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "SIG-00287": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "SIG-00288": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "SIG-00289": {
+    "difficulty": "Easy",
+    "score": 11
+  },
+  "SIG-00290": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "SIG-00291": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "SIG-00292": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "SIG-00293": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "SIG-00294": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "SIG-00295": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "SIG-00296": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "SIG-00297": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "SIG-00298": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "SIG-00299": {
+    "difficulty": "Easy",
+    "score": 11
+  },
+  "SIG-00300": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "SIG-00301": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "SIG-00302": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "SIG-00303": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "SIG-00304": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "SIG-00305": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "SIG-00306": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "SIG-00307": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "SIG-00308": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "SIG-00309": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "SIG-00310": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "SIG-00311": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "SIG-00312": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "SIG-00313": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "SIG-00314": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "SIG-00315": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "SIG-00316": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "SIG-00317": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "SIG-00318": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "SIG-00319": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "SIG-00320": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "SIG-00321": {
+    "difficulty": "Medium",
+    "score": 36
+  },
+  "SIG-00322": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "SIG-00323": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "SIG-00324": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "SIG-00325": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "SIG-00326": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "SIG-00327": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "SIG-00328": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "SIG-00329": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "SIG-00330": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "SIG-00331": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "SIG-00332": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "SIG-00333": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "SIG-00334": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "SIG-00335": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "SIG-00336": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "SIG-00337": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "SIG-00338": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "SIG-00339": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "SIG-00340": {
+    "difficulty": "Medium",
+    "score": 39
+  },
+  "SIG-00341": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "SIG-00342": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "SIG-00343": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "SIG-00344": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "SIG-00345": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "SIG-00346": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "SIG-00347": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "SIG-00348": {
+    "difficulty": "Medium",
+    "score": 39
+  },
+  "SIG-00349": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "SIG-00350": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "SIG-00351": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "SIG-00352": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "SIG-00353": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "SIG-00354": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "SIG-00355": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "SIG-00356": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "SIG-00357": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "SIG-00358": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "SIG-00359": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "SIG-00360": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "SIG-00361": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "SIG-00362": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "SIG-00363": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "SIG-00364": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "SIG-00365": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "SIG-00366": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "SIG-00367": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "SIG-00368": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "SIG-00369": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "SIG-00370": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "SIG-00371": {
+    "difficulty": "Medium",
+    "score": 36
+  },
+  "SIG-00372": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "SIG-00373": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "SIG-00374": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "SIG-00375": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "SIG-00376": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "SIG-00377": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "SIG-00378": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "SIG-00379": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "SIG-00380": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "SIG-00381": {
+    "difficulty": "Medium",
+    "score": 39
+  },
+  "SIG-00382": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "SIG-00383": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "SIG-00384": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "SIG-00385": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "SIG-00386": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "SIG-00387": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "SIG-00388": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "SIG-00389": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "SIG-00390": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "SIG-00391": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "SIG-00392": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "SIG-00393": {
+    "difficulty": "Medium",
+    "score": 36
+  },
+  "SIG-00394": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "SIG-00395": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "SIG-00396": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "SIG-00397": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "SIG-00398": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "SIG-00399": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "SIG-00400": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "SIG-00401": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "SIG-00402": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "SIG-00403": {
+    "difficulty": "Medium",
+    "score": 36
+  },
+  "SIG-00404": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "SIG-00405": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "SIG-00406": {
+    "difficulty": "Medium",
+    "score": 39
+  },
+  "SIG-00407": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "SIG-00408": {
+    "difficulty": "Medium",
+    "score": 38
+  },
+  "SIG-00409": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "SIG-00410": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "SIG-00411": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "SIG-00412": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "SIG-00413": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "SIG-00414": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "SIG-00415": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "SIG-00416": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "SIG-00417": {
+    "difficulty": "Medium",
+    "score": 36
+  },
+  "SIG-00418": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "SIG-00419": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "SIG-00420": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "SIG-00421": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "SIG-00422": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "SIG-00423": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "SIG-00424": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "SIG-00425": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "SIG-00426": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "SIG-00427": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "SIG-00428": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "SIG-00429": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "SIG-00430": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "SIG-00431": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "SIG-00432": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "SIG-00433": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "SIG-00434": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "SIG-00435": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "SIG-00436": {
+    "difficulty": "Medium",
+    "score": 39
+  },
+  "SIG-00437": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "SIG-00438": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "SIG-00439": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "SIG-00440": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "SIG-00441": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "SIG-00442": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "SIG-00443": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "SIG-00444": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "SIG-00445": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "SIG-00446": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "SIG-00447": {
+    "difficulty": "Medium",
+    "score": 36
+  },
+  "SIG-00448": {
+    "difficulty": "Medium",
+    "score": 38
+  },
+  "SIG-00449": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "SIG-00450": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "SIG-00451": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "SIG-00452": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "SIG-00453": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "SIG-00454": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "SIG-00455": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "SIG-00456": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "SIG-00457": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "SIG-00458": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "SIG-00459": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "SIG-00460": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "SIG-00461": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "SIG-00462": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "SIG-00463": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "SIG-00464": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "SIG-00465": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "SIG-00466": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "SIG-00467": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "SIG-00468": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "SIG-00469": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "SIG-00470": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "SIG-00471": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "SIG-00472": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "SIG-00473": {
+    "difficulty": "Medium",
+    "score": 36
+  },
+  "SIG-00474": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "SIG-00475": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "SIG-00476": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "SIG-00477": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "SIG-00478": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "SIG-00479": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "SIG-00480": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "SIG-00481": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "SIG-00482": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "SIG-00483": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "SIG-00484": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "SIG-00485": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "SIG-00486": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "SIG-00487": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "SIG-00488": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "SIG-00489": {
+    "difficulty": "Medium",
+    "score": 36
+  },
+  "SIG-00490": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "SIG-00491": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "SIG-00492": {
+    "difficulty": "Medium",
+    "score": 39
+  },
+  "SIG-00493": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "SIG-00494": {
+    "difficulty": "Medium",
+    "score": 39
+  },
+  "SIG-00495": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "SIG-00496": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "SIG-00497": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "SIG-00498": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "SIG-00499": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "SIG-00500": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "SIG-00501": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "SIG-00502": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "SIG-00503": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "SIG-00504": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "SIG-00505": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "SIG-00506": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "SIG-00507": {
+    "difficulty": "Medium",
+    "score": 39
+  },
+  "SIG-00508": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "SIG-00509": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "SIG-00510": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "SIG-00511": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "SIG-00512": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "SIG-00513": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "SIG-00514": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "SIG-00515": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "SIG-00516": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "SIG-00517": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "SIG-00518": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "SIG-00519": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "SIG-00520": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "SIG-00521": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "SIG-00522": {
+    "difficulty": "Medium",
+    "score": 39
+  },
+  "SIG-00523": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "SIG-00524": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "SIG-00525": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "SIG-00526": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "SIG-00527": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "SIG-00528": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "SIG-00529": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "SIG-00530": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "SIG-00531": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "SIG-00532": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "SIG-00533": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "SIG-00534": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "SIG-00535": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "SIG-00536": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "SIG-00537": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "SIG-00538": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "SIG-00539": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "SIG-00540": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "SIG-00541": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "SIG-00542": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "SIG-00543": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "SIG-00544": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "SIG-00545": {
+    "difficulty": "Medium",
+    "score": 38
+  },
+  "SIG-00546": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "SIG-00547": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "SIG-00548": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "SIG-00549": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "SIG-00550": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "SIG-00551": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "SIG-00552": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "SIG-00553": {
+    "difficulty": "Medium",
+    "score": 38
+  },
+  "SIG-00554": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "SIG-00555": {
+    "difficulty": "Medium",
+    "score": 36
+  },
+  "SIG-00556": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "SIG-00557": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "SIG-00558": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "SIG-00559": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "SIG-00560": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "SIG-00561": {
+    "difficulty": "Medium",
+    "score": 36
+  },
+  "SIG-00562": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "SIG-00563": {
+    "difficulty": "Medium",
+    "score": 36
+  },
+  "SIG-00564": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "SIG-00565": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "SIG-00566": {
+    "difficulty": "Medium",
+    "score": 36
+  },
+  "SIG-00567": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "SIG-00568": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "SIG-00569": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "SIG-00570": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "SIG-00571": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "SIG-00572": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "SIG-00573": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "SIG-00574": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "SIG-00575": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "SIG-00576": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "SIG-00577": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "SIG-00578": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "SIG-00579": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "SIG-00580": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "SIG-00581": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "SIG-00582": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "SIG-00583": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "SIG-00584": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "SIG-00585": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "SIG-00586": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "SIG-00587": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "SIG-00588": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "SIG-00589": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "SIG-00590": {
+    "difficulty": "Medium",
+    "score": 38
+  },
+  "SIG-00591": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "SIG-00592": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "SIG-00593": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "SIG-00594": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "SIG-00595": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "SIG-00596": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "SIG-00597": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "SIG-00598": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "SIG-00599": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "SIG-00600": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "SIG-00601": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "SIG-00602": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "SIG-00603": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "SIG-00604": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "SIG-00605": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "SIG-00606": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "SIG-00607": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "SIG-00608": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "SIG-00609": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "SIG-00610": {
+    "difficulty": "Hard",
+    "score": 68
+  },
+  "SIG-00611": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "SIG-00612": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "SIG-00613": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "SIG-00614": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "SIG-00615": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "SIG-00616": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "SIG-00617": {
+    "difficulty": "Hard",
+    "score": 66
+  },
+  "SIG-00618": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "SIG-00619": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "SIG-00620": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "SIG-00621": {
+    "difficulty": "Hard",
+    "score": 69
+  },
+  "SIG-00622": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "SIG-00623": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "SIG-00624": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "SIG-00625": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "SIG-00626": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "SIG-00627": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "SIG-00628": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "SIG-00629": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "SIG-00630": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "SIG-00631": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "SIG-00632": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "SIG-00633": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "SIG-00634": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "SIG-00635": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "SIG-00636": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "SIG-00637": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "SIG-00638": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "SIG-00639": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "SIG-00640": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "SIG-00641": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "SIG-00642": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "SIG-00643": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "SIG-00644": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "SIG-00645": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "SIG-00646": {
+    "difficulty": "Hard",
+    "score": 69
+  },
+  "SIG-00647": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "SIG-00648": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "SIG-00649": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "SIG-00650": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "SIG-00651": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "SIG-00652": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "SIG-00653": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "SIG-00654": {
+    "difficulty": "Hard",
+    "score": 66
+  },
+  "SIG-00655": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "SIG-00656": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "SIG-00657": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "SIG-00658": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "SIG-00659": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "SIG-00660": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "SIG-00661": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "SIG-00662": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "SIG-00663": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "SIG-00664": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "SIG-00665": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "SIG-00666": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "SIG-00667": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "SIG-00668": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "SIG-00669": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "SIG-00670": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "SIG-00671": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "SIG-00672": {
+    "difficulty": "Hard",
+    "score": 66
+  },
+  "SIG-00673": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "SIG-00674": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "SIG-00675": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "SIG-00676": {
+    "difficulty": "Hard",
+    "score": 68
+  },
+  "SIG-00677": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "SIG-00678": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "SIG-00679": {
+    "difficulty": "Hard",
+    "score": 68
+  },
+  "SIG-00680": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "SIG-00681": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "SIG-00682": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "SIG-00683": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "SIG-00684": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "SIG-00685": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "SIG-00686": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "SIG-00687": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "SIG-00688": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "SIG-00689": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "SIG-00690": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "SIG-00691": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "SIG-00692": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "SIG-00693": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "SIG-00694": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "SIG-00695": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "SIG-00696": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "SIG-00697": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "SIG-00698": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "SIG-00699": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "SIG-00700": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "SIG-00701": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "SIG-00702": {
+    "difficulty": "Hard",
+    "score": 66
+  },
+  "SIG-00703": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "SIG-00704": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "SIG-00705": {
+    "difficulty": "Hard",
+    "score": 69
+  },
+  "SIG-00706": {
+    "difficulty": "Hard",
+    "score": 68
+  },
+  "SIG-00707": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "SIG-00708": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "SIG-00709": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "SIG-00710": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "SIG-00711": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "SIG-00712": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "SIG-00713": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "SIG-00714": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "SIG-00715": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "SIG-00716": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "SIG-00717": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "SIG-00718": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "SIG-00719": {
+    "difficulty": "Hard",
+    "score": 66
+  },
+  "SIG-00720": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "SIG-00721": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "SIG-00722": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "SIG-00723": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "SIG-00724": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "SIG-00725": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "SIG-00726": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "SIG-00727": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "SIG-00728": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "SIG-00729": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "SIG-00730": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "SIG-00731": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "SIG-00732": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "SIG-00733": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "SIG-00734": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "SIG-00735": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "SIG-00736": {
+    "difficulty": "Hard",
+    "score": 69
+  },
+  "SIG-00737": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "SIG-00738": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "SIG-00739": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "SIG-00740": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "SIG-00741": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "SIG-00742": {
+    "difficulty": "Hard",
+    "score": 68
+  },
+  "SIG-00743": {
+    "difficulty": "Hard",
+    "score": 66
+  },
+  "SIG-00744": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "SIG-00745": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "SIG-00746": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "SIG-00747": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "SIG-00748": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "SIG-00749": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "SIG-00750": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "SIG-00751": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "SIG-00752": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "SIG-00753": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "SIG-00754": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "SIG-00755": {
+    "difficulty": "Hard",
+    "score": 68
+  },
+  "SIG-00756": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "SIG-00757": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "SIG-00758": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "SIG-00759": {
+    "difficulty": "Hard",
+    "score": 69
+  },
+  "SIG-00760": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "SIG-00761": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "SIG-00762": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "SIG-00763": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "SIG-00764": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "SIG-00765": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "SIG-00766": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "SIG-00767": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "SIG-00768": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "SIG-00769": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "SIG-00770": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "SIG-00771": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "SIG-00772": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "SIG-00773": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "SIG-00774": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "SIG-00775": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "SIG-00776": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "SIG-00777": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "SIG-00778": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "SIG-00779": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "SIG-00780": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "SIG-00781": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "SIG-00782": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "SIG-00783": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "SIG-00784": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "SIG-00785": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "SIG-00786": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "SIG-00787": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "SIG-00788": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "SIG-00789": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "SIG-00790": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "SIG-00791": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "SIG-00792": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "SIG-00793": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "SIG-00794": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "SIG-00795": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "SIG-00796": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "SIG-00797": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "SIG-00798": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "SIG-00799": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "SIG-00800": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "SIG-00801": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "SIG-00802": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "SIG-00803": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "SIG-00804": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "SIG-00805": {
+    "difficulty": "Hard",
+    "score": 68
+  },
+  "SIG-00806": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "SIG-00807": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "SIG-00808": {
+    "difficulty": "Hard",
+    "score": 68
+  },
+  "SIG-00809": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "SIG-00810": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "SIG-00811": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "SIG-00812": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "SIG-00813": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "SIG-00814": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "SIG-00815": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "SIG-00816": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "SIG-00817": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "SIG-00818": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "SIG-00819": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "SIG-00820": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "SIG-00821": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "SIG-00822": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "SIG-00823": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "SIG-00824": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "SIG-00825": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "SIG-00826": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "SIG-00827": {
+    "difficulty": "Hard",
+    "score": 66
+  },
+  "SIG-00828": {
+    "difficulty": "Hard",
+    "score": 68
+  },
+  "SIG-00829": {
+    "difficulty": "Hard",
+    "score": 66
+  },
+  "SIG-00830": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "SIG-00831": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "SIG-00832": {
+    "difficulty": "Hard",
+    "score": 66
+  },
+  "SIG-00833": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "SIG-00834": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "SIG-00835": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "SIG-00836": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "SIG-00837": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "SIG-00838": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "SIG-00839": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "SIG-00840": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "SIG-00841": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "SIG-00842": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "SIG-00843": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "SIG-00844": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "SIG-00845": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "SIG-00846": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "SIG-00847": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "SIG-00848": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "SIG-00849": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "SIG-00850": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "SIG-00851": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "SIG-00852": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "SIG-00853": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "SIG-00854": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "SIG-00855": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "SIG-00856": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "SIG-00857": {
+    "difficulty": "Hard",
+    "score": 69
+  },
+  "SIG-00858": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "SIG-00859": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "SIG-00860": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "SIG-00861": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "SIG-00862": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "SIG-00863": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "SIG-00864": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "SIG-00865": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "SIG-00866": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "SIG-00867": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "SIG-00868": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "SIG-00869": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "SIG-00870": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "SIG-00871": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "SIG-00872": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "SIG-00873": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "SIG-00874": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "SIG-00875": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "SIG-00876": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "SIG-00877": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "SIG-00878": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "SIG-00879": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "SIG-00880": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "SIG-00881": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "SIG-00882": {
+    "difficulty": "Hard",
+    "score": 66
+  },
+  "SIG-00883": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "SIG-00884": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "SIG-00885": {
+    "difficulty": "Hard",
+    "score": 68
+  },
+  "SIG-00886": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "SIG-00887": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "SIG-00888": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "SIG-00889": {
+    "difficulty": "Hard",
+    "score": 69
+  },
+  "SIG-00890": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "SIG-00891": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "SIG-00892": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "SIG-00893": {
+    "difficulty": "Hard",
+    "score": 68
+  },
+  "SIG-00894": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "SIG-00895": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "SIG-00896": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "SIG-00897": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "SIG-00898": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "SIG-00899": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "SIG-00900": {
+    "difficulty": "Hard",
+    "score": 91
+  }
+}

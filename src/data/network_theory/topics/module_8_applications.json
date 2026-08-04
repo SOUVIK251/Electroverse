@@ -1,0 +1,148 @@
+{
+  "topics": {
+    "power_systems": {
+      "title": "Electrical Power Systems",
+      "category": "Module 8: Applications",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": false,
+      "has_problem_solving": false,
+      "summary": "Comprehensive engineering analysis of Electrical Power Systems in electrical network theory.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Electrical Power Systems: Remember the governing conservation law: Energy in = Energy out!",
+      "theory": "In electrical network theory, Electrical Power Systems forms the mathematical foundation for analyzing circuit behavior.",
+      "derivation_steps": [
+        "Step 1: Identify circuit branch parameters and node connections for Electrical Power Systems.",
+        "Step 2: Apply governing physical laws (KCL/KVL or Theorem definition).",
+        "Step 3: Formulate algebraic loop/node matrix equations.",
+        "Step 4: Solve system equations for branch currents and node voltages."
+      ],
+      "important_formulas": [
+        "Governing Law: V = I \\cdot R",
+        "Power Equation: P = V \\cdot I = I^2 \\cdot R",
+        "KCL: \\sum I_{in} = \\sum I_{out}",
+        "KVL: \\sum V_{loop} = 0"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit under Electrical Power Systems has V_s = 12V and R_1 = 4 ohms, R_2 = 6 ohms in series. Find total current and power.",
+          "solution": "Total R = R_1 + R_2 = 10 ohms. Current I = 12V / 10 = 1.2A. Total Power P = 12V * 1.2A = 14.4W."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting reference polarities (+/-) when writing KVL mesh equations.",
+        "Not deactivating independent current sources (open circuit) when computing R_th or Superposition."
+      ],
+      "professor_notes": "Professor's Tip: Always double-check node voltage references before formulating nodal matrices for Electrical Power Systems.",
+      "career_applications": [
+        "Electrical Power Distribution & Smart Grids",
+        "Automotive Battery Management Systems (BMS)",
+        "Robotics Motor Drive Controllers",
+        "VLSI Analog Circuit Design",
+        "Biomedical ECG Signal Conditioning"
+      ],
+      "related_topics": [
+        "kcl",
+        "kvl",
+        "mesh_analysis",
+        "thevenin",
+        "superposition"
+      ]
+    },
+    "audio_biomedical": {
+      "title": "Audio & Biomedical Circuits",
+      "category": "Module 8: Applications",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": false,
+      "has_problem_solving": false,
+      "summary": "Comprehensive engineering analysis of Audio & Biomedical Circuits in electrical network theory.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Audio & Biomedical Circuits: Remember the governing conservation law: Energy in = Energy out!",
+      "theory": "In electrical network theory, Audio & Biomedical Circuits forms the mathematical foundation for analyzing circuit behavior.",
+      "derivation_steps": [
+        "Step 1: Identify circuit branch parameters and node connections for Audio & Biomedical Circuits.",
+        "Step 2: Apply governing physical laws (KCL/KVL or Theorem definition).",
+        "Step 3: Formulate algebraic loop/node matrix equations.",
+        "Step 4: Solve system equations for branch currents and node voltages."
+      ],
+      "important_formulas": [
+        "Governing Law: V = I \\cdot R",
+        "Power Equation: P = V \\cdot I = I^2 \\cdot R",
+        "KCL: \\sum I_{in} = \\sum I_{out}",
+        "KVL: \\sum V_{loop} = 0"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit under Audio & Biomedical Circuits has V_s = 12V and R_1 = 4 ohms, R_2 = 6 ohms in series. Find total current and power.",
+          "solution": "Total R = R_1 + R_2 = 10 ohms. Current I = 12V / 10 = 1.2A. Total Power P = 12V * 1.2A = 14.4W."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting reference polarities (+/-) when writing KVL mesh equations.",
+        "Not deactivating independent current sources (open circuit) when computing R_th or Superposition."
+      ],
+      "professor_notes": "Professor's Tip: Always double-check node voltage references before formulating nodal matrices for Audio & Biomedical Circuits.",
+      "career_applications": [
+        "Electrical Power Distribution & Smart Grids",
+        "Automotive Battery Management Systems (BMS)",
+        "Robotics Motor Drive Controllers",
+        "VLSI Analog Circuit Design",
+        "Biomedical ECG Signal Conditioning"
+      ],
+      "related_topics": [
+        "kcl",
+        "kvl",
+        "mesh_analysis",
+        "thevenin",
+        "superposition"
+      ]
+    },
+    "control_robotics": {
+      "title": "Control Systems & Robotics",
+      "category": "Module 8: Applications",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": false,
+      "has_problem_solving": false,
+      "summary": "Comprehensive engineering analysis of Control Systems & Robotics in electrical network theory.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Control Systems & Robotics: Remember the governing conservation law: Energy in = Energy out!",
+      "theory": "In electrical network theory, Control Systems & Robotics forms the mathematical foundation for analyzing circuit behavior.",
+      "derivation_steps": [
+        "Step 1: Identify circuit branch parameters and node connections for Control Systems & Robotics.",
+        "Step 2: Apply governing physical laws (KCL/KVL or Theorem definition).",
+        "Step 3: Formulate algebraic loop/node matrix equations.",
+        "Step 4: Solve system equations for branch currents and node voltages."
+      ],
+      "important_formulas": [
+        "Governing Law: V = I \\cdot R",
+        "Power Equation: P = V \\cdot I = I^2 \\cdot R",
+        "KCL: \\sum I_{in} = \\sum I_{out}",
+        "KVL: \\sum V_{loop} = 0"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit under Control Systems & Robotics has V_s = 12V and R_1 = 4 ohms, R_2 = 6 ohms in series. Find total current and power.",
+          "solution": "Total R = R_1 + R_2 = 10 ohms. Current I = 12V / 10 = 1.2A. Total Power P = 12V * 1.2A = 14.4W."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting reference polarities (+/-) when writing KVL mesh equations.",
+        "Not deactivating independent current sources (open circuit) when computing R_th or Superposition."
+      ],
+      "professor_notes": "Professor's Tip: Always double-check node voltage references before formulating nodal matrices for Control Systems & Robotics.",
+      "career_applications": [
+        "Electrical Power Distribution & Smart Grids",
+        "Automotive Battery Management Systems (BMS)",
+        "Robotics Motor Drive Controllers",
+        "VLSI Analog Circuit Design",
+        "Biomedical ECG Signal Conditioning"
+      ],
+      "related_topics": [
+        "kcl",
+        "kvl",
+        "mesh_analysis",
+        "thevenin",
+        "superposition"
+      ]
+    }
+  }
+}

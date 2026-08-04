@@ -1,0 +1,3602 @@
+{
+  "ANA-00001": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00002": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00003": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00004": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00005": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00006": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00007": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00008": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00009": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00010": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00011": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00012": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00013": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00014": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00015": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00016": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00017": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00018": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00019": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00020": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00021": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00022": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00023": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00024": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00025": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00026": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00027": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00028": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00029": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00030": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00031": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00032": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00033": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00034": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00035": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00036": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00037": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00038": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00039": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00040": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00041": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00042": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00043": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00044": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00045": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00046": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00047": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00048": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00049": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00050": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00051": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00052": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00053": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00054": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00055": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00056": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00057": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00058": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00059": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00060": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00061": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00062": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00063": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00064": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00065": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00066": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00067": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00068": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00069": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00070": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00071": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00072": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00073": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00074": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00075": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00076": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00077": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00078": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00079": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00080": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00081": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00082": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00083": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00084": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00085": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00086": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00087": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00088": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00089": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00090": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00091": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00092": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00093": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00094": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00095": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00096": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00097": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00098": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00099": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00100": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00101": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00102": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00103": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00104": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00105": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00106": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00107": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00108": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00109": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00110": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00111": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00112": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00113": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00114": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00115": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00116": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00117": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00118": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00119": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00120": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00121": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00122": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00123": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00124": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00125": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00126": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00127": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00128": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00129": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00130": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00131": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00132": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00133": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00134": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00135": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00136": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00137": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00138": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00139": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00140": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00141": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00142": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00143": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00144": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00145": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00146": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00147": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00148": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00149": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00150": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00151": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00152": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00153": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00154": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00155": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00156": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00157": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00158": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00159": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00160": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00161": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00162": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00163": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00164": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00165": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00166": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00167": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00168": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00169": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00170": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00171": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00172": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00173": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00174": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00175": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00176": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00177": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00178": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00179": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00180": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00181": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00182": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00183": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00184": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00185": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00186": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00187": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00188": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00189": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00190": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00191": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00192": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00193": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00194": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00195": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00196": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00197": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00198": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00199": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00200": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00201": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00202": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00203": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00204": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00205": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00206": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00207": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00208": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00209": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00210": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00211": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00212": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00213": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00214": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00215": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00216": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00217": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00218": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00219": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00220": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00221": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00222": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00223": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00224": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00225": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00226": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00227": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00228": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00229": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00230": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00231": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00232": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00233": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00234": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00235": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00236": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00237": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00238": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00239": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00240": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00241": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00242": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00243": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00244": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00245": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00246": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00247": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00248": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00249": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00250": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00251": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00252": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00253": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00254": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00255": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00256": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00257": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00258": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00259": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00260": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00261": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00262": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00263": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00264": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00265": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00266": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00267": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00268": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00269": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00270": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00271": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00272": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00273": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00274": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00275": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00276": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00277": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00278": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00279": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00280": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00281": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00282": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00283": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00284": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00285": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00286": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00287": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00288": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00289": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00290": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00291": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00292": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00293": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00294": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00295": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00296": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00297": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00298": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00299": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00300": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00301": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00302": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00303": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00304": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00305": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00306": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00307": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00308": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00309": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00310": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00311": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00312": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00313": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00314": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00315": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00316": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00317": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00318": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00319": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00320": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00321": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00322": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00323": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00324": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00325": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00326": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00327": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00328": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00329": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00330": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00331": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00332": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00333": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00334": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00335": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00336": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00337": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00338": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00339": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00340": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00341": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00342": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00343": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00344": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00345": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00346": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00347": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00348": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00349": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00350": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00351": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00352": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00353": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00354": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00355": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00356": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00357": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00358": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00359": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00360": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00361": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00362": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00363": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00364": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00365": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00366": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00367": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00368": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00369": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00370": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00371": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00372": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00373": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00374": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00375": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00376": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00377": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00378": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00379": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00380": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00381": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00382": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00383": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00384": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00385": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00386": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00387": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00388": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00389": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00390": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00391": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00392": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00393": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00394": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00395": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00396": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00397": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00398": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00399": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00400": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00401": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00402": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00403": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00404": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00405": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00406": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00407": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00408": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00409": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00410": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00411": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00412": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00413": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00414": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00415": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00416": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00417": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00418": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00419": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00420": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00421": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00422": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00423": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00424": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00425": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00426": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00427": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00428": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00429": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00430": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00431": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00432": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00433": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00434": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00435": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00436": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00437": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00438": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00439": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00440": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00441": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00442": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00443": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00444": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00445": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00446": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00447": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00448": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00449": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00450": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00451": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00452": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00453": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00454": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00455": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00456": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00457": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00458": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00459": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00460": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00461": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00462": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00463": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00464": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00465": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00466": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00467": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00468": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00469": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00470": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00471": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00472": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00473": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00474": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00475": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00476": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00477": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00478": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00479": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00480": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00481": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00482": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00483": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00484": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00485": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00486": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00487": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00488": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00489": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00490": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00491": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00492": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00493": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00494": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00495": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00496": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00497": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00498": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00499": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00500": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00501": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00502": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00503": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00504": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00505": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00506": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00507": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00508": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00509": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00510": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00511": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00512": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00513": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00514": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00515": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00516": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00517": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00518": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00519": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00520": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00521": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00522": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00523": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00524": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00525": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00526": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00527": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00528": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00529": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00530": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00531": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00532": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00533": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00534": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00535": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00536": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00537": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00538": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00539": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00540": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00541": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00542": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00543": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00544": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00545": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00546": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00547": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00548": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00549": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00550": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00551": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00552": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00553": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00554": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00555": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00556": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00557": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00558": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00559": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00560": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00561": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00562": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00563": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00564": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00565": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00566": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00567": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00568": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00569": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00570": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00571": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00572": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00573": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00574": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00575": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00576": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00577": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00578": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00579": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00580": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00581": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00582": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00583": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00584": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00585": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00586": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00587": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00588": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00589": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00590": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00591": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00592": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00593": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00594": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00595": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00596": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00597": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00598": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00599": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00600": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00601": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00602": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00603": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00604": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00605": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00606": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00607": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00608": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00609": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00610": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00611": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00612": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00613": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00614": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00615": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00616": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00617": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00618": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00619": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00620": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00621": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00622": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00623": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00624": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00625": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00626": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00627": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00628": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00629": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00630": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00631": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00632": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00633": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00634": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00635": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00636": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00637": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00638": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00639": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00640": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00641": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00642": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00643": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00644": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00645": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00646": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00647": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00648": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00649": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00650": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00651": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00652": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00653": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00654": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00655": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00656": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00657": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00658": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00659": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00660": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00661": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00662": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00663": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00664": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00665": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00666": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00667": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00668": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00669": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00670": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00671": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00672": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00673": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00674": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00675": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00676": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00677": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00678": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00679": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00680": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00681": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00682": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00683": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00684": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00685": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00686": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00687": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00688": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00689": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00690": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00691": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00692": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00693": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00694": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00695": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00696": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00697": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00698": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00699": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00700": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00701": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00702": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00703": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00704": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00705": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00706": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00707": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00708": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00709": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00710": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00711": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00712": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00713": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00714": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00715": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00716": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00717": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00718": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00719": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00720": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00721": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00722": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00723": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00724": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00725": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00726": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00727": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00728": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00729": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00730": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00731": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00732": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00733": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00734": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00735": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00736": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00737": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00738": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00739": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00740": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00741": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00742": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00743": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00744": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00745": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00746": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00747": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00748": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00749": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00750": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00751": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00752": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00753": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00754": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00755": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00756": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00757": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00758": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00759": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00760": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00761": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00762": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00763": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00764": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00765": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00766": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00767": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00768": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00769": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00770": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00771": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00772": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00773": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00774": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00775": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00776": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00777": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00778": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00779": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00780": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00781": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00782": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00783": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00784": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00785": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00786": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00787": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00788": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00789": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00790": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00791": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00792": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00793": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00794": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00795": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00796": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00797": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00798": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00799": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00800": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00801": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00802": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00803": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00804": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00805": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00806": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00807": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00808": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00809": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00810": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00811": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00812": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00813": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00814": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00815": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00816": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00817": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00818": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00819": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00820": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00821": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00822": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00823": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00824": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00825": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00826": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00827": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00828": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00829": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00830": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00831": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00832": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00833": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00834": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00835": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00836": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00837": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00838": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00839": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00840": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00841": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00842": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00843": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00844": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00845": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00846": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00847": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00848": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00849": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00850": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00851": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00852": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00853": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00854": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00855": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00856": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00857": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00858": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00859": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00860": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00861": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00862": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00863": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00864": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00865": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00866": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00867": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00868": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00869": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00870": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00871": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00872": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00873": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00874": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00875": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00876": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00877": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00878": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00879": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00880": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00881": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00882": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00883": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00884": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00885": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00886": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00887": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00888": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00889": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00890": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00891": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00892": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00893": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00894": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00895": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00896": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00897": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00898": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00899": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  },
+  "ANA-00900": {
+    "explanation": "Subtracting diode barrier drop (0.7V) from peak voltage (10.0V) gives V_out = 9.3V.",
+    "formula": "V_{out} = V_m - V_\\gamma"
+  }
+}

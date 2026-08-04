@@ -1,0 +1,43 @@
+{
+  "id": "module_10",
+  "title": "Module 10: Applications of Signals & Systems",
+  "topics": {
+    "app_overview": {
+      "title": "Engineering Applications Overview",
+      "read_time": "8 min read",
+      "difficulty": "Basic",
+      "category": "Applications",
+      "summary": "Signals & Systems theory powers modern digital communication, medical imaging, control systems, and speech AI.",
+      "introduction": "From 5G smartphones to MRI scanners, Signals & Systems is the core mathematical foundation.",
+      "theory": "**Key Field Applications**:\n\n1. **Wireless Communication**: Amplitude/Frequency Modulation (AM/FM), OFDM, Channel estimation, Equalization.\n2. **Biomedical Engineering**: ECG/EEG noise filtering using notch filters, QRS complex detection, MRI spatial k-space reconstructions.\n3. **Control Systems**: Feedback stability analysis, PID control, Root Locus and Bode plot design for aircraft and robotics.\n4. **Speech & Audio**: Spectrogram analysis, noise suppression, MP3 compression, voice recognition (MFCCs).\n5. **Image Processing**: 2D Fourier Transform for image sharpening, JPEG compression (DCT), edge detection filters.",
+      "derivation": "**Example: Notch Filter for 50Hz/60Hz Power-line Noise Suppression**:\nA narrow band-stop filter with zeros placed on unit circle at $z = e^{\\pm j \\omega_0}$ removes 50Hz/60Hz hum from sensitive biomedical ECG recordings.",
+      "important_formulas": [
+        "H_{notch}(z) = \\frac{1 - 2 \\cos(\\omega_0) z^{-1} + z^{-2}}{1 - 2 r \\cos(\\omega_0) z^{-1} + r^2 z^{-2}} \\quad (r \\approx 0.95)",
+        "\\text{AM Signal}: s(t) = [A_c + m(t)] \\cos(\\omega_c t)"
+      ],
+      "examples": [
+        {
+          "problem": "Why is 2D FFT used in MRI medical imaging?",
+          "solution": "MRI scanners collect raw magnetic resonance data in \"k-space\" (spatial frequency domain). Applying 2D Inverse FFT reconstructs the 2D cross-sectional slice image of human tissue."
+        }
+      ],
+      "common_mistakes": [
+        "Thinking DSP is software-only: real-time DSP applications require tight hardware-level pipelining and ADC/DAC interface timing!"
+      ],
+      "interview_questions": [
+        {
+          "question": "How does JPEG image compression use signal processing?",
+          "answer": "JPEG divides images into 8x8 blocks, computes 2D Discrete Cosine Transform (DCT), quantizes high-frequency coefficients (which human eye is less sensitive to), and entropy encodes the rest."
+        }
+      ],
+      "viva_questions": [
+        {
+          "question": "What is an ECG QRS complex?",
+          "answer": "The graphical deflection corresponding to the depolarization of the main heart ventricles, detected using bandpass signal filtering."
+        }
+      ],
+      "professor_notes": "Every real-world engineer uses frequency-domain filtering daily to eliminate noise!",
+      "memory_trick": "\ud83e\udde0 **Memory Trick**: **Signals = Information**. **Systems = Processing**. Applied everywhere in modern tech!"
+    }
+  }
+}

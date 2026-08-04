@@ -1,0 +1,3602 @@
+{
+  "SIG-00001": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00002": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00003": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00004": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00005": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00006": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00007": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00008": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00009": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00010": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00011": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00012": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00013": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00014": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00015": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00016": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00017": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00018": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00019": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00020": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00021": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00022": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00023": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00024": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00025": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00026": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00027": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00028": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00029": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00030": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00031": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00032": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00033": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00034": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00035": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00036": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00037": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00038": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00039": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00040": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00041": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00042": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00043": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00044": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00045": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00046": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00047": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00048": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00049": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00050": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00051": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00052": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00053": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00054": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00055": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00056": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00057": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00058": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00059": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00060": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00061": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00062": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00063": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00064": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00065": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00066": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00067": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00068": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00069": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00070": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00071": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00072": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00073": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00074": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00075": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00076": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00077": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00078": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00079": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00080": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00081": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00082": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00083": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00084": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00085": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00086": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00087": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00088": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00089": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00090": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00091": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00092": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00093": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00094": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00095": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00096": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00097": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00098": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00099": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00100": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00101": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00102": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00103": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00104": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00105": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00106": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00107": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00108": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00109": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00110": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00111": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00112": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00113": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00114": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00115": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00116": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00117": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00118": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00119": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00120": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00121": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00122": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00123": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00124": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00125": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00126": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00127": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00128": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00129": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00130": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00131": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00132": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00133": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00134": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00135": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00136": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00137": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00138": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00139": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00140": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00141": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00142": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00143": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00144": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00145": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00146": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00147": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00148": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00149": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00150": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00151": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00152": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00153": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00154": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00155": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00156": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00157": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00158": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00159": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00160": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00161": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00162": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00163": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00164": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00165": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00166": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00167": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00168": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00169": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00170": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00171": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00172": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00173": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00174": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00175": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00176": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00177": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00178": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00179": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00180": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00181": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00182": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00183": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00184": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00185": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00186": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00187": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00188": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00189": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00190": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00191": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00192": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00193": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00194": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00195": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00196": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00197": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00198": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00199": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00200": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00201": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00202": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00203": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00204": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00205": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00206": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00207": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00208": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00209": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00210": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00211": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00212": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00213": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00214": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00215": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00216": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00217": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00218": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00219": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00220": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00221": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00222": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00223": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00224": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00225": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00226": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00227": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00228": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00229": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00230": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00231": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00232": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00233": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00234": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00235": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00236": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00237": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00238": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00239": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00240": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00241": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00242": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00243": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00244": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00245": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00246": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00247": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00248": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00249": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00250": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00251": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00252": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00253": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00254": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00255": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00256": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00257": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00258": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00259": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00260": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00261": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00262": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00263": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00264": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00265": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00266": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00267": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00268": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00269": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00270": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00271": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00272": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00273": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00274": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00275": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00276": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00277": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00278": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00279": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00280": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00281": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00282": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00283": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00284": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00285": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00286": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00287": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00288": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00289": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00290": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00291": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00292": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00293": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00294": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00295": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00296": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00297": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00298": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00299": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00300": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00301": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00302": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00303": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00304": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00305": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00306": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00307": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00308": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00309": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00310": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00311": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00312": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00313": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00314": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00315": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00316": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00317": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00318": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00319": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00320": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00321": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00322": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00323": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00324": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00325": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00326": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00327": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00328": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00329": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00330": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00331": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00332": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00333": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00334": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00335": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00336": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00337": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00338": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00339": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00340": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00341": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00342": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00343": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00344": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00345": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00346": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00347": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00348": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00349": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00350": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00351": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00352": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00353": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00354": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00355": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00356": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00357": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00358": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00359": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00360": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00361": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00362": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00363": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00364": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00365": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00366": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00367": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00368": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00369": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00370": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00371": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00372": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00373": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00374": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00375": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00376": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00377": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00378": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00379": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00380": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00381": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00382": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00383": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00384": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00385": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00386": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00387": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00388": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00389": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00390": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00391": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00392": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00393": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00394": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00395": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00396": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00397": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00398": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00399": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00400": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00401": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00402": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00403": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00404": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00405": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00406": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00407": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00408": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00409": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00410": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00411": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00412": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00413": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00414": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00415": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00416": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00417": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00418": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00419": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00420": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00421": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00422": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00423": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00424": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00425": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00426": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00427": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00428": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00429": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00430": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00431": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00432": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00433": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00434": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00435": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00436": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00437": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00438": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00439": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00440": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00441": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00442": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00443": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00444": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00445": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00446": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00447": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00448": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00449": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00450": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00451": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00452": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00453": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00454": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00455": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00456": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00457": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00458": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00459": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00460": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00461": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00462": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00463": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00464": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00465": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00466": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00467": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00468": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00469": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00470": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00471": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00472": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00473": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00474": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00475": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00476": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00477": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00478": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00479": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00480": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00481": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00482": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00483": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00484": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00485": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00486": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00487": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00488": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00489": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00490": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00491": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00492": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00493": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00494": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00495": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00496": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00497": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00498": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00499": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00500": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00501": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00502": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00503": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00504": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00505": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00506": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00507": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00508": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00509": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00510": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00511": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00512": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00513": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00514": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00515": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00516": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00517": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00518": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00519": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00520": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00521": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00522": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00523": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00524": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00525": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00526": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00527": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00528": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00529": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00530": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00531": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00532": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00533": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00534": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00535": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00536": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00537": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00538": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00539": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00540": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00541": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00542": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00543": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00544": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00545": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00546": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00547": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00548": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00549": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00550": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00551": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00552": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00553": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00554": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00555": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00556": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00557": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00558": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00559": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00560": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00561": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00562": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00563": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00564": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00565": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00566": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00567": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00568": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00569": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00570": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00571": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00572": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00573": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00574": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00575": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00576": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00577": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00578": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00579": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00580": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00581": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00582": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00583": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00584": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00585": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00586": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00587": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00588": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00589": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00590": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00591": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00592": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00593": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00594": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00595": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00596": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00597": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00598": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00599": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00600": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00601": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00602": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00603": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00604": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00605": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00606": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00607": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00608": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00609": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00610": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00611": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00612": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00613": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00614": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00615": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00616": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00617": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00618": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00619": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00620": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00621": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00622": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00623": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00624": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00625": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00626": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00627": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00628": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00629": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00630": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00631": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00632": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00633": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00634": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00635": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00636": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00637": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00638": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00639": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00640": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00641": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00642": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00643": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00644": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00645": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00646": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00647": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00648": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00649": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00650": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00651": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00652": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00653": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00654": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00655": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00656": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00657": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00658": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00659": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00660": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00661": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00662": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00663": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00664": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00665": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00666": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00667": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00668": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00669": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00670": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00671": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00672": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00673": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00674": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00675": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00676": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00677": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00678": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00679": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00680": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00681": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00682": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00683": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00684": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00685": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00686": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00687": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00688": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00689": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00690": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00691": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00692": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00693": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00694": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00695": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00696": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00697": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00698": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00699": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00700": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00701": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00702": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00703": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00704": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00705": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00706": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00707": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00708": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00709": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00710": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00711": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00712": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00713": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00714": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00715": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00716": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00717": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00718": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00719": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00720": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00721": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00722": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00723": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00724": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00725": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00726": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00727": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00728": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00729": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00730": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00731": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00732": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00733": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00734": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00735": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00736": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00737": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00738": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00739": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00740": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00741": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00742": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00743": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00744": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00745": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00746": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00747": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00748": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00749": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00750": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00751": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00752": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00753": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00754": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00755": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00756": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00757": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00758": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00759": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00760": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00761": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00762": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00763": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00764": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00765": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00766": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00767": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00768": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00769": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00770": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00771": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00772": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00773": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00774": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00775": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00776": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00777": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00778": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00779": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00780": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00781": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00782": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00783": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00784": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00785": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00786": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00787": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00788": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00789": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00790": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00791": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00792": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00793": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00794": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00795": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00796": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00797": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00798": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00799": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00800": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00801": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00802": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00803": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00804": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00805": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00806": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00807": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00808": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00809": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00810": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00811": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00812": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00813": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00814": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00815": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00816": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00817": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00818": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00819": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00820": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00821": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00822": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00823": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00824": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00825": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00826": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00827": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00828": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00829": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00830": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00831": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00832": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00833": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00834": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00835": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00836": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00837": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00838": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00839": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00840": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00841": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00842": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00843": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00844": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00845": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00846": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00847": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00848": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00849": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00850": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00851": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00852": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00853": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00854": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00855": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00856": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00857": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00858": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00859": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00860": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00861": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00862": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00863": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00864": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00865": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00866": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00867": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00868": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00869": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00870": {
+    "module": "Applications",
+    "bloom": "Create"
+  },
+  "SIG-00871": {
+    "module": "Signal Fundamentals",
+    "bloom": "Remember"
+  },
+  "SIG-00872": {
+    "module": "Signal Operations",
+    "bloom": "Understand"
+  },
+  "SIG-00873": {
+    "module": "System Properties",
+    "bloom": "Apply"
+  },
+  "SIG-00874": {
+    "module": "Convolution",
+    "bloom": "Analyze"
+  },
+  "SIG-00875": {
+    "module": "Fourier Series",
+    "bloom": "Evaluate"
+  },
+  "SIG-00876": {
+    "module": "Fourier Transform",
+    "bloom": "Create"
+  },
+  "SIG-00877": {
+    "module": "Laplace Transform",
+    "bloom": "Remember"
+  },
+  "SIG-00878": {
+    "module": "Z Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00879": {
+    "module": "Sampling",
+    "bloom": "Apply"
+  },
+  "SIG-00880": {
+    "module": "Applications",
+    "bloom": "Analyze"
+  },
+  "SIG-00881": {
+    "module": "Signal Fundamentals",
+    "bloom": "Evaluate"
+  },
+  "SIG-00882": {
+    "module": "Signal Operations",
+    "bloom": "Create"
+  },
+  "SIG-00883": {
+    "module": "System Properties",
+    "bloom": "Remember"
+  },
+  "SIG-00884": {
+    "module": "Convolution",
+    "bloom": "Understand"
+  },
+  "SIG-00885": {
+    "module": "Fourier Series",
+    "bloom": "Apply"
+  },
+  "SIG-00886": {
+    "module": "Fourier Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00887": {
+    "module": "Laplace Transform",
+    "bloom": "Evaluate"
+  },
+  "SIG-00888": {
+    "module": "Z Transform",
+    "bloom": "Create"
+  },
+  "SIG-00889": {
+    "module": "Sampling",
+    "bloom": "Remember"
+  },
+  "SIG-00890": {
+    "module": "Applications",
+    "bloom": "Understand"
+  },
+  "SIG-00891": {
+    "module": "Signal Fundamentals",
+    "bloom": "Apply"
+  },
+  "SIG-00892": {
+    "module": "Signal Operations",
+    "bloom": "Analyze"
+  },
+  "SIG-00893": {
+    "module": "System Properties",
+    "bloom": "Evaluate"
+  },
+  "SIG-00894": {
+    "module": "Convolution",
+    "bloom": "Create"
+  },
+  "SIG-00895": {
+    "module": "Fourier Series",
+    "bloom": "Remember"
+  },
+  "SIG-00896": {
+    "module": "Fourier Transform",
+    "bloom": "Understand"
+  },
+  "SIG-00897": {
+    "module": "Laplace Transform",
+    "bloom": "Apply"
+  },
+  "SIG-00898": {
+    "module": "Z Transform",
+    "bloom": "Analyze"
+  },
+  "SIG-00899": {
+    "module": "Sampling",
+    "bloom": "Evaluate"
+  },
+  "SIG-00900": {
+    "module": "Applications",
+    "bloom": "Create"
+  }
+}

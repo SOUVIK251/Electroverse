@@ -1,0 +1,81 @@
+{
+  "id": "module_4",
+  "title": "Module 4: Convolution",
+  "topics": {
+    "conv_ct": {
+      "title": "Continuous-Time Convolution Integral",
+      "read_time": "12 min read",
+      "difficulty": "Advanced",
+      "category": "LTI Analysis",
+      "summary": "Convolution describes the response y(t) of a continuous-time LTI system to any arbitrary input x(t) using its impulse response h(t).",
+      "introduction": "Convolution is the single most important mathematical operation in Linear System Theory.",
+      "theory": "The continuous-time convolution integral is defined as:\n\n$$y(t) = x(t) * h(t) = \\int_{-\\infty}^{\\infty} x(\\tau) h(t - \\tau) d\\tau$$\n\nWhere x(t) is the input signal and h(t) is the system impulse response.",
+      "derivation": "**Graphical Convolution Steps (The 4 Steps)**:\n\n1. **Change variable**: Express x(t) as x(tau) and h(t) as h(tau).\n2. **Time Fold**: Reflect h(tau) to get h(-tau).\n3. **Time Shift**: Shift h(-tau) by t to get h(t - tau).\n4. **Multiply & Integrate**: Multiply x(tau) h(t - tau) and compute the area under the product curve for varying t.",
+      "important_formulas": [
+        "y(t) = x(t) * h(t) = \\int_{-\\infty}^{\\infty} x(\\tau) h(t - \\tau) d\\tau",
+        "x(t) * \\delta(t - t_0) = x(t - t_0)",
+        "\\text{Duration of } y(t) = (T_{x1} + T_{h1}) \\le t \\le (T_{x2} + T_{h2})"
+      ],
+      "examples": [
+        {
+          "problem": "Convolve x(t) = u(t) with h(t) = e^(-at) u(t) (a > 0).",
+          "solution": "y(t) = integral_0^t 1 * e^(-a(t-tau)) dtau = e^(-at) integral_0^t e^(a tau) dtau = (1 - e^(-at))/a u(t)."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting to change the integration variable to tau! The integral is evaluated over tau, leaving t as the shift parameter."
+      ],
+      "interview_questions": [
+        {
+          "question": "What is the convolution of two rectangular pulses of equal width T?",
+          "answer": "A triangular pulse of duration 2T."
+        }
+      ],
+      "viva_questions": [
+        {
+          "question": "What corresponds to convolution in the time domain when converted to the frequency domain?",
+          "answer": "Multiplication in the frequency domain: Y(w) = X(w) * H(w)."
+        }
+      ],
+      "professor_notes": "Commutative property: x(t) * h(t) = h(t) * x(t). Always flip the simpler signal to make integration easier!",
+      "memory_trick": "\ud83e\udde0 **Memory Trick**: **Fold, Shift, Multiply, Integrate (FSMI)**."
+    },
+    "conv_dt": {
+      "title": "Discrete-Time Convolution Sum",
+      "read_time": "11 min read",
+      "difficulty": "Advanced",
+      "category": "LTI Analysis",
+      "summary": "Discrete-time convolution calculates the output y[n] of a discrete LTI system as y[n] = sum_k x[k] h[n - k].",
+      "introduction": "Discrete convolution is the core algorithm used in digital FIR filters and DSP chips.",
+      "theory": "The discrete-time convolution sum is defined as:\n\n$$y[n] = x[n] * h[n] = \\sum_{k=-\\infty}^{\\infty} x[k] h[n - k]$$",
+      "derivation": "**Length Property**:\nIf x[n] has length N1 and h[n] has length N2, the output y[n] has length:\n$$L = N_1 + N_2 - 1$$\n\n**Tabular Method (Matrix Multiplication)**:\nArrange x[k] as column and h[n-k] as row, compute diagonal sums.",
+      "important_formulas": [
+        "y[n] = \\sum_{k=-\\infty}^{\\infty} x[k] h[n - k]",
+        "\\text{Length}(y[n]) = N_1 + N_2 - 1"
+      ],
+      "examples": [
+        {
+          "problem": "Convolve x[n] = {1, 2, 3} at n=0,1,2 with h[n] = {1, 1} at n=0,1.",
+          "solution": "Length = 3 + 2 - 1 = 4 points. y[0]=1*1=1, y[1]=1*1+2*1=3, y[2]=2*1+3*1=5, y[3]=3*1=3. y[n] = {1, 3, 5, 3}."
+        }
+      ],
+      "common_mistakes": [
+        "Incorrect starting index of output y[n]. Start index n_start = n_start_x + n_start_h!"
+      ],
+      "interview_questions": [
+        {
+          "question": "How do you calculate the starting index of a discrete convolution result?",
+          "answer": "n_start(y) = n_start(x) + n_start(h)."
+        }
+      ],
+      "viva_questions": [
+        {
+          "question": "What is the sum of all samples in y[n] = x[n] * h[n]?",
+          "answer": "Sum(y) = Sum(x) * Sum(h)."
+        }
+      ],
+      "professor_notes": "Use the tabular matrix method for quick verification in exam calculations!",
+      "memory_trick": "\ud83e\udde0 **Memory Trick**: **Output Length = N1 + N2 - 1**. **Start Index = Start1 + Start2**."
+    }
+  }
+}

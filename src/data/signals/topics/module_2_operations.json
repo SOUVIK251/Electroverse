@@ -1,0 +1,118 @@
+{
+  "id": "module_2",
+  "title": "Module 2: Signal Operations",
+  "topics": {
+    "op_time_shift": {
+      "title": "Time Shifting",
+      "read_time": "7 min read",
+      "difficulty": "Basic",
+      "category": "Operations",
+      "summary": "Time shifting delays or advances a signal in time: x(t - t0) delays right, x(t + t0) advances left.",
+      "introduction": "Shifting a signal along the time axis is fundamental to delay lines, radar processing, and echo analysis.",
+      "theory": "Given a signal x(t):\n- **Delay**: $x(t - t_0)$ shifts the signal to the RIGHT by $t_0$ units ($t_0 > 0$).\n- **Advance**: $x(t + t_0)$ shifts the signal to the LEFT by $t_0$ units ($t_0 > 0$).",
+      "derivation": "To plot y(t) = x(t - t0):\nSet argument (t - t0) = t_old => t_new = t_old + t0. Every feature occurring at t_old moves to t_old + t0.",
+      "important_formulas": [
+        "y(t) = x(t - t_0) \\quad (\\text{Delay right by } t_0)",
+        "y(t) = x(t + t_0) \\quad (\\text{Advance left by } t_0)"
+      ],
+      "examples": [
+        {
+          "problem": "If a gate pulse x(t) is non-zero between t = 0 and t = 2, find the non-zero duration of y(t) = x(t - 3).",
+          "solution": "Shift right by 3: New duration is 0 + 3 <= t <= 2 + 3, so t = [3, 5]."
+        }
+      ],
+      "common_mistakes": [
+        "Mistaking x(t - 3) as a shift to the left because of the minus sign! Minus means DELAY = shift RIGHT."
+      ],
+      "interview_questions": [
+        {
+          "question": "How does time shifting affect the energy of a signal?",
+          "answer": "Time shifting does NOT change the total energy or average power of a signal: E_shifted = E_original."
+        }
+      ],
+      "viva_questions": [
+        {
+          "question": "Does time shifting change the shape or area of a signal?",
+          "answer": "No, time shifting only changes the position on the time axis; shape, amplitude, and area remain identical."
+        }
+      ],
+      "professor_notes": "When combining operations, perform Time Shift FIRST, then Time Scaling!",
+      "memory_trick": "\ud83e\udde0 **Memory Trick**: **Minus = Delay (Right)**. **Plus = Advance (Left)**."
+    },
+    "op_time_scale": {
+      "title": "Time Scaling & Folding",
+      "read_time": "9 min read",
+      "difficulty": "Intermediate",
+      "category": "Operations",
+      "summary": "Time scaling compresses or expands a signal: x(at) compresses if a > 1, expands if 0 < a < 1. Time folding reflects across y-axis: x(-t).",
+      "introduction": "Scaling alters signal speed (fast playback vs slow motion). Folding reverses time playback.",
+      "theory": "1. **Time Scaling x(at)**:\n- If |a| > 1: Signal is **compressed** in time by factor a.\n- If 0 < |a| < 1: Signal is **expanded** in time by factor 1/a.\n\n2. **Time Folding x(-t)**:\n- Reflects the signal across the vertical axis t = 0.",
+      "derivation": "**Order of Operations Rule** for y(t) = x(at - b):\n1. Method A (Shift then Scale): x(t) -> x(t - b) -> x(at - b).\n2. Method B (Scale then Shift): x(t) -> x(at) -> x(a(t - b/a)) = x(at - b).",
+      "important_formulas": [
+        "y(t) = x(at) \\quad (a > 1 \\Rightarrow \\text{compress by } a)",
+        "y(t) = x(-t) \\quad (\\text{Time reflection / folding})"
+      ],
+      "examples": [
+        {
+          "problem": "A triangular signal x(t) extends from t = -2 to t = 4. Find the range of y(t) = x(2t).",
+          "solution": "Time scaling compresses by 2: New range is -2/2 <= t <= 4/2 -> -1 <= t <= 2."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting that time compression increases signal bandwidth proportionally in frequency domain!"
+      ],
+      "interview_questions": [
+        {
+          "question": "How does time scaling by factor a affect signal energy?",
+          "answer": "If y(t) = x(at), the energy E_y = E_x / |a|."
+        }
+      ],
+      "viva_questions": [
+        {
+          "question": "What happens to the duration of a signal when scaled by x(0.5t)?",
+          "answer": "The duration doubles (expands by factor of 2)."
+        }
+      ],
+      "professor_notes": "Always rewrite x(at - b) as x(a(t - b/a)) to avoid shift errors when scaling first!",
+      "memory_trick": "\ud83e\udde0 **Memory Trick**: **Multiply time = Compress**. **Divide time = Expand**."
+    },
+    "op_decomposition": {
+      "title": "Signal Decomposition (Even & Odd Parts)",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "category": "Decomposition",
+      "summary": "Any arbitrary real signal x(t) can be uniquely decomposed into an even symmetric part x_e(t) and an odd antisymmetric part x_o(t).",
+      "introduction": "Symmetry decomposition simplifies Fourier analysis and integration.",
+      "theory": "Any signal x(t) = x_e(t) + x_o(t) where:\n\n$$x_e(t) = \\frac{x(t) + x(-t)}{2} \\quad (\\text{Even part: } x_e(-t) = x_e(t))$$\n\n$$x_o(t) = \\frac{x(t) - x(-t)}{2} \\quad (\\text{Odd part: } x_o(-t) = -x_o(t))$$",
+      "derivation": "Proof: x_e(t) + x_o(t) = (x(t) + x(-t))/2 + (x(t) - x(-t))/2 = 2x(t)/2 = x(t).",
+      "important_formulas": [
+        "x_e(t) = 0.5 * (x(t) + x(-t))",
+        "x_o(t) = 0.5 * (x(t) - x(-t))",
+        "\\int_{-T}^{T} x_o(t) dt = 0"
+      ],
+      "examples": [
+        {
+          "problem": "Find the even and odd parts of x(t) = e^(jt).",
+          "solution": "x_e(t) = (e^(jt) + e^(-jt))/2 = cos(t). x_o(t) = (e^(jt) - e^(-jt))/2 = j sin(t)."
+        }
+      ],
+      "common_mistakes": [
+        "Thinking a signal must be either strictly even or strictly odd. Most signals are NEITHER, but can be split into both parts!"
+      ],
+      "interview_questions": [
+        {
+          "question": "What is the integral of an odd signal over a symmetric interval [-T, T]?",
+          "answer": "Zero, because the positive area on one side cancels the negative area on the other side."
+        }
+      ],
+      "viva_questions": [
+        {
+          "question": "What is the even part of a unit step u(t)?",
+          "answer": "x_e(t) = 0.5 * (u(t) + u(-t)) = 0.5 for all t != 0."
+        }
+      ],
+      "professor_notes": "Even times Even = Even. Odd times Odd = Even. Even times Odd = Odd!",
+      "memory_trick": "\ud83e\udde0 **Memory Trick**: **Even = Cosine (Mirror)**. **Odd = Sine (Upside-down flip)**."
+    }
+  }
+}

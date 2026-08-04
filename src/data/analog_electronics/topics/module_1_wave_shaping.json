@@ -1,0 +1,521 @@
+{
+  "topics": {
+    "pos_series_clipper": {
+      "title": "Positive Series Clipper",
+      "category": "Module 1: Wave Shaping & Clippers/Clampers",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Positive Series Clipper in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Positive Series Clipper: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Positive Series Clipper is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Positive Series Clipper.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Positive Series Clipper is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Positive Series Clipper yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Positive Series Clipper.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "neg_series_clipper": {
+      "title": "Negative Series Clipper",
+      "category": "Module 1: Wave Shaping & Clippers/Clampers",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Negative Series Clipper in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Negative Series Clipper: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Negative Series Clipper is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Negative Series Clipper.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Negative Series Clipper is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Negative Series Clipper yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Negative Series Clipper.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "pos_shunt_clipper": {
+      "title": "Positive Shunt Clipper",
+      "category": "Module 1: Wave Shaping & Clippers/Clampers",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Positive Shunt Clipper in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Positive Shunt Clipper: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Positive Shunt Clipper is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Positive Shunt Clipper.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Positive Shunt Clipper is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Positive Shunt Clipper yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Positive Shunt Clipper.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "neg_shunt_clipper": {
+      "title": "Negative Shunt Clipper",
+      "category": "Module 1: Wave Shaping & Clippers/Clampers",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Negative Shunt Clipper in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Negative Shunt Clipper: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Negative Shunt Clipper is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Negative Shunt Clipper.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Negative Shunt Clipper is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Negative Shunt Clipper yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Negative Shunt Clipper.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "biased_pos_clipper": {
+      "title": "Biased Positive Clipper",
+      "category": "Module 1: Wave Shaping & Clippers/Clampers",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Biased Positive Clipper in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Biased Positive Clipper: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Biased Positive Clipper is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Biased Positive Clipper.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Biased Positive Clipper is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Biased Positive Clipper yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Biased Positive Clipper.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "biased_neg_clipper": {
+      "title": "Biased Negative Clipper",
+      "category": "Module 1: Wave Shaping & Clippers/Clampers",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Biased Negative Clipper in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Biased Negative Clipper: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Biased Negative Clipper is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Biased Negative Clipper.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Biased Negative Clipper is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Biased Negative Clipper yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Biased Negative Clipper.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "combination_clipper": {
+      "title": "Combination Clipper Circuit",
+      "category": "Module 1: Wave Shaping & Clippers/Clampers",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Combination Clipper Circuit in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Combination Clipper Circuit: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Combination Clipper Circuit is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Combination Clipper Circuit.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Combination Clipper Circuit is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Combination Clipper Circuit yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Combination Clipper Circuit.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "pos_clamper": {
+      "title": "Positive Clamper Circuit",
+      "category": "Module 1: Wave Shaping & Clippers/Clampers",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Positive Clamper Circuit in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Positive Clamper Circuit: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Positive Clamper Circuit is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Positive Clamper Circuit.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Positive Clamper Circuit is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Positive Clamper Circuit yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Positive Clamper Circuit.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "neg_clamper": {
+      "title": "Negative Clamper Circuit",
+      "category": "Module 1: Wave Shaping & Clippers/Clampers",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Negative Clamper Circuit in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Negative Clamper Circuit: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Negative Clamper Circuit is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Negative Clamper Circuit.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Negative Clamper Circuit is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Negative Clamper Circuit yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Negative Clamper Circuit.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "biased_pos_clamper": {
+      "title": "Biased Positive Clamper",
+      "category": "Module 1: Wave Shaping & Clippers/Clampers",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Biased Positive Clamper in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Biased Positive Clamper: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Biased Positive Clamper is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Biased Positive Clamper.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Biased Positive Clamper is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Biased Positive Clamper yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Biased Positive Clamper.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "biased_neg_clamper": {
+      "title": "Biased Negative Clamper",
+      "category": "Module 1: Wave Shaping & Clippers/Clampers",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Biased Negative Clamper in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Biased Negative Clamper: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Biased Negative Clamper is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Biased Negative Clamper.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Biased Negative Clamper is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Biased Negative Clamper yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Biased Negative Clamper.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    }
+  }
+}

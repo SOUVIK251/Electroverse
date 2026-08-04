@@ -1,0 +1,45 @@
+{
+  "id": "module_5",
+  "title": "Module 5: Fourier Series",
+  "topics": {
+    "fs_trig": {
+      "title": "Trigonometric Fourier Series",
+      "read_time": "10 min read",
+      "difficulty": "Intermediate",
+      "category": "Fourier Analysis",
+      "summary": "Represents any periodic signal x(t) with fundamental period T0 as a sum of DC, sines, and cosines.",
+      "introduction": "Fourier series proves that periodic waveforms are composed of a fundamental frequency and integer harmonics.",
+      "theory": "$$x(t) = a_0 + \\sum_{n=1}^{\\infty} \\left( a_n \\cos(n w_0 t) + b_n \\sin(n w_0 t) \\right)$$\n\nWhere $w_0 = 2 \\pi / T_0$ is the fundamental angular frequency.\n\nCoefficients:\n$$a_0 = \\frac{1}{T_0} \\int_{0}^{T_0} x(t) dt$$\n$$a_n = \\frac{2}{T_0} \\int_{0}^{T_0} x(t) \\cos(n w_0 t) dt$$\n$$b_n = \\frac{2}{T_0} \\int_{0}^{T_0} x(t) \\sin(n w_0 t) dt$$",
+      "derivation": "**Dirichlet Conditions for Convergence**:\n1. x(t) is single-valued and bounded.\n2. x(t) has a finite number of discontinuities in any one period.\n3. x(t) has a finite number of maxima and minima in any one period.",
+      "important_formulas": [
+        "x(t) = a_0 + \\sum_{n=1}^{\\infty} [a_n \\cos(n w_0 t) + b_n \\sin(n w_0 t)]",
+        "a_0 = \\frac{1}{T_0} \\int_{0}^{T_0} x(t) dt",
+        "a_n = \\frac{2}{T_0} \\int_{0}^{T_0} x(t) \\cos(n w_0 t) dt",
+        "b_n = \\frac{2}{T_0} \\int_{0}^{T_0} x(t) \\sin(n w_0 t) dt"
+      ],
+      "examples": [
+        {
+          "problem": "Find the Fourier series coefficients for an even square wave of amplitude A.",
+          "solution": "Since x(t) is even, b_n = 0 for all n. a_0 = A/2. a_n = 4A/(n pi) for odd n, and 0 for even n."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting that for EVEN signals, b_n = 0. For ODD signals, a_0 = 0 and a_n = 0!"
+      ],
+      "interview_questions": [
+        {
+          "question": "What are the Dirichlet conditions?",
+          "answer": "Conditions guaranteeing that a periodic function can be expanded into a convergent Fourier series."
+        }
+      ],
+      "viva_questions": [
+        {
+          "question": "What is the physical meaning of a_0 in Fourier Series?",
+          "answer": "a_0 is the average value (DC component) of the signal over one period."
+        }
+      ],
+      "professor_notes": "Exploit symmetry! If x(t) is even, b_n = 0 automatically. If x(t) is odd, a_n = 0 and a_0 = 0!",
+      "memory_trick": "\ud83e\udde0 **Memory Trick**: **Even = Cosine terms (a_n)**. **Odd = Sine terms (b_n)**."
+    }
+  }
+}

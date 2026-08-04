@@ -1,0 +1,196 @@
+{
+  "topics": {
+    "charge_current": {
+      "title": "Electric Charge & Current",
+      "category": "Module 1: Fundamentals",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": false,
+      "has_problem_solving": false,
+      "summary": "Comprehensive engineering analysis of Electric Charge & Current in electrical network theory.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Electric Charge & Current: Remember the governing conservation law: Energy in = Energy out!",
+      "theory": "In electrical network theory, Electric Charge & Current forms the mathematical foundation for analyzing circuit behavior.",
+      "derivation_steps": [
+        "Step 1: Identify circuit branch parameters and node connections for Electric Charge & Current.",
+        "Step 2: Apply governing physical laws (KCL/KVL or Theorem definition).",
+        "Step 3: Formulate algebraic loop/node matrix equations.",
+        "Step 4: Solve system equations for branch currents and node voltages."
+      ],
+      "important_formulas": [
+        "Governing Law: V = I \\cdot R",
+        "Power Equation: P = V \\cdot I = I^2 \\cdot R",
+        "KCL: \\sum I_{in} = \\sum I_{out}",
+        "KVL: \\sum V_{loop} = 0"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit under Electric Charge & Current has V_s = 12V and R_1 = 4 ohms, R_2 = 6 ohms in series. Find total current and power.",
+          "solution": "Total R = R_1 + R_2 = 10 ohms. Current I = 12V / 10 = 1.2A. Total Power P = 12V * 1.2A = 14.4W."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting reference polarities (+/-) when writing KVL mesh equations.",
+        "Not deactivating independent current sources (open circuit) when computing R_th or Superposition."
+      ],
+      "professor_notes": "Professor's Tip: Always double-check node voltage references before formulating nodal matrices for Electric Charge & Current.",
+      "career_applications": [
+        "Electrical Power Distribution & Smart Grids",
+        "Automotive Battery Management Systems (BMS)",
+        "Robotics Motor Drive Controllers",
+        "VLSI Analog Circuit Design",
+        "Biomedical ECG Signal Conditioning"
+      ],
+      "related_topics": [
+        "kcl",
+        "kvl",
+        "mesh_analysis",
+        "thevenin",
+        "superposition"
+      ]
+    },
+    "voltage_power": {
+      "title": "Voltage, Power & Energy",
+      "category": "Module 1: Fundamentals",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": false,
+      "has_problem_solving": false,
+      "summary": "Comprehensive engineering analysis of Voltage, Power & Energy in electrical network theory.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Voltage, Power & Energy: Remember the governing conservation law: Energy in = Energy out!",
+      "theory": "In electrical network theory, Voltage, Power & Energy forms the mathematical foundation for analyzing circuit behavior.",
+      "derivation_steps": [
+        "Step 1: Identify circuit branch parameters and node connections for Voltage, Power & Energy.",
+        "Step 2: Apply governing physical laws (KCL/KVL or Theorem definition).",
+        "Step 3: Formulate algebraic loop/node matrix equations.",
+        "Step 4: Solve system equations for branch currents and node voltages."
+      ],
+      "important_formulas": [
+        "Governing Law: V = I \\cdot R",
+        "Power Equation: P = V \\cdot I = I^2 \\cdot R",
+        "KCL: \\sum I_{in} = \\sum I_{out}",
+        "KVL: \\sum V_{loop} = 0"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit under Voltage, Power & Energy has V_s = 12V and R_1 = 4 ohms, R_2 = 6 ohms in series. Find total current and power.",
+          "solution": "Total R = R_1 + R_2 = 10 ohms. Current I = 12V / 10 = 1.2A. Total Power P = 12V * 1.2A = 14.4W."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting reference polarities (+/-) when writing KVL mesh equations.",
+        "Not deactivating independent current sources (open circuit) when computing R_th or Superposition."
+      ],
+      "professor_notes": "Professor's Tip: Always double-check node voltage references before formulating nodal matrices for Voltage, Power & Energy.",
+      "career_applications": [
+        "Electrical Power Distribution & Smart Grids",
+        "Automotive Battery Management Systems (BMS)",
+        "Robotics Motor Drive Controllers",
+        "VLSI Analog Circuit Design",
+        "Biomedical ECG Signal Conditioning"
+      ],
+      "related_topics": [
+        "kcl",
+        "kvl",
+        "mesh_analysis",
+        "thevenin",
+        "superposition"
+      ]
+    },
+    "passive_active": {
+      "title": "Passive & Active Elements",
+      "category": "Module 1: Fundamentals",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": false,
+      "has_problem_solving": false,
+      "summary": "Comprehensive engineering analysis of Passive & Active Elements in electrical network theory.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Passive & Active Elements: Remember the governing conservation law: Energy in = Energy out!",
+      "theory": "In electrical network theory, Passive & Active Elements forms the mathematical foundation for analyzing circuit behavior.",
+      "derivation_steps": [
+        "Step 1: Identify circuit branch parameters and node connections for Passive & Active Elements.",
+        "Step 2: Apply governing physical laws (KCL/KVL or Theorem definition).",
+        "Step 3: Formulate algebraic loop/node matrix equations.",
+        "Step 4: Solve system equations for branch currents and node voltages."
+      ],
+      "important_formulas": [
+        "Governing Law: V = I \\cdot R",
+        "Power Equation: P = V \\cdot I = I^2 \\cdot R",
+        "KCL: \\sum I_{in} = \\sum I_{out}",
+        "KVL: \\sum V_{loop} = 0"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit under Passive & Active Elements has V_s = 12V and R_1 = 4 ohms, R_2 = 6 ohms in series. Find total current and power.",
+          "solution": "Total R = R_1 + R_2 = 10 ohms. Current I = 12V / 10 = 1.2A. Total Power P = 12V * 1.2A = 14.4W."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting reference polarities (+/-) when writing KVL mesh equations.",
+        "Not deactivating independent current sources (open circuit) when computing R_th or Superposition."
+      ],
+      "professor_notes": "Professor's Tip: Always double-check node voltage references before formulating nodal matrices for Passive & Active Elements.",
+      "career_applications": [
+        "Electrical Power Distribution & Smart Grids",
+        "Automotive Battery Management Systems (BMS)",
+        "Robotics Motor Drive Controllers",
+        "VLSI Analog Circuit Design",
+        "Biomedical ECG Signal Conditioning"
+      ],
+      "related_topics": [
+        "kcl",
+        "kvl",
+        "mesh_analysis",
+        "thevenin",
+        "superposition"
+      ]
+    },
+    "sources": {
+      "title": "Independent & Dependent Sources",
+      "category": "Module 1: Fundamentals",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": false,
+      "has_problem_solving": false,
+      "summary": "Comprehensive engineering analysis of Independent & Dependent Sources in electrical network theory.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Independent & Dependent Sources: Remember the governing conservation law: Energy in = Energy out!",
+      "theory": "In electrical network theory, Independent & Dependent Sources forms the mathematical foundation for analyzing circuit behavior.",
+      "derivation_steps": [
+        "Step 1: Identify circuit branch parameters and node connections for Independent & Dependent Sources.",
+        "Step 2: Apply governing physical laws (KCL/KVL or Theorem definition).",
+        "Step 3: Formulate algebraic loop/node matrix equations.",
+        "Step 4: Solve system equations for branch currents and node voltages."
+      ],
+      "important_formulas": [
+        "Governing Law: V = I \\cdot R",
+        "Power Equation: P = V \\cdot I = I^2 \\cdot R",
+        "KCL: \\sum I_{in} = \\sum I_{out}",
+        "KVL: \\sum V_{loop} = 0"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit under Independent & Dependent Sources has V_s = 12V and R_1 = 4 ohms, R_2 = 6 ohms in series. Find total current and power.",
+          "solution": "Total R = R_1 + R_2 = 10 ohms. Current I = 12V / 10 = 1.2A. Total Power P = 12V * 1.2A = 14.4W."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting reference polarities (+/-) when writing KVL mesh equations.",
+        "Not deactivating independent current sources (open circuit) when computing R_th or Superposition."
+      ],
+      "professor_notes": "Professor's Tip: Always double-check node voltage references before formulating nodal matrices for Independent & Dependent Sources.",
+      "career_applications": [
+        "Electrical Power Distribution & Smart Grids",
+        "Automotive Battery Management Systems (BMS)",
+        "Robotics Motor Drive Controllers",
+        "VLSI Analog Circuit Design",
+        "Biomedical ECG Signal Conditioning"
+      ],
+      "related_topics": [
+        "kcl",
+        "kvl",
+        "mesh_analysis",
+        "thevenin",
+        "superposition"
+      ]
+    }
+  }
+}

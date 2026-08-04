@@ -1,0 +1,3602 @@
+{
+  "DIG-00001": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "DIG-00002": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "DIG-00003": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "DIG-00004": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "DIG-00005": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "DIG-00006": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "DIG-00007": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "DIG-00008": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "DIG-00009": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "DIG-00010": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "DIG-00011": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "DIG-00012": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "DIG-00013": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "DIG-00014": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "DIG-00015": {
+    "difficulty": "Easy",
+    "score": 11
+  },
+  "DIG-00016": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "DIG-00017": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "DIG-00018": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "DIG-00019": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "DIG-00020": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "DIG-00021": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "DIG-00022": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "DIG-00023": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "DIG-00024": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "DIG-00025": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "DIG-00026": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "DIG-00027": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "DIG-00028": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "DIG-00029": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "DIG-00030": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "DIG-00031": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "DIG-00032": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "DIG-00033": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "DIG-00034": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "DIG-00035": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "DIG-00036": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "DIG-00037": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "DIG-00038": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "DIG-00039": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "DIG-00040": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "DIG-00041": {
+    "difficulty": "Easy",
+    "score": 11
+  },
+  "DIG-00042": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "DIG-00043": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "DIG-00044": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "DIG-00045": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "DIG-00046": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "DIG-00047": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "DIG-00048": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "DIG-00049": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "DIG-00050": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "DIG-00051": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "DIG-00052": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "DIG-00053": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "DIG-00054": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "DIG-00055": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "DIG-00056": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "DIG-00057": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "DIG-00058": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "DIG-00059": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "DIG-00060": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "DIG-00061": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "DIG-00062": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "DIG-00063": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "DIG-00064": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "DIG-00065": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "DIG-00066": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "DIG-00067": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "DIG-00068": {
+    "difficulty": "Easy",
+    "score": 13
+  },
+  "DIG-00069": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "DIG-00070": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "DIG-00071": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "DIG-00072": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "DIG-00073": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "DIG-00074": {
+    "difficulty": "Easy",
+    "score": 13
+  },
+  "DIG-00075": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "DIG-00076": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "DIG-00077": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "DIG-00078": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "DIG-00079": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "DIG-00080": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "DIG-00081": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "DIG-00082": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "DIG-00083": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "DIG-00084": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "DIG-00085": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "DIG-00086": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "DIG-00087": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "DIG-00088": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "DIG-00089": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "DIG-00090": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "DIG-00091": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "DIG-00092": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "DIG-00093": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "DIG-00094": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "DIG-00095": {
+    "difficulty": "Easy",
+    "score": 13
+  },
+  "DIG-00096": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "DIG-00097": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "DIG-00098": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "DIG-00099": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "DIG-00100": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "DIG-00101": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "DIG-00102": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "DIG-00103": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "DIG-00104": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "DIG-00105": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "DIG-00106": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "DIG-00107": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "DIG-00108": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "DIG-00109": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "DIG-00110": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "DIG-00111": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "DIG-00112": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "DIG-00113": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "DIG-00114": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "DIG-00115": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "DIG-00116": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "DIG-00117": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "DIG-00118": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "DIG-00119": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "DIG-00120": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "DIG-00121": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "DIG-00122": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "DIG-00123": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "DIG-00124": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "DIG-00125": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "DIG-00126": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "DIG-00127": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "DIG-00128": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "DIG-00129": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "DIG-00130": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "DIG-00131": {
+    "difficulty": "Easy",
+    "score": 11
+  },
+  "DIG-00132": {
+    "difficulty": "Easy",
+    "score": 13
+  },
+  "DIG-00133": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "DIG-00134": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "DIG-00135": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "DIG-00136": {
+    "difficulty": "Easy",
+    "score": 13
+  },
+  "DIG-00137": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "DIG-00138": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "DIG-00139": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "DIG-00140": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "DIG-00141": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "DIG-00142": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "DIG-00143": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "DIG-00144": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "DIG-00145": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "DIG-00146": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "DIG-00147": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "DIG-00148": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "DIG-00149": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "DIG-00150": {
+    "difficulty": "Easy",
+    "score": 13
+  },
+  "DIG-00151": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "DIG-00152": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "DIG-00153": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "DIG-00154": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "DIG-00155": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "DIG-00156": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "DIG-00157": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "DIG-00158": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "DIG-00159": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "DIG-00160": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "DIG-00161": {
+    "difficulty": "Easy",
+    "score": 11
+  },
+  "DIG-00162": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "DIG-00163": {
+    "difficulty": "Easy",
+    "score": 13
+  },
+  "DIG-00164": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "DIG-00165": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "DIG-00166": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "DIG-00167": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "DIG-00168": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "DIG-00169": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "DIG-00170": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "DIG-00171": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "DIG-00172": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "DIG-00173": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "DIG-00174": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "DIG-00175": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "DIG-00176": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "DIG-00177": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "DIG-00178": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "DIG-00179": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "DIG-00180": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "DIG-00181": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "DIG-00182": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "DIG-00183": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "DIG-00184": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "DIG-00185": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "DIG-00186": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "DIG-00187": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "DIG-00188": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "DIG-00189": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "DIG-00190": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "DIG-00191": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "DIG-00192": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "DIG-00193": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "DIG-00194": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "DIG-00195": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "DIG-00196": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "DIG-00197": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "DIG-00198": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "DIG-00199": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "DIG-00200": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "DIG-00201": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "DIG-00202": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "DIG-00203": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "DIG-00204": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "DIG-00205": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "DIG-00206": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "DIG-00207": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "DIG-00208": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "DIG-00209": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "DIG-00210": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "DIG-00211": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "DIG-00212": {
+    "difficulty": "Easy",
+    "score": 11
+  },
+  "DIG-00213": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "DIG-00214": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "DIG-00215": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "DIG-00216": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "DIG-00217": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "DIG-00218": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "DIG-00219": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "DIG-00220": {
+    "difficulty": "Easy",
+    "score": 11
+  },
+  "DIG-00221": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "DIG-00222": {
+    "difficulty": "Easy",
+    "score": 11
+  },
+  "DIG-00223": {
+    "difficulty": "Easy",
+    "score": 13
+  },
+  "DIG-00224": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "DIG-00225": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "DIG-00226": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "DIG-00227": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "DIG-00228": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "DIG-00229": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "DIG-00230": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "DIG-00231": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "DIG-00232": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "DIG-00233": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "DIG-00234": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "DIG-00235": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "DIG-00236": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "DIG-00237": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "DIG-00238": {
+    "difficulty": "Easy",
+    "score": 11
+  },
+  "DIG-00239": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "DIG-00240": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "DIG-00241": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "DIG-00242": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "DIG-00243": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "DIG-00244": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "DIG-00245": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "DIG-00246": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "DIG-00247": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "DIG-00248": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "DIG-00249": {
+    "difficulty": "Easy",
+    "score": 13
+  },
+  "DIG-00250": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "DIG-00251": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "DIG-00252": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "DIG-00253": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "DIG-00254": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "DIG-00255": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "DIG-00256": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "DIG-00257": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "DIG-00258": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "DIG-00259": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "DIG-00260": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "DIG-00261": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "DIG-00262": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "DIG-00263": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "DIG-00264": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "DIG-00265": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "DIG-00266": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "DIG-00267": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "DIG-00268": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "DIG-00269": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "DIG-00270": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "DIG-00271": {
+    "difficulty": "Easy",
+    "score": 14
+  },
+  "DIG-00272": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "DIG-00273": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "DIG-00274": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "DIG-00275": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "DIG-00276": {
+    "difficulty": "Easy",
+    "score": 11
+  },
+  "DIG-00277": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "DIG-00278": {
+    "difficulty": "Easy",
+    "score": 11
+  },
+  "DIG-00279": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "DIG-00280": {
+    "difficulty": "Easy",
+    "score": 12
+  },
+  "DIG-00281": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "DIG-00282": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "DIG-00283": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "DIG-00284": {
+    "difficulty": "Easy",
+    "score": 10
+  },
+  "DIG-00285": {
+    "difficulty": "Easy",
+    "score": 11
+  },
+  "DIG-00286": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "DIG-00287": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "DIG-00288": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "DIG-00289": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "DIG-00290": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "DIG-00291": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "DIG-00292": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "DIG-00293": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "DIG-00294": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "DIG-00295": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "DIG-00296": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "DIG-00297": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "DIG-00298": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "DIG-00299": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "DIG-00300": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "DIG-00301": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "DIG-00302": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "DIG-00303": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "DIG-00304": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "DIG-00305": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "DIG-00306": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "DIG-00307": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "DIG-00308": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "DIG-00309": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "DIG-00310": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "DIG-00311": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "DIG-00312": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "DIG-00313": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "DIG-00314": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "DIG-00315": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "DIG-00316": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "DIG-00317": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "DIG-00318": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "DIG-00319": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "DIG-00320": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "DIG-00321": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "DIG-00322": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "DIG-00323": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "DIG-00324": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "DIG-00325": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "DIG-00326": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "DIG-00327": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "DIG-00328": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "DIG-00329": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "DIG-00330": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "DIG-00331": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "DIG-00332": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "DIG-00333": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "DIG-00334": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "DIG-00335": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "DIG-00336": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "DIG-00337": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "DIG-00338": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "DIG-00339": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "DIG-00340": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "DIG-00341": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "DIG-00342": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "DIG-00343": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "DIG-00344": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "DIG-00345": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "DIG-00346": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "DIG-00347": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "DIG-00348": {
+    "difficulty": "Medium",
+    "score": 36
+  },
+  "DIG-00349": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "DIG-00350": {
+    "difficulty": "Medium",
+    "score": 36
+  },
+  "DIG-00351": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "DIG-00352": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "DIG-00353": {
+    "difficulty": "Medium",
+    "score": 36
+  },
+  "DIG-00354": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "DIG-00355": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "DIG-00356": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "DIG-00357": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "DIG-00358": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "DIG-00359": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "DIG-00360": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "DIG-00361": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "DIG-00362": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "DIG-00363": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "DIG-00364": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "DIG-00365": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "DIG-00366": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "DIG-00367": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "DIG-00368": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "DIG-00369": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "DIG-00370": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "DIG-00371": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "DIG-00372": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "DIG-00373": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "DIG-00374": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "DIG-00375": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "DIG-00376": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "DIG-00377": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "DIG-00378": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "DIG-00379": {
+    "difficulty": "Medium",
+    "score": 38
+  },
+  "DIG-00380": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "DIG-00381": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "DIG-00382": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "DIG-00383": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "DIG-00384": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "DIG-00385": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "DIG-00386": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "DIG-00387": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "DIG-00388": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "DIG-00389": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "DIG-00390": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "DIG-00391": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "DIG-00392": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "DIG-00393": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "DIG-00394": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "DIG-00395": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "DIG-00396": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "DIG-00397": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "DIG-00398": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "DIG-00399": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "DIG-00400": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "DIG-00401": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "DIG-00402": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "DIG-00403": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "DIG-00404": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "DIG-00405": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "DIG-00406": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "DIG-00407": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "DIG-00408": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "DIG-00409": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "DIG-00410": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "DIG-00411": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "DIG-00412": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "DIG-00413": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "DIG-00414": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "DIG-00415": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "DIG-00416": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "DIG-00417": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "DIG-00418": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "DIG-00419": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "DIG-00420": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "DIG-00421": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "DIG-00422": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "DIG-00423": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "DIG-00424": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "DIG-00425": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "DIG-00426": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "DIG-00427": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "DIG-00428": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "DIG-00429": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "DIG-00430": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "DIG-00431": {
+    "difficulty": "Medium",
+    "score": 36
+  },
+  "DIG-00432": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "DIG-00433": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "DIG-00434": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "DIG-00435": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "DIG-00436": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "DIG-00437": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "DIG-00438": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "DIG-00439": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "DIG-00440": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "DIG-00441": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "DIG-00442": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "DIG-00443": {
+    "difficulty": "Medium",
+    "score": 38
+  },
+  "DIG-00444": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "DIG-00445": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "DIG-00446": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "DIG-00447": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "DIG-00448": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "DIG-00449": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "DIG-00450": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "DIG-00451": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "DIG-00452": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "DIG-00453": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "DIG-00454": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "DIG-00455": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "DIG-00456": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "DIG-00457": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "DIG-00458": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "DIG-00459": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "DIG-00460": {
+    "difficulty": "Medium",
+    "score": 39
+  },
+  "DIG-00461": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "DIG-00462": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "DIG-00463": {
+    "difficulty": "Medium",
+    "score": 39
+  },
+  "DIG-00464": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "DIG-00465": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "DIG-00466": {
+    "difficulty": "Medium",
+    "score": 38
+  },
+  "DIG-00467": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "DIG-00468": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "DIG-00469": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "DIG-00470": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "DIG-00471": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "DIG-00472": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "DIG-00473": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "DIG-00474": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "DIG-00475": {
+    "difficulty": "Medium",
+    "score": 38
+  },
+  "DIG-00476": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "DIG-00477": {
+    "difficulty": "Medium",
+    "score": 39
+  },
+  "DIG-00478": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "DIG-00479": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "DIG-00480": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "DIG-00481": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "DIG-00482": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "DIG-00483": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "DIG-00484": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "DIG-00485": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "DIG-00486": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "DIG-00487": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "DIG-00488": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "DIG-00489": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "DIG-00490": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "DIG-00491": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "DIG-00492": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "DIG-00493": {
+    "difficulty": "Medium",
+    "score": 39
+  },
+  "DIG-00494": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "DIG-00495": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "DIG-00496": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "DIG-00497": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "DIG-00498": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "DIG-00499": {
+    "difficulty": "Medium",
+    "score": 38
+  },
+  "DIG-00500": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "DIG-00501": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "DIG-00502": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "DIG-00503": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "DIG-00504": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "DIG-00505": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "DIG-00506": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "DIG-00507": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "DIG-00508": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "DIG-00509": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "DIG-00510": {
+    "difficulty": "Medium",
+    "score": 38
+  },
+  "DIG-00511": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "DIG-00512": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "DIG-00513": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "DIG-00514": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "DIG-00515": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "DIG-00516": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "DIG-00517": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "DIG-00518": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "DIG-00519": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "DIG-00520": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "DIG-00521": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "DIG-00522": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "DIG-00523": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "DIG-00524": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "DIG-00525": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "DIG-00526": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "DIG-00527": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "DIG-00528": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "DIG-00529": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "DIG-00530": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "DIG-00531": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "DIG-00532": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "DIG-00533": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "DIG-00534": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "DIG-00535": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "DIG-00536": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "DIG-00537": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "DIG-00538": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "DIG-00539": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "DIG-00540": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "DIG-00541": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "DIG-00542": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "DIG-00543": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "DIG-00544": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "DIG-00545": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "DIG-00546": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "DIG-00547": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "DIG-00548": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "DIG-00549": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "DIG-00550": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "DIG-00551": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "DIG-00552": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "DIG-00553": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "DIG-00554": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "DIG-00555": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "DIG-00556": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "DIG-00557": {
+    "difficulty": "Medium",
+    "score": 36
+  },
+  "DIG-00558": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "DIG-00559": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "DIG-00560": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "DIG-00561": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "DIG-00562": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "DIG-00563": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "DIG-00564": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "DIG-00565": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "DIG-00566": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "DIG-00567": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "DIG-00568": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "DIG-00569": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "DIG-00570": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "DIG-00571": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "DIG-00572": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "DIG-00573": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "DIG-00574": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "DIG-00575": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "DIG-00576": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "DIG-00577": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "DIG-00578": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "DIG-00579": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "DIG-00580": {
+    "difficulty": "Medium",
+    "score": 37
+  },
+  "DIG-00581": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "DIG-00582": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "DIG-00583": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "DIG-00584": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "DIG-00585": {
+    "difficulty": "Medium",
+    "score": 38
+  },
+  "DIG-00586": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "DIG-00587": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "DIG-00588": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "DIG-00589": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "DIG-00590": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "DIG-00591": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "DIG-00592": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "DIG-00593": {
+    "difficulty": "Medium",
+    "score": 39
+  },
+  "DIG-00594": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "DIG-00595": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "DIG-00596": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "DIG-00597": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "DIG-00598": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "DIG-00599": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "DIG-00600": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "DIG-00601": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "DIG-00602": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "DIG-00603": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "DIG-00604": {
+    "difficulty": "Hard",
+    "score": 66
+  },
+  "DIG-00605": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "DIG-00606": {
+    "difficulty": "Hard",
+    "score": 68
+  },
+  "DIG-00607": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "DIG-00608": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "DIG-00609": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "DIG-00610": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "DIG-00611": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "DIG-00612": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "DIG-00613": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00614": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "DIG-00615": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "DIG-00616": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "DIG-00617": {
+    "difficulty": "Hard",
+    "score": 68
+  },
+  "DIG-00618": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "DIG-00619": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "DIG-00620": {
+    "difficulty": "Hard",
+    "score": 68
+  },
+  "DIG-00621": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "DIG-00622": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "DIG-00623": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "DIG-00624": {
+    "difficulty": "Hard",
+    "score": 68
+  },
+  "DIG-00625": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "DIG-00626": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "DIG-00627": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "DIG-00628": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "DIG-00629": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "DIG-00630": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "DIG-00631": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "DIG-00632": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "DIG-00633": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "DIG-00634": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "DIG-00635": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00636": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "DIG-00637": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "DIG-00638": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "DIG-00639": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00640": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "DIG-00641": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "DIG-00642": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "DIG-00643": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "DIG-00644": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "DIG-00645": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "DIG-00646": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "DIG-00647": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00648": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "DIG-00649": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "DIG-00650": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "DIG-00651": {
+    "difficulty": "Hard",
+    "score": 66
+  },
+  "DIG-00652": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "DIG-00653": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "DIG-00654": {
+    "difficulty": "Hard",
+    "score": 66
+  },
+  "DIG-00655": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "DIG-00656": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "DIG-00657": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "DIG-00658": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "DIG-00659": {
+    "difficulty": "Hard",
+    "score": 69
+  },
+  "DIG-00660": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "DIG-00661": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "DIG-00662": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "DIG-00663": {
+    "difficulty": "Hard",
+    "score": 69
+  },
+  "DIG-00664": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "DIG-00665": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "DIG-00666": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "DIG-00667": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "DIG-00668": {
+    "difficulty": "Hard",
+    "score": 66
+  },
+  "DIG-00669": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "DIG-00670": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "DIG-00671": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "DIG-00672": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "DIG-00673": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "DIG-00674": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "DIG-00675": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "DIG-00676": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "DIG-00677": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "DIG-00678": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "DIG-00679": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "DIG-00680": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "DIG-00681": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "DIG-00682": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "DIG-00683": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "DIG-00684": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "DIG-00685": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00686": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "DIG-00687": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "DIG-00688": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "DIG-00689": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "DIG-00690": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "DIG-00691": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "DIG-00692": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "DIG-00693": {
+    "difficulty": "Hard",
+    "score": 66
+  },
+  "DIG-00694": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "DIG-00695": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00696": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00697": {
+    "difficulty": "Hard",
+    "score": 69
+  },
+  "DIG-00698": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "DIG-00699": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "DIG-00700": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "DIG-00701": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "DIG-00702": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "DIG-00703": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "DIG-00704": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "DIG-00705": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "DIG-00706": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "DIG-00707": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "DIG-00708": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "DIG-00709": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "DIG-00710": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "DIG-00711": {
+    "difficulty": "Hard",
+    "score": 68
+  },
+  "DIG-00712": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "DIG-00713": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "DIG-00714": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "DIG-00715": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "DIG-00716": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "DIG-00717": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "DIG-00718": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00719": {
+    "difficulty": "Hard",
+    "score": 66
+  },
+  "DIG-00720": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "DIG-00721": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "DIG-00722": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "DIG-00723": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "DIG-00724": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "DIG-00725": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "DIG-00726": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "DIG-00727": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "DIG-00728": {
+    "difficulty": "Hard",
+    "score": 68
+  },
+  "DIG-00729": {
+    "difficulty": "Hard",
+    "score": 66
+  },
+  "DIG-00730": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "DIG-00731": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "DIG-00732": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "DIG-00733": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "DIG-00734": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "DIG-00735": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "DIG-00736": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "DIG-00737": {
+    "difficulty": "Hard",
+    "score": 69
+  },
+  "DIG-00738": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "DIG-00739": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00740": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "DIG-00741": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "DIG-00742": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "DIG-00743": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "DIG-00744": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "DIG-00745": {
+    "difficulty": "Hard",
+    "score": 69
+  },
+  "DIG-00746": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "DIG-00747": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "DIG-00748": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "DIG-00749": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "DIG-00750": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "DIG-00751": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "DIG-00752": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "DIG-00753": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "DIG-00754": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "DIG-00755": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "DIG-00756": {
+    "difficulty": "Hard",
+    "score": 69
+  },
+  "DIG-00757": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "DIG-00758": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "DIG-00759": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "DIG-00760": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "DIG-00761": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "DIG-00762": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "DIG-00763": {
+    "difficulty": "Hard",
+    "score": 68
+  },
+  "DIG-00764": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "DIG-00765": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "DIG-00766": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00767": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "DIG-00768": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "DIG-00769": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "DIG-00770": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00771": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "DIG-00772": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "DIG-00773": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "DIG-00774": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "DIG-00775": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "DIG-00776": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "DIG-00777": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "DIG-00778": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "DIG-00779": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00780": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "DIG-00781": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "DIG-00782": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "DIG-00783": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "DIG-00784": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "DIG-00785": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "DIG-00786": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "DIG-00787": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00788": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "DIG-00789": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "DIG-00790": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "DIG-00791": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "DIG-00792": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "DIG-00793": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "DIG-00794": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00795": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "DIG-00796": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "DIG-00797": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00798": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "DIG-00799": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00800": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "DIG-00801": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "DIG-00802": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "DIG-00803": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "DIG-00804": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "DIG-00805": {
+    "difficulty": "Hard",
+    "score": 66
+  },
+  "DIG-00806": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "DIG-00807": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "DIG-00808": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "DIG-00809": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "DIG-00810": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "DIG-00811": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "DIG-00812": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "DIG-00813": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "DIG-00814": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "DIG-00815": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "DIG-00816": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "DIG-00817": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "DIG-00818": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "DIG-00819": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "DIG-00820": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00821": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "DIG-00822": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "DIG-00823": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "DIG-00824": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "DIG-00825": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "DIG-00826": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "DIG-00827": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "DIG-00828": {
+    "difficulty": "Hard",
+    "score": 69
+  },
+  "DIG-00829": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00830": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "DIG-00831": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "DIG-00832": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "DIG-00833": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "DIG-00834": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "DIG-00835": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "DIG-00836": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "DIG-00837": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "DIG-00838": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "DIG-00839": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "DIG-00840": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "DIG-00841": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "DIG-00842": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "DIG-00843": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "DIG-00844": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "DIG-00845": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "DIG-00846": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "DIG-00847": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "DIG-00848": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "DIG-00849": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "DIG-00850": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "DIG-00851": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "DIG-00852": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "DIG-00853": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "DIG-00854": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "DIG-00855": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "DIG-00856": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "DIG-00857": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "DIG-00858": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "DIG-00859": {
+    "difficulty": "Hard",
+    "score": 66
+  },
+  "DIG-00860": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "DIG-00861": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "DIG-00862": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "DIG-00863": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "DIG-00864": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "DIG-00865": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "DIG-00866": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "DIG-00867": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "DIG-00868": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "DIG-00869": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "DIG-00870": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "DIG-00871": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "DIG-00872": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "DIG-00873": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "DIG-00874": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "DIG-00875": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "DIG-00876": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "DIG-00877": {
+    "difficulty": "Hard",
+    "score": 66
+  },
+  "DIG-00878": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "DIG-00879": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "DIG-00880": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "DIG-00881": {
+    "difficulty": "Hard",
+    "score": 67
+  },
+  "DIG-00882": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00883": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "DIG-00884": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00885": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "DIG-00886": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "DIG-00887": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "DIG-00888": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "DIG-00889": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "DIG-00890": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "DIG-00891": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "DIG-00892": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "DIG-00893": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "DIG-00894": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "DIG-00895": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "DIG-00896": {
+    "difficulty": "Hard",
+    "score": 69
+  },
+  "DIG-00897": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "DIG-00898": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "DIG-00899": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "DIG-00900": {
+    "difficulty": "Hard",
+    "score": 70
+  }
+}

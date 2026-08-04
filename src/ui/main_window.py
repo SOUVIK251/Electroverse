@@ -1,129 +1,116 @@
+import sys
 import os
+import platform
+
 from PySide6.QtWidgets import (
-    QMainWindow, QWidget, QHBoxLayout, QVBoxLayout, 
-    QFrame, QLabel, QPushButton, QStackedWidget, QStatusBar,
-    QGraphicsDropShadowEffect, QToolButton, QSizePolicy,
-    QGraphicsOpacityEffect, QDialog, QTableWidget, QTableWidgetItem, QHeaderView
+    QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QLabel, 
+    QFrame, QPushButton, QStackedWidget, QStatusBar, QToolButton,
+    QGraphicsOpacityEffect, QSizePolicy, QMessageBox, QDialog, QApplication
 )
-from PySide6.QtCore import Qt, QSize, QPropertyAnimation, QEasingCurve
-from PySide6.QtGui import QShortcut, QKeySequence, QColor
+from PySide6.QtCore import Qt, QSize, QPropertyAnimation, QRect
+from PySide6.QtGui import QFont, QColor, QShortcut, QKeySequence, QIcon
 import qtawesome as qta
 
 from src.core.logger import log
 from src.core.config import config_manager
-from src.core.theme import switch_theme
+from src.core.theme import ThemeManager
 
-# Import Views
+from src.ui.dashboard import DashboardView
+from src.ui.library import LibraryView
 from src.ui.dashboard import DashboardView
 from src.ui.library import LibraryView
 from src.ui.analog_hub import AnalogElectronicsHubView
 from src.ui.learning_hub import LearningHubView
+from src.ui.signals_hub import SignalSystemHubView
+from src.ui.network_hub import NetworkHubView
 from src.ui.grand_viva import GrandVivaView
 from src.ui.settings import SettingsView
-
-class CustomDialog(QDialog):
-    """Custom styled dark-mode-friendly modal dialog."""
-    def __init__(self, title: str, parent=None):
-        super().__init__(parent)
-        self.setWindowTitle(title)
-        self.setMinimumSize(450, 300)
-        self.setStyleSheet("""
-            QDialog {
-                background-color: #141B2D;
-                border: 1px solid #26334D;
-                border-radius: 12px;
-            }
-            QLabel {
-                color: #FFFFFF;
-            }
-            QPushButton {
-                background-color: #2563EB;
-                border: 1px solid #2563EB;
-                color: #FFFFFF;
-                border-radius: 10px;
-                padding: 8px 16px;
-                font-weight: bold;
-            }
-            QPushButton:hover {
-                background-color: #3B82F6;
-                border-color: #3B82F6;
-            }
-        """)
+from src.core.navigation import ViewID, HubTabID
 
 class MainWindow(QMainWindow):
-    """Main window container for the ElectroVerse application shell."""
+    """Master application shell for ElectroVerse Platform."""
+
+    HUB_NAMES = [
+        "Dashboard",
+        "Component Library",
+        "Analog Electronics Circuit Hub",
+        "Digital System Design Hub",
+        "Signal & System Hub",
+        "Network Theory Hub",
+        "Grand Viva & Core Interview Board",
+        "Settings"
+    ]
+
+    VIEW_INDEX_MAP = {
+        ViewID.DASHBOARD: 0,
+        ViewID.LIBRARY: 1,
+        ViewID.ANALOG_HUB: 2,
+        ViewID.DIGITAL_HUB: 3,
+        ViewID.SIGNALS_HUB: 4,
+        ViewID.NETWORK_HUB: 5,
+        ViewID.GRAND_VIVA: 6,
+        ViewID.SETTINGS: 7,
+    }
 
     def __init__(self):
         super().__init__()
         log.info("Initializing ElectroVerse MainWindow")
-        self.setWindowTitle("⚡ ElectroVerse – Virtual Engineering Lab")
-        self.resize(1280, 800)
-        self.setMinimumSize(1024, 720)
-        
-        # Session activity tracking
+
+        self.nav_buttons = []
         self.session_activity = []
+        self.current_theme = config_manager.get("theme") or "dark"
 
-        # Central Widget
+        self.setWindowTitle("ElectroVerse – Offline Virtual Engineering Laboratory")
+        self.resize(1340, 860)
+        self.setMinimumSize(1100, 700)
+
+        # Apply Global Theme
+        app = QApplication.instance()
+        if app:
+            ThemeManager.apply_theme(app, self.current_theme)
+
+        # Main Layout Setup
         self.central_widget = QWidget()
-        self.central_widget.setObjectName("central-widget")
         self.setCentralWidget(self.central_widget)
-
-        # Global layout
         self.main_layout = QHBoxLayout(self.central_widget)
         self.main_layout.setContentsMargins(0, 0, 0, 0)
         self.main_layout.setSpacing(0)
 
-        self.nav_buttons = []
-        
-        # Setup layouts
         self.setup_sidebar()
         self.setup_main_container()
         self.setup_statusbar()
-
-        # Keyboard Shortcuts
         self.setup_keyboard_shortcuts()
 
-        # Restore window geometry state
-        self.restore_window_state()
-
-        # Default view load
+        # Default View: Dashboard (0)
         self.switch_view(0)
+        self.apply_global_settings()
+
 
     def setup_sidebar(self):
-        """Creates the collapsible left vertical navigation panel with animations."""
+        """Creates the collapsible left navigation sidebar."""
         self.sidebar = QFrame()
         self.sidebar.setObjectName("sidebar")
-        self.sidebar.setFixedWidth(260)
-        
+        self.sidebar.setFixedWidth(240)
+        self.sidebar.setStyleSheet("QFrame#sidebar { background-color: #0F172A; border-right: 1px solid #26334D; }")
+
         sidebar_layout = QVBoxLayout(self.sidebar)
         sidebar_layout.setContentsMargins(0, 0, 0, 0)
         sidebar_layout.setSpacing(0)
 
-        # Brand Header Panel
+        # Brand Panel Header
         brand_panel = QFrame()
         brand_panel.setFixedHeight(70)
-        brand_panel.setStyleSheet("border-bottom: 1px solid rgba(255, 255, 255, 0.05);")
+        brand_panel.setStyleSheet("border-bottom: 1px solid #26334D;")
         brand_layout = QHBoxLayout(brand_panel)
-        brand_layout.setContentsMargins(15, 0, 15, 0)
-        brand_layout.setSpacing(10)
+        brand_layout.setContentsMargins(20, 0, 20, 0)
 
-        # Collapse Button
-        self.sidebar_toggle_btn = QPushButton()
-        self.sidebar_toggle_btn.setFixedSize(32, 32)
-        self.sidebar_toggle_btn.setStyleSheet("border: none; background: transparent; padding: 0px;")
-        self.sidebar_toggle_btn.setIcon(qta.icon("fa5s.bars", color="#94a3b8"))
-        self.sidebar_toggle_btn.setToolTip("Toggle Sidebar (Ctrl+B)")
-        self.sidebar_toggle_btn.clicked.connect(self.toggle_sidebar)
+        logo_icon = QLabel("⚡")
+        logo_icon.setStyleSheet("font-size: 18pt; color: #06B6D4;")
+        brand_layout.addWidget(logo_icon)
 
-        logo_label = QLabel("⚡")
-        logo_label.setStyleSheet("font-size: 20pt; font-weight: bold; color: #06B6D4;")
-        
-        self.title_label = QLabel("ElectroVerse")
-        self.title_label.setStyleSheet("font-size: 14pt; font-weight: bold; letter-spacing: 1px; color: #FFFFFF;")
-
-        brand_layout.addWidget(self.sidebar_toggle_btn)
-        brand_layout.addWidget(logo_label)
-        brand_layout.addWidget(self.title_label)
+        brand_text = QLabel("ElectroVerse")
+        brand_text.setStyleSheet("font-size: 14pt; font-weight: bold; color: #FFFFFF; letter-spacing: 1px;")
+        brand_layout.addWidget(brand_text)
         brand_layout.addStretch()
 
         sidebar_layout.addWidget(brand_panel)
@@ -135,15 +122,17 @@ class MainWindow(QMainWindow):
         nav_layout.setSpacing(6)
 
         nav_items = [
-            ("Dashboard", "fa5s.th-large", 0),
-            ("Component Library", "fa5s.book", 1),
-            ("Analog Electronics Circuit Hub", "fa5s.wave-square", 2),
-            ("Digital System Design Hub", "fa5s.microchip", 3),
-            ("Grand Viva & Core Interview", "fa5s.user-graduate", 4),
-            ("Settings", "fa5s.cog", 5)
+            ("Dashboard", "fa5s.th-large", ViewID.DASHBOARD),
+            ("Component Library", "fa5s.book", ViewID.LIBRARY),
+            ("Analog Electronics Circuit Hub", "fa5s.wave-square", ViewID.ANALOG_HUB),
+            ("Digital System Design Hub", "fa5s.microchip", ViewID.DIGITAL_HUB),
+            ("Signal & System Hub", "fa5s.chart-line", ViewID.SIGNALS_HUB),
+            ("Network Theory Hub", "fa5s.project-diagram", ViewID.NETWORK_HUB),
+            ("Grand Viva & Core Interview", "fa5s.user-graduate", ViewID.GRAND_VIVA),
+            ("Settings", "fa5s.cog", ViewID.SETTINGS)
         ]
 
-        for text, icon_str, idx in nav_items:
+        for text, icon_str, v_id in nav_items:
             btn = QToolButton()
             btn.setText(f"  {text}")
             btn.setIcon(qta.icon(icon_str, color="#94A3B8"))
@@ -153,29 +142,22 @@ class MainWindow(QMainWindow):
             btn.setSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
             btn.setFixedHeight(46)
             btn.setFixedWidth(240)
-            btn.clicked.connect(lambda checked=False, target_idx=idx: self.switch_view(target_idx))
+            btn.clicked.connect(lambda checked=False, target_vid=v_id: self.switch_to_view(target_vid))
             
             nav_layout.addWidget(btn)
             self.nav_buttons.append(btn)
 
+
         nav_layout.addStretch()
         sidebar_layout.addWidget(nav_panel)
 
-        # Footer Panel (Theme Switcher / Version / Shortcuts)
+        # Footer Panel
         footer_panel = QFrame()
         footer_panel.setFixedHeight(60)
         footer_panel.setStyleSheet("border-top: 1px solid #26334D;")
         footer_layout = QHBoxLayout(footer_panel)
         footer_layout.setContentsMargins(15, 0, 15, 0)
         
-        self.theme_btn = QPushButton()
-        self.theme_btn.setObjectName("secondary")
-        self.theme_btn.setIcon(qta.icon("fa5s.moon", color="#94A3B8"))
-        self.theme_btn.setIconSize(QSize(16, 16))
-        self.theme_btn.setToolTip("Switch Light/Dark Theme (Ctrl+T)")
-        self.theme_btn.setFixedSize(32, 32)
-        self.theme_btn.clicked.connect(self.toggle_theme_icon)
-
         self.info_btn = QPushButton()
         self.info_btn.setObjectName("secondary")
         self.info_btn.setIcon(qta.icon("fa5s.question-circle", color="#94A3B8"))
@@ -187,16 +169,16 @@ class MainWindow(QMainWindow):
         self.version_label = QLabel("v1.0.0")
         self.version_label.setStyleSheet("color: #7A869A; font-size: 8.5pt;")
 
-        footer_layout.addWidget(self.theme_btn)
         footer_layout.addWidget(self.info_btn)
         footer_layout.addStretch()
         footer_layout.addWidget(self.version_label)
 
         sidebar_layout.addWidget(footer_panel)
+
         self.main_layout.addWidget(self.sidebar)
 
     def setup_main_container(self):
-        """Creates the header toolbar and the stacked widget for views."""
+        """Creates the header toolbar and stacked widget view controller."""
         self.content_container = QWidget()
         content_layout = QVBoxLayout(self.content_container)
         content_layout.setContentsMargins(0, 0, 0, 0)
@@ -218,8 +200,8 @@ class MainWindow(QMainWindow):
 
         header_layout.addStretch()
 
-        # Active state banner/indicator
-        self.status_indicator = QLabel("System Status: Online")
+        # Active state indicator
+        self.status_indicator = QLabel("System Status: Offline Engine Ready")
         self.status_indicator.setStyleSheet("color: #22C55E; font-size: 9.5pt; font-weight: 500;")
         header_layout.addWidget(self.status_indicator)
 
@@ -234,8 +216,10 @@ class MainWindow(QMainWindow):
             LibraryView(self),                # 1: Component Library
             AnalogElectronicsHubView(self),   # 2: Analog Electronics Circuit Hub
             LearningHubView(self),            # 3: Digital System Design Hub
-            GrandVivaView(self),              # 4: Grand Viva & Core Interview
-            SettingsView(self)                # 5: Settings
+            SignalSystemHubView(self),        # 4: Signal & System Hub
+            NetworkHubView(self),             # 5: Network Theory Hub
+            GrandVivaView(self),              # 6: Grand Viva & Core Interview
+            SettingsView(self)                # 7: Settings
         ]
 
         for view in self.views:
@@ -253,112 +237,104 @@ class MainWindow(QMainWindow):
     def setup_keyboard_shortcuts(self):
         """Binds general key combos to global actions."""
         QShortcut(QKeySequence("Ctrl+B"), self, self.toggle_sidebar)
-        QShortcut(QKeySequence("Ctrl+T"), self, self.toggle_theme_icon)
         QShortcut(QKeySequence("Ctrl+H"), self, self.show_shortcuts_guide)
         QShortcut(QKeySequence("Ctrl+D"), self, lambda: self.switch_view(0))
         QShortcut(QKeySequence("Ctrl+S"), self, lambda: self.switch_view(4))
+        QShortcut(QKeySequence("Ctrl+N"), self, lambda: self.switch_view(5))
         QShortcut(QKeySequence("Ctrl+L"), self, lambda: self.switch_view(1))
         QShortcut(QKeySequence("Ctrl+A"), self, self.show_about_dialog)
 
     def toggle_sidebar(self):
-        """Collapses or expands the navigation sidebar smoothly."""
-        is_collapsed = self.sidebar.width() <= 80
-        target_width = 260 if is_collapsed else 70
+        is_visible = self.sidebar.isVisible()
+        self.sidebar.setVisible(not is_visible)
 
-        if not config_manager.get("animations_enabled"):
-            self.sidebar.setFixedWidth(target_width)
-            self.title_label.setVisible(not is_collapsed)
-            self.version_label.setVisible(not is_collapsed)
-            for btn in self.nav_buttons:
-                if not is_collapsed:
-                    btn.setToolButtonStyle(Qt.ToolButtonStyle.ToolButtonIconOnly)
-                    btn.setFixedWidth(46)
-                else:
-                    btn.setToolButtonStyle(Qt.ToolButtonStyle.ToolButtonTextBesideIcon)
-                    btn.setFixedWidth(240)
-            return
+    def apply_global_settings(self):
+        pass
 
-        self.sidebar_anim = QPropertyAnimation(self.sidebar, b"minimumWidth")
-        self.sidebar_anim.setDuration(220)
-        self.sidebar_anim.setEasingCurve(QEasingCurve.Type.InOutCubic)
-        self.sidebar_anim.setStartValue(self.sidebar.width())
-        self.sidebar_anim.setEndValue(target_width)
-        
-        self.sidebar_max_anim = QPropertyAnimation(self.sidebar, b"maximumWidth")
-        self.sidebar_max_anim.setDuration(220)
-        self.sidebar_max_anim.setEasingCurve(QEasingCurve.Type.InOutCubic)
-        self.sidebar_max_anim.setStartValue(self.sidebar.width())
-        self.sidebar_max_anim.setEndValue(target_width)
-
-        def on_anim_step():
-            current_w = self.sidebar.width()
-            collapsing = current_w < 160
-            self.title_label.setVisible(not collapsing)
-            self.version_label.setVisible(not collapsing)
-            
-            for btn in self.nav_buttons:
-                if collapsing:
-                    btn.setToolButtonStyle(Qt.ToolButtonStyle.ToolButtonIconOnly)
-                    btn.setToolTip(btn.text().strip())
-                    btn.setFixedWidth(46)
-                else:
-                    btn.setToolButtonStyle(Qt.ToolButtonStyle.ToolButtonTextBesideIcon)
-                    btn.setToolTip("")
-                    btn.setFixedWidth(240)
-
-        self.sidebar_anim.valueChanged.connect(lambda v: on_anim_step())
-        self.sidebar_anim.finished.connect(on_anim_step)
-        
-        self.sidebar_anim.start()
-        self.sidebar_max_anim.start()
 
     def set_breadcrumbs(self, path_list):
-        """Sets the path indicators in the header toolbar dynamically."""
-        # Clear existing breadcrumbs
         while self.breadcrumb_layout.count():
             item = self.breadcrumb_layout.takeAt(0)
-            widget = item.widget()
-            if widget:
-                widget.deleteLater()
+            if item.widget():
+                item.widget().deleteLater()
 
-        for i, path in enumerate(path_list):
-            label = QLabel(path)
-            if i == len(path_list) - 1:
-                label.setStyleSheet("color: #FFFFFF; font-weight: 600; font-size: 14pt;")
-            else:
-                label.setStyleSheet("color: #7A869A; font-weight: 500; font-size: 14pt;")
-            self.breadcrumb_layout.addWidget(label)
-
-            if i < len(path_list) - 1:
-                sep = QLabel("/")
-                sep.setStyleSheet("color: #26334D; font-size: 14pt;")
+        for i, text in enumerate(path_list):
+            if i > 0:
+                sep = QLabel(" / ")
+                sep.setStyleSheet("color: #64748B; font-size: 9pt;")
                 self.breadcrumb_layout.addWidget(sep)
+            lbl = QLabel(text)
+            color = "#06B6D4" if i == len(path_list) - 1 else "#94A3B8"
+            lbl.setStyleSheet(f"color: {color}; font-size: 9.5pt; font-weight: 600;")
+            self.breadcrumb_layout.addWidget(lbl)
+
+    def switch_to_view(self, target):
+        """Routing resolver supporting ViewID enum, string name, or index."""
+        if isinstance(target, ViewID):
+            idx = self.VIEW_INDEX_MAP.get(target, 0)
+        elif isinstance(target, str):
+            try:
+                vid = ViewID(target.lower())
+                idx = self.VIEW_INDEX_MAP.get(vid, 0)
+            except ValueError:
+                idx = 0
+        else:
+            idx = int(target)
+
+        self.switch_view(idx)
+
+    def open_dashboard(self):
+        """Explicitly opens the Main Dashboard workspace."""
+        self.switch_to_view(ViewID.DASHBOARD)
+
+    def open_simulation_workspace(self, hub=ViewID.ANALOG_HUB):
+        """Explicitly opens the Interactive Simulation workspace."""
+        self.switch_to_view(hub)
+        curr_view = self.view_stack.currentWidget()
+        target_obj = getattr(curr_view, "hub_view", curr_view)
+        tabs_widget = getattr(target_obj, "main_tabs", getattr(target_obj, "tabs", getattr(target_obj, "tab_widget", None)))
+        if tabs_widget:
+            tabs_widget.setCurrentIndex(HubTabID.SIMULATION.value)
+
+    def open_learning_workspace(self, hub=ViewID.DIGITAL_HUB):
+        """Explicitly opens the Learning workspace."""
+        self.switch_to_view(hub)
+        curr_view = self.view_stack.currentWidget()
+        target_obj = getattr(curr_view, "hub_view", curr_view)
+        tabs_widget = getattr(target_obj, "main_tabs", getattr(target_obj, "tabs", getattr(target_obj, "tab_widget", None)))
+        if tabs_widget:
+            tabs_widget.setCurrentIndex(HubTabID.LEARN.value)
+
+
+
+    def open_assessment_workspace(self):
+        """Explicitly opens the Assessment workspace (Grand Viva / CBT)."""
+        self.switch_to_view(ViewID.GRAND_VIVA)
+
+    def open_settings(self):
+        """Explicitly opens the Settings view."""
+        self.switch_to_view(ViewID.SETTINGS)
 
     def switch_view(self, idx: int):
-        """Switches the stacked widget view smoothly with opacity transitions."""
         if idx < 0 or idx >= len(self.views):
             return
 
         log.info(f"Switching view to index: {idx}")
-        
-        # Breadcrumbs update
-        titles = [
-            "Dashboard", "Component Library", "Learning Mode",
-            "Engineering Toolkit", "Simulation Lab", "Digital Oscilloscope",
-            "Grand Viva & Core Interview", "Settings"
-        ]
-        self.set_breadcrumbs(["Lab", titles[idx]])
-        self.status_bar.showMessage(f"Loaded {titles[idx]} environment.")
-        self.log_session_activity(f"Opened {titles[idx]}")
+        title = self.HUB_NAMES[idx]
+        self.set_breadcrumbs(["Lab", title])
+        self.status_bar.showMessage(f"Loaded {title} environment.")
+        self.log_session_activity(f"Opened {title}")
 
-        # Update sidebar button checkable highlights
         for i, btn in enumerate(self.nav_buttons):
             btn.setChecked(i == idx)
             btn.setProperty("active", "true" if i == idx else "false")
             btn.style().unpolish(btn)
             btn.style().polish(btn)
 
-        # Transition Animation
+        # Context awareness update for AI Drawer
+        if hasattr(self, 'ai_drawer') and self.ai_drawer:
+            self.ai_drawer.set_context({"hub_name": title})
+
         if config_manager.get("animations_enabled") and self.view_stack.currentWidget():
             self.opacity_effect = QGraphicsOpacityEffect(self.view_stack)
             self.view_stack.setGraphicsEffect(self.opacity_effect)
@@ -371,236 +347,55 @@ class MainWindow(QMainWindow):
             def on_fade_out_finished():
                 self.view_stack.setCurrentIndex(idx)
                 self.fade_in = QPropertyAnimation(self.opacity_effect, b"opacity")
-                self.fade_in.setDuration(150)
+                self.fade_in.setDuration(120)
                 self.fade_in.setStartValue(0.0)
                 self.fade_in.setEndValue(1.0)
-                def clean_up():
-                    self.view_stack.setGraphicsEffect(None)
-                self.fade_in.finished.connect(clean_up)
                 self.fade_in.start()
-                
+
             self.fade_out.finished.connect(on_fade_out_finished)
             self.fade_out.start()
         else:
             self.view_stack.setCurrentIndex(idx)
 
-    def toggle_theme_icon(self):
-        """Toggles current application theme (dark/light) dynamically."""
-        switch_theme()
-        current_theme = config_manager.get("theme")
-        
-        # Style triggers refresh
-        self.central_widget.style().unpolish(self.central_widget)
-        self.central_widget.style().polish(self.central_widget)
+    def navigate_to_component(self, comp_id):
+        self.switch_to_view(ViewID.LIBRARY)
+        lib_view = self.views[self.VIEW_INDEX_MAP[ViewID.LIBRARY]]
+        if hasattr(lib_view, "load_component_detail"):
+            lib_view.load_component_detail(comp_id)
 
-        if current_theme == "dark":
-            self.theme_btn.setIcon(qta.icon("fa5s.moon", color="#94a3b8"))
-        else:
-            self.theme_btn.setIcon(qta.icon("fa5s.sun", color="#475569"))
-            
-        for view in self.views:
-            if hasattr(view, "update_theme"):
-                try:
-                    view.update_theme()
-                except Exception as e:
-                    log.error(f"Error updating theme on view: {e}")
+    def navigate_to_lesson(self, lesson_id):
+        self.switch_to_view(ViewID.DIGITAL_HUB)
+        dsd_view = self.views[self.VIEW_INDEX_MAP[ViewID.DIGITAL_HUB]]
+        if hasattr(dsd_view, "on_cross_link_clicked"):
+            dsd_view.on_cross_link_clicked(lesson_id)
 
-        self.show_toast(f"Switched theme to {current_theme.title()} mode.")
-        log.info(f"Main Window theme toggled to {current_theme}")
+    def navigate_to_simulation(self, sim_idx):
+        self.open_simulation_workspace(ViewID.ANALOG_HUB)
 
-    def show_toast(self, message: str, is_success: bool = True):
-        """Overlay Toast display helper."""
-        from src.ui.components.toast import ToastNotification
-        ToastNotification(self, message, is_success)
+    def navigate_to_calculator(self, calc_idx):
+        self.open_simulation_workspace(ViewID.ANALOG_HUB)
+
+
+    def log_session_activity(self, action_str):
+        self.session_activity.insert(0, action_str)
+        if len(self.session_activity) > 10:
+            self.session_activity.pop()
+
+    def show_toast(self, text_msg):
+        self.status_bar.showMessage(f"💡 {text_msg}", 5000)
 
     def show_shortcuts_guide(self):
-        """Displays beautiful keyboard shortcut mappings in a custom dialog."""
-        dlg = CustomDialog("Keyboard Shortcuts Guide", self)
-        dlg.setMinimumSize(500, 360)
-        
-        layout = QVBoxLayout(dlg)
-        layout.setContentsMargins(20, 20, 20, 20)
-        layout.setSpacing(15)
+        msg = (
+            "<b>ElectroVerse Platform Keyboard Shortcuts:</b><br><br>"
+            "• <b>Ctrl + B</b>: Toggle Left Sidebar<br>"
+            "• <b>Ctrl + D</b>: Navigate to Main Dashboard<br>"
+            "• <b>Ctrl + L</b>: Open Component Library<br>"
+            "• <b>Ctrl + S</b>: Open Signal & System Hub<br>"
+            "• <b>Ctrl + N</b>: Open Network Theory Hub<br>"
+            "• <b>Ctrl + H</b>: Open Shortcuts Guide"
+        )
+        QMessageBox.information(self, "Keyboard Shortcuts Guide", msg)
 
-        title = QLabel("Keyboard Shortcut Mappings")
-        title.setStyleSheet("font-size: 13pt; font-weight: bold; color: #06b6d4;")
-        layout.addWidget(title)
-
-        table = QTableWidget(5, 2)
-        table.setHorizontalHeaderLabels(["Action", "Shortcut"])
-        table.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeMode.Stretch)
-        table.verticalHeader().setVisible(False)
-        table.setEditTriggers(QTableWidget.EditTrigger.NoEditTriggers)
-        table.setStyleSheet("""
-            QTableWidget {
-                background-color: #111827;
-                border: 1px solid #1e293b;
-                gridline-color: #1e293b;
-                color: #f8fafc;
-            }
-            QHeaderView::section {
-                background-color: #1e293b;
-                color: #94a3b8;
-                font-weight: bold;
-                padding: 6px;
-                border: none;
-            }
-        """)
-
-        shortcuts = [
-            ("Toggle Sidebar Panel", "Ctrl + B"),
-            ("Toggle Dark/Light Theme", "Ctrl + T"),
-            ("Navigate to Dashboard", "Ctrl + D"),
-            ("Navigate to Engineering Toolkit", "Ctrl + K"),
-            ("Show About Dialog Info", "Ctrl + A")
-        ]
-
-        for row, (action, keys) in enumerate(shortcuts):
-            table.setItem(row, 0, QTableWidgetItem(action))
-            table.setItem(row, 1, QTableWidgetItem(keys))
-
-        layout.addWidget(table)
-
-        close_btn = QPushButton("Close")
-        close_btn.clicked.connect(dlg.accept)
-        layout.addWidget(close_btn)
-        
-        dlg.exec()
 
     def show_about_dialog(self):
-        """Displays ElectroVerse about product information and creator credits."""
-        dlg = CustomDialog("About ElectroVerse", self)
-        dlg.setMinimumSize(480, 420)
-        
-        layout = QVBoxLayout(dlg)
-        layout.setContentsMargins(25, 25, 25, 25)
-        layout.setSpacing(15)
-
-        logo = QLabel("⚡")
-        logo.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        logo.setStyleSheet("font-size: 36pt; color: #10b981;")
-
-        title = QLabel("ElectroVerse – Virtual Engineering Lab")
-        title.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        title.setStyleSheet("font-size: 15pt; font-weight: bold; color: #f8fafc;")
-
-        version = QLabel("Version 1.0.0 (Offline Edition)")
-        version.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        version.setStyleSheet("color: #06b6d4; font-weight: bold; font-size: 9pt;")
-
-        desc = QLabel(
-            "An offline, interactive desktop suite for electronics engineering education, digital logic design, virtual breadboard circuit simulation, and core interview viva preparation."
-        )
-        desc.setWordWrap(True)
-        desc.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        desc.setStyleSheet("color: #94a3b8; font-size: 9.5pt; line-height: 1.4;")
-
-        credit_card = QFrame()
-        credit_card.setStyleSheet("""
-            QFrame {
-                background-color: #1e1b4b;
-                border: 2px solid #6366f1;
-                border-radius: 8px;
-                padding: 12px;
-            }
-        """)
-        cc_lay = QVBoxLayout(credit_card)
-        cc_lay.setSpacing(4)
-        cc_tag = QLabel("PROJECT CREATOR & LEAD DEVELOPER")
-        cc_tag.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        cc_tag.setStyleSheet("color: #818cf8; font-weight: bold; font-size: 7.5pt; letter-spacing: 1px;")
-        
-        cc_name = QLabel("Created & Developed by Souvik Kundu")
-        cc_name.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        cc_name.setStyleSheet("color: #ffffff; font-size: 12.5pt; font-weight: bold;")
-        
-        cc_lay.addWidget(cc_tag)
-        cc_lay.addWidget(cc_name)
-
-        close_btn = QPushButton("Close")
-        close_btn.setStyleSheet("background-color: #06b6d4; color: white; font-weight: bold; padding: 8px 16px; border-radius: 4px;")
-        close_btn.clicked.connect(dlg.accept)
-
-        layout.addWidget(logo)
-        layout.addWidget(title)
-        layout.addWidget(version)
-        layout.addWidget(desc)
-        layout.addWidget(credit_card)
-        layout.addWidget(close_btn)
-        
-        dlg.exec()
-
-    def save_window_state(self):
-        """Saves window geometries to settings configuration."""
-        config_manager.set("window_geometry", self.saveGeometry().toHex().data().decode())
-        config_manager.set("window_state", self.saveState().toHex().data().decode())
-        config_manager.set("window_maximized", self.isMaximized())
-
-    def restore_window_state(self):
-        """Restores window geometries from settings configuration."""
-        geom_hex = config_manager.get("window_geometry")
-        state_hex = config_manager.get("window_state")
-        is_max = config_manager.get("window_maximized")
-        
-        if geom_hex:
-            try:
-                self.restoreGeometry(bytes.fromhex(geom_hex))
-            except Exception as e:
-                log.error(f"Error restoring geometry: {e}")
-        if state_hex:
-            try:
-                self.restoreState(bytes.fromhex(state_hex))
-            except Exception as e:
-                log.error(f"Error restoring state: {e}")
-        if is_max:
-            self.showMaximized()
-
-    def closeEvent(self, event):
-        """Save settings and geometry coordinates on exit."""
-        self.save_window_state()
-        super().closeEvent(event)
-
-    def log_session_activity(self, action_text: str):
-        """Logs user session action and refreshes Dashboard if displayed."""
-        if not action_text:
-            return
-        # Avoid consecutive duplicates
-        if self.session_activity and self.session_activity[0] == action_text:
-            return
-        self.session_activity.insert(0, action_text)
-        if len(self.session_activity) > 5:
-            self.session_activity = self.session_activity[:5]
-        
-        # If dashboard is visible, refresh it
-        if hasattr(self, "views") and len(self.views) > 0:
-            dashboard = self.views[0]
-            if hasattr(dashboard, "refresh_activity_logs"):
-                dashboard.refresh_activity_logs()
-
-    def navigate_to_component(self, comp_id: str):
-        """Helper to switch to Component Library and select a component by ID."""
-        self.switch_view(1)
-        library_view = self.views[1]
-        if hasattr(library_view, "select_component_by_id"):
-            library_view.select_component_by_id(comp_id)
-
-    def navigate_to_lesson(self, lesson_id: str):
-        """Helper to switch to Analog Hub (Theory sub-tab) and load a lesson by ID."""
-        self.switch_view(2)
-        analog_hub = self.views[2]
-        if hasattr(analog_hub, "load_lesson"):
-            analog_hub.load_lesson(lesson_id)
-
-    def navigate_to_calculator(self, calc_index: int):
-        """Helper to switch to Analog Hub (Toolkit sub-tab) and load a calculator by index."""
-        self.switch_view(2)
-        analog_hub = self.views[2]
-        if hasattr(analog_hub, "select_calculator"):
-            analog_hub.select_calculator(calc_index)
-
-    def navigate_to_simulation(self, sim_index: int):
-        """Helper to switch to Analog Hub (Simulation Lab sub-tab) and load a simulation by index."""
-        self.switch_view(2)
-        analog_hub = self.views[2]
-        if hasattr(analog_hub, "select_simulation"):
-            analog_hub.select_simulation(sim_index)
+        self.switch_view(7)

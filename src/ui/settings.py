@@ -16,6 +16,7 @@ class SettingsView(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
         log.info("Initializing SettingsView")
+
         
         main_layout = QVBoxLayout(self)
         main_layout.setContentsMargins(0, 0, 0, 0)
@@ -59,24 +60,19 @@ class SettingsView(QWidget):
         title_layout.addStretch()
         card_layout.addLayout(title_layout)
 
-        # Theme Configuration
+        # Global Theme Display Info
         theme_layout = QHBoxLayout()
-        theme_lbl = QLabel("App Color Scheme:")
+        theme_lbl = QLabel("App Color Theme:")
         theme_lbl.setStyleSheet("font-weight: 500; color: #e2e8f0;")
         
-        self.theme_group = QButtonGroup(self)
-        self.dark_radio = QRadioButton("Midnight Dark")
-        self.light_radio = QRadioButton("Clean Light")
-        self.dark_radio.setStyleSheet("color: #f8fafc;")
-        self.light_radio.setStyleSheet("color: #f8fafc;")
-        self.theme_group.addButton(self.dark_radio)
-        self.theme_group.addButton(self.light_radio)
+        theme_val = QLabel("Dark Engineering Theme (Default)")
+        theme_val.setStyleSheet("color: #06b6d4; font-weight: bold;")
         
         theme_layout.addWidget(theme_lbl)
-        theme_layout.addWidget(self.dark_radio)
-        theme_layout.addWidget(self.light_radio)
+        theme_layout.addWidget(theme_val)
         theme_layout.addStretch()
         card_layout.addLayout(theme_layout)
+
 
         # Font Size Scaling
         font_layout = QHBoxLayout()
@@ -145,8 +141,9 @@ class SettingsView(QWidget):
 
         layout.addWidget(self.card)
 
+
         # -------------------------------------------------------------
-        # 2. About Section Card
+        # 3. About Section Card
         # -------------------------------------------------------------
         self.about_card = QFrame()
         self.about_card.setObjectName("card-panel")
@@ -250,64 +247,42 @@ class SettingsView(QWidget):
         self.load_settings()
 
     def load_settings(self):
-        """Loads and checks controls matching active configuration parameters."""
-        theme = config_manager.get("theme")
-        if theme == "light":
-            self.light_radio.setChecked(True)
-        else:
-            self.dark_radio.setChecked(True)
-            
         font_size = config_manager.get("font_size") or 11
         self.font_slider.setValue(font_size)
         self.font_val_lbl.setText(f"{font_size} pt")
         
         anim_enabled = config_manager.get("animations_enabled")
+        if anim_enabled is None:
+            anim_enabled = True
         self.anim_cb.setChecked(anim_enabled)
         
-        line_w = config_manager.get("graph_line_width") or 2
-        self.graph_slider.setValue(line_w)
-        self.graph_val_lbl.setText(f"{line_w} px")
+        graph_width = config_manager.get("graph_line_width") or 2
+        self.graph_slider.setValue(graph_width)
+        self.graph_val_lbl.setText(f"{graph_width} px")
 
     def save_settings(self):
-        """Saves control parameters and forces dynamic stylesheet rebuild."""
-        theme = "light" if self.light_radio.isChecked() else "dark"
         font_size = self.font_slider.value()
         anim_enabled = self.anim_cb.isChecked()
-        line_w = self.graph_slider.value()
-
-        config_manager.set("theme", theme)
+        graph_width = self.graph_slider.value()
+        
+        config_manager.set("theme", "dark")
         config_manager.set("font_size", font_size)
         config_manager.set("animations_enabled", anim_enabled)
-        config_manager.set("graph_line_width", line_w)
-
-        # Apply styles dynamically
+        config_manager.set("graph_line_width", graph_width)
+        config_manager.save()
+        
         app = QApplication.instance()
         if app:
-            ThemeManager.apply_theme(app, theme)
-
-        # Re-polish MainWindow
-        top_window = self.window()
-        if top_window:
-            top_window.central_widget.style().unpolish(top_window.central_widget)
-            top_window.central_widget.style().polish(top_window.central_widget)
+            ThemeManager.apply_theme(app, "dark")
+        
+        if self.window() and hasattr(self.window(), "apply_global_settings"):
+            self.window().apply_global_settings()
             
-            for view in getattr(top_window, "views", []):
-                if hasattr(view, "update_theme"):
-                    view.update_theme()
-                    
-            if hasattr(top_window, "show_toast"):
-                top_window.show_toast("Preferences applied successfully.")
+        log.info("Settings saved and applied successfully.")
 
-        log.info("Settings saved and styles updated dynamically.")
 
     def reset_defaults(self):
-        """Restores config defaults."""
-        config_manager.set("theme", "dark")
-        config_manager.set("font_size", 11)
-        config_manager.set("animations_enabled", True)
-        config_manager.set("graph_line_width", 2)
+        config_manager.reset_to_defaults()
         self.load_settings()
         self.save_settings()
-        top_window = self.window()
-        if top_window and hasattr(top_window, "show_toast"):
-            top_window.show_toast("Restored default preferences.", is_success=True)
+        log.info("Settings reset to defaults.")

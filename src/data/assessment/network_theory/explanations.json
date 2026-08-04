@@ -1,0 +1,3602 @@
+{
+  "NET-00001": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00002": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00003": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00004": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00005": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00006": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00007": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00008": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00009": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00010": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00011": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00012": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00013": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00014": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00015": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00016": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00017": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00018": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00019": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00020": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00021": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00022": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00023": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00024": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00025": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00026": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00027": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00028": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00029": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00030": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00031": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00032": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00033": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00034": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00035": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00036": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00037": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00038": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00039": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00040": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00041": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00042": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00043": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00044": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00045": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00046": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00047": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00048": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00049": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00050": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00051": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00052": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00053": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00054": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00055": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00056": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00057": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00058": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00059": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00060": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00061": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00062": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00063": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00064": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00065": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00066": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00067": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00068": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00069": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00070": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00071": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00072": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00073": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00074": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00075": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00076": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00077": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00078": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00079": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00080": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00081": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00082": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00083": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00084": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00085": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00086": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00087": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00088": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00089": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00090": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00091": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00092": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00093": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00094": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00095": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00096": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00097": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00098": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00099": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00100": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00101": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00102": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00103": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00104": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00105": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00106": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00107": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00108": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00109": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00110": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00111": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00112": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00113": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00114": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00115": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00116": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00117": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00118": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00119": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00120": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00121": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00122": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00123": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00124": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00125": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00126": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00127": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00128": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00129": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00130": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00131": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00132": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00133": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00134": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00135": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00136": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00137": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00138": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00139": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00140": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00141": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00142": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00143": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00144": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00145": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00146": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00147": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00148": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00149": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00150": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00151": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00152": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00153": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00154": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00155": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00156": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00157": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00158": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00159": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00160": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00161": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00162": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00163": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00164": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00165": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00166": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00167": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00168": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00169": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00170": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00171": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00172": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00173": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00174": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00175": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00176": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00177": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00178": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00179": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00180": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00181": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00182": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00183": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00184": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00185": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00186": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00187": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00188": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00189": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00190": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00191": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00192": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00193": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00194": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00195": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00196": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00197": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00198": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00199": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00200": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00201": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00202": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00203": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00204": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00205": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00206": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00207": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00208": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00209": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00210": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00211": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00212": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00213": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00214": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00215": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00216": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00217": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00218": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00219": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00220": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00221": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00222": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00223": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00224": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00225": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00226": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00227": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00228": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00229": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00230": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00231": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00232": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00233": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00234": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00235": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00236": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00237": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00238": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00239": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00240": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00241": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00242": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00243": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00244": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00245": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00246": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00247": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00248": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00249": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00250": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00251": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00252": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00253": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00254": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00255": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00256": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00257": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00258": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00259": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00260": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00261": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00262": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00263": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00264": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00265": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00266": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00267": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00268": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00269": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00270": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00271": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00272": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00273": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00274": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00275": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00276": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00277": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00278": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00279": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00280": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00281": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00282": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00283": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00284": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00285": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00286": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00287": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00288": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00289": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00290": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00291": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00292": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00293": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00294": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00295": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00296": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00297": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00298": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00299": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00300": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00301": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00302": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00303": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00304": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00305": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00306": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00307": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00308": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00309": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00310": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00311": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00312": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00313": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00314": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00315": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00316": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00317": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00318": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00319": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00320": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00321": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00322": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00323": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00324": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00325": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00326": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00327": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00328": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00329": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00330": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00331": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00332": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00333": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00334": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00335": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00336": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00337": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00338": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00339": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00340": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00341": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00342": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00343": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00344": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00345": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00346": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00347": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00348": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00349": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00350": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00351": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00352": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00353": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00354": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00355": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00356": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00357": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00358": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00359": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00360": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00361": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00362": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00363": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00364": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00365": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00366": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00367": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00368": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00369": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00370": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00371": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00372": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00373": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00374": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00375": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00376": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00377": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00378": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00379": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00380": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00381": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00382": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00383": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00384": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00385": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00386": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00387": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00388": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00389": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00390": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00391": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00392": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00393": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00394": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00395": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00396": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00397": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00398": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00399": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00400": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00401": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00402": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00403": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00404": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00405": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00406": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00407": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00408": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00409": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00410": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00411": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00412": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00413": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00414": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00415": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00416": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00417": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00418": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00419": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00420": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00421": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00422": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00423": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00424": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00425": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00426": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00427": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00428": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00429": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00430": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00431": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00432": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00433": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00434": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00435": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00436": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00437": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00438": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00439": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00440": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00441": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00442": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00443": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00444": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00445": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00446": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00447": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00448": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00449": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00450": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00451": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00452": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00453": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00454": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00455": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00456": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00457": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00458": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00459": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00460": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00461": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00462": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00463": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00464": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00465": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00466": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00467": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00468": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00469": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00470": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00471": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00472": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00473": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00474": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00475": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00476": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00477": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00478": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00479": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00480": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00481": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00482": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00483": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00484": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00485": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00486": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00487": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00488": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00489": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00490": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00491": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00492": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00493": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00494": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00495": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00496": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00497": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00498": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00499": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00500": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00501": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00502": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00503": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00504": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00505": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00506": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00507": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00508": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00509": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00510": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00511": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00512": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00513": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00514": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00515": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00516": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00517": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00518": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00519": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00520": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00521": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00522": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00523": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00524": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00525": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00526": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00527": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00528": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00529": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00530": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00531": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00532": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00533": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00534": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00535": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00536": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00537": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00538": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00539": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00540": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00541": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00542": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00543": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00544": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00545": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00546": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00547": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00548": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00549": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00550": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00551": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00552": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00553": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00554": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00555": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00556": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00557": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00558": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00559": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00560": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00561": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00562": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00563": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00564": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00565": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00566": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00567": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00568": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00569": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00570": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00571": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00572": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00573": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00574": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00575": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00576": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00577": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00578": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00579": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00580": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00581": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00582": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00583": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00584": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00585": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00586": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00587": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00588": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00589": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00590": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00591": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00592": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00593": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00594": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00595": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00596": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00597": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00598": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00599": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00600": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00601": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00602": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00603": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00604": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00605": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00606": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00607": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00608": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00609": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00610": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00611": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00612": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00613": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00614": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00615": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00616": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00617": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00618": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00619": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00620": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00621": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00622": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00623": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00624": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00625": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00626": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00627": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00628": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00629": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00630": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00631": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00632": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00633": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00634": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00635": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00636": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00637": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00638": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00639": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00640": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00641": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00642": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00643": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00644": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00645": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00646": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00647": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00648": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00649": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00650": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00651": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00652": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00653": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00654": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00655": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00656": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00657": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00658": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00659": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00660": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00661": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00662": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00663": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00664": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00665": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00666": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00667": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00668": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00669": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00670": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00671": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00672": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00673": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00674": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00675": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00676": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00677": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00678": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00679": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00680": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00681": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00682": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00683": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00684": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00685": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00686": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00687": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00688": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00689": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00690": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00691": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00692": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00693": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00694": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00695": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00696": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00697": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00698": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00699": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00700": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00701": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00702": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00703": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00704": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00705": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00706": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00707": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00708": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00709": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00710": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00711": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00712": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00713": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00714": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00715": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00716": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00717": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00718": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00719": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00720": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00721": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00722": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00723": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00724": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00725": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00726": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00727": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00728": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00729": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00730": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00731": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00732": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00733": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00734": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00735": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00736": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00737": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00738": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00739": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00740": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00741": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00742": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00743": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00744": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00745": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00746": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00747": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00748": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00749": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00750": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00751": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00752": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00753": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00754": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00755": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00756": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00757": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00758": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00759": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00760": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00761": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00762": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00763": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00764": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00765": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00766": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00767": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00768": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00769": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00770": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00771": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00772": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00773": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00774": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00775": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00776": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00777": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00778": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00779": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00780": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00781": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00782": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00783": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00784": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00785": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00786": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00787": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00788": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00789": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00790": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00791": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00792": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00793": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00794": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00795": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00796": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00797": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00798": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00799": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00800": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00801": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00802": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00803": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00804": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00805": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00806": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00807": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00808": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00809": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00810": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00811": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00812": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00813": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00814": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00815": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00816": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00817": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00818": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00819": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00820": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00821": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00822": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00823": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00824": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00825": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00826": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00827": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00828": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00829": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00830": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00831": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00832": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00833": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00834": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00835": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00836": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00837": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00838": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00839": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00840": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00841": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00842": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00843": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00844": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00845": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00846": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00847": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00848": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00849": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00850": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00851": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00852": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00853": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00854": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00855": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00856": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00857": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00858": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00859": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00860": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00861": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00862": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00863": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00864": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00865": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00866": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00867": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00868": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00869": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00870": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00871": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00872": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00873": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00874": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00875": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00876": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00877": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00878": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00879": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00880": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00881": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00882": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00883": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00884": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00885": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00886": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00887": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00888": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00889": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00890": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00891": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00892": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00893": {
+    "explanation": "Applying Ohm's Law and network laws for Module 5: Network Theorems yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00894": {
+    "explanation": "Applying Ohm's Law and network laws for Module 6: AC Network Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00895": {
+    "explanation": "Applying Ohm's Law and network laws for Module 7: Filters yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00896": {
+    "explanation": "Applying Ohm's Law and network laws for Module 8: Applications yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00897": {
+    "explanation": "Applying Ohm's Law and network laws for Module 1: Fundamentals yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00898": {
+    "explanation": "Applying Ohm's Law and network laws for Module 2: Basic Laws yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00899": {
+    "explanation": "Applying Ohm's Law and network laws for Module 3: Circuit Analysis yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  },
+  "NET-00900": {
+    "explanation": "Applying Ohm's Law and network laws for Module 4: Analysis Techniques yields I = V_s / R_eq = 2.0A.",
+    "formula": "V = I \\cdot R, \\quad P = V \\cdot I"
+  }
+}

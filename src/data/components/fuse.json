@@ -82,10 +82,8 @@
     ],
     "references": "IEC 60127 Miniature Fuses standard definitions; Littelfuse technical handbook.",
     "images": {
-        "real_photo": "",
-        "symbol": "",
-        "pin_diagram": "",
-        "internal_structure": "",
-        "example_circuit": ""
+        "real_photo": "assets/components/fuse/real_photo.jpg",
+        "symbol": "assets/components/fuse/symbol.png",
+        "internal_structure": "assets/components/fuse/internal_structure.png"
     }
 }

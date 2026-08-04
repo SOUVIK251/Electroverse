@@ -1,0 +1,239 @@
+{
+  "topics": {
+    "astable_multivibrator": {
+      "title": "Astable Multivibrator (555 Timer)",
+      "category": "Module 5: Multivibrators & Waveform Generators",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Astable Multivibrator (555 Timer) in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Astable Multivibrator (555 Timer): Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Astable Multivibrator (555 Timer) is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Astable Multivibrator (555 Timer).",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Astable Multivibrator (555 Timer) is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Astable Multivibrator (555 Timer) yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Astable Multivibrator (555 Timer).",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "monostable_multivibrator": {
+      "title": "Monostable Multivibrator (One-Shot)",
+      "category": "Module 5: Multivibrators & Waveform Generators",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Monostable Multivibrator (One-Shot) in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Monostable Multivibrator (One-Shot): Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Monostable Multivibrator (One-Shot) is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Monostable Multivibrator (One-Shot).",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Monostable Multivibrator (One-Shot) is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Monostable Multivibrator (One-Shot) yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Monostable Multivibrator (One-Shot).",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "bistable_multivibrator": {
+      "title": "Bistable Multivibrator (Flip-Flop)",
+      "category": "Module 5: Multivibrators & Waveform Generators",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Bistable Multivibrator (Flip-Flop) in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Bistable Multivibrator (Flip-Flop): Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Bistable Multivibrator (Flip-Flop) is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Bistable Multivibrator (Flip-Flop).",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Bistable Multivibrator (Flip-Flop) is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Bistable Multivibrator (Flip-Flop) yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Bistable Multivibrator (Flip-Flop).",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "bjt_biasing": {
+      "title": "BJT DC Biasing & Small-Signal Amplifiers",
+      "category": "Module 5: Multivibrators & Waveform Generators",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": false,
+      "has_problem_solving": false,
+      "summary": "Comprehensive engineering analysis of BJT DC Biasing & Small-Signal Amplifiers in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for BJT DC Biasing & Small-Signal Amplifiers: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, BJT DC Biasing & Small-Signal Amplifiers is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for BJT DC Biasing & Small-Signal Amplifiers.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under BJT DC Biasing & Small-Signal Amplifiers is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for BJT DC Biasing & Small-Signal Amplifiers yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for BJT DC Biasing & Small-Signal Amplifiers.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "opamp_basics": {
+      "title": "Operational Amplifier Fundamentals & Feedback",
+      "category": "Module 5: Multivibrators & Waveform Generators",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": false,
+      "has_problem_solving": false,
+      "summary": "Comprehensive engineering analysis of Operational Amplifier Fundamentals & Feedback in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Operational Amplifier Fundamentals & Feedback: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Operational Amplifier Fundamentals & Feedback is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Operational Amplifier Fundamentals & Feedback.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Operational Amplifier Fundamentals & Feedback is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Operational Amplifier Fundamentals & Feedback yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Operational Amplifier Fundamentals & Feedback.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    }
+  }
+}

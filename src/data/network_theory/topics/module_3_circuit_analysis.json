@@ -1,0 +1,148 @@
+{
+  "topics": {
+    "series_parallel": {
+      "title": "Series & Parallel Resistors",
+      "category": "Module 3: Circuit Analysis",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": false,
+      "has_problem_solving": false,
+      "summary": "Comprehensive engineering analysis of Series & Parallel Resistors in electrical network theory.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Series & Parallel Resistors: Remember the governing conservation law: Energy in = Energy out!",
+      "theory": "In electrical network theory, Series & Parallel Resistors forms the mathematical foundation for analyzing circuit behavior.",
+      "derivation_steps": [
+        "Step 1: Identify circuit branch parameters and node connections for Series & Parallel Resistors.",
+        "Step 2: Apply governing physical laws (KCL/KVL or Theorem definition).",
+        "Step 3: Formulate algebraic loop/node matrix equations.",
+        "Step 4: Solve system equations for branch currents and node voltages."
+      ],
+      "important_formulas": [
+        "Governing Law: V = I \\cdot R",
+        "Power Equation: P = V \\cdot I = I^2 \\cdot R",
+        "KCL: \\sum I_{in} = \\sum I_{out}",
+        "KVL: \\sum V_{loop} = 0"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit under Series & Parallel Resistors has V_s = 12V and R_1 = 4 ohms, R_2 = 6 ohms in series. Find total current and power.",
+          "solution": "Total R = R_1 + R_2 = 10 ohms. Current I = 12V / 10 = 1.2A. Total Power P = 12V * 1.2A = 14.4W."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting reference polarities (+/-) when writing KVL mesh equations.",
+        "Not deactivating independent current sources (open circuit) when computing R_th or Superposition."
+      ],
+      "professor_notes": "Professor's Tip: Always double-check node voltage references before formulating nodal matrices for Series & Parallel Resistors.",
+      "career_applications": [
+        "Electrical Power Distribution & Smart Grids",
+        "Automotive Battery Management Systems (BMS)",
+        "Robotics Motor Drive Controllers",
+        "VLSI Analog Circuit Design",
+        "Biomedical ECG Signal Conditioning"
+      ],
+      "related_topics": [
+        "kcl",
+        "kvl",
+        "mesh_analysis",
+        "thevenin",
+        "superposition"
+      ]
+    },
+    "delta_wye": {
+      "title": "Delta-Wye (Y-Delta) Transformation",
+      "category": "Module 3: Circuit Analysis",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": false,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Delta-Wye (Y-Delta) Transformation in electrical network theory.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Delta-Wye (Y-Delta) Transformation: Remember the governing conservation law: Energy in = Energy out!",
+      "theory": "In electrical network theory, Delta-Wye (Y-Delta) Transformation forms the mathematical foundation for analyzing circuit behavior.",
+      "derivation_steps": [
+        "Step 1: Identify circuit branch parameters and node connections for Delta-Wye (Y-Delta) Transformation.",
+        "Step 2: Apply governing physical laws (KCL/KVL or Theorem definition).",
+        "Step 3: Formulate algebraic loop/node matrix equations.",
+        "Step 4: Solve system equations for branch currents and node voltages."
+      ],
+      "important_formulas": [
+        "Governing Law: V = I \\cdot R",
+        "Power Equation: P = V \\cdot I = I^2 \\cdot R",
+        "KCL: \\sum I_{in} = \\sum I_{out}",
+        "KVL: \\sum V_{loop} = 0"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit under Delta-Wye (Y-Delta) Transformation has V_s = 12V and R_1 = 4 ohms, R_2 = 6 ohms in series. Find total current and power.",
+          "solution": "Total R = R_1 + R_2 = 10 ohms. Current I = 12V / 10 = 1.2A. Total Power P = 12V * 1.2A = 14.4W."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting reference polarities (+/-) when writing KVL mesh equations.",
+        "Not deactivating independent current sources (open circuit) when computing R_th or Superposition."
+      ],
+      "professor_notes": "Professor's Tip: Always double-check node voltage references before formulating nodal matrices for Delta-Wye (Y-Delta) Transformation.",
+      "career_applications": [
+        "Electrical Power Distribution & Smart Grids",
+        "Automotive Battery Management Systems (BMS)",
+        "Robotics Motor Drive Controllers",
+        "VLSI Analog Circuit Design",
+        "Biomedical ECG Signal Conditioning"
+      ],
+      "related_topics": [
+        "kcl",
+        "kvl",
+        "mesh_analysis",
+        "thevenin",
+        "superposition"
+      ]
+    },
+    "bridge_circuits": {
+      "title": "Bridge Networks & Equilibrium",
+      "category": "Module 3: Circuit Analysis",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": false,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Bridge Networks & Equilibrium in electrical network theory.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Bridge Networks & Equilibrium: Remember the governing conservation law: Energy in = Energy out!",
+      "theory": "In electrical network theory, Bridge Networks & Equilibrium forms the mathematical foundation for analyzing circuit behavior.",
+      "derivation_steps": [
+        "Step 1: Identify circuit branch parameters and node connections for Bridge Networks & Equilibrium.",
+        "Step 2: Apply governing physical laws (KCL/KVL or Theorem definition).",
+        "Step 3: Formulate algebraic loop/node matrix equations.",
+        "Step 4: Solve system equations for branch currents and node voltages."
+      ],
+      "important_formulas": [
+        "Governing Law: V = I \\cdot R",
+        "Power Equation: P = V \\cdot I = I^2 \\cdot R",
+        "KCL: \\sum I_{in} = \\sum I_{out}",
+        "KVL: \\sum V_{loop} = 0"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit under Bridge Networks & Equilibrium has V_s = 12V and R_1 = 4 ohms, R_2 = 6 ohms in series. Find total current and power.",
+          "solution": "Total R = R_1 + R_2 = 10 ohms. Current I = 12V / 10 = 1.2A. Total Power P = 12V * 1.2A = 14.4W."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting reference polarities (+/-) when writing KVL mesh equations.",
+        "Not deactivating independent current sources (open circuit) when computing R_th or Superposition."
+      ],
+      "professor_notes": "Professor's Tip: Always double-check node voltage references before formulating nodal matrices for Bridge Networks & Equilibrium.",
+      "career_applications": [
+        "Electrical Power Distribution & Smart Grids",
+        "Automotive Battery Management Systems (BMS)",
+        "Robotics Motor Drive Controllers",
+        "VLSI Analog Circuit Design",
+        "Biomedical ECG Signal Conditioning"
+      ],
+      "related_topics": [
+        "kcl",
+        "kvl",
+        "mesh_analysis",
+        "thevenin",
+        "superposition"
+      ]
+    }
+  }
+}

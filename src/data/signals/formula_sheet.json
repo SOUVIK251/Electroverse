@@ -1,0 +1,84 @@
+{
+  "categories": [
+    {
+      "name": "Elementary Signals",
+      "formulas": [
+        {
+          "name": "Unit Step u(t)",
+          "formula": "u(t) = 1 (t > 0), 0 (t < 0)"
+        },
+        {
+          "name": "Unit Impulse delta(t)",
+          "formula": "delta(t) = 0 (t != 0), integral delta(t) dt = 1"
+        },
+        {
+          "name": "Unit Ramp r(t)",
+          "formula": "r(t) = t u(t)"
+        },
+        {
+          "name": "Signum sgn(t)",
+          "formula": "sgn(t) = 2 u(t) - 1"
+        }
+      ]
+    },
+    {
+      "name": "Signal Metrics & Operations",
+      "formulas": [
+        {
+          "name": "Signal Energy E",
+          "formula": "E = integral_{-inf}^{inf} |x(t)|^2 dt"
+        },
+        {
+          "name": "Signal Power P",
+          "formula": "P = lim_{T->inf} (1/2T) integral_{-T}^{T} |x(t)|^2 dt"
+        },
+        {
+          "name": "Even Part x_e(t)",
+          "formula": "x_e(t) = 0.5 * (x(t) + x(-t))"
+        },
+        {
+          "name": "Odd Part x_o(t)",
+          "formula": "x_o(t) = 0.5 * (x(t) - x(-t))"
+        }
+      ]
+    },
+    {
+      "name": "Convolution",
+      "formulas": [
+        {
+          "name": "Continuous Convolution",
+          "formula": "y(t) = integral_{-inf}^{inf} x(tau) h(t - tau) dtau"
+        },
+        {
+          "name": "Discrete Convolution",
+          "formula": "y[n] = sum_{k=-inf}^{inf} x[k] h[n - k]"
+        }
+      ]
+    },
+    {
+      "name": "Transforms",
+      "formulas": [
+        {
+          "name": "Fourier Transform CTFT",
+          "formula": "X(w) = integral_{-inf}^{inf} x(t) e^{-j w t} dt"
+        },
+        {
+          "name": "Inverse FT",
+          "formula": "x(t) = (1 / 2 pi) integral_{-inf}^{inf} X(w) e^{j w t} dw"
+        },
+        {
+          "name": "Laplace Transform",
+          "formula": "X(s) = integral_{0}^{inf} x(t) e^{-s t} dt"
+        },
+        {
+          "name": "Z-Transform",
+          "formula": "X(z) = sum_{n=-inf}^{inf} x[n] z^{-n}"
+        },
+        {
+          "name": "Nyquist Rate",
+          "formula": "f_s >= 2 f_{max}"
+        }
+      ]
+    }
+  ]
+}

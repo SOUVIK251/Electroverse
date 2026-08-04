@@ -1,0 +1,196 @@
+{
+  "topics": {
+    "sinusoids_phasors": {
+      "title": "Sinusoids & Phasors",
+      "category": "Module 6: AC Network Analysis",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Sinusoids & Phasors in electrical network theory.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Sinusoids & Phasors: Remember the governing conservation law: Energy in = Energy out!",
+      "theory": "In electrical network theory, Sinusoids & Phasors forms the mathematical foundation for analyzing circuit behavior.",
+      "derivation_steps": [
+        "Step 1: Identify circuit branch parameters and node connections for Sinusoids & Phasors.",
+        "Step 2: Apply governing physical laws (KCL/KVL or Theorem definition).",
+        "Step 3: Formulate algebraic loop/node matrix equations.",
+        "Step 4: Solve system equations for branch currents and node voltages."
+      ],
+      "important_formulas": [
+        "Governing Law: V = I \\cdot R",
+        "Power Equation: P = V \\cdot I = I^2 \\cdot R",
+        "KCL: \\sum I_{in} = \\sum I_{out}",
+        "KVL: \\sum V_{loop} = 0"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit under Sinusoids & Phasors has V_s = 12V and R_1 = 4 ohms, R_2 = 6 ohms in series. Find total current and power.",
+          "solution": "Total R = R_1 + R_2 = 10 ohms. Current I = 12V / 10 = 1.2A. Total Power P = 12V * 1.2A = 14.4W."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting reference polarities (+/-) when writing KVL mesh equations.",
+        "Not deactivating independent current sources (open circuit) when computing R_th or Superposition."
+      ],
+      "professor_notes": "Professor's Tip: Always double-check node voltage references before formulating nodal matrices for Sinusoids & Phasors.",
+      "career_applications": [
+        "Electrical Power Distribution & Smart Grids",
+        "Automotive Battery Management Systems (BMS)",
+        "Robotics Motor Drive Controllers",
+        "VLSI Analog Circuit Design",
+        "Biomedical ECG Signal Conditioning"
+      ],
+      "related_topics": [
+        "kcl",
+        "kvl",
+        "mesh_analysis",
+        "thevenin",
+        "superposition"
+      ]
+    },
+    "impedance": {
+      "title": "Impedance & Admittance",
+      "category": "Module 6: AC Network Analysis",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Impedance & Admittance in electrical network theory.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Impedance & Admittance: Remember the governing conservation law: Energy in = Energy out!",
+      "theory": "In electrical network theory, Impedance & Admittance forms the mathematical foundation for analyzing circuit behavior.",
+      "derivation_steps": [
+        "Step 1: Identify circuit branch parameters and node connections for Impedance & Admittance.",
+        "Step 2: Apply governing physical laws (KCL/KVL or Theorem definition).",
+        "Step 3: Formulate algebraic loop/node matrix equations.",
+        "Step 4: Solve system equations for branch currents and node voltages."
+      ],
+      "important_formulas": [
+        "Governing Law: V = I \\cdot R",
+        "Power Equation: P = V \\cdot I = I^2 \\cdot R",
+        "KCL: \\sum I_{in} = \\sum I_{out}",
+        "KVL: \\sum V_{loop} = 0"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit under Impedance & Admittance has V_s = 12V and R_1 = 4 ohms, R_2 = 6 ohms in series. Find total current and power.",
+          "solution": "Total R = R_1 + R_2 = 10 ohms. Current I = 12V / 10 = 1.2A. Total Power P = 12V * 1.2A = 14.4W."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting reference polarities (+/-) when writing KVL mesh equations.",
+        "Not deactivating independent current sources (open circuit) when computing R_th or Superposition."
+      ],
+      "professor_notes": "Professor's Tip: Always double-check node voltage references before formulating nodal matrices for Impedance & Admittance.",
+      "career_applications": [
+        "Electrical Power Distribution & Smart Grids",
+        "Automotive Battery Management Systems (BMS)",
+        "Robotics Motor Drive Controllers",
+        "VLSI Analog Circuit Design",
+        "Biomedical ECG Signal Conditioning"
+      ],
+      "related_topics": [
+        "kcl",
+        "kvl",
+        "mesh_analysis",
+        "thevenin",
+        "superposition"
+      ]
+    },
+    "ac_power": {
+      "title": "AC Power & Power Triangle",
+      "category": "Module 6: AC Network Analysis",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": false,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of AC Power & Power Triangle in electrical network theory.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for AC Power & Power Triangle: Remember the governing conservation law: Energy in = Energy out!",
+      "theory": "In electrical network theory, AC Power & Power Triangle forms the mathematical foundation for analyzing circuit behavior.",
+      "derivation_steps": [
+        "Step 1: Identify circuit branch parameters and node connections for AC Power & Power Triangle.",
+        "Step 2: Apply governing physical laws (KCL/KVL or Theorem definition).",
+        "Step 3: Formulate algebraic loop/node matrix equations.",
+        "Step 4: Solve system equations for branch currents and node voltages."
+      ],
+      "important_formulas": [
+        "Governing Law: V = I \\cdot R",
+        "Power Equation: P = V \\cdot I = I^2 \\cdot R",
+        "KCL: \\sum I_{in} = \\sum I_{out}",
+        "KVL: \\sum V_{loop} = 0"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit under AC Power & Power Triangle has V_s = 12V and R_1 = 4 ohms, R_2 = 6 ohms in series. Find total current and power.",
+          "solution": "Total R = R_1 + R_2 = 10 ohms. Current I = 12V / 10 = 1.2A. Total Power P = 12V * 1.2A = 14.4W."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting reference polarities (+/-) when writing KVL mesh equations.",
+        "Not deactivating independent current sources (open circuit) when computing R_th or Superposition."
+      ],
+      "professor_notes": "Professor's Tip: Always double-check node voltage references before formulating nodal matrices for AC Power & Power Triangle.",
+      "career_applications": [
+        "Electrical Power Distribution & Smart Grids",
+        "Automotive Battery Management Systems (BMS)",
+        "Robotics Motor Drive Controllers",
+        "VLSI Analog Circuit Design",
+        "Biomedical ECG Signal Conditioning"
+      ],
+      "related_topics": [
+        "kcl",
+        "kvl",
+        "mesh_analysis",
+        "thevenin",
+        "superposition"
+      ]
+    },
+    "resonance": {
+      "title": "Series & Parallel Resonance",
+      "category": "Module 6: AC Network Analysis",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Series & Parallel Resonance in electrical network theory.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Series & Parallel Resonance: Remember the governing conservation law: Energy in = Energy out!",
+      "theory": "In electrical network theory, Series & Parallel Resonance forms the mathematical foundation for analyzing circuit behavior.",
+      "derivation_steps": [
+        "Step 1: Identify circuit branch parameters and node connections for Series & Parallel Resonance.",
+        "Step 2: Apply governing physical laws (KCL/KVL or Theorem definition).",
+        "Step 3: Formulate algebraic loop/node matrix equations.",
+        "Step 4: Solve system equations for branch currents and node voltages."
+      ],
+      "important_formulas": [
+        "Governing Law: V = I \\cdot R",
+        "Power Equation: P = V \\cdot I = I^2 \\cdot R",
+        "KCL: \\sum I_{in} = \\sum I_{out}",
+        "KVL: \\sum V_{loop} = 0"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit under Series & Parallel Resonance has V_s = 12V and R_1 = 4 ohms, R_2 = 6 ohms in series. Find total current and power.",
+          "solution": "Total R = R_1 + R_2 = 10 ohms. Current I = 12V / 10 = 1.2A. Total Power P = 12V * 1.2A = 14.4W."
+        }
+      ],
+      "common_mistakes": [
+        "Forgetting reference polarities (+/-) when writing KVL mesh equations.",
+        "Not deactivating independent current sources (open circuit) when computing R_th or Superposition."
+      ],
+      "professor_notes": "Professor's Tip: Always double-check node voltage references before formulating nodal matrices for Series & Parallel Resonance.",
+      "career_applications": [
+        "Electrical Power Distribution & Smart Grids",
+        "Automotive Battery Management Systems (BMS)",
+        "Robotics Motor Drive Controllers",
+        "VLSI Analog Circuit Design",
+        "Biomedical ECG Signal Conditioning"
+      ],
+      "related_topics": [
+        "kcl",
+        "kvl",
+        "mesh_analysis",
+        "thevenin",
+        "superposition"
+      ]
+    }
+  }
+}

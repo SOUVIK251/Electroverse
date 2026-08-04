@@ -1,0 +1,3602 @@
+{
+  "ANA-00001": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "ANA-00002": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "ANA-00003": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "ANA-00004": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "ANA-00005": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "ANA-00006": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "ANA-00007": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "ANA-00008": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "ANA-00009": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "ANA-00010": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "ANA-00011": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "ANA-00012": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "ANA-00013": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "ANA-00014": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "ANA-00015": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "ANA-00016": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "ANA-00017": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "ANA-00018": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "ANA-00019": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "ANA-00020": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "ANA-00021": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "ANA-00022": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "ANA-00023": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "ANA-00024": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "ANA-00025": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "ANA-00026": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "ANA-00027": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "ANA-00028": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "ANA-00029": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "ANA-00030": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "ANA-00031": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "ANA-00032": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "ANA-00033": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "ANA-00034": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "ANA-00035": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "ANA-00036": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "ANA-00037": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "ANA-00038": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "ANA-00039": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "ANA-00040": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "ANA-00041": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "ANA-00042": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "ANA-00043": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "ANA-00044": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "ANA-00045": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "ANA-00046": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "ANA-00047": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "ANA-00048": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "ANA-00049": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "ANA-00050": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "ANA-00051": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "ANA-00052": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "ANA-00053": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "ANA-00054": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "ANA-00055": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "ANA-00056": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "ANA-00057": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "ANA-00058": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "ANA-00059": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "ANA-00060": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "ANA-00061": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "ANA-00062": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "ANA-00063": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "ANA-00064": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "ANA-00065": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "ANA-00066": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "ANA-00067": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "ANA-00068": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "ANA-00069": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "ANA-00070": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "ANA-00071": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "ANA-00072": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "ANA-00073": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "ANA-00074": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "ANA-00075": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "ANA-00076": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "ANA-00077": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "ANA-00078": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "ANA-00079": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "ANA-00080": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "ANA-00081": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "ANA-00082": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "ANA-00083": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "ANA-00084": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "ANA-00085": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "ANA-00086": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "ANA-00087": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "ANA-00088": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "ANA-00089": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "ANA-00090": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "ANA-00091": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "ANA-00092": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "ANA-00093": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "ANA-00094": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "ANA-00095": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "ANA-00096": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "ANA-00097": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "ANA-00098": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "ANA-00099": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "ANA-00100": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "ANA-00101": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "ANA-00102": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "ANA-00103": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "ANA-00104": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "ANA-00105": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "ANA-00106": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "ANA-00107": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "ANA-00108": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "ANA-00109": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "ANA-00110": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "ANA-00111": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "ANA-00112": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "ANA-00113": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "ANA-00114": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "ANA-00115": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "ANA-00116": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "ANA-00117": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "ANA-00118": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "ANA-00119": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "ANA-00120": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "ANA-00121": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "ANA-00122": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "ANA-00123": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "ANA-00124": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "ANA-00125": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "ANA-00126": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "ANA-00127": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "ANA-00128": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "ANA-00129": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "ANA-00130": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "ANA-00131": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "ANA-00132": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "ANA-00133": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "ANA-00134": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "ANA-00135": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "ANA-00136": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "ANA-00137": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "ANA-00138": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "ANA-00139": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "ANA-00140": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "ANA-00141": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "ANA-00142": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "ANA-00143": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "ANA-00144": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "ANA-00145": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "ANA-00146": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "ANA-00147": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "ANA-00148": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "ANA-00149": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "ANA-00150": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "ANA-00151": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "ANA-00152": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "ANA-00153": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "ANA-00154": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "ANA-00155": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "ANA-00156": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "ANA-00157": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "ANA-00158": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "ANA-00159": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "ANA-00160": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "ANA-00161": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "ANA-00162": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "ANA-00163": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "ANA-00164": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "ANA-00165": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "ANA-00166": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "ANA-00167": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "ANA-00168": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "ANA-00169": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "ANA-00170": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "ANA-00171": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "ANA-00172": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "ANA-00173": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "ANA-00174": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "ANA-00175": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "ANA-00176": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "ANA-00177": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "ANA-00178": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "ANA-00179": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "ANA-00180": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "ANA-00181": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "ANA-00182": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "ANA-00183": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "ANA-00184": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "ANA-00185": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "ANA-00186": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "ANA-00187": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "ANA-00188": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "ANA-00189": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "ANA-00190": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "ANA-00191": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "ANA-00192": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "ANA-00193": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "ANA-00194": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "ANA-00195": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "ANA-00196": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "ANA-00197": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "ANA-00198": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "ANA-00199": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "ANA-00200": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "ANA-00201": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "ANA-00202": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "ANA-00203": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "ANA-00204": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "ANA-00205": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "ANA-00206": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "ANA-00207": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "ANA-00208": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "ANA-00209": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "ANA-00210": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "ANA-00211": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "ANA-00212": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "ANA-00213": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "ANA-00214": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "ANA-00215": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "ANA-00216": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "ANA-00217": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "ANA-00218": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "ANA-00219": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "ANA-00220": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "ANA-00221": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "ANA-00222": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "ANA-00223": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "ANA-00224": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "ANA-00225": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "ANA-00226": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "ANA-00227": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "ANA-00228": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "ANA-00229": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "ANA-00230": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "ANA-00231": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "ANA-00232": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "ANA-00233": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "ANA-00234": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "ANA-00235": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "ANA-00236": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "ANA-00237": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "ANA-00238": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "ANA-00239": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "ANA-00240": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "ANA-00241": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "ANA-00242": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "ANA-00243": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "ANA-00244": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "ANA-00245": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "ANA-00246": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "ANA-00247": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "ANA-00248": {
+    "difficulty": "Easy",
+    "score": 25
+  },
+  "ANA-00249": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "ANA-00250": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "ANA-00251": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "ANA-00252": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "ANA-00253": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "ANA-00254": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "ANA-00255": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "ANA-00256": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "ANA-00257": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "ANA-00258": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "ANA-00259": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "ANA-00260": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "ANA-00261": {
+    "difficulty": "Easy",
+    "score": 23
+  },
+  "ANA-00262": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "ANA-00263": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "ANA-00264": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "ANA-00265": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "ANA-00266": {
+    "difficulty": "Easy",
+    "score": 21
+  },
+  "ANA-00267": {
+    "difficulty": "Easy",
+    "score": 31
+  },
+  "ANA-00268": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "ANA-00269": {
+    "difficulty": "Easy",
+    "score": 19
+  },
+  "ANA-00270": {
+    "difficulty": "Easy",
+    "score": 29
+  },
+  "ANA-00271": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "ANA-00272": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "ANA-00273": {
+    "difficulty": "Easy",
+    "score": 27
+  },
+  "ANA-00274": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "ANA-00275": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "ANA-00276": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "ANA-00277": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "ANA-00278": {
+    "difficulty": "Easy",
+    "score": 34
+  },
+  "ANA-00279": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "ANA-00280": {
+    "difficulty": "Easy",
+    "score": 16
+  },
+  "ANA-00281": {
+    "difficulty": "Easy",
+    "score": 30
+  },
+  "ANA-00282": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "ANA-00283": {
+    "difficulty": "Easy",
+    "score": 35
+  },
+  "ANA-00284": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "ANA-00285": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "ANA-00286": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "ANA-00287": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "ANA-00288": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "ANA-00289": {
+    "difficulty": "Easy",
+    "score": 22
+  },
+  "ANA-00290": {
+    "difficulty": "Easy",
+    "score": 17
+  },
+  "ANA-00291": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "ANA-00292": {
+    "difficulty": "Easy",
+    "score": 33
+  },
+  "ANA-00293": {
+    "difficulty": "Easy",
+    "score": 24
+  },
+  "ANA-00294": {
+    "difficulty": "Easy",
+    "score": 20
+  },
+  "ANA-00295": {
+    "difficulty": "Easy",
+    "score": 28
+  },
+  "ANA-00296": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "ANA-00297": {
+    "difficulty": "Easy",
+    "score": 15
+  },
+  "ANA-00298": {
+    "difficulty": "Easy",
+    "score": 32
+  },
+  "ANA-00299": {
+    "difficulty": "Easy",
+    "score": 26
+  },
+  "ANA-00300": {
+    "difficulty": "Easy",
+    "score": 18
+  },
+  "ANA-00301": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "ANA-00302": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "ANA-00303": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "ANA-00304": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "ANA-00305": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "ANA-00306": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "ANA-00307": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "ANA-00308": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "ANA-00309": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "ANA-00310": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "ANA-00311": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "ANA-00312": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "ANA-00313": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00314": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "ANA-00315": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "ANA-00316": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "ANA-00317": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "ANA-00318": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "ANA-00319": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "ANA-00320": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "ANA-00321": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "ANA-00322": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "ANA-00323": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "ANA-00324": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "ANA-00325": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "ANA-00326": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "ANA-00327": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00328": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "ANA-00329": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "ANA-00330": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "ANA-00331": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "ANA-00332": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "ANA-00333": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "ANA-00334": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "ANA-00335": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "ANA-00336": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "ANA-00337": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "ANA-00338": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "ANA-00339": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "ANA-00340": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "ANA-00341": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "ANA-00342": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "ANA-00343": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "ANA-00344": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "ANA-00345": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "ANA-00346": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "ANA-00347": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "ANA-00348": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "ANA-00349": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00350": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "ANA-00351": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "ANA-00352": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "ANA-00353": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "ANA-00354": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "ANA-00355": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "ANA-00356": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "ANA-00357": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "ANA-00358": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "ANA-00359": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "ANA-00360": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "ANA-00361": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "ANA-00362": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "ANA-00363": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "ANA-00364": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "ANA-00365": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "ANA-00366": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "ANA-00367": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00368": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "ANA-00369": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "ANA-00370": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "ANA-00371": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "ANA-00372": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "ANA-00373": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "ANA-00374": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "ANA-00375": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "ANA-00376": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "ANA-00377": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "ANA-00378": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "ANA-00379": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "ANA-00380": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "ANA-00381": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "ANA-00382": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "ANA-00383": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "ANA-00384": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "ANA-00385": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "ANA-00386": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "ANA-00387": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "ANA-00388": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "ANA-00389": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "ANA-00390": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "ANA-00391": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "ANA-00392": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "ANA-00393": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00394": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "ANA-00395": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "ANA-00396": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "ANA-00397": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "ANA-00398": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00399": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "ANA-00400": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "ANA-00401": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "ANA-00402": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "ANA-00403": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "ANA-00404": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "ANA-00405": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "ANA-00406": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "ANA-00407": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "ANA-00408": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "ANA-00409": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "ANA-00410": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "ANA-00411": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "ANA-00412": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "ANA-00413": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "ANA-00414": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "ANA-00415": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "ANA-00416": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "ANA-00417": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00418": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "ANA-00419": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "ANA-00420": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "ANA-00421": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "ANA-00422": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "ANA-00423": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "ANA-00424": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "ANA-00425": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "ANA-00426": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "ANA-00427": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "ANA-00428": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "ANA-00429": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "ANA-00430": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "ANA-00431": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "ANA-00432": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "ANA-00433": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "ANA-00434": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "ANA-00435": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "ANA-00436": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "ANA-00437": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "ANA-00438": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "ANA-00439": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "ANA-00440": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00441": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00442": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "ANA-00443": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "ANA-00444": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "ANA-00445": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "ANA-00446": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "ANA-00447": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "ANA-00448": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "ANA-00449": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "ANA-00450": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "ANA-00451": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "ANA-00452": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "ANA-00453": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "ANA-00454": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "ANA-00455": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "ANA-00456": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "ANA-00457": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "ANA-00458": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "ANA-00459": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "ANA-00460": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "ANA-00461": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "ANA-00462": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "ANA-00463": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "ANA-00464": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "ANA-00465": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "ANA-00466": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "ANA-00467": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "ANA-00468": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "ANA-00469": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "ANA-00470": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "ANA-00471": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "ANA-00472": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "ANA-00473": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "ANA-00474": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "ANA-00475": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "ANA-00476": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "ANA-00477": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "ANA-00478": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "ANA-00479": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "ANA-00480": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "ANA-00481": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "ANA-00482": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "ANA-00483": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "ANA-00484": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "ANA-00485": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "ANA-00486": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "ANA-00487": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "ANA-00488": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "ANA-00489": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "ANA-00490": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "ANA-00491": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "ANA-00492": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "ANA-00493": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "ANA-00494": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "ANA-00495": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00496": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00497": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "ANA-00498": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "ANA-00499": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "ANA-00500": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "ANA-00501": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "ANA-00502": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "ANA-00503": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "ANA-00504": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "ANA-00505": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "ANA-00506": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "ANA-00507": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "ANA-00508": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "ANA-00509": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "ANA-00510": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "ANA-00511": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "ANA-00512": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "ANA-00513": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "ANA-00514": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "ANA-00515": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "ANA-00516": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "ANA-00517": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00518": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "ANA-00519": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "ANA-00520": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00521": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "ANA-00522": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "ANA-00523": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00524": {
+    "difficulty": "Medium",
+    "score": 58
+  },
+  "ANA-00525": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "ANA-00526": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "ANA-00527": {
+    "difficulty": "Medium",
+    "score": 61
+  },
+  "ANA-00528": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "ANA-00529": {
+    "difficulty": "Medium",
+    "score": 59
+  },
+  "ANA-00530": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "ANA-00531": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "ANA-00532": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "ANA-00533": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "ANA-00534": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "ANA-00535": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00536": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "ANA-00537": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "ANA-00538": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "ANA-00539": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "ANA-00540": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "ANA-00541": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "ANA-00542": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "ANA-00543": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "ANA-00544": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "ANA-00545": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "ANA-00546": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "ANA-00547": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "ANA-00548": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "ANA-00549": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "ANA-00550": {
+    "difficulty": "Medium",
+    "score": 55
+  },
+  "ANA-00551": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "ANA-00552": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "ANA-00553": {
+    "difficulty": "Medium",
+    "score": 49
+  },
+  "ANA-00554": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00555": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "ANA-00556": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "ANA-00557": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "ANA-00558": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "ANA-00559": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00560": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "ANA-00561": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "ANA-00562": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "ANA-00563": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "ANA-00564": {
+    "difficulty": "Medium",
+    "score": 60
+  },
+  "ANA-00565": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "ANA-00566": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "ANA-00567": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00568": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "ANA-00569": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "ANA-00570": {
+    "difficulty": "Medium",
+    "score": 56
+  },
+  "ANA-00571": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "ANA-00572": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "ANA-00573": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00574": {
+    "difficulty": "Medium",
+    "score": 48
+  },
+  "ANA-00575": {
+    "difficulty": "Medium",
+    "score": 46
+  },
+  "ANA-00576": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "ANA-00577": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "ANA-00578": {
+    "difficulty": "Medium",
+    "score": 52
+  },
+  "ANA-00579": {
+    "difficulty": "Medium",
+    "score": 62
+  },
+  "ANA-00580": {
+    "difficulty": "Medium",
+    "score": 54
+  },
+  "ANA-00581": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "ANA-00582": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00583": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00584": {
+    "difficulty": "Medium",
+    "score": 41
+  },
+  "ANA-00585": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "ANA-00586": {
+    "difficulty": "Medium",
+    "score": 53
+  },
+  "ANA-00587": {
+    "difficulty": "Medium",
+    "score": 47
+  },
+  "ANA-00588": {
+    "difficulty": "Medium",
+    "score": 44
+  },
+  "ANA-00589": {
+    "difficulty": "Medium",
+    "score": 65
+  },
+  "ANA-00590": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "ANA-00591": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "ANA-00592": {
+    "difficulty": "Medium",
+    "score": 57
+  },
+  "ANA-00593": {
+    "difficulty": "Medium",
+    "score": 63
+  },
+  "ANA-00594": {
+    "difficulty": "Medium",
+    "score": 64
+  },
+  "ANA-00595": {
+    "difficulty": "Medium",
+    "score": 50
+  },
+  "ANA-00596": {
+    "difficulty": "Medium",
+    "score": 40
+  },
+  "ANA-00597": {
+    "difficulty": "Medium",
+    "score": 45
+  },
+  "ANA-00598": {
+    "difficulty": "Medium",
+    "score": 51
+  },
+  "ANA-00599": {
+    "difficulty": "Medium",
+    "score": 43
+  },
+  "ANA-00600": {
+    "difficulty": "Medium",
+    "score": 42
+  },
+  "ANA-00601": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "ANA-00602": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "ANA-00603": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "ANA-00604": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "ANA-00605": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "ANA-00606": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "ANA-00607": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "ANA-00608": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "ANA-00609": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "ANA-00610": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "ANA-00611": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "ANA-00612": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "ANA-00613": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "ANA-00614": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "ANA-00615": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "ANA-00616": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "ANA-00617": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "ANA-00618": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "ANA-00619": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "ANA-00620": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "ANA-00621": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "ANA-00622": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "ANA-00623": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "ANA-00624": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "ANA-00625": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "ANA-00626": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "ANA-00627": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "ANA-00628": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "ANA-00629": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "ANA-00630": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "ANA-00631": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "ANA-00632": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "ANA-00633": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "ANA-00634": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "ANA-00635": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "ANA-00636": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "ANA-00637": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "ANA-00638": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "ANA-00639": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "ANA-00640": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "ANA-00641": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "ANA-00642": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "ANA-00643": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "ANA-00644": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "ANA-00645": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "ANA-00646": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "ANA-00647": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "ANA-00648": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "ANA-00649": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "ANA-00650": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "ANA-00651": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "ANA-00652": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "ANA-00653": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "ANA-00654": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "ANA-00655": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "ANA-00656": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "ANA-00657": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "ANA-00658": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "ANA-00659": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "ANA-00660": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "ANA-00661": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "ANA-00662": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "ANA-00663": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "ANA-00664": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "ANA-00665": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "ANA-00666": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "ANA-00667": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "ANA-00668": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "ANA-00669": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "ANA-00670": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "ANA-00671": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "ANA-00672": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "ANA-00673": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "ANA-00674": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "ANA-00675": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "ANA-00676": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "ANA-00677": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "ANA-00678": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "ANA-00679": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "ANA-00680": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "ANA-00681": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "ANA-00682": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "ANA-00683": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "ANA-00684": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "ANA-00685": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "ANA-00686": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "ANA-00687": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "ANA-00688": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "ANA-00689": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "ANA-00690": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "ANA-00691": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "ANA-00692": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "ANA-00693": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "ANA-00694": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "ANA-00695": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "ANA-00696": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "ANA-00697": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "ANA-00698": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "ANA-00699": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "ANA-00700": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "ANA-00701": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "ANA-00702": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "ANA-00703": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "ANA-00704": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "ANA-00705": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "ANA-00706": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "ANA-00707": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "ANA-00708": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "ANA-00709": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "ANA-00710": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "ANA-00711": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "ANA-00712": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "ANA-00713": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "ANA-00714": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "ANA-00715": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "ANA-00716": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "ANA-00717": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "ANA-00718": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "ANA-00719": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "ANA-00720": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "ANA-00721": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "ANA-00722": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "ANA-00723": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "ANA-00724": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "ANA-00725": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "ANA-00726": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "ANA-00727": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "ANA-00728": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "ANA-00729": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "ANA-00730": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "ANA-00731": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "ANA-00732": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "ANA-00733": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "ANA-00734": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "ANA-00735": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "ANA-00736": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "ANA-00737": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "ANA-00738": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "ANA-00739": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "ANA-00740": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "ANA-00741": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "ANA-00742": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "ANA-00743": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "ANA-00744": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "ANA-00745": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "ANA-00746": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "ANA-00747": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "ANA-00748": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "ANA-00749": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "ANA-00750": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "ANA-00751": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "ANA-00752": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "ANA-00753": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "ANA-00754": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "ANA-00755": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "ANA-00756": {
+    "difficulty": "Hard",
+    "score": 80
+  },
+  "ANA-00757": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "ANA-00758": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "ANA-00759": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "ANA-00760": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "ANA-00761": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "ANA-00762": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "ANA-00763": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "ANA-00764": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "ANA-00765": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "ANA-00766": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "ANA-00767": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "ANA-00768": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "ANA-00769": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "ANA-00770": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "ANA-00771": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "ANA-00772": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "ANA-00773": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "ANA-00774": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "ANA-00775": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "ANA-00776": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "ANA-00777": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "ANA-00778": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "ANA-00779": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "ANA-00780": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "ANA-00781": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "ANA-00782": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "ANA-00783": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "ANA-00784": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "ANA-00785": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "ANA-00786": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "ANA-00787": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "ANA-00788": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "ANA-00789": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "ANA-00790": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "ANA-00791": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "ANA-00792": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "ANA-00793": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "ANA-00794": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "ANA-00795": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "ANA-00796": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "ANA-00797": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "ANA-00798": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "ANA-00799": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "ANA-00800": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "ANA-00801": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "ANA-00802": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "ANA-00803": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "ANA-00804": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "ANA-00805": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "ANA-00806": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "ANA-00807": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "ANA-00808": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "ANA-00809": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "ANA-00810": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "ANA-00811": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "ANA-00812": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "ANA-00813": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "ANA-00814": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "ANA-00815": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "ANA-00816": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "ANA-00817": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "ANA-00818": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "ANA-00819": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "ANA-00820": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "ANA-00821": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "ANA-00822": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "ANA-00823": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "ANA-00824": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "ANA-00825": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "ANA-00826": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "ANA-00827": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "ANA-00828": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "ANA-00829": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "ANA-00830": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "ANA-00831": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "ANA-00832": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "ANA-00833": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "ANA-00834": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "ANA-00835": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "ANA-00836": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "ANA-00837": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "ANA-00838": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "ANA-00839": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "ANA-00840": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "ANA-00841": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "ANA-00842": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "ANA-00843": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "ANA-00844": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "ANA-00845": {
+    "difficulty": "Hard",
+    "score": 91
+  },
+  "ANA-00846": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "ANA-00847": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "ANA-00848": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "ANA-00849": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "ANA-00850": {
+    "difficulty": "Hard",
+    "score": 92
+  },
+  "ANA-00851": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "ANA-00852": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "ANA-00853": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "ANA-00854": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "ANA-00855": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "ANA-00856": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "ANA-00857": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "ANA-00858": {
+    "difficulty": "Hard",
+    "score": 87
+  },
+  "ANA-00859": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "ANA-00860": {
+    "difficulty": "Hard",
+    "score": 79
+  },
+  "ANA-00861": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "ANA-00862": {
+    "difficulty": "Hard",
+    "score": 82
+  },
+  "ANA-00863": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "ANA-00864": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "ANA-00865": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "ANA-00866": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "ANA-00867": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "ANA-00868": {
+    "difficulty": "Hard",
+    "score": 90
+  },
+  "ANA-00869": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "ANA-00870": {
+    "difficulty": "Hard",
+    "score": 78
+  },
+  "ANA-00871": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "ANA-00872": {
+    "difficulty": "Hard",
+    "score": 71
+  },
+  "ANA-00873": {
+    "difficulty": "Hard",
+    "score": 88
+  },
+  "ANA-00874": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "ANA-00875": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "ANA-00876": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "ANA-00877": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "ANA-00878": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "ANA-00879": {
+    "difficulty": "Hard",
+    "score": 70
+  },
+  "ANA-00880": {
+    "difficulty": "Hard",
+    "score": 73
+  },
+  "ANA-00881": {
+    "difficulty": "Hard",
+    "score": 83
+  },
+  "ANA-00882": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "ANA-00883": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "ANA-00884": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "ANA-00885": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "ANA-00886": {
+    "difficulty": "Hard",
+    "score": 77
+  },
+  "ANA-00887": {
+    "difficulty": "Hard",
+    "score": 89
+  },
+  "ANA-00888": {
+    "difficulty": "Hard",
+    "score": 84
+  },
+  "ANA-00889": {
+    "difficulty": "Hard",
+    "score": 72
+  },
+  "ANA-00890": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "ANA-00891": {
+    "difficulty": "Hard",
+    "score": 93
+  },
+  "ANA-00892": {
+    "difficulty": "Hard",
+    "score": 75
+  },
+  "ANA-00893": {
+    "difficulty": "Hard",
+    "score": 94
+  },
+  "ANA-00894": {
+    "difficulty": "Hard",
+    "score": 95
+  },
+  "ANA-00895": {
+    "difficulty": "Hard",
+    "score": 74
+  },
+  "ANA-00896": {
+    "difficulty": "Hard",
+    "score": 81
+  },
+  "ANA-00897": {
+    "difficulty": "Hard",
+    "score": 85
+  },
+  "ANA-00898": {
+    "difficulty": "Hard",
+    "score": 86
+  },
+  "ANA-00899": {
+    "difficulty": "Hard",
+    "score": 76
+  },
+  "ANA-00900": {
+    "difficulty": "Hard",
+    "score": 85
+  }
+}

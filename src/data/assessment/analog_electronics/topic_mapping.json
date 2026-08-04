@@ -1,0 +1,3602 @@
+{
+  "ANA-00001": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00002": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00003": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00004": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00005": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00006": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00007": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00008": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00009": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00010": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00011": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00012": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00013": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00014": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00015": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00016": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00017": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00018": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00019": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00020": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00021": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00022": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00023": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00024": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00025": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00026": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00027": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00028": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00029": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00030": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00031": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00032": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00033": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00034": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00035": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00036": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00037": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00038": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00039": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00040": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00041": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00042": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00043": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00044": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00045": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00046": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00047": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00048": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00049": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00050": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00051": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00052": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00053": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00054": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00055": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00056": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00057": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00058": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00059": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00060": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00061": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00062": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00063": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00064": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00065": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00066": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00067": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00068": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00069": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00070": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00071": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00072": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00073": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00074": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00075": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00076": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00077": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00078": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00079": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00080": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00081": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00082": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00083": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00084": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00085": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00086": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00087": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00088": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00089": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00090": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00091": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00092": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00093": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00094": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00095": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00096": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00097": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00098": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00099": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00100": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00101": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00102": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00103": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00104": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00105": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00106": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00107": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00108": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00109": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00110": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00111": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00112": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00113": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00114": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00115": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00116": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00117": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00118": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00119": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00120": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00121": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00122": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00123": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00124": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00125": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00126": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00127": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00128": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00129": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00130": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00131": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00132": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00133": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00134": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00135": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00136": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00137": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00138": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00139": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00140": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00141": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00142": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00143": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00144": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00145": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00146": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00147": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00148": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00149": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00150": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00151": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00152": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00153": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00154": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00155": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00156": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00157": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00158": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00159": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00160": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00161": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00162": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00163": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00164": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00165": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00166": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00167": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00168": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00169": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00170": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00171": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00172": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00173": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00174": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00175": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00176": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00177": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00178": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00179": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00180": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00181": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00182": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00183": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00184": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00185": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00186": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00187": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00188": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00189": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00190": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00191": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00192": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00193": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00194": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00195": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00196": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00197": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00198": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00199": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00200": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00201": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00202": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00203": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00204": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00205": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00206": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00207": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00208": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00209": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00210": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00211": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00212": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00213": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00214": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00215": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00216": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00217": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00218": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00219": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00220": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00221": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00222": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00223": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00224": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00225": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00226": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00227": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00228": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00229": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00230": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00231": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00232": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00233": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00234": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00235": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00236": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00237": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00238": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00239": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00240": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00241": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00242": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00243": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00244": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00245": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00246": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00247": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00248": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00249": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00250": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00251": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00252": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00253": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00254": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00255": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00256": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00257": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00258": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00259": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00260": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00261": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00262": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00263": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00264": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00265": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00266": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00267": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00268": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00269": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00270": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00271": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00272": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00273": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00274": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00275": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00276": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00277": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00278": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00279": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00280": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00281": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00282": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00283": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00284": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00285": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00286": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00287": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00288": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00289": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00290": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00291": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00292": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00293": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00294": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00295": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00296": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Understand"
+  },
+  "ANA-00297": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Understand"
+  },
+  "ANA-00298": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Understand"
+  },
+  "ANA-00299": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Understand"
+  },
+  "ANA-00300": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Understand"
+  },
+  "ANA-00301": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00302": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00303": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00304": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00305": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00306": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00307": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00308": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00309": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00310": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00311": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00312": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00313": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00314": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00315": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00316": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00317": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00318": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00319": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00320": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00321": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00322": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00323": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00324": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00325": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00326": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00327": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00328": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00329": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00330": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00331": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00332": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00333": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00334": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00335": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00336": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00337": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00338": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00339": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00340": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00341": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00342": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00343": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00344": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00345": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00346": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00347": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00348": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00349": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00350": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00351": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00352": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00353": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00354": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00355": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00356": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00357": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00358": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00359": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00360": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00361": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00362": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00363": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00364": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00365": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00366": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00367": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00368": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00369": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00370": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00371": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00372": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00373": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00374": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00375": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00376": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00377": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00378": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00379": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00380": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00381": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00382": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00383": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00384": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00385": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00386": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00387": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00388": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00389": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00390": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00391": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00392": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00393": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00394": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00395": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00396": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00397": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00398": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00399": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00400": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00401": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00402": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00403": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00404": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00405": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00406": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00407": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00408": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00409": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00410": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00411": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00412": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00413": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00414": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00415": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00416": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00417": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00418": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00419": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00420": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00421": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00422": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00423": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00424": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00425": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00426": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00427": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00428": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00429": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00430": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00431": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00432": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00433": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00434": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00435": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00436": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00437": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00438": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00439": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00440": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00441": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00442": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00443": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00444": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00445": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00446": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00447": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00448": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00449": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00450": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00451": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00452": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00453": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00454": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00455": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00456": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00457": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00458": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00459": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00460": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00461": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00462": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00463": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00464": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00465": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00466": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00467": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00468": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00469": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00470": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00471": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00472": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00473": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00474": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00475": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00476": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00477": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00478": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00479": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00480": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00481": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00482": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00483": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00484": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00485": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00486": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00487": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00488": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00489": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00490": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00491": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00492": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00493": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00494": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00495": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00496": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00497": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00498": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00499": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00500": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00501": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00502": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00503": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00504": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00505": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00506": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00507": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00508": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00509": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00510": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00511": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00512": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00513": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00514": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00515": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00516": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00517": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00518": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00519": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00520": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00521": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00522": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00523": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00524": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00525": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00526": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00527": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00528": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00529": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00530": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00531": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00532": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00533": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00534": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00535": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00536": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00537": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00538": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00539": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00540": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00541": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00542": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00543": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00544": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00545": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00546": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00547": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00548": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00549": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00550": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00551": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00552": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00553": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00554": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00555": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00556": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00557": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00558": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00559": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00560": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00561": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00562": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00563": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00564": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00565": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00566": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00567": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00568": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00569": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00570": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00571": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00572": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00573": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00574": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00575": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00576": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00577": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00578": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00579": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00580": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00581": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00582": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00583": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00584": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00585": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00586": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00587": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00588": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00589": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00590": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00591": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00592": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00593": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00594": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00595": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00596": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Apply"
+  },
+  "ANA-00597": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Apply"
+  },
+  "ANA-00598": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Apply"
+  },
+  "ANA-00599": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Apply"
+  },
+  "ANA-00600": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Apply"
+  },
+  "ANA-00601": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00602": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00603": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00604": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00605": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00606": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00607": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00608": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00609": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00610": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00611": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00612": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00613": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00614": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00615": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00616": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00617": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00618": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00619": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00620": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00621": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00622": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00623": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00624": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00625": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00626": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00627": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00628": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00629": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00630": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00631": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00632": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00633": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00634": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00635": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00636": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00637": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00638": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00639": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00640": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00641": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00642": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00643": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00644": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00645": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00646": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00647": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00648": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00649": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00650": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00651": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00652": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00653": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00654": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00655": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00656": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00657": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00658": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00659": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00660": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00661": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00662": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00663": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00664": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00665": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00666": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00667": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00668": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00669": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00670": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00671": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00672": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00673": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00674": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00675": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00676": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00677": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00678": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00679": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00680": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00681": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00682": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00683": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00684": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00685": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00686": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00687": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00688": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00689": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00690": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00691": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00692": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00693": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00694": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00695": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00696": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00697": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00698": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00699": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00700": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00701": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00702": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00703": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00704": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00705": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00706": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00707": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00708": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00709": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00710": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00711": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00712": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00713": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00714": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00715": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00716": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00717": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00718": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00719": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00720": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00721": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00722": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00723": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00724": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00725": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00726": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00727": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00728": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00729": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00730": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00731": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00732": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00733": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00734": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00735": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00736": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00737": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00738": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00739": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00740": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00741": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00742": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00743": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00744": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00745": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00746": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00747": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00748": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00749": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00750": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00751": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00752": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00753": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00754": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00755": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00756": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00757": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00758": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00759": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00760": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00761": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00762": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00763": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00764": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00765": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00766": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00767": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00768": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00769": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00770": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00771": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00772": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00773": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00774": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00775": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00776": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00777": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00778": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00779": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00780": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00781": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00782": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00783": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00784": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00785": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00786": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00787": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00788": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00789": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00790": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00791": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00792": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00793": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00794": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00795": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00796": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00797": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00798": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00799": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00800": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00801": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00802": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00803": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00804": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00805": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00806": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00807": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00808": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00809": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00810": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00811": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00812": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00813": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00814": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00815": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00816": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00817": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00818": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00819": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00820": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00821": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00822": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00823": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00824": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00825": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00826": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00827": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00828": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00829": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00830": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00831": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00832": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00833": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00834": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00835": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00836": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00837": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00838": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00839": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00840": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00841": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00842": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00843": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00844": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00845": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00846": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00847": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00848": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00849": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00850": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00851": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00852": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00853": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00854": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00855": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00856": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00857": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00858": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00859": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00860": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00861": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00862": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00863": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00864": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00865": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00866": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00867": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00868": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00869": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00870": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00871": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00872": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00873": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00874": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00875": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00876": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00877": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00878": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00879": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00880": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00881": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00882": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00883": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00884": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00885": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00886": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00887": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00888": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00889": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00890": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00891": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00892": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00893": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00894": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00895": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  },
+  "ANA-00896": {
+    "module": "Module 1: Wave Shaping & Clippers/Clampers",
+    "bloom": "Analyze"
+  },
+  "ANA-00897": {
+    "module": "Module 2: Rectifiers & Power Supplies",
+    "bloom": "Analyze"
+  },
+  "ANA-00898": {
+    "module": "Module 3: Analog Active & Passive Filters",
+    "bloom": "Analyze"
+  },
+  "ANA-00899": {
+    "module": "Module 4: RC/RL Transients & RLC Resonance",
+    "bloom": "Analyze"
+  },
+  "ANA-00900": {
+    "module": "Module 5: Multivibrators & Waveform Generators",
+    "bloom": "Analyze"
+  }
+}

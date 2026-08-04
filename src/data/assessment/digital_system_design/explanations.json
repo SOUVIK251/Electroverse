@@ -1,0 +1,3602 @@
+{
+  "DIG-00001": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00002": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00003": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00004": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00005": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00006": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00007": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00008": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00009": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00010": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00011": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00012": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00013": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00014": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00015": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00016": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00017": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00018": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00019": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00020": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00021": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00022": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00023": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00024": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00025": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00026": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00027": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00028": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00029": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00030": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00031": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00032": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00033": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00034": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00035": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00036": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00037": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00038": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00039": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00040": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00041": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00042": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00043": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00044": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00045": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00046": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00047": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00048": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00049": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00050": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00051": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00052": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00053": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00054": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00055": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00056": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00057": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00058": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00059": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00060": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00061": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00062": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00063": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00064": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00065": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00066": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00067": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00068": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00069": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00070": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00071": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00072": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00073": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00074": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00075": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00076": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00077": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00078": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00079": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00080": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00081": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00082": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00083": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00084": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00085": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00086": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00087": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00088": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00089": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00090": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00091": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00092": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00093": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00094": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00095": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00096": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00097": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00098": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00099": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00100": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00101": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00102": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00103": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00104": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00105": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00106": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00107": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00108": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00109": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00110": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00111": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00112": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00113": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00114": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00115": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00116": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00117": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00118": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00119": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00120": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00121": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00122": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00123": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00124": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00125": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00126": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00127": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00128": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00129": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00130": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00131": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00132": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00133": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00134": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00135": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00136": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00137": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00138": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00139": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00140": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00141": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00142": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00143": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00144": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00145": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00146": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00147": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00148": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00149": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00150": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00151": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00152": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00153": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00154": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00155": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00156": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00157": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00158": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00159": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00160": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00161": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00162": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00163": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00164": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00165": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00166": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00167": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00168": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00169": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00170": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00171": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00172": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00173": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00174": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00175": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00176": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00177": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00178": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00179": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00180": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00181": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00182": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00183": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00184": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00185": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00186": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00187": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00188": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00189": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00190": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00191": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00192": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00193": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00194": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00195": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00196": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00197": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00198": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00199": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00200": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00201": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00202": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00203": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00204": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00205": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00206": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00207": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00208": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00209": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00210": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00211": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00212": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00213": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00214": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00215": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00216": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00217": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00218": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00219": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00220": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00221": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00222": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00223": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00224": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00225": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00226": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00227": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00228": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00229": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00230": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00231": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00232": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00233": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00234": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00235": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00236": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00237": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00238": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00239": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00240": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00241": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00242": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00243": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00244": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00245": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00246": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00247": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00248": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00249": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00250": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00251": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00252": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00253": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00254": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00255": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00256": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00257": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00258": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00259": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00260": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00261": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00262": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00263": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00264": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00265": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00266": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00267": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00268": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00269": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00270": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00271": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00272": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00273": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00274": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00275": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00276": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00277": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00278": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00279": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00280": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00281": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00282": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00283": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00284": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00285": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00286": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00287": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00288": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00289": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00290": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00291": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00292": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00293": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00294": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00295": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00296": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00297": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00298": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00299": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00300": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00301": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00302": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00303": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00304": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00305": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00306": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00307": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00308": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00309": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00310": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00311": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00312": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00313": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00314": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00315": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00316": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00317": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00318": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00319": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00320": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00321": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00322": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00323": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00324": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00325": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00326": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00327": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00328": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00329": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00330": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00331": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00332": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00333": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00334": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00335": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00336": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00337": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00338": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00339": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00340": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00341": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00342": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00343": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00344": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00345": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00346": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00347": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00348": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00349": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00350": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00351": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00352": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00353": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00354": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00355": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00356": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00357": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00358": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00359": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00360": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00361": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00362": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00363": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00364": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00365": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00366": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00367": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00368": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00369": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00370": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00371": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00372": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00373": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00374": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00375": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00376": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00377": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00378": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00379": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00380": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00381": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00382": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00383": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00384": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00385": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00386": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00387": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00388": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00389": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00390": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00391": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00392": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00393": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00394": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00395": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00396": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00397": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00398": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00399": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00400": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00401": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00402": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00403": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00404": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00405": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00406": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00407": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00408": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00409": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00410": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00411": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00412": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00413": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00414": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00415": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00416": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00417": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00418": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00419": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00420": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00421": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00422": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00423": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00424": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00425": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00426": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00427": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00428": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00429": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00430": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00431": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00432": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00433": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00434": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00435": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00436": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00437": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00438": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00439": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00440": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00441": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00442": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00443": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00444": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00445": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00446": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00447": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00448": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00449": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00450": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00451": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00452": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00453": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00454": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00455": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00456": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00457": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00458": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00459": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00460": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00461": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00462": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00463": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00464": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00465": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00466": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00467": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00468": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00469": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00470": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00471": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00472": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00473": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00474": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00475": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00476": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00477": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00478": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00479": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00480": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00481": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00482": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00483": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00484": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00485": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00486": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00487": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00488": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00489": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00490": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00491": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00492": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00493": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00494": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00495": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00496": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00497": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00498": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00499": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00500": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00501": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00502": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00503": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00504": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00505": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00506": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00507": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00508": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00509": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00510": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00511": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00512": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00513": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00514": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00515": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00516": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00517": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00518": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00519": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00520": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00521": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00522": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00523": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00524": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00525": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00526": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00527": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00528": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00529": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00530": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00531": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00532": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00533": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00534": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00535": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00536": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00537": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00538": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00539": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00540": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00541": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00542": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00543": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00544": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00545": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00546": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00547": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00548": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00549": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00550": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00551": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00552": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00553": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00554": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00555": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00556": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00557": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00558": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00559": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00560": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00561": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00562": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00563": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00564": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00565": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00566": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00567": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00568": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00569": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00570": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00571": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00572": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00573": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00574": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00575": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00576": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00577": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00578": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00579": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00580": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00581": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00582": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00583": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00584": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00585": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00586": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00587": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00588": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00589": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00590": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00591": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00592": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00593": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00594": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00595": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00596": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00597": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00598": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00599": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00600": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00601": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00602": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00603": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00604": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00605": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00606": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00607": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00608": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00609": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00610": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00611": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00612": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00613": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00614": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00615": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00616": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00617": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00618": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00619": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00620": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00621": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00622": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00623": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00624": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00625": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00626": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00627": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00628": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00629": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00630": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00631": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00632": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00633": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00634": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00635": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00636": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00637": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00638": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00639": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00640": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00641": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00642": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00643": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00644": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00645": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00646": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00647": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00648": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00649": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00650": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00651": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00652": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00653": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00654": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00655": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00656": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00657": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00658": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00659": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00660": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00661": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00662": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00663": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00664": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00665": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00666": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00667": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00668": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00669": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00670": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00671": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00672": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00673": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00674": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00675": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00676": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00677": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00678": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00679": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00680": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00681": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00682": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00683": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00684": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00685": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00686": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00687": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00688": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00689": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00690": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00691": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00692": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00693": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00694": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00695": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00696": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00697": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00698": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00699": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00700": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00701": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00702": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00703": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00704": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00705": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00706": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00707": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00708": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00709": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00710": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00711": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00712": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00713": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00714": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00715": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00716": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00717": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00718": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00719": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00720": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00721": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00722": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00723": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00724": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00725": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00726": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00727": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00728": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00729": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00730": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00731": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00732": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00733": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00734": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00735": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00736": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00737": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00738": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00739": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00740": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00741": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00742": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00743": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00744": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00745": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00746": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00747": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00748": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00749": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00750": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00751": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00752": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00753": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00754": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00755": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00756": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00757": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00758": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00759": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00760": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00761": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00762": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00763": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00764": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00765": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00766": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00767": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00768": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00769": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00770": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00771": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00772": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00773": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00774": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00775": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00776": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00777": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00778": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00779": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00780": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00781": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00782": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00783": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00784": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00785": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00786": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00787": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00788": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00789": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00790": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00791": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00792": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00793": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00794": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00795": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00796": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00797": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00798": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00799": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00800": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00801": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00802": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00803": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00804": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00805": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00806": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00807": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00808": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00809": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00810": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00811": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00812": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00813": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00814": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00815": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00816": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00817": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00818": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00819": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00820": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00821": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00822": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00823": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00824": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00825": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00826": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00827": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00828": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00829": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00830": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00831": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00832": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00833": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00834": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00835": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00836": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00837": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00838": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00839": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00840": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00841": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00842": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00843": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00844": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00845": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00846": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00847": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00848": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00849": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00850": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00851": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00852": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00853": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00854": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00855": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00856": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00857": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00858": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00859": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00860": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00861": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00862": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00863": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00864": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00865": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00866": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00867": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00868": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00869": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00870": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00871": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00872": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00873": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00874": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00875": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00876": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00877": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00878": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00879": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00880": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00881": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00882": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00883": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00884": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00885": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00886": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00887": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00888": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00889": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00890": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00891": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00892": {
+    "explanation": "For Introduction, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00893": {
+    "explanation": "For Number Systems, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00894": {
+    "explanation": "For Boolean Algebra, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00895": {
+    "explanation": "For Logic Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00896": {
+    "explanation": "For Universal Gates, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00897": {
+    "explanation": "For Combinational Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00898": {
+    "explanation": "For Sequential Circuits, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00899": {
+    "explanation": "For ICs & Breadboard, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  },
+  "DIG-00900": {
+    "explanation": "For Applications, applying Boolean reduction yields output HIGH (1).",
+    "formula": "Y = A \\cdot B + \\bar{A} \\cdot \\bar{B}"
+  }
+}

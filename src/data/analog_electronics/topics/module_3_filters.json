@@ -1,0 +1,333 @@
+{
+  "topics": {
+    "rc_low_pass": {
+      "title": "RC Low Pass Filter",
+      "category": "Module 3: Analog Active & Passive Filters",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of RC Low Pass Filter in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for RC Low Pass Filter: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, RC Low Pass Filter is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for RC Low Pass Filter.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under RC Low Pass Filter is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for RC Low Pass Filter yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for RC Low Pass Filter.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "rc_high_pass": {
+      "title": "RC High Pass Filter",
+      "category": "Module 3: Analog Active & Passive Filters",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of RC High Pass Filter in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for RC High Pass Filter: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, RC High Pass Filter is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for RC High Pass Filter.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under RC High Pass Filter is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for RC High Pass Filter yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for RC High Pass Filter.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "rl_low_pass": {
+      "title": "RL Low Pass Filter",
+      "category": "Module 3: Analog Active & Passive Filters",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of RL Low Pass Filter in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for RL Low Pass Filter: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, RL Low Pass Filter is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for RL Low Pass Filter.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under RL Low Pass Filter is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for RL Low Pass Filter yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for RL Low Pass Filter.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "rl_high_pass": {
+      "title": "RL High Pass Filter",
+      "category": "Module 3: Analog Active & Passive Filters",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of RL High Pass Filter in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for RL High Pass Filter: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, RL High Pass Filter is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for RL High Pass Filter.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under RL High Pass Filter is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for RL High Pass Filter yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for RL High Pass Filter.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "band_pass_filter": {
+      "title": "Band Pass Filter",
+      "category": "Module 3: Analog Active & Passive Filters",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Band Pass Filter in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Band Pass Filter: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Band Pass Filter is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Band Pass Filter.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Band Pass Filter is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Band Pass Filter yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Band Pass Filter.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "band_reject_filter": {
+      "title": "Band Reject (Band Stop) Filter",
+      "category": "Module 3: Analog Active & Passive Filters",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Band Reject (Band Stop) Filter in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Band Reject (Band Stop) Filter: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Band Reject (Band Stop) Filter is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Band Reject (Band Stop) Filter.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Band Reject (Band Stop) Filter is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Band Reject (Band Stop) Filter yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Band Reject (Band Stop) Filter.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "all_pass_filter": {
+      "title": "All Pass Filter",
+      "category": "Module 3: Analog Active & Passive Filters",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of All Pass Filter in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for All Pass Filter: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, All Pass Filter is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for All Pass Filter.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under All Pass Filter is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for All Pass Filter yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for All Pass Filter.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    }
+  }
+}

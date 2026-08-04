@@ -83,10 +83,8 @@
     ],
     "references": "Littelfuse Varistor Products Catalog; IEC 61643-331 surge protective components standards.",
     "images": {
-        "real_photo": "",
-        "symbol": "",
-        "pin_diagram": "",
-        "internal_structure": "",
-        "example_circuit": ""
+        "real_photo": "assets/components/mov/real_photo.png",
+        "symbol": "assets/components/mov/symbol.png",
+        "internal_structure": "assets/components/mov/internal_structure.png"
     }
 }

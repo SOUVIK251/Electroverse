@@ -1,0 +1,192 @@
+{
+  "topics": {
+    "rc_transient": {
+      "title": "RC Charging & Discharging Transient",
+      "category": "Module 4: RC/RL Transients & RLC Resonance",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of RC Charging & Discharging Transient in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for RC Charging & Discharging Transient: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, RC Charging & Discharging Transient is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for RC Charging & Discharging Transient.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under RC Charging & Discharging Transient is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for RC Charging & Discharging Transient yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for RC Charging & Discharging Transient.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "rl_transient": {
+      "title": "RL Transient Response",
+      "category": "Module 4: RC/RL Transients & RLC Resonance",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of RL Transient Response in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for RL Transient Response: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, RL Transient Response is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for RL Transient Response.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under RL Transient Response is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for RL Transient Response yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for RL Transient Response.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "series_rlc_resonance": {
+      "title": "Series RLC Resonance",
+      "category": "Module 4: RC/RL Transients & RLC Resonance",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Series RLC Resonance in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Series RLC Resonance: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Series RLC Resonance is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Series RLC Resonance.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Series RLC Resonance is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Series RLC Resonance yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Series RLC Resonance.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    },
+    "parallel_rlc_resonance": {
+      "title": "Parallel RLC Resonance",
+      "category": "Module 4: RC/RL Transients & RLC Resonance",
+      "read_time": "8 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "has_problem_solving": true,
+      "summary": "Comprehensive engineering analysis of Parallel RLC Resonance in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Parallel RLC Resonance: Always analyze diode conduction state for both positive and negative half-cycles!",
+      "theory": "In analog circuit design, Parallel RLC Resonance is essential for signal processing, wave shaping, transient response, or frequency selection.",
+      "derivation_steps": [
+        "Step 1: Formulate differential or transfer equations for Parallel RLC Resonance.",
+        "Step 2: Apply boundary initial conditions (t = 0+ and t -> infinity).",
+        "Step 3: Derive time-domain response or frequency transfer function H(s).",
+        "Step 4: Compute critical parameters (cutoff frequency, time constant tau, ripple factor, or Q-factor)."
+      ],
+      "important_formulas": [
+        "RC Time Constant: \\tau = R \\cdot C",
+        "RL Time Constant: \\tau = L / R",
+        "Resonance Frequency: f_r = \\frac{1}{2 \\pi \\sqrt{L C}}",
+        "Filter Cutoff: f_c = \\frac{1}{2 \\pi R C}"
+      ],
+      "examples": [
+        {
+          "problem": "A circuit operating under Parallel RLC Resonance is driven by Vin = 10V peak. Calculate the output metric.",
+          "solution": "Applying standard circuit transfer analysis for Parallel RLC Resonance yields Vout = 8.6V at the operating point."
+        }
+      ],
+      "common_mistakes": [
+        "Neglecting diode forward voltage drop (0.7V for Silicon) in precision clippers.",
+        "Confusing series vs parallel RLC resonance quality factor equations."
+      ],
+      "professor_notes": "Professor's Tip: Observe the physical relationship between time-domain response and frequency Bode magnitude plots for Parallel RLC Resonance.",
+      "career_applications": [
+        "Audio Equalizers & Preamplifiers",
+        "Radio Frequency (RF) Tuners & Communication Receivers",
+        "Power Supply Switched-Mode Regulators",
+        "Automotive Radar & Medical Signal Processors"
+      ],
+      "related_topics": [
+        "pos_series_clipper",
+        "bridge_rectifier",
+        "rc_low_pass",
+        "rc_transient",
+        "series_rlc_resonance"
+      ]
+    }
+  }
+}

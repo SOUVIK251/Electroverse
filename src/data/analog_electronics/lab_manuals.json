@@ -1,0 +1,42 @@
+{
+  "experiments": [
+    {
+      "id": "exp_analog_master",
+      "title": "Master Analog Electronics Laboratory Experiments",
+      "aim": "To experimentally observe and analyze Wave Shaping, Rectifiers, Active/Passive Filters, Transients, and RLC Resonance.",
+      "components": [
+        "Function Generator",
+        "Oscilloscope Probe",
+        "Diodes (1N4007)",
+        "DC Power Supply",
+        "Resistors, Capacitors, Inductors"
+      ],
+      "procedure": [
+        "1. Connect the circuit under test on the breadboard or simulation workspace.",
+        "2. Adjust input function generator signal shape (Sine, Square, Triangle), amplitude, and frequency.",
+        "3. Observe time-domain input vs output waveforms or frequency Bode magnitude/phase plots.",
+        "4. Measure cutoff frequency, time constant tau, ripple factor, and quality factor Q."
+      ],
+      "observation_table_headers": [
+        "Vin Peak (V)",
+        "Frequency (Hz)",
+        "Vout Peak (V)",
+        "Gain (dB)",
+        "Calculated Metric"
+      ],
+      "sample_data": [
+        [
+          "10.0",
+          "1000",
+          "7.07",
+          "-3.01 dB",
+          "fc = 1.0 kHz"
+        ]
+      ],
+      "precautions": [
+        "Verify component polarity (diodes and electrolytic capacitors) before applying power.",
+        "Ensure oscilloscope channels share a common ground reference."
+      ]
+    }
+  ]
+}

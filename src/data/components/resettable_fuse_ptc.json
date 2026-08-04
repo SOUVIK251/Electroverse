@@ -83,10 +83,8 @@
     ],
     "references": "Littelfuse PolySwitch PPTC selection guide; Bourns Multifuse series datasheets.",
     "images": {
-        "real_photo": "",
-        "symbol": "",
-        "pin_diagram": "",
-        "internal_structure": "",
-        "example_circuit": ""
+        "real_photo": "assets/components/resettable_fuse_ptc/real_photo.png",
+        "symbol": "assets/components/resettable_fuse_ptc/symbol.png",
+        "internal_structure": "assets/components/resettable_fuse_ptc/internal_structure.png"
     }
 }

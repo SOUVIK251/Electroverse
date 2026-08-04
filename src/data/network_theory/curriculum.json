@@ -1,0 +1,271 @@
+{
+  "modules": [
+    {
+      "id": "mod_1_fundamentals",
+      "title": "Module 1: Fundamentals",
+      "file": "module_1_fundamentals.json",
+      "icon": "fa5s.atom",
+      "topics": [
+        {
+          "id": "charge_current",
+          "title": "Electric Charge & Current",
+          "file": "module_1_fundamentals.json",
+          "has_simulation": false,
+          "has_problem_solving": false
+        },
+        {
+          "id": "voltage_power",
+          "title": "Voltage, Power & Energy",
+          "file": "module_1_fundamentals.json",
+          "has_simulation": false,
+          "has_problem_solving": false
+        },
+        {
+          "id": "passive_active",
+          "title": "Passive & Active Elements",
+          "file": "module_1_fundamentals.json",
+          "has_simulation": false,
+          "has_problem_solving": false
+        },
+        {
+          "id": "sources",
+          "title": "Independent & Dependent Sources",
+          "file": "module_1_fundamentals.json",
+          "has_simulation": false,
+          "has_problem_solving": false
+        }
+      ]
+    },
+    {
+      "id": "mod_2_basic_laws",
+      "title": "Module 2: Basic Laws",
+      "file": "module_2_basic_laws.json",
+      "icon": "fa5s.balance-scale",
+      "topics": [
+        {
+          "id": "ohms_law",
+          "title": "Ohm's Law & Resistance",
+          "file": "module_2_basic_laws.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "kcl",
+          "title": "Kirchhoff's Current Law (KCL)",
+          "file": "module_2_basic_laws.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "kvl",
+          "title": "Kirchhoff's Voltage Law (KVL)",
+          "file": "module_2_basic_laws.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "dividers",
+          "title": "Voltage & Current Dividers",
+          "file": "module_2_basic_laws.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        }
+      ]
+    },
+    {
+      "id": "mod_3_circuit_analysis",
+      "title": "Module 3: Circuit Analysis",
+      "file": "module_3_circuit_analysis.json",
+      "icon": "fa5s.project-diagram",
+      "topics": [
+        {
+          "id": "series_parallel",
+          "title": "Series & Parallel Resistors",
+          "file": "module_3_circuit_analysis.json",
+          "has_simulation": false,
+          "has_problem_solving": false
+        },
+        {
+          "id": "delta_wye",
+          "title": "Delta-Wye (Y-Delta) Transformation",
+          "file": "module_3_circuit_analysis.json",
+          "has_simulation": false,
+          "has_problem_solving": true
+        },
+        {
+          "id": "bridge_circuits",
+          "title": "Bridge Networks & Equilibrium",
+          "file": "module_3_circuit_analysis.json",
+          "has_simulation": false,
+          "has_problem_solving": true
+        }
+      ]
+    },
+    {
+      "id": "mod_4_techniques",
+      "title": "Module 4: Analysis Techniques",
+      "file": "module_4_techniques.json",
+      "icon": "fa5s.calculator",
+      "topics": [
+        {
+          "id": "mesh_analysis",
+          "title": "Mesh Current Analysis",
+          "file": "module_4_techniques.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "nodal_analysis",
+          "title": "Nodal Voltage Analysis",
+          "file": "module_4_techniques.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "source_transform",
+          "title": "Source Transformation",
+          "file": "module_4_techniques.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        }
+      ]
+    },
+    {
+      "id": "mod_5_theorems",
+      "title": "Module 5: Network Theorems",
+      "file": "module_5_theorems.json",
+      "icon": "fa5s.award",
+      "topics": [
+        {
+          "id": "superposition",
+          "title": "Superposition Theorem",
+          "file": "module_5_theorems.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "thevenin",
+          "title": "Thevenin's Theorem",
+          "file": "module_5_theorems.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "norton",
+          "title": "Norton's Theorem",
+          "file": "module_5_theorems.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "max_power",
+          "title": "Maximum Power Transfer Theorem",
+          "file": "module_5_theorems.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "reciprocity",
+          "title": "Reciprocity & Millman's Theorems",
+          "file": "module_5_theorems.json",
+          "has_simulation": false,
+          "has_problem_solving": true
+        }
+      ]
+    },
+    {
+      "id": "mod_6_ac_analysis",
+      "title": "Module 6: AC Network Analysis",
+      "file": "module_6_ac_analysis.json",
+      "icon": "fa5s.wave-square",
+      "topics": [
+        {
+          "id": "sinusoids_phasors",
+          "title": "Sinusoids & Phasors",
+          "file": "module_6_ac_analysis.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "impedance",
+          "title": "Impedance & Admittance",
+          "file": "module_6_ac_analysis.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "ac_power",
+          "title": "AC Power & Power Triangle",
+          "file": "module_6_ac_analysis.json",
+          "has_simulation": false,
+          "has_problem_solving": true
+        },
+        {
+          "id": "resonance",
+          "title": "Series & Parallel Resonance",
+          "file": "module_6_ac_analysis.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        }
+      ]
+    },
+    {
+      "id": "mod_7_filters",
+      "title": "Module 7: Filters",
+      "file": "module_7_filters.json",
+      "icon": "fa5s.filter",
+      "topics": [
+        {
+          "id": "rc_filters",
+          "title": "RC Low Pass & High Pass Filters",
+          "file": "module_7_filters.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "rl_filters",
+          "title": "RL Filters & Frequency Response",
+          "file": "module_7_filters.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        },
+        {
+          "id": "band_filters",
+          "title": "Band Pass & Band Stop Filters",
+          "file": "module_7_filters.json",
+          "has_simulation": true,
+          "has_problem_solving": true
+        }
+      ]
+    },
+    {
+      "id": "mod_8_applications",
+      "title": "Module 8: Applications",
+      "file": "module_8_applications.json",
+      "icon": "fa5s.microchip",
+      "topics": [
+        {
+          "id": "power_systems",
+          "title": "Electrical Power Systems",
+          "file": "module_8_applications.json",
+          "has_simulation": false,
+          "has_problem_solving": false
+        },
+        {
+          "id": "audio_biomedical",
+          "title": "Audio & Biomedical Circuits",
+          "file": "module_8_applications.json",
+          "has_simulation": false,
+          "has_problem_solving": false
+        },
+        {
+          "id": "control_robotics",
+          "title": "Control Systems & Robotics",
+          "file": "module_8_applications.json",
+          "has_simulation": false,
+          "has_problem_solving": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+[
+  {
+    "id": "app_overview",
+    "title": "Engineering Applications Overview",
+    "category": "Applications",
+    "summary": "Signals & Systems theory powers modern digital communication, medical imaging, control systems, and speech AI.",
+    "path": "module_10_applications.json#app_overview"
+  },
+  {
+    "id": "sig_def",
+    "title": "Signal Definition & Classification",
+    "category": "Fundamentals",
+    "summary": "A signal is a physical function carrying information about the state or behavior of a physical system.",
+    "path": "module_1_introduction.json#sig_def"
+  },
+  {
+    "id": "sig_energy_power",
+    "title": "Energy & Power Signals",
+    "category": "Signal Metrics",
+    "summary": "Signals are classified as Energy signals or Power signals based on their total energy E and average power P.",
+    "path": "module_1_introduction.json#sig_energy_power"
+  },
+  {
+    "id": "sig_elementary",
+    "title": "Unit Step, Impulse, Ramp & Signum Function",
+    "category": "Elementary Signals",
+    "summary": "Elementary signals serve as basic building blocks for constructing complex signals and testing system responses.",
+    "path": "module_1_introduction.json#sig_elementary"
+  },
+  {
+    "id": "op_time_shift",
+    "title": "Time Shifting",
+    "category": "Operations",
+    "summary": "Time shifting delays or advances a signal in time: x(t - t0) delays right, x(t + t0) advances left.",
+    "path": "module_2_operations.json#op_time_shift"
+  },
+  {
+    "id": "op_time_scale",
+    "title": "Time Scaling & Folding",
+    "category": "Operations",
+    "summary": "Time scaling compresses or expands a signal: x(at) compresses if a > 1, expands if 0 < a < 1. Time folding reflects across y-axis: x(-t).",
+    "path": "module_2_operations.json#op_time_scale"
+  },
+  {
+    "id": "op_decomposition",
+    "title": "Signal Decomposition (Even & Odd Parts)",
+    "category": "Decomposition",
+    "summary": "Any arbitrary real signal x(t) can be uniquely decomposed into an even symmetric part x_e(t) and an odd antisymmetric part x_o(t).",
+    "path": "module_2_operations.json#op_decomposition"
+  },
+  {
+    "id": "sys_linear",
+    "title": "Linearity (Superposition & Homogeneity)",
+    "category": "System Properties",
+    "summary": "A system is linear if it satisfies both Superposition (Additivity) and Homogeneity (Scaling).",
+    "path": "module_3_systems.json#sys_linear"
+  },
+  {
+    "id": "sys_time_inv",
+    "title": "Time Invariance (TIV vs TV)",
+    "category": "System Properties",
+    "summary": "A system is Time Invariant if a time shift in the input produces an identical time shift in the output.",
+    "path": "module_3_systems.json#sys_time_inv"
+  },
+  {
+    "id": "sys_stability",
+    "title": "BIBO Stability & Causality",
+    "category": "System Properties",
+    "summary": "BIBO Stability requires every Bounded Input to produce a Bounded Output. Causality requires output to depend only on present and past inputs.",
+    "path": "module_3_systems.json#sys_stability"
+  },
+  {
+    "id": "conv_ct",
+    "title": "Continuous-Time Convolution Integral",
+    "category": "LTI Analysis",
+    "summary": "Convolution describes the response y(t) of a continuous-time LTI system to any arbitrary input x(t) using its impulse response h(t).",
+    "path": "module_4_convolution.json#conv_ct"
+  },
+  {
+    "id": "conv_dt",
+    "title": "Discrete-Time Convolution Sum",
+    "category": "LTI Analysis",
+    "summary": "Discrete-time convolution calculates the output y[n] of a discrete LTI system as y[n] = sum_k x[k] h[n - k].",
+    "path": "module_4_convolution.json#conv_dt"
+  },
+  {
+    "id": "fs_trig",
+    "title": "Trigonometric Fourier Series",
+    "category": "Fourier Analysis",
+    "summary": "Represents any periodic signal x(t) with fundamental period T0 as a sum of DC, sines, and cosines.",
+    "path": "module_5_fourier_series.json#fs_trig"
+  },
+  {
+    "id": "ft_ctft",
+    "title": "Continuous-Time Fourier Transform (CTFT)",
+    "category": "Frequency Analysis",
+    "summary": "Extends Fourier Analysis to aperiodic signals, mapping time-domain x(t) to frequency spectrum X(w).",
+    "path": "module_6_fourier_transform.json#ft_ctft"
+  },
+  {
+    "id": "lt_def",
+    "title": "Laplace Transform & ROC",
+    "category": "s-Domain Analysis",
+    "summary": "Generalizes Fourier transform using s = sigma + j w to analyze unstable signals and LTI differential equations.",
+    "path": "module_7_laplace_transform.json#lt_def"
+  },
+  {
+    "id": "zt_def",
+    "title": "Z-Transform & z-Plane ROC",
+    "category": "z-Domain Analysis",
+    "summary": "The discrete-time counterpart of the Laplace Transform, mapping x[n] to the complex z-plane (z = r e^(j w)).",
+    "path": "module_8_z_transform.json#zt_def"
+  },
+  {
+    "id": "samp_nyquist",
+    "title": "Nyquist-Shannon Sampling Theorem & Aliasing",
+    "category": "Sampling & DSP",
+    "summary": "Establishes the minimum sampling rate required to convert a continuous signal to discrete samples without loss of information.",
+    "path": "module_9_sampling.json#samp_nyquist"
+  }
+]

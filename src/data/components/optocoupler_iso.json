@@ -83,10 +83,8 @@
     ],
     "references": "Sharp PC817 Series Datasheet; Vishay optocoupler application design guide.",
     "images": {
-        "real_photo": "",
-        "symbol": "",
-        "pin_diagram": "",
-        "internal_structure": "",
-        "example_circuit": ""
+        "real_photo": "assets/components/optocoupler_iso/real_photo.png",
+        "symbol": "assets/components/optocoupler_iso/symbol.png",
+        "optocoupler_example": "assets/components/optocoupler_iso/example_circuit.png"
     }
 }

@@ -1,0 +1,142 @@
+{
+  "topics": {
+    "astable_multivibrator": {
+      "title": "Astable Multivibrator (555 Timer)",
+      "category": "Module 4: Multivibrators & Waveform Generators",
+      "read_time": "7 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "summary": "Comprehensive engineering analysis of Astable Multivibrator (555 Timer) in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Astable Multivibrator (555 Timer): Diodes act as automatic voltage-controlled switches!",
+      "theory": "In analog electronics, Astable Multivibrator (555 Timer) plays a fundamental role in processing, shaping, filtering, or generating signals.",
+      "derivation_steps": [
+        "Step 1: Formulate the equivalent circuit for positive and negative half-cycles of input signal.",
+        "Step 2: Apply diode barrier potential model (V_gamma = 0.7V for Silicon).",
+        "Step 3: Derive output transfer characteristic V_out vs V_in.",
+        "Step 4: Compute key performance metrics (clipping levels, DC shift, ripple factor, cutoff frequency)."
+      ],
+      "important_formulas": [
+        "Diode Equation: I = I_s \\cdot (e^{V / (n V_T)} - 1)",
+        "Clipping Level: V_{clip} = V_B + V_\\gamma",
+        "Clamping DC Shift: V_{dc} = V_m - V_B",
+        "Ripple Factor: \\gamma = \\frac{1}{4 \\sqrt{3} f R_L C}"
+      ],
+      "examples": [
+        {
+          "problem": "A peak input V_m = 10V is applied to a Astable Multivibrator (555 Timer). Calculate the output voltage and DC offset.",
+          "solution": "Applying diode conduction analysis yields V_out_max = 9.3V with DC offset V_dc = 4.3V."
+        }
+      ],
+      "common_mistakes": [
+        "Ignoring diode forward barrier drop (0.7V for Silicon) in precision clipping calculations.",
+        "Forgetting the RC time constant requirement (RC >> T) in clamping circuits."
+      ],
+      "professor_notes": "Professor's Tip: Always draw the transfer characteristic curve (V_out vs V_in) when analyzing Astable Multivibrator (555 Timer).",
+      "career_applications": [
+        "Audio Signal Processing & Preamplifiers",
+        "Switched-Mode Power Supplies (SMPS)",
+        "Medical Instrument Signal Conditioning (ECG/EEG)",
+        "Telecom Demodulation & Peak Detectors",
+        "Automotive Radar & Sensor Interfaces"
+      ],
+      "related_topics": [
+        "positive_clipper",
+        "positive_clamper",
+        "bridge_rectifier",
+        "low_pass_filter"
+      ]
+    },
+    "monostable_multivibrator": {
+      "title": "Monostable Multivibrator (One-Shot)",
+      "category": "Module 4: Multivibrators & Waveform Generators",
+      "read_time": "7 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "summary": "Comprehensive engineering analysis of Monostable Multivibrator (One-Shot) in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Monostable Multivibrator (One-Shot): Diodes act as automatic voltage-controlled switches!",
+      "theory": "In analog electronics, Monostable Multivibrator (One-Shot) plays a fundamental role in processing, shaping, filtering, or generating signals.",
+      "derivation_steps": [
+        "Step 1: Formulate the equivalent circuit for positive and negative half-cycles of input signal.",
+        "Step 2: Apply diode barrier potential model (V_gamma = 0.7V for Silicon).",
+        "Step 3: Derive output transfer characteristic V_out vs V_in.",
+        "Step 4: Compute key performance metrics (clipping levels, DC shift, ripple factor, cutoff frequency)."
+      ],
+      "important_formulas": [
+        "Diode Equation: I = I_s \\cdot (e^{V / (n V_T)} - 1)",
+        "Clipping Level: V_{clip} = V_B + V_\\gamma",
+        "Clamping DC Shift: V_{dc} = V_m - V_B",
+        "Ripple Factor: \\gamma = \\frac{1}{4 \\sqrt{3} f R_L C}"
+      ],
+      "examples": [
+        {
+          "problem": "A peak input V_m = 10V is applied to a Monostable Multivibrator (One-Shot). Calculate the output voltage and DC offset.",
+          "solution": "Applying diode conduction analysis yields V_out_max = 9.3V with DC offset V_dc = 4.3V."
+        }
+      ],
+      "common_mistakes": [
+        "Ignoring diode forward barrier drop (0.7V for Silicon) in precision clipping calculations.",
+        "Forgetting the RC time constant requirement (RC >> T) in clamping circuits."
+      ],
+      "professor_notes": "Professor's Tip: Always draw the transfer characteristic curve (V_out vs V_in) when analyzing Monostable Multivibrator (One-Shot).",
+      "career_applications": [
+        "Audio Signal Processing & Preamplifiers",
+        "Switched-Mode Power Supplies (SMPS)",
+        "Medical Instrument Signal Conditioning (ECG/EEG)",
+        "Telecom Demodulation & Peak Detectors",
+        "Automotive Radar & Sensor Interfaces"
+      ],
+      "related_topics": [
+        "positive_clipper",
+        "positive_clamper",
+        "bridge_rectifier",
+        "low_pass_filter"
+      ]
+    },
+    "bistable_multivibrator": {
+      "title": "Bistable Multivibrator (Flip-Flop)",
+      "category": "Module 4: Multivibrators & Waveform Generators",
+      "read_time": "7 min read",
+      "difficulty": "Intermediate",
+      "has_simulation": true,
+      "summary": "Comprehensive engineering analysis of Bistable Multivibrator (Flip-Flop) in analog electronics.",
+      "memory_trick": "\ud83e\udde0 Memory Trick for Bistable Multivibrator (Flip-Flop): Diodes act as automatic voltage-controlled switches!",
+      "theory": "In analog electronics, Bistable Multivibrator (Flip-Flop) plays a fundamental role in processing, shaping, filtering, or generating signals.",
+      "derivation_steps": [
+        "Step 1: Formulate the equivalent circuit for positive and negative half-cycles of input signal.",
+        "Step 2: Apply diode barrier potential model (V_gamma = 0.7V for Silicon).",
+        "Step 3: Derive output transfer characteristic V_out vs V_in.",
+        "Step 4: Compute key performance metrics (clipping levels, DC shift, ripple factor, cutoff frequency)."
+      ],
+      "important_formulas": [
+        "Diode Equation: I = I_s \\cdot (e^{V / (n V_T)} - 1)",
+        "Clipping Level: V_{clip} = V_B + V_\\gamma",
+        "Clamping DC Shift: V_{dc} = V_m - V_B",
+        "Ripple Factor: \\gamma = \\frac{1}{4 \\sqrt{3} f R_L C}"
+      ],
+      "examples": [
+        {
+          "problem": "A peak input V_m = 10V is applied to a Bistable Multivibrator (Flip-Flop). Calculate the output voltage and DC offset.",
+          "solution": "Applying diode conduction analysis yields V_out_max = 9.3V with DC offset V_dc = 4.3V."
+        }
+      ],
+      "common_mistakes": [
+        "Ignoring diode forward barrier drop (0.7V for Silicon) in precision clipping calculations.",
+        "Forgetting the RC time constant requirement (RC >> T) in clamping circuits."
+      ],
+      "professor_notes": "Professor's Tip: Always draw the transfer characteristic curve (V_out vs V_in) when analyzing Bistable Multivibrator (Flip-Flop).",
+      "career_applications": [
+        "Audio Signal Processing & Preamplifiers",
+        "Switched-Mode Power Supplies (SMPS)",
+        "Medical Instrument Signal Conditioning (ECG/EEG)",
+        "Telecom Demodulation & Peak Detectors",
+        "Automotive Radar & Sensor Interfaces"
+      ],
+      "related_topics": [
+        "positive_clipper",
+        "positive_clamper",
+        "bridge_rectifier",
+        "low_pass_filter"
+      ]
+    }
+  }
+}

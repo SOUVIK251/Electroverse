@@ -1,0 +1,43 @@
+{
+  "experiments": [
+    {
+      "id": "exp_thevenin",
+      "title": "Verification of Thevenin's & Norton's Theorems",
+      "aim": "To experimentally determine the Thevenin equivalent voltage (V_th) and equivalent resistance (R_th) of an active linear network.",
+      "components": [
+        "DC Power Supply (0-15V)",
+        "Resistors (1k, 2.2k, 4.7k ohms)",
+        "Digital Multimeter (DMM)",
+        "Breadboard & Wires"
+      ],
+      "procedure": [
+        "1. Connect the circuit on the breadboard with V_s = 10V, R_1 = 1k, R_2 = 2.2k, R_L = 4.7k.",
+        "2. Remove load resistor R_L to measure open-circuit voltage V_oc = V_th across terminals A-B.",
+        "3. Deactivate voltage source V_s (short circuit V_s = 0V) and measure equivalent resistance R_th across A-B.",
+        "4. Connect equivalent circuit V_th in series with R_th and measure load current I_L."
+      ],
+      "observation_table_headers": [
+        "V_s (V)",
+        "V_th (Volt)",
+        "R_th (kOhm)",
+        "I_L Theory (mA)",
+        "I_L Exp (mA)",
+        "% Error"
+      ],
+      "sample_data": [
+        [
+          "10.0",
+          "6.875",
+          "0.687",
+          "1.275",
+          "1.270",
+          "0.39%"
+        ]
+      ],
+      "precautions": [
+        "Ensure DC power supply is switched OFF while wiring the circuit.",
+        "Never measure resistance with power supply connected to avoid DMM fuse blow."
+      ]
+    }
+  ]
+}
