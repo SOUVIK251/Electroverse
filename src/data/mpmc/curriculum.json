@@ -1,0 +1,135 @@
+{
+    "hub_id": "mpmc_hub",
+    "hub_title": "MICROPROCESSOR & MICROCONTROLLER HUB",
+    "subtitle": "Virtual Engineering Laboratory for Microprocessor & Embedded System Design",
+    "theme_color": "#F97316",
+    "modules": [
+        {
+            "id": "module_1",
+            "title": "Module I: Microprocessor Fundamentals (8085 & 8086)",
+            "description": "Core architecture, internal block diagrams, register sets, flags, bus systems, memory organization, interrupts, and instruction sets of 8085 and 16-bit 8086 CPUs.",
+            "topics": [
+                {
+                    "id": "m1_8085_arch",
+                    "title": "8085 Microprocessor Architecture & Pins",
+                    "summary": "8-bit CPU architecture, internal buses, ALU, 8-bit registers (A, B, C, D, E, H, L), 16-bit PC & SP, status flags (S, Z, AC, P, CY), and 40-pin DIP layout.",
+                    "theory": "The Intel 8085 is an 8-bit NMOS microprocessor operating on a single +5V power supply with an internal clock generator (3.072 MHz). It features a 16-bit address bus (A15-A0) capable of addressing 64 KB of memory, and an 8-bit multiplexed data/address bus (AD7-AD0) demultiplexed using the Address Latch Enable (ALE) signal.\n\n### Key Architectural Blocks\n1. **ALU**: Performs 8-bit arithmetic (ADD, SUB) and logic (AND, OR, XOR) operations.\n2. **Registers**: Accumulator (A), Flag Register (F), General Purpose pairs (BC, DE, HL), Program Counter (PC = 16-bit), Stack Pointer (SP = 16-bit), and Instruction Register (IR).\n3. **Interrupt System**: 5 hardware interrupts: TRAP (NMI, highest priority), RST 7.5 (edge), RST 6.5 (level), RST 5.5 (level), and INTR (vector from bus).\n4. **Serial I/O**: SID (Serial Input Data) and SOD (Serial Output Data) lines.",
+                    "formulas": "Demultiplexing ALE: A0-A7 = AD0-AD7 \\text{ latched on falling edge of ALE}. \\quad f_{CPU} = \\frac{f_{crystal}}{2}",
+                    "pinout": "Pin 40: VCC (+5V), Pin 20: GND, Pin 30: ALE, Pin 31: WR#, Pin 32: RD#, Pin 34: IO/M#, Pins 12-19: AD0-AD7, Pins 21-28: A8-A15, Pins 6-10: TRAP, RST7.5, RST6.5, RST5.5, INTR.",
+                    "has_calculator": true,
+                    "calc_type": "8085_opcode"
+                },
+                {
+                    "id": "m1_8086_arch",
+                    "title": "8086 Microprocessor Architecture & Operating Modes",
+                    "summary": "16-bit HMOS CPU featuring Bus Interface Unit (BIU), Execution Unit (EU), 6-byte instruction prefetch queue, segmented memory, Minimum Mode, and Maximum Mode.",
+                    "theory": "The Intel 8086 is a 16-bit microprocessor with a 20-bit address bus capable of accessing 1 MB (2^20 bytes) of memory. It introduces pipelining by splitting internal operations into two independent functional units: the Bus Interface Unit (BIU) and the Execution Unit (EU).\n\n### Segmented Memory Architecture\nMemory is divided into 64 KB logical segments:\n- **Code Segment (CS)**: Contains executable program instructions.\n- **Data Segment (DS)**: Contains global and static variables.\n- **Stack Segment (SS)**: Stores return addresses and local parameters.\n- **Extra Segment (ES)**: Used for string and memory block transfer destinations.\n\n$$\\text{Physical Address} = (\\text{Segment Register} \\times 16_{10}) + \\text{Offset}$$",
+                    "formulas": "\\text{Physical Address} = (\\text{Segment} \\ll 4) + \\text{Offset}",
+                    "pinout": "40-pin DIP layout. MN/MX# pin (Pin 33) selects Minimum Mode (+5V) for single-CPU systems or Maximum Mode (GND) for multi-processor coprocessor configurations with 8288 Bus Controller.",
+                    "has_calculator": true,
+                    "calc_type": "address_decoder"
+                },
+                {
+                    "id": "m1_memory_dma",
+                    "title": "Memory Organization & DMA Controller Architecture",
+                    "summary": "RAM, ROM, EPROM, Flash, DMA (Direct Memory Access) operations, 8237/8257 DMA Controllers, bus arbitration (HOLD / HLDA).",
+                    "theory": "Direct Memory Access (DMA) allows high-speed peripheral devices (disk drives, network cards) to transfer data directly to and from system RAM without CPU intervention.\n\nWhen a peripheral asserts a DMA Request (DRQ), the DMA Controller sends a HOLD signal to the CPU. Upon completing the current machine cycle, the CPU floats its address, data, and control buses, asserting Hold Acknowledge (HLDA). The DMA Controller then takes master control of the bus system to execute burst or cycle-stealing data transfers.",
+                    "formulas": "\\text{DMA Throughput} = f_{bus} \\times \\text{Bus Width (Bytes)}",
+                    "pinout": "8257/8237 40-pin IC layout with HRQ, HLDA, DREQ0-3, DACK0-3, MEMR#, MEMW#, IOR#, IOW#.",
+                    "has_calculator": true,
+                    "calc_type": "dma_calc"
+                }
+            ]
+        },
+        {
+            "id": "module_2",
+            "title": "Module II: Peripheral Interfacing & Math Coprocessors",
+            "description": "Programmable Peripheral Interface (8255), Programmable Interval Timer (8253/8254), USART (8251), ADC/DAC, Stepper Motor, LCD, Keyboard, and 8087 Numeric Coprocessor.",
+            "topics": [
+                {
+                    "id": "m2_8255_ppi",
+                    "title": "8255 Programmable Peripheral Interface (PPI)",
+                    "summary": "24 I/O pins organized into 3 8-bit ports (Port A, Port B, Port C), Mode 0 (Basic I/O), Mode 1 (Strobed I/O), Mode 2 (Bi-directional bus), and Bit Set/Reset (BSR) Mode.",
+                    "theory": "The 8255 PPI is a versatile parallel I/O interface IC. It connects directly to the 8085/8086 system bus.\n\n### Operating Modes\n- **Mode 0**: Simple input/output without handshaking for Ports A, B, and C.\n- **Mode 1**: Strobed I/O with automatic handshake signals (STB#, IBF, INTR) on Port C for Ports A and B.\n- **Mode 2**: Bi-directional 8-bit bus mode on Port A using 5 control lines from Port C.\n- **BSR Mode**: Allows individual bit setting or clearing of Port C pins using Control Word D7 = 0.",
+                    "formulas": "\\text{Control Word} = 10000000_2 \\text{ (Mode 0: All Ports Output)}",
+                    "pinout": "40-pin DIP layout with PA0-PA7, PB0-PB7, PC0-PC7, CS#, RD#, WR#, A0, A1, D0-D7.",
+                    "has_calculator": true,
+                    "calc_type": "port_calc"
+                },
+                {
+                    "id": "m2_8253_timer",
+                    "title": "8253/8254 Programmable Interval Timer",
+                    "summary": "Three independent 16-bit counters/timers, operating from DC to 10 MHz, featuring 6 software-programmable modes.",
+                    "theory": "The 8253/8254 contains 3 identical 16-bit pre-settable down-counters (Counter 0, 1, 2).\n\n### 6 Operating Modes\n1. **Mode 0**: Interrupt on Terminal Count.\n2. **Mode 1**: Hardware Retriggerable One-Shot.\n3. **Mode 2**: Rate Generator (Divide-by-N counter).\n4. **Mode 3**: Square Wave Generator (50% duty cycle).\n5. **Mode 4**: Software Triggered Strobe.\n6. **Mode 5**: Hardware Triggered Strobe.",
+                    "formulas": "f_{out} = \\frac{f_{clk}}{N}, \\quad N = \\text{16-bit Count Register Value}",
+                    "pinout": "24-pin DIP with CLK0-2, GATE0-2, OUT0-2, D0-D7, CS#, RD#, WR#, A0, A1.",
+                    "has_calculator": true,
+                    "calc_type": "timer_calc"
+                },
+                {
+                    "id": "m2_8087_coprocessor",
+                    "title": "8087 Numeric Data Processor (Math Coprocessor)",
+                    "summary": "IEEE 754 floating-point arithmetic coprocessor tightly coupled with 8086 CPU via BUSY, QS0/QS1, and TEST# status lines.",
+                    "theory": "The Intel 8087 Numeric Data Processor (NDP) extends the 8086 architecture by adding 80-bit floating-point registers (ST(0) to ST(7)) and hardware support for IEEE 754 single, double, and extended precision floating-point arithmetic, square root, log, and trigonometric functions.\n\nIt monitors the 8086 instruction stream via queue status pins (QS0, QS1). When an ESC instruction is fetched, the 8087 executes the floating-point calculation while the 8086 continues concurrent instruction execution.",
+                    "formulas": "\\text{IEEE 754 Single Precision} = (-1)^S \\times 1.M \\times 2^{E - 127}",
+                    "pinout": "40-pin DIP pinout sharing multiplexed address/data bus AD0-AD15 and status lines with 8086.",
+                    "has_calculator": false
+                }
+            ]
+        },
+        {
+            "id": "module_3",
+            "title": "Module III: Advanced Processors & 8051 Microcontroller",
+            "description": "Intel 80286 to Pentium protected mode, pipelining, cache structures, MMU, and complete 8051 microcontroller architecture & instruction set.",
+            "topics": [
+                {
+                    "id": "m3_advanced_cpu",
+                    "title": "Advanced X86 Architectures (80286 to Pentium)",
+                    "summary": "Real mode vs Protected mode, 32-bit paging, virtual memory, L1/L2 caches, dual superscalar execution pipelines (U & V pipes).",
+                    "theory": "As x86 processors evolved from the 16-bit 80286 to 32-bit 80386, 80486, and Pentium processors, hardware memory protection, virtual memory paging, and superscalar instruction execution were introduced.\n\n### Key Milestones\n- **80286**: Introduced Protected Mode with 24-bit address bus (16 MB RAM) and descriptor tables (GDT/LDT).\n- **80386**: 32-bit CPU with 4 GB address space, Virtual 8086 mode, and 4 KB Paging MMU.\n- **80486**: On-chip 8 KB L1 Unified Cache, integrated 80387 FPU, and 5-stage instruction pipeline.\n- **Pentium**: Dual 32-bit superscalar pipelines (U-pipe and V-pipe), 64-bit data bus, and split 8KB Instruction / 8KB Data L1 Caches.",
+                    "formulas": "\\text{Throughput} = \\text{IPC} \\times f_{clk}, \\quad \\text{Virtual Address Space} = 64 \\text{ TB (80386)}",
+                    "pinout": "PGA and QFP package layouts for 32-bit x86 CPUs.",
+                    "has_calculator": true,
+                    "calc_type": "arm_clock"
+                },
+                {
+                    "id": "m3_8051_arch",
+                    "title": "8051 Microcontroller Architecture & Peripherals",
+                    "summary": "8-bit MCS-51 core, 4KB ROM, 128-byte RAM, 4 8-bit I/O ports (P0-P3), 2 16-bit Timers, Full-Duplex UART, and 5 Interrupt sources.",
+                    "theory": "The Intel 8051 is a Harvard-architecture 8-bit microcontroller containing separate memory spaces for code (64 KB Program Memory) and data (64 KB External Data Memory).\n\n### On-Chip Hardware\n- **RAM**: 128 bytes internal RAM (Register Banks 0-3, Bit-addressable RAM 20H-2FH, Scratchpad 30H-7FH) + 128 bytes Special Function Registers (SFRs).\n- **Ports**: P0 (open-drain multiplexed AD0-AD7), P1, P2 (A8-A15), P3 (alternate pin functions: RXD, TXD, INT0#, INT1#, T0, T1, WR#, RD#).\n- **Timers**: Timer 0 and Timer 1 operating in Mode 0 (13-bit), Mode 1 (16-bit), Mode 2 (8-bit auto-reload), or Mode 3 (Split timer).",
+                    "formulas": "\\text{Machine Cycle} = \\frac{12}{f_{osc}}, \\quad \\text{Baud Rate (Mode 1)} = \\frac{2^{SMOD}}{32} \\times \\frac{f_{osc}}{12 \\times (256 - TH1)}",
+                    "pinout": "40-pin DIP layout with P0.0-P0.7, P1.0-P1.7, P2.0-P2.7, P3.0-P3.7, EA#/VPP, ALE/PROG#, PSEN#, RST, XTAL1, XTAL2.",
+                    "has_calculator": true,
+                    "calc_type": "uart_baud"
+                }
+            ]
+        },
+        {
+            "id": "module_4",
+            "title": "Module IV: RISC Architecture, ARM Cortex & Embedded Systems",
+            "description": "RISC vs CISC principles, ARM Cortex 32-bit architecture, RTOS, IoT, bus interfaces (SPI, I2C, CAN, UART, USB), and Embedded C.",
+            "topics": [
+                {
+                    "id": "m4_risc_arm",
+                    "title": "RISC Architecture & ARM Cortex Microcontrollers",
+                    "summary": "RISC design philosophy, 32-bit ARM Cortex-M architecture, Thumb-2 instruction set, NVIC interrupt controller, and memory-mapped I/O.",
+                    "theory": "Reduced Instruction Set Computer (RISC) architectures prioritize simple, fixed-length instructions executed in a single clock cycle through deep pipelined execution.\n\n### ARM Cortex-M Architecture\nThe ARM Cortex-M family (M0, M3, M4, M7) uses a 32-bit Load/Store RISC core featuring:\n- **Thumb-2 Technology**: Blends 16-bit and 32-bit instructions for high code density and performance.\n- **NVIC (Nested Vectored Interrupt Controller)**: Hardware-managed low-latency vector table supporting priority preemptive interrupts.\n- **Peripherals**: Memory-mapped GPIO, SysTick Timer, Hardware Timers, DMA, SPI, I2C, UART, CAN, USB, and ADC/DAC converters.",
+                    "formulas": "f_{SYSCLK} = \\frac{f_{HSE}}{PLLM} \\times PLLN \\div PLLP",
+                    "pinout": "LQFP-48, LQFP-64, and LQFP-100 surface-mount packages (STM32, NXP LPC, SAM).",
+                    "has_calculator": true,
+                    "calc_type": "arm_clock"
+                },
+                {
+                    "id": "m4_embedded_rtos",
+                    "title": "Embedded Systems, RTOS & Industrial Communication Buses",
+                    "summary": "Real-Time Operating Systems (FreeRTOS), tasks, semaphores, mutexes, Watchdog timer, SPI, I2C, CAN, USB, and Embedded C programming.",
+                    "theory": "An Embedded System is a dedicated computer system designed to perform specific control tasks under strict real-time constraints.\n\n### Key Concepts\n- **RTOS (Real-Time OS)**: Uses a deterministic preemptive scheduler to manage concurrent tasks via mutexes, semaphores, and message queues.\n- **Watchdog Timer (WDT)**: Hardware counter that automatically resets the microcontroller if software locks up or enters an infinite loop.\n- **Communication Buses**:\n  - **SPI**: 4-wire high-speed synchronous bus (SCLK, MOSI, MISO, CS#).\n  - **I2C**: 2-wire multi-master bus (SDA, SCL) with 7-bit addressing.\n  - **CAN**: 2-wire differential noise-tolerant bus (CAN_H, CAN_L) used in automotive & industrial systems.",
+                    "formulas": "\\text{I2C Clock} = \\frac{f_{PCLK}}{2 \\times (CCR + TRISE)}",
+                    "pinout": "Standard 4-pin SPI, 2-pin I2C, and 2-pin differential CAN transceiver interfaces.",
+                    "has_calculator": true,
+                    "calc_type": "port_calc"
+                }
+            ]
+        }
+    ]
+}

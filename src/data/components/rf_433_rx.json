@@ -46,7 +46,7 @@
     "construction": "Features an inductive coil tuned via a brass screw (regenerative type), a comparator IC (like LM358), local oscillators, and output connection pins.",
     "electrical_characteristics": "Requires a stable 5.0V supply. When no active transmission is present, the receiver's automatic gain control (AGC) spikes, outputting random high-frequency digital noise.",
     "symbol_description": "Block symbol showing VCC, GND, and dual DATA output pins (connected internally), along with the antenna node.",
-    "formulas": "Receiver Gain equation: G = P_out / P_in. Carrier frequency wavelength: λ = c / f.",
+    "formulas": "Receiver Gain equation: G = P_out / P_in. Carrier frequency wavelength: \u03bb = c / f.",
     "applications": "Receiving weather station telemetry, wireless remote decoding, home assistant integrations, and security system relays.",
     "advantages": "Extremely inexpensive, dual data output pins, compatible with most 5V microcontroller boards.",
     "disadvantages": "High susceptibility to electrical noise, outputs continuous high-frequency static noise when no active transmitter is firing.",
@@ -82,10 +82,10 @@
     ],
     "references": "MX-05V 433MHz Receiver Module Datasheet; RadioHead library documentation.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/rf_433_rx/real_photo.png",
         "symbol": "",
-        "pin_diagram": "",
+        "pin_diagram": "assets/components/rf_433_rx/pin_diagram.png",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "assets/components/rf_433_rx/example_circuit.png"
     }
 }

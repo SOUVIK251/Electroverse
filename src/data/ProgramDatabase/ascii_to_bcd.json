@@ -1,0 +1,36 @@
+{
+    "id": "ascii_to_bcd",
+    "program_name": "ASCII to BCD Conversion",
+    "category": "BCD Programs",
+    "difficulty": "Intermediate",
+    "objective": "Convert an ASCII character representing a digit ('0' to '9', hex 30H to 39H) to numeric BCD (00H to 09H).",
+    "theory": "ASCII digits '0'-'9' have hex representations 30H-39H. Subtracting 30H (SUI 30H) converts ASCII to BCD.",
+    "algorithm": [
+        "1. Load ASCII byte from 2050H.",
+        "2. Subtract 30H (SUI 30H).",
+        "3. Store converted BCD digit in 2051H.",
+        "4. HLT."
+    ],
+    "assembly_code": "LDA 2050H   ; Load ASCII char\nSUI 30H     ; Subtract 30H to get BCD digit\nSTA 2051H   ; Store BCD byte\nHLT",
+    "machine_code_hex": [
+        "3A",
+        "50",
+        "20",
+        "D6",
+        "30",
+        "32",
+        "51",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "35H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2051H": "05H"
+        }
+    }
+}

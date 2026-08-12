@@ -1,0 +1,47 @@
+{
+    "id": "even_odd_check",
+    "program_name": "Check Even or Odd Number",
+    "category": "Searching & Operations",
+    "difficulty": "Basic",
+    "objective": "Determine whether an 8-bit number is even or odd by checking LSB bit 0.",
+    "theory": "An even number has Bit 0 = 0, while an odd number has Bit 0 = 1. Masking with 01H (ANI 01H) isolates Bit 0.",
+    "algorithm": [
+        "1. Load number from 2050H into Accumulator.",
+        "2. Perform AND operation with 01H (ANI 01H).",
+        "3. If Zero Flag Z=1 (result 00H), number is EVEN -> store 00H at 2051H.",
+        "4. If Zero Flag Z=0 (result 01H), number is ODD -> store 01H at 2051H.",
+        "5. HLT."
+    ],
+    "assembly_code": "LDA 2050H   ; Load number\nANI 01H     ; Mask bit 0\nJZ EVEN     ; Jump if result is 0 (even)\nMVI A, 01H  ; Odd indicator (01H)\nJMP STORE\nEVEN: MVI A, 00H ; Even indicator (00H)\nSTORE: STA 2051H ; Store result\nHLT",
+    "machine_code_hex": [
+        "3A",
+        "50",
+        "20",
+        "E6",
+        "01",
+        "CA",
+        "10",
+        "20",
+        "3E",
+        "01",
+        "C3",
+        "12",
+        "20",
+        "3E",
+        "00",
+        "32",
+        "51",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "07H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2051H": "01H"
+        }
+    }
+}

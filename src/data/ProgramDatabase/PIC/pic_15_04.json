@@ -1,0 +1,96 @@
+{
+  "id": "pic_15_04",
+  "program_name": "PIC Microcontroller (PIC16F) - Timers and Counters Ex 4",
+  "processor_family": "PIC Microcontroller (PIC16F)",
+  "category": "Timers and Counters",
+  "difficulty": "Intermediate",
+  "objective": "Run PIC16F877A timers and counters routine 4.",
+  "theory": "PIC microcontrollers by Microchip feature a Harvard architecture with a banked register file (WREG accumulator, STATUS, SFRs).",
+  "algorithm": [
+    "1. Select Bank for PORTB.",
+    "2. Read PORTB pins into Working Register W.",
+    "3. Add literal constant 4 to W (ADDLW).",
+    "4. Output result from W to PORTC."
+  ],
+  "flowchart": "START -> Execute Timers and Counters Step 1 -> Process Data -> Verify Flags/Result -> END",
+  "assembly_code": "; PIC16F877A Assembly - Timers and Counters Ex 4\nBANKSEL PORTB\nMOVF PORTB, W\nADDLW D'4'\nMOVWF PORTC",
+  "machine_code_hex": [
+    "00",
+    "20",
+    "08",
+    "06",
+    "3E",
+    "04",
+    "00",
+    "87"
+  ],
+  "opcode_table": [
+    {
+      "address": "0000H",
+      "mnemonic": "; PIC16F877A Assembly - Timers and Counters Ex 4",
+      "hex": "00 20 08",
+      "bytes": 3,
+      "cycles": 10
+    }
+  ],
+  "sample_input": {
+    "memory": {
+      "2050H": "04H"
+    }
+  },
+  "sample_output": {
+    "memory": {
+      "2051H": "08H"
+    },
+    "registers": {
+      "A": "08H"
+    }
+  },
+  "register_changes": [
+    {
+      "step": 1,
+      "reg": "PC",
+      "val": "0000H",
+      "desc": "Instruction Fetch"
+    },
+    {
+      "step": 2,
+      "reg": "A",
+      "val": "08H",
+      "desc": "Execution Result"
+    }
+  ],
+  "flag_changes": {
+    "S": 0,
+    "Z": 0,
+    "AC": 0,
+    "P": 1,
+    "CY": 0
+  },
+  "memory_changes": {
+    "2051H": "08H"
+  },
+  "step_by_step_execution": [
+    "Step 1: Fetch and decode Timers and Counters instruction for PIC Microcontroller (PIC16F).",
+    "Step 2: Read input operands from memory / registers.",
+    "Step 3: Execute ALU operation for Timers and Counters.",
+    "Step 4: Update status flags (Z, CY, S, P).",
+    "Step 5: Store final result into memory."
+  ],
+  "explanation": "This program demonstrates timers and counters on the PIC Microcontroller (PIC16F) architecture.",
+  "common_mistakes": [
+    "Incorrect register pair pairing.",
+    "Forgetting to clear carry or flags before loop.",
+    "Out-of-bounds memory access."
+  ],
+  "viva_questions": [
+    {
+      "q": "What is WREG in PIC microcontrollers?",
+      "a": "Working Register (equivalent to Accumulator)."
+    }
+  ],
+  "practical_applications": [
+    "Used in embedded control systems for timers and counters.",
+    "Commonly used in real-time sensor processing on PIC Microcontroller (PIC16F)."
+  ]
+}

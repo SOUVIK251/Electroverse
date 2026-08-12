@@ -34,7 +34,7 @@
         {
             "parameter": "Contact Resistance",
             "value": "<30",
-            "unit": "mΩ",
+            "unit": "m\u03a9",
             "notes": "Gold-plated brass terminals"
         }
     ],
@@ -80,9 +80,9 @@
     ],
     "references": "USB 2.0 Micro-Connector specification document; Adafruit PCB library symbols.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/micro_usb/real_photo.png",
         "symbol": "",
-        "pin_diagram": "",
+        "pin_diagram": "assets/components/micro_usb/pin_diagram.png",
         "internal_structure": "",
         "example_circuit": ""
     }

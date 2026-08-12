@@ -1,0 +1,99 @@
+{
+  "id": "msp430_17_01",
+  "program_name": "MSP430 Microcontroller - LCD and LED Interfacing Ex 1",
+  "processor_family": "MSP430 Microcontroller",
+  "category": "LCD and LED Interfacing",
+  "difficulty": "Basic",
+  "objective": "Execute MSP430 16-bit lcd and led interfacing program 1.",
+  "theory": "MSP430 by Texas Instruments is an ultra-low power 16-bit RISC microcontroller with 16 16-bit registers (R0-R15).",
+  "algorithm": [
+    "1. Read 16-bit word from RAM address 0x0200 into register R4.",
+    "2. Add immediate constant #1 to R4.",
+    "3. Store 16-bit sum into RAM address 0x0202."
+  ],
+  "flowchart": "START -> Execute LCD and LED Interfacing Step 1 -> Process Data -> Verify Flags/Result -> END",
+  "assembly_code": "; MSP430 Assembly - LCD and LED Interfacing Ex 1\nMOV &0x0200, R4\nADD #1, R4\nMOV R4, &0x0202",
+  "machine_code_hex": [
+    "42",
+    "1C",
+    "02",
+    "00",
+    "50",
+    "34",
+    "01",
+    "00",
+    "44",
+    "82",
+    "02",
+    "02"
+  ],
+  "opcode_table": [
+    {
+      "address": "0000H",
+      "mnemonic": "; MSP430 Assembly - LCD and LED Interfacing Ex 1",
+      "hex": "42 1C 02",
+      "bytes": 3,
+      "cycles": 10
+    }
+  ],
+  "sample_input": {
+    "memory": {
+      "2050H": "01H"
+    }
+  },
+  "sample_output": {
+    "memory": {
+      "2051H": "02H"
+    },
+    "registers": {
+      "A": "02H"
+    }
+  },
+  "register_changes": [
+    {
+      "step": 1,
+      "reg": "PC",
+      "val": "0000H",
+      "desc": "Instruction Fetch"
+    },
+    {
+      "step": 2,
+      "reg": "A",
+      "val": "02H",
+      "desc": "Execution Result"
+    }
+  ],
+  "flag_changes": {
+    "S": 0,
+    "Z": 0,
+    "AC": 0,
+    "P": 1,
+    "CY": 0
+  },
+  "memory_changes": {
+    "2051H": "02H"
+  },
+  "step_by_step_execution": [
+    "Step 1: Fetch and decode LCD and LED Interfacing instruction for MSP430 Microcontroller.",
+    "Step 2: Read input operands from memory / registers.",
+    "Step 3: Execute ALU operation for LCD and LED Interfacing.",
+    "Step 4: Update status flags (Z, CY, S, P).",
+    "Step 5: Store final result into memory."
+  ],
+  "explanation": "This program demonstrates lcd and led interfacing on the MSP430 Microcontroller architecture.",
+  "common_mistakes": [
+    "Incorrect register pair pairing.",
+    "Forgetting to clear carry or flags before loop.",
+    "Out-of-bounds memory access."
+  ],
+  "viva_questions": [
+    {
+      "q": "Why is MSP430 widely used in battery-powered devices?",
+      "a": "Due to its ultra-low power consumption (sub-microampere sleep modes)."
+    }
+  ],
+  "practical_applications": [
+    "Used in embedded control systems for lcd and led interfacing.",
+    "Commonly used in real-time sensor processing on MSP430 Microcontroller."
+  ]
+}

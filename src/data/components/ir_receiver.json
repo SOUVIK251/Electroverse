@@ -35,7 +35,7 @@
         },
         {
             "parameter": "Bandpass Bandwidth",
-            "value": "±2",
+            "value": "\u00b12",
             "unit": "kHz",
             "notes": "Rejects out-of-band IR noise"
         }
@@ -51,11 +51,11 @@
     "advantages": "Built-in filter rejects ambient room light, output connects directly to microcontroller input pins without external amplification.",
     "disadvantages": "Limited to the pre-configured carrier frequency band, sensitive to direct bright sun exposure and high-frequency fluorescent ballast light flicker.",
     "example_circuit_operation": "An IR receiver is connected to a microcontroller. Power and ground are wired. The OUT pin is routed to a digital input. Pressing a remote button pulses the OUT pin, which is decoded using a timer interrupt.",
-    "practical_tips": "Place a 100Ω resistor in series with the VCC pin, and a 4.7μF decoupling capacitor between VCC and GND, to protect the sensitive internal AGC circuit from power supply ripple noise.",
+    "practical_tips": "Place a 100\u03a9 resistor in series with the VCC pin, and a 4.7\u03bcF decoupling capacitor between VCC and GND, to protect the sensitive internal AGC circuit from power supply ripple noise.",
     "interview_questions": [
         {
             "question": "What is the function of the internal bandpass filter in an IR receiver?",
-            "answer": "It restricts the receiver's sensitivity to a narrow band around the carrier frequency (e.g. 38 kHz ± 2 kHz), blocking optical noise from daylight, incandescent lamps, or DC IR sources."
+            "answer": "It restricts the receiver's sensitivity to a narrow band around the carrier frequency (e.g. 38 kHz \u00b1 2 kHz), blocking optical noise from daylight, incandescent lamps, or DC IR sources."
         },
         {
             "question": "Explain the output state of an active-low IR receiver.",
@@ -82,10 +82,10 @@
     ],
     "references": "Vishay TSOP382.. Series IR Receiver Datasheet; infrared remote control coding protocols.",
     "images": {
-        "real_photo": "",
-        "symbol": "",
-        "pin_diagram": "",
+        "real_photo": "assets/components/ir_receiver/real_photo.png",
+        "symbol": "assets/components/ir_receiver/symbol.png",
+        "pin_diagram": "assets/components/ir_receiver/pin_diagram.png",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "assets/components/ir_receiver/example_circuit.png"
     }
 }

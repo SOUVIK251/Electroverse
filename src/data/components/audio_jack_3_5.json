@@ -35,7 +35,7 @@
         {
             "parameter": "Insulation Resistance",
             "value": ">100",
-            "unit": "MΩ",
+            "unit": "M\u03a9",
             "notes": "Prevents crosstalk between channels"
         }
     ],
@@ -45,12 +45,12 @@
     "construction": "Houses a series of phosphor bronze spring contacts inside a plastic or shielded metal barrel casing, with solder terminals for PCB integration.",
     "electrical_characteristics": "Low contact resistance, isolated channels, and built-in shunt switch contacts.",
     "symbol_description": "Cylindrical socket symbol showing spring contacts for Tip, Ring, and Sleeve terminals.",
-    "formulas": "Power delivered to headphones: P = V_rms^2 / R_headphone (typically 16Ω or 32Ω).",
+    "formulas": "Power delivered to headphones: P = V_rms^2 / R_headphone (typically 16\u03a9 or 32\u03a9).",
     "applications": "Microcontroller voice output jacks, headphone sockets, microphone preamplifier inputs.",
     "advantages": "Compact size, robust plug-in mechanic, integrated switch contacts route audio routes dynamically.",
     "disadvantages": "Inserting the plug causes a brief short circuit between pins as they slide past contacts, susceptible to contact dust crackle noise.",
     "example_circuit_operation": "A 3.5mm TRS jack is soldered to an MP3 player board. When headphones are plugged in, the internal switch opens, muting the onboard speaker and routing audio to the headphone speakers.",
-    "practical_tips": "When designing audio routing circuits, place a 10Ω resistor and a 100nF capacitor in series as a snubber (Zobel network) on the amplifier output, protecting the amplifier when the audio plug is hot-plugged and briefly shorts the contacts.",
+    "practical_tips": "When designing audio routing circuits, place a 10\u03a9 resistor and a 100nF capacitor in series as a snubber (Zobel network) on the amplifier output, protecting the amplifier when the audio plug is hot-plugged and briefly shorts the contacts.",
     "interview_questions": [
         {
             "question": "What do the letters TRS stand for on an audio jack?",
@@ -70,7 +70,7 @@
         },
         {
             "question": "What typical impedance do consumer headphones have?",
-            "answer": "Typically 16 Ω or 32 Ω, which requires low-impedance audio amplifier drivers."
+            "answer": "Typically 16 \u03a9 or 32 \u03a9, which requires low-impedance audio amplifier drivers."
         }
     ],
     "related_experiments": [
@@ -81,10 +81,10 @@
     ],
     "references": "IEC 60603-11 Connectors for audio equipment; headphone amplifier design guides.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/audio_jack_3_5/real_photo.png",
         "symbol": "",
         "pin_diagram": "",
-        "internal_structure": "",
+        "internal_structure": "assets/components/audio_jack_3_5/internal_structure.png",
         "example_circuit": ""
     }
 }

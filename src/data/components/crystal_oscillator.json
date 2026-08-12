@@ -18,7 +18,7 @@
     "specifications": [
         {
             "parameter": "Frequency Stability",
-            "value": "±10 to ±50",
+            "value": "\u00b110 to \u00b150",
             "unit": "ppm",
             "notes": "Extremely high precision clock source"
         },
@@ -59,7 +59,7 @@
         },
         {
             "question": "What does 'ppm' mean in oscillator specifications?",
-            "answer": "Parts Per Million, a unit measuring frequency stability. A 10MHz oscillator with ±50ppm tolerance can drift by a maximum of ±500 Hz over its operating range."
+            "answer": "Parts Per Million, a unit measuring frequency stability. A 10MHz oscillator with \u00b150ppm tolerance can drift by a maximum of \u00b1500 Hz over its operating range."
         },
         {
             "question": "What is a Temperature Compensated Crystal Oscillator (TCXO)?",
@@ -67,7 +67,7 @@
         },
         {
             "question": "Why must bypass capacitors be placed close to the active oscillator VCC pin?",
-            "answer": "The internal switching circuitry draws high-frequency current spikes. Decoupling capacitors (0.1μF) stabilize the voltage rail, preventing jitter and phase noise in the clock output."
+            "answer": "The internal switching circuitry draws high-frequency current spikes. Decoupling capacitors (0.1\u03bcF) stabilize the voltage rail, preventing jitter and phase noise in the clock output."
         },
         {
             "question": "What is a major failure mode of quartz crystal oscillators?",
@@ -82,10 +82,10 @@
     ],
     "references": "Epson crystal oscillator product specifications; clock distribution system notes.",
     "images": {
-        "real_photo": "",
-        "symbol": "",
-        "pin_diagram": "",
+        "real_photo": "assets/components/crystal_oscillator/real_photo.png",
+        "symbol": "assets/components/crystal_oscillator/symbol.png",
+        "pin_diagram": "assets/components/crystal_oscillator/pin_diagram.png",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "assets/components/crystal_oscillator/example_circuit.png"
     }
 }

@@ -1,0 +1,96 @@
+{
+  "id": "pic_10_02",
+  "program_name": "PIC Microcontroller (PIC16F) - Mathematical Algorithms Ex 2",
+  "processor_family": "PIC Microcontroller (PIC16F)",
+  "category": "Mathematical Algorithms",
+  "difficulty": "Basic",
+  "objective": "Run PIC16F877A mathematical algorithms routine 2.",
+  "theory": "PIC microcontrollers by Microchip feature a Harvard architecture with a banked register file (WREG accumulator, STATUS, SFRs).",
+  "algorithm": [
+    "1. Select Bank for PORTB.",
+    "2. Read PORTB pins into Working Register W.",
+    "3. Add literal constant 2 to W (ADDLW).",
+    "4. Output result from W to PORTC."
+  ],
+  "flowchart": "START -> Execute Mathematical Algorithms Step 1 -> Process Data -> Verify Flags/Result -> END",
+  "assembly_code": "; PIC16F877A Assembly - Mathematical Algorithms Ex 2\nBANKSEL PORTB\nMOVF PORTB, W\nADDLW D'2'\nMOVWF PORTC",
+  "machine_code_hex": [
+    "00",
+    "20",
+    "08",
+    "06",
+    "3E",
+    "02",
+    "00",
+    "87"
+  ],
+  "opcode_table": [
+    {
+      "address": "0000H",
+      "mnemonic": "; PIC16F877A Assembly - Mathematical Algorithms Ex 2",
+      "hex": "00 20 08",
+      "bytes": 3,
+      "cycles": 10
+    }
+  ],
+  "sample_input": {
+    "memory": {
+      "2050H": "02H"
+    }
+  },
+  "sample_output": {
+    "memory": {
+      "2051H": "04H"
+    },
+    "registers": {
+      "A": "04H"
+    }
+  },
+  "register_changes": [
+    {
+      "step": 1,
+      "reg": "PC",
+      "val": "0000H",
+      "desc": "Instruction Fetch"
+    },
+    {
+      "step": 2,
+      "reg": "A",
+      "val": "04H",
+      "desc": "Execution Result"
+    }
+  ],
+  "flag_changes": {
+    "S": 0,
+    "Z": 0,
+    "AC": 0,
+    "P": 1,
+    "CY": 0
+  },
+  "memory_changes": {
+    "2051H": "04H"
+  },
+  "step_by_step_execution": [
+    "Step 1: Fetch and decode Mathematical Algorithms instruction for PIC Microcontroller (PIC16F).",
+    "Step 2: Read input operands from memory / registers.",
+    "Step 3: Execute ALU operation for Mathematical Algorithms.",
+    "Step 4: Update status flags (Z, CY, S, P).",
+    "Step 5: Store final result into memory."
+  ],
+  "explanation": "This program demonstrates mathematical algorithms on the PIC Microcontroller (PIC16F) architecture.",
+  "common_mistakes": [
+    "Incorrect register pair pairing.",
+    "Forgetting to clear carry or flags before loop.",
+    "Out-of-bounds memory access."
+  ],
+  "viva_questions": [
+    {
+      "q": "What is WREG in PIC microcontrollers?",
+      "a": "Working Register (equivalent to Accumulator)."
+    }
+  ],
+  "practical_applications": [
+    "Used in embedded control systems for mathematical algorithms.",
+    "Commonly used in real-time sensor processing on PIC Microcontroller (PIC16F)."
+  ]
+}

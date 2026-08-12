@@ -1,0 +1,64 @@
+{
+    "questions": [
+        {
+            "id": "mpmc_q1",
+            "type": "mcq",
+            "topic": "8085 Microprocessor Architecture",
+            "level": "Beginner",
+            "question": "What is the total addressable memory space of the Intel 8085 microprocessor?",
+            "options": ["16 KB", "64 KB", "1 MB", "4 GB"],
+            "correct_answer": "64 KB",
+            "explanation": "The Intel 8085 has a 16-bit address bus (A0-A15). Therefore, it can address 2^16 = 65,536 bytes = 64 KB of memory space."
+        },
+        {
+            "id": "mpmc_q2",
+            "type": "mcq",
+            "topic": "8086 Physical Address Calculation",
+            "level": "Intermediate",
+            "question": "If the Code Segment (CS) register contains 2000H and the Instruction Pointer (IP) contains 1050H, what is the calculated physical memory address in the 8086?",
+            "options": ["30500H", "21050H", "20105H", "20050H"],
+            "correct_answer": "21050H",
+            "explanation": "Physical Address = (CS << 4) + IP = (2000H * 16) + 1050H = 20000H + 1050H = 21050H."
+        },
+        {
+            "id": "mpmc_q3",
+            "type": "mcq",
+            "topic": "8085 Interrupts",
+            "level": "Intermediate",
+            "question": "Which 8085 interrupt line is non-maskable and has the highest priority?",
+            "options": ["RST 7.5", "TRAP", "INTR", "RST 6.5"],
+            "correct_answer": "TRAP",
+            "explanation": "TRAP is the only Non-Maskable Interrupt (NMI) in the 8085. It has the highest priority and is triggered by both a rising edge and a high level."
+        },
+        {
+            "id": "mpmc_q4",
+            "type": "mcq",
+            "topic": "8051 Microcontroller Architecture",
+            "level": "Beginner",
+            "question": "How many 8-bit parallel I/O ports are integrated on a standard 8051 microcontroller chip?",
+            "options": ["2 Ports", "4 Ports (P0, P1, P2, P3)", "6 Ports", "8 Ports"],
+            "correct_answer": "4 Ports (P0, P1, P2, P3)",
+            "explanation": "The standard 8051 microcontroller contains 4 8-bit I/O ports named P0, P1, P2, and P3, giving a total of 32 I/O pins."
+        },
+        {
+            "id": "mpmc_q5",
+            "type": "numerical",
+            "topic": "8051 Timer Reload Value",
+            "level": "Advanced",
+            "question": "Calculate the TH1 reload value in Hex for generating a 9600 baud rate in an 8051 microcontroller using an 11.0592 MHz crystal (SMOD = 0).",
+            "options": ["0xFD", "0xFA", "0xF6", "0xE8"],
+            "correct_answer": "0xFD",
+            "explanation": "Machine Clock = 11.0592 MHz / 12 = 921.6 kHz. Timer 1 Clock = 921.6 kHz / 32 = 28.8 kHz. For 9600 baud, count required = 28800 / 9600 = 3. Therefore TH1 = 256 - 3 = 253 = 0xFD."
+        },
+        {
+            "id": "mpmc_q6",
+            "type": "mcq",
+            "topic": "ARM Architecture & RISC",
+            "level": "GATE Level",
+            "question": "Which feature enables ARM Cortex-M microcontrollers to achieve high code density while executing 32-bit instructions?",
+            "options": ["VLIW Architecture", "Thumb-2 Technology", "SIMD Acceleration", "Out-of-Order Execution"],
+            "correct_answer": "Thumb-2 Technology",
+            "explanation": "Thumb-2 technology allows 16-bit and 32-bit instructions to be intermixed seamlessly without switching processor states, offering up to 30% higher code density."
+        }
+    ]
+}

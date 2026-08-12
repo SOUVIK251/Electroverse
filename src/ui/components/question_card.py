@@ -96,28 +96,119 @@ class QuestionCard(QWidget):
         opts = q_data.get("options", [])
         q_type = q_data.get("question_type", "single_mcq")
 
+        # Normalize current_ans into a set of selected index ints
+        selected_indices = set()
+        if current_ans is not None:
+            if isinstance(current_ans, list):
+                for item in current_ans:
+                    try:
+                        selected_indices.add(int(item))
+                    except (ValueError, TypeError):
+                        pass
+            elif isinstance(current_ans, (int, str)):
+                try:
+                    selected_indices.add(int(current_ans))
+                except (ValueError, TypeError):
+                    pass
+
+        radio_style = """
+            QRadioButton {
+                color: #CBD5E1;
+                font-size: 10.5pt;
+                font-weight: 500;
+                padding: 10px 14px;
+                background-color: #0F172A;
+                border: 1.5px solid #1E293B;
+                border-radius: 8px;
+                margin-bottom: 4px;
+            }
+            QRadioButton:hover {
+                color: #FFFFFF;
+                background-color: #1E293B;
+                border: 1.5px solid #06B6D4;
+            }
+            QRadioButton:checked {
+                color: #FFFFFF;
+                font-weight: bold;
+                background-color: #0B253A;
+                border: 2px solid #06B6D4;
+            }
+            QRadioButton::indicator {
+                width: 18px;
+                height: 18px;
+                border-radius: 9px;
+                border: 2px solid #64748B;
+                background-color: #0F172A;
+            }
+            QRadioButton::indicator:hover {
+                border-color: #06B6D4;
+            }
+            QRadioButton::indicator:checked {
+                border-color: #06B6D4;
+                background-color: #06B6D4;
+            }
+        """
+
+        checkbox_style = """
+            QCheckBox {
+                color: #CBD5E1;
+                font-size: 10.5pt;
+                font-weight: 500;
+                padding: 10px 14px;
+                background-color: #0F172A;
+                border: 1.5px solid #1E293B;
+                border-radius: 8px;
+                margin-bottom: 4px;
+            }
+            QCheckBox:hover {
+                color: #FFFFFF;
+                background-color: #1E293B;
+                border: 1.5px solid #10B981;
+            }
+            QCheckBox:checked {
+                color: #FFFFFF;
+                font-weight: bold;
+                background-color: #063726;
+                border: 2px solid #10B981;
+            }
+            QCheckBox::indicator {
+                width: 18px;
+                height: 18px;
+                border-radius: 4px;
+                border: 2px solid #64748B;
+                background-color: #0F172A;
+            }
+            QCheckBox::indicator:hover {
+                border-color: #10B981;
+            }
+            QCheckBox::indicator:checked {
+                border-color: #10B981;
+                background-color: #10B981;
+            }
+        """
+
         if q_type in ["single_mcq", "true_false"]:
-            btn_group = QButtonGroup(self.opts_card)
+            self.btn_group = QButtonGroup(self.opts_card)
             for idx, opt_text in enumerate(opts):
                 radio = QRadioButton(opt_text)
-                radio.setStyleSheet("QRadioButton { color: #CBD5E1; font-size: 10.5pt; padding: 6px; } QRadioButton:hover { color: #FFF; }")
-                btn_group.addButton(radio, idx)
+                radio.setStyleSheet(radio_style)
+                self.btn_group.addButton(radio, idx)
                 self.opts_lay.addWidget(radio)
 
-                if current_ans is not None and isinstance(current_ans, list) and len(current_ans) > 0 and current_ans[0] == idx:
+                if idx in selected_indices:
                     radio.setChecked(True)
 
-            btn_group.idClicked.connect(lambda b_id: self.answer_changed.emit([b_id]))
+            self.btn_group.idClicked.connect(lambda b_id: self.answer_changed.emit([b_id]))
 
         elif q_type == "multiple_correct":
             cb_list = []
             for idx, opt_text in enumerate(opts):
                 cb = QCheckBox(opt_text)
-                cb.setStyleSheet("QCheckBox { color: #CBD5E1; font-size: 10.5pt; padding: 6px; } QCheckBox:hover { color: #FFF; }")
+                cb.setStyleSheet(checkbox_style)
                 self.opts_lay.addWidget(cb)
                 cb_list.append((idx, cb))
 
-                if current_ans is not None and isinstance(current_ans, list) and idx in current_ans:
+                if idx in selected_indices:
                     cb.setChecked(True)
 
                 def make_cb_handler():
@@ -131,10 +222,13 @@ class QuestionCard(QWidget):
         elif q_type in ["fill_blank", "formula_based"]:
             txt_in = QLineEdit()
             txt_in.setPlaceholderText("Enter your numerical or formula answer here...")
-            txt_in.setStyleSheet("QLineEdit { background-color: #0F172A; border: 1px solid #26334D; color: #FFF; padding: 10px; border-radius: 6px; font-size: 11pt; }")
-            if current_ans is not None and isinstance(current_ans, list) and len(current_ans) > 0:
-                txt_in.setText(str(current_ans[0]))
-            txt_in.textChanged.connect(lambda val: self.answer_changed.emit([val.strip()]))
+            txt_in.setStyleSheet("QLineEdit { background-color: #0F172A; border: 1.5px solid #26334D; color: #FFF; padding: 10px; border-radius: 6px; font-size: 11pt; } QLineEdit:focus { border: 2px solid #06B6D4; background-color: #0B253A; }")
+            if current_ans is not None:
+                if isinstance(current_ans, list) and len(current_ans) > 0:
+                    txt_in.setText(str(current_ans[0]))
+                elif isinstance(current_ans, (int, str)):
+                    txt_in.setText(str(current_ans))
+            txt_in.textChanged.connect(lambda val: self.answer_changed.emit([val.strip()] if val.strip() else []))
             self.opts_lay.addWidget(txt_in)
 
     def clear_selection(self):

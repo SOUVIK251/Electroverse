@@ -50,7 +50,7 @@
     "advantages": "Extremely inexpensive, active community support, can function as a standalone microcontroller without external MCUs.",
     "disadvantages": "High power consumption limits battery life unless configured in deep sleep mode, restricted to 2.4 GHz band (does not support 5 GHz networks).",
     "example_circuit_operation": "An ESP-01 module is connected to a 3.3V external regulator. GPIO0 is pulled high for standard execution. A microcontroller sends AT commands to configure the ESP-01 to join a local Wi-Fi router and send sensor data via HTTP POST.",
-    "practical_tips": "Always connect a 0.1μF ceramic capacitor in parallel with a 10μF electrolytic capacitor across the ESP8266's VCC and GND pins to suppress power rail dips during RF transmissions.",
+    "practical_tips": "Always connect a 0.1\u03bcF ceramic capacitor in parallel with a 10\u03bcF electrolytic capacitor across the ESP8266's VCC and GND pins to suppress power rail dips during RF transmissions.",
     "interview_questions": [
         {
             "question": "Can ESP8266 be programmed without an external Arduino board?",
@@ -81,10 +81,10 @@
     ],
     "references": "Espressif ESP8266 Resource Datasheet; NodeMCU documentation.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/wifi_esp8266/real_photo.png",
         "symbol": "",
-        "pin_diagram": "",
+        "pin_diagram": "assets/components/wifi_esp8266/pin_diagram.png",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "assets/components/wifi_esp8266/example_circuit.png"
     }
 }

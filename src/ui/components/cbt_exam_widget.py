@@ -13,7 +13,6 @@ from .question_navigation import QuestionNavigation
 from .exam_timer import ExamTimerWidget
 from .analytics_dashboard import AnalyticsDashboard
 from .answer_review import AnswerReviewWidget
-from .instructor_dashboard import InstructorDashboardWidget
 from .certificate_dialog import CertificateDialog
 
 class CBTExamWidget(QWidget):
@@ -39,7 +38,6 @@ class CBTExamWidget(QWidget):
         self.visited_set = set()      # set of 0-indexed indices
         self.marked_set = set()       # set of 0-indexed indices
         self.eval_results = None
-        self.instructor_mode = False
 
         self.timer_ctrl = TimerController(1800, self)
         self.timer_ctrl.tick.connect(self._on_timer_tick)
@@ -96,11 +94,6 @@ class CBTExamWidget(QWidget):
         h_lay.addWidget(self.mode_combo)
         l.addWidget(hdr)
 
-        # Instructor Panel
-        self.inst_widget = InstructorDashboardWidget()
-        self.inst_widget.instructor_mode_toggled.connect(self.on_instructor_toggled)
-        l.addWidget(self.inst_widget)
-
         # 30-Set Selection Grid Scroll Area
         scroll = QScrollArea()
         scroll.setWidgetResizable(True)
@@ -115,6 +108,11 @@ class CBTExamWidget(QWidget):
             set_id = s_obj["set_id"]
             set_title = s_obj["set_title"]
 
+            # Calculate actual question count
+            raw_q_count = len(s_obj.get("question_ids", []))
+            if raw_q_count == 0:
+                raw_q_count = len(self.engine.question_bank)
+
             card = QFrame()
             card.setObjectName("card-panel")
             card.setStyleSheet("QFrame#card-panel { background-color: #141B2D; border: 1px solid #26334D; border-radius: 10px; padding: 12px; }")
@@ -123,7 +121,7 @@ class CBTExamWidget(QWidget):
             t_lbl = QLabel(f"📄 {set_id}")
             t_lbl.setStyleSheet("color: #F8FAFC; font-weight: bold; font-size: 11pt;")
             
-            sub_lbl = QLabel(f"{set_title}\n30 Questions | 30 Mins")
+            sub_lbl = QLabel(f"{set_title}\n{raw_q_count} Questions | 30 Mins")
             sub_lbl.setStyleSheet("color: #94A3B8; font-size: 9pt;")
             sub_lbl.setWordWrap(True)
 
@@ -152,9 +150,6 @@ class CBTExamWidget(QWidget):
         l.addWidget(scroll, 1)
 
         return w
-
-    def on_instructor_toggled(self, checked):
-        self.instructor_mode = checked
 
     # -------------------------------------------------------------
     # View 1: Live CBT Examination Runner
@@ -277,7 +272,11 @@ class CBTExamWidget(QWidget):
         self.visited_set.clear()
         self.marked_set.clear()
 
+        total_questions = len(self.current_session["questions"])
+
         self.exam_title_lbl.setText(f"{self.current_session['set_title']} [{mode_text} Mode]")
+        self.exam_prog.setRange(0, max(1, total_questions))
+        self.nav_widget.set_total_questions(total_questions)
 
         # Reset timer
         duration_sec = self.current_session["duration_sec"]
@@ -285,7 +284,7 @@ class CBTExamWidget(QWidget):
         self.timer_ctrl.start()
 
         # Reset grid navigator
-        for i in range(30):
+        for i in range(total_questions):
             self.nav_widget.update_status(i, "NOT_VISITED", i == 0)
 
         self.goto_question(0)

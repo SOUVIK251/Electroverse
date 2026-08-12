@@ -1,0 +1,78 @@
+{
+    "reference_sections": [
+        {
+            "id": "opcodes_8085",
+            "title": "8085 Instruction Set & Opcode Reference Matrix",
+            "headers": ["Instruction", "Opcode (Hex)", "Bytes", "T-States", "Machine Cycles", "Flags Affected"],
+            "rows": [
+                ["MOV A, B", "78H", "1 Byte", "4T", "Fetch (4T)", "None"],
+                ["MOV A, M", "7EH", "1 Byte", "7T", "Fetch (4T), Mem Read (3T)", "None"],
+                ["MVI A, data", "3E [data]", "2 Bytes", "7T", "Fetch (4T), Mem Read (3T)", "None"],
+                ["LXI H, addr", "21 [L] [H]", "3 Bytes", "10T", "Fetch (4T), Mem Read (3T), Mem Read (3T)", "None"],
+                ["LDA addr", "3A [L] [H]", "3 Bytes", "13T", "Fetch (4T), Mem Read (3T), Mem Read (3T), Mem Read (3T)", "None"],
+                ["STA addr", "32 [L] [H]", "3 Bytes", "13T", "Fetch (4T), Mem Read (3T), Mem Read (3T), Mem Write (3T)", "None"],
+                ["ADD B", "80H", "1 Byte", "4T", "Fetch (4T)", "S, Z, AC, P, CY"],
+                ["SUB C", "91H", "1 Byte", "4T", "Fetch (4T)", "S, Z, AC, P, CY"],
+                ["INR M", "34H", "1 Byte", "10T", "Fetch (4T), Mem Read (3T), Mem Write (3T)", "S, Z, AC, P"],
+                ["DCR B", "05H", "1 Byte", "4T", "Fetch (4T)", "S, Z, AC, P"],
+                ["ANA B", "A0H", "1 Byte", "4T", "Fetch (4T)", "S, Z, AC=1, P, CY=0"],
+                ["ORA C", "B1H", "1 Byte", "4T", "Fetch (4T)", "S, Z, AC=0, P, CY=0"],
+                ["XRA A", "AFH", "1 Byte", "4T", "Fetch (4T)", "S=0, Z=1, AC=0, P=1, CY=0"],
+                ["IN port", "DB [port]", "2 Bytes", "10T", "Fetch (4T), Mem Read (3T), IO Read (3T)", "None"],
+                ["OUT port", "D3 [port]", "2 Bytes", "10T", "Fetch (4T), Mem Read (3T), IO Write (3T)", "None"],
+                ["JMP addr", "C3 [L] [H]", "3 Bytes", "10T", "Fetch (4T), Mem Read (3T), Mem Read (3T)", "None"],
+                ["CALL addr", "CD [L] [H]", "3 Bytes", "18T", "Fetch (4T), Mem Read (3T), Mem Read (3T), Mem Write (3T), Mem Write (3T)", "None"],
+                ["RET", "C9H", "1 Byte", "10T", "Fetch (4T), Mem Read (3T), Mem Read (3T)", "None"],
+                ["SIM", "30H", "1 Byte", "4T", "Fetch (4T)", "Serial I/O & Interrupt Masks"],
+                ["RIM", "20H", "1 Byte", "4T", "Fetch (4T)", "Reads Serial I/O & Interrupt Status"]
+            ]
+        },
+        {
+            "id": "interrupts_matrix",
+            "title": "Microprocessor Interrupt Vector & Priority Comparison",
+            "headers": ["Processor", "Interrupt Line", "Vector Address", "Priority", "Trigger Mode", "Mask Control"],
+            "rows": [
+                ["8085", "TRAP (NMI)", "0024H", "1 (Highest)", "Edge + Level", "Non-maskable"],
+                ["8085", "RST 7.5", "003CH", "2", "Rising Edge", "SIM Bit 0"],
+                ["8085", "RST 6.5", "0034H", "3", "High Level", "SIM Bit 1"],
+                ["8085", "RST 5.5", "002CH", "4", "High Level", "SIM Bit 2"],
+                ["8085", "INTR", "External Vector", "5 (Lowest)", "High Level", "EI / DI Instruction"],
+                ["8086", "NMI (Type 2)", "00008H - 0000BH", "1 (Highest)", "Rising Edge", "Non-maskable"],
+                ["8086", "INTR (Type n)", "Vector x 4", "2", "High Level", "IF Flag in FLAGS"],
+                ["8051", "INT0#", "0003H", "1", "Low Level / Falling Edge", "EX0 in IE"],
+                ["8051", "TF0 (Timer 0)", "000BH", "2", "Internal Overflow", "ET0 in IE"],
+                ["8051", "INT1#", "0013H", "3", "Low Level / Falling Edge", "EX1 in IE"],
+                ["8051", "TF1 (Timer 1)", "001BH", "4", "Internal Overflow", "ET1 in IE"],
+                ["8051", "RI / TI (UART)", "0023H", "5", "Serial Receive/Transmit", "ES in IE"]
+            ]
+        },
+        {
+            "id": "bus_comparison",
+            "title": "Industrial Microcontroller Communication Bus Comparison",
+            "headers": ["Bus Protocol", "Wires", "Max Speed", "Duplex", "Topology", "Key Applications"],
+            "rows": [
+                ["UART / USART", "2 (TX, RX)", "115.2 kbps - 6 Mbps", "Full Duplex", "Point-to-Point", "Debug console, GSM/GPS modules, Bluetooth"],
+                ["SPI", "4 (SCLK, MOSI, MISO, CS#)", "10 - 80 Mbps", "Full Duplex", "Single Master / Multi Slave", "SD Cards, TFT LCDs, Flash memory, High-speed sensors"],
+                ["I2C", "2 (SDA, SCL)", "100 kHz - 3.4 Mbps", "Half Duplex", "Multi-Master / Multi-Slave", "OLED displays, RTC (DS3231), EEPROM, IMU sensors"],
+                ["CAN Bus", "2 (CAN_H, CAN_L)", "1 Mbps", "Half Duplex", "Multi-Master Differential", "Automotive ECU, industrial robotics, avionics"],
+                ["USB 2.0", "4 (VBUS, D-, D+, GND)", "12 Mbps - 480 Mbps", "Half Duplex", "Host / Device Tiered Star", "PC peripheral connection, firmware flashing"]
+            ]
+        },
+        {
+            "id": "quick_formulas",
+            "title": "Microprocessor & Embedded System Formula Cheat Sheet",
+            "headers": ["Parameter", "Mathematical Formula", "Variable Definitions"],
+            "rows": [
+                ["Physical Address (8086)", "PA = (Segment << 4) + Offset", "Segment: 16-bit register, Offset: 16-bit pointer"],
+                ["Addressable Memory", "Size = 2^N Bytes", "N = Number of address bus lines"],
+                ["CPU Clock Period", "T = 1 / f_CPU", "f_CPU: Operating clock frequency in Hz"],
+                ["Instruction Execution Time", "T_exec = T_states * T", "T_states: Total T-states for instruction"],
+                ["Bus Bandwidth", "B = f_bus * W_bytes", "W_bytes: Data bus width in bytes"],
+                ["8051 Timer Reload (Mode 1)", "TH:TL = 65536 - (t_delay * f_osc / 12)", "f_osc: Oscillator frequency (e.g. 11.0592 MHz)"],
+                ["8051 Baud Rate (Timer 1)", "Baud = (2^SMOD / 32) * (f_osc / (12 * (256 - TH1)))", "SMOD: Bit 7 of PCON register"],
+                ["ARM System Clock (PLL)", "SYSCLK = (f_HSE / M) * N / P", "M, N, P: Hardware PLL dividers/multipliers"],
+                ["ADC Quantization Step", "V_LSB = V_REF / 2^N", "V_REF: Reference voltage, N: Resolution bits"]
+            ]
+        }
+    ]
+}

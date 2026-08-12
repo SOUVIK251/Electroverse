@@ -35,7 +35,7 @@
         },
         {
             "parameter": "Frequency Tolerance",
-            "value": "±150",
+            "value": "\u00b1150",
             "unit": "kHz",
             "notes": "SAW resonator frequency control"
         }
@@ -46,7 +46,7 @@
     "construction": "Features a SAW (Surface Acoustic Wave) resonator to lock the carrier frequency, an RF transistor oscillator, impedance matching coils, and connection pins (VCC, GND, DATA).",
     "electrical_characteristics": "Output power scales with input voltage: higher voltages (up to 12V) increase RF output power and range. Draws zero current when the DATA pin is low.",
     "symbol_description": "Block symbol showing VCC, GND, DATA input pins, and the antenna node.",
-    "formulas": "Antenna quarter-wave length: L (cm) = 7500 / Frequency (MHz) = 7500 / 433.92 ≈ 17.3 cm.",
+    "formulas": "Antenna quarter-wave length: L (cm) = 7500 / Frequency (MHz) = 7500 / 433.92 \u2248 17.3 cm.",
     "applications": "Garage door openers, remote-controlled sockets, home weather sensors, and wireless security systems.",
     "advantages": "Extremely low cost, simple interface, range increases with input supply voltage.",
     "disadvantages": "No collision detection, prone to interference from other 433 MHz devices, lacks built-in hardware error checking.",
@@ -81,10 +81,10 @@
         }
     ],
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/rf_433_tx/real_photo.png",
         "symbol": "",
-        "pin_diagram": "",
+        "pin_diagram": "assets/components/rf_433_tx/pin_diagram.png",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "assets/components/rf_433_tx/example_circuit.png"
     }
 }

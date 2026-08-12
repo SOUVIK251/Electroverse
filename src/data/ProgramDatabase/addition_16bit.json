@@ -1,0 +1,53 @@
+{
+    "id": "addition_16bit",
+    "program_name": "16-Bit Addition of Two Numbers",
+    "category": "Arithmetic Programs",
+    "difficulty": "Intermediate",
+    "objective": "Perform 16-bit addition of two 16-bit numbers using register pairs BC and DE.",
+    "theory": "16-bit numbers require register pairs in 8085 (HL, BC, DE). The DAD Rp instruction adds a 16-bit register pair to HL.",
+    "algorithm": [
+        "1. Load 16-bit number 1 into HL pair (LHLD 2050H).",
+        "2. Load 16-bit number 2 into DE pair (XCHG & LHLD 2052H).",
+        "3. Add DE to HL (DAD D).",
+        "4. Store 16-bit sum from HL pair to 2054H (SHLD 2054H).",
+        "5. HLT."
+    ],
+    "assembly_code": "LHLD 2050H   ; Load 1st 16-bit number into HL\nXCHG        ; Exchange HL with DE\nLHLD 2052H   ; Load 2nd 16-bit number into HL\nDAD D       ; HL = HL + DE\nSHLD 2054H   ; Store 16-bit sum at 2054H\nHLT         ; Stop execution",
+    "machine_code_hex": [
+        "2A",
+        "50",
+        "20",
+        "EB",
+        "2A",
+        "52",
+        "20",
+        "19",
+        "22",
+        "54",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "12H",
+            "2051H": "34H",
+            "2052H": "10H",
+            "2053H": "20H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2054H": "22H",
+            "2055H": "54H"
+        },
+        "registers": {
+            "HL": "5422H"
+        }
+    },
+    "viva_questions": [
+        {
+            "q": "Which 16-bit addition instruction exists in 8085?",
+            "a": "DAD (Double Add) instruction."
+        }
+    ]
+}

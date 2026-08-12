@@ -35,7 +35,7 @@
         {
             "parameter": "Contact Resistance",
             "value": "<30",
-            "unit": "mΩ",
+            "unit": "m\u03a9",
             "notes": "Gold-plated copper contacts"
         }
     ],
@@ -43,13 +43,13 @@
     "working_principle": "It routes digital video and audio over three Transition-Minimized Differential Signaling (TMDS) data channels and one clock channel. It includes DDC lines (I2C protocol) for device handshake and a 5V power line to read EDID data from turned-off screens.",
     "types": "HDMI Type-A (Standard), Mini-HDMI Type-C, and Micro-HDMI Type-D (used in compact cameras and Raspberry Pi 4).",
     "construction": "Houses 19 gold-plated pins on a thin plastic tongue inside a shielded metal D-shell connector housing.",
-    "electrical_characteristics": "Low contact resistance, matched 100Ω differential impedance high-speed lines, and high EMI shield integrity.",
+    "electrical_characteristics": "Low contact resistance, matched 100\u03a9 differential impedance high-speed lines, and high EMI shield integrity.",
     "symbol_description": "Detailed 19-pin block displaying TMDS channels, DDC lines, hot-plug detect, and 5V power terminals.",
-    "formulas": "TMDS differential pair impedance: Z_diff = 100 Ω.",
+    "formulas": "TMDS differential pair impedance: Z_diff = 100 \u03a9.",
     "applications": "Television displays, gaming consoles, desktop computer graphics cards, and media projectors.",
     "advantages": "Carries uncompressed high-definition video and multi-channel audio in a single cable, standardized globally, supports copy protection (HDCP).",
     "disadvantages": "Extremely fine pin spacing is difficult to solder by hand, cables have length limits (typically under 10 meters without active boosters).",
-    "example_circuit_operation": "An HDMI port is soldered to an MCU board. The high-speed TMDS lines are routed with exact length-matching as 100Ω differential pairs to the graphics controller, with TVS diodes added for ESD protection.",
+    "example_circuit_operation": "An HDMI port is soldered to an MCU board. The high-speed TMDS lines are routed with exact length-matching as 100\u03a9 differential pairs to the graphics controller, with TVS diodes added for ESD protection.",
     "practical_tips": "When routing high-speed HDMI TMDS differential traces on a PCB, ensure the traces have no vias and maintain a continuous ground reference plane directly beneath them to prevent signal skew and electromagnetic radiation.",
     "interview_questions": [
         {
@@ -81,9 +81,9 @@
     ],
     "references": "HDMI Specification Document Version 1.4/2.0; high-speed board layout app notes.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/hdmi_connector/real_photo.png",
         "symbol": "",
-        "pin_diagram": "",
+        "pin_diagram": "assets/components/hdmi_connector/pin_diagram.png",
         "internal_structure": "",
         "example_circuit": ""
     }

@@ -1,0 +1,43 @@
+{
+    "id": "bcd_addition",
+    "program_name": "BCD Addition using DAA",
+    "category": "BCD Programs",
+    "difficulty": "Intermediate",
+    "objective": "Perform addition of two BCD numbers and adjust result using DAA instruction.",
+    "theory": "The DAA (Decimal Adjust Accumulator) instruction adjusts the 8-bit result in A to two 4-bit BCD digits if lower/upper nibbles exceed 9 or AC/CY flags are set.",
+    "algorithm": [
+        "1. Load 1st BCD number from 2050H into A.",
+        "2. Load 2nd BCD number from 2051H into B.",
+        "3. Add B to A (ADD B).",
+        "4. Decimal adjust Accumulator (DAA).",
+        "5. Store BCD sum at 2052H.",
+        "6. HLT."
+    ],
+    "assembly_code": "LDA 2050H   ; Load 1st BCD byte\nMOV B, A    ; Copy to B\nLDA 2051H   ; Load 2nd BCD byte\nADD B       ; Add B to A\nDAA         ; Decimal Adjust Accumulator\nSTA 2052H   ; Store BCD result\nHLT",
+    "machine_code_hex": [
+        "3A",
+        "50",
+        "20",
+        "47",
+        "3A",
+        "51",
+        "20",
+        "80",
+        "27",
+        "32",
+        "52",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "38H",
+            "2051H": "45H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2052H": "83H"
+        }
+    }
+}

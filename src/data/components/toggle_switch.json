@@ -36,7 +36,7 @@
         {
             "parameter": "Contact Resistance",
             "value": "<10",
-            "unit": "mΩ",
+            "unit": "m\u03a9",
             "notes": "Heavy brass-silver contacts"
         }
     ],
@@ -82,9 +82,9 @@
     ],
     "references": "NKK Switches Toggle Series Catalog; industrial switch safety codes.",
     "images": {
-        "real_photo": "",
-        "symbol": "",
-        "pin_diagram": "",
+        "real_photo": "assets/components/toggle_switch/real_photo.png",
+        "symbol": "assets/components/toggle_switch/symbol.png",
+        "pin_diagram": "assets/components/toggle_switch/pin_diagram.png",
         "internal_structure": "",
         "example_circuit": ""
     }

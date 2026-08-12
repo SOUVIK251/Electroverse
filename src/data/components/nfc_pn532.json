@@ -80,10 +80,10 @@
     ],
     "references": "NXP PN532 User Manual; NFC Forum specifications.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/nfc_pn532/real_photo.png",
         "symbol": "",
-        "pin_diagram": "",
-        "internal_structure": "",
-        "example_circuit": ""
+        "pin_diagram": "assets/components/nfc_pn532/pin_diagram.png",
+        "internal_structure": "assets/components/nfc_pn532/internal_structure.png",
+        "example_circuit": "assets/components/nfc_pn532/example_circuit.png"
     }
 }

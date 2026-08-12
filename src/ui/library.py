@@ -18,11 +18,15 @@ _remote_image_cache = {}
 
 
 
+from src.core.screen_protection import screen_protection
+
+
 class ImageViewerDialog(QDialog):
     """A premium dark-themed modal dialog that lets users view, pan, and zoom images."""
     
     def __init__(self, pixmap: QPixmap, title: str, parent=None):
         super().__init__(parent)
+        screen_protection.apply_to_dialog(self)
         self.setWindowTitle(title)
         self.resize(800, 600)
         self.setStyleSheet("background-color: #0b0f19; color: #f8fafc;")
@@ -817,6 +821,8 @@ class LibraryView(QWidget):
             ("optocoupler_example", "Optocoupler Example"),
             ("application_schematic", "Application Schematic"),
             ("pin_diagram", "Pin Diagram"),
+            ("pcb_layout", "PCB Layout"),
+            ("connection", "Breadboard Connections"),
             ("vi_characteristics", "V-I Characteristics"),
             ("waveform_diagram", "Waveform Diagram"),
             ("equivalent_circuit", "Equivalent Circuit"),

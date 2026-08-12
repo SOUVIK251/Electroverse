@@ -39,8 +39,11 @@ walkthrough.md
 
 # Backup & Temporary Folders
 backup/
+scratch/
+8085_opcode_reference.png
 
 # PyInstaller Builds
 build/
 dist/
 *.spec
+

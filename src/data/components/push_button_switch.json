@@ -51,7 +51,7 @@
     "applications": "Microcontroller reset keys, user interface control keypads, doorbells, and input buttons.",
     "advantages": "Low cost, clear tactile feedback, compact board footprint, extremely long mechanical lifespan.",
     "disadvantages": "Contact bounce requires software or hardware debouncing, low power limits prevent direct switching of high-power loads.",
-    "example_circuit_operation": "A tactile button is connected between a digital pin and Ground, with a 10kΩ pull-up resistor to VCC. Pressing the button pulls the digital pin to 0V (Low), triggering an input event.",
+    "example_circuit_operation": "A tactile button is connected between a digital pin and Ground, with a 10k\u03a9 pull-up resistor to VCC. Pressing the button pulls the digital pin to 0V (Low), triggering an input event.",
     "practical_tips": "Always implement a software debounce routine (e.g. ignoring inputs for 20ms after detection) or a hardware RC filter to filter out mechanical contact bounce, preventing single clicks from registering as multiple taps.",
     "interview_questions": [
         {
@@ -83,10 +83,10 @@
     ],
     "references": "Omron Tactile Switch Application Guide; basic digital input programming manuals.",
     "images": {
-        "real_photo": "",
-        "symbol": "",
-        "pin_diagram": "",
+        "real_photo": "assets/components/push_button_switch/real_photo.png",
+        "symbol": "assets/components/push_button_switch/symbol.png",
+        "pin_diagram": "assets/components/push_button_switch/pin_diagram.png",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "assets/components/push_button_switch/example_circuit.png"
     }
 }

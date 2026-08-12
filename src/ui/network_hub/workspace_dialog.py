@@ -4,12 +4,14 @@ from PySide6.QtWidgets import (
 )
 from PySide6.QtCore import Qt
 import qtawesome as qta
+from src.core.screen_protection import screen_protection
 
 class EngineeringWorkspaceDialog(QDialog):
     """Engineering Workspace for saving notes, circuits & bookmarks."""
 
     def __init__(self, parent=None):
         super().__init__(parent)
+        screen_protection.apply_to_dialog(self)
         self.setWindowTitle("💼 Engineering Workspace & Saved Notebook")
         self.resize(700, 500)
         self.setStyleSheet("background-color: #0B1020; color: #FFFFFF;")

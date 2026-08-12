@@ -80,10 +80,10 @@
     ],
     "references": "Lorlin Rotary Switches Catalog; alpha range selector design sheets.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/rotary_switch/real_photo.png",
         "symbol": "",
         "pin_diagram": "",
-        "internal_structure": "",
+        "internal_structure": "assets/components/rotary_switch/internal_structure.png",
         "example_circuit": ""
     }
 }

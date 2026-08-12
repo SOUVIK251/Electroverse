@@ -157,7 +157,17 @@ class SignalsAssessmentWidget(QWidget):
 
             for o_idx, opt_text in enumerate(q_data["options"]):
                 radio = QRadioButton(opt_text)
-                radio.setStyleSheet("QRadioButton { color: #CBD5E1; font-size: 10pt; padding: 4px; } QRadioButton:hover { color: #FFFFFF; }")
+                radio.setStyleSheet("""
+                    QRadioButton {
+                        color: #CBD5E1; font-size: 10pt; font-weight: 500;
+                        padding: 8px 12px; background-color: #1E293B;
+                        border: 1.5px solid #26334D; border-radius: 6px; margin-bottom: 4px;
+                    }
+                    QRadioButton:hover { color: #FFFFFF; background-color: #26334D; border: 1.5px solid #06B6D4; }
+                    QRadioButton:checked { color: #FFFFFF; font-weight: bold; background-color: #0F2942; border: 2px solid #06B6D4; }
+                    QRadioButton::indicator { width: 16px; height: 16px; border-radius: 8px; border: 2px solid #64748B; background-color: #1E293B; }
+                    QRadioButton::indicator:checked { border-color: #06B6D4; background-color: #06B6D4; }
+                """)
                 btn_group.addButton(radio, o_idx)
                 c_lay.addWidget(radio)
                 opt_widgets.append(radio)

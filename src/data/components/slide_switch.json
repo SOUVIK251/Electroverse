@@ -30,13 +30,13 @@
         {
             "parameter": "Contact Resistance",
             "value": "<20",
-            "unit": "mΩ",
+            "unit": "m\u03a9",
             "notes": "Silver-clad copper contact points"
         },
         {
             "parameter": "Insulation Resistance",
             "value": ">100",
-            "unit": "MΩ",
+            "unit": "M\u03a9",
             "notes": "Resistance at 500V DC"
         }
     ],
@@ -82,9 +82,9 @@
     ],
     "references": "C&K sub-miniature slide switch series specifications; standard electronics hardware guides.",
     "images": {
-        "real_photo": "",
-        "symbol": "",
-        "pin_diagram": "",
+        "real_photo": "assets/components/slide_switch/real_photo.png",
+        "symbol": "assets/components/slide_switch/symbol.png",
+        "pin_diagram": "assets/components/slide_switch/pin_diagram.png",
         "internal_structure": "",
         "example_circuit": ""
     }

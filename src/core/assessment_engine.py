@@ -6,6 +6,7 @@ from .timer_manager import TimerController
 from .scoring_engine import ScoringEngine
 from .analytics_engine import AnalyticsEngine
 from .parametric_generator import ParametricGenerator
+from .assessment_quality_engine import AssessmentQualityEngine
 
 class AssessmentEngine:
     """Master CBT Examination Coordinator and Dataset Loader."""
@@ -15,7 +16,7 @@ class AssessmentEngine:
         self.data_dir = os.path.join("src", "data", "assessment", subject_id)
         self.question_bank = self._load_json("question_bank.json").get("questions", [])
         self.exam_sets = self._load_json("exam_sets.json").get("exam_sets", [])
-        self.q_map = {q["question_id"]: q for q in self.question_bank}
+        self.q_map = {q.get("question_id") or q.get("id"): q for q in self.question_bank}
         
         self.parametric_gen = ParametricGenerator()
 
@@ -35,29 +36,33 @@ class AssessmentEngine:
         if not s_obj:
             s_obj = self.exam_sets[0] if self.exam_sets else {}
 
-        q_ids = s_obj.get("question_ids", [])
-        raw_qs = [self.q_map[qid] for qid in q_ids if qid in self.q_map]
+        set_q_ids = [str(qid) for qid in s_obj.get("question_ids", [])]
+        target_count = 30
 
-        if mode == "Easy":
-            raw_qs = [q for q in self.question_bank if q["difficulty"] == "Easy"][:30]
-        elif mode == "Medium":
-            raw_qs = [q for q in self.question_bank if q["difficulty"] == "Medium"][:30]
-        elif mode == "Hard":
-            raw_qs = [q for q in self.question_bank if q["difficulty"] == "Hard"][:30]
+        # Filter set questions from question bank
+        raw_set_qs = [q for q in self.question_bank if str(q.get("id")) in set_q_ids or str(q.get("question_id")) in set_q_ids]
+        if not raw_set_qs:
+            raw_set_qs = self.question_bank[:target_count]
 
-        # Apply parametric instantiation and shuffling
-        session_qs = []
-        for q in raw_qs:
-            q_inst = self.parametric_gen.instantiate_question(q)
-            session_qs.append(q_inst)
+        # Combine set questions with candidate pool to allow DuplicateDetector to replace raw duplicates seamlessly
+        candidate_pool = raw_set_qs + [q for q in self.question_bank if q not in raw_set_qs]
 
-        random.seed()
-        random.shuffle(session_qs)
+        # Use Master Quality Engine for diverse sampling, stem polish, distractor enrichment, & option balancing
+        diverse_qs = AssessmentQualityEngine.sample_diverse_exam(
+            candidate_pool=candidate_pool,
+            target_count=target_count,
+            mode_id=mode.lower(),
+            difficulty_filter="ALL"
+        )
+
+        is_valid, final_qs, quality_report = AssessmentQualityEngine.validate_and_finalize_exam(diverse_qs, target_count)
 
         return {
             "set_id": set_id,
             "set_title": s_obj.get("set_title", f"CBT Exam {set_id}"),
             "duration_sec": s_obj.get("duration_minutes", 30) * 60,
             "passing_percentage": s_obj.get("passing_percentage", 60.0),
-            "questions": session_qs
+            "total_questions": len(final_qs),
+            "questions": final_qs,
+            "quality_report": quality_report
         }

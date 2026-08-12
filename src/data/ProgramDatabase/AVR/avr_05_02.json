@@ -1,0 +1,104 @@
+{
+  "id": "avr_05_02",
+  "program_name": "AVR (ATmega32/328P) - BCD Operations Ex 2",
+  "processor_family": "AVR (ATmega32/328P)",
+  "category": "BCD Operations",
+  "difficulty": "Basic",
+  "objective": "Demonstrate AVR ATmega32 bcd operations routine 2.",
+  "theory": "AVR is an 8-bit RISC architecture by Microchip/Atmel featuring 32 general-purpose 8-bit registers (R0-R31) and single-cycle execution for most instructions.",
+  "algorithm": [
+    "1. Load byte from SRAM address 0x0100 into register R16.",
+    "2. Load immediate value 2 into register R17.",
+    "3. Add R17 to R16.",
+    "4. Store result from R16 to SRAM address 0x0101."
+  ],
+  "flowchart": "START -> Execute BCD Operations Step 1 -> Process Data -> Verify Flags/Result -> END",
+  "assembly_code": "; AVR ATmega32 - BCD Operations Ex 2\nlds r16, 0x0100\nldi r17, 2\nadd r16, r17\nsts 0x0101, r16",
+  "machine_code_hex": [
+    "90",
+    "80",
+    "00",
+    "01",
+    "E0",
+    "02",
+    "0F",
+    "01",
+    "92",
+    "80",
+    "01",
+    "01"
+  ],
+  "opcode_table": [
+    {
+      "address": "0000H",
+      "mnemonic": "; AVR ATmega32 - BCD Operations Ex 2",
+      "hex": "90 80 00",
+      "bytes": 3,
+      "cycles": 10
+    }
+  ],
+  "sample_input": {
+    "memory": {
+      "2050H": "02H"
+    }
+  },
+  "sample_output": {
+    "memory": {
+      "2051H": "04H"
+    },
+    "registers": {
+      "A": "04H"
+    }
+  },
+  "register_changes": [
+    {
+      "step": 1,
+      "reg": "PC",
+      "val": "0000H",
+      "desc": "Instruction Fetch"
+    },
+    {
+      "step": 2,
+      "reg": "A",
+      "val": "04H",
+      "desc": "Execution Result"
+    }
+  ],
+  "flag_changes": {
+    "S": 0,
+    "Z": 0,
+    "AC": 0,
+    "P": 1,
+    "CY": 0
+  },
+  "memory_changes": {
+    "2051H": "04H"
+  },
+  "step_by_step_execution": [
+    "Step 1: Fetch and decode BCD Operations instruction for AVR (ATmega32/328P).",
+    "Step 2: Read input operands from memory / registers.",
+    "Step 3: Execute ALU operation for BCD Operations.",
+    "Step 4: Update status flags (Z, CY, S, P).",
+    "Step 5: Store final result into memory."
+  ],
+  "explanation": "This program demonstrates bcd operations on the AVR (ATmega32/328P) architecture.",
+  "common_mistakes": [
+    "Incorrect register pair pairing.",
+    "Forgetting to clear carry or flags before loop.",
+    "Out-of-bounds memory access."
+  ],
+  "viva_questions": [
+    {
+      "q": "How many general-purpose working registers are in AVR?",
+      "a": "32 8-bit registers (R0 to R31)."
+    },
+    {
+      "q": "What is the execution clock speed of AVR?",
+      "a": "Most instructions execute in 1 clock cycle (1 MIPS per MHz)."
+    }
+  ],
+  "practical_applications": [
+    "Used in embedded control systems for bcd operations.",
+    "Commonly used in real-time sensor processing on AVR (ATmega32/328P)."
+  ]
+}

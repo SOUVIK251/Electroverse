@@ -38,7 +38,7 @@
             "parameter": "Peak Pulse Power (P_pp)",
             "value": "400",
             "unit": "W",
-            "notes": "Tolerates 10/1000μs pulse waveform"
+            "notes": "Tolerates 10/1000\u03bcs pulse waveform"
         }
     ],
     "definition": "A Transient Voltage Suppression (TVS) Diode is a semiconductor avalanche junction device designed to protect sensitive downstream integrated circuits from high-voltage transient spikes (such as ESD or inductive switching surges). It reacts in picoseconds to clamp transient voltages to safe levels.",
@@ -87,10 +87,10 @@
     ],
     "references": "ON Semiconductor TVS Diode selection manual; IEC 61000-4-2 ESD immunity standards.",
     "images": {
-        "real_photo": "",
-        "symbol": "",
+        "real_photo": "assets/components/tvs_diode/real_photo.png",
+        "symbol": "assets/components/tvs_diode/symbol.png",
         "pin_diagram": "",
-        "internal_structure": "",
+        "internal_structure": "assets/components/tvs_diode/internal_structure.png",
         "example_circuit": ""
     }
 }

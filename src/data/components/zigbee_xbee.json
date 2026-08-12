@@ -82,10 +82,10 @@
     ],
     "references": "Digi XBee / XBee-PRO S2C ZigBee Datasheet; IEEE 802.15.4 standard definitions.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/zigbee_xbee/real_photo.png",
         "symbol": "",
-        "pin_diagram": "",
+        "pin_diagram": "assets/components/zigbee_xbee/pin_diagram.png",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "assets/components/zigbee_xbee/example_circuit.png"
     }
 }

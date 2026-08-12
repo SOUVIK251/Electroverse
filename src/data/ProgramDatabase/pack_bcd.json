@@ -1,0 +1,51 @@
+{
+    "id": "pack_bcd",
+    "program_name": "Pack Two Unpacked BCD Digits",
+    "category": "BCD Programs",
+    "difficulty": "Intermediate",
+    "objective": "Combine two single-digit BCD numbers into a single packed BCD byte.",
+    "theory": "The upper BCD digit is shifted left 4 times (RLC x 4) and logically ORed (ORA) with the lower BCD digit.",
+    "algorithm": [
+        "1. Load upper BCD digit from 2050H (e.g. 04H).",
+        "2. Rotate left 4 times (RLC x 4) -> 40H.",
+        "3. Store intermediate upper nibble in B.",
+        "4. Load lower BCD digit from 2051H (e.g. 05H).",
+        "5. Logical OR with B (ORA B) -> 45H.",
+        "6. Store packed BCD byte in 2052H.",
+        "7. HLT."
+    ],
+    "assembly_code": "LDA 2050H   ; Load upper BCD digit (04H)\nRLC         ; Shift to upper nibble (40H)\nRLC\nRLC\nRLC\nMOV B, A    ; Store in B\nLDA 2051H   ; Load lower BCD digit (05H)\nORA B       ; Combine nibbles (45H)\nSTA 2052H   ; Store packed byte\nHLT",
+    "machine_code_hex": [
+        "3A",
+        "50",
+        "20",
+        "07",
+        "07",
+        "07",
+        "07",
+        "47",
+        "3A",
+        "51",
+        "20",
+        "B0",
+        "32",
+        "52",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "04H",
+            "2051H": "05H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2052H": "45H"
+        },
+        "registers": {
+            "A": "45H",
+            "B": "40H"
+        }
+    }
+}

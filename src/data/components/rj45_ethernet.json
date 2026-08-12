@@ -41,9 +41,9 @@
     "working_principle": "It routes differential transmit and receive data signals (TX/RX) over twisted-pair copper cables. High-speed digital signals are passed through internal isolation transformers (magnetics) to suppress common-mode noise and prevent ground loop currents.",
     "types": "Standard RJ45 jacks, MagJacks (with integrated transformers), and shielded metal RJ45 connectors.",
     "construction": "Houses 8 gold-plated spring wire contacts inside a clear polycarbonate plug casing, mating with a shielded copper-alloy PCB jack housing.",
-    "electrical_characteristics": "Low contact resistance, matched 100Ω differential impedance, and high dielectric isolation. Supports Power over Ethernet (PoE).",
+    "electrical_characteristics": "Low contact resistance, matched 100\u03a9 differential impedance, and high dielectric isolation. Supports Power over Ethernet (PoE).",
     "symbol_description": "An 8-pin block showing TX/RX differential pairs, ground shielding, and LED connections.",
-    "formulas": "Ethernet line differential impedance: Z_diff = 100 Ω.",
+    "formulas": "Ethernet line differential impedance: Z_diff = 100 \u03a9.",
     "applications": "Network switches, desktop computers, IP network cameras, and smart home hubs.",
     "advantages": "Universal global standard, supports high-speed data (up to 10 Gbps), supports Power over Ethernet (PoE).",
     "disadvantages": "Bulky physical size, requires differential trace routing and isolation transformers, plastic locking clip on plugs breaks easily.",
@@ -79,10 +79,10 @@
     ],
     "references": "IEEE 802.3 Ethernet Standards; Amphenol RJ45 design specs.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/rj45_ethernet/real_photo.png",
         "symbol": "",
-        "pin_diagram": "",
+        "pin_diagram": "assets/components/rj45_ethernet/pin_diagram.png",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "assets/components/rj45_ethernet/example_circuit.png"
     }
 }

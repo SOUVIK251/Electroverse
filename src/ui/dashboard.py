@@ -390,6 +390,7 @@ class DashboardView(QWidget):
             ("DIGITAL SYSTEM DESIGN HUB", "fa5s.microchip", ViewID.DIGITAL_HUB, "65%", "14/20", "22 Labs", "92%", "#10B981", "● Ready"),   # Green
             ("SIGNAL & SYSTEM HUB", "fa5s.chart-line", ViewID.SIGNALS_HUB, "54%", "20/32", "15 Labs", "88%", "#F59E0B", "● Active"),     # Amber
             ("NETWORK THEORY HUB", "fa5s.project-diagram", ViewID.NETWORK_HUB, "48%", "18/42", "15 Labs", "84%", "#38BDF8", "● Ready"),  # Blue
+            ("MICROPROCESSOR & MCU HUB", "fa5s.memory", ViewID.MPMC_HUB, "85%", "4 Modules", "21 Labs", "88%", "#F97316", "● Active"), # Orange
             ("COMPONENT LIBRARY MATRIX", "fa5s.book", ViewID.LIBRARY, "90%", "91 Parts", "60+ Forms", "N/A", "#A855F7", "● Online"), # Purple
             ("GRAND VIVA INTERVIEW BOARD", "fa5s.user-graduate", ViewID.GRAND_VIVA, "75%", "270+ Q&A", "10 Topics", "89%", "#EC4899", "● Ready"), # Pink
         ]

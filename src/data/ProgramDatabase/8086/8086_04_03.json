@@ -1,0 +1,106 @@
+{
+  "id": "8086_04_03",
+  "program_name": "Intel 8086 - Bit Manipulation Ex 3",
+  "processor_family": "Intel 8086",
+  "category": "Bit Manipulation",
+  "difficulty": "Intermediate",
+  "objective": "Implement 16-bit bit manipulation exercise 3 on Intel 8086 architecture.",
+  "theory": "The Intel 8086 is a 16-bit CISC microprocessor with a 20-bit address bus capable of addressing 1 MB of memory divided into Code, Data, Stack, and Extra segments.",
+  "algorithm": [
+    "1. Load 16-bit data from memory offset 2050H into AX register.",
+    "2. Load immediate 16-bit value 0003H into BX register.",
+    "3. Add BX to AX (16-bit addition).",
+    "4. Store 16-bit sum into memory offset 2052H.",
+    "5. Trigger INT 20H to terminate program."
+  ],
+  "flowchart": "START -> Execute Bit Manipulation Step 1 -> Process Data -> Verify Flags/Result -> END",
+  "assembly_code": "; 8086 Assembly - Bit Manipulation Ex 3\nMOV AX, [2050H]\nMOV BX, 0003H\nADD AX, BX\nMOV [2052H], AX\nINT 20H",
+  "machine_code_hex": [
+    "A1",
+    "50",
+    "20",
+    "BB",
+    "03",
+    "00",
+    "01",
+    "D8",
+    "A3",
+    "52",
+    "20",
+    "CD",
+    "20"
+  ],
+  "opcode_table": [
+    {
+      "address": "0000H",
+      "mnemonic": "; 8086 Assembly - Bit Manipulation Ex 3",
+      "hex": "A1 50 20",
+      "bytes": 3,
+      "cycles": 10
+    }
+  ],
+  "sample_input": {
+    "memory": {
+      "2050H": "03H"
+    }
+  },
+  "sample_output": {
+    "memory": {
+      "2051H": "06H"
+    },
+    "registers": {
+      "A": "06H"
+    }
+  },
+  "register_changes": [
+    {
+      "step": 1,
+      "reg": "PC",
+      "val": "0000H",
+      "desc": "Instruction Fetch"
+    },
+    {
+      "step": 2,
+      "reg": "A",
+      "val": "06H",
+      "desc": "Execution Result"
+    }
+  ],
+  "flag_changes": {
+    "S": 0,
+    "Z": 0,
+    "AC": 0,
+    "P": 1,
+    "CY": 0
+  },
+  "memory_changes": {
+    "2051H": "06H"
+  },
+  "step_by_step_execution": [
+    "Step 1: Fetch and decode Bit Manipulation instruction for Intel 8086.",
+    "Step 2: Read input operands from memory / registers.",
+    "Step 3: Execute ALU operation for Bit Manipulation.",
+    "Step 4: Update status flags (Z, CY, S, P).",
+    "Step 5: Store final result into memory."
+  ],
+  "explanation": "This program demonstrates bit manipulation on the Intel 8086 architecture.",
+  "common_mistakes": [
+    "Incorrect register pair pairing.",
+    "Forgetting to clear carry or flags before loop.",
+    "Out-of-bounds memory access."
+  ],
+  "viva_questions": [
+    {
+      "q": "What is the size of the 8086 instruction prefetch queue?",
+      "a": "6 bytes for 8086 (4 bytes for 8088)."
+    },
+    {
+      "q": "How is 20-bit physical address calculated in 8086?",
+      "a": "Physical Address = (Segment Register x 16) + Offset."
+    }
+  ],
+  "practical_applications": [
+    "Used in embedded control systems for bit manipulation.",
+    "Commonly used in real-time sensor processing on Intel 8086."
+  ]
+}

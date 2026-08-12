@@ -26,7 +26,7 @@
             "parameter": "Nominal Discharge Current (I_n)",
             "value": "20000",
             "unit": "A",
-            "notes": "8/20μs surge current rating"
+            "notes": "8/20\u03bcs surge current rating"
         },
         {
             "parameter": "Voltage Protection Level (U_p)",
@@ -83,10 +83,10 @@
     ],
     "references": "IEC 61643-11 Low-voltage surge protective devices standard; Schneider Electric installation guidelines.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/surge_protector/real_photo.png",
         "symbol": "",
         "pin_diagram": "",
-        "internal_structure": "",
-        "example_circuit": ""
+        "internal_structure": "assets/components/surge_protector/internal_structure.png",
+        "example_circuit": "assets/components/surge_protector/example_circuit.png"
     }
 }

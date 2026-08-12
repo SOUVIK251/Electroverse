@@ -82,10 +82,10 @@
     ],
     "references": "Semtech SX1276/77/78 Datasheet; LoRaWAN Alliance regional channel layout specifications.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/lora_sx1278/real_photo.png",
         "symbol": "",
-        "pin_diagram": "",
-        "internal_structure": "",
-        "example_circuit": ""
+        "pin_diagram": "assets/components/lora_sx1278/pin_diagram.png",
+        "internal_structure": "assets/components/lora_sx1278/internal_structure.png",
+        "example_circuit": "assets/components/lora_sx1278/example_circuit.png"
     }
 }

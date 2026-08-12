@@ -42,7 +42,7 @@
     "working_principle": "It functions as a mechanical plug. The square metal pins slide into the spring clips of mating female headers, creating a stable multi-point frictional contact electrical connection.",
     "types": "Straight headers, right-angle headers, double-row headers, and shrouded/polarized headers (which prevent incorrect orientation).",
     "construction": "Brass or phosphor bronze pins pressed into a high-temperature thermoplastic (PPS or Nylon) carrier strip, often gold-plated at the contact zone.",
-    "electrical_characteristics": "Low contact resistance (<20 mΩ), low capacitance, and typical current ratings up to 3A per pin.",
+    "electrical_characteristics": "Low contact resistance (<20 m\u03a9), low capacitance, and typical current ratings up to 3A per pin.",
     "symbol_description": "Row of small open circles or terminal points showing connection channels.",
     "formulas": "Contact Force: F_c = Coefficient * deflection of female spring.",
     "applications": "Arduino shield interconnects, sensor breakout modules, UART debugging serial headers, and jumpers.",
@@ -80,10 +80,11 @@
     ],
     "references": "Standard Molex/Samtec pin header catalogs; soldering guidelines for interconnects.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/pin_header/real_photo.png",
         "symbol": "",
         "pin_diagram": "",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "",
+        "pcb_layout": "assets/components/pin_header/pcb_layout.png"
     }
 }

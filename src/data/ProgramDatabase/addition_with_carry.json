@@ -1,0 +1,54 @@
+{
+    "id": "addition_with_carry",
+    "program_name": "8-Bit Addition with Carry",
+    "category": "Arithmetic Programs",
+    "difficulty": "Basic",
+    "objective": "Perform 8-bit addition of two numbers and record both 8-bit sum and carry byte.",
+    "theory": "When addition results in a sum > 255 (FFH), the Carry Flag (CY) becomes 1. The ADC or JNC instruction tracks the carry byte.",
+    "algorithm": [
+        "1. Initialize Carry Register C = 0.",
+        "2. Load 1st number into A from 2050H.",
+        "3. Load 2nd number into B from 2051H.",
+        "4. ADD B. If JNC SKIP is taken, skip incrementing C.",
+        "5. If Carry set, INR C.",
+        "6. Store Sum at 2052H and Carry at 2053H.",
+        "7. HLT."
+    ],
+    "assembly_code": "MVI C, 00H   ; Clear C (Carry)\nLDA 2050H   ; Load 1st byte\nMOV B, A    ; Move to B\nLDA 2051H   ; Load 2nd byte\nADD B       ; Add B to A\nJNC SKIP    ; Jump if no carry\nINR C       ; Increment C if carry\nSKIP: STA 2052H ; Store Sum\nMOV A, C    ; Move Carry to A\nSTA 2053H   ; Store Carry\nHLT",
+    "machine_code_hex": [
+        "0E",
+        "00",
+        "3A",
+        "50",
+        "20",
+        "47",
+        "3A",
+        "51",
+        "20",
+        "80",
+        "D2",
+        "0D",
+        "20",
+        "0C",
+        "32",
+        "52",
+        "20",
+        "79",
+        "32",
+        "53",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "FFH",
+            "2051H": "01H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2052H": "00H",
+            "2053H": "01H"
+        }
+    }
+}

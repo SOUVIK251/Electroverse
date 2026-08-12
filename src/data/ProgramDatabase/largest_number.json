@@ -1,0 +1,60 @@
+{
+    "id": "largest_number",
+    "program_name": "Find Largest Number in an Array",
+    "category": "Comparison & Sorting",
+    "difficulty": "Intermediate",
+    "objective": "Search an array of N 8-bit numbers stored in memory and find the maximum value.",
+    "theory": "The 8085 CMP instruction compares register/memory with A by subtracting internally and updating flags (CY=1 if A < M).",
+    "algorithm": [
+        "1. Load array length count N into C.",
+        "2. Initialize HL pointer to start of array (2050H).",
+        "3. Load first element into Accumulator A.",
+        "4. Decrement count C and increment pointer HL.",
+        "5. Compare M with A (CMP M).",
+        "6. If Carry=1 (A >= M), skip updating A.",
+        "7. If Carry=0 (A < M), update A = M.",
+        "8. Repeat until count C reaches 0.",
+        "9. Store maximum value in 2060H and HLT."
+    ],
+    "assembly_code": "LXI H, 2050H ; HL -> array start\nMOV C, M    ; C = count N\nINX H       ; HL -> 1st element\nMOV A, M    ; A = 1st element\nDCR C       ; Decrement count\nLOOP: INX H ; HL -> next element\nCMP M       ; Compare A with M\nJNC SKIP    ; If A >= M, jump to SKIP\nMOV A, M    ; Update max value A = M\nSKIP: DCR C  ; Decrement counter\nJNZ LOOP    ; Repeat if C != 0\nSTA 2060H   ; Store largest number at 2060H\nHLT         ; Stop",
+    "machine_code_hex": [
+        "21",
+        "50",
+        "20",
+        "4E",
+        "23",
+        "7E",
+        "0D",
+        "23",
+        "BE",
+        "D2",
+        "0C",
+        "20",
+        "7E",
+        "0D",
+        "C2",
+        "07",
+        "20",
+        "32",
+        "60",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "04H",
+            "2051H": "25H",
+            "2052H": "89H",
+            "2053H": "12H",
+            "2054H": "42H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2060H": "89H"
+        },
+        "registers": {
+            "A": "89H"
+        }
+    }
+}

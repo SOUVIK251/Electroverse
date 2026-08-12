@@ -1,0 +1,65 @@
+{
+    "id": "bubble_sort_ascending",
+    "program_name": "Bubble Sort in Ascending Order",
+    "category": "Comparison & Sorting",
+    "difficulty": "Advanced",
+    "objective": "Sort an array of N numbers in memory in ascending order using Bubble Sort algorithm.",
+    "theory": "Compares adjacent elements and swaps them if element i > element i+1. Repeats pass N-1 times.",
+    "algorithm": [
+        "1. Initialize outer loop counter N-1.",
+        "2. Initialize inner loop counter N-1 and array pointer HL.",
+        "3. Compare current element M with next element [HL+1].",
+        "4. If current > next, swap elements.",
+        "5. Advance HL pointer, decrement inner counter.",
+        "6. Repeat inner loop until done, then repeat outer loop."
+    ],
+    "assembly_code": "LXI H, 2050H ; HL -> array size N\nMOV C, M    ; C = N\nDCR C       ; Outer loop count N-1\nOUTER: MOV D, C ; D = inner loop count\nLXI H, 2051H ; HL -> 1st element\nINNER: MOV A, M ; A = current element\nINX H       ; HL -> next element\nCMP M       ; Compare current with next\nJC NO_SWAP  ; If A < M, correct order\nMOV B, M    ; Swap M and A\nMOV M, A    ;\nDCX H       ;\nMOV M, B    ;\nINX H       ;\nNO_SWAP: DCR D\nJNZ INNER   ;\nDCR C       ;\nJNZ OUTER   ;\nHLT",
+    "machine_code_hex": [
+        "21",
+        "50",
+        "20",
+        "4E",
+        "0D",
+        "51",
+        "21",
+        "51",
+        "20",
+        "7E",
+        "23",
+        "BE",
+        "DA",
+        "16",
+        "20",
+        "46",
+        "77",
+        "2B",
+        "70",
+        "23",
+        "15",
+        "C2",
+        "09",
+        "20",
+        "0D",
+        "C2",
+        "03",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "04H",
+            "2051H": "42H",
+            "2052H": "05H",
+            "2053H": "12H",
+            "2054H": "01H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2051H": "01H",
+            "2052H": "05H",
+            "2053H": "12H",
+            "2054H": "42H"
+        }
+    }
+}

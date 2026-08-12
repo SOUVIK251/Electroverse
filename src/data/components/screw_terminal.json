@@ -67,7 +67,7 @@
         },
         {
             "question": "How do you calculate the voltage drop across a screw terminal link?",
-            "answer": "Using Ohm's Law: $V_{drop} = I \\cdot R_{contact}$. With a typical contact resistance of 2 mΩ and a 20A current, the drop is 40mV."
+            "answer": "Using Ohm's Law: $V_{drop} = I \\cdot R_{contact}$. With a typical contact resistance of 2 m\u03a9 and a 20A current, the drop is 40mV."
         },
         {
             "question": "What material is typically used for the base of high-temperature barrier strips?",
@@ -82,10 +82,10 @@
     ],
     "references": "NEMA standards for industrial terminal blocks; Molex barrier strip catalogs.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/screw_terminal/real_photo.png",
         "symbol": "",
         "pin_diagram": "",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "assets/components/screw_terminal/example_circuit.png"
     }
 }

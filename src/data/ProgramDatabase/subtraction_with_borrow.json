@@ -1,0 +1,56 @@
+{
+    "id": "subtraction_with_borrow",
+    "program_name": "8-Bit Subtraction with Borrow",
+    "category": "Arithmetic Programs",
+    "difficulty": "Intermediate",
+    "objective": "Perform 8-bit subtraction of two numbers and record borrow state if subtrahend is greater than minuend.",
+    "theory": "When subtracting a larger number from a smaller number, 8085 sets CY=1 indicating a borrow. Result is in 2's complement form.",
+    "algorithm": [
+        "1. Clear Borrow register C = 0.",
+        "2. Load minuend into A from 2050H.",
+        "3. Load subtrahend into B from 2051H.",
+        "4. SUB B. If no borrow (JNC), skip incrementing C.",
+        "5. If borrow occurs, INR C and complement result (CMA + ADI 1).",
+        "6. Store Difference at 2052H and Borrow at 2053H."
+    ],
+    "assembly_code": "MVI C, 00H   ; Clear Borrow register C\nLDA 2050H   ; Load minuend\nMOV B, A\nLDA 2051H   ; Load subtrahend\nSUB B       ; A = A - B\nJNC SKIP    ; Jump if no borrow\nINR C       ; Borrow occurred\nCMA         ; 2's complement to get positive magnitude\nADI 01H\nSKIP: STA 2052H ; Store magnitude\nMOV A, C    ;\nSTA 2053H   ; Store borrow flag\nHLT",
+    "machine_code_hex": [
+        "0E",
+        "00",
+        "3A",
+        "50",
+        "20",
+        "47",
+        "3A",
+        "51",
+        "20",
+        "90",
+        "D2",
+        "0F",
+        "20",
+        "0C",
+        "2F",
+        "C6",
+        "01",
+        "32",
+        "52",
+        "20",
+        "79",
+        "32",
+        "53",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "03H",
+            "2051H": "05H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2052H": "02H",
+            "2053H": "01H"
+        }
+    }
+}

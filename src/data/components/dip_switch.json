@@ -24,13 +24,13 @@
         {
             "parameter": "Contact Resistance",
             "value": "<50",
-            "unit": "mΩ",
+            "unit": "m\u03a9",
             "notes": "Initial contact resistance"
         },
         {
             "parameter": "Insulation Resistance",
             "value": ">1000",
-            "unit": "MΩ",
+            "unit": "M\u03a9",
             "notes": "Isolation between open contacts"
         },
         {
@@ -50,7 +50,7 @@
     "applications": "Selecting wireless channels in remotes, configuring DMX-512 receiver addresses, and setting motherboard boot modes.",
     "advantages": "Low cost, retains settings without power, easily configured by users using a pen or screwdriver.",
     "disadvantages": "Contacts can oxidize over time in harsh environments, physical configuration is slow compared to digital software menus.",
-    "example_circuit_operation": "An 8-position DIP switch is soldered to a microcontroller board. Each output pin is connected to an MCU input pin with a 10kΩ pull-up resistor. Toggling a switch grounds the pin, setting configuration bits.",
+    "example_circuit_operation": "An 8-position DIP switch is soldered to a microcontroller board. Each output pin is connected to an MCU input pin with a 10k\u03a9 pull-up resistor. Toggling a switch grounds the pin, setting configuration bits.",
     "practical_tips": "Always pair DIP switch inputs with internal or external pull-up resistors. Leaving a switch pin unconnected when open creates a floating input that collects noise, causing erratic microcontroller behavior.",
     "interview_questions": [
         {
@@ -82,10 +82,10 @@
     ],
     "references": "C&K Components DIP Switch Datasheet; basic logic inputs design guidelines.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/dip_switch/real_photo.png",
         "symbol": "",
-        "pin_diagram": "",
+        "pin_diagram": "assets/components/dip_switch/pin_diagram.png",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "assets/components/dip_switch/example_circuit.png"
     }
 }

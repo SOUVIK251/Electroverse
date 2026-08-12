@@ -18,7 +18,7 @@
     "specifications": [
         {
             "parameter": "Frequency Tolerance",
-            "value": "±10 - ±30",
+            "value": "\u00b110 - \u00b130",
             "unit": "ppm",
             "notes": "Highly precise frequency reference"
         },
@@ -31,13 +31,13 @@
         {
             "parameter": "Equivalent Series Resistance (ESR)",
             "value": "20 - 80",
-            "unit": "Ω",
+            "unit": "\u03a9",
             "notes": "Inherent resistance at resonance"
         },
         {
             "parameter": "Drive Level",
             "value": "100",
-            "unit": "μW",
+            "unit": "\u03bcW",
             "notes": "Maximum drive power to avoid crystal damage"
         }
     ],
@@ -83,10 +83,10 @@
     ],
     "references": "Epson Quartz Crystal application notes; ATmega328P clock design guidelines.",
     "images": {
-        "real_photo": "",
-        "symbol": "",
+        "real_photo": "assets/components/quartz_crystal/real_photo.png",
+        "symbol": "assets/components/quartz_crystal/symbol.png",
         "pin_diagram": "",
-        "internal_structure": "",
+        "internal_structure": "assets/components/quartz_crystal/internal_structure.png",
         "example_circuit": ""
     }
 }

@@ -18,7 +18,7 @@
     "specifications": [
         {
             "parameter": "Frequency Tolerance",
-            "value": "±0.3 to ±0.5",
+            "value": "\u00b10.3 to \u00b10.5",
             "unit": "%",
             "notes": "Lower accuracy than quartz crystals (100x lower)"
         },
@@ -30,8 +30,8 @@
         },
         {
             "parameter": "Temperature Coefficient",
-            "value": "±50 - ±100",
-            "unit": "ppm/°C",
+            "value": "\u00b150 - \u00b1100",
+            "unit": "ppm/\u00b0C",
             "notes": "Substantial drift over temperature"
         },
         {
@@ -51,11 +51,11 @@
     "advantages": "Extremely inexpensive, 3-pin designs save space by eliminating external capacitors, faster startup time than quartz crystals.",
     "disadvantages": "Low accuracy and high frequency drift over temperature make it unsuitable for high-speed UART or USB communications.",
     "example_circuit_operation": "A 3-pin 8 MHz ceramic resonator is connected to a microcontroller. The outer pins go to XTAL1/XTAL2, and the center pin goes to Ground. The MCU clock configuration is set to low-cost external oscillator.",
-    "practical_tips": "Do not use a ceramic resonator for projects requiring precise UART serial communications or USB connections; the frequency tolerance of ±0.5% is too wide and will cause data frame errors.",
+    "practical_tips": "Do not use a ceramic resonator for projects requiring precise UART serial communications or USB connections; the frequency tolerance of \u00b10.5% is too wide and will cause data frame errors.",
     "interview_questions": [
         {
             "question": "How does a ceramic resonator compare to a quartz crystal?",
-            "answer": "Ceramic resonators are cheaper, start up faster, and have integrated load capacitors. However, they are significantly less accurate (±0.5% vs ±0.005% for quartz) and drift more with temperature."
+            "answer": "Ceramic resonators are cheaper, start up faster, and have integrated load capacitors. However, they are significantly less accurate (\u00b10.5% vs \u00b10.005% for quartz) and drift more with temperature."
         },
         {
             "question": "Why do standard ceramic resonators have 3 pins?",
@@ -82,10 +82,10 @@
     ],
     "references": "Murata Ceramic Resonator (CSTNE series) Datasheet; MCU clock configuration guides.",
     "images": {
-        "real_photo": "",
-        "symbol": "",
-        "pin_diagram": "",
-        "internal_structure": "",
+        "real_photo": "assets/components/ceramic_resonator/real_photo.png",
+        "symbol": "assets/components/ceramic_resonator/symbol.png",
+        "pin_diagram": "assets/components/ceramic_resonator/pin_diagram.png",
+        "internal_structure": "assets/components/ceramic_resonator/internal_structure.png",
         "example_circuit": ""
     }
 }

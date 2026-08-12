@@ -1,0 +1,35 @@
+{
+    "id": "rotate_left",
+    "program_name": "Rotate Left Accumulator (RLC / RAL)",
+    "category": "Bit Manipulation",
+    "difficulty": "Basic",
+    "objective": "Demonstrate bit rotation to the left using RLC and RAL instructions.",
+    "theory": "RLC rotates bits left with Bit 7 going into both Bit 0 and CY flag. RAL rotates bits left through the Carry flag.",
+    "algorithm": [
+        "1. Load byte from 2050H into A.",
+        "2. Perform RLC (Rotate Left Circular).",
+        "3. Store rotated byte at 2051H.",
+        "4. HLT."
+    ],
+    "assembly_code": "LDA 2050H   ; Load number\nRLC         ; Rotate left circular\nSTA 2051H   ; Store result\nHLT",
+    "machine_code_hex": [
+        "3A",
+        "50",
+        "20",
+        "07",
+        "32",
+        "51",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "81H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2051H": "03H"
+        }
+    }
+}

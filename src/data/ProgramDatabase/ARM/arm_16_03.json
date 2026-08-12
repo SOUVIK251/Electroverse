@@ -1,0 +1,100 @@
+{
+  "id": "arm_16_03",
+  "program_name": "ARM Cortex-M (STM32) - Serial Communication Ex 3",
+  "processor_family": "ARM Cortex-M (STM32)",
+  "category": "Serial Communication",
+  "difficulty": "Intermediate",
+  "objective": "Implement 32-bit ARM Cortex-M serial communication routine 3.",
+  "theory": "ARM Cortex-M is a 32-bit RISC processor architecture utilizing the Thumb-2 instruction set, Harvard bus structure, and Nested Vectored Interrupt Controller (NVIC).",
+  "algorithm": [
+    "1. Load base SRAM address 0x20000000 into register R0.",
+    "2. Read 32-bit word from memory [R0] into R1.",
+    "3. Add immediate constant #3 to R1.",
+    "4. Store 32-bit result to memory location [R0 + 4]."
+  ],
+  "flowchart": "START -> Execute Serial Communication Step 1 -> Process Data -> Verify Flags/Result -> END",
+  "assembly_code": "; ARM Cortex-M Assembly - Serial Communication Ex 3\nLDR R0, =0x20000000\nLDR R1, [R0]\nADD R1, R1, #3\nSTR R1, [R0, #4]",
+  "machine_code_hex": [
+    "48",
+    "02",
+    "68",
+    "01",
+    "31",
+    "03",
+    "60",
+    "41"
+  ],
+  "opcode_table": [
+    {
+      "address": "0000H",
+      "mnemonic": "; ARM Cortex-M Assembly - Serial Communication Ex 3",
+      "hex": "48 02 68",
+      "bytes": 3,
+      "cycles": 10
+    }
+  ],
+  "sample_input": {
+    "memory": {
+      "2050H": "03H"
+    }
+  },
+  "sample_output": {
+    "memory": {
+      "2051H": "06H"
+    },
+    "registers": {
+      "A": "06H"
+    }
+  },
+  "register_changes": [
+    {
+      "step": 1,
+      "reg": "PC",
+      "val": "0000H",
+      "desc": "Instruction Fetch"
+    },
+    {
+      "step": 2,
+      "reg": "A",
+      "val": "06H",
+      "desc": "Execution Result"
+    }
+  ],
+  "flag_changes": {
+    "S": 0,
+    "Z": 0,
+    "AC": 0,
+    "P": 1,
+    "CY": 0
+  },
+  "memory_changes": {
+    "2051H": "06H"
+  },
+  "step_by_step_execution": [
+    "Step 1: Fetch and decode Serial Communication instruction for ARM Cortex-M (STM32).",
+    "Step 2: Read input operands from memory / registers.",
+    "Step 3: Execute ALU operation for Serial Communication.",
+    "Step 4: Update status flags (Z, CY, S, P).",
+    "Step 5: Store final result into memory."
+  ],
+  "explanation": "This program demonstrates serial communication on the ARM Cortex-M (STM32) architecture.",
+  "common_mistakes": [
+    "Incorrect register pair pairing.",
+    "Forgetting to clear carry or flags before loop.",
+    "Out-of-bounds memory access."
+  ],
+  "viva_questions": [
+    {
+      "q": "What instruction set is used by ARM Cortex-M processors?",
+      "a": "Thumb-2 instruction set (mix of 16-bit and 32-bit instructions)."
+    },
+    {
+      "q": "What is the purpose of the NVIC in ARM Cortex-M?",
+      "a": "Nested Vectored Interrupt Controller manages hardware interrupts with low latency."
+    }
+  ],
+  "practical_applications": [
+    "Used in embedded control systems for serial communication.",
+    "Commonly used in real-time sensor processing on ARM Cortex-M (STM32)."
+  ]
+}

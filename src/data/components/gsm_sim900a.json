@@ -81,10 +81,10 @@
     ],
     "references": "SIMCom SIM900A Hardware Design Manual; AT Command Documentation.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/gsm_sim900a/real_photo.png",
         "symbol": "",
-        "pin_diagram": "",
+        "pin_diagram": "assets/components/gsm_sim900a/pin_diagram.png",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "assets/components/gsm_sim900a/example_circuit.png"
     }
 }

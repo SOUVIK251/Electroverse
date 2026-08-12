@@ -52,9 +52,9 @@ class ConfigManager:
         except Exception as e:
             log.error(f"Error saving configuration: {e}")
 
-    def get(self, key: str) -> Any:
+    def get(self, key: str, default: Any = None) -> Any:
         """Retrieves a configuration value."""
-        return self.config.get(key, self.DEFAULT_CONFIG.get(key))
+        return self.config.get(key, self.DEFAULT_CONFIG.get(key, default))
 
     def set(self, key: str, value: Any) -> None:
         """Updates a configuration value and saves to disk."""

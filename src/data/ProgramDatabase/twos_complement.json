@@ -1,0 +1,38 @@
+{
+    "id": "twos_complement",
+    "program_name": "2's Complement of an 8-Bit Number",
+    "category": "Searching & Operations",
+    "difficulty": "Basic",
+    "objective": "Find the 2's complement of an 8-bit number by taking 1's complement and adding 1.",
+    "theory": "2's complement = 1's complement + 1. Used to represent negative numbers in binary signed arithmetic.",
+    "algorithm": [
+        "1. Load number from 2050H into Accumulator A.",
+        "2. Complement Accumulator (CMA).",
+        "3. Increment Accumulator (INR A or ADI 01H).",
+        "4. Store 2's complement result in 2051H.",
+        "5. HLT."
+    ],
+    "assembly_code": "LDA 2050H   ; Load number\nCMA         ; 1's complement\nADI 01H     ; Add 1 to get 2's complement\nSTA 2051H   ; Store result\nHLT",
+    "machine_code_hex": [
+        "3A",
+        "50",
+        "20",
+        "2F",
+        "C6",
+        "01",
+        "32",
+        "51",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "05H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2051H": "FBH"
+        }
+    }
+}

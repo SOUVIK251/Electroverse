@@ -12,6 +12,7 @@ from PySide6.QtCore import Qt, QCoreApplication
 from src.core.logger import log
 from src.core.config import config_manager
 from src.core.theme import ThemeManager
+from src.core.screen_protection import install_screen_protection, screen_protection
 from src.ui.main_window import MainWindow
 
 class ElectroVerseSplash(QSplashScreen):
@@ -85,6 +86,9 @@ def main():
     app.setApplicationName("ElectroVerse")
     app.setApplicationVersion("1.0.0")
 
+    # Install OS-level screen capture protection event filter
+    install_screen_protection(app)
+
     # Load and apply theme from saved settings
     saved_theme = config_manager.get("theme")
     ThemeManager.apply_theme(app, saved_theme)
@@ -92,6 +96,7 @@ def main():
     # Show Splash Screen
     splash = ElectroVerseSplash()
     splash.show()
+    screen_protection.enable_protection(splash)
     
     # Smooth loading steps animation
     loading_steps = [

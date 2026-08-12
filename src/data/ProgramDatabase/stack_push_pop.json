@@ -1,0 +1,38 @@
+{
+    "id": "stack_push_pop",
+    "program_name": "Stack Operations PUSH and POP",
+    "category": "Stack Programs",
+    "difficulty": "Basic",
+    "objective": "Demonstrate LIFO (Last-In-First-Out) stack operations using PUSH and POP.",
+    "theory": "PUSH decrements SP by 2 and stores a 16-bit register pair on stack. POP loads 16-bit pair from stack and increments SP by 2.",
+    "algorithm": [
+        "1. Initialize Stack Pointer (LXI SP, 2090H).",
+        "2. Load BC pair with 1234H.",
+        "3. PUSH B onto stack (SP becomes 208EH).",
+        "4. Clear BC pair (LXI B, 0000H).",
+        "5. POP B from stack (BC restored to 1234H).",
+        "6. HLT."
+    ],
+    "assembly_code": "LXI SP, 2090H ; Set SP\nLXI B, 1234H  ; BC = 1234H\nPUSH B        ; Push BC onto stack\nLXI B, 0000H  ; Clear BC\nPOP B         ; Pop stack into BC\nHLT",
+    "machine_code_hex": [
+        "31",
+        "90",
+        "20",
+        "01",
+        "34",
+        "12",
+        "C5",
+        "01",
+        "00",
+        "00",
+        "C1",
+        "76"
+    ],
+    "sample_input": {},
+    "sample_output": {
+        "registers": {
+            "BC": "1234H",
+            "SP": "2090H"
+        }
+    }
+}

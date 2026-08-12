@@ -31,7 +31,7 @@
         {
             "parameter": "Contact Resistance",
             "value": "<10",
-            "unit": "mΩ",
+            "unit": "m\u03a9",
             "notes": "Phosphor bronze crimped contact"
         },
         {
@@ -46,7 +46,7 @@
     "construction": "Nylon plug housings, phosphor bronze female crimp terminals, and tin-plated male PCB pins enclosed in a protective shroud.",
     "electrical_characteristics": "Low contact resistance, keyed polarized entry, and moderate pull-out friction resistance.",
     "symbol_description": "Keyed socket block symbol showing pin assignments and alignment rails.",
-    "formulas": "Wire tensile pull limit: F_tensile ≈ constant * Wire Cross Section.",
+    "formulas": "Wire tensile pull limit: F_tensile \u2248 constant * Wire Cross Section.",
     "applications": "Rechargeable LiPo batteries, stepper motor wiring harnesses, RC hobby servo leads, and internal signal buses.",
     "advantages": "Polarized keying prevents short circuits, compact size, positive lock prevents accidental disconnections.",
     "disadvantages": "Requires specialized crimping tool for assembly, pins are hard to extract from housing without damage.",
@@ -82,9 +82,9 @@
     ],
     "references": "JST Connector Specifications Catalog; battery pack manufacturing standards.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/jst_connector/real_photo.png",
         "symbol": "",
-        "pin_diagram": "",
+        "pin_diagram": "assets/components/jst_connector/pin_diagram.png",
         "internal_structure": "",
         "example_circuit": ""
     }

@@ -12,6 +12,7 @@ class ViewID(Enum):
     DIGITAL_HUB = "digital_hub"
     SIGNALS_HUB = "signals_hub"
     NETWORK_HUB = "network_hub"
+    MPMC_HUB = "mpmc_hub"
     GRAND_VIVA = "grand_viva"
     SETTINGS = "settings"
 

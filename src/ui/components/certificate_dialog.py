@@ -3,12 +3,14 @@ from PySide6.QtGui import QPixmap, QImage
 from PySide6.QtCore import Qt
 
 from src.core.certificate_engine import CertificateEngine
+from src.core.screen_protection import screen_protection
 
 class CertificateDialog(QDialog):
     """Interactive Certificate Viewer and Image/PDF Exporter."""
 
     def __init__(self, student_name, subject_title, score_pct, grade, parent=None):
         super().__init__(parent)
+        screen_protection.apply_to_dialog(self)
         self.setWindowTitle("ElectroVerse Certificate of Mastery")
         self.setFixedSize(840, 620)
         self.setStyleSheet("background-color: #0B1020; color: #FFFFFF;")

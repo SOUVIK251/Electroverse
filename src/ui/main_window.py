@@ -14,6 +14,7 @@ import qtawesome as qta
 from src.core.logger import log
 from src.core.config import config_manager
 from src.core.theme import ThemeManager
+from src.core.screen_protection import screen_protection
 
 from src.ui.dashboard import DashboardView
 from src.ui.library import LibraryView
@@ -23,6 +24,7 @@ from src.ui.analog_hub import AnalogElectronicsHubView
 from src.ui.learning_hub import LearningHubView
 from src.ui.signals_hub import SignalSystemHubView
 from src.ui.network_hub import NetworkHubView
+from src.ui.mpmc_hub import MPMCHubView
 from src.ui.grand_viva import GrandVivaView
 from src.ui.settings import SettingsView
 from src.core.navigation import ViewID, HubTabID
@@ -37,6 +39,7 @@ class MainWindow(QMainWindow):
         "Digital System Design Hub",
         "Signal & System Hub",
         "Network Theory Hub",
+        "Microprocessor & Microcontroller Hub",
         "Grand Viva & Core Interview Board",
         "Settings"
     ]
@@ -48,8 +51,9 @@ class MainWindow(QMainWindow):
         ViewID.DIGITAL_HUB: 3,
         ViewID.SIGNALS_HUB: 4,
         ViewID.NETWORK_HUB: 5,
-        ViewID.GRAND_VIVA: 6,
-        ViewID.SETTINGS: 7,
+        ViewID.MPMC_HUB: 6,
+        ViewID.GRAND_VIVA: 7,
+        ViewID.SETTINGS: 8,
     }
 
     def __init__(self):
@@ -128,6 +132,7 @@ class MainWindow(QMainWindow):
             ("Digital System Design Hub", "fa5s.microchip", ViewID.DIGITAL_HUB),
             ("Signal & System Hub", "fa5s.chart-line", ViewID.SIGNALS_HUB),
             ("Network Theory Hub", "fa5s.project-diagram", ViewID.NETWORK_HUB),
+            ("Microprocessor & MCU Hub", "fa5s.memory", ViewID.MPMC_HUB),
             ("Grand Viva & Core Interview", "fa5s.user-graduate", ViewID.GRAND_VIVA),
             ("Settings", "fa5s.cog", ViewID.SETTINGS)
         ]
@@ -218,8 +223,9 @@ class MainWindow(QMainWindow):
             LearningHubView(self),            # 3: Digital System Design Hub
             SignalSystemHubView(self),        # 4: Signal & System Hub
             NetworkHubView(self),             # 5: Network Theory Hub
-            GrandVivaView(self),              # 6: Grand Viva & Core Interview
-            SettingsView(self)                # 7: Settings
+            MPMCHubView(self),                # 6: Microprocessor & Microcontroller Hub
+            GrandVivaView(self),              # 7: Grand Viva & Core Interview
+            SettingsView(self)                # 8: Settings
         ]
 
         for view in self.views:
@@ -399,3 +405,12 @@ class MainWindow(QMainWindow):
 
     def show_about_dialog(self):
         self.switch_view(7)
+
+    def showEvent(self, event):
+        super().showEvent(event)
+        screen_protection.enable_protection(self)
+
+    def changeEvent(self, event):
+        super().changeEvent(event)
+        if event.type() in (event.Type.WindowStateChange, event.Type.ActivationChange):
+            screen_protection.enable_protection(self)

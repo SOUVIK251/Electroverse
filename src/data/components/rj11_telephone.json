@@ -81,9 +81,9 @@
     ],
     "references": "FCC Part 68 connector specifications; analog telephony engineering handbooks.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/rj11_telephone/real_photo.png",
         "symbol": "",
-        "pin_diagram": "",
+        "pin_diagram": "assets/components/rj11_telephone/pin_diagram.png",
         "internal_structure": "",
         "example_circuit": ""
     }

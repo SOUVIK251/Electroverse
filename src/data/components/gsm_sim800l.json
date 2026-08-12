@@ -50,7 +50,7 @@
     "advantages": "Worldwide quad-band coverage, extremely small footprint, low standby current under sleep mode.",
     "disadvantages": "Requires high-current power sources, 2G GSM networks are being phased out in many countries, sensitive to electromagnetic noise.",
     "example_circuit_operation": "SIM800L is powered from a Li-Po battery or LM2596 regulator set to 4V. The TX/RX serial lines connect to Arduino RX/TX via level shifting resistors. AT commands set SMS or GPRS data packet transmissions.",
-    "practical_tips": "Ensure the bypass power capacitor is a low-ESR electrolytic capacitor (at least 470μF to 1000μF) placed as close as possible to the module's VCC pin to absorb the 2A RF transmission current bursts.",
+    "practical_tips": "Ensure the bypass power capacitor is a low-ESR electrolytic capacitor (at least 470\u03bcF to 1000\u03bcF) placed as close as possible to the module's VCC pin to absorb the 2A RF transmission current bursts.",
     "interview_questions": [
         {
             "question": "What is the primary power supply challenge when using SIM800L?",
@@ -81,10 +81,10 @@
     ],
     "references": "SIMCom SIM800L Hardware Design Guide; AT Command Manual.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/gsm_sim800l/real_photo.png",
         "symbol": "",
-        "pin_diagram": "",
+        "pin_diagram": "assets/components/gsm_sim800l/pin_diagram.png",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "assets/components/gsm_sim800l/example_circuit.png"
     }
 }

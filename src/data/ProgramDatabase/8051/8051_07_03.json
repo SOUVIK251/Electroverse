@@ -1,0 +1,100 @@
+{
+  "id": "8051_07_03",
+  "program_name": "Intel 8051 - Array Operations Ex 3",
+  "processor_family": "Intel 8051",
+  "category": "Array Operations",
+  "difficulty": "Intermediate",
+  "objective": "Execute 8051 array operations program 3 using Internal RAM.",
+  "theory": "The Intel 8051 is an 8-bit Harvard architecture microcontroller featuring 4 KB on-chip ROM, 128 bytes internal RAM, 32 I/O lines, and 2 timers.",
+  "algorithm": [
+    "1. Read internal RAM byte from address 30H into Accumulator A.",
+    "2. Load immediate byte 03H into Register R0.",
+    "3. Add R0 to A (ADD A, R0).",
+    "4. Store result into internal RAM address 31H.",
+    "5. End program."
+  ],
+  "flowchart": "START -> Execute Array Operations Step 1 -> Process Data -> Verify Flags/Result -> END",
+  "assembly_code": "; 8051 Microcontroller - Array Operations Ex 3\nMOV A, 30H\nMOV R0, #03H\nADD A, R0\nMOV 31H, A\nEND",
+  "machine_code_hex": [
+    "E5",
+    "30",
+    "78",
+    "03",
+    "28",
+    "F5",
+    "31"
+  ],
+  "opcode_table": [
+    {
+      "address": "0000H",
+      "mnemonic": "; 8051 Microcontroller - Array Operations Ex 3",
+      "hex": "E5 30 78",
+      "bytes": 3,
+      "cycles": 10
+    }
+  ],
+  "sample_input": {
+    "memory": {
+      "2050H": "03H"
+    }
+  },
+  "sample_output": {
+    "memory": {
+      "2051H": "06H"
+    },
+    "registers": {
+      "A": "06H"
+    }
+  },
+  "register_changes": [
+    {
+      "step": 1,
+      "reg": "PC",
+      "val": "0000H",
+      "desc": "Instruction Fetch"
+    },
+    {
+      "step": 2,
+      "reg": "A",
+      "val": "06H",
+      "desc": "Execution Result"
+    }
+  ],
+  "flag_changes": {
+    "S": 0,
+    "Z": 0,
+    "AC": 0,
+    "P": 1,
+    "CY": 0
+  },
+  "memory_changes": {
+    "2051H": "06H"
+  },
+  "step_by_step_execution": [
+    "Step 1: Fetch and decode Array Operations instruction for Intel 8051.",
+    "Step 2: Read input operands from memory / registers.",
+    "Step 3: Execute ALU operation for Array Operations.",
+    "Step 4: Update status flags (Z, CY, S, P).",
+    "Step 5: Store final result into memory."
+  ],
+  "explanation": "This program demonstrates array operations on the Intel 8051 architecture.",
+  "common_mistakes": [
+    "Incorrect register pair pairing.",
+    "Forgetting to clear carry or flags before loop.",
+    "Out-of-bounds memory access."
+  ],
+  "viva_questions": [
+    {
+      "q": "What is the total internal RAM size of basic 8051?",
+      "a": "128 bytes (addressed 00H to 7FH)."
+    },
+    {
+      "q": "Which register pair holds 16-bit address for external memory?",
+      "a": "DPTR (Data Pointer = DPH + DPL)."
+    }
+  ],
+  "practical_applications": [
+    "Used in embedded control systems for array operations.",
+    "Commonly used in real-time sensor processing on Intel 8051."
+  ]
+}

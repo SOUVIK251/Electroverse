@@ -1,0 +1,99 @@
+{
+  "id": "msp430_13_02",
+  "program_name": "MSP430 Microcontroller - Delay Programs Ex 2",
+  "processor_family": "MSP430 Microcontroller",
+  "category": "Delay Programs",
+  "difficulty": "Basic",
+  "objective": "Execute MSP430 16-bit delay programs program 2.",
+  "theory": "MSP430 by Texas Instruments is an ultra-low power 16-bit RISC microcontroller with 16 16-bit registers (R0-R15).",
+  "algorithm": [
+    "1. Read 16-bit word from RAM address 0x0200 into register R4.",
+    "2. Add immediate constant #2 to R4.",
+    "3. Store 16-bit sum into RAM address 0x0202."
+  ],
+  "flowchart": "START -> Execute Delay Programs Step 1 -> Process Data -> Verify Flags/Result -> END",
+  "assembly_code": "; MSP430 Assembly - Delay Programs Ex 2\nMOV &0x0200, R4\nADD #2, R4\nMOV R4, &0x0202",
+  "machine_code_hex": [
+    "42",
+    "1C",
+    "02",
+    "00",
+    "50",
+    "34",
+    "02",
+    "00",
+    "44",
+    "82",
+    "02",
+    "02"
+  ],
+  "opcode_table": [
+    {
+      "address": "0000H",
+      "mnemonic": "; MSP430 Assembly - Delay Programs Ex 2",
+      "hex": "42 1C 02",
+      "bytes": 3,
+      "cycles": 10
+    }
+  ],
+  "sample_input": {
+    "memory": {
+      "2050H": "02H"
+    }
+  },
+  "sample_output": {
+    "memory": {
+      "2051H": "04H"
+    },
+    "registers": {
+      "A": "04H"
+    }
+  },
+  "register_changes": [
+    {
+      "step": 1,
+      "reg": "PC",
+      "val": "0000H",
+      "desc": "Instruction Fetch"
+    },
+    {
+      "step": 2,
+      "reg": "A",
+      "val": "04H",
+      "desc": "Execution Result"
+    }
+  ],
+  "flag_changes": {
+    "S": 0,
+    "Z": 0,
+    "AC": 0,
+    "P": 1,
+    "CY": 0
+  },
+  "memory_changes": {
+    "2051H": "04H"
+  },
+  "step_by_step_execution": [
+    "Step 1: Fetch and decode Delay Programs instruction for MSP430 Microcontroller.",
+    "Step 2: Read input operands from memory / registers.",
+    "Step 3: Execute ALU operation for Delay Programs.",
+    "Step 4: Update status flags (Z, CY, S, P).",
+    "Step 5: Store final result into memory."
+  ],
+  "explanation": "This program demonstrates delay programs on the MSP430 Microcontroller architecture.",
+  "common_mistakes": [
+    "Incorrect register pair pairing.",
+    "Forgetting to clear carry or flags before loop.",
+    "Out-of-bounds memory access."
+  ],
+  "viva_questions": [
+    {
+      "q": "Why is MSP430 widely used in battery-powered devices?",
+      "a": "Due to its ultra-low power consumption (sub-microampere sleep modes)."
+    }
+  ],
+  "practical_applications": [
+    "Used in embedded control systems for delay programs.",
+    "Commonly used in real-time sensor processing on MSP430 Microcontroller."
+  ]
+}

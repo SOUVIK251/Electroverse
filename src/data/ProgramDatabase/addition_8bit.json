@@ -1,0 +1,149 @@
+{
+    "id": "addition_8bit",
+    "program_name": "8-Bit Addition of Two Numbers",
+    "category": "Arithmetic Programs",
+    "difficulty": "Basic",
+    "objective": "Perform 8-bit addition of two hexadecimal numbers stored in memory and store the 8-bit result.",
+    "theory": "The 8085 ALU uses the Accumulator (A register) as one operand for arithmetic operations. The ADD instruction adds the specified register or memory content to the Accumulator. If the result exceeds FFH (255), the Carry Flag (CY) is set to 1.",
+    "algorithm": [
+        "1. Load 8-bit first number from memory location 2050H into Accumulator A.",
+        "2. Load 8-bit second number from memory location 2051H into Register B.",
+        "3. Add contents of Register B to Accumulator A (ADD B).",
+        "4. Store the 8-bit sum from Accumulator A into memory location 2052H (STA 2052H).",
+        "5. Terminate program execution (HLT)."
+    ],
+    "flowchart": "START -> Load A from [2050H] -> Load B from [2051H] -> ADD B -> Store A to [2052H] -> HLT",
+    "assembly_code": "LDA 2050H   ; Load 1st byte from 2050H into A\nMOV B, A    ; Copy 1st byte to Register B\nLDA 2051H   ; Load 2nd byte from 2051H into A\nADD B       ; Add B to A (A = A + B)\nSTA 2052H   ; Store sum at 2052H\nHLT         ; Stop execution",
+    "machine_code_hex": [
+        "3A",
+        "50",
+        "20",
+        "47",
+        "3A",
+        "51",
+        "20",
+        "80",
+        "32",
+        "52",
+        "20",
+        "76"
+    ],
+    "opcode_table": [
+        {
+            "address": "2000H",
+            "mnemonic": "LDA 2050H",
+            "hex": "3A 50 20",
+            "bytes": 3,
+            "cycles": 13
+        },
+        {
+            "address": "2003H",
+            "mnemonic": "MOV B, A",
+            "hex": "47",
+            "bytes": 1,
+            "cycles": 4
+        },
+        {
+            "address": "2004H",
+            "mnemonic": "LDA 2051H",
+            "hex": "3A 51 20",
+            "bytes": 3,
+            "cycles": 13
+        },
+        {
+            "address": "2007H",
+            "mnemonic": "ADD B",
+            "hex": "80",
+            "bytes": 1,
+            "cycles": 4
+        },
+        {
+            "address": "2008H",
+            "mnemonic": "STA 2052H",
+            "hex": "32 52 20",
+            "bytes": 3,
+            "cycles": 13
+        },
+        {
+            "address": "200BH",
+            "mnemonic": "HLT",
+            "hex": "76",
+            "bytes": 1,
+            "cycles": 5
+        }
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "05H",
+            "2051H": "03H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2052H": "08H"
+        },
+        "registers": {
+            "A": "08H",
+            "B": "05H"
+        }
+    },
+    "register_changes": [
+        {
+            "step": 1,
+            "reg": "A",
+            "val": "05H",
+            "desc": "Loaded 1st byte 05H"
+        },
+        {
+            "step": 2,
+            "reg": "B",
+            "val": "05H",
+            "desc": "Copied 05H to B"
+        },
+        {
+            "step": 3,
+            "reg": "A",
+            "val": "03H",
+            "desc": "Loaded 2nd byte 03H"
+        },
+        {
+            "step": 4,
+            "reg": "A",
+            "val": "08H",
+            "desc": "A = 03H + 05H = 08H"
+        }
+    ],
+    "flag_changes": {
+        "S": 0,
+        "Z": 0,
+        "AC": 0,
+        "P": 1,
+        "CY": 0
+    },
+    "memory_changes": {
+        "2052H": "08H"
+    },
+    "step_by_step_execution": [
+        "Fetch opcode 3A: Load 1st operand from RAM[2050H] -> A = 05H",
+        "Fetch opcode 47: Move 05H from Accumulator to Register B",
+        "Fetch opcode 3A: Load 2nd operand from RAM[2051H] -> A = 03H",
+        "Fetch opcode 80: ADD B -> A = 03H + 05H = 08H",
+        "Fetch opcode 32: Store result 08H at RAM[2052H]",
+        "Fetch opcode 76: HLT -> Execution Halted"
+    ],
+    "viva_questions": [
+        {
+            "q": "Which register holds the result after an ADD instruction?",
+            "a": "The Accumulator (A register)."
+        },
+        {
+            "q": "What happens to the Carry flag if addition exceeds FFH?",
+            "a": "The Carry Flag (CY) is set to 1."
+        }
+    ],
+    "common_mistakes": [
+        "Forgetting to store the result with STA before HLT.",
+        "Overwriting the first input in Accumulator before saving it to another register."
+    ],
+    "explanation": "This is the fundamental 8-bit addition program demonstrating how two memory locations are added using the Accumulator and Register B."
+}

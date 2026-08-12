@@ -12,7 +12,7 @@
         "passive_active": "Active",
         "polarized": "Yes",
         "typical_voltage": "3.3V (2.5V to 3.6V)",
-        "typical_current": "13 - 26mA active, 10μA hard power down",
+        "typical_current": "13 - 26mA active, 10\u03bcA hard power down",
         "operating_frequency": "13.56 MHz (HF band)"
     },
     "specifications": [
@@ -36,7 +36,7 @@
         {
             "parameter": "Operating Temperature",
             "value": "-20 to +80",
-            "unit": "°C",
+            "unit": "\u00b0C",
             "notes": "Standard industrial grade"
         }
     ],
@@ -82,10 +82,10 @@
     ],
     "references": "NXP MFRC522 Contactless Reader IC Datasheet; ISO/IEC 14443 standard specifications.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/rfid_rc522/real_photo.png",
         "symbol": "",
-        "pin_diagram": "",
+        "pin_diagram": "assets/components/rfid_rc522/pin_diagram.png",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "assets/components/rfid_rc522/example_circuit.png"
     }
 }

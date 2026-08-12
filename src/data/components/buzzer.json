@@ -82,10 +82,10 @@
     ],
     "references": "TDK Piezoelectric Buzzers technical manual; basic sound generation programming guides.",
     "images": {
-        "real_photo": "",
-        "symbol": "",
-        "pin_diagram": "",
+        "real_photo": "assets/components/buzzer/real_photo.png",
+        "symbol": "assets/components/buzzer/symbol.png",
+        "pin_diagram": "assets/components/buzzer/pin_diagram.png",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "assets/components/buzzer/example_circuit.png"
     }
 }

@@ -1,0 +1,104 @@
+{
+  "id": "8085_12_05",
+  "program_name": "Intel 8085 - Interrupts Ex 5",
+  "processor_family": "Intel 8085",
+  "category": "Interrupts",
+  "difficulty": "Intermediate",
+  "objective": "Perform interrupts operation 5 on Intel 8085 processor.",
+  "theory": "The Intel 8085 is an 8-bit NMOS microprocessor with a 16-bit address bus and 8-bit data bus. This program implements interrupts using accumulator A and register B.",
+  "algorithm": [
+    "1. Load 1st operand from RAM 2050H into Accumulator A.",
+    "2. Move operand to Register B.",
+    "3. Load immediate value 05H into A.",
+    "4. Add B to A.",
+    "5. Store result at RAM 2051H and halt."
+  ],
+  "flowchart": "START -> Execute Interrupts Step 1 -> Process Data -> Verify Flags/Result -> END",
+  "assembly_code": "; 8085 Interrupts Exercise 5\nLDA 2050H\nMOV B, A\nMVI A, 05H\nADD B\nSTA 2051H\nHLT",
+  "machine_code_hex": [
+    "3A",
+    "50",
+    "20",
+    "47",
+    "3E",
+    "05",
+    "80",
+    "32",
+    "51",
+    "20",
+    "76"
+  ],
+  "opcode_table": [
+    {
+      "address": "0000H",
+      "mnemonic": "; 8085 Interrupts Exercise 5",
+      "hex": "3A 50 20",
+      "bytes": 3,
+      "cycles": 10
+    }
+  ],
+  "sample_input": {
+    "memory": {
+      "2050H": "05H"
+    }
+  },
+  "sample_output": {
+    "memory": {
+      "2051H": "0AH"
+    },
+    "registers": {
+      "A": "0AH"
+    }
+  },
+  "register_changes": [
+    {
+      "step": 1,
+      "reg": "PC",
+      "val": "0000H",
+      "desc": "Instruction Fetch"
+    },
+    {
+      "step": 2,
+      "reg": "A",
+      "val": "0AH",
+      "desc": "Execution Result"
+    }
+  ],
+  "flag_changes": {
+    "S": 0,
+    "Z": 0,
+    "AC": 0,
+    "P": 1,
+    "CY": 0
+  },
+  "memory_changes": {
+    "2051H": "0AH"
+  },
+  "step_by_step_execution": [
+    "Step 1: Fetch and decode Interrupts instruction for Intel 8085.",
+    "Step 2: Read input operands from memory / registers.",
+    "Step 3: Execute ALU operation for Interrupts.",
+    "Step 4: Update status flags (Z, CY, S, P).",
+    "Step 5: Store final result into memory."
+  ],
+  "explanation": "This program demonstrates interrupts on the Intel 8085 architecture.",
+  "common_mistakes": [
+    "Incorrect register pair pairing.",
+    "Forgetting to clear carry or flags before loop.",
+    "Out-of-bounds memory access."
+  ],
+  "viva_questions": [
+    {
+      "q": "How many T-states does LDA instruction take in 8085?",
+      "a": "13 T-states (4 Machine Cycles: Fetch, Read, Read, Read)."
+    },
+    {
+      "q": "Which flag is affected by ADD instruction?",
+      "a": "All status flags (S, Z, AC, P, CY) are updated based on ALU result."
+    }
+  ],
+  "practical_applications": [
+    "Used in embedded control systems for interrupts.",
+    "Commonly used in real-time sensor processing on Intel 8085."
+  ]
+}

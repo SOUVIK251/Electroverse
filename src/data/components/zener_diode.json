@@ -31,7 +31,7 @@
         {
             "parameter": "Temperature Range",
             "value": "-40 to +85",
-            "unit": "°C",
+            "unit": "\u00b0C",
             "notes": "Industrial standard tolerance"
         },
         {
@@ -94,10 +94,8 @@
     ],
     "references": "IEEE Standard Symbols Reference; Manufacturer specifications for Zener Diode families.",
     "images": {
-        "real_photo": "assets/components/zener_diode/real_photo.jpg",
-        "symbol": "assets/components/zener_diode/symbol.png",
-        "pin_diagram": "",
-        "internal_structure": "assets/components/zener_diode/internal_structure.png",
-        "example_circuit": "assets/components/zener_diode/example_circuit.png"
+        "real_photo": "assets/components/zener_diode_prot/real_photo.png",
+        "symbol": "assets/components/zener_diode_prot/symbol.png",
+        "example_circuit": "assets/components/zener_diode_prot/example_circuit.png"
     }
 }

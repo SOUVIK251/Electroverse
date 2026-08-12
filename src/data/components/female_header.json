@@ -25,7 +25,7 @@
         {
             "parameter": "Contact Resistance",
             "value": "<20",
-            "unit": "mΩ",
+            "unit": "m\u03a9",
             "notes": "Typical contact point resistance"
         },
         {
@@ -83,10 +83,10 @@
     ],
     "references": "Samtec female socket series documentation; DIN standard board connectors list.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/female_header/real_photo.png",
         "symbol": "",
-        "pin_diagram": "",
-        "internal_structure": "",
+        "pin_diagram": "assets/components/female_header/pin_diagram.png",
+        "internal_structure": "assets/components/female_header/internal_structure.png",
         "example_circuit": ""
     }
 }

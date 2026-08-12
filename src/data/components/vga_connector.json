@@ -29,7 +29,7 @@
         {
             "parameter": "RGB Impedance",
             "value": "75",
-            "unit": "Ω",
+            "unit": "\u03a9",
             "notes": "Coaxial cable matched impedance"
         },
         {
@@ -43,13 +43,13 @@
     "working_principle": "It routes individual analog voltage signals (0V to 0.7V) representing Red, Green, and Blue color channels, along with separate digital TTL pulses (+5V) for Horizontal and Vertical sync to align the display beam scanning.",
     "types": "Through-hole female PCB connectors, cable-mount male plugs, and chassis-mount couplers.",
     "construction": "Houses 15 pins arranged in three rows of five inside a shielded D-shaped metal shell, with screw locks on the sides for secure mating.",
-    "electrical_characteristics": "Requires 75Ω termination on the RGB color lines to prevent ghosting and signal reflections on analog displays.",
+    "electrical_characteristics": "Requires 75\u03a9 termination on the RGB color lines to prevent ghosting and signal reflections on analog displays.",
     "symbol_description": "High-density 15-pin block symbol displaying RGB lines, sync pulses, and shield ground contacts.",
-    "formulas": "RGB termination voltage: V_rgb = I * 75 Ω.",
+    "formulas": "RGB termination voltage: V_rgb = I * 75 \u03a9.",
     "applications": "Older desktop computers, industrial equipment displays, server rack KVM consoles, and projectors.",
     "advantages": "Highly robust mechanical locking, standardized for decades, simple analog video generation.",
     "disadvantages": "Analog signals degrade over long cable runs, bulky connector size, obsolete compared to digital HDMI and DisplayPort standards.",
-    "example_circuit_operation": "A VGA port is soldered to an MCU board. The Red, Green, and Blue pins are driven by digital-to-analog resistor ladders (DACs) terminated with 75Ω resistors, producing the color waveforms.",
+    "example_circuit_operation": "A VGA port is soldered to an MCU board. The Red, Green, and Blue pins are driven by digital-to-analog resistor ladders (DACs) terminated with 75\u03a9 resistors, producing the color waveforms.",
     "practical_tips": "Always tighten the side thumb screws on a VGA connector when installing it. Under vibration, a loose VGA plug will slide slightly out, causing intermittent color loss (such as the screen turning completely yellow or blue).",
     "interview_questions": [
         {
@@ -62,7 +62,7 @@
         },
         {
             "question": "Why is the impedance of the Red, Green, and Blue lines specified at 75 ohms?",
-            "answer": "To match the characteristic impedance of 75Ω coaxial cables. This matching prevents signal reflections, which cause ghosting or shadow lines on the display screen."
+            "answer": "To match the characteristic impedance of 75\u03a9 coaxial cables. This matching prevents signal reflections, which cause ghosting or shadow lines on the display screen."
         },
         {
             "question": "What are the sync lines used for?",
@@ -81,10 +81,10 @@
     ],
     "references": "VESA VGA monitor interface standard definitions; D-sub connector catalogs.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/vga_connector/real_photo.png",
         "symbol": "",
-        "pin_diagram": "",
+        "pin_diagram": "assets/components/vga_connector/pin_diagram.png",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "assets/components/vga_connector/example_circuit.png"
     }
 }

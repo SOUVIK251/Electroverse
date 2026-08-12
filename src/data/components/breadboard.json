@@ -24,7 +24,7 @@
         {
             "parameter": "Contact Resistance",
             "value": "<0.01",
-            "unit": "Ω",
+            "unit": "\u03a9",
             "notes": "Internal nickel-silver clips"
         },
         {
@@ -45,7 +45,7 @@
     "construction": "A plastic ABS housing with pre-drilled holes spaced at 0.1-inch pitch, mounted over spring-metal terminal strips and a double-sided adhesive tape backing.",
     "electrical_characteristics": "Supports standard low-power connections. High parasitic capacitance (2-10pF per adjacent row) and inductance make it unsuitable for high-frequency RF or high-speed digital circuits.",
     "symbol_description": "Represented in layouts by physical graphic overlays showing matrix coordinates (rows A-J, columns 1-63).",
-    "formulas": "Equivalent parasitic circuit: C_adjacent ≈ 2 pF.",
+    "formulas": "Equivalent parasitic circuit: C_adjacent \u2248 2 pF.",
     "applications": "Educational labs, quick prototyping of MCU circuits, testing sensor breakout pinouts.",
     "advantages": "Fully reusable, zero solder required, easily accepts standard through-hole DIP chips and jumper wires.",
     "disadvantages": "Spring clips loosen over time causing intermittent connections, high parasitic capacitance detunes RF circuits, not suitable for high currents (>1A).",
@@ -85,6 +85,7 @@
         "symbol": "",
         "pin_diagram": "",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "",
+        "connection": "assets/components/breadboard/connection.png"
     }
 }

@@ -1,0 +1,41 @@
+{
+    "id": "subtraction_8bit",
+    "program_name": "8-Bit Subtraction of Two Numbers",
+    "category": "Arithmetic Programs",
+    "difficulty": "Basic",
+    "objective": "Subtract the contents of RAM[2051H] from RAM[2050H] and store the difference.",
+    "theory": "The SUB B instruction subtracts Register B from Accumulator (A = A - B). If A < B, a borrow occurs and Carry Flag (CY) is set to 1.",
+    "algorithm": [
+        "1. Load minuend from 2050H into Accumulator A.",
+        "2. Load subtrahend from 2051H into Register B.",
+        "3. Perform SUB B.",
+        "4. Store difference at 2052H.",
+        "5. HLT."
+    ],
+    "assembly_code": "LDA 2050H   ; Load minuend from 2050H\nMOV B, A    ; Move minuend to B\nLDA 2051H   ; Load subtrahend from 2051H\nSUB B       ; Subtract B from A\nSTA 2052H   ; Store difference at 2052H\nHLT",
+    "machine_code_hex": [
+        "3A",
+        "50",
+        "20",
+        "47",
+        "3A",
+        "51",
+        "20",
+        "90",
+        "32",
+        "52",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "05H",
+            "2051H": "08H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2052H": "03H"
+        }
+    }
+}

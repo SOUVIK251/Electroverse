@@ -1,0 +1,61 @@
+{
+    "id": "division_8bit",
+    "program_name": "8-Bit Division by Repeated Subtraction",
+    "category": "Arithmetic Programs",
+    "difficulty": "Intermediate",
+    "objective": "Divide dividend by divisor using repeated subtraction and find Quotient and Remainder.",
+    "theory": "Division (A / B) is accomplished by subtracting B from A repeatedly until A < B. Count of subtractions = Quotient, remaining A = Remainder.",
+    "algorithm": [
+        "1. Clear quotient counter C = 0.",
+        "2. Load dividend into A from 2050H.",
+        "3. Load divisor into B from 2051H.",
+        "4. Compare A with B (CMP B). If A < B, jump to END.",
+        "5. Subtract B from A (SUB B).",
+        "6. Increment quotient counter C (INR C).",
+        "7. Repeat step 4.",
+        "8. Store Quotient C at 2052H, Remainder A at 2053H."
+    ],
+    "assembly_code": "MVI C, 00H   ; Clear Quotient counter C\nLDA 2050H   ; Load Dividend\nMOV B, A\nLDA 2051H   ; Load Divisor\nMOV D, A    ; D = Divisor\nMOV A, B    ; A = Dividend\nLOOP: CMP D ; Compare Dividend with Divisor\nJC END      ; If A < D, division complete\nSUB D       ; Subtract Divisor\nINR C       ; Increment Quotient\nJMP LOOP    ; Repeat\nEND: STA 2053H ; Store Remainder\nMOV A, C    ;\nSTA 2052H   ; Store Quotient\nHLT",
+    "machine_code_hex": [
+        "0E",
+        "00",
+        "3A",
+        "50",
+        "20",
+        "47",
+        "3A",
+        "51",
+        "20",
+        "57",
+        "78",
+        "BA",
+        "DA",
+        "16",
+        "20",
+        "92",
+        "0C",
+        "C3",
+        "0B",
+        "20",
+        "32",
+        "53",
+        "20",
+        "79",
+        "32",
+        "52",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "0EH",
+            "2051H": "03H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2052H": "04H",
+            "2053H": "02H"
+        }
+    }
+}

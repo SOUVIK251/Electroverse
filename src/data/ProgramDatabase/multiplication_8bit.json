@@ -1,0 +1,50 @@
+{
+    "id": "multiplication_8bit",
+    "program_name": "8-Bit Multiplication by Repeated Addition",
+    "category": "Arithmetic Programs",
+    "difficulty": "Intermediate",
+    "objective": "Multiply two 8-bit numbers using repeated addition.",
+    "theory": "Since 8085 lacks a hardware MUL instruction, multiplication (A x B) is implemented by adding A to itself B times.",
+    "algorithm": [
+        "1. Load multiplicand into B and multiplier into C.",
+        "2. Clear Accumulator (MVI A, 00H).",
+        "3. If C=0, jump to store.",
+        "4. ADD B to Accumulator.",
+        "5. Decrement counter C (DCR C).",
+        "6. Loop until C=0.",
+        "7. Store 16-bit or 8-bit product."
+    ],
+    "assembly_code": "LDA 2050H   ; Load multiplicand\nMOV B, A\nLDA 2051H   ; Load multiplier\nMOV C, A\nMVI A, 00H  ; Clear product accumulator\nLOOP: ADD B ; Add multiplicand\nDCR C       ; Decrement counter\nJNZ LOOP    ; Repeat\nSTA 2052H   ; Store product\nHLT",
+    "machine_code_hex": [
+        "3A",
+        "50",
+        "20",
+        "47",
+        "3A",
+        "51",
+        "20",
+        "4F",
+        "3E",
+        "00",
+        "80",
+        "0D",
+        "C2",
+        "0A",
+        "20",
+        "32",
+        "52",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "06H",
+            "2051H": "04H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2052H": "18H"
+        }
+    }
+}

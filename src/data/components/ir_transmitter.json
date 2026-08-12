@@ -32,7 +32,7 @@
             "parameter": "Max Pulse Current",
             "value": "1.0",
             "unit": "A",
-            "notes": "At 100μs pulse duration, 1% duty cycle"
+            "notes": "At 100\u03bcs pulse duration, 1% duty cycle"
         },
         {
             "parameter": "Viewing Angle",
@@ -83,10 +83,10 @@
     ],
     "references": "Vishay TSAL6200 IR Emitter Datasheet; modulation protocols for remote control systems.",
     "images": {
-        "real_photo": "",
-        "symbol": "",
+        "real_photo": "assets/components/ir_transmitter/real_photo.png",
+        "symbol": "assets/components/ir_transmitter/symbol.png",
         "pin_diagram": "",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "assets/components/ir_transmitter/example_circuit.png"
     }
 }

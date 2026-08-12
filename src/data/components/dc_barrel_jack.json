@@ -36,7 +36,7 @@
         {
             "parameter": "Contact Resistance",
             "value": "<30",
-            "unit": "mΩ",
+            "unit": "m\u03a9",
             "notes": "Initial contact resistance"
         }
     ],
@@ -82,10 +82,10 @@
     ],
     "references": "CUI Devices DC Power Jack Guide; Arduino Uno schematic references.",
     "images": {
-        "real_photo": "",
-        "symbol": "",
+        "real_photo": "assets/components/dc_barrel_jack/real_photo.png",
+        "symbol": "assets/components/dc_barrel_jack/symbol.png",
         "pin_diagram": "",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "assets/components/dc_barrel_jack/example_circuit.png"
     }
 }

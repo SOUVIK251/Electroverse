@@ -1,0 +1,49 @@
+{
+    "id": "block_exchange",
+    "program_name": "Block Exchange of Data",
+    "category": "Data Transfer",
+    "difficulty": "Intermediate",
+    "objective": "Exchange contents of two blocks of memory of size N.",
+    "theory": "Uses HL as block 1 pointer and DE as block 2 pointer, using B as temporary storage byte.",
+    "algorithm": [
+        "1. LXI H, 2050H and LXI D, 2070H.",
+        "2. Load count N into C.",
+        "3. Read [HL] into A, read [DE] into B.",
+        "4. Store A at [DE], store B at [HL].",
+        "5. Increment pointers, decrement C, loop."
+    ],
+    "assembly_code": "LXI H, 2050H ; Block 1 ptr\nLXI D, 2070H ; Block 2 ptr\nMVI C, 03H   ; Count = 3\nLOOP: LDAX D ; A = [DE]\nMOV B, M    ; B = [HL]\nSTAX D      ; [DE] = B\nMOV M, A    ; [HL] = A\nINX H       ;\nINX D       ;\nDCR C       ;\nJNZ LOOP    ;\nHLT",
+    "machine_code_hex": [
+        "21",
+        "50",
+        "20",
+        "11",
+        "70",
+        "20",
+        "0E",
+        "03",
+        "1A",
+        "46",
+        "12",
+        "77",
+        "23",
+        "13",
+        "0D",
+        "C2",
+        "08",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "11H",
+            "2070H": "AAH"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2050H": "AAH",
+            "2070H": "11H"
+        }
+    }
+}

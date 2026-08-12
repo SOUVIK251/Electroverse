@@ -29,7 +29,7 @@
         {
             "parameter": "Contact Resistance",
             "value": "<30",
-            "unit": "mΩ",
+            "unit": "m\u03a9",
             "notes": "Gold-plated copper contacts"
         },
         {
@@ -43,9 +43,9 @@
     "working_principle": "It routes 5V power, ground, and a differential data pair (D+ and D-). The power and ground pins are physically longer than the data pins, ensuring power is established first before data lines touch (hot-plugging support).",
     "types": "Through-hole female PCB receptacles, SMD plug connectors, and legacy cable assemblies.",
     "construction": "Houses 4 flat gold-plated brass contacts mounted on an insulating plastic tongue, enclosed in a shielded rectangular metal shell.",
-    "electrical_characteristics": "5V nominal voltage rating. The shield is grounded to provide EMI protection. Differential impedance is matched to 90Ω.",
+    "electrical_characteristics": "5V nominal voltage rating. The shield is grounded to provide EMI protection. Differential impedance is matched to 90\u03a9.",
     "symbol_description": "Rectangular block showing VBUS, D-, D+, and GND connections, labeled with the USB trident logo.",
-    "formulas": "Differential line impedance: Z_diff ≈ 90 Ω.",
+    "formulas": "Differential line impedance: Z_diff \u2248 90 \u03a9.",
     "applications": "Computer USB host ports, charging bricks, keyboard/mouse connections, and USB flash drives.",
     "advantages": "Universal global standard, supports hot-plugging, provides power and data in a single cable.",
     "disadvantages": "Non-reversible (must be inserted in correct orientation), physical size is too large for modern smartphones.",
@@ -62,7 +62,7 @@
         },
         {
             "question": "What is the differential impedance specification for USB data lines?",
-            "answer": "90 Ω (±15%), which must be matched by routing D+ and D- as a differential pair on the PCB."
+            "answer": "90 \u03a9 (\u00b115%), which must be matched by routing D+ and D- as a differential pair on the PCB."
         },
         {
             "question": "How do USB 2.0 and USB 3.0 Type-A connectors differ physically?",
@@ -81,9 +81,9 @@
     ],
     "references": "USB 2.0 / 3.0 Specification Documents; PCB routing guidelines for differential pairs.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/usb_type_a/real_photo.png",
         "symbol": "",
-        "pin_diagram": "",
+        "pin_diagram": "assets/components/usb_type_a/pin_diagram.png",
         "internal_structure": "",
         "example_circuit": ""
     }

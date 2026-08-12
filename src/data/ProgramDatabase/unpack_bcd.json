@@ -1,0 +1,62 @@
+{
+    "id": "unpack_bcd",
+    "program_name": "Unpack Packed BCD Number",
+    "category": "BCD Programs",
+    "difficulty": "Intermediate",
+    "objective": "Unpack an 8-bit packed BCD number into two separate 8-bit unpacked BCD digits.",
+    "theory": "A packed BCD byte contains two BCD digits (0-9) in its upper and lower 4 bits (nibbles). Unpacking separates lower nibble AND 0FH and upper nibble (ANI F0H -> RRC 4 times).",
+    "algorithm": [
+        "1. Load packed BCD byte from RAM[2050H] into Accumulator.",
+        "2. Copy byte to B register for second digit.",
+        "3. Mask upper nibble (ANI 0FH) to extract lower BCD digit.",
+        "4. Store lower digit in RAM[2051H].",
+        "5. Get original byte back into Accumulator from B.",
+        "6. Mask lower nibble (ANI F0H) and rotate right 4 times (RRC x 4).",
+        "7. Store upper digit in RAM[2052H].",
+        "8. HLT."
+    ],
+    "assembly_code": "LDA 2050H   ; Load packed BCD (e.g. 45H)\nMOV B, A    ; Keep copy in B\nANI 0FH     ; Extract lower BCD digit (05H)\nSTA 2051H   ; Store lower digit at 2051H\nMOV A, B    ; Get original byte (45H)\nANI F0H     ; Extract upper BCD digit (40H)\nRRC         ; Rotate right 4 times to get 04H\nRRC\nRRC\nRRC\nSTA 2052H   ; Store upper digit at 2052H\nHLT         ; Stop execution",
+    "machine_code_hex": [
+        "3A",
+        "50",
+        "20",
+        "47",
+        "E6",
+        "0F",
+        "32",
+        "51",
+        "20",
+        "78",
+        "E6",
+        "F0",
+        "0F",
+        "0F",
+        "0F",
+        "0F",
+        "32",
+        "52",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "45H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2051H": "05H",
+            "2052H": "04H"
+        },
+        "registers": {
+            "A": "04H",
+            "B": "45H"
+        }
+    },
+    "viva_questions": [
+        {
+            "q": "What is the range of a valid BCD digit?",
+            "a": "0 to 9 (0000 to 1001 binary)."
+        }
+    ]
+}

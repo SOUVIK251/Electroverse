@@ -37,7 +37,7 @@
         {
             "parameter": "Torque limit",
             "value": "0.4",
-            "unit": "N·m",
+            "unit": "N\u00b7m",
             "notes": "Tightening limit to avoid stripping threads"
         }
     ],
@@ -45,7 +45,7 @@
     "working_principle": "It utilizes a rising-cage or screw-clamp mechanism. Stripped wire ends are inserted into the terminal collar. Turning the screw forces the metal clamp upward or downward, compression-locking the wire against the internal busbar terminal.",
     "types": "Screw terminals (rising cage), spring-clamp terminals (screwless, push-in), and pluggable terminal blocks.",
     "construction": "A housing molded from high-temperature polyamide (Nylon), containing zinc-plated steel screws, copper-alloy rising clamps, and thick tin-plated solder pins.",
-    "electrical_characteristics": "Low contact resistance (<5 mΩ) and high current carrying capability. Through-hole solder pins anchor the block mechanically to the PCB.",
+    "electrical_characteristics": "Low contact resistance (<5 m\u03a9) and high current carrying capability. Through-hole solder pins anchor the block mechanically to the PCB.",
     "symbol_description": "Schematic block showing parallel wire ports with screw details, representing high-current connection points.",
     "formulas": "Clamping force: F = T_torque / (r * tan(theta + phi)).",
     "applications": "Industrial PLCs, SMPS output rails, relay module connections, and high-power motor drivers.",
@@ -83,10 +83,11 @@
     ],
     "references": "Phoenix Contact Terminal Block Specifications; UL 1059 standard for terminal blocks.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/pcb_terminal_block/real_photo.jpg",
         "symbol": "",
         "pin_diagram": "",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "",
+        "pcb_layout": "assets/components/pcb_terminal_block/pcb_layout.png"
     }
 }

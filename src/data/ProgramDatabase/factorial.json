@@ -1,0 +1,58 @@
+{
+    "id": "factorial",
+    "program_name": "Factorial of an 8-Bit Number",
+    "category": "Mathematical Programs",
+    "difficulty": "Advanced",
+    "objective": "Compute the factorial of a small number (N <= 5) using repeated addition multiplication.",
+    "theory": "Factorial N! = N * (N-1) * (N-2) ... * 1. Multiplication in 8085 is implemented using nested loops of repeated addition.",
+    "algorithm": [
+        "1. Load input N from RAM[2050H]. If N=0 or 1, result is 1.",
+        "2. Initialize product in accumulator.",
+        "3. Use nested loops: outer loop decrements multiplier, inner loop performs repeated addition.",
+        "4. Store result at RAM[2051H]."
+    ],
+    "assembly_code": "LDA 2050H   ; Load N\nCPI 01H     ; Check if N <= 1\nJC ONE\nMOV C, A    ; C = N\nDCR C       ; Counter = N-1\nOUTER: MOV B, A ; B = current product\nMOV D, C    ; D = inner loop count\nDCR D\nINNER: ADD B; Add product\nDCR D\nJNZ INNER\nDCR C\nJNZ OUTER\nJMP STORE\nONE: MVI A, 01H\nSTORE: STA 2051H\nHLT",
+    "machine_code_hex": [
+        "3A",
+        "50",
+        "20",
+        "FE",
+        "01",
+        "DA",
+        "1A",
+        "20",
+        "4F",
+        "0D",
+        "47",
+        "51",
+        "15",
+        "80",
+        "15",
+        "C2",
+        "0D",
+        "20",
+        "0D",
+        "C2",
+        "0A",
+        "20",
+        "C3",
+        "1D",
+        "20",
+        "3E",
+        "01",
+        "32",
+        "51",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "04H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2051H": "18H"
+        }
+    }
+}

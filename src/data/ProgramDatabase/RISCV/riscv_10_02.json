@@ -1,0 +1,103 @@
+{
+  "id": "riscv_10_02",
+  "program_name": "RISC-V (RV32I) - Mathematical Algorithms Ex 2",
+  "processor_family": "RISC-V (RV32I)",
+  "category": "Mathematical Algorithms",
+  "difficulty": "Basic",
+  "objective": "Execute RISC-V RV32I mathematical algorithms algorithm 2.",
+  "theory": "RISC-V is an open-standard ISA based on established RISC principles. RV32I is the base 32-bit integer instruction set with 32 general registers (x0-x31).",
+  "algorithm": [
+    "1. Load 32-bit word from memory address in register x12 into x10.",
+    "2. Add immediate integer 2 to x10 into x11 (ADDI).",
+    "3. Store 32-bit word from x11 into memory address [x12 + 4]."
+  ],
+  "flowchart": "START -> Execute Mathematical Algorithms Step 1 -> Process Data -> Verify Flags/Result -> END",
+  "assembly_code": "# RISC-V RV32I Assembly - Mathematical Algorithms Ex 2\nlw x10, 0(x12)\naddi x11, x10, 2\nsw x11, 4(x12)",
+  "machine_code_hex": [
+    "00",
+    "06",
+    "25",
+    "03",
+    "00",
+    "02",
+    "85",
+    "93",
+    "00",
+    "B6",
+    "22",
+    "23"
+  ],
+  "opcode_table": [
+    {
+      "address": "0000H",
+      "mnemonic": "# RISC-V RV32I Assembly - Mathematical Algorithms Ex 2",
+      "hex": "00 06 25",
+      "bytes": 3,
+      "cycles": 10
+    }
+  ],
+  "sample_input": {
+    "memory": {
+      "2050H": "02H"
+    }
+  },
+  "sample_output": {
+    "memory": {
+      "2051H": "04H"
+    },
+    "registers": {
+      "A": "04H"
+    }
+  },
+  "register_changes": [
+    {
+      "step": 1,
+      "reg": "PC",
+      "val": "0000H",
+      "desc": "Instruction Fetch"
+    },
+    {
+      "step": 2,
+      "reg": "A",
+      "val": "04H",
+      "desc": "Execution Result"
+    }
+  ],
+  "flag_changes": {
+    "S": 0,
+    "Z": 0,
+    "AC": 0,
+    "P": 1,
+    "CY": 0
+  },
+  "memory_changes": {
+    "2051H": "04H"
+  },
+  "step_by_step_execution": [
+    "Step 1: Fetch and decode Mathematical Algorithms instruction for RISC-V (RV32I).",
+    "Step 2: Read input operands from memory / registers.",
+    "Step 3: Execute ALU operation for Mathematical Algorithms.",
+    "Step 4: Update status flags (Z, CY, S, P).",
+    "Step 5: Store final result into memory."
+  ],
+  "explanation": "This program demonstrates mathematical algorithms on the RISC-V (RV32I) architecture.",
+  "common_mistakes": [
+    "Incorrect register pair pairing.",
+    "Forgetting to clear carry or flags before loop.",
+    "Out-of-bounds memory access."
+  ],
+  "viva_questions": [
+    {
+      "q": "What is special about register x0 in RISC-V?",
+      "a": "Register x0 is hardwired to constant zero."
+    },
+    {
+      "q": "How many base integer instructions are in RV32I?",
+      "a": "47 base instructions."
+    }
+  ],
+  "practical_applications": [
+    "Used in embedded control systems for mathematical algorithms.",
+    "Commonly used in real-time sensor processing on RISC-V (RV32I)."
+  ]
+}

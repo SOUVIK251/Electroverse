@@ -1,0 +1,35 @@
+{
+    "id": "ones_complement",
+    "program_name": "1's Complement of an 8-Bit Number",
+    "category": "Searching & Operations",
+    "difficulty": "Basic",
+    "objective": "Find the 1's complement (bitwise NOT) of an 8-bit number.",
+    "theory": "The CMA (Complement Accumulator) instruction inverts all 8 bits of the Accumulator (0 becomes 1, 1 becomes 0).",
+    "algorithm": [
+        "1. Load number from 2050H into Accumulator A.",
+        "2. Complement Accumulator (CMA).",
+        "3. Store result in 2051H.",
+        "4. HLT."
+    ],
+    "assembly_code": "LDA 2050H   ; Load number from 2050H\nCMA         ; Complement Accumulator (1's complement)\nSTA 2051H   ; Store 1's complement at 2051H\nHLT",
+    "machine_code_hex": [
+        "3A",
+        "50",
+        "20",
+        "2F",
+        "32",
+        "51",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "55H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2051H": "AAH"
+        }
+    }
+}

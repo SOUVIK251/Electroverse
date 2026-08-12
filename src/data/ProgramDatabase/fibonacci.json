@@ -1,0 +1,58 @@
+{
+    "id": "fibonacci",
+    "program_name": "Generate Fibonacci Series",
+    "category": "Mathematical Programs",
+    "difficulty": "Intermediate",
+    "objective": "Generate first N terms of the Fibonacci sequence in memory.",
+    "theory": "Fibonacci sequence: F(0)=0, F(1)=1, F(n) = F(n-1) + F(n-2).",
+    "algorithm": [
+        "1. Set HL pointer to 2050H.",
+        "2. Read term count N into C.",
+        "3. Store 1st term 00H and 2nd term 01H.",
+        "4. Add previous two terms (A = B + D) to get next term.",
+        "5. Store term in memory, shift terms, repeat until C=0."
+    ],
+    "assembly_code": "LXI H, 2050H ; HL -> memory start\nMVI B, 00H   ; 1st term = 0\nMVI D, 01H   ; 2nd term = 1\nMOV M, B    ; Store 1st term\nINX H\nMOV M, D    ; Store 2nd term\nINX H\nMVI C, 05H   ; Remaining terms N-2 = 5\nLOOP: MOV A, B ; A = term 1\nADD D       ; A = term 1 + term 2\nMOV M, A    ; Store next term\nMOV B, D    ; Shift term 2 -> term 1\nMOV D, A    ; Shift next term -> term 2\nINX H\nDCR C\nJNZ LOOP\nHLT",
+    "machine_code_hex": [
+        "21",
+        "50",
+        "20",
+        "06",
+        "00",
+        "16",
+        "01",
+        "70",
+        "23",
+        "72",
+        "23",
+        "0E",
+        "05",
+        "78",
+        "82",
+        "77",
+        "42",
+        "57",
+        "23",
+        "0D",
+        "C2",
+        "0D",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "07H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2050H": "00H",
+            "2051H": "01H",
+            "2052H": "01H",
+            "2053H": "02H",
+            "2054H": "03H",
+            "2055H": "05H",
+            "2056H": "08H"
+        }
+    }
+}

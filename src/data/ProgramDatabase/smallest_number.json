@@ -1,0 +1,57 @@
+{
+    "id": "smallest_number",
+    "program_name": "Find Smallest Number in an Array",
+    "category": "Comparison & Sorting",
+    "difficulty": "Intermediate",
+    "objective": "Scan an array of N numbers in memory and find the minimum value.",
+    "theory": "Uses CMP M instruction. If JC (Carry = 1), then Accumulator A < M, so A remains unchanged; otherwise A is updated to M.",
+    "algorithm": [
+        "1. Load array length N into C.",
+        "2. Set HL pointer to 2050H.",
+        "3. Read 1st element into A.",
+        "4. Decrement count C, advance HL pointer.",
+        "5. Compare M with A (CMP M).",
+        "6. If Carry=0 (A <= M), skip update.",
+        "7. If Carry=1 (A > M), update A = M.",
+        "8. Repeat until C=0.",
+        "9. Store minimum value at 2060H."
+    ],
+    "assembly_code": "LXI H, 2050H ; HL -> array start\nMOV C, M    ; C = N\nINX H       ; HL -> 1st element\nMOV A, M    ; A = 1st element\nDCR C       ;\nLOOP: INX H ; HL -> next element\nCMP M       ; Compare A with M\nJC SKIP     ; If A < M, skip update\nMOV A, M    ; Update minimum A = M\nSKIP: DCR C ;\nJNZ LOOP    ; Repeat\nSTA 2060H   ; Store smallest number\nHLT",
+    "machine_code_hex": [
+        "21",
+        "50",
+        "20",
+        "4E",
+        "23",
+        "7E",
+        "0D",
+        "23",
+        "BE",
+        "DA",
+        "0C",
+        "20",
+        "7E",
+        "0D",
+        "C2",
+        "07",
+        "20",
+        "32",
+        "60",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "04H",
+            "2051H": "45H",
+            "2052H": "12H",
+            "2053H": "89H",
+            "2054H": "03H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2060H": "03H"
+        }
+    }
+}

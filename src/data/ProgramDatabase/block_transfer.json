@@ -1,0 +1,52 @@
+{
+    "id": "block_transfer",
+    "program_name": "Block Transfer of Data",
+    "category": "Data Transfer",
+    "difficulty": "Basic",
+    "objective": "Copy a block of N data bytes from source memory location to destination memory location.",
+    "theory": "Data block migration is achieved by using HL as source pointer and DE as destination pointer in a loop.",
+    "algorithm": [
+        "1. Initialize HL pair to Source address 2050H.",
+        "2. Initialize DE pair to Destination address 2070H.",
+        "3. Load block count N into C.",
+        "4. Read byte from [HL] into Accumulator.",
+        "5. Write byte from Accumulator into [DE].",
+        "6. Increment HL, increment DE, decrement C.",
+        "7. Loop until C becomes 0.",
+        "8. HLT."
+    ],
+    "assembly_code": "LXI H, 2050H ; Source pointer\nLXI D, 2070H ; Destination pointer\nMVI C, 05H   ; Count N = 5\nLOOP: MOV A, M ; Read byte from source\nSTAX D      ; Store byte at destination\nINX H       ; Increment source ptr\nINX D       ; Increment dest ptr\nDCR C       ; Decrement count\nJNZ LOOP    ; Repeat\nHLT",
+    "machine_code_hex": [
+        "21",
+        "50",
+        "20",
+        "11",
+        "70",
+        "20",
+        "0E",
+        "05",
+        "7E",
+        "12",
+        "23",
+        "13",
+        "0D",
+        "C2",
+        "08",
+        "20",
+        "76"
+    ],
+    "sample_input": {
+        "memory": {
+            "2050H": "A1H",
+            "2051H": "B2H",
+            "2052H": "C3H"
+        }
+    },
+    "sample_output": {
+        "memory": {
+            "2070H": "A1H",
+            "2071H": "B2H",
+            "2072H": "C3H"
+        }
+    }
+}

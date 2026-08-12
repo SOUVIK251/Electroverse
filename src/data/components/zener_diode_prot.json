@@ -31,13 +31,13 @@
         {
             "parameter": "Zener Impedance (Z_zt)",
             "value": "17",
-            "unit": "Ω",
+            "unit": "\u03a9",
             "notes": "Internal resistance at test current"
         },
         {
             "parameter": "Reverse Leakage Current",
             "value": "1.0 - 5.0",
-            "unit": "μA",
+            "unit": "\u03bcA",
             "notes": "Current flowing below breakdown threshold"
         }
     ],
@@ -51,7 +51,7 @@
     "applications": "Protecting 5V microcontroller input pins from 12V sensor line outputs, clipping noise peaks in audio signals, and clamping voltage rails.",
     "advantages": "Inexpensive, widely available in precise voltage values, provides steady-state voltage regulation.",
     "disadvantages": "Relatively slow response time compared to TVS diodes, soft breakdown knee at low voltages (< 5V) causes leakage current.",
-    "example_circuit_operation": "A 5.1V Zener diode is placed in parallel across an ADC input pin, with a 1kΩ resistor in series with the input signal. If the sensor output spikes to 12V, the Zener conducts, holding the ADC pin safely at 5.1V.",
+    "example_circuit_operation": "A 5.1V Zener diode is placed in parallel across an ADC input pin, with a 1k\u03a9 resistor in series with the input signal. If the sensor output spikes to 12V, the Zener conducts, holding the ADC pin safely at 5.1V.",
     "practical_tips": "Do not use low-voltage Zener diodes (e.g., 3.3V) on high-speed ADC inputs, as the soft breakdown knee causes significant leakage current below the Zener voltage, distorting analog readings.",
     "interview_questions": [
         {
@@ -87,10 +87,10 @@
     ],
     "references": "ON Semiconductor Zener Diode Handbook; 1N4733A datasheet.",
     "images": {
-        "real_photo": "",
-        "symbol": "",
+        "real_photo": "assets/components/zener_diode_prot/real_photo.png",
+        "symbol": "assets/components/zener_diode_prot/symbol.png",
         "pin_diagram": "",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "assets/components/zener_diode_prot/example_circuit.png"
     }
 }

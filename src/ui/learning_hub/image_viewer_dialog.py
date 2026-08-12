@@ -8,10 +8,12 @@ from PySide6.QtWidgets import (
 )
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QFont, QPixmap, QColor, QTransform
+from src.core.screen_protection import screen_protection
 
 class ImageViewerDialog(QDialog):
     def __init__(self, images_list, current_idx=0, parent=None):
         super().__init__(parent)
+        screen_protection.apply_to_dialog(self)
         self.images_list = images_list
         self.current_idx = current_idx
         self.zoom_factor = 1.0

@@ -82,10 +82,10 @@
     ],
     "references": "u-blox NEO-6M Datasheet; NMEA-0183 sentence parsing specifications.",
     "images": {
-        "real_photo": "",
+        "real_photo": "assets/components/gps_neo6m/real_photo.png",
         "symbol": "",
-        "pin_diagram": "",
+        "pin_diagram": "assets/components/gps_neo6m/pin_diagram.png",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "assets/components/gps_neo6m/example_circuit.png"
     }
 }

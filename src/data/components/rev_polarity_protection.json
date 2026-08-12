@@ -31,7 +31,7 @@
         {
             "parameter": "Tripping/Blocking Speed",
             "value": "<1.0",
-            "unit": "μs",
+            "unit": "\u03bcs",
             "notes": "Blocks reverse potential instantly"
         },
         {
@@ -83,10 +83,10 @@
     ],
     "references": "Infineon Application Note: Reverse Polarity Protection with MOSFETs; discrete semiconductor datasheets.",
     "images": {
-        "real_photo": "",
-        "symbol": "",
+        "real_photo": "assets/components/rev_polarity_protection/real_photo.png",
+        "symbol": "assets/components/rev_polarity_protection/symbol.png",
         "pin_diagram": "",
         "internal_structure": "",
-        "example_circuit": ""
+        "example_circuit": "assets/components/rev_polarity_protection/example_circuit.png"
     }
 }

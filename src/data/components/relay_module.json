@@ -80,10 +80,10 @@
     ],
     "references": "Songle SRD-05VDC-SL-C Relay datasheet; basic home automation wiring safety codes.",
     "images": {
-        "real_photo": "",
-        "symbol": "assets/components/relay/symbol.png",
-        "pin_diagram": "assets/components/relay/pin_diagram.png",
-        "internal_structure": "",
+        "real_photo": "assets/components/relay_module/real_photo.png",
+        "symbol": "assets/components/relay_module/symbol.png",
+        "pin_diagram": "assets/components/relay_module/pin_diagram.png",
+        "internal_structure": "assets/components/relay_module/internal_structure.png",
         "example_circuit": ""
     }
 }
