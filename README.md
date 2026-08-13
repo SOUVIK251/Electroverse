@@ -159,7 +159,7 @@ ElectroVerse features a high-contrast, clean laboratory theme designed for long 
 
 4. **Run ElectroVerse:**
    ```bash
-   .\venv\Scripts\python main.py
+   python main.py
    ```
 
 ---
