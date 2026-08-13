@@ -1635,14 +1635,24 @@ class DSDLabView(QWidget):
                 val_a = pa_pin.logic_state if pa_pin else 0
                 val_b = pb_pin.logic_state if pb_pin else 0
 
-                # Unwired default mode: active gate section uses IN_A and IN_B
-                if len(wires) == 0:
+                # Unwired default mode: active gate section uses IN_A and IN_B (except 74266 XNOR which requires valid wired inputs)
+                if len(wires) == 0 and ic_key != "74266":
                     if g_info["gate_id"] == self.current_gate_idx + 1:
                         val_a = self.inputs_state.get("IN_A", 0)
                         val_b = self.inputs_state.get("IN_B", 0)
 
-                gate_inputs = [val_a, val_b] if pb is not None else [val_a]
-                out_val = DigitalLogicEngine.evaluate_gate(ic_key, gate_inputs)
+                if ic_key == "74266":
+                    # Require both input pins to be connected to nets for valid XNOR evaluation
+                    is_pa_connected = bool(pa_pin and pa_pin.connected_net_id)
+                    is_pb_connected = bool(pb_pin and pb_pin.connected_net_id) if pb is not None else True
+                    if not (is_pa_connected and is_pb_connected):
+                        out_val = 0
+                    else:
+                        out_val = DigitalLogicEngine.evaluate_gate(ic_key, [val_a, val_b])
+                else:
+                    gate_inputs = [val_a, val_b] if pb is not None else [val_a]
+                    out_val = DigitalLogicEngine.evaluate_gate(ic_key, gate_inputs)
+
                 pin_outputs[p_out] = out_val
 
                 p_out_pin = self.net_engine.pins.get(f"IC_PIN_{p_out}")
@@ -1673,7 +1683,7 @@ class DSDLabView(QWidget):
                         new_outputs[term_key] = t_net.voltage
                         log.info(f"[NetlistSolver] Wire Net Connected: {term_key} ({t_net.voltage})")
 
-            if len(wires) == 0:
+            if len(wires) == 0 and ic_key != "74266":
                 # Active Gate Selection Output Mapping in unwired mode:
                 # Gate 1 -> Y0, Gate 2 -> Y1, Gate 3 -> Y2, Gate 4 -> Y3
                 active_g_info = gates[min(self.current_gate_idx, len(gates)-1)]
