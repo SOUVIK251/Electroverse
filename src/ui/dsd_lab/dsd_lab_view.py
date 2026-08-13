@@ -501,7 +501,7 @@ class DigitalLogicEngine:
             outs["OUT_Y0"] = 0 if (a == 1 or b == 1) else 1
         elif exp_id in ["xor_gate", "7486"]:
             outs["OUT_Y0"] = a ^ b
-        elif exp_id in ["xnor_gate", "74266"]:
+        elif exp_id in ["xnor_gate", "74266", "gate_xnor"] or "xnor" in str(exp_id).lower():
             outs["OUT_Y0"] = 0 if (a ^ b) == 1 else 1
         elif exp_id == "half_adder":
             outs["OUT_Y0"] = a ^ b        # Sum S
@@ -546,6 +546,7 @@ class DigitalLogicEngine:
             "xor_gate":  [(0,0,0), (0,1,1), (1,0,1), (1,1,0)],
             "7486":      [(0,0,0), (0,1,1), (1,0,1), (1,1,0)],
             "xnor_gate": [(0,0,1), (0,1,0), (1,0,0), (1,1,1)],
+            "gate_xnor": [(0,0,1), (0,1,0), (1,0,0), (1,1,1)],
             "74266":     [(0,0,1), (0,1,0), (1,0,0), (1,1,1)],
         }
         if exp_id not in tables:
@@ -1312,11 +1313,11 @@ class DSDLabView(QWidget):
         self.canvas_scene.wires.append(w2)
 
         # Determine correct pin wiring based on IC datasheet pinout
-        if self.current_ic_key in ("7402", "74266"):  # Output-first: out=Pin1, in_a=Pin2, in_b=Pin3
+        if self.current_ic_key == "7402":             # Output-first: out=Pin1, in_a=Pin2, in_b=Pin3
             pin_in_a, pin_in_b, pin_out = 2, 3, 1
         elif self.current_ic_key == "7404":            # NOT gate: in_a=Pin1, out=Pin2 (no pin_in_b)
             pin_in_a, pin_in_b, pin_out = 1, None, 2
-        else:                                           # Standard: in_a=Pin1, in_b=Pin2, out=Pin3
+        else:                                           # Standard: in_a=Pin1, in_b=Pin2, out=Pin3 (7408, 7432, 7400, 7486, 74266)
             pin_in_a, pin_in_b, pin_out = 1, 2, 3
 
         # 3. Cyan Wire: Input A to correct input pin
@@ -1346,8 +1347,8 @@ class DSDLabView(QWidget):
         gnd_pin = ic_info.get("gnd_pin", 7)
         pin_map = ECKBLoader.get_pin_map(self.current_ic_key) or {}
         
-        # IC 74266 (XNOR) and IC 7402 (NOR) share the same output-first pinout
-        if self.current_ic_key in ("7402", "74266"):
+        # IC 7402 (NOR) uses output-first pinout; all other quad gates (including 74266 XNOR) use input-first pinout
+        if self.current_ic_key == "7402":
             gate_mappings = [
                 {"in_a": 2, "in_b": 3, "out": 1, "target_y": "Y0"},
                 {"in_a": 5, "in_b": 6, "out": 4, "target_y": "Y1"},
@@ -1586,9 +1587,7 @@ class DSDLabView(QWidget):
         ic_key = self.current_ic_key
 
         # Datasheet Pin Definitions for 14-pin ICs
-        if ic_key in ("7402", "74266"):  # NOR (7402) and XNOR (74266): Output-first pinout
-            # IC 7402 NOR  : 1Y=1,1A=2,1B=3 | 2A=5,2B=6,2Y=4 | 3A=8,3B=9,3Y=10 | 4A=11,4B=12,4Y=13
-            # IC 74266 XNOR: 1Y=1,1A=2,1B=3 | 2A=4,2B=5,2Y=6 | 3Y=8,3A=9,3B=10 | 4A=11,4B=12,4Y=13
+        if ic_key == "7402":  # NOR (7402): Output-first pinout (1Y=1, 1A=2, 1B=3)
             gates = [
                 {"gate_id": 1, "in_a": 2, "in_b": 3, "out": 1, "target_y": "OUT_Y0"},
                 {"gate_id": 2, "in_a": 5, "in_b": 6, "out": 4, "target_y": "OUT_Y1"},
@@ -1602,7 +1601,7 @@ class DSDLabView(QWidget):
                 {"gate_id": 3, "in_a": 5, "in_b": None, "out": 6, "target_y": "OUT_Y2"},
                 {"gate_id": 4, "in_a": 9, "in_b": None, "out": 8, "target_y": "OUT_Y3"}
             ]
-        else:  # Quad 2-Input Gates: Input-first pinout (7408 AND, 7432 OR, 7400 NAND, 7486 XOR)
+        else:  # Quad 2-Input Gates: Input-first pinout (7408 AND, 7432 OR, 7400 NAND, 7486 XOR, 74266 XNOR)
             gates = [
                 {"gate_id": 1, "in_a": 1, "in_b": 2, "out": 3, "target_y": "OUT_Y0"},
                 {"gate_id": 2, "in_a": 4, "in_b": 5, "out": 6, "target_y": "OUT_Y1"},
