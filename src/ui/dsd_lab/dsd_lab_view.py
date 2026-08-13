@@ -1292,7 +1292,13 @@ class DSDLabView(QWidget):
             self.canvas_scene.addItem(num_txt)
 
     def auto_wire_preset(self):
-        """Pre-places wires creating real electrical nets."""
+        """Pre-places wires creating real electrical nets.
+        
+        IC pin layout awareness:
+        - Standard (7408/7432/7400/7486): in_a=Pin1, in_b=Pin2, out=Pin3
+        - Output-first (7402 NOR / 74266 XNOR): out=Pin1, in_a=Pin2, in_b=Pin3
+        - Inverter (7404): in_a=Pin1, out=Pin2
+        """
         self.canvas_scene.wires.clear()
         
         # 1. Red Wire: +5V to Pin 14
@@ -1305,18 +1311,30 @@ class DSDLabView(QWidget):
         self.canvas_scene.addItem(w2)
         self.canvas_scene.wires.append(w2)
 
-        # 3. Cyan Wire: Input A to Pin 1
-        w3 = WireLineItem(75, 18, 185, 164, "#06b6d4", start_hole="IN_A", end_hole="IC_PIN_1")
+        # Determine correct pin wiring based on IC datasheet pinout
+        if self.current_ic_key in ("7402", "74266"):  # Output-first: out=Pin1, in_a=Pin2, in_b=Pin3
+            pin_in_a, pin_in_b, pin_out = 2, 3, 1
+        elif self.current_ic_key == "7404":            # NOT gate: in_a=Pin1, out=Pin2 (no pin_in_b)
+            pin_in_a, pin_in_b, pin_out = 1, None, 2
+        else:                                           # Standard: in_a=Pin1, in_b=Pin2, out=Pin3
+            pin_in_a, pin_in_b, pin_out = 1, 2, 3
+
+        # 3. Cyan Wire: Input A to correct input pin
+        in_a_x = 185 + (pin_in_a - 1) * 16
+        w3 = WireLineItem(75, 18, in_a_x, 164, "#06b6d4", start_hole="IN_A", end_hole=f"IC_PIN_{pin_in_a}")
         self.canvas_scene.addItem(w3)
         self.canvas_scene.wires.append(w3)
 
-        # 4. Cyan Wire: Input B to Pin 2
-        w4 = WireLineItem(97, 18, 201, 164, "#06b6d4", start_hole="IN_B", end_hole="IC_PIN_2")
-        self.canvas_scene.addItem(w4)
-        self.canvas_scene.wires.append(w4)
+        # 4. Cyan Wire: Input B to correct input pin (skip for NOT gate)
+        if pin_in_b is not None:
+            in_b_x = 185 + (pin_in_b - 1) * 16
+            w4 = WireLineItem(97, 18, in_b_x, 164, "#06b6d4", start_hole="IN_B", end_hole=f"IC_PIN_{pin_in_b}")
+            self.canvas_scene.addItem(w4)
+            self.canvas_scene.wires.append(w4)
 
-        # 5. Green Wire: Pin 3 to Output Y0
-        w5 = WireLineItem(217, 164, 380, 18, "#10b981", start_hole="IC_PIN_3", end_hole="OUT_Y0")
+        # 5. Green Wire: correct output pin to Output Y0
+        out_x = 185 + (pin_out - 1) * 16
+        w5 = WireLineItem(out_x, 164, 380, 18, "#10b981", start_hole=f"IC_PIN_{pin_out}", end_hole="OUT_Y0")
         self.canvas_scene.addItem(w5)
         self.canvas_scene.wires.append(w5)
 
@@ -1328,12 +1346,21 @@ class DSDLabView(QWidget):
         gnd_pin = ic_info.get("gnd_pin", 7)
         pin_map = ECKBLoader.get_pin_map(self.current_ic_key) or {}
         
-        gate_mappings = [
-            {"in_a": 1, "in_b": 2, "out": 3, "target_y": "Y0"},
-            {"in_a": 4, "in_b": 5, "out": 6, "target_y": "Y1"},
-            {"in_a": 9, "in_b": 10, "out": 8, "target_y": "Y2"},
-            {"in_a": 12, "in_b": 13, "out": 11, "target_y": "Y3"}
-        ]
+        # IC 74266 (XNOR) and IC 7402 (NOR) share the same output-first pinout
+        if self.current_ic_key in ("7402", "74266"):
+            gate_mappings = [
+                {"in_a": 2, "in_b": 3, "out": 1, "target_y": "Y0"},
+                {"in_a": 5, "in_b": 6, "out": 4, "target_y": "Y1"},
+                {"in_a": 8, "in_b": 9, "out": 10, "target_y": "Y2"},
+                {"in_a": 11, "in_b": 12, "out": 13, "target_y": "Y3"}
+            ]
+        else:
+            gate_mappings = [
+                {"in_a": 1, "in_b": 2, "out": 3, "target_y": "Y0"},
+                {"in_a": 4, "in_b": 5, "out": 6, "target_y": "Y1"},
+                {"in_a": 9, "in_b": 10, "out": 8, "target_y": "Y2"},
+                {"in_a": 12, "in_b": 13, "out": 11, "target_y": "Y3"}
+            ]
         active_gate = gate_mappings[min(self.current_gate_idx, len(gate_mappings)-1)]
         
         pin_a_label = pin_map.get(str(active_gate["in_a"]), f"Pin {active_gate['in_a']}")
@@ -1559,7 +1586,9 @@ class DSDLabView(QWidget):
         ic_key = self.current_ic_key
 
         # Datasheet Pin Definitions for 14-pin ICs
-        if ic_key == "7402":  # NOR gate IC layout
+        if ic_key in ("7402", "74266"):  # NOR (7402) and XNOR (74266): Output-first pinout
+            # IC 7402 NOR  : 1Y=1,1A=2,1B=3 | 2A=5,2B=6,2Y=4 | 3A=8,3B=9,3Y=10 | 4A=11,4B=12,4Y=13
+            # IC 74266 XNOR: 1Y=1,1A=2,1B=3 | 2A=4,2B=5,2Y=6 | 3Y=8,3A=9,3B=10 | 4A=11,4B=12,4Y=13
             gates = [
                 {"gate_id": 1, "in_a": 2, "in_b": 3, "out": 1, "target_y": "OUT_Y0"},
                 {"gate_id": 2, "in_a": 5, "in_b": 6, "out": 4, "target_y": "OUT_Y1"},
@@ -1573,7 +1602,7 @@ class DSDLabView(QWidget):
                 {"gate_id": 3, "in_a": 5, "in_b": None, "out": 6, "target_y": "OUT_Y2"},
                 {"gate_id": 4, "in_a": 9, "in_b": None, "out": 8, "target_y": "OUT_Y3"}
             ]
-        else:  # Quad 2-Input Gates (7408 AND, 7432 OR, 7400 NAND, 7486 XOR, 74266 XNOR)
+        else:  # Quad 2-Input Gates: Input-first pinout (7408 AND, 7432 OR, 7400 NAND, 7486 XOR)
             gates = [
                 {"gate_id": 1, "in_a": 1, "in_b": 2, "out": 3, "target_y": "OUT_Y0"},
                 {"gate_id": 2, "in_a": 4, "in_b": 5, "out": 6, "target_y": "OUT_Y1"},
