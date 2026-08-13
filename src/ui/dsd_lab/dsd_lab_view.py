@@ -1653,20 +1653,16 @@ class DSDLabView(QWidget):
                 for k, v in outs.items():
                     new_outputs[k] = v
         else:
-            has_output_wires = False
             for term_key in self.OUTPUT_TERMINAL_KEYS:
                 term_pin = self.net_engine.pins.get(term_key)
                 if term_pin and term_pin.connected_net_id:
                     t_net = next((n for n in self.net_engine.nets if n.net_id == term_pin.connected_net_id), None)
                     if t_net:
-                        ic_out_pin = next((p for p in t_net.pins if p.pin_id.startswith("IC_PIN_")), None)
-                        if ic_out_pin:
-                            has_output_wires = True
-                            new_outputs[term_key] = t_net.voltage
-                            log.info(f"[NetlistSolver] Wire Net Connected: {ic_out_pin.pin_id} ({t_net.voltage}) -> {term_key}")
+                        new_outputs[term_key] = t_net.voltage
+                        log.info(f"[NetlistSolver] Wire Net Connected: {term_key} ({t_net.voltage})")
 
-            if not has_output_wires:
-                # Active Gate Selection Output Mapping:
+            if len(wires) == 0:
+                # Active Gate Selection Output Mapping in unwired mode:
                 # Gate 1 -> Y0, Gate 2 -> Y1, Gate 3 -> Y2, Gate 4 -> Y3
                 active_g_info = gates[min(self.current_gate_idx, len(gates)-1)]
                 active_out_pin = active_g_info["out"]
