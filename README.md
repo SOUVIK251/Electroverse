@@ -9,7 +9,7 @@
 > **Created & Lead Developed by [Souvik Kundu](https://github.com/SOUVIK251)**  
 > *Designed to make offline electronics engineering education intuitive, visual, interactive, and accessible.*
 
-**ElectroVerse** is a modern, laboratory-grade interactive desktop application designed for students, educators, and electrical engineers. Inspired by professional software suites like **NI Multisim**, **Keysight BenchVue**, and **MATLAB App Designer**, it combines digital logic design, 2D solderless breadboard simulation, 2,200+ viva voce prep questions, ECE/CSE textbook lessons, real-time circuit transient solvers, and a dual-channel Digital Storage Oscilloscope (DSO) into a unified offline desktop suite.
+**ElectroVerse** is a modern, laboratory-grade interactive desktop application designed for students, educators, and electrical engineers. Inspired by professional software suites like **NI Multisim**, **Keysight BenchVue**, and **MATLAB App Designer**, it combines digital logic design, 2D solderless breadboard simulation, 2,200+ viva voce prep questions, ECE/CSE textbook lessons, real-time circuit transient solvers, and interactive waveform visualizers into a unified offline desktop suite.
 
 ---
 
@@ -19,7 +19,7 @@
 A master learning and simulation platform for Analog Electronics aligned with ElectroVerse's standardized 5-tab hub architecture:
 - **📖 Learn (Interactive Textbook)**: Course Roadmap progress header, 25% Sidebar | 75% Reader, Step-by-Step Interactive Derivations (`Step 1` ➔ `Next` ➔ `Final Equation`), LaTeX math derivations, memory tricks, professor notes, career applications (*Preamplifiers, SMPS, ECG Medical Monitors, Sensor Interfaces*), and conditional simulation launch buttons.
 - **🧠 Problem Solving Lab**: Decision Tree recognition guides, step-by-step numerical solvers (Clippers, Clampers, Multivibrators), and an **offline rule-based hint engine**.
-- **🧪 Interactive Simulation (Topic-Specific Visualizations — DSO Removed)**: Clean, experiment-tailored Matplotlib visualizers without bulky DSO panels:
+- **🧪 Interactive Simulation (Topic-Specific Waveform & Circuit Visualizations)**: Clean, experiment-tailored Matplotlib visualizers:
   - *Clippers*: Input vs Output waveform comparison + Clipping threshold line ($V_{\text{clip}}$).
   - *Clampers*: Input vs Output waveform + DC Shift level ($V_{dc}$).
   - *Rectifiers*: Rectified output waveform + Ripple curve + DC output level graph.
@@ -33,7 +33,7 @@ A master learning and simulation platform for Analog Electronics aligned with El
 ### 2. ⚡ Digital System Design Hub
 A comprehensive digital electronics hub structured for maximum learning retention:
 - **📖 Learn (Textbook Reader)**: 25% / 75% screen split layout. Features a sticky header bar, sequential 16-topic learning path, 320×220px diagram gallery with Zoom/Pan modal inspection, centered 22px Boolean equation banners, full-width truth tables, and **"🧠 Easy Memory Trick (How to Remember Instantly)"** cards.
-- **🧪 Practice (Breadboard Trainer Kit)**: A full-screen 2D virtual solderless breadboard trainer (`DSDLabView`) supporting fundamental 74-Series TTL ICs (`7400, 7402, 7404, 7408, 7411, 7432, 7486, 74266`), DIP switches, LEDs, and logic timing graphs.
+- **🧪 Practice (Breadboard Trainer Kit)**: A full-screen 2D virtual solderless breadboard trainer (`DSDLabView`) supporting fundamental 74-Series TTL ICs (`7400, 7402, 7404, 7408, 7411, 7432, 7486, 74266`), DIP switches, LEDs, wire-driven netlist logic propagation, and real-time output terminal inspection.
 - **📝 Test (Assessment Suite)**: MCQ Quiz Bank, Viva Voce flashcards, technical interview prep, and printable Certificate of Mastery generator.
 - **📚 Reference (IC & Formula Matrix)**: 74-Series TTL IC pinout matrix, DeMorgan's rule (*"Break the bar, change the sign!"*), and formula memorization shortcuts.
 
@@ -75,7 +75,7 @@ A professional university-grade Computer-Based Test (CBT) examination platform p
 
 ---
 
-### 5. 🎓 Grand Viva & Core Technical Interview Prep
+### 6. 🎓 Grand Viva & Core Technical Interview Prep
 An extensive oral board examination simulator:
 - **2,200+ Conceptual Questions**: Spanning 22 core ECE/CSE engineering subjects (Digital Electronics, Basic Electronics, Analog Circuits, Signals & Systems, Network Theory, Control Systems, Microprocessors, VLSI, DSP, IoT, Operating Systems, etc.).
 - **Governing Equations & Variables**: Every question renders LaTeX math equations with exact variable definitions.
@@ -83,12 +83,12 @@ An extensive oral board examination simulator:
 
 ---
 
-### 6. 🏠 Engineering Control Center (Dashboard)
+### 7. 🏠 Engineering Control Center (Dashboard)
 Features workspace launch shortcuts, system status metrics, daily engineering challenges, recommended topics, scientific vector scope animations, and recent activity logs.
 
 ---
 
-### 7. 📚 Component Library
+### 8. 📚 Component Library
 An interactive electronic component database with deep physical insights, schematic symbols, pinout diagrams, real photos, formulas, SI units, and cross-module links.
 
 ---
@@ -104,7 +104,7 @@ ElectroVerse features a high-contrast, clean laboratory theme designed for long 
 - **Primary Accent (`#06B6D4`)**: Active tabs, links, focus borders, active icons.
 - **Secondary Accent (`#2563EB`)**: Primary action buttons (Hover `#3B82F6`, Pressed `#1D4ED8`).
 - **Status Indicators**: Success `#22C55E` | Warning `#F59E0B` | Error `#EF4444` | Info `#38BDF8`.
-- **Oscilloscope Waveforms**: CH1 `#FFD60A`, CH2 `#FF4FA3`, Math `#00E5FF`, Trigger `#FF3B30`, Measurements `#06B6D4`.
+- **Signal & Circuit Waveforms**: Primary `#06B6D4` | Secondary `#38BDF8` | Highlight `#22C55E` | Warning `#F59E0B`.
 
 ---
 
