@@ -9,7 +9,7 @@
 > **Created & Lead Developed by [Souvik Kundu](https://github.com/SOUVIK251)**  
 > *Designed to make offline electronics engineering education intuitive, visual, interactive, and accessible.*
 
-**ElectroVerse** is a modern, laboratory-grade interactive desktop application designed for students, educators, and electrical engineers. Inspired by professional software suites like **NI Multisim**, **Keysight BenchVue**, and **MATLAB App Designer**, it combines digital logic design, 2D solderless breadboard simulation, 2,200+ viva voce prep questions, ECE/CSE textbook lessons, real-time circuit transient solvers, and interactive waveform visualizers into a unified offline desktop suite.
+**ElectroVerse** is a modern, laboratory-grade interactive desktop application designed for students, educators, and electrical engineers. Inspired by professional software suites like **NI Multisim**, **Keysight BenchVue**, and **MATLAB App Designer**, it combines digital logic design, 2D solderless breadboard simulation, virtual 8085 microprocessor assembly IDE, 2,200+ viva voce prep questions, ECE/CSE textbook lessons, real-time circuit transient solvers, and interactive waveform visualizers into a unified offline desktop suite.
 
 ---
 
@@ -39,7 +39,20 @@ A comprehensive digital electronics hub structured for maximum learning retentio
 
 ---
 
-### 3. 📈 Signal & System Hub
+### 3. 💻 Microprocessor & Microcontroller (MPMC) Hub
+A premier learning, simulation, and software development platform for microprocessors and microcontrollers:
+- **📖 Learn (Interactive Textbook)**: 25% Sidebar | 75% Reader layout covering Intel 8085, 8086, 8051 Microcontrollers, ARM Architecture, and Programmable Peripherals (8255 PPI, 8253/8254 PIT, 8259 PIC, 8237 DMA Controller). Features pinout diagrams, worked assembly examples, LaTeX derivations, and **"🧠 Memory Trick"** cards.
+- **🧪 Interactive 8085 Microprocessor IDE & Keypad Trainer**: Full Virtual Intel 8085A CPU simulator featuring:
+  - Real-time CPU Register Display (`A, B, C, D, E, H, L, PC, SP`).
+  - Status Flag Indicators (`S, Z, AC, P, CY`).
+  - Interactive Keypad & Assembly Code Editor with Step-by-Step execution, Run, Pause, Reset, 64KB Hex Memory Inspector (`0000H - FFFFH`), Opcode decoder, and pre-built experiment programs (*Arithmetic, Logical, Data Transfer, Bit Manipulation, BCD Operations, Array & String Operations*).
+- **🧠 Problem Solving Lab**: Step-by-step interactive numerical solvers for Address Decoding ($A_0 - A_{15}$ line mapping, chip select logic), Memory Mapping (ROM/RAM allocation), Interrupt Vector Address Calculation, Timer/Counter values, and UART Baud Rate generators with an **offline rule-based hint engine**.
+- **📝 Assessment (MPMC CBT Exam Suite)**: Multiple CBT exam sets, Viva Voce flashcards, technical interview Q&A, and printable Certificate of Mastery generator.
+- **📚 Reference (MPMC IC & Instruction Matrix)**: Complete 8085, 8086, and 8051 Instruction Set matrix, Opcode/Byte/Cycle lookup tables, Pinout diagrams (8085, 8086, 8051, 8255), and interactive calculation tools.
+
+---
+
+### 4. 📈 Signal & System Hub
 A world-class interactive learning and analysis platform for Signals & Systems:
 - **📖 Learn (Interactive Textbook)**: 25% / 75% screen split layout covering 10 Modules and 40+ Topics (Signal Classification, Operations, Linear Systems, Convolution, Fourier Series, Fourier Transform, Laplace Transform, Z-Transform, Nyquist Sampling, and Applications). Renders LaTeX math equations, worked numerical examples, professor notes, and **"🧠 Memory Trick"** cards.
 - **🧪 Interactive Simulation**: Real-time Matplotlib interactive engine supporting Signal Generators (Step, Ramp, Sine, Square, Triangular), Signal Operations Transformer (Shift, Scale, Fold), Convolution Animator, Fourier Series Harmonics Synthesizer, Laplace & Z-Transform Pole-Zero & ROC Plotter, and Nyquist Sampling & Aliasing Demonstration.
@@ -48,7 +61,7 @@ A world-class interactive learning and analysis platform for Signals & Systems:
 
 ---
 
-### 4. ⚡ Network Theory Hub (Virtual Engineering Laboratory Suite)
+### 5. ⚡ Network Theory Hub (Virtual Engineering Laboratory Suite)
 A world-class interactive learning, simulation, and problem-solving platform for Electrical Network Theory:
 - **🏠 Learning Dashboard (Home Page)**: Metric cards (Modules Completed, Overall Progress %, Simulations Finished, CBT Average, Certificates Earned), Continue Learning quick jump cards, and recent activity logs.
 - **📖 Learn (Interactive Textbook)**: Course Roadmap progress header, 25% Sidebar | 75% Reader, Step-by-Step Interactive Derivation revealer (`Step 1` ➔ `Next` ➔ `Final Equation`), LaTeX math derivations, memory tricks, professor notes, career applications (*Power Systems, Robotics, VLSI, Biomedical*), and related topic cross-links.
@@ -60,9 +73,9 @@ A world-class interactive learning, simulation, and problem-solving platform for
 
 ---
 
-### 5. 📝 Enterprise Computer-Based Testing (CBT) Examination System
+### 6. 📝 Enterprise Computer-Based Testing (CBT) Examination System
 A professional university-grade Computer-Based Test (CBT) examination platform powered by a **3,600-question database across 120 exam sets**:
-- **Cross-Hub Standard**: Operates identically across Digital System Design Hub, Signal & System Hub, Analog Electronics Hub, and Network Theory Hub.
+- **Cross-Hub Standard**: Operates identically across Digital System Design Hub, Microprocessor & Microcontroller Hub, Signal & System Hub, Analog Electronics Hub, and Network Theory Hub.
 - **Adaptive Difficulty & 5 Exam Modes**: Easy Mode, Medium Mode, Hard Mode, Mixed Mode, and **Adaptive Mode** (dynamically shifts numeric difficulty 0–100 based on live correctness streaks).
 - **Question Navigator Grid (1–30)**: Color-coded state indicators (Gray=Not Visited, Blue=Visited, Green=Answered, Yellow=Marked for Review).
 - **Bloom's Taxonomy Levels**: Categorized across 6 cognitive levels (*Remember, Understand, Apply, Analyze, Evaluate, Create*).
@@ -75,20 +88,20 @@ A professional university-grade Computer-Based Test (CBT) examination platform p
 
 ---
 
-### 6. 🎓 Grand Viva & Core Technical Interview Prep
+### 7. 🎓 Grand Viva & Core Technical Interview Prep
 An extensive oral board examination simulator:
-- **2,200+ Conceptual Questions**: Spanning 22 core ECE/CSE engineering subjects (Digital Electronics, Basic Electronics, Analog Circuits, Signals & Systems, Network Theory, Control Systems, Microprocessors, VLSI, DSP, IoT, Operating Systems, etc.).
+- **2,200+ Conceptual Questions**: Spanning 22 core ECE/CSE engineering subjects (Digital Electronics, Microprocessors, Microcontrollers, Basic Electronics, Analog Circuits, Signals & Systems, Network Theory, Control Systems, VLSI, DSP, IoT, Operating Systems, etc.).
 - **Governing Equations & Variables**: Every question renders LaTeX math equations with exact variable definitions.
 - **🧠 Instant Memorization Trick**: A dedicated gold-bordered card on every question explaining how to recognize, understand, and remember the concept instantly during interviews.
 
 ---
 
-### 7. 🏠 Engineering Control Center (Dashboard)
+### 8. 🏠 Engineering Control Center (Dashboard)
 Features workspace launch shortcuts, system status metrics, daily engineering challenges, recommended topics, scientific vector scope animations, and recent activity logs.
 
 ---
 
-### 8. 📚 Component Library
+### 9. 📚 Component Library
 An interactive electronic component database with deep physical insights, schematic symbols, pinout diagrams, real photos, formulas, SI units, and cross-module links.
 
 ---
