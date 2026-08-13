@@ -426,12 +426,24 @@ class TinkercadCanvasScene(QGraphicsScene):
             items_at_pos = self.items(event.scenePos())
             for item in items_at_pos:
                 if isinstance(item, BreadboardHoleItem) and item.center_x != self.wire_start_pt.x():
+                    start_h = self.wire_start_item.hole_id if self.wire_start_item else ""
+                    end_h = item.hole_id
+                    
+                    if (start_h.startswith("OUT_Y") or end_h.startswith("OUT_Y")):
+                        # Remove existing output wires targeting output terminals to prevent multiple outputs lit simultaneously
+                        to_remove = [
+                            w for w in list(self.wires)
+                            if w.start_hole.startswith("OUT_Y") or w.end_hole.startswith("OUT_Y")
+                        ]
+                        for w in to_remove:
+                            self.remove_wire(w)
+
                     final_wire = WireLineItem(
                         self.wire_start_pt.x(), self.wire_start_pt.y(),
                         item.center_x, item.center_y,
                         self.current_wire_color,
-                        start_hole=self.wire_start_item.hole_id if self.wire_start_item else "",
-                        end_hole=item.hole_id
+                        start_hole=start_h,
+                        end_hole=end_h
                     )
                     self.addItem(final_wire)
                     self.wires.append(final_wire)
