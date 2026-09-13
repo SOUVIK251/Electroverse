@@ -80,3 +80,9 @@ class AISmartButtonsWidget(QFrame):
     def trigger_action(self, action_label: str, mode: str):
         if self.on_action_cb:
             self.on_action_cb(action_label, mode, self.context_data)
+        else:
+            top = self.window()
+            if top and hasattr(top, 'ai_tutor_drawer') and top.ai_tutor_drawer:
+                if not top.ai_tutor_drawer.isVisible():
+                    top.ai_tutor_drawer.show()
+                top.ai_tutor_drawer.send_prompt(f"{action_label} for the current topic.", extra_context=self.context_data)

@@ -12,7 +12,10 @@ class ConfigManager:
         "animations_enabled": True,
         "recent_experiments": [],
         "show_formulas": True,
-        "graph_line_width": 2
+        "graph_line_width": 2,
+        "ai_api_key": "",
+        "ai_provider": "auto",
+        "ai_enabled": True
     }
 
     def __init__(self):

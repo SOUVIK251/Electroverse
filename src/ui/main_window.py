@@ -28,6 +28,7 @@ from src.ui.mpmc_hub import MPMCHubView
 from src.ui.grand_viva import GrandVivaView
 from src.ui.settings import SettingsView
 from src.core.navigation import ViewID, HubTabID
+from src.ai import AITutorPanel, context_manager
 
 class MainWindow(QMainWindow):
     """Master application shell for ElectroVerse Platform."""
@@ -205,6 +206,28 @@ class MainWindow(QMainWindow):
 
         header_layout.addStretch()
 
+        # AI Tutor Toggle Button
+        self.ai_tutor_btn = QPushButton(" 🤖 ElectroVerse AI Tutor ")
+        self.ai_tutor_btn.setCursor(Qt.CursorShape.PointingHandCursor)
+        self.ai_tutor_btn.setToolTip("Open ElectroVerse AI Tutor (Ctrl+Shift+A)")
+        self.ai_tutor_btn.setStyleSheet("""
+            QPushButton {
+                background-color: #0b1329;
+                color: #06b6d4;
+                font-weight: bold;
+                font-size: 9pt;
+                border: 1px solid #0284c7;
+                border-radius: 6px;
+                padding: 6px 12px;
+            }
+            QPushButton:hover {
+                background-color: #0284c7;
+                color: #ffffff;
+            }
+        """)
+        self.ai_tutor_btn.clicked.connect(self.toggle_ai_tutor)
+        header_layout.addWidget(self.ai_tutor_btn)
+
         # Active state indicator
         self.status_indicator = QLabel("System Status: Offline Engine Ready")
         self.status_indicator.setStyleSheet("color: #22C55E; font-size: 9.5pt; font-weight: 500;")
@@ -234,6 +257,11 @@ class MainWindow(QMainWindow):
         content_layout.addWidget(self.view_stack)
         self.main_layout.addWidget(self.content_container)
 
+        # AI Tutor Side Drawer Panel
+        self.ai_tutor_drawer = AITutorPanel(self)
+        self.ai_tutor_drawer.hide()
+        self.main_layout.addWidget(self.ai_tutor_drawer)
+
     def setup_statusbar(self):
         """Creates the bottom status bar."""
         self.status_bar = QStatusBar()
@@ -249,10 +277,20 @@ class MainWindow(QMainWindow):
         QShortcut(QKeySequence("Ctrl+N"), self, lambda: self.switch_view(5))
         QShortcut(QKeySequence("Ctrl+L"), self, lambda: self.switch_view(1))
         QShortcut(QKeySequence("Ctrl+A"), self, self.show_about_dialog)
+        QShortcut(QKeySequence("Ctrl+Shift+A"), self, self.toggle_ai_tutor)
 
     def toggle_sidebar(self):
         is_visible = self.sidebar.isVisible()
         self.sidebar.setVisible(not is_visible)
+
+    def toggle_ai_tutor(self):
+        """Toggles the ElectroVerse AI Tutor side drawer."""
+        if hasattr(self, 'ai_tutor_drawer') and self.ai_tutor_drawer:
+            if self.ai_tutor_drawer.isVisible():
+                self.ai_tutor_drawer.hide()
+            else:
+                self.ai_tutor_drawer.refresh_context_pill()
+                self.ai_tutor_drawer.show()
 
     def apply_global_settings(self):
         pass
@@ -337,9 +375,10 @@ class MainWindow(QMainWindow):
             btn.style().unpolish(btn)
             btn.style().polish(btn)
 
-        # Context awareness update for AI Drawer
-        if hasattr(self, 'ai_drawer') and self.ai_drawer:
-            self.ai_drawer.set_context({"hub_name": title})
+        # Context awareness update for AI Tutor Drawer
+        context_manager.set_active_hub(title)
+        if hasattr(self, 'ai_tutor_drawer') and self.ai_tutor_drawer:
+            self.ai_tutor_drawer.refresh_context_pill()
 
         if config_manager.get("animations_enabled") and self.view_stack.currentWidget():
             self.opacity_effect = QGraphicsOpacityEffect(self.view_stack)
