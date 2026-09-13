@@ -69,11 +69,13 @@ class KnowledgeBase:
         results = []
         for topic_id, data in self._theory_cache.items():
             score = 0
+            notes_list = data.get("quick_notes", [])
+            notes_str = " ".join([n if isinstance(n, str) else str(n) for n in notes_list]) if isinstance(notes_list, list) else str(notes_list)
             text_block = (
                 data.get("title", "") + " " +
                 data.get("summary", "") + " " +
                 data.get("working_principle", "") + " " +
-                " ".join(data.get("quick_notes", [])) + " " +
+                notes_str + " " +
                 data.get("boolean_equation", "")
             ).lower()
 

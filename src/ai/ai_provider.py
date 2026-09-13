@@ -102,7 +102,13 @@ class LocalKnowledgeProvider(BaseAIProvider):
             c_name = comp.get("name", "Component")
             c_desc = comp.get("description", "")
             c_specs = comp.get("specifications", {})
-            specs_str = "\n".join([f"- **{k}**: {v}" for k, v in c_specs.items()])
+            if isinstance(c_specs, dict):
+                specs_str = "\n".join([f"- **{k}**: {v}" for k, v in c_specs.items()])
+            elif isinstance(c_specs, list):
+                specs_str = "\n".join([f"- {item}" for item in c_specs])
+            else:
+                specs_str = str(c_specs)
+
             return (
                 f"### 🔬 Component Specification: **{c_name}**\n\n"
                 f"**Overview**: {c_desc}\n\n"
