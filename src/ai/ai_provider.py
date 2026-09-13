@@ -115,16 +115,21 @@ class LocalKnowledgeProvider(BaseAIProvider):
 
 
 class GeminiAIProvider(BaseAIProvider):
-    """Google Gemini REST API Provider with Asynchronous HTTP Client."""
+    """Google Gemini Online REST API Provider with Multi-Model Resolution & Asynchronous Fail-Safe."""
+
+    AVAILABLE_MODELS = [
+        "gemini-1.5-flash",
+        "gemini-1.5-pro",
+        "gemini-2.0-flash",
+        "gemini-pro"
+    ]
 
     def __init__(self, api_key: str):
         self.api_key = api_key
         self.local_provider = LocalKnowledgeProvider()
-        # Primary & Fallback Gemini endpoint URLs
-        self.endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={self.api_key}"
 
     def generate_response(self, query: str, context: Dict[str, Any], system_prompt: str) -> str:
-        # First check if local provider has exact 8085 instruction or IC match
+        # First check if local provider has exact 8085 instruction or IC match for instant response
         local_fast = self.local_provider.generate_response(query, context, system_prompt)
         if local_fast != safety_manager.format_hallucination_fallback() and len(query.strip()) < 15:
             return local_fast
@@ -153,33 +158,34 @@ class GeminiAIProvider(BaseAIProvider):
                 "maxOutputTokens": 1024
             }
         }
+        req_data = json.dumps(payload).encode("utf-8")
 
-        try:
-            req_data = json.dumps(payload).encode("utf-8")
-            req = urllib.request.Request(
-                self.endpoint,
-                data=req_data,
-                headers={"Content-Type": "application/json"},
-                method="POST"
-            )
+        # Try model endpoints sequentially
+        for model in self.AVAILABLE_MODELS:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={self.api_key}"
+            try:
+                req = urllib.request.Request(
+                    url,
+                    data=req_data,
+                    headers={"Content-Type": "application/json"},
+                    method="POST"
+                )
+                with urllib.request.urlopen(req, timeout=8) as response:
+                    if response.status == 200:
+                        resp_body = json.loads(response.read().decode("utf-8"))
+                        candidates = resp_body.get("candidates", [])
+                        if candidates:
+                            parts = candidates[0].get("content", {}).get("parts", [])
+                            if parts:
+                                text = parts[0].get("text", "").strip()
+                                if text:
+                                    log.info(f"[GeminiAIProvider] Successfully generated online response using model '{model}'.")
+                                    return text
+            except Exception as e:
+                log.debug(f"[GeminiAIProvider] Model '{model}' endpoint failed ({e}). Trying next model...")
 
-            # Send HTTP request with 10-second timeout
-            with urllib.request.urlopen(req, timeout=10) as response:
-                if response.status == 200:
-                    resp_body = json.loads(response.read().decode("utf-8"))
-                    candidates = resp_body.get("candidates", [])
-                    if candidates:
-                        parts = candidates[0].get("content", {}).get("parts", [])
-                        if parts:
-                            return parts[0].get("text", "").strip()
-
-            log.warning("[GeminiAIProvider] Empty response payload from Gemini API. Falling back to local KB.")
-            return self.local_provider.generate_response(query, context, system_prompt)
-
-        except (urllib.error.URLError, urllib.error.HTTPError, socket.timeout, Exception) as e:
-            log.warning(f"[GeminiAIProvider] Network/API Error ({e}). Falling back to Local Knowledge Base.")
-            # Fail-safe: Fallback to local verified knowledge base
-            return self.local_provider.generate_response(query, context, system_prompt)
+        log.warning("[GeminiAIProvider] Online API unavailable or key unverified. Falling back to Local Knowledge Base.")
+        return self.local_provider.generate_response(query, context, system_prompt)
 
 
 class ProviderFactory:
